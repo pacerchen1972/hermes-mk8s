@@ -559,11 +559,12 @@ function filterSearch(query) {
     hint.style.background = '#1a2d1a'; hint.style.color = '#38c77e';
     hint.textContent = `${matches.length} resultado${matches.length > 1 ? 's' : ''}`;
   }
-  document.getElementById('graph-container').appendChild(hint);
   if (matches.length === 1) {
-    showDetail(matches[0]);
+    showDetail(matches[0]);   // showDetail removes search-hint internally
     panToNode(matches[0]);
   }
+  // Append hint last so showDetail's removal doesn't swallow it
+  document.getElementById('graph-container').appendChild(hint);
 }
 
 function applyFilters() {
