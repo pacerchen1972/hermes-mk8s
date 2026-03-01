@@ -1,0 +1,58 @@
+{
+  "titulo_es": "Nota informativa ARAP sobre lista de oficiales con implicación política en cuarteles y encuestas del CIS sobre el juicio",
+  "titulo_en": "ARAP intelligence note on list of politically implicated officers in barracks and CIS surveys on the trial",
+  "fecha_documento": "1982-03-08",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa ARAP del 8 de marzo de 1982. Alerta de que circula por los cuarteles una lista de oficiales con implicación política, de la que se han hecho eco algunos medios. Sugiere que el mando tome cartas en el asunto, pues su silencio puede ser interpretado negativamente por los incluidos en la lista. También informa de la posible realización de encuestas sobre la vista de la Causa 2/81 en el Centro de Investigaciones Sociológicas (CIS), y solicita confirmar esta información y obtener los resultados, indicando el nombre del sociólogo López Pintor y su teléfono.",
+  "resumen_en": "ARAP intelligence note of 8 March 1982. Alerts that a list of politically implicated officers is circulating in barracks, covered by some media. Suggests command take action, as silence may be interpreted negatively by those on the list. Also reports possible surveys on the Causa 2/81 hearing being conducted at the Centre for Sociological Research (CIS), and requests confirmation and results, naming sociologist López Pintor with his phone number.",
+  "personas": [
+    {
+      "nombre": "López Pintor",
+      "cargo": "Sociólogo, Centro de Investigaciones Sociológicas (CIS)",
+      "organizacion": "Centro de Investigaciones Sociológicas (CIS)",
+      "rol_en_23f": "neutral",
+      "acciones": ["Identificado por CESID como posible responsable de encuestas sobre la Causa 2/81"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Centro de Investigaciones Sociológicas (CIS)", "tipo": "gubernamental" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-03-08",
+      "descripcion_es": "CESID alerta de una lista de oficiales con implicación política circulando en cuarteles, y del posible espionaje de opinión pública sobre el juicio 23-F",
+      "descripcion_en": "CESID alerts of a list of politically implicated officers circulating in barracks, and possible public opinion polling on the 23-F trial",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota ARAP-CESID",
+      "texto": "Sería conveniente CONFIRMAR esta referencia y a ser posible recibir los resultados. El requerimiento deberá hacerse al sociólogo LOPEZ PINTOR. Teléfono 456.12.61.",
+      "traduccion_en": "It would be advisable to CONFIRM this reference and if possible receive the results. The request should be made to sociologist LOPEZ PINTOR. Telephone 456.12.61.",
+      "importancia": "El CESID realizaba actividades de contrainteligencia sobre instituciones civiles como el CIS, monitorizando encuestas de opinión sobre el juicio"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "Centro de Investigaciones Sociológicas (CIS)",
+      "tipo": "informó",
+      "descripcion": "CESID identificó al CIS como objetivo de contrainteligencia para obtener datos de opinión pública sobre el juicio",
+      "fecha": "1982-03-08"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "listas-oficiales", "opinion-publica", "cis"],
+  "_meta": {
+    "doc_id": "CNI_Documento_13_R",
+    "filename": "Documento_13_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

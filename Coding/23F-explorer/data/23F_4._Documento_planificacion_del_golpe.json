@@ -1,0 +1,176 @@
+{
+  "titulo_es": "Documento de planificación del golpe — análisis de operaciones en marcha (noviembre 1980)",
+  "titulo_en": "Coup planning document — analysis of ongoing operations (November 1980)",
+  "fecha_documento": "1980-11-01",
+  "periodo": "pre-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Interior",
+  "resumen_es": "Documento mecanografiado de noviembre de 1980, tres meses antes del golpe, que analiza sistemáticamente las 'operaciones en marcha' para un cambio de régimen en España. Clasifica las operaciones en civiles (ideologías democristiana, mixta, socialista y liberal), militares (de Tenientes Generales, Coroneles y Espontáneos) y mixtas cívico-militares. Evalúa la viabilidad de cada escenario, señalando que la más probable es la de los Tenientes Generales en caso de deterioro rápido de la situación política. Menciona explícitamente a figuras como Fraga, Herrero de Miñón, Martín Villa, Garrigues y generales como Mellado, Díez Alegría y Ste María. Identifica como condición clave el 'apoyo de la Corona'.",
+  "resumen_en": "Typed document from November 1980, three months before the coup, systematically analysing 'ongoing operations' for a regime change in Spain. Classifies operations as civil (christian-democrat, mixed, socialist, liberal ideologies), military (Lieutenant Generals, Colonels, Spontaneous actors) and mixed civic-military. Assesses viability of each scenario, concluding the Lieutenant Generals scenario is most likely in case of rapid political deterioration. Explicitly names figures including Fraga, Herrero de Miñón, Martín Villa, Garrigues and generals Mellado, Díez Alegría and Ste María. Identifies 'support of the Crown' as a key condition.",
+  "personas": [
+    {
+      "nombre": "Manuel Fraga Iribarne",
+      "cargo": "Líder de Alianza Popular",
+      "organizacion": "Alianza Popular",
+      "rol_en_23f": "neutral",
+      "acciones": [
+        "Identificado como posible líder civil de cobertura política para un gobierno mixto con los militares",
+        "Contemplado como promotor de un gobierno mixto PSOE-AP con el general Mellado como Presidente"
+      ]
+    },
+    {
+      "nombre": "Rodolfo Martín Villa",
+      "cargo": "Ministro del Interior",
+      "organizacion": "UCD",
+      "rol_en_23f": "neutral",
+      "acciones": [
+        "Identificado como promotor del escenario de gobierno mixto UCD-PSOE-AP"
+      ]
+    },
+    {
+      "nombre": "Manuel Gutiérrez Mellado",
+      "cargo": "General, Vicepresidente del Gobierno para Asuntos de Defensa",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Señalado como posible Presidente de un gobierno de transición de talante liberal para ofrecer 'antídoto al golpismo'"
+      ]
+    },
+    {
+      "nombre": "Díez Alegría",
+      "cargo": "General",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "neutral",
+      "acciones": [
+        "Mencionado como posible Presidente de gobierno de transición de talante liberal"
+      ]
+    },
+    {
+      "nombre": "Herrero de Miñón",
+      "cargo": "Diputado de UCD",
+      "organizacion": "UCD",
+      "rol_en_23f": "neutral",
+      "acciones": [
+        "Identificado como promotor del escenario de ideología democristiana junto a Álvarez y Landelino"
+      ]
+    },
+    {
+      "nombre": "Joaquín Garrigues Walker",
+      "cargo": "Político liberal",
+      "organizacion": "Partido Demócrata",
+      "rol_en_23f": "neutral",
+      "acciones": [
+        "Identificado como promotor del escenario liberal. Viabilidad calificada como prácticamente nula"
+      ]
+    },
+    {
+      "nombre": "Adolfo Suárez González",
+      "cargo": "Presidente del Gobierno",
+      "organizacion": "UCD",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Mencionado como figura cuya dimisión vendría espontáneamente si hubiera unanimidad militar"
+      ]
+    },
+    {
+      "nombre": "Rey Juan Carlos I",
+      "cargo": "Rey de España",
+      "organizacion": "Casa Real",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Identificado como actor que 'operaría constitucionalmente' en el escenario de Tenientes Generales",
+        "Su apoyo señalado como condición clave de viabilidad del escenario civil-militar"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "UCD", "tipo": "político" },
+    { "nombre": "Alianza Popular", "tipo": "político" },
+    { "nombre": "PSOE", "tipo": "político" },
+    { "nombre": "PCE", "tipo": "político" },
+    { "nombre": "Ejército de Tierra", "tipo": "militar" },
+    { "nombre": "Guardia Civil", "tipo": "policial" },
+    { "nombre": "Fuerza Nueva", "tipo": "político" },
+    { "nombre": "Fuerzas Armadas", "tipo": "militar" },
+    { "nombre": "Casa Real", "tipo": "gubernamental" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1980-11-01",
+      "descripcion_es": "Elaboración de un documento de análisis estratégico de las operaciones golpistas en marcha, clasificando escenarios y evaluando viabilidades",
+      "descripcion_en": "Preparation of a strategic analysis document on ongoing coup operations, classifying scenarios and assessing viability",
+      "lugar": "España (lugar desconocido)"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Documento anónimo",
+      "texto": "Si deterioro lento de situación → NINGUNA. Si deterioro rápido de situación → MUY PROBABLE.",
+      "traduccion_en": "If slow deterioration of the situation → NONE. If rapid deterioration → VERY PROBABLE.",
+      "importancia": "Describe la condición que haría viable la intervención militar de los Tenientes Generales"
+    },
+    {
+      "autor": "Documento anónimo",
+      "texto": "La intervención vendría de forma INSTITUCIONAL, mediante el PRONUNCIAMIENTO.",
+      "traduccion_en": "The intervention would come in an INSTITUTIONAL form, through the PRONUNCIAMIENTO.",
+      "importancia": "Los conspiradores buscaban una apariencia de legitimidad institucional para el golpe"
+    },
+    {
+      "autor": "Documento anónimo (sobre los Coroneles)",
+      "texto": "Las FAS no pueden intervenir vía pronunciamiento, salvo que 'el pueblo las llame'. No pierden tiempo en 'conspiraciones de café', empleándolo en efectuar contactos, estructurar la operación.",
+      "traduccion_en": "The Armed Forces cannot intervene via pronunciamiento unless 'the people call upon them'. They don't waste time on café conspiracies, using it instead to make contacts and structure the operation.",
+      "importancia": "Revela la estrategia de los Coroneles: operación estructurada esperando el momento propicio"
+    },
+    {
+      "autor": "Documento anónimo (sobre los Espontáneos)",
+      "texto": "Si este plan existiere real y efectivamente estructurado, podría activarse fulminantemente con un simple hecho terrorista de signo espectacular.",
+      "traduccion_en": "If this plan were real and effectively structured, it could be triggered instantaneously by a single spectacular terrorist act.",
+      "importancia": "Señala el terrorismo como posible detonante del golpe, coherente con el contexto de ETA en 1981"
+    },
+    {
+      "autor": "Documento anónimo (sobre el escenario civil-militar socialista)",
+      "texto": "Presidencia del Gobierno por un General de talante liberal (G. Mellado, Ste María, Díez Alegría); con esta medida pondrán ofrecer antídoto al golpismo. VIABILIDAD → Credibilidad capital si se dan estas condiciones: Reclutamiento de un general de esas características, Apoyo de la Corona.",
+      "traduccion_en": "Government Presidency by a liberal-minded General (G. Mellado, Ste María, Díez Alegría); this would offer an antidote to golpismo. VIABILITY → Total credibility if: Recruitment of such a general, Support of the Crown.",
+      "importancia": "Escenario que anticipa sorprendentemente la figura de Armada como candidato a presidir el gobierno post-golpe"
+    },
+    {
+      "autor": "Documento anónimo (sobre los Espontáneos)",
+      "texto": "En cuanto al Rey se impediría su huida, así como la de Ministros y personas relevantes, subordinando la existencia de la Corona y la vida de su titular a la aceptación del hecho consumado.",
+      "traduccion_en": "The King's escape would be prevented, as would that of Ministers and relevant persons, subordinating the existence of the Crown and the life of its holder to acceptance of the fait accompli.",
+      "importancia": "Los Espontáneos planeaban secuestrar al Rey y obligarle a aceptar el golpe bajo amenaza"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Tenientes Generales",
+      "destino": "Manuel Fraga Iribarne",
+      "tipo": "coordinó",
+      "descripcion": "Fraga considerado como cobertura política civil del escenario de intervención militar",
+      "fecha": "1980-11-01"
+    },
+    {
+      "origen": "Fuerza Nueva",
+      "destino": "Guardia Civil",
+      "tipo": "apoyó",
+      "descripcion": "Fuerza Nueva identificada como apoyo rápido para los Espontáneos, junto a núcleos locales de la Guardia Civil",
+      "fecha": "1980-11-01"
+    },
+    {
+      "origen": "Coroneles",
+      "destino": "UCD",
+      "tipo": "coordinó",
+      "descripcion": "Los Coroneles alentan gobierno de coalición UCD-PSOE para que ambos partidos se 'quemen' antes de 1985, generando las condiciones para la intervención",
+      "fecha": "1980-11-01"
+    }
+  ],
+  "temas": ["planificacion-previa", "analisis-viabilidad", "escenarios-politicos", "tenientes-generales", "coroneles", "espontaneos", "apoyo-corona", "noviembre-1980"],
+  "_meta": {
+    "doc_id": "23F_4._Documento_planificacion_del_golpe",
+    "filename": "23F_4._Documento_planificacion_del_golpe.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 23,
+    "processed_by": "claude-code"
+  }
+}

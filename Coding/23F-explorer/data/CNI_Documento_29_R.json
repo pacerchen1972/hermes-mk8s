@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 3 may. 1982 de la vista oral Causa 2/81: defensas de Pardo, García Carrés y Armada",
+  "titulo_en": "Intelligence note on the 3 May 1982 Causa 2/81 hearing: defence of Pardo, García Carrés and Armada",
+  "fecha_documento": "1982-05-03",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/SG/4868/03-05-82) sobre la sesión del 3 de mayo de 1982. El letrado Sr. De Miguel (defensor del Capitán de Navío Menéndez Vives, del Comandante Pardo y del paisano García Carrés) concluye sus alegatos. Toma luego la palabra el General de División Alvarado como codefensor del General Armada. A continuación intervienen el Sr. Laberdis (defensor del General San Martín) y el General Farré (codefensor), concluyendo ambos sus alegatos.",
+  "resumen_en": "CESID intelligence note (C/SG/4868/03-05-82) on the 3 May 1982 session. Counsel Mr De Miguel (defending Captain of the Navy Menéndez Vives, Commander Pardo and civilian García Carrés) concludes his submissions. Division General Alvarado then speaks as co-counsel for General Armada. Subsequently Mr Laberdis (defending General San Martín) and General Farré (co-counsel) both conclude their submissions.",
+  "personas": [
+    { "nombre": "Ricardo Pardo Zancada", "cargo": "Comandante de Infantería", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Representado por el Sr. De Miguel en el juicio oral"] },
+    { "nombre": "Juan García Carrés", "cargo": "Dirigente sindical ultraderechista", "organizacion": "civil", "rol_en_23f": "conspirador", "acciones": ["Representado por el Sr. De Miguel; su defensa presentó las particularidades diferenciadas de cada acusado"] },
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["El General de División Alvarado actuó como su codefensor"] },
+    { "nombre": "Camilo Menéndez Vives", "cargo": "Capitán de Navío", "organizacion": "Armada", "rol_en_23f": "conspirador", "acciones": ["Representado por el Sr. De Miguel"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-05-03", "descripcion_es": "Vista oral Causa 2/81: conclusiones de las defensas de Pardo/García Carrés (De Miguel), Armada (General Alvarado) y San Martín (Laberdis/Farré)", "descripcion_en": "Causa 2/81 hearing: conclusion of defences of Pardo/García Carrés (De Miguel), Armada (General Alvarado) and San Martín (Laberdis/Farré)", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "pardo-zancada", "armada", "garcia-carres", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_29_R", "filename": "Documento_29_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 8, "processed_by": "claude-code" }
+}

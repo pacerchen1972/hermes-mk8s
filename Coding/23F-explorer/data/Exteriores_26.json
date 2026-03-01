@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Telegrama cifrado: el Rey Juan Carlos transmite mensaje de agradecimiento al Presidente de la RFA tras el 23-F",
+  "titulo_en": "Coded telegram: King Juan Carlos transmits message of thanks to the President of the FRG after 23-F",
+  "fecha_documento": "1981-03-08",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "telegrama_cifrado",
+  "ministerio": "Exteriores",
+  "resumen_es": "Telegrama cifrado del Ministro de Asuntos Exteriores Pérez-Llorca al Embajador de España en Bonn (8 marzo 1981, nr. 53) transmitiendo el siguiente mensaje de S.M. el Rey al Presidente de la República Federal de Alemania: 'Agradezco profundamente a Vuestra Excelencia sus cordiales sentimientos de simpatía y apoyo en relación con el frustrado atentado contra la legalidad constitucional de España que tuvo lugar el pasado día 23 y quedo muy reconocido a sus buenos deseos. Reciba, Señor Presidente, el testimonio de mi más alta consideración y estima, así como mis votos de felicidad y prosperidad para el noble pueblo alemán. JUAN CARLOS R.'",
+  "resumen_en": "Coded telegram from Foreign Minister Pérez-Llorca to Spain's Ambassador in Bonn (8 March 1981, no. 53) transmitting King Juan Carlos's message to the President of the Federal Republic of Germany: 'I deeply appreciate Your Excellency's cordial feelings of sympathy and support in relation to the frustrated attempt against Spain's constitutional legality that took place on the 23rd, and am most grateful for your good wishes. Please accept, Mr President, the token of my highest consideration and esteem, as well as my wishes of happiness and prosperity for the noble German people. JUAN CARLOS R.'",
+  "personas": [
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, autor del mensaje de agradecimiento" },
+    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Exteriores, firmante del telegrama" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
+    { "nombre": "Embajada de España en Bonn", "tipo": "gobierno" },
+    { "nombre": "Presidencia de la República Federal de Alemania", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-08", "descripcion_es": "El Rey Juan Carlos transmite al Presidente de la RFA su gratitud por su apoyo tras el 23-F, a través del Ministerio de Exteriores", "descripcion_en": "King Juan Carlos transmits to the FRG President his gratitude for his support after 23-F, through the Ministry of Foreign Affairs", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "alemania-occidental", "juan-carlos-i", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_26", "filename": "D.26._AGA-83-09301_exp._5.pdf", "folder": "exteriores/AGA-83-09301", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

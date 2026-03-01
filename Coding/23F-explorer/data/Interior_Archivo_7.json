@@ -1,0 +1,30 @@
+{
+  "titulo_es": "Notas 1983: liberaciones de condenados por el 23-F y peticiones de indulto",
+  "titulo_en": "1983 Notes: releases of 23-F convicts and pardon petitions",
+  "fecha_documento": "1983-08-20",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "notas_informativas",
+  "ministerio": "Interior",
+  "resumen_es": "Compilación de notas informativas de 1983 (12 páginas) sobre la situación post-sentencia de los condenados por el 23-F. Incluye: (1) Nota del 20 agosto 1983 (nr. 4642, origen El Ferrol del Caudillo) sobre la liberación del Castillo de La Palma (Mugardos, La Coruña) de cuatro Capitanes de la Guardia Civil —Carlos Lázaro Corthay, Juan Pérez de la Lastra, Francisco Acera Martín y Enrique Bobis González— que ingresaron el 27 mayo 1983; celebración de un banquete en La Coruña; permanecen presos el ex-TG Milans del Bosch y otros. (2) Nota del 13 julio 1983 (nr. 3993, origen Las Palmas) sobre recogida de firmas para solicitud de indulto a los condenados del 23-F en Las Palmas, identificando al Coronel de Caballería Honorario de apellido Parra.",
+  "resumen_en": "Compilation of 1983 intelligence notes (12 pages) on the post-sentence situation of 23-F convicts. Includes: (1) Note of 20 August 1983 (nr. 4642, origin El Ferrol del Caudillo) on the release from Castillo de La Palma (Mugardos, La Coruña) of four Civil Guard Captains — Carlos Lázaro Corthay, Juan Pérez de la Lastra, Francisco Acera Martín and Enrique Bobis González — who entered prison on 27 May 1983; celebration banquet in La Coruña; ex-TG Milans del Bosch and others remain imprisoned. (2) Note of 13 July 1983 (nr. 3993, origin Las Palmas) on signature collection for pardon petition for 23-F convicts in Las Palmas, identifying Honorary Cavalry Colonel with surname Parra.",
+  "personas": [
+    { "nombre": "Carlos Lázaro Corthay", "rol": "Capitán de la Guardia Civil, condenado 23-F, liberado agosto 1983" },
+    { "nombre": "Juan Pérez de la Lastra", "rol": "Capitán de la Guardia Civil, condenado 23-F, liberado agosto 1983" },
+    { "nombre": "Francisco Acera Martín", "rol": "Capitán de la Guardia Civil, condenado 23-F, liberado agosto 1983" },
+    { "nombre": "Enrique Bobis González", "rol": "Capitán de la Guardia Civil, condenado 23-F, liberado agosto 1983" },
+    { "nombre": "Jaime Milans del Bosch", "rol": "ex-Teniente General, permanece preso en Prisión Naval de Caranza tras las liberaciones" }
+  ],
+  "organizaciones": [
+    { "nombre": "Guardia Civil", "tipo": "seguridad" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1983-08-03", "descripcion_es": "Liberación de cuatro Capitanes de la GC del Castillo de La Palma (Mugardos, La Coruña): Lázaro Corthay, Pérez de la Lastra, Acera Martín y Bobis González; banquete de celebración organizado en La Coruña", "descripcion_en": "Release of four GC Captains from Castillo de La Palma (Mugardos, La Coruña): Lázaro Corthay, Pérez de la Lastra, Acera Martín and Bobis González; celebration banquet organised in La Coruña", "lugar": "Mugardos, La Coruña" },
+    { "fecha": "1983-07-13", "descripcion_es": "Recogida de firmas para petición de indulto a condenados del 23-F en Las Palmas; Coronel de Caballería Honorario de apellido Parra identificado como organizador", "descripcion_en": "Signature collection for pardon petition for 23-F convicts in Las Palmas; Honorary Cavalry Colonel with surname Parra identified as organiser", "lugar": "Las Palmas" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "liberaciones", "indulto", "condenados-23f", "guardia-civil", "milans-del-bosch", "ministerio-interior"],
+  "_meta": { "doc_id": "Interior_Archivo_7", "filename": "7_Notas_1983_desp.pdf", "folder": "interior/archivo", "is_image_pdf": true, "pages": 12, "processed_by": "claude-code" }
+}

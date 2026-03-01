@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Telegrama urgente sobre el 'Agreed Background Summary' de conversaciones EE.UU.-RFA que menciona a España",
+  "titulo_en": "Urgent telegram on 'Agreed Background Summary' of US-FRG conversations mentioning Spain",
+  "fecha_documento": "1981-03-10",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "telegrama_cifrado",
+  "ministerio": "Exteriores",
+  "resumen_es": "Telegrama URGENTE cifrado (23:45, 10 marzo 1981) del Embajador español en Washington, Álvarez de Toledo, al Ministerio de Asuntos Exteriores, informando de que en el 'Agreed Background Summary of US-FRG Conversations in Washington' (documento conjunto EE.UU.-República Federal de Alemania) se incluyó la siguiente referencia sobre España: 'Ambos Ministros estuvieron de acuerdo en que recientes acontecimientos en España demuestran la fuerza de las instituciones democráticas de España y expresaron su plena confianza en el curso futuro español.'",
+  "resumen_en": "URGENT coded telegram (23:45, 10 March 1981) from Spain's Ambassador in Washington, Álvarez de Toledo, to the Ministry of Foreign Affairs, reporting that the 'Agreed Background Summary of US-FRG Conversations in Washington' (joint US-West Germany document) included the following reference to Spain: 'Both Ministers agreed that recent events in Spain demonstrate the strength of Spain's democratic institutions and expressed their full confidence in Spain's future course.'",
+  "personas": [
+    { "nombre": "Álvarez de Toledo", "rol": "Embajador de España en Washington, informante" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
+    { "nombre": "Departamento de Estado de los Estados Unidos", "tipo": "gobierno" },
+    { "nombre": "Ministerio de Asuntos Exteriores de la RFA", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-10", "descripcion_es": "EE.UU. y RFA incluyen en comunicado conjunto su confianza en las instituciones democráticas españolas tras el 23-F", "descripcion_en": "US and FRG include in joint communiqué their confidence in Spanish democratic institutions after 23-F", "lugar": "Washington D.C." }
+  ],
+  "citas_clave": [
+    { "texto_es": "Ambos Ministros estuvieron de acuerdo en que recientes acontecimientos en España demuestran la fuerza de las instituciones democráticas de España y expresaron su plena confianza en el curso futuro español", "texto_en": "Both Ministers agreed that recent events in Spain demonstrate the strength of Spain's democratic institutions and expressed their full confidence in Spain's future course", "fuente": "'Agreed Background Summary US-FRG', marzo 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "alemania-occidental", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_12", "filename": "D.12._AGMAE_R39017_Exp._4.jpg", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

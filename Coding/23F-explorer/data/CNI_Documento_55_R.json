@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 17 mar. 1982 de la vista oral Causa 2/81: interrogatorio del Coronel Manchado",
+  "titulo_en": "Intelligence note on the 17 Mar. 1982 Causa 2/81 hearing: interrogation of Colonel Manchado",
+  "fecha_documento": "1982-03-17",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (N/Rfc. C/90/4487/17-03-82) sobre la sesión del 17 de marzo de 1982. El Coronel Manchado testificó durante toda la jornada. Confirmó haber conocido los contactos entre Cortina y Armada; citó que el General Armada hizo promesas sobre la no-responsabilidad de los involucrados. Señaló la reunión de Valencia del 21 de enero como clave en la coordinación. El Fiscal señaló contradicciones entre su testimonio y el de otros procesados sobre la cadena de mando y las conexiones con Milans.",
+  "resumen_en": "CESID intelligence note (N/Rfc. C/90/4487/17-03-82) on the 17 March 1982 session. Colonel Manchado testified throughout the day. He confirmed knowing about contacts between Cortina and Armada; stated that General Armada made promises of immunity to those involved. He pointed to the Valencia meeting on 21 January as key to the coordination. The Prosecutor noted contradictions between his testimony and that of other defendants regarding the chain of command and connections with Milans.",
+  "personas": [
+    { "nombre": "Manchado", "cargo": "Coronel", "organizacion": "Ejército de Tierra", "rol_en_23f": "testigo", "acciones": ["Confirmó contactos Cortina-Armada; señaló promesas de Armada sobre no-responsabilidad; citó la reunión de Valencia (21 enero) como clave; contradijo a otros procesados en detalles de cadena de mando"] },
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Según Manchado, hizo promesas de no-responsabilidad a los involucrados en el golpe; se citó su presencia en el Congreso como anunciada y coordinada"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-17", "descripcion_es": "Vista oral Causa 2/81: Coronel Manchado testifica; confirma promesas de Armada sobre no-responsabilidad y la importancia de la reunión de Valencia del 21 enero", "descripcion_en": "Causa 2/81 hearing: Colonel Manchado testifies; confirms Armada's promises of immunity and the importance of the 21 January Valencia meeting", "lugar": "Consejo Supremo de Justicia Militar, Madrid" },
+    { "fecha": "1982-01-21", "descripcion_es": "Reunión de Valencia identificada como clave en la coordinación del golpe (citada en el juicio)", "descripcion_en": "Valencia meeting identified as key to coup coordination (cited at hearing)", "lugar": "Valencia" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "Alfonso Armada Comyn", "destino": "Manchado", "tipo": "promesa", "descripcion": "Armada prometió no-responsabilidad a los involucrados en el golpe según declaración de Manchado" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "manchado", "armada", "cortina", "milans", "testigos", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_55_R", "filename": "Documento_55_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

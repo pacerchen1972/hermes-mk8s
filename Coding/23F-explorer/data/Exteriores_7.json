@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Carta del Presidente Reagan al Presidente del Gobierno Calvo Sotelo (enviada en mano el 28 febrero 1981)",
+  "titulo_en": "President Reagan's letter to President of Government Calvo Sotelo (delivered by hand on 28 February 1981)",
+  "fecha_documento": "1981-02-28",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "carta_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Carta personal del Presidente de los Estados Unidos Ronald Reagan al recién investido Presidente del Gobierno español Leopoldo Calvo Sotelo (28 febrero 1981, enviada en mano): 'Me complace ofrecerle mis más calurosas felicitaciones al asumir el cargo de Presidente del Gobierno de España. Los lazos de amistad que unen a nuestros dos países y el apoyo mutuo de la comunidad de naciones democráticas nos sostendrán mientras trabajamos hacia un mundo más libre y pacífico.' Reagan afirma que una relación fuerte y cooperativa entre España y EE.UU. es vital para el proceso democrático.",
+  "resumen_en": "Personal letter from US President Ronald Reagan to newly invested Spanish President of Government Leopoldo Calvo Sotelo (28 February 1981, delivered by hand): 'It is my pleasure to offer you my warmest congratulations as you assume the office of President of the Government of Spain. The bonds of friendship that unite our two countries and the mutual support of the community of democratic nations will sustain us as we work toward a freer and more peaceful world.' Reagan affirms that a strong and cooperative relationship between Spain and the US is vital to the democratic process.",
+  "personas": [
+    { "nombre": "Ronald Reagan", "rol": "Presidente de los Estados Unidos, autor de la carta" },
+    { "nombre": "Leopoldo Calvo Sotelo", "rol": "Presidente del Gobierno de España, destinatario" }
+  ],
+  "organizaciones": [
+    { "nombre": "Casa Blanca", "tipo": "gobierno" },
+    { "nombre": "Presidencia del Gobierno de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-28", "descripcion_es": "Reagan escribe a Calvo Sotelo en el mismo día de su investidura como Presidente, felicitándole y expresando el apoyo de EE.UU. a la democracia española", "descripcion_en": "Reagan writes to Calvo Sotelo on the very day of his investiture as President, congratulating him and expressing US support for Spanish democracy", "lugar": "Washington D.C. / Madrid" }
+  ],
+  "citas_clave": [
+    { "texto_es": "Una relación fuerte y cooperativa entre España y los Estados Unidos es vital para ese proceso, y le aseguro nuestro continuo apoyo a la democracia española", "texto_en": "A strong and cooperative relationship between Spain and the United States is vital to that process, and I assure you of our continued support for Spanish democracy", "fuente": "Carta Reagan a Calvo Sotelo, 28 febrero 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "reagan", "calvo-sotelo", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_7", "filename": "D.7._AGMAE_R39017_Exp._4.jpg", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

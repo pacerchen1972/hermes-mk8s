@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Asamblea Municipal del Consejo de Campo Maior (Portugal) repudia el golpe del 23-F",
+  "titulo_en": "Municipal Assembly of the Council of Campo Maior (Portugal) repudiates the 23-F coup",
+  "fecha_documento": "1981-02-24",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "mocion",
+  "ministerio": "Exteriores",
+  "resumen_es": "La Asamblea Municipal del Concejo de Campo Maior (Portugal) aprueba por unanimidad en su reunión ordinaria del 19 de febrero una moción condenando el intento de golpe del 23-F: 'la tentativa de golpe, de inspiración fascista, que tuvo como escenario el Congreso de los Diputados, cuyo objetivo era acabar con las libertades democráticas y derechos conquistados por los trabajadores'. La Asamblea expresa su apoyo y solidaridad con el pueblo español. Transmitida al Chanceler del Consulado de España en Elvas. Firmada por António Filipe Reguina Pardal.",
+  "resumen_en": "The Municipal Assembly of the Council of Campo Maior (Portugal) unanimously passes a motion at its ordinary meeting on 19 February condemning the 23-F coup attempt: 'the coup attempt of fascist inspiration, staged at the Congress of Deputies, whose objective was to end democratic freedoms and rights won by workers'. The Assembly expresses support and solidarity with the Spanish people. Transmitted to the Spanish Consulate in Elvas. Signed by António Filipe Reguina Pardal.",
+  "personas": [
+    { "nombre": "António Filipe Reguina Pardal", "rol": "Presidente de la Assembleia Municipal de Campo Maior, firmante" }
+  ],
+  "organizaciones": [
+    { "nombre": "Assembleia Municipal do Concelho de Campo Maior", "tipo": "gobierno" },
+    { "nombre": "Consulado de España en Elvas", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-24", "descripcion_es": "La Asamblea Municipal de Campo Maior (Portugal) condena por unanimidad el golpe fascista del 23-F y expresa solidaridad con el pueblo español", "descripcion_en": "Campo Maior (Portugal) Municipal Assembly unanimously condemns the fascist 23-F coup and expresses solidarity with the Spanish people", "lugar": "Campo Maior, Portugal" }
+  ],
+  "citas_clave": [
+    { "texto_es": "la tentativa de golpe, de inspiración fascista, que tuvo como escenario el Congreso de los Diputados, cuyo objetivo era acabar con las libertades democráticas y derechos conquistados por los trabajadores", "texto_en": "the coup attempt of fascist inspiration, staged at the Congress of Deputies, whose objective was to end democratic freedoms and rights won by workers", "fuente": "Moción Asamblea Municipal Campo Maior, febrero 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "portugal", "solidaridad", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_16", "filename": "D.16._AGMAE_R40201_Exp._215.jpg", "folder": "exteriores/AGMAE-40201", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

@@ -1,0 +1,58 @@
+{
+  "titulo_es": "Informe CESID sobre la amenaza interior — análisis previo al 23-F (feb. 1981)",
+  "titulo_en": "CESID report on the internal threat — pre-coup analysis (Feb. 1981)",
+  "fecha_documento": "1981-02-10",
+  "periodo": "pre-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe monográfico del CESID (Microfilmación 03838/S, 10-02-81) sobre la amenaza interior, remitido a la División de Infantería Nº 11 del Ejército de Tierra por el Coronel Director Accidental Luciano García del Río. El informe de 22 páginas, redactado apenas dos semanas antes del 23-F, define la 'amenaza interior' como aquella proveniente del propio Estado que afecta a la unidad nacional y es incompatible con las estructuras constitucionales. Distingue entre movimientos subversivos internos y agresión indirecta exterior. Constituye el análisis de inteligencia interior que el CESID realizó justo antes del golpe.",
+  "resumen_en": "CESID monographic report (Microfilm 03838/S, 10-02-81) on the internal threat, transmitted to Infantry Division No. 11 by Acting Colonel Director Luciano García del Río. The 22-page report, drafted just two weeks before the coup, defines the 'internal threat' as any threat arising within the State that affects national unity and is incompatible with constitutional structures. Distinguishes between internal subversive movements and indirect foreign aggression. Represents the internal intelligence assessment CESID produced just before the coup.",
+  "personas": [
+    {
+      "nombre": "Luciano García del Río",
+      "cargo": "Coronel, Director Accidental del CESID",
+      "organizacion": "CESID",
+      "rol_en_23f": "neutral",
+      "acciones": ["Firmó el informe sobre amenaza interior y lo remitió a la División de Infantería Nº 11"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "División de Infantería Nº 11", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-10",
+      "descripcion_es": "CESID remite informe de 22 páginas sobre la amenaza interior a la División de Infantería Nº 11, dos semanas antes del golpe del 23-F",
+      "descripcion_en": "CESID sends 22-page internal threat assessment to Infantry Division No. 11, two weeks before the 23-F coup",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Grupo de trabajo CESID",
+      "texto": "La amenaza interior puede definirse como la proveniente del interior del propio Estado, es decir, que origina una amenaza directa, sobre las áreas de la nación de modo que afecte a la unidad de los grupos, y que sea incompatible con las estructuras constitucionales.",
+      "traduccion_en": "The internal threat can be defined as that originating within the State itself, creating a direct threat to national areas in a way that affects group unity and is incompatible with constitutional structures.",
+      "importancia": "Definición oficial del CESID de 'amenaza interior', elaborada dos semanas antes del 23-F — el mismo CESID que participó en el golpe"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "División de Infantería Nº 11",
+      "tipo": "informó",
+      "descripcion": "El CESID remitió el informe anual sobre amenaza interior a la División de Infantería Nº 11",
+      "fecha": "1981-02-10"
+    }
+  ],
+  "temas": ["cesid", "amenaza-interior", "pre-golpe", "analisis-inteligencia", "ejercito"],
+  "_meta": {
+    "doc_id": "CNI_Documento_72_R",
+    "filename": "Documento_72_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 22,
+    "processed_by": "claude-code"
+  }
+}

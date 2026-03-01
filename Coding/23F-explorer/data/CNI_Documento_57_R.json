@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 16 mar. 1982 de la vista oral Causa 2/81: 'Operación Copada' y reuniones en calle General Cabrera",
+  "titulo_en": "Intelligence note on the 16 Mar. 1982 Causa 2/81 hearing: 'Operación Copada' and meetings at calle General Cabrera",
+  "fecha_documento": "1982-03-16",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID sobre la sesión del 16 de marzo de 1982. El Coronel Manchado declaró que la toma del Congreso tenía el nombre en clave de 'Operación Copada' y que el 18 de enero ya estaban todos los preparativos hechos. Las reuniones de coordinación se celebraron en la calle General Cabrera, a la espera del beneplácito del General Armada. Tejero confirmó que el 18 de enero se reunió con Torres Rojas. Varios abogados defensores señalaron que ningún testigo pudo confirmar que el Rey apoyara la operación.",
+  "resumen_en": "CESID intelligence note on the 16 March 1982 session. Colonel Manchado declared that the Congress seizure had the code name 'Operación Copada' and that by 18 January all preparations were complete. Coordination meetings were held at calle General Cabrera, awaiting General Armada's green light. Tejero confirmed meeting Torres Rojas on 18 January. Several defence counsels noted that no witness could confirm the King supported the operation.",
+  "personas": [
+    { "nombre": "Manchado", "cargo": "Coronel", "organizacion": "Ejército de Tierra", "rol_en_23f": "testigo", "acciones": ["Reveló que la toma del Congreso se llamó internamente 'Operación Copada'; confirmó reuniones en calle General Cabrera; señaló que el 18 enero los preparativos estaban completados"] },
+    { "nombre": "Antonio Tejero Molina", "cargo": "Teniente Coronel de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "golpista", "acciones": ["Confirmó reunión con Torres Rojas el 18 de enero; señaló la calle General Cabrera como lugar de coordinación"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-16", "descripcion_es": "Vista oral Causa 2/81: el Coronel Manchado revela que la toma del Congreso se denominó internamente 'Operación Copada'; las reuniones de coordinación fueron en la calle General Cabrera", "descripcion_en": "Causa 2/81 hearing: Colonel Manchado reveals the Congress seizure was internally called 'Operación Copada'; coordination meetings took place at calle General Cabrera", "lugar": "Consejo Supremo de Justicia Militar, Madrid" },
+    { "fecha": "1982-01-18", "descripcion_es": "Reunión entre Tejero y Torres Rojas con todos los preparativos del golpe terminados (según Manchado y Tejero)", "descripcion_en": "Meeting between Tejero and Torres Rojas with all coup preparations complete (per Manchado and Tejero)", "lugar": "Madrid, calle General Cabrera" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "Antonio Tejero Molina", "destino": "Manuel Torres Rojas", "tipo": "reunion_preparatoria", "descripcion": "Reunión el 18 enero 1982 en calle General Cabrera con preparativos del golpe completados" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "tejero", "manchado", "torres-rojas", "operacion-copada", "reunion-previa", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_57_R", "filename": "Documento_57_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

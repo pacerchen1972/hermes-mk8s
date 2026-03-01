@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 30 abr. 1982 de la vista oral Causa 2/81: defensa de Armada y Torres Rojas",
+  "titulo_en": "Intelligence note on the 30 Apr. 1982 Causa 2/81 hearing: defence of Armada and Torres Rojas",
+  "fecha_documento": "1982-04-30",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID sobre la sesión del 30 de abril de 1982. El letrado Hermosilla Martín (defensor del General Armada) continúa con la lectura de su escrito de defensa y la concluye. Seguidamente interviene el letrado Quintana Alarcón (defensor del Coronel Torres Rojas y del Teniente Ernesto Milans). El letrado Hermosilla rebatió la versión del Fiscal sobre el papel del Rey la noche del 23-F, argumentando que en ningún momento Armada tomaría la iniciativa sin autorización real; comparó el caso con el affaire Dreyfus al señalar la falta de testigos en su contra.",
+  "resumen_en": "CESID intelligence note on the 30 April 1982 session. Counsel Hermosilla Martín (defending General Armada) continues and concludes reading his defence brief. Quintana Alarcón (defending Colonel Torres Rojas and Lieutenant Ernesto Milans) then intervenes. Hermosilla rebutted the Prosecutor's account of the King's role on 23-F night, arguing Armada would never take the initiative without royal authorisation; he compared the case to the Dreyfus affair given the absence of witnesses against his client.",
+  "personas": [
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Su defensa argumentó que nunca actuaría sin autorización del Rey; comparó el caso con Dreyfus por la falta de testigos"] },
+    { "nombre": "Luis Torres Rojas", "cargo": "Coronel", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Representado por Quintana Alarcón en el juicio"] },
+    { "nombre": "Camilo Menéndez Vives", "cargo": "Capitán de Navío", "organizacion": "Armada", "rol_en_23f": "conspirador", "acciones": ["El letrado De Miguel actuó como su defensor"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-30", "descripcion_es": "Vista oral Causa 2/81: Hermosilla (defensa Armada) concluye su escrito; compara el caso con Dreyfus; Quintana Alarcón (defensa Torres Rojas)", "descripcion_en": "Causa 2/81 hearing: Hermosilla (Armada defence) concludes; compares case to Dreyfus; Quintana Alarcón (Torres Rojas defence)", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "torres-rojas", "rey-juan-carlos", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_31_R", "filename": "Documento_31_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 7, "processed_by": "claude-code" }
+}

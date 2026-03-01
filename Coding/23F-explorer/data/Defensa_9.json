@@ -1,0 +1,23 @@
+{
+  "titulo_es": "CSJM solicita toma de declaración sobre hechos del 23-F (Primer Oficio, Carpeta 21800)",
+  "titulo_en": "CSJM requests declaration on 23-F events (First Official, Carpeta 21800)",
+  "fecha_documento": "1982-01-12",
+  "periodo": "juicio",
+  "clasificacion_original": "reservado",
+  "tipo_documento": "primer_oficio",
+  "ministerio": "Defensa",
+  "resumen_es": "Primer Oficio del CSJM (Carpeta 21800, RESERVADO) solicitando la toma de declaración a un General de División sobre las circunstancias del 23-F, en el marco de la instrucción de la Causa 2/81.",
+  "resumen_en": "CSJM First Official communication (Carpeta 21800, RESERVED) requesting a declaration from a Major General on the circumstances of 23-F, within the framework of Case 2/81 proceedings.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1982-01-12", "descripcion_es": "CSJM solicita declaración a un General de División en el marco de la instrucción de la Causa 2/81", "descripcion_en": "CSJM requests declaration from a Major General within Case 2/81 proceedings", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "csjm", "declaraciones", "ministerio-defensa"],
+  "_meta": { "doc_id": "Defensa_9", "filename": "Carpeta_21800_Reservado_oficio_dando_cuenta_toma_de_declaracion_4.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

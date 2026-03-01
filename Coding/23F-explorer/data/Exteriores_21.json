@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Nota Verbal del Ministerio de Exteriores transmitiendo la respuesta del Rey a Fidel Castro por su mensaje de solidaridad",
+  "titulo_en": "Verbal Note from Ministry of Foreign Affairs transmitting the King's reply to Fidel Castro for his solidarity message",
+  "fecha_documento": "1981-04-03",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_verbal",
+  "ministerio": "Exteriores",
+  "resumen_es": "Nota Verbal de la Dirección General para Iberoamérica del Ministerio de Asuntos Exteriores (3 abril 1981) dirigida a la Embajada de la República de Cuba en España, transmitiendo el siguiente mensaje del Rey Juan Carlos I al Presidente Fidel Castro: 'Agradezco vivamente a Vuestra Excelencia el mensaje que me hizo llegar a través de la Embajada de Cuba en España. El Rey Juan Carlos ha tenido muy en cuenta la forma en que ha seguido el pasado intento de alterar la legalidad constitucional española.' El Rey expresa su reconocimiento por el mensaje de solidaridad de Cuba tras el 23-F.",
+  "resumen_en": "Verbal Note from the Ministry of Foreign Affairs Directorate General for Latin America (3 April 1981) addressed to Cuba's Embassy in Spain, transmitting King Juan Carlos I's message to President Fidel Castro: 'I deeply appreciate Your Excellency's message which you conveyed through Cuba's Embassy in Spain. King Juan Carlos greatly appreciated the way in which you followed the recent attempt to alter Spanish constitutional legality.' The King expresses his recognition for Cuba's solidarity message after 23-F.",
+  "personas": [
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, autor del mensaje de agradecimiento" },
+    { "nombre": "Fidel Castro Ruz", "rol": "Presidente del Consejo de Estado y del Gobierno de Cuba, destinatario" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
+    { "nombre": "Embajada de Cuba en España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-04-03", "descripcion_es": "El Rey Juan Carlos agradece a Fidel Castro su mensaje de solidaridad con España tras el 23-F, a través de la Embajada cubana en Madrid", "descripcion_en": "King Juan Carlos thanks Fidel Castro for his solidarity message with Spain after 23-F, through Cuba's Embassy in Madrid", "lugar": "Madrid" }
+  ],
+  "citas_clave": [
+    { "texto_es": "Agradezco vivamente a Vuestra Excelencia el mensaje que me hizo llegar a través de la Embajada de Cuba en España", "texto_en": "I deeply appreciate Your Excellency's message which you conveyed through Cuba's Embassy in Spain", "fuente": "Mensaje del Rey Juan Carlos a Fidel Castro, abril 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "cuba", "juan-carlos-i", "fidel-castro", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_21", "filename": "D.21._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

@@ -1,0 +1,78 @@
+{
+  "titulo_es": "Oficio RESERVADO de la 5ª Zona (País Vasco) sobre la actitud e influencia del Tte. Coronel Tejero",
+  "titulo_en": "RESERVED official report from 5th Zone (Basque Country) on Lt. Col. Tejero's attitude and influence",
+  "fecha_documento": "1981-01-11",
+  "periodo": "pre-golpe",
+  "clasificacion_original": "RESERVADO",
+  "tipo_documento": "oficio",
+  "ministerio": "Interior",
+  "resumen_es": "Informe RESERVADO de la Jefatura de la 5ª Zona de la Guardia Civil (País Vasco) sobre el comportamiento, actitud e influencia del Teniente Coronel Tejero como Primer Jefe de la Comandancia de Málaga. El informe, continuación de otro anterior (nº 494), describe la tensión y malestar generados por Tejero en su unidad, su intención de influir en el ambiente social, sus declaraciones sobre la situación político-militar, y las frases desconsideradas hacia sus superiores. Concluye que sus sentimientos no son compartidos por la mayoría, y que sus compañeros no honran las recompensas recibidas. Señala que el coronel será observado.",
+  "resumen_en": "RESERVED report from the 5th Zone HQ of the Civil Guard (Basque Country) on Lt. Col. Tejero's behaviour and influence as Commander of Málaga. A follow-up to report no. 494, it describes tension and unrest in his unit, his intention to influence the social atmosphere, his statements about the political-military situation, and his disparaging remarks to superiors. Concludes his views are not shared by most colleagues. Notes the colonel will be monitored.",
+  "personas": [
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel, Primer Jefe de la Comandancia de Málaga",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Generó tensión y malestar en su unidad de Málaga",
+        "Intentó influir en el ambiente social y en la opinión pública",
+        "Realizó declaraciones sobre la situación político-militar contrarias a la disciplina",
+        "Hizo frases desconsideradas hacia sus superiores",
+        "Sus actividades políticas fueron objeto de vigilancia e informe reservado"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "5ª Zona Guardia Civil (País Vasco)", "tipo": "policial" },
+    { "nombre": "Comandancia de Málaga", "tipo": "policial" },
+    { "nombre": "Dirección General de la Guardia Civil", "tipo": "policial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-01-11",
+      "descripcion_es": "La Jefatura de la 5ª Zona emite informe RESERVADO sobre las actividades de Tejero como comandante de Málaga",
+      "descripcion_en": "The 5th Zone HQ issues a RESERVED report on Tejero's activities as Málaga commander",
+      "lugar": "País Vasco / Málaga"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Informe RESERVADO 5ª Zona",
+      "texto": "En ningún momento ha tenido por la falta de control de su fuerza, se halla poseído de una moral elevada sin poder bajar esa corriente al personal que le rodea, que necesita más y estimularles en el cumplimiento de su deber.",
+      "traduccion_en": "At no point has he lacked control of his force; he possesses a high morale that he cannot channel to the personnel around him, who need more stimulation to fulfil their duty.",
+      "importancia": "Describe el perfil psicológico y de liderazgo de Tejero antes del golpe: alta motivación personal, dificultad para transmitirla dentro del sistema"
+    },
+    {
+      "autor": "Informe RESERVADO 5ª Zona",
+      "texto": "Se estima que sus sentimientos no sean compartidos por sí a 'la gente' entre los compañeros que le rodean y que no vienen a honrar las recompensas concedidas a sus compañeros.",
+      "traduccion_en": "It is estimated that his feelings are not shared by most of the people and colleagues around him, who do not act to honour the rewards given to their companions.",
+      "importancia": "La Guardia Civil ya sabía antes del golpe que Tejero era un disidente aislado dentro del cuerpo"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "5ª Zona Guardia Civil",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "informó",
+      "descripcion": "Vigiló e informó sobre las actividades y actitud política de Tejero meses antes del 23-F",
+      "fecha": "1981-01-11"
+    },
+    {
+      "origen": "5ª Zona Guardia Civil",
+      "destino": "Dirección General de la Guardia Civil",
+      "tipo": "informó",
+      "descripcion": "Elevó informe reservado a la Dirección General sobre el comportamiento de Tejero",
+      "fecha": "1981-01-11"
+    }
+  ],
+  "temas": ["vigilancia-previa", "perfil-tejero", "malaga", "pais-vasco", "disciplina-guardia-civil", "pre-golpe"],
+  "_meta": {
+    "doc_id": "23F_9._Oficio_dimanante_Zona_del_Pais_Vasco_disposiciones_sobre_Tejero",
+    "filename": "23F_9._Oficio_dimanante_Zona_del_Pais_Vasco_disposiciones_sobre_Tejero.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

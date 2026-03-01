@@ -1,0 +1,41 @@
+{
+  "titulo_es": "Nota interior del CESID sobre reacciones ante la sentencia del 23-F en medios militares",
+  "titulo_en": "CESID internal note on military reactions to the 23-F verdict",
+  "fecha_documento": "1982-06-08",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota interior telex del CESID sobre las reacciones ante la sentencia del juicio del 23-F. Informa que el ambiente general es de tranquilidad y de no hacer comentarios hasta no tener todos los datos y las decisiones de los políticos. A nivel particular, señala que no ha sentado bien que el Gobierno haga declaraciones sobre la sentencia, y que existe posibilidad de crisis del partido del Gobierno o del propio Gobierno debido a fuertes tensiones internas por la decisión de recurrir la sentencia.",
+  "resumen_en": "CESID internal telex note on reactions to the 23-F trial verdict. Reports that the general mood is calm, with a wait-and-see attitude pending politicians' decisions. On a personal level, notes that the Government's statements on the verdict were not well received, and that there is a possibility of crisis within the governing party or the Government itself due to strong internal tensions over the decision to appeal the verdict.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-06-08",
+      "descripcion_es": "Reacciones en medios militares a la sentencia del 23-F: ambiente de espera con malestar por las declaraciones del Gobierno",
+      "descripcion_en": "Military reactions to 23-F verdict: wait-and-see mood with discontent at Government statements",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota interior CESID",
+      "texto": "EN TODOS LOS MEDIOS EN QUE SE HA TRATADO DE OBTENER INFORMACION EL AMBIENTE ES DE TRANQUILIDAD Y DE NO HACER COMENTARIOS HASTA NO TENER TODOS LOS DATOS Y DECISIONES QUE ADOPTEN LOS POLITICOS.",
+      "traduccion_en": "IN ALL CIRCLES WHERE INFORMATION HAS BEEN SOUGHT, THE MOOD IS ONE OF CALM AND OF WITHHOLDING COMMENT UNTIL ALL THE DATA AND POLITICAL DECISIONS ARE KNOWN.",
+      "importancia": "El CESID monitorizaba en tiempo real la reacción de los cuarteles a la sentencia del 23-F"
+    }
+  ],
+  "relaciones": [],
+  "temas": ["juicio", "sentencia", "cesid", "reacciones-militares", "causa-2-81"],
+  "_meta": {
+    "doc_id": "CNI_Documento_18_R",
+    "filename": "Documento_18_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

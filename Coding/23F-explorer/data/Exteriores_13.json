@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Carta del Ministro Pérez-Llorca al Embajador Todman agradeciendo la Resolución del Congreso de EE.UU. sobre España",
+  "titulo_en": "Foreign Minister Pérez-Llorca's letter to Ambassador Todman thanking him for the US Congress Resolution on Spain",
+  "fecha_documento": "1981-03-16",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "carta_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Carta del Ministro de Asuntos Exteriores de España José Pedro Pérez-Llorca al Embajador de los Estados Unidos Terence A. Todman (Madrid, 16 marzo 1981), agradeciendo la transmisión de la Resolución del Congreso de los Estados Unidos del 4 de marzo: 'Mucho le agradezco el envío de la resolución del Congreso de los Estados Unidos del pasado 4 de marzo. Aprecio en su justo valor los elogiosos términos en los que el Congreso se ha expresado sobre las Instituciones democráticas españolas con ocasión de los sucesos de los pasados días 23 y 24 de febrero.'",
+  "resumen_en": "Letter from Spanish Foreign Minister José Pedro Pérez-Llorca to US Ambassador Terence A. Todman (Madrid, 16 March 1981), thanking him for forwarding the US Congress Resolution of 4 March: 'I greatly thank you for sending the resolution of the United States Congress of 4 March. I duly appreciate the laudatory terms in which Congress has expressed itself regarding Spain's democratic institutions on the occasion of the events of 23 and 24 February.'",
+  "personas": [
+    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Asuntos Exteriores de España, autor de la carta" },
+    { "nombre": "Terence A. Todman", "rol": "Embajador de los Estados Unidos en España, destinatario" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
+    { "nombre": "Embajada de los Estados Unidos en Madrid", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-16", "descripcion_es": "Pérez-Llorca agradece formalmente a Todman la Resolución del Congreso de EE.UU. sobre la democracia española", "descripcion_en": "Pérez-Llorca formally thanks Todman for the US Congress Resolution on Spanish democracy", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "congreso-eeuu", "perez-llorca", "todman"],
+  "_meta": { "doc_id": "Exteriores_13", "filename": "D.13._AGMAE_R39017_Exp._4.jpg", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

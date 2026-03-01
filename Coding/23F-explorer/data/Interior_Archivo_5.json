@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Nota informativa sobre involucionismo político y posible golpe militar en Valladolid: las tres corrientes pro-golpistas",
+  "titulo_en": "Intelligence note on political involutionism and possible military coup in Valladolid: the three pro-coup tendencies",
+  "fecha_documento": "1981-03-01",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota informativa de la Brigada de Información de Valladolid (3 páginas) sobre la formación de tres tendencias pro-golpistas en el ejército tras el 23-F: A) Corriente Inestrillas ('Los Inestrillos') — acción dura o violenta, se reúnen en 'La Hípica' de Valladolid, defienden el golpe como solución política; B) Corriente Almendros — facción intelectual del ejército, actúa en la clandestinidad difundiendo panfletos en domicilios de Jefes y Oficiales que argumentaban que el golpe militar era la única salida lógica; C) Corriente Opus-Dei — carácter puramente ideológico, ligada a Opus-Dei político. La nota incluye listados de oficiales identificados (nombres redactados) por categorías: fascistas violentos y golpe 'a la turca' de coroneles.",
+  "resumen_en": "Intelligence note from the Valladolid Information Brigade (3 pages) on the formation of three pro-coup tendencies in the army after 23-F: A) Corriente Inestrillas ('Los Inestrillos') — hard/violent action, meet at 'La Hípica' in Valladolid, advocate coup as political solution; B) Corriente Almendros — intellectual faction of the army, operates clandestinely distributing pamphlets to Officers' homes arguing military coup was the only logical exit; C) Corriente Opus-Dei — purely ideological, linked to political Opus Dei. Note includes lists of identified officers (names redacted) by category: violent fascists and 'Turkish-style' colonels' coup.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Brigada de Información de Valladolid", "tipo": "seguridad" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-01", "descripcion_es": "La Brigada de Información de Valladolid identifica tres corrientes pro-golpistas en el ejército: 'Los Inestrillos', 'Almendros' y 'Opus-Dei', con listados de oficiales implicados", "descripcion_en": "Valladolid Information Brigade identifies three pro-coup tendencies in the army: 'Los Inestrillos', 'Almendros' and 'Opus-Dei', with lists of implicated officers", "lugar": "Valladolid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "involucionismo", "corrientes-pro-golpistas", "valladolid", "opus-dei", "brigada-informacion", "ministerio-interior"],
+  "_meta": { "doc_id": "Interior_Archivo_5", "filename": "5_INVOLUCIONISMO_POLITICO_PROVOCADO_POSIBLE_GOLPE_MILITAR_desp.pdf", "folder": "interior/archivo", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

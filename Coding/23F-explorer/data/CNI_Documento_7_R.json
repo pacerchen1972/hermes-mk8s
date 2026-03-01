@@ -1,0 +1,99 @@
+{
+  "titulo_es": "Investigación interna del CESID sobre participación de la AOME en el 23-F: declaraciones de Cortina, García-Almenta, Monge y otros (40 páginas)",
+  "titulo_en": "CESID internal investigation into AOME involvement in 23-F: testimonies of Cortina, García-Almenta, Monge and others (40 pages)",
+  "fecha_documento": "1981-04-09",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "expediente",
+  "ministerio": "Defensa",
+  "resumen_es": "Expediente de investigación interna de 40 páginas ordenado el 31 de marzo de 1981 por el Coronel Director en funciones del CESID al Tcol. Juan Jáubenes Jordano. Recoge las declaraciones bajo juramento de los miembros de la AOME implicados: Comandante Cortina Prieto, Capitán García-Almenta, Cabo 1º Rafael Monge Segura, Capitán Diego Camargo (PLM AOME), Capitán Vicente Gómez Iglesias, Sargento Rando Farra y Sargento Miguel. Las declaraciones revelan los detalles de la Operación Mister, los turnos de vigilancia el día 23, y los intentos de encubrimiento. Monge niega conocimiento previo; afirma que recibió la orden de participar en la Operación Mister el propio día 23 de manos del Capitán García-Almenta.",
+  "resumen_en": "40-page internal investigation dossier ordered on 31 March 1981 by the acting CESID Director Colonel to Lt. Col. Juan Jáubenes Jordano. Records sworn statements from involved AOME members: Commander Cortina Prieto, Captain García-Almenta, Corporal Rafael Monge Segura, Captain Diego Camargo (PLM AOME), Captain Vicente Gómez Iglesias, Sergeant Rando Farra and Sergeant Miguel. Statements reveal details of Operation Mister, surveillance shifts on 23 February, and cover-up attempts. Monge denies foreknowledge; states he received the order to participate in Operation Mister on the day itself from Captain García-Almenta.",
+  "personas": [
+    {
+      "nombre": "Juan Jáubenes Jordano",
+      "cargo": "Teniente Coronel de Artillería, CESID",
+      "organizacion": "CESID",
+      "rol_en_23f": "leal",
+      "acciones": ["Dirigió la investigación interna sobre participación de la AOME en el 23-F"]
+    },
+    {
+      "nombre": "José Luis Cortina Prieto",
+      "cargo": "Comandante, Jefe AOME-CESID",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Declaró ante la investigación interna", "Organizó la Operación Mister para encubrir la participación"]
+    },
+    {
+      "nombre": "Capitán García Almenta",
+      "cargo": "Capitán 2º Jefe AOME-CESID",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Declaró ante la investigación", "Distribuyó las órdenes de la Operación Mister a los subordinados el día 23"]
+    },
+    {
+      "nombre": "Rafael Monge Segura",
+      "cargo": "Cabo 1º Guardia Civil, Jefe SEA-AOME",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Participó en la Operación Mister el día 23 en turno de 15:00 a 16:15", "Negó todo conocimiento previo del golpe"]
+    },
+    {
+      "nombre": "Vicente Gómez Iglesias",
+      "cargo": "Capitán, Jefe de unidad GOME-AOME",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Declaró ante la investigación interna sobre los hechos del 23-F"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "AOME (Agrupación Operativa de Misiones Especiales)", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-03-31",
+      "descripcion_es": "El Coronel Director en funciones del CESID ordena investigación interna sobre participación de la AOME en el 23-F",
+      "descripcion_en": "Acting CESID Director Colonel orders internal investigation into AOME involvement in 23-F",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-04-01",
+      "descripcion_es": "Comienzan las declaraciones de los miembros de la AOME ante Jáubenes Jordano",
+      "descripcion_en": "AOME members begin giving statements to Jáubenes Jordano",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Declaración Cabo 1º Monge Segura",
+      "texto": "Niega absolutamente todo conocimiento previo de lo que ocurrió. El día 23 estaba en operación MISTER, que la llevaban entre tres, en turnos de tres horas. La orden de intervenir en esta operación la recibió el propio día 23 del Cap. Don Francisco García-Almenta.",
+      "traduccion_en": "Absolutely denies any foreknowledge of what happened. On 23 February he was on Operation MISTER, carried out by three people in three-hour shifts. He received the order to take part in the operation on 23 February itself from Captain García-Almenta.",
+      "importancia": "Demuestra que incluso los participantes directos del encubrimiento afirmaban no conocer el golpe de antemano, pero sí participaron en la Operación Mister de encubrimiento"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "AOME (Agrupación Operativa de Misiones Especiales)",
+      "tipo": "juzgó",
+      "descripcion": "CESID abrió investigación interna sobre la participación de la AOME en el 23-F",
+      "fecha": "1981-03-31"
+    },
+    {
+      "origen": "Capitán García Almenta",
+      "destino": "Rafael Monge Segura",
+      "tipo": "ordenó",
+      "descripcion": "García-Almenta dio a Monge Segura la orden de participar en la Operación Mister el día 23",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["cesid", "aome", "investigacion-interna", "operacion-mister", "cortina", "encubrimiento", "post-golpe"],
+  "_meta": {
+    "doc_id": "CNI_Documento_7_R",
+    "filename": "Documento_7_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 40,
+    "processed_by": "claude-code"
+  }
+}

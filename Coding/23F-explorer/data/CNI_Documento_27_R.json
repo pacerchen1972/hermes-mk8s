@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 5 may. 1982 de la vista oral Causa 2/81: defensa del Tcol. Tejero y Más Oliver",
+  "titulo_en": "Intelligence note on the 5 May 1982 Causa 2/81 hearing: defence of Lt Col Tejero and Más Oliver",
+  "fecha_documento": "1982-05-05",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (BG/7946/05-05-82) sobre la sesión del 5 de mayo de 1982. Intervienen el Sr. López Montero (defensor de Tejero, concluye la lectura de informes), el Tcol. Oronoz (codefensor de Tejero), el Sr. Martín Fernández (defensor del Tcol. Más Oliver) y el General García Vallespín (codefensor de Más Oliver). El Tcol. Oronoz argumentó que el General Armada ordenó a Tejero la toma del Congreso y que la intervención era factible y constitucional; invocó que el plan de Milans del Bosch no podía ser fácilmente atribuido al Rey.",
+  "resumen_en": "CESID intelligence note (BG/7946/05-05-82) on the 5 May 1982 session. Intervening: Mr López Montero (defending Tejero, concludes reading of reports), Lt Col Oronoz (co-defending Tejero), Mr Martín Fernández (defending Lt Col Más Oliver) and General García Vallespín (co-defending Más Oliver). Lt Col Oronoz argued General Armada ordered Tejero to seize Congress and that the intervention was constitutional; he claimed Milans del Bosch's plan could not easily be attributed to the King.",
+  "personas": [
+    { "nombre": "Antonio Tejero Molina", "cargo": "Teniente Coronel de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "conspirador", "acciones": ["Su defensa argumentó que Armada le ordenó la toma del Congreso y que la intervención era constitucional"] },
+    { "nombre": "Pedro Mas Oliver", "cargo": "Teniente Coronel de Infantería", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Representado por el Sr. Martín Fernández y el General García Vallespín"] },
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Según la defensa de Tejero, fue Armada quien le ordenó la toma del Congreso"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-05-05", "descripcion_es": "Vista oral Causa 2/81: defensa de Tejero atribuye la orden de tomar el Congreso al General Armada; defensa de Más Oliver", "descripcion_en": "Causa 2/81 hearing: Tejero's defence attributes order to seize Congress to General Armada; Más Oliver defence", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "Alfonso Armada Comyn", "destino": "Antonio Tejero Molina", "tipo": "ordenó", "descripcion": "Según la defensa de Tejero en el juicio, fue Armada quien le ordenó la toma del Congreso", "fecha": "1982-05-05" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "tejero", "armada", "mas-oliver", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_27_R", "filename": "Documento_27_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 6, "processed_by": "claude-code" }
+}

@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Nota informativa (DTOR) sobre incidentes en la tarde del 5 abr. 1982 en la vista oral Causa 2/81: malestar de Milans del Bosch",
+  "titulo_en": "Intelligence note (DTOR) on incidents during the afternoon of 5 Apr. 1982 at the Causa 2/81 hearing: Milans del Bosch's indisposition",
+  "fecha_documento": "1982-04-05",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/HB/3504/01-04-82, marcada DTOR) sobre los incidentes de la tarde del 5 de abril de 1982. A las 17:45 el General Santamaría fue llamado pero el abogado De Miguel no lo utilizó. A continuación el General Milans del Bosch declaró sentirse mal, con náuseas por lo que se había dicho, y abandonó la sala. Le siguió el TC Mas. El Presidente ordenó desalojar la sala de inmediato. En las inmediaciones, el periodista Miguel Aguilar se expresó vociferante. Un grupo de compañeros lo condujo fuera del lugar. Eran las 17:51 horas.",
+  "resumen_en": "CESID intelligence note (C/HB/3504/01-04-82, marked DTOR) on the incidents of the afternoon of 5 April 1982. At 17:45 General Santamaría was called but counsel De Miguel did not use him. General Milans del Bosch then declared he felt unwell and nauseous at what had been said, and left the room. Lt. Col. Mas followed immediately. The President ordered the courtroom cleared. Outside, journalist Miguel Aguilar was heard shouting vocally. A group of colleagues escorted him out. It was 17:51.",
+  "personas": [
+    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General, Capitán General 3ª Región Militar", "organizacion": "Ejército de Tierra", "rol_en_23f": "golpista", "acciones": ["Se sintió mal durante la sesión del 5 de abril y abandonó la sala manifestando náuseas; fue seguido por el TC Mas"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-05", "descripcion_es": "El General Milans del Bosch abandona la sala de la vista oral por indisposición; el Presidente ordena desalojar el tribunal a las 17:51", "descripcion_en": "General Milans del Bosch leaves the courtroom due to indisposition; President orders the court cleared at 17:51", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [
+    { "autor": "Jaime Milans del Bosch", "texto_es": "Quiero salir... me siento mal... siento náuseas por lo que se ha dicho... se marchó.", "texto_en": "I want to leave... I feel unwell... I feel nauseous because of what has been said... and he left.", "contexto": "Salida del General Milans del Bosch de la sala del CSJM, 5 abril 1982, 17:51" }
+  ],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "milans", "incidentes", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_46_R", "filename": "Documento_46_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

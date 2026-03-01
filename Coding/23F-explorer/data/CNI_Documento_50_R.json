@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 26 mar. 1982 de la vista oral Causa 2/81: testimonios del Capitán Abad y el Capitán Acosta",
+  "titulo_en": "Intelligence note on the 26 Mar. 1982 Causa 2/81 hearing: testimony from Captain Abad and Captain Acosta",
+  "fecha_documento": "1982-03-26",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Segunda nota informativa del CESID (N/Rfda. C/90/5.014/26.03.82) sobre la sesión del 26 de marzo de 1982. Testificaron los Capitanes de la Guardia Civil Abad y Acosta. El Capitán Abad confirmó que Gómez Iglesias era considerado un 'amigo del CESID' vinculado a Cortina; fue convocado para una reunión el 23-F a las 17:00 y llegó a Baeza de Orcasitas hacia las 23:30. El Capitán Muñeca Ballesteros confirmó la presencia de Armada en el Congreso portando una gorra de Vicepresidente y vio también al General Prieto.",
+  "resumen_en": "Second CESID intelligence note (N/Rfda. C/90/5.014/26.03.82) on the 26 March 1982 session. Civil Guard Captains Abad and Acosta testified. Captain Abad confirmed that Gómez Iglesias was regarded as a 'CESID friend' linked to Cortina; he was summoned to a meeting on 23-F at 17:00 and arrived at Baeza de Orcasitas around 23:30. Captain Muñeca Ballesteros confirmed Armada's presence at Congress wearing a Vice-President's cap; he also saw General Prieto.",
+  "personas": [
+    { "nombre": "Abad", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Confirmó que Gómez Iglesias era 'amigo del CESID'; fue convocado para reunión el 23-F a las 17:00; llegó a Baeza de Orcasitas hacia las 23:30"] },
+    { "nombre": "Muñeca Ballesteros", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Confirmó que Armada llegó al Congreso portando una gorra de Vicepresidente; vio también al General Prieto; reconoció el incidente del Coronel Aramburu en fotografías"] },
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Según testigo Muñeca, llegó al Congreso portando una gorra de Vicepresidente"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-26", "descripcion_es": "Vista oral Causa 2/81: Capitán Muñeca confirma que Armada llegó al Congreso con gorra de Vicepresidente; Capitán Abad describe convocatoria el 23-F y concentración en Baeza de Orcasitas", "descripcion_en": "Causa 2/81 hearing: Captain Muñeca confirms Armada arrived at Congress wearing a Vice-President's cap; Captain Abad describes being summoned on 23-F and gathering at Baeza de Orcasitas", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "gomez-iglesias", "guardia-civil", "testigos", "baeza-orcasitas", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_50_R", "filename": "Documento_50_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

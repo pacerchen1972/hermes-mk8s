@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Embajada en La Habana remite recorte del diario cubano 'Granma' sobre incidente en el juicio del 23-F",
+  "titulo_en": "Embassy in Havana forwards clipping from Cuban newspaper 'Granma' on incident at 23-F trial",
+  "fecha_documento": "1982-04-07",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_consular",
+  "ministerio": "Exteriores",
+  "resumen_es": "Nota de la Embajada de España en La Habana (Cuba, 7 abril 1982) al Ministerio de Asuntos Exteriores, remitiendo el suelto publicado en la sección 'Hilo Directo' del diario cubano 'Granma' sobre el incidente protagonizado el día 5 de abril por algunos procesados en el juicio por el intento de golpe militar del 23 de febrero de 1981. Firmado: Enrique Larreque.",
+  "resumen_en": "Note from Spain's Embassy in Havana, Cuba (7 April 1982) to the Ministry of Foreign Affairs, forwarding the item published in Cuban newspaper 'Granma's 'Hilo Directo' section on the incident involving some defendants at the trial of the 23 February 1981 attempted military coup on 5 April. Signed: Enrique Larreque.",
+  "personas": [
+    { "nombre": "Enrique Larreque", "rol": "Embajador de España en Cuba, firmante" }
+  ],
+  "organizaciones": [
+    { "nombre": "Embajada de España en La Habana", "tipo": "gobierno" },
+    { "nombre": "Granma", "tipo": "medios" },
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-07", "descripcion_es": "El diario cubano Granma informa sobre un incidente en el juicio del 23-F; la Embajada española en La Habana transmite el recorte", "descripcion_en": "Cuban newspaper Granma reports on an incident at the 23-F trial; Spanish Embassy in Havana transmits the clipping", "lugar": "La Habana, Cuba" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "reacciones-internacionales", "cuba", "prensa-extranjera", "incidente-juicio"],
+  "_meta": { "doc_id": "Exteriores_25", "filename": "D.25._AGA-83-08764_exp._5.pdf", "folder": "exteriores/AGA-83-08764", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 12 may. 1982 de la vista oral Causa 2/81: defensas de Gómez Iglesias y Álvarez-Arenas",
+  "titulo_en": "Intelligence note on the 12 May 1982 Causa 2/81 hearing: defence of Gómez Iglesias and Álvarez-Arenas",
+  "fecha_documento": "1982-05-12",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (ref. DTOR 1637/12-05-82) sobre la sesión del 12 de mayo de 1982 de la vista oral de la Causa 2/81. Intervienen los defensores del Capitán de la Guardia Civil Gómez Iglesias (Sr. Requivel Giménez), del Capitán Álvarez-Arenas Pardinas (Sr. Gómez García), del Capitán Ignacio Román (Sr. Villalobos) y otros. El Ministerio Fiscal solicitó la separación del servicio del Capitán Gómez Iglesias. La defensa argumentó que el Capitán nunca entró en casa del Teniente Coronel Tejero.",
+  "resumen_en": "CESID intelligence note (ref. DTOR 1637/12-05-82) on the 12 May 1982 session of the Causa 2/81 oral hearing. Intervening: counsel for Civil Guard Captain Gómez Iglesias (Mr Requivel Giménez), Captain Álvarez-Arenas Pardinas (Mr Gómez García), Captain Ignacio Román (Mr Villalobos) and others. The Public Prosecutor requested Captain Gómez Iglesias's dismissal from service. Defence argued the Captain never entered Lieutenant Colonel Tejero's home.",
+  "personas": [
+    { "nombre": "Vicente Gómez Iglesias", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "conspirador", "acciones": ["Su defensa argumentó que nunca entró en casa del Tcol. Tejero; el Fiscal solicitó su separación del servicio"] },
+    { "nombre": "Carlos Álvarez Arenas Pardinas", "cargo": "Capitán de Infantería", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Representado por el Sr. Gómez García en la sesión del 12-05-82"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "policial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-05-12", "descripcion_es": "Vista oral Causa 2/81: defensas de Gómez Iglesias, Álvarez-Arenas y otros; Fiscal pide separación del servicio para Gómez Iglesias", "descripcion_en": "Causa 2/81 hearing: defence of Gómez Iglesias, Álvarez-Arenas and others; Prosecutor requests dismissal of Gómez Iglesias", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "gomez-iglesias", "guardia-civil", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_24_R", "filename": "Documento_24_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 5, "processed_by": "claude-code" }
+}

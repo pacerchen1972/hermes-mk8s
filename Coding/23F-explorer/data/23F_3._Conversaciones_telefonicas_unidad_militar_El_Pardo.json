@@ -1,0 +1,119 @@
+{
+  "titulo_es": "Registro de llamadas telefónicas interceptadas en la Unidad Militar El Pardo (madrugada 24 feb)",
+  "titulo_en": "Log of intercepted phone calls at El Pardo Military Unit (early hours 24 Feb)",
+  "fecha_documento": "1981-02-24",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "transcripcion_telefonica",
+  "ministerio": "Interior",
+  "resumen_es": "Registro de las llamadas telefónicas interceptadas en la centralita de la Unidad Militar El Pardo durante la madrugada del 24 de febrero de 1981 (Cinta 1, Cara 1, a partir de las 3:30h). Mezcla de llamadas rutinarias de familiares de soldados con llamadas operacionales relevantes, entre ellas una del Capitán Díaz Sánchez verificando movimientos del Regimiento Villaviciosa y confirmando que el Capitán Merlo llevó escuadrones a Televisión Española. También hay una llamada del Capitán Milans preguntando por el Brigada Laguna.",
+  "resumen_en": "Log of intercepted calls at El Pardo Military Unit switchboard from 3:30am on 24 February 1981 (Tape 1, Side 1). Mixes routine family calls with operationally relevant ones, including Capitán Díaz Sánchez verifying Villaviciosa Regiment movements and confirming Capitán Merlo led squadrons to Spanish Television. Also a call from Capitán Milans asking for Brigada Laguna.",
+  "personas": [
+    {
+      "nombre": "Capitán Díaz Sánchez",
+      "cargo": "Capitán",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "testigo",
+      "acciones": [
+        "Llamó al Sargento Sánchez para verificar si el Regimiento estaba completo",
+        "Confirmó movimientos de Villaviciosa",
+        "Preguntó sobre el mando que llevó los escuadrones a televisión (Corcuero / Milans del Bosch)"
+      ]
+    },
+    {
+      "nombre": "Capitán Merlo",
+      "cargo": "Capitán",
+      "organizacion": "Regimiento Villaviciosa",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Llevó dos escuadrones del Regimiento Villaviciosa a Televisión Española durante el golpe"
+      ]
+    },
+    {
+      "nombre": "Capitán Milans",
+      "cargo": "Capitán",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Llamó al cuerpo de guardia preguntando por el Brigada Laguna; la comunicación se cortó"
+      ]
+    },
+    {
+      "nombre": "Teniente Coronel Pozo",
+      "cargo": "Teniente Coronel",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "testigo",
+      "acciones": [
+        "Mencionado como quien confirmó al Capitán Díaz Sánchez que el regimiento estaba al completo"
+      ]
+    },
+    {
+      "nombre": "Javier Gómez San Cristóbal",
+      "cargo": "Alumno PPE (Plan de Prácticas del Ejército) del Ejército del Aire",
+      "organizacion": "Ejército del Aire",
+      "rol_en_23f": "testigo",
+      "acciones": [
+        "Llamó para preguntar si había clase; le informaron que estaban acuartelados"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "Unidad Militar El Pardo", "tipo": "militar" },
+    { "nombre": "Regimiento Villaviciosa", "tipo": "militar" },
+    { "nombre": "Televisión Española", "tipo": "otro" },
+    { "nombre": "Ejército del Aire", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-24",
+      "descripcion_es": "El Regimiento Villaviciosa, mandado por el Capitán Merlo, envió dos escuadrones a ocupar Televisión Española durante el golpe",
+      "descripcion_en": "The Villaviciosa Regiment, led by Capitán Merlo, sent two squadrons to occupy Spanish Television during the coup",
+      "lugar": "Madrid, Televisión Española"
+    },
+    {
+      "fecha": "1981-02-24",
+      "descripcion_es": "Acuartelamiento confirmado de unidades militares en la madrugada del 24 de febrero",
+      "descripcion_en": "Confirmed military barracks lockdown in the early hours of 24 February",
+      "lugar": "Madrid, El Pardo"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Sargento Sánchez (al Capitán Díaz Sánchez)",
+      "texto": "Sí, porque he estado hablando allí y me han dicho que salieron dos escuadrones, lo que pasa es que a televisión solo llevaron dos.",
+      "traduccion_en": "Yes, because I was talking there and they told me two squadrons left, but they only took two to the television station.",
+      "importancia": "Confirma el despliegue militar en Televisión Española como parte del golpe"
+    },
+    {
+      "autor": "Luis Martín (al teléfono, tranquilizando a su madre)",
+      "texto": "El día anterior se lió todo un poco, pero ya hay normalidad.",
+      "traduccion_en": "The previous day things got a bit chaotic, but normality has returned.",
+      "importancia": "Refleja el retorno a la normalidad desde la perspectiva de un soldado raso la madrugada del 24"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Capitán Merlo",
+      "destino": "Televisión Española",
+      "tipo": "coordinó",
+      "descripcion": "Lideró la ocupación de TVE con dos escuadrones del Regimiento Villaviciosa",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Capitán Milans",
+      "destino": "Unidad Militar El Pardo",
+      "tipo": "llamó",
+      "descripcion": "Llamó preguntando por el Brigada Laguna; la comunicación se cortó",
+      "fecha": "1981-02-24"
+    }
+  ],
+  "temas": ["acuartelamiento", "television-española", "movimientos-militares", "vigilancia-telefonica", "villaviciosa"],
+  "_meta": {
+    "doc_id": "23F_3._Conversaciones_telefonicas_unidad_militar_El_Pardo",
+    "filename": "23F_3._Conversaciones_telefonicas_unidad_militar_El_Pardo.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 12,
+    "processed_by": "claude-code"
+  }
+}

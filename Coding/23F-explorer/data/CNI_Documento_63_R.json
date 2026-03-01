@@ -1,0 +1,32 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 2 mar. 1982 de la vista oral Causa 2/81: Cte. Pardo confirma llamada de Cortina el 22-F; San Martín transmitió mensaje del Rey",
+  "titulo_en": "Intelligence note on the 2 Mar. 1982 Causa 2/81 hearing: Cte. Pardo confirms Cortina's call on 22-F; San Martín transmitted King's message",
+  "fecha_documento": "1982-03-02",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/90/1.444/02-03-82, marcada DTOR) sobre la sesión del 2 de marzo de 1982. El Comandante Pardo Zancada confirmó haber recibido una llamada del Comandante Cortina el 22 de febrero (día anterior al 23-F) convocándole a una reunión. También confirmó su papel de coordinación de las fuerzas de la División Acorazada (DAC) en apoyo de la toma del Congreso. La defensa del Coronel San Martín estableció que éste transmitió el mensaje del Rey a través del JEME (Juste) por la cadena de mando.",
+  "resumen_en": "CESID intelligence note (C/90/1.444/02-03-82, marked DTOR) on the 2 March 1982 session. Commander Pardo Zancada confirmed receiving a call from Commander Cortina on 22 February (the day before 23-F) summoning him to a meeting. He also confirmed his role in coordinating Armoured Division (DAC) forces to support the Congress seizure. The defence of Colonel San Martín established that he transmitted the King's message through JEME (Juste) via the chain of command.",
+  "personas": [
+    { "nombre": "Pardo Zancada", "cargo": "Comandante", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Confirmó haber recibido llamada de Cortina el 22 de febrero; confirmó su papel coordinando fuerzas de la DAC en apoyo del golpe"] },
+    { "nombre": "José Cortina Prieto", "cargo": "Comandante de Infantería, CESID/AOME", "organizacion": "CESID", "rol_en_23f": "conspirador", "acciones": ["Llamó al Cte. Pardo el 22 de febrero, día antes del golpe, para convocarle a una reunión"] },
+    { "nombre": "San Martín", "cargo": "Coronel", "organizacion": "Ejército de Tierra", "rol_en_23f": "acusado", "acciones": ["Transmitió el mensaje del Rey a través del JEME (Juste) por la cadena de mando; su defensa lo presentó como actuación conforme a la legalidad"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "División Acorazada (DAC)", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-02", "descripcion_es": "Vista oral Causa 2/81: Pardo confirma llamada de Cortina el 22-F y su papel en la coordinación de la DAC; San Martín identificado como transmisor del mensaje del Rey", "descripcion_en": "Causa 2/81 hearing: Pardo confirms Cortina's call on 22-F and his role in DAC coordination; San Martín identified as transmitter of the King's message", "lugar": "Consejo Supremo de Justicia Militar, Madrid" },
+    { "fecha": "1981-02-22", "descripcion_es": "Llamada del Cte. Cortina al Cte. Pardo convocándole a una reunión, día anterior al golpe (confirmada en el juicio)", "descripcion_en": "Cte. Cortina calls Cte. Pardo summoning him to a meeting, the day before the coup (confirmed at hearing)", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "José Cortina Prieto", "destino": "Pardo Zancada", "tipo": "coordinacion", "descripcion": "Llamada telefónica del 22 de febrero para convocar a Pardo a una reunión previa al golpe" },
+    { "origen": "Pardo Zancada", "destino": "División Acorazada (DAC)", "tipo": "coordinacion", "descripcion": "Pardo coordinó fuerzas de la DAC en apoyo de la toma del Congreso" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "pardo", "cortina", "san-martin", "dac", "testigos", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_63_R", "filename": "Documento_63_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

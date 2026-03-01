@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Traslado de peticiones de los abogados de los procesados en la Causa 2/81 al Ministerio de Defensa (Secreto, 8 páginas)",
+  "titulo_en": "Transfer of petitions from lawyers of Case 2/81 defendants to Ministry of Defence (Secret, 8 pages)",
+  "fecha_documento": "1981-08-03",
+  "periodo": "post-golpe",
+  "clasificacion_original": "secreto",
+  "tipo_documento": "traslado",
+  "ministerio": "Defensa",
+  "resumen_es": "Documento SECRETO (núm. 3351, Carpeta 21800, 8 páginas, agosto 1981) del Gabinete del Ministerio de Defensa que traslada al Asesor General las peticiones dirigidas al Ministro de Defensa por los abogados defensores de los procesados en la Causa 2/81 sobre el intento de golpe de estado del 23-F. Peticiones relacionadas con las condiciones de detención, acceso a los implicados y otras cuestiones procesales.",
+  "resumen_en": "SECRET document (no. 3351, Carpeta 21800, 8 pages, August 1981) from the Ministry of Defence Cabinet transferring to the General Adviser the petitions directed to the Minister of Defence by defence lawyers of Case 2/81 defendants regarding the 23-F attempted coup. Petitions related to detention conditions, access to defendants and other procedural matters.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1981-08-03", "descripcion_es": "MinDef traslada a la Asesoría General las peticiones de los abogados defensores de los procesados en la Causa 2/81", "descripcion_en": "Ministry of Defence transfers to General Adviser the petitions from defence lawyers of Case 2/81 defendants", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "abogados-defensa", "causa-2-81", "ministerio-defensa", "peticiones"],
+  "_meta": { "doc_id": "Defensa_15", "filename": "Carpeta_21800_Secreto_traslado_de_peticiones_de_los_Abogados_de_los_condenados.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 8, "processed_by": "claude-code" }
+}

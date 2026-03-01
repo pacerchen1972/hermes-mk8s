@@ -1,0 +1,95 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 24 feb. 1982 de la vista oral Causa 2/81: defensas de Milans, Armada y García Carrés",
+  "titulo_en": "Intelligence note on the 24 Feb. 1982 Causa 2/81 hearing: defence of Milans, Armada and García Carrés",
+  "fecha_documento": "1982-02-25",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (ref. C/SG/3.081/25-02-82) sobre la sesión del 24 de febrero de 1982 de la vista oral de la Causa 2/81. El Coronel Escandell (defensor de Milans del Bosch e Ibáñez) solicitó la lectura de la declaración de Gutiérrez Mellado y de las Hojas de Servicios de sus defendidos, que incluían referencias a los 'rojos' (guerra civil) y a la 'sumisión al Führer' (División Azul). El Sr. Hermosilla (defensor de Armada) también solicitó lecturas. García Carrés negó haber actuado de enlace entre Tejero y otros implicados. La sesión registró al menos 74 menciones al Rey y 15 al CESID.",
+  "resumen_en": "CESID intelligence note (ref. C/SG/3.081/25-02-82) on the 24 February 1982 session of the Causa 2/81 oral hearing. Colonel Escandell (defending Milans del Bosch and Ibáñez) requested reading of Gutiérrez Mellado's declaration and his clients' service records, which included references to 'reds' (civil war) and 'submission to the Führer' (Blue Division). Mr Hermosilla (defending Armada) also requested readings. García Carrés denied acting as a liaison between Tejero and other plotters. The session recorded at least 74 references to the King and 15 to CESID.",
+  "personas": [
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "cargo": "Teniente General, Capitán General de Valencia",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Su Hoja de Servicios fue leída durante casi una hora; incluía referencias a la guerra civil y a la División Azul",
+        "Su defensa le presenta como militar heroico que actuó dentro de la Constitución y en nombre de la Corona"
+      ]
+    },
+    {
+      "nombre": "Alfonso Armada Comyn",
+      "cargo": "General, ex-secretario de la Casa del Rey",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Su defensa alega que no intervino en el golpe ni sus preparativos",
+        "Se ofreció por lealtad a la Corona a buscar una solución constitucional"
+      ]
+    },
+    {
+      "nombre": "Juan García Carrés",
+      "cargo": "Dirigente sindical ultraderechista",
+      "organizacion": "civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Niega haber actuado de enlace entre Tejero y otros implicados",
+        "Afirma que sus contactos telefónicos con Tejero fueron motivados por amistad y humanitarismo"
+      ]
+    },
+    {
+      "nombre": "Manuel Gutiérrez Mellado",
+      "cargo": "General, ex-Vicepresidente del Gobierno",
+      "organizacion": "Gobierno",
+      "rol_en_23f": "leal",
+      "acciones": ["Su declaración fue solicitada por el defensor Escandell"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "División Azul", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-02-24",
+      "descripcion_es": "Sesión vista oral Causa 2/81: defensas de Milans e Ibáñez (Escandell) y Armada (Hermosilla); García Carrés niega rol de enlace; 74 menciones al Rey y 15 al CESID",
+      "descripcion_en": "Causa 2/81 hearing session: defence of Milans and Ibáñez (Escandell) and Armada (Hermosilla); García Carrés denies liaison role; 74 references to the King and 15 to CESID",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota informativa CESID",
+      "texto": "La lectura parcial de la Hoja de Servicios del Teniente General MILANS DEL BOSCH, que ha durado casi una hora, no ha aportado sobre su personalidad nada nuevo. Algunas referencias a los 'rojos' (en ocasión de la guerra civil) y a la 'sumisión' al Führer (División Azul) han llamado la atención a periodistas (nacionales y extranjeros).",
+      "traduccion_en": "The partial reading of Lieutenant General Milans del Bosch's service record, which lasted nearly an hour, revealed nothing new about his personality. Some references to 'reds' (during the Civil War) and to 'submission' to the Führer (Blue Division) caught the attention of journalists (national and foreign).",
+      "importancia": "Documenta el perfil ideológico de Milans del Bosch: combatiente franquista y voluntario de la División Azul, revelando el trasfondo político-ideológico del golpe"
+    },
+    {
+      "autor": "Nota informativa CESID",
+      "texto": "En el transcurso de la sesión se hizó mención concreta a S.M. no menos de 74 veces, y al CESID no menos de 15 veces.",
+      "traduccion_en": "During the session concrete mention was made of HM the King at least 74 times, and of CESID at least 15 times.",
+      "importancia": "La centralidad del Rey y del CESID en el debate refleja la estrategia defensiva de implicar a ambos en el golpe"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Juan García Carrés",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "negó_coordinación",
+      "descripcion": "García Carrés negó haber actuado de enlace entre Tejero y otros implicados",
+      "fecha": "1982-02-24"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "milans", "armada", "garcia-carres", "division-azul", "rey-juan-carlos", "csjm"],
+  "_meta": {
+    "doc_id": "CNI_Documento_67_R",
+    "filename": "Documento_67_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 6,
+    "processed_by": "claude-code"
+  }
+}

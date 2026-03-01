@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 4 may. 1982 de la vista oral Causa 2/81: defensa del Coronel Manchado García",
+  "titulo_en": "Intelligence note on the 4 May 1982 Causa 2/81 hearing: defence of Colonel Manchado García",
+  "fecha_documento": "1982-05-04",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (1049/04-05-82) sobre la sesión del 4 de mayo de 1982. Intervienen el General Chamorro Martín y el Dr. López Silva, defensores del Coronel de la Guardia Civil Manchado García. El General Chamorro (doctor en ciencias políticas y sociología) declaró que su defendido fue leal a la autoridad militar y cumplió órdenes. Argumentó que el bando del General Milans del Bosch era una práctica normal durante la República y criticó que el Fiscal no adoptara iniciativas. Mencionó que el General Torres Rojas estaba en la División Acorazada con uniforme de campaña.",
+  "resumen_en": "CESID intelligence note (1049/04-05-82) on the 4 May 1982 session. Intervening: General Chamorro Martín and Dr López Silva, defending Civil Guard Colonel Manchado García. General Chamorro (doctorate in political sciences and sociology) stated his client was loyal to military authority and followed orders. He argued Milans del Bosch's proclamation was normal practice in the Republic era and criticised the Prosecutor's passivity. Noted General Torres Rojas was at the Armoured Division in combat uniform.",
+  "personas": [
+    { "nombre": "Miguel Manchado García", "cargo": "Coronel de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "conspirador", "acciones": ["Su defensa argumentó obediencia debida a la autoridad militar"] },
+    { "nombre": "Luis Torres Rojas", "cargo": "General de División", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Mencionado en la defensa como presente en la División Acorazada con uniforme de campaña el 23-F"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "policial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-05-04", "descripcion_es": "Vista oral Causa 2/81: defensa del Coronel Manchado García; argumentos de obediencia debida y normalidad del bando de Milans", "descripcion_en": "Causa 2/81 hearing: defence of Colonel Manchado García; due obedience arguments and normalcy of Milans's proclamation", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "manchado-garcia", "guardia-civil", "torres-rojas", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_28_R", "filename": "Documento_28_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 5, "processed_by": "claude-code" }
+}

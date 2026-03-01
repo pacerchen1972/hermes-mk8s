@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Telex con instrucciones de seguridad sobre las visitas a Tejero en la Prisión Naval (Carpeta 21802, Secreto)",
+  "titulo_en": "Telex with security instructions on visits to Tejero at Naval Prison (Carpeta 21802, Secret)",
+  "fecha_documento": "1982-10-08",
+  "periodo": "juicio",
+  "clasificacion_original": "secreto",
+  "tipo_documento": "telex",
+  "ministerio": "Defensa",
+  "resumen_es": "Copia de telex SECRETO del Estado Mayor de la Armada (AJEMA, 3 páginas) con instrucciones sobre las medidas de seguridad a aplicar en las visitas al Teniente Coronel Tejero durante su internamiento en la Prisión Naval. El documento establece los procedimientos restrictivos de acceso y control de visitas por orden del Ministro de Defensa.",
+  "resumen_en": "Copy of SECRET telex from Naval General Staff (AJEMA, 3 pages) with security instructions on measures to apply for visits to Lieutenant Colonel Tejero during his internment in Naval Prison. The document establishes restrictive access procedures and visit control by order of the Minister of Defence.",
+  "personas": [
+    { "nombre": "Antonio Tejero Molina", "rol": "Teniente Coronel, preso en Prisión Naval, sujeto de las medidas de seguridad" }
+  ],
+  "organizaciones": [
+    { "nombre": "Estado Mayor de la Armada (AJEMA)", "tipo": "militar" },
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
+    { "nombre": "Prisión Naval", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1982-10-08", "descripcion_es": "AJEMA emite instrucciones de seguridad para el régimen de visitas a Tejero en la Prisión Naval de Cartagena", "descripcion_en": "AJEMA issues security instructions for Tejero's visit regime at Cartagena Naval Prison", "lugar": "Madrid / Cartagena" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "tejero", "prision-naval", "seguridad-penitenciaria", "ajema", "ministerio-defensa"],
+  "_meta": { "doc_id": "Defensa_18", "filename": "Carpeta_21802_Secreto_copita_de_telex_dando_instrucciones_sobre_medidas_de_seguridad_con_las_visitas_a_Tejero.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

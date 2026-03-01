@@ -1,0 +1,47 @@
+{
+  "titulo_es": "Nota informativa CESID sobre el Capitán Sánchez-Valiente: pasaporte argentino y estancia en Grecia",
+  "titulo_en": "CESID intelligence note on Captain Sánchez-Valiente: Argentine passport and stay in Greece",
+  "fecha_documento": "1981-06-02",
+  "periodo": "post-golpe",
+  "clasificacion_original": "CONFIDENCIAL",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (N.REF: C/D13/10544/02-06-81, Microfilmación 10422, Calificación C-2) sobre el Capitán Sánchez-Valiente. Se desplazó con un pasaporte de nacionalidad argentina, habiendo dejado de ser más vigilado. Su hermano (Capitán del Ejército del Aire de Barcelona) ha dejado el banco y está en contacto con él. Han surgido discrepancias sobre el hermano entre el Ministro de Defensa y el General de la 3ª Zona de la Guardia Civil, relativas a las declaraciones de éste en relación a la persona de Sánchez Valiente. El CESID mantiene vigilancia sobre sus contactos, incluyendo con el Teniente Coronel Meer de Ribera. Su mujer se encuentra en Londres. Actualmente se encuentra en Grecia.",
+  "resumen_en": "CESID intelligence note (N.REF: C/D13/10544/02-06-81, Microfilm 10422, Classification C-2) on Captain Sánchez-Valiente. He travels with an Argentine passport and is no longer under close surveillance. His brother (Air Force Captain from Barcelona) has left the bank and is in contact with him. Discrepancies have arisen about the brother between the Defence Minister and the General of the 3rd Civil Guard Zone regarding the brother's declarations about Sánchez Valiente. CESID maintains surveillance on his contacts, including with Lieutenant Colonel Meer de Ribera. His wife is in London. He is currently in Greece.",
+  "personas": [
+    {
+      "nombre": "Sánchez Valiente",
+      "cargo": "Capitán",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Se desplazó con un pasaporte de nacionalidad argentina",
+        "Se encuentra en Grecia",
+        "Su mujer está en Londres"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Guardia Civil", "tipo": "policial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-06-02",
+      "descripcion_es": "CESID informa de la situación de Sánchez-Valiente: en Grecia con pasaporte argentino; mujer en Londres",
+      "descripcion_en": "CESID reports on Sánchez-Valiente's situation: in Greece with Argentine passport; wife in London",
+      "lugar": "Grecia / Londres"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["cesid", "post-golpe", "sanchez-valiente", "fuga", "pasaporte-argentino", "grecia"],
+  "_meta": {
+    "doc_id": "CNI_Documento_77_R",
+    "filename": "Documento_77_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

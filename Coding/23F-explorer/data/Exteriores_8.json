@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Resolución Concurrente 21 del Congreso de los Estados Unidos sobre la democracia española (4 marzo 1981)",
+  "titulo_en": "US House Concurrent Resolution 21 on Spanish democracy (4 March 1981)",
+  "fecha_documento": "1981-03-04",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "resolucion_parlamentaria",
+  "ministerio": "Exteriores",
+  "resumen_es": "Texto de la Resolución Concurrente 21 (House Concurrent Resolution 21) del Congreso de los Estados Unidos (4 marzo 1981), transmitida por la Embajada de EE.UU. en Madrid: (1) La restauración del Parlamento español tras el intento de secuestro militar simboliza la fortaleza de la democracia en España; (2) El continuo desarrollo democrático en España responde a las más altas aspiraciones de los ciudadanos democráticos; (3) El Congreso felicita al Gobierno y pueblo de España por su compromiso con la democracia y espera continuar y expandir las relaciones entre ambos países. La resolución también reconoce el papel personal del Rey Juan Carlos.",
+  "resumen_en": "Text of House Concurrent Resolution 21 of the United States Congress (4 March 1981), transmitted by the US Embassy in Madrid: (1) The restoration of Spain's Parliament after the attempted military seizure symbolises the strength of democracy in Spain; (2) The continued democratic development in Spain meets the highest aspirations of democratic citizens; (3) Congress congratulates the Government and people of Spain on their commitment to democracy and looks forward to continuing and expanding relations between the two countries. The resolution also recognises King Juan Carlos's personal role.",
+  "personas": [
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, reconocido en la resolución del Congreso de EE.UU." }
+  ],
+  "organizaciones": [
+    { "nombre": "Congreso de los Estados Unidos", "tipo": "gobierno" },
+    { "nombre": "Embajada de los Estados Unidos en Madrid", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-04", "descripcion_es": "El Congreso de los Estados Unidos aprueba la Resolución Concurrente 21 sobre la democracia española, elogiando al Rey Juan Carlos y apoyando la transición democrática", "descripcion_en": "US Congress passes House Concurrent Resolution 21 on Spanish democracy, praising King Juan Carlos and supporting the democratic transition", "lugar": "Washington D.C." }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "congreso-eeuu", "juan-carlos-i", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_8", "filename": "D.8._AGMAE_R39017_Exp._4.pdf", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

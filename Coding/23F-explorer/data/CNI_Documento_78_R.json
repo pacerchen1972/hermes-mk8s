@@ -1,0 +1,58 @@
+{
+  "titulo_es": "Certificación del CESID para la Causa 2/81: actividades de la Unidad de Cortina y ausencia de vínculo con el 23-F",
+  "titulo_en": "CESID certification for Causa 2/81: Cortina's unit activities and absence of link to 23-F",
+  "fecha_documento": "1982-01-08",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Certificación del Centro Superior de Información de la Defensa (CESID) solicitada para su unión a la Causa 2/81 (Microfilmación 00305/S, S/Ref Causa 2/81, Núm. 2, Fecha 08-01-82), elaborada en cumplimiento de auto del Consejo Supremo de Justicia Militar. El CESID certifica que: (a) todas las acciones informativas de la Unidad mandada por el Comandante Cortina concluían con la confección y entrega de un informe a sus jefes; (b) en el CESID existían actividades informativas 'permanentes' en la fecha del 23-F, sin vinculación alguna con el asalto al Congreso; (c) la Unidad Escuela de Cortina disponía de un sistema de transmisiones independiente utilizado habitualmente para enseñanza y no operativo.",
+  "resumen_en": "Certification from the CESID requested for inclusion in Causa 2/81 proceedings (Microfilm 00305/S, S/Ref Causa 2/81, No. 2, Date 08-01-82), issued in compliance with a Supreme Military Court order. CESID certifies that: (a) all intelligence activities in Cortina's unit concluded with preparation and delivery of a report to superiors; (b) CESID had 'permanent' intelligence activities on 23-F date, with no link whatsoever to the Congress assault; (c) Cortina's School Unit had an independent transmission system habitually used for teaching, not operations.",
+  "personas": [
+    {
+      "nombre": "José Cortina Prieto",
+      "cargo": "Comandante de Infantería, CESID/AOME",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Su unidad fue objeto de certificación para la Causa 2/81; el CESID certifica que no había vínculo entre sus actividades y el asalto al Congreso"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-01-08",
+      "descripcion_es": "El CESID emite certificación para la Causa 2/81 afirmando que no existía vínculo entre las actividades de la unidad de Cortina y el asalto al Congreso",
+      "descripcion_en": "CESID issues certification for Causa 2/81 stating no link existed between Cortina's unit activities and the Congress assault",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Certificación CESID para Causa 2/81",
+      "texto": "Que en el Centro Superior de Información de la Defensa existen y existían varias actividades informativas 'permanentes', algunas de ellas coincidentes en la fecha del 23 de febrero de 1981, y sin que ninguna de ellas tuviera vinculación con el asalto al Congreso de los Diputados.",
+      "traduccion_en": "That the CESID had and has various 'permanent' intelligence activities, some of them active on 23 February 1981, none of which had any connection to the assault on the Congress of Deputies.",
+      "importancia": "Certificación oficial del CESID para el juicio negando cualquier vínculo institucional con el golpe; clave para la defensa de Cortina"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "informó",
+      "descripcion": "El CESID certificó para la Causa 2/81 que sus actividades no tenían vínculo con el asalto al Congreso",
+      "fecha": "1982-01-08"
+    }
+  ],
+  "temas": ["cesid", "cortina", "juicio", "causa-2-81", "certificacion", "csjm"],
+  "_meta": {
+    "doc_id": "CNI_Documento_78_R",
+    "filename": "Documento_78_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

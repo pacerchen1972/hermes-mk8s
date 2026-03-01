@@ -1,0 +1,33 @@
+{
+  "titulo_es": "Propuesta de distribución de los procesados en la Causa 2/81 en diferentes unidades militares durante el juicio (Carpeta 21804, Secreto)",
+  "titulo_en": "Proposal for distribution of Case 2/81 defendants across different military units during the trial (Carpeta 21804, Secret)",
+  "fecha_documento": "1982-05-21",
+  "periodo": "juicio",
+  "clasificacion_original": "secreto",
+  "tipo_documento": "propuesta",
+  "ministerio": "Defensa",
+  "resumen_es": "Propuesta SECRETA del La Región Militar (21 mayo 1982, 4 páginas) al Ministro de Defensa Alberto Oliart Saussol para la distribución de los procesados en la Causa 2/81 en dos fases: Primera fase (inmediata) y Segunda fase (período más largo, según evolución del juicio). Lista detallada con nombres de procesados y unidades asignadas: Alcalá de Henares 'Ala A' (Milans del Bosch, Torres Rojas, San Martín López, Álvarez Arenas, Bobis González, Muñecas Aguilar); 'Ala B' (Tejero, Pardo Zancada, Pérez de la Lastra, Acera Martín, Lázaro Corthay); Base Aérea de Getafe (Armada); Servicio Geográfico del Ejército (Cortina Prieto, Gómez Iglesias).",
+  "resumen_en": "SECRET proposal from the Military Region (21 May 1982, 4 pages) to Minister of Defence Alberto Oliart Saussol for distributing Case 2/81 defendants in two phases: First phase (immediate) and Second phase (longer period, depending on trial developments). Detailed list with defendants' names and assigned units: Alcalá de Henares 'Wing A' (Milans del Bosch, Torres Rojas, San Martín López, Álvarez Arenas, Bobis González, Muñecas Aguilar); 'Wing B' (Tejero, Pardo Zancada, Pérez de la Lastra, Acera Martín, Lázaro Corthay); Getafe Air Base (Armada); Army Geographical Service (Cortina Prieto, Gómez Iglesias).",
+  "personas": [
+    { "nombre": "Alberto Oliart Saussol", "rol": "Ministro de Defensa, destinatario de la propuesta" },
+    { "nombre": "Jaime Milans del Bosch", "rol": "Procesado, asignado a Alcalá de Henares Ala A" },
+    { "nombre": "Luis Torres Rojas", "rol": "Procesado, asignado a Alcalá de Henares Ala A" },
+    { "nombre": "Alfonso Armada", "rol": "Procesado, asignado a Base Aérea de Getafe" },
+    { "nombre": "Antonio Tejero", "rol": "Procesado, asignado a Alcalá de Henares Ala B" },
+    { "nombre": "Ricardo Pardo Zancada", "rol": "Procesado, asignado a Alcalá de Henares Ala B" },
+    { "nombre": "José Luis Cortina Prieto", "rol": "Procesado, asignado al Servicio Geográfico del Ejército" },
+    { "nombre": "Vicente Gómez Iglesias", "rol": "Procesado, asignado al Servicio Geográfico del Ejército" },
+    { "nombre": "Jesús Muñecas Aguilar", "rol": "Procesado, asignado a Alcalá de Henares Ala A" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-05-21", "descripcion_es": "Se propone al Ministro de Defensa la distribución de los principales procesados del 23-F en diferentes unidades militares: Armada a la Base Aérea de Getafe, Cortina al Servicio Geográfico, Tejero y Pardo Zancada a Alcalá de Henares", "descripcion_en": "Minister of Defence proposed distribution of main 23-F defendants across military units: Armada to Getafe Air Base, Cortina to Geographical Service, Tejero and Pardo Zancada to Alcalá de Henares", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "detenidos", "distribucion-procesados", "causa-2-81", "ministerio-defensa", "armada", "tejero", "cortina"],
+  "_meta": { "doc_id": "Defensa_20", "filename": "Carpeta_21804_Secreto_distribucion_de_los_procesados_por_la_causa_2_81_en_diferentes_unidades_militares_durante_el_juicio.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 4, "processed_by": "claude-code" }
+}

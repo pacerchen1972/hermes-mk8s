@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 14 abr. 1982 de la vista oral Causa 2/81: testigo General Alcalá Galiano",
+  "titulo_en": "Intelligence note on the 14 Apr. 1982 Causa 2/81 hearing: witness General Alcalá Galiano",
+  "fecha_documento": "1982-04-14",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/SG/5390/14-04-82) sobre la sesión del 14 de abril de 1982. El General Alcalá Galiano completa su testimonio en 31 minutos. Declaró que no fue al Cuartel General antes de las 22:30, que no se enteró de nada importante, que no siguió ninguna instrucción relativa al 'caso Arregui', que no supo de los autobuses del Comandante Pardo, y que no tuvo medios de comunicación con el General Milans. Por la tarde testificaron los Tenientes Coroneles Miguel Sierra Morena, Olimó Cañas, Cañas Barrera y Aranda Fernández.",
+  "resumen_en": "CESID intelligence note (C/SG/5390/14-04-82) on the 14 April 1982 session. General Alcalá Galiano completes his testimony in 31 minutes. He declared he did not go to HQ before 22:30, that he knew nothing important, that he received no instructions on the 'Arregui case', that he was unaware of Commander Pardo's buses, and had no communications with General Milans. In the afternoon, Lieutenant Colonels Miguel Sierra Morena, Olimó Cañas, Cañas Barrera and Aranda Fernández testified.",
+  "personas": [
+    { "nombre": "Alcalá Galiano", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "testigo", "acciones": ["Testificó que no llegó al Cuartel General hasta después de las 22:30; negó tener comunicaciones con Milans o conocer la operación de los autobuses"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-14", "descripcion_es": "Vista oral Causa 2/81: General Alcalá Galiano niega haber sabido del golpe antes de las 22:30 y no haber tenido contacto con Milans", "descripcion_en": "Causa 2/81 hearing: General Alcalá Galiano denies prior knowledge of coup before 22:30 and contact with Milans", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "testigos", "milans", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_38_R", "filename": "Documento_38_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 7, "processed_by": "claude-code" }
+}

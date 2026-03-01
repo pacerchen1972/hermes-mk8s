@@ -1,0 +1,22 @@
+{
+  "titulo_es": "Nota informativa sobre apoyo económico a los implicados en el 23-F",
+  "titulo_en": "Intelligence note on financial support for those implicated in 23-F",
+  "fecha_documento": "1983-05-10",
+  "periodo": "post-juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota de la Brigada de Información Interior (39-497, 10 mayo 1983). Como consecuencia de que algunos procesados por el 23-F han perdido su condición de militares, un grupo de empresarios, amigos y simpatizantes, entre los que se encuentra una familia [REDACTADO], planea constituir un fondo común mensual para paliar las necesidades económicas de las familias de algunos de los implicados.",
+  "resumen_en": "Interior Intelligence Brigade note (39-497, 10 May 1983). Because some of those prosecuted for 23-F have lost their military status, a group of businessmen, friends and sympathisers — including a [REDACTED] family — plans to create a monthly common fund to alleviate the economic needs of some of the implicated persons' families.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1983-05-10", "descripcion_es": "Brigada de Información Interior detecta creación de fondo económico para las familias de los procesados del 23-F que perdieron su condición militar", "descripcion_en": "Interior Intelligence Brigade detects creation of financial fund for families of 23-F defendants who lost their military status", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-juicio", "apoyo-economico", "familias-implicados", "brigada-informacion-interior"],
+  "_meta": { "doc_id": "Interior_Policia_1", "filename": "10-05-83_NOTA_INFORMATIVA_SOBRE_APOYO_ECONOMICO_A_LOS_IMPLICADOS.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

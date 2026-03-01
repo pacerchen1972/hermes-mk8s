@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Índice de mensajes y declaraciones oficiales de los Estados Unidos sobre el 23-F (Ministerio de Asuntos Exteriores, 13 marzo 1981)",
+  "titulo_en": "Index of official US messages and declarations on 23-F (Ministry of Foreign Affairs, 13 March 1981)",
+  "fecha_documento": "1981-03-13",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "indice",
+  "ministerio": "Exteriores",
+  "resumen_es": "Documento índice del Ministerio de Asuntos Exteriores (Madrid, 13 marzo 1981) que lista cronológicamente todos los mensajes y declaraciones oficiales de los Estados Unidos sobre los sucesos del 23 y 24 de febrero en Madrid: (1) Comunicación del Secretario de Estado Haig del 23-F; (2) Llamada del Presidente Reagan al Rey el 24-F; (3) Declaración del Departamento de Estado del 24-F; (4-5) Declaración del Ministro Exteriores y Carta Embajador Todman del 26-27 F; (6) Carta Reagan al Rey 27-F; (7) Carta Reagan a Calvo Sotelo 26-F; (8) Resolución del Congreso de EE.UU. 4 marzo. Además incluye 'Otros Documentos': respuestas españolas de Pérez-Llorca, Calvo Sotelo y proyecto de respuesta del Rey.",
+  "resumen_en": "Index document from the Ministry of Foreign Affairs (Madrid, 13 March 1981) listing chronologically all US official messages and declarations on the events of 23-24 February in Madrid: (1) Secretary of State Haig's 23-F communication; (2) President Reagan's phone call to the King on 24-F; (3) State Department declaration of 24-F; (4-5) Foreign Minister declaration and Ambassador Todman's letter of 26-27 Feb; (6) Reagan's letter to the King of 27 Feb; (7) Reagan's letter to Calvo Sotelo of 26 Feb; (8) US Congress Resolution of 4 March. Also includes 'Other Documents': Spanish responses from Pérez-Llorca, Calvo Sotelo and draft reply by the King.",
+  "personas": [
+    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Asuntos Exteriores de España" },
+    { "nombre": "Alexander M. Haig", "rol": "Secretario de Estado de los Estados Unidos" },
+    { "nombre": "Ronald Reagan", "rol": "Presidente de los Estados Unidos" },
+    { "nombre": "Terence A. Todman", "rol": "Embajador de EE.UU. en España" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
+    { "nombre": "Departamento de Estado de los Estados Unidos", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-13", "descripcion_es": "Ministerio de Exteriores elabora índice de todas las comunicaciones oficiales estadounidenses sobre el 23-F", "descripcion_en": "Ministry of Foreign Affairs compiles index of all US official communications about 23-F", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "diplomacia", "ministerio-exteriores"],
+  "_meta": { "doc_id": "Exteriores_1", "filename": "D.1._AGMAE_R39017_Exp._4.pdf", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

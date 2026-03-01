@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 10 may. 1982 de la vista oral Causa 2/81: defensas de oficiales de la Guardia Civil",
+  "titulo_en": "Intelligence note on the 10 May 1982 Causa 2/81 hearing: defence of Civil Guard officers",
+  "fecha_documento": "1982-05-10",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (P/SG/311/10-05-82) sobre la sesión del 10 de mayo de 1982. Intervienen el Comandante Pardos Aldea (defensor del Capitán de la Guardia Civil Lázaro Cortínaz) y el letrado Sr. Sans Artines (defensor de los Capitanes Bobis, Portales y Cid Fortea). La sesión matinal terminó a las 13:30 y la vespertina a las 17:00. La defensa de Pardos Aldea basa su estrategia en la figura del Comandante Cortina como elemento central.",
+  "resumen_en": "CESID intelligence note (P/SG/311/10-05-82) on the 10 May 1982 session. Intervening: Commander Pardos Aldea (defending Civil Guard Captain Lázaro Cortínaz) and counsel Mr Sans Artines (defending Captains Bobis, Portales and Cid Fortea). Morning session ended at 13:30, afternoon at 17:00. Pardos Aldea's defence strategy centred on Commander Cortina as key element.",
+  "personas": [
+    { "nombre": "Carlos Lázaro Cortínaz", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "conspirador", "acciones": ["Representado por el Comandante Pardos Aldea"] },
+    { "nombre": "Enrique Bobis González", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "conspirador", "acciones": ["Representado por el Sr. Sans Artines"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-05-10", "descripcion_es": "Vista oral Causa 2/81: defensas de oficiales de la Guardia Civil; estrategia defensiva centrada en la figura del Comandante Cortina", "descripcion_en": "Causa 2/81 hearing: defence of Civil Guard officers; defence strategy centred on Commander Cortina", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "guardia-civil", "cortina", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_25_R", "filename": "Documento_25_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 6, "processed_by": "claude-code" }
+}

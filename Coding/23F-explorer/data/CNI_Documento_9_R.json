@@ -1,0 +1,50 @@
+{
+  "titulo_es": "Nota informativa ARAP sobre comportamiento de las comisiones militares durante el juicio (Causa 2/81)",
+  "titulo_en": "ARAP intelligence note on military commissions' behaviour during the 23-F trial (Causa 2/81)",
+  "fecha_documento": "1982-03-10",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa ARAP del CESID fechada el 10 de marzo de 1982, sobre el preocupante comportamiento de los miembros de las comisiones militares asistentes al juicio de la Causa 2/81. El documento señala el riesgo de que las mismas personas lleven meses en esas comisiones, generando lazos de simpatía con los acusados y sus familias. Advierte sobre el peligro de que esta situación comprometa la imparcialidad y la imagen del proceso.",
+  "resumen_en": "CESID ARAP intelligence note dated 10 March 1982 on the concerning behaviour of military commissions attending the Causa 2/81 trial. The document highlights the risk that having the same personnel on these commissions for months generates bonds of sympathy with the accused and their families, potentially compromising impartiality and the image of the proceedings.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-03-10",
+      "descripcion_es": "CESID emite nota de inteligencia sobre simpatías de comisiones militares hacia los procesados del 23-F",
+      "descripcion_en": "CESID issues intelligence note on military commissions developing sympathies for 23-F defendants",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota ARAP-CESID",
+      "texto": "El que algunas estén formadas por las mismas personas desde que se inició el proceso, es un peligro porque el trato continuo con los inculpados y sus familiares fomenta unos lazos de simpatía difíciles de superar.",
+      "traduccion_en": "That some commissions have been composed of the same people since the trial began is a danger, because continuous contact with the accused and their families fosters bonds of sympathy that are difficult to overcome.",
+      "importancia": "El CESID monitorizaba activamente la actitud del personal militar en el juicio, preocupado por simpatías con los golpistas"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "informó",
+      "descripcion": "CESID monitorizó el comportamiento de las comisiones militares en el juicio del 23-F",
+      "fecha": "1982-03-10"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "comisiones-militares", "simpatias-golpistas", "csjm"],
+  "_meta": {
+    "doc_id": "CNI_Documento_9_R",
+    "filename": "Documento_9_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

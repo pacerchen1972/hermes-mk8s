@@ -1,0 +1,33 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 9 mar. 1982 de la vista oral Causa 2/81: Armada confirma que Milans le mostró el plan en Valencia; conexiones CESID-BRAC acreditadas",
+  "titulo_en": "Intelligence note on the 9 Mar. 1982 Causa 2/81 hearing: Armada confirms Milans showed him the plan in Valencia; CESID-BRAC connections established",
+  "fecha_documento": "1982-03-09",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (N/Ref. 913/09-03-82) sobre la sesión del 9 de marzo de 1982. El General Armada confirmó su visita a Valencia el 18 de enero de 1981 para reunirse con Milans del Bosch, quien le mostró el plan del golpe. Armada negó haber autorizado el uso de la fuerza. El Fiscal estableció la cadena: Armada visita a Milans en Valencia → Milans le muestra el plan → Armada contacta a Tejero. Se acreditaron conexiones entre el CESID/AOME y las unidades de la Brigada Acorazada (BRAC). El Rey no fue citado como autorizante en ningún momento.",
+  "resumen_en": "CESID intelligence note (N/Ref. 913/09-03-82) on the 9 March 1982 session. General Armada confirmed his visit to Valencia on 18 January 1981 to meet Milans del Bosch, who showed him the coup plan. Armada denied authorising the use of force. The Prosecutor established the chain: Armada visits Milans in Valencia → Milans shows him the plan → Armada contacts Tejero. Connections between CESID/AOME and Armoured Brigade (BRAC) units were established. The King was not cited as authorising at any point.",
+  "personas": [
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Confirmó visita a Valencia (18 enero 1981); Milans le mostró el plan; Armada contactó después a Tejero; negó haber autorizado el uso de la fuerza"] },
+    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General, Capitán General 3ª Región Militar", "organizacion": "Ejército de Tierra", "rol_en_23f": "golpista", "acciones": ["Mostró el plan del golpe a Armada durante la reunión de Valencia (enero 1981)"] },
+    { "nombre": "José Cortina Prieto", "cargo": "Comandante de Infantería, CESID/AOME", "organizacion": "CESID", "rol_en_23f": "conspirador", "acciones": ["Sus conexiones con la Brigada Acorazada (BRAC) fueron acreditadas en la sesión"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Brigada Acorazada (BRAC)", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-09", "descripcion_es": "Vista oral Causa 2/81: Armada confirma cadena Milans → Armada → Tejero; se acreditan conexiones CESID/AOME con la Brigada Acorazada", "descripcion_en": "Causa 2/81 hearing: Armada confirms Milans → Armada → Tejero chain; CESID/AOME connections with Armoured Brigade established", "lugar": "Consejo Supremo de Justicia Militar, Madrid" },
+    { "fecha": "1981-01-18", "descripcion_es": "Reunión de Armada con Milans del Bosch en Valencia: Milans le mostró el plan del golpe (confirmada en el juicio)", "descripcion_en": "Armada meets Milans del Bosch in Valencia: Milans shows him the coup plan (confirmed at trial)", "lugar": "Valencia" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "Jaime Milans del Bosch", "destino": "Alfonso Armada Comyn", "tipo": "coordinacion", "descripcion": "Milans mostró a Armada el plan del golpe en Valencia, enero 1981" },
+    { "origen": "Alfonso Armada Comyn", "destino": "Antonio Tejero Molina", "tipo": "contacto_previo", "descripcion": "Armada contactó a Tejero tras su reunión con Milans en Valencia" },
+    { "origen": "José Cortina Prieto", "destino": "Brigada Acorazada (BRAC)", "tipo": "coordinacion", "descripcion": "Conexiones CESID/AOME-BRAC acreditadas en el juicio" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "milans", "tejero", "reunion-valencia", "brac", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_60_R", "filename": "Documento_60_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

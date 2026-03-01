@@ -1,0 +1,145 @@
+{
+  "titulo_es": "Sucinto relato de los sucesos del 23 y 24 de febrero de 1981 según fueron conocidos en el Palacio de la Zarzuela",
+  "titulo_en": "Concise account of events of 23-24 February 1981 as known at the Zarzuela Palace",
+  "fecha_documento": "1981-02-24",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Documento de 34 páginas (primeras páginas clave del golpe + notas informativas del juicio): relato detallado hora a hora de los sucesos del 23-F desde la perspectiva de la Casa Real (Palacio de la Zarzuela), seguido de notas informativas del CESID sobre la vista oral de la Causa 2/81. El relato del golpe documenta que el Rey oyó la noticia por radio a las 18:22, que el Secretario General Fernández Campo negó la presencia de Armada en Zarzuela, que el Rey tomó la decisión explícita de no autorizar a Armada a ir a Zarzuela, que habló directamente con Milans del Bosch (quien dijo estar 'a las órdenes del Rey'), y que a las 21:35 horas el Rey envió el telex histórico a todos los Capitanes Generales confirmando su orden de mantener el orden constitucional.",
+  "resumen_en": "34-page document (key coup pages + trial intelligence notes): detailed hour-by-hour account of 23-F events from the Royal Household (Zarzuela Palace) perspective, followed by CESID intelligence notes on the Causa 2/81 oral hearing. The coup account documents: the King heard the news on radio at 18:22; Secretary General Fernández Campo denied Armada's presence at Zarzuela; the King explicitly decided not to allow Armada to come to Zarzuela; the King spoke directly with Milans del Bosch (who said he was 'at the King's orders'); and at 21:35 the King sent the historic telex to all Captain-Generals confirming his order to maintain constitutional order.",
+  "personas": [
+    {
+      "nombre": "Juan Carlos I",
+      "cargo": "Rey de España, Jefe Supremo de las Fuerzas Armadas",
+      "organizacion": "Casa Real",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Oyó la noticia del asalto al Congreso por radio a las 18:22",
+        "Tomó la decisión de no autorizar al General Armada a ir a Zarzuela",
+        "Ordenó a la JUJEM tomar la dirección militar de los acontecimientos",
+        "Habló directamente con Milans del Bosch (Valencia)",
+        "Envió telex histórico a todos los Capitanes Generales a las 21:35 ordenando mantener el orden constitucional",
+        "Se negó a reconocer cualquier tipo de gobierno alternativo"
+      ]
+    },
+    {
+      "nombre": "Sabino Fernández Campo",
+      "cargo": "Secretario General de la Casa del Rey",
+      "organizacion": "Casa Real",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Comunicó al Rey los primeros datos del golpe",
+        "Negó ante el General Juste que Armada estuviera en Zarzuela",
+        "Coordinó las comunicaciones del Rey con los Capitanes Generales",
+        "Se enteró de que Armada podía entrar al Congreso conociendo la contraseña"
+      ]
+    },
+    {
+      "nombre": "Alfonso Armada Comyn",
+      "cargo": "General, ex-secretario de la Casa del Rey",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "El Rey decidió expresamente no autorizar su presencia en Zarzuela",
+        "Conocía la contraseña para entrar al Congreso"
+      ]
+    },
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "cargo": "Teniente General, Capitán General de Valencia",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Habló con el Rey por teléfono diciendo estar 'a las órdenes del Rey'",
+        "Preguntó al Rey si había hablado con el General Armada",
+        "Comunicó a Fernández Campo que Armada conocía la contraseña del Congreso"
+      ]
+    },
+    {
+      "nombre": "Ignacio Alfaro",
+      "cargo": "General, Jefe Estado Mayor del Ejército (JEME)",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "leal",
+      "acciones": ["Recibió instrucciones del Rey a través de Zarzuela para que la JUJEM tomara la dirección"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "Casa Real", "tipo": "gubernamental" },
+    { "nombre": "Junta de Jefes de Estado Mayor (JUJEM)", "tipo": "militar" },
+    { "nombre": "Capitanía General de Valencia", "tipo": "militar" },
+    { "nombre": "BRIPAC (Brigada Paracaidista)", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23T18:22",
+      "descripcion_es": "El Rey Juan Carlos I oye por radio la noticia del asalto al Congreso",
+      "descripcion_en": "King Juan Carlos I hears news of the Congress assault on the radio",
+      "lugar": "Palacio de la Zarzuela, Madrid"
+    },
+    {
+      "fecha": "1981-02-23T19:00",
+      "descripcion_es": "El Rey decide no autorizar a Armada en Zarzuela y ordena a la JUJEM tomar la dirección militar",
+      "descripcion_en": "King decides not to allow Armada at Zarzuela and orders JUJEM to take military command",
+      "lugar": "Palacio de la Zarzuela, Madrid"
+    },
+    {
+      "fecha": "1981-02-23T19:15",
+      "descripcion_es": "El Rey habla por teléfono directamente con Milans del Bosch (Valencia), quien dice estar 'a las órdenes del Rey'",
+      "descripcion_en": "King speaks directly by phone with Milans del Bosch (Valencia), who says he is 'at the King's orders'",
+      "lugar": "Palacio de la Zarzuela / Valencia"
+    },
+    {
+      "fecha": "1981-02-23T21:35",
+      "descripcion_es": "El Rey envía el telex histórico a todos los Capitanes Generales, Zonas Marítimas y Regiones Aéreas ordenando mantener el orden constitucional",
+      "descripcion_en": "The King sends the historic telex to all Captain-Generals, Naval Zones and Air Regions ordering maintenance of constitutional order",
+      "lugar": "Palacio de la Zarzuela, Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Telex del Rey Juan Carlos I a los Capitanes Generales, 23:35h",
+      "texto": "ANTE SITUACION CREADA POR SUCESOS DESARROLLADOS PALACIO CONGRESO Y PARA EVITAR CUALQUIER POSIBLE CONFUSION, CONFIRMO HE ORDENADO AUTORIDADES CIVILES Y JUNTA DE JEFES DE ESTADO MAYOR TOMEN MEDIDAS NECESARIAS PARA MANTENER ORDEN CONSTITUCIONAL DENTRO LEGALIDAD VIGENTE.",
+      "traduccion_en": "GIVEN THE SITUATION CREATED BY EVENTS AT THE CONGRESS PALACE AND TO AVOID ANY POSSIBLE CONFUSION, I CONFIRM I HAVE ORDERED CIVIL AUTHORITIES AND THE JOINT CHIEFS OF STAFF TO TAKE NECESSARY MEASURES TO MAINTAIN CONSTITUTIONAL ORDER WITHIN EXISTING LAW.",
+      "importancia": "El telex real es el documento fundacional de la defensa de la democracia española: la intervención directa del Rey ordenando a todos los mandos militares defender el orden constitucional fue decisiva para el fracaso del golpe"
+    },
+    {
+      "autor": "Relato de Zarzuela",
+      "texto": "S.M. adopta las decisiones siguientes: 1º 'De ninguna forma autorizar al General ARMADA para que venga a Zarzuela'. 2º 'Que la JUJEM tome la dirección militar de los acontecimientos'.",
+      "traduccion_en": "HM adopted the following decisions: 1st 'Under no circumstances to authorise General ARMADA to come to Zarzuela'. 2nd 'That the JUJEM take military command of events'.",
+      "importancia": "Documenta que el Rey rechazó explícitamente el plan de Armada, quien pretendía presentarse como solución de transición; decisión clave que frustró el plan golpista"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Juan Carlos I",
+      "destino": "Junta de Jefes de Estado Mayor (JUJEM)",
+      "tipo": "ordenó",
+      "descripcion": "El Rey ordenó a la JUJEM tomar la dirección militar de los acontecimientos del golpe",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Juan Carlos I",
+      "destino": "Alfonso Armada Comyn",
+      "tipo": "se_opuso",
+      "descripcion": "El Rey decidió explícitamente no autorizar a Armada a presentarse en Zarzuela, frustrando su plan",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Juan Carlos I",
+      "destino": "Jaime Milans del Bosch",
+      "tipo": "ordenó",
+      "descripcion": "El Rey habló directamente con Milans exigiendo su lealtad constitucional",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["rey-juan-carlos", "zarzuela", "golpe", "armada", "milans", "telex-real", "jujem", "23f", "fernandez-campo"],
+  "_meta": {
+    "doc_id": "CNI_Documento_20_R",
+    "filename": "Documento_20_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 34,
+    "processed_by": "claude-code"
+  }
+}

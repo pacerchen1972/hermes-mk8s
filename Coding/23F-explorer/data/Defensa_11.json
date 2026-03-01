@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Gabinete del Ministro de Defensa comunica procesamiento de Camilo Menéndez Vives al Jefe del Estado Mayor de la Armada",
+  "titulo_en": "Minister of Defence's Cabinet notifies prosecution of Camilo Menéndez Vives to Chief of Naval Staff",
+  "fecha_documento": "1981-04-22",
+  "periodo": "post-golpe",
+  "clasificacion_original": "secreto",
+  "tipo_documento": "oficio",
+  "ministerio": "Defensa",
+  "resumen_es": "Oficio SECRETO del Gabinete del Ministro de Defensa (22 abril 1981, núm. 538) comunicando al Jefe del Estado Mayor de la Armada el testimonio del Auto de Procesamiento del Capitán de Navío Camilo Menéndez Vives, conforme al artículo 595 del CJM. Firmado: Manuel Alonso Aguilar.",
+  "resumen_en": "SECRET communication from the Minister of Defence's Cabinet (22 April 1981, no. 538) notifying the Chief of Naval Staff of the prosecution record of Naval Captain Camilo Menéndez Vives, pursuant to Article 595 of the Military Justice Code. Signed: Manuel Alonso Aguilar.",
+  "personas": [
+    { "nombre": "Camilo Menéndez Vives", "rol": "Capitán de Navío, procesado en la Causa 2/81" },
+    { "nombre": "Manuel Alonso Aguilar", "rol": "Firmante, Gabinete del Ministro de Defensa" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
+    { "nombre": "Estado Mayor de la Armada", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1981-04-22", "descripcion_es": "MinDef notifica al Almirante Jefe del Estado Mayor de la Armada el procesamiento del Cap. de Navío Menéndez Vives en la Causa 2/81", "descripcion_en": "Ministry of Defence notifies Chief of Naval Staff of the prosecution of Naval Captain Menéndez Vives in Case 2/81", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "procesamiento", "causa-2-81", "ministerio-defensa", "armada"],
+  "_meta": { "doc_id": "Defensa_11", "filename": "Carpeta_21800_Secreto_comunicacion_procesamiento_de_implicado_2.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

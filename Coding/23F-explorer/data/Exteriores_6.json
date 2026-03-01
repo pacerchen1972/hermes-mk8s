@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Carta del Presidente Reagan al Rey Juan Carlos I felicitándole por defender la democracia española (27 febrero 1981)",
+  "titulo_en": "President Reagan's letter to King Juan Carlos I congratulating him for defending Spanish democracy (27 February 1981)",
+  "fecha_documento": "1981-02-27",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "carta_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Carta personal del Presidente de los Estados Unidos Ronald Reagan al Rey Juan Carlos I (Washington D.C., 27 febrero 1981), transmitida por el Embajador Todman: 'América aplaude la vigorosa y valiente determinación que mostró al enfrentarse al serio desafío a las instituciones democráticas de España durante estos últimos días.' Reagan alaba al Rey por enfrentarse a quienes intentaban el cambio por la fuerza y le ofrece el apoyo de América para el pueblo español.",
+  "resumen_en": "Personal letter from US President Ronald Reagan to King Juan Carlos I (Washington D.C., 27 February 1981), transmitted by Ambassador Todman: 'America applauds the vigorous and courageous determination which you displayed in meeting the serious challenge to Spain's democratic institutions during these past few days.' Reagan praises the King for confronting those who tried to bring change by force and offers America's support to the Spanish people.",
+  "personas": [
+    { "nombre": "Ronald Reagan", "rol": "Presidente de los Estados Unidos, autor de la carta" },
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, destinatario; elogiado por su papel en la defensa de la democracia" }
+  ],
+  "organizaciones": [
+    { "nombre": "Casa Blanca", "tipo": "gobierno" },
+    { "nombre": "Casa de S.M. el Rey - Palacio de la Zarzuela", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-27", "descripcion_es": "El Presidente Reagan escribe personalmente al Rey Juan Carlos elogiando su papel decisivo en la defensa de la democracia española durante el 23-F", "descripcion_en": "President Reagan writes personally to King Juan Carlos praising his decisive role in defending Spanish democracy during 23-F", "lugar": "Washington D.C." }
+  ],
+  "citas_clave": [
+    { "texto_es": "América aplaude la vigorosa y valiente determinación que mostró al enfrentarse al serio desafío a las instituciones democráticas de España", "texto_en": "America applauds the vigorous and courageous determination which you displayed in meeting the serious challenge to Spain's democratic institutions", "fuente": "Carta Reagan al Rey Juan Carlos I, 27 febrero 1981" },
+    { "texto_es": "Usted y su pueblo no están solos cuando reafirmáis los principios de la democracia. Tiene el apoyo de América en sus esfuerzos", "texto_en": "You and your people are not alone as you reassert the principles of democracy which distinguish today's Spanish example. You have America's support in your efforts", "fuente": "Carta Reagan al Rey Juan Carlos I, 27 febrero 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "reagan", "juan-carlos-i", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_6", "filename": "D.6._AGMAE_R39017_Exp.4.jpg", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

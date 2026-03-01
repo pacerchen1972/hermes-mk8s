@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Declaración del Portavoz del Departamento de Estado de EE.UU. sobre el 23-F (24 febrero 1981)",
+  "titulo_en": "Statement of US State Department Spokesman on 23-F (24 February 1981)",
+  "fecha_documento": "1981-02-24",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "declaracion_oficial",
+  "ministerio": "Exteriores",
+  "resumen_es": "Declaración del Portavoz del Departamento de Estado de los Estados Unidos (Washington D.C., 24 febrero 1981), en español, sobre los sucesos del 23-F. El texto señala que el ataque a la democracia española fue obra de un reducido número de personas; que la abrumadora mayoría de las fuerzas armadas y del pueblo de España permaneció fiel al Rey y a la Constitución; que el papel desempeñado por el Rey Juan Carlos contribuyó de manera sobresaliente a la solución de la crisis y merece especial admiración.",
+  "resumen_en": "Statement by US State Department Spokesman (Washington D.C., 24 February 1981), in Spanish, on the 23-F events. The text notes that the attack on Spanish democracy was the work of a small number of people; that the overwhelming majority of the armed forces and the Spanish people remained loyal to the King and the Constitution; that the role played by King Juan Carlos contributed outstandingly to resolving the crisis and deserves special admiration.",
+  "personas": [
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, elogiado por EE.UU. por su papel en la resolución del golpe" }
+  ],
+  "organizaciones": [
+    { "nombre": "Departamento de Estado de los Estados Unidos", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-24", "descripcion_es": "EE.UU. emite declaración oficial sobre el 23-F elogiando al Rey Juan Carlos y la resistencia democrática española", "descripcion_en": "US issues official statement on 23-F praising King Juan Carlos and Spanish democratic resistance", "lugar": "Washington D.C." }
+  ],
+  "citas_clave": [
+    { "texto_es": "El papel desempeñado por el Rey Juan Carlos y su actuación de la mejor resolución, han contribuido de manera sobresaliente a la solución de la crisis y merece especial admiración", "texto_en": "The role played by King Juan Carlos contributed outstandingly to resolving the crisis and deserves special admiration", "fuente": "Declaración Departamento de Estado EE.UU., 24 febrero 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "juan-carlos-i", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_3", "filename": "D.3._AGMAE_R39017_Exp._4.pdf", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

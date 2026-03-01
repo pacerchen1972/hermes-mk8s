@@ -1,0 +1,146 @@
+{
+  "titulo_es": "Acta de comparecencia de Tejero ante el Coronel Gallego sobre la Operación Galaxia (1978)",
+  "titulo_en": "Record of Tejero's appearance before Colonel Gallego regarding Operation Galaxia (1978)",
+  "fecha_documento": "1978-11-16",
+  "periodo": "pre-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "oficio",
+  "ministerio": "Interior",
+  "resumen_es": "Acta levantada en Toledo el 16 de noviembre de 1978 de la comparecencia del Teniente Coronel Tejero ante el Coronel de la Guardia Civil Sergio Gallego Ronquillo y el Tcol. de Infantería Cassinello Pérez, del Estado Mayor de la Dirección. Tejero es interrogado sobre su asistencia a una reunión en la cafetería La Galaxia con oficiales militares (Capitán Inastrillas de la PA, Tte. Vidal Francés, Tte. Rodríguez Solano) y sobre un posible golpe de estado o golpe de fuerza contra La Moncloa planeado para el 17 de noviembre. Tejero niega conocer a varios de los implicados mencionados. El documento firma con la rúbrica del propio Tejero.",
+  "resumen_en": "Record of proceedings in Toledo on 16 November 1978 of Lt. Col. Tejero's appearance before Civil Guard Colonel Sergio Gallego Ronquillo and Lt. Col. of Infantry Cassinello Pérez. Tejero is questioned about his attendance at a meeting at the La Galaxia café with military officers and about a possible coup against La Moncloa planned for 17 November. Tejero denies knowing several of the implicated persons mentioned. The document bears Tejero's own signature.",
+  "personas": [
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Compareció ante el Coronel Gallego en Toledo el 16 de noviembre de 1978",
+        "Interrogado sobre su presencia en la reunión de La Galaxia",
+        "Negó conocer a los coroneles Polsviejo, Mateo y Mazzerra",
+        "Afirmó que la conversación en La Galaxia se limitó a la situación política del momento",
+        "Firmó el acta de comparecencia",
+        "Negó tener conocimiento de un golpe planificado para el 17 de noviembre"
+      ]
+    },
+    {
+      "nombre": "Sergio Gallego Ronquillo",
+      "cargo": "Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Instruyó la comparecencia de Tejero sobre la Operación Galaxia"
+      ]
+    },
+    {
+      "nombre": "Andrés Cassinello Pérez",
+      "cargo": "Teniente Coronel de Infantería, Estado Mayor de la Dirección",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Participó en el interrogatorio de Tejero junto al Coronel Gallego"
+      ]
+    },
+    {
+      "nombre": "Capitán Inastrillas",
+      "cargo": "Capitán de la Policía Armada (PA)",
+      "organizacion": "Policía Armada",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Asistió a la reunión de La Galaxia con Tejero y otros oficiales"
+      ]
+    },
+    {
+      "nombre": "Tte. Vidal Francés",
+      "cargo": "Teniente",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Asistió a la reunión de La Galaxia"
+      ]
+    },
+    {
+      "nombre": "Tte. Rodríguez Solano",
+      "cargo": "Teniente, Estado Mayor del JEME",
+      "organizacion": "JEME (Jefatura del Estado Mayor del Ejército)",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Asistió a la reunión de La Galaxia"
+      ]
+    },
+    {
+      "nombre": "Coronel Quintero",
+      "cargo": "Coronel",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "neutral",
+      "acciones": [
+        "Mencionado como visitado en su domicilio por Tejero el lunes previo a la comparecencia"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "Guardia Civil", "tipo": "policial" },
+    { "nombre": "Policía Armada", "tipo": "policial" },
+    { "nombre": "JEME (Jefatura del Estado Mayor del Ejército)", "tipo": "militar" },
+    { "nombre": "La Galaxia (cafetería)", "tipo": "otro" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1978-11-01",
+      "descripcion_es": "Reunión en la cafetería La Galaxia de Madrid entre Tejero y varios oficiales militares para discutir un posible golpe contra La Moncloa",
+      "descripcion_en": "Meeting at the La Galaxia café in Madrid between Tejero and several military officers to discuss a possible coup against La Moncloa",
+      "lugar": "Madrid, Cafetería La Galaxia"
+    },
+    {
+      "fecha": "1978-11-16",
+      "descripcion_es": "Comparecencia de Tejero ante el Coronel Gallego y Tcol. Cassinello en Toledo para interrogatorio sobre la Operación Galaxia",
+      "descripcion_en": "Tejero appears before Colonel Gallego and Lt. Col. Cassinello in Toledo for questioning about Operation Galaxia",
+      "lugar": "Toledo"
+    },
+    {
+      "fecha": "1978-11-17",
+      "descripcion_es": "Fecha prevista para el supuesto golpe de estado contra La Moncloa según la investigación de la Operación Galaxia",
+      "descripcion_en": "Planned date for the alleged coup against La Moncloa according to the Operation Galaxia investigation",
+      "lugar": "Madrid, La Moncloa"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Tejero (según el acta)",
+      "texto": "Interrogado si el viernes día 10 de noviembre estuvo en la Cafetería la Galaxia... manifiesta que sí, que se presentaron en una ocasión en el despacho del Comandante de la PA en Badajoz hace unos 10 meses y no lo ha vuelto a ver desde entonces.",
+      "traduccion_en": "Asked if on Friday 10 November he was at the La Galaxia café... he states yes, that they were introduced around 10 months ago in the PA Commander's office in Badajoz and he hasn't seen him since.",
+      "importancia": "Tejero admite haber asistido a la reunión de La Galaxia pero minimiza su conocimiento de los implicados"
+    },
+    {
+      "autor": "Tejero (según el acta)",
+      "texto": "Reiterandole la pregunta si conoce la noticia de un posible y próximo golpe militar, o de fuerza, en Madrid, que tendría lugar el próximo día 17 de este mes, manifiesta no conoce a ninguno, ni en esa fecha ni en ninguna.",
+      "traduccion_en": "When again asked if he knows of a possible imminent military coup in Madrid planned for the 17th of this month, he states he knows no one, neither on that date nor any other.",
+      "importancia": "Tejero niega explícitamente conocer el plan para el 17 de noviembre, aunque participó en la reunión conspiradora"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Sergio Gallego Ronquillo",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "juzgó",
+      "descripcion": "Instruyó el interrogatorio de Tejero sobre la Operación Galaxia en Toledo",
+      "fecha": "1978-11-16"
+    },
+    {
+      "origen": "Antonio Tejero Molina",
+      "destino": "Capitán Inastrillas",
+      "tipo": "coordinó",
+      "descripcion": "Se reunió con Inastrillas y otros oficiales en la Cafetería La Galaxia para discutir un golpe",
+      "fecha": "1978-11-01"
+    }
+  ],
+  "temas": ["operacion-galaxia", "antecedentes-tejero", "1978", "primera-conspiracion", "interrogatorio", "la-moncloa"],
+  "_meta": {
+    "doc_id": "23F_10._Nota_comparecencia_Tejero_Galaxia",
+    "filename": "23F_10._Nota_comparecencia_Tejero_Galaxia.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

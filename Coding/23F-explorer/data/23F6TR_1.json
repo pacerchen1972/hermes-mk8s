@@ -1,0 +1,102 @@
+{
+  "titulo_es": "Conversaciones telefónicas de la esposa del Tte. Coronel Tejero con diversas personas durante el golpe",
+  "titulo_en": "Phone conversations of Lt. Col. Tejero's wife with various people during the coup",
+  "fecha_documento": "1981-02-23",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "transcripcion_telefonica",
+  "ministerio": "Interior",
+  "resumen_es": "Registro de 312 páginas de las conversaciones telefónicas mantenidas por Carmen, esposa del Teniente Coronel Tejero, durante el golpe. Desesperada, llama a la Capitanía General, al Capitán General de Valencia, al Coronel de Estado Mayor y a otras personas intentando comunicarse con su marido en el Congreso. Revela el impacto humano del golpe, menciona que el GEO rodea el edificio, y que el Director General de Seguridad quería grabar su voz para transmitírsela a Tejero por megáfono.",
+  "resumen_en": "312-page record of phone conversations by Carmen, wife of Lt. Col. Tejero, during the coup. Desperate, she calls the Capitanía General, the Captain General of Valencia, the Chief of Staff Colonel, and others trying to reach her husband inside Congress. Reveals the human impact of the coup, mentions the GEO surrounding the building, and that the Director General of Security wanted to record her voice to transmit it to Tejero via megaphone.",
+  "personas": [
+    {
+      "nombre": "Carmen (esposa de Tejero)",
+      "cargo": "Esposa del Tte. Coronel Tejero",
+      "organizacion": "",
+      "rol_en_23f": "otro",
+      "acciones": [
+        "Llamó desesperadamente a múltiples instancias militares y civiles para contactar con su marido",
+        "Llamó a la Capitanía General y al Capitán General de Valencia",
+        "Rechazó ser grabada para que su voz fuera transmitida a Tejero por megáfono",
+        "Mencionó que las tanquetas del GEO rodeaban el Congreso"
+      ]
+    },
+    {
+      "nombre": "General Fajardo",
+      "cargo": "General",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Intermedió en los intentos de comunicación entre la esposa de Tejero y el interior del Congreso"
+      ]
+    },
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Retenido en el interior del Congreso, sin comunicación directa con su familia durante horas"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "Capitanía General", "tipo": "militar" },
+    { "nombre": "GEO (Grupo Especial de Operaciones)", "tipo": "policial" },
+    { "nombre": "Dirección General de Seguridad", "tipo": "policial" },
+    { "nombre": "Congreso de los Diputados", "tipo": "gubernamental" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "El GEO despliega tanquetas alrededor del Congreso de los Diputados mientras Tejero lo tiene ocupado",
+      "descripcion_en": "The GEO deploys armoured vehicles around the Congress of Deputies while Tejero holds it",
+      "lugar": "Madrid, Congreso de los Diputados"
+    },
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "El Director General de Seguridad intentó usar la voz de Carmen para comunicarse con Tejero por megáfono",
+      "descripcion_en": "The Director General of Security attempted to use Carmen's voice to communicate with Tejero via megaphone",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Carmen (esposa de Tejero)",
+      "texto": "No tardes, porque estoy desesperada. Porque si está el tío tan ostinao, están ahí las tanquetas del GEO y monta el número.",
+      "traduccion_en": "Don't be long, I'm desperate. Because if he's as stubborn as ever, the GEO armoured vehicles are there and things will kick off.",
+      "importancia": "Revela la situación táctica externa y el temor de la familia ante un posible asalto al Congreso"
+    },
+    {
+      "autor": "Carmen (esposa de Tejero)",
+      "texto": "Sí, por favor, que no tengo a nadie más que a tí.",
+      "traduccion_en": "Yes please, you're all I have.",
+      "importancia": "Humaniza el drama personal detrás del golpe de estado"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Carmen (esposa de Tejero)",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "llamó",
+      "descripcion": "Intentó repetidamente contactar con su marido en el interior del Congreso ocupado",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Dirección General de Seguridad",
+      "destino": "Carmen (esposa de Tejero)",
+      "tipo": "coordinó",
+      "descripcion": "Intentó utilizar a la esposa de Tejero como canal de negociación para convencer a Tejero de rendirse",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["dimension-humana", "negociacion", "familia-tejero", "geo", "comunicaciones"],
+  "_meta": {
+    "doc_id": "23F6TR_1",
+    "filename": "23F6TR_1.PDF",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 312,
+    "processed_by": "claude-code"
+  }
+}

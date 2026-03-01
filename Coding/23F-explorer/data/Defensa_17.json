@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Nota sobre el levantamiento de la incomunicación de Tejero y régimen de visitas en la Prisión Naval (Carpeta 21802, Secreto)",
+  "titulo_en": "Note on lifting Tejero's incommunicado status and visit regulations in Naval Prison (Carpeta 21802, Secret)",
+  "fecha_documento": "1983-02-18",
+  "periodo": "juicio",
+  "clasificacion_original": "secreto",
+  "tipo_documento": "nota",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota (Carpeta 21802, SECRETO, 18 febrero 1983, 2 páginas) sobre el ingreso del TC Tejero en la Prisión Naval de Cartagena el 8 octubre 1982 y el régimen de visitas restrictivo impuesto por el Ministro de Defensa: solo familiares directos y abogados. El abogado defensor solicitó en enero 1983 una revisión del régimen. El documento analiza el marco legal (Art. 7 del Reglamento de Establecimientos Penitenciarios, RD 2131/78) y los mensajes SECRETOS intercambiados entre el Ministerio de Defensa, la Capitanía General de la Zona Marítima del Mediterráneo y la Tercera Región Militar. Incluye como anexos mensajes AJEMA de octubre 1982.",
+  "resumen_en": "Note (Carpeta 21802, SECRET, 18 February 1983, 2 pages) on TC Tejero's entry into Cartagena Naval Prison on 8 October 1982 and the restrictive visit regime imposed by the Minister of Defence: only immediate family and lawyers. Defence counsel requested a review in January 1983. The document analyses the legal framework (Art. 7 of the Penitentiary Establishments Regulations, RD 2131/78) and SECRET messages exchanged between the Ministry of Defence, the Mediterranean Maritime Zone Command and the Third Military Region. Includes AJEMA messages from October 1982 as annexes.",
+  "personas": [
+    { "nombre": "Antonio Tejero Molina", "rol": "Teniente Coronel de la GC, condenado principal del 23-F, ingresó en Prisión Naval de Cartagena el 8-10-1982" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
+    { "nombre": "Prisión Naval de Cartagena", "tipo": "militar" },
+    { "nombre": "Estado Mayor de la Armada (AJEMA)", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1982-10-08", "descripcion_es": "Tejero ingresa en la Prisión Naval de Cartagena; el Ministro de Defensa impone régimen restrictivo de visitas: solo familiares directos y abogados", "descripcion_en": "Tejero enters Cartagena Naval Prison; Minister of Defence imposes restrictive visit regime: only immediate family and lawyers", "lugar": "Cartagena" },
+    { "fecha": "1983-02-18", "descripcion_es": "Nota secreto analiza marco legal del régimen de visitas de Tejero tras petición de su defensa de revisión", "descripcion_en": "Secret note analyses legal framework for Tejero's visit regime following defence counsel's request for review", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "tejero", "prision-naval", "regimen-penitenciario", "ministerio-defensa"],
+  "_meta": { "doc_id": "Defensa_17", "filename": "Carpeta_21802_Secreto_comunicando_levantamiento_de_incomunicacion_de_Tejero.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

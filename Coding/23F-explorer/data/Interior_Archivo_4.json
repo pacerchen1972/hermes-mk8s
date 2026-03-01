@@ -1,0 +1,31 @@
+{
+  "titulo_es": "Campaña contra S.M. el Rey en relación con el 23-F: argumentos de la defensa sobre la implicación del monarca",
+  "titulo_en": "Campaign against HM the King in relation to 23-F: defence arguments on the monarch's involvement",
+  "fecha_documento": "1982-03-01",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota informativa (ref. 9/BFG/181/813, 10 páginas) sobre la campaña orquestada durante el juicio del 23-F para implicar al Rey en la conspiración. Los abogados defensores argumentaban que el Rey conocía el Plan de Milans y Tejero y lo utilizó para consolidar su figura; que tenía preparado un viaje al extranjero si el golpe fallaba; que la visita al País Vasco tenía como objeto poner de manifiesto la situación política; y que la comunicación de Armada referida como 'el sitio personal' demostraba conocimiento previo del monarca. La nota analiza los planteamientos más significativos de los implicados militares que dieron lugar a esta campaña.",
+  "resumen_en": "Intelligence note (ref. 9/BFG/181/813, 10 pages) on the campaign orchestrated during the 23-F trial to implicate the King in the conspiracy. Defence lawyers argued that the King knew about the Milans-Tejero Plan and used it to consolidate his position; that he had arranged to travel abroad if the coup failed; that his Basque Country visit was intended to gauge the political situation; and that Armada's communication referred to as 'el sitio personal' demonstrated the monarch's prior knowledge. The note analyses the most significant claims by the military defendants that gave rise to this campaign.",
+  "personas": [
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, implicado por las defensas en el 23-F" },
+    { "nombre": "Alfonso Armada", "rol": "General, comunicación 'sitio personal' usada por defensas para implicar al Rey" },
+    { "nombre": "Jaime Milans del Bosch", "rol": "Teniente General, Plan de Milans-Tejero referenciado" },
+    { "nombre": "Antonio Tejero", "rol": "Teniente Coronel, frase 'Yo no puedo detenerme ahora' citada" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-01", "descripcion_es": "Nota informativa del Ministerio del Interior sobre la estrategia defensiva de implicar al Rey en el 23-F durante el juicio oral", "descripcion_en": "Interior Ministry intelligence note on the defence strategy of implicating the King in 23-F during the oral trial", "lugar": "Madrid" }
+  ],
+  "citas_clave": [
+    { "texto_es": "El Rey conoció a algún modo el Plan de Milans y Tejero y trató de utilizarlo para consolidar su figura", "texto_en": "The King was somehow aware of the Milans-Tejero Plan and tried to use it to consolidate his position", "fuente": "Argumentos de la defensa según nota interior" },
+    { "texto_es": "Yo no puedo detenerme ahora [frase de Tejero a Milans interpretada como prueba de la implicación real]", "texto_en": "'I cannot stop now' [Tejero's phrase to Milans interpreted as proof of royal involvement]", "fuente": "Frase de Tejero citada en nota interior" }
+  ],
+  "relaciones": [],
+  "temas": ["juicio", "campana-contra-rey", "armada", "milans-del-bosch", "tejero", "defensa-acusados", "ministerio-interior"],
+  "_meta": { "doc_id": "Interior_Archivo_4", "filename": "4_campana_contra_SM.pdf", "folder": "interior/archivo", "is_image_pdf": true, "pages": 10, "processed_by": "claude-code" }
+}

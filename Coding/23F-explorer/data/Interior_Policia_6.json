@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Nota informativa sobre la 'Operación Ariete' como base del 23-F: libro de directores de Cambio-16 y del Ministerio del Interior",
+  "titulo_en": "Intelligence note on 'Operación Ariete' as the basis for 23-F: book by Cambio-16 and Interior Ministry directors",
+  "fecha_documento": "1981-03-18",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota de la Brigada de Información Interior (39-497G, 18 marzo 1981). El director de 'Cambio-16' [REDACTADO] y el jefe de prensa del Ministerio del Interior preparan un libro sobre el golpe militar del 23-F. La tesis central es que estuvo basado en la 'Operación Ariete', diseñada en la época de Carrero Blanco, compuesta de: 1) vacío de poder; 2) manifestaciones de masas. La segunda parte fue frenada en Barcelona a las 6 AM. Se revelaría que 6.206 guardias asaltaron el Palacio del Congreso con un plan que preveía entre 80 y 110 muertos.",
+  "resumen_en": "Interior Intelligence Brigade note (39-497G, 18 March 1981). The director of 'Cambio-16' [REDACTED] and the Interior Ministry head of press are preparing a book on the 23-F military coup. The central thesis is that it was based on 'Operación Ariete', designed during the Carrero Blanco era, comprising: 1) power vacuum; 2) mass demonstrations. The second part was stopped in Barcelona at 6 AM. It would reveal that 6,206 guards stormed the Congress building with a plan that envisaged 80-110 deaths.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
+    { "nombre": "Cambio-16", "tipo": "medios" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-18", "descripcion_es": "Brigada detecta que periodistas preparan libro sobre 'Operación Ariete' como base del 23-F; datos sensibles sobre número de guardias y plan de muertes", "descripcion_en": "Brigade detects journalists preparing book on 'Operación Ariete' as basis of 23-F; sensitive data about number of guards and planned deaths", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "operacion-ariete", "cambio-16", "prensa", "carrero-blanco", "brigada-informacion-interior"],
+  "_meta": { "doc_id": "Interior_Policia_6", "filename": "18-03-81_NOTA_INFORMATIVA_SOBRE_LA_OPERACION_ARIETE.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

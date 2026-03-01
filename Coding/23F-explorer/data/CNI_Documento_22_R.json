@@ -1,0 +1,35 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 18 de mayo de 1982 de la vista oral Causa 2/81",
+  "titulo_en": "Intelligence note on the 18 May 1982 session of the Causa 2/81 oral hearing",
+  "fecha_documento": "1982-05-18",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID sobre la sesión de la vista oral del 18 de mayo de 1982 en la Causa 2/81. Intervienen el Teniente Antonio Hernández Griñó (defensor del Teniente de la Guardia Civil Vecinos Núñez) y D. Manuel Novalvos (defensor del Teniente de la Guardia Civil Boza Carranca). El documento recoge la argumentación de la defensa en relación con la obediencia debida y las circunstancias atenuantes.",
+  "resumen_en": "CESID intelligence note on the 18 May 1982 Causa 2/81 oral hearing session. Intervening: Lieutenant Antonio Hernández Griñó (defending Lt. Civil Guard Vecinos Núñez) and Manuel Novalvos (defending Lt. Civil Guard Boza Carranca). The document records defence arguments regarding due obedience and mitigating circumstances.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-05-18",
+      "descripcion_es": "Sesión de la vista oral Causa 2/81: defensas de tenientes de la Guardia Civil Vecinos Núñez y Boza Carranca",
+      "descripcion_en": "Causa 2/81 hearing session: defence of Civil Guard Lieutenants Vecinos Núñez and Boza Carranca",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "guardia-civil", "csjm"],
+  "_meta": {
+    "doc_id": "CNI_Documento_22_R",
+    "filename": "Documento_22_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

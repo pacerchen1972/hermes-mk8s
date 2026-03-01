@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 10 mar. 1982 de la vista oral Causa 2/81: General Armada admite reunión en Valencia con Milans; va al Congreso como candidato a Presidente",
+  "titulo_en": "Intelligence note on the 10 Mar. 1982 Causa 2/81 hearing: General Armada admits Valencia meeting with Milans; went to Congress as PM candidate",
+  "fecha_documento": "1982-03-11",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/90/4020/11-03-82, marcada DTOR) sobre la sesión del 10 de marzo de 1982. El General Armada reconoció haber asistido a una reunión en Valencia el 18 de diciembre de 1980 con el General Milans del Bosch. Armada declaró que fue al Congreso como candidato a Presidente del Gobierno con respaldo constitucional. Su defensa argumentó que su intención era presentar una solución constitucional para que el Rey pudiera escucharla. La sesión contó con 13 letrados defensores. El Rey fue citado nominalmente unas 40 veces durante la sesión.",
+  "resumen_en": "CESID intelligence note (C/90/4020/11-03-82, marked DTOR) on the 10 March 1982 session. General Armada acknowledged attending a meeting in Valencia on 18 December 1980 with General Milans del Bosch. Armada stated he went to Congress as a candidate for Prime Minister with constitutional backing. His defence argued his intent was to present a constitutional solution for the King to hear. The session had 13 defence counsels. The King was cited by name approximately 40 times during the session.",
+  "personas": [
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Admitió reunión en Valencia (diciembre 1980) con Milans del Bosch; declaró haber ido al Congreso como candidato a Presidente del Gobierno con respaldo constitucional"] },
+    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General, Capitán General 3ª Región Militar", "organizacion": "Ejército de Tierra", "rol_en_23f": "golpista", "acciones": ["Participó en la reunión de Valencia de diciembre 1980 con Armada según declaración de éste"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-10", "descripcion_es": "Vista oral Causa 2/81: Armada admite reunión en Valencia con Milans (dic. 1980) y declara haber ido al Congreso como candidato a Presidente del Gobierno", "descripcion_en": "Causa 2/81 hearing: Armada admits Valencia meeting with Milans (Dec. 1980) and declares he went to Congress as PM candidate", "lugar": "Consejo Supremo de Justicia Militar, Madrid" },
+    { "fecha": "1980-12-18", "descripcion_es": "Reunión entre Armada y Milans del Bosch en Valencia (admitida por Armada en el juicio)", "descripcion_en": "Meeting between Armada and Milans del Bosch in Valencia (admitted by Armada at trial)", "lugar": "Valencia" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "Alfonso Armada Comyn", "destino": "Jaime Milans del Bosch", "tipo": "reunion_preparatoria", "descripcion": "Reunión en Valencia, 18 diciembre 1980; inicio de la conspiración según la declaración de Armada" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "milans", "reunion-valencia", "testigos", "gobierno-provisional", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_59_R", "filename": "Documento_59_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

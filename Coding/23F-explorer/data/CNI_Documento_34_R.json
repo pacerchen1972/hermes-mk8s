@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 27 abr. 1982 de la vista oral Causa 2/81: dictamen definitivo del Fiscal",
+  "titulo_en": "Intelligence note on the 27 Apr. 1982 Causa 2/81 hearing: Prosecutor's final conclusions",
+  "fecha_documento": "1982-04-27",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (CGSC/180/27-04-82) sobre la sesión del 27 de abril de 1982, dedicada íntegramente al dictamen definitivo del Fiscal. El Fiscal fijó el origen de la conspiración en julio de 1980, articulada en torno a reuniones del Capitán General con el Coronel San Martín y Armada, y con el Teniente General Milans del Bosch. Analizó el papel de Cortina y Gómez Iglesias en el CESID y la posición de Armada en los documentos de instrucción judicial.",
+  "resumen_en": "CESID intelligence note (CGSC/180/27-04-82) on the 27 April 1982 session, entirely devoted to the Prosecutor's final conclusions. The Prosecutor dated the conspiracy's origins to July 1980, structured around meetings of the Captain General with Colonel San Martín and Armada, and with Lieutenant General Milans del Bosch. He analysed the roles of Cortina and Gómez Iglesias in CESID and Armada's position in the judicial investigation documents.",
+  "personas": [
+    { "nombre": "José Cortina Prieto", "cargo": "Comandante de Infantería, CESID/AOME", "organizacion": "CESID", "rol_en_23f": "conspirador", "acciones": ["Analizado por el Fiscal en su dictamen definitivo como parte de la conspiración del CESID"] },
+    { "nombre": "Vicente Gómez Iglesias", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "conspirador", "acciones": ["Analizado junto a Cortina en el dictamen definitivo del Fiscal"] },
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["El Fiscal analizó su posición a lo largo de los documentos de instrucción judicial"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-27", "descripcion_es": "El Fiscal expone su dictamen definitivo: la conspiración se inició en julio de 1980 en reuniones entre el Capitán General, San Martín, Armada y Milans del Bosch", "descripcion_en": "Prosecutor delivers final conclusions: conspiracy began July 1980 at meetings between Captain General, San Martín, Armada and Milans del Bosch", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "dictamen-fiscal", "conspiración-1980", "armada", "cortina", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_34_R", "filename": "Documento_34_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

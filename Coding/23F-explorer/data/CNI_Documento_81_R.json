@@ -1,0 +1,51 @@
+{
+  "titulo_es": "Certificación CESID para la Causa 2/81: sistema de transmisiones de la Unidad Escuela de Cortina",
+  "titulo_en": "CESID certification for Causa 2/81: transmission system of Cortina's School Unit",
+  "fecha_documento": "1982-01-08",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Segunda certificación del CESID (Microfilmación 00305/S, S/Ref Causa 2/81, Núm. 2, Fecha 08-01-82, N/tref: TJ 314) para la Causa 2/81, en respuesta al auto del CSJM de 17 de noviembre de 1981. Certifica que la Unidad Escuela integrada en la unidad mandada por el Comandante Cortina disponía efectivamente de un sistema de transmisiones independiente del resto, utilizado habitualmente para actividades de enseñanza y no operativas. El sistema se integra por una emisora central o emisora base de carácter fijo, junto con vehículos con radios y emisores móviles.",
+  "resumen_en": "Second CESID certification (Microfilm 00305/S, S/Ref Causa 2/81, No. 2, Date 08-01-82, N/tref: TJ 314) for Causa 2/81, in response to the CSJM order of 17 November 1981. Certifies that the School Unit integrated within Cortina's command had an independent transmission system used habitually for teaching activities, not operations. The system consists of a fixed central base station plus vehicles with mobile radios and transmitters.",
+  "personas": [
+    {
+      "nombre": "José Cortina Prieto",
+      "cargo": "Comandante de Infantería, CESID/AOME",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Su Unidad Escuela disponía de un sistema de transmisiones independiente, certificado por el CESID para la Causa 2/81"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-01-08",
+      "descripcion_es": "El CESID certifica para la Causa 2/81 que la Unidad Escuela de Cortina tenía sistema de transmisiones independiente de uso docente",
+      "descripcion_en": "CESID certifies for Causa 2/81 that Cortina's School Unit had an independent transmission system for teaching use",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "informó",
+      "descripcion": "Certificación del sistema de transmisiones de Cortina para el juicio oral",
+      "fecha": "1982-01-08"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "cortina", "transmisiones", "certificacion"],
+  "_meta": {
+    "doc_id": "CNI_Documento_81_R",
+    "filename": "Documento_81_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

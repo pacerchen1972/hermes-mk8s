@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Embajada en Buenos Aires remite artículo de Julián Marías en Newsweek sobre el Rey Juan Carlos y el 23-F",
+  "titulo_en": "Embassy in Buenos Aires forwards Julián Marías's Newsweek article on King Juan Carlos and 23-F",
+  "fecha_documento": "1981-05-17",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_consular",
+  "ministerio": "Exteriores",
+  "resumen_es": "Nota de la Embajada de España en Buenos Aires (17 mayo 1981, nr. 557) al Ministerio de Asuntos Exteriores, remitiendo el artículo editorial de 'Newsweek' de Julián Marías titulado 'Democracy Keeps' (o similar), que pone 'sobre todo de relieve el enorme prestigio del Rey Juan Carlos ante el pueblo español y en el ámbito internacional, que es imposible de silenciar, particularmente en relación con los acontecimientos del 23 de febrero pasado'.",
+  "resumen_en": "Note from Spain's Embassy in Buenos Aires (17 May 1981, no. 557) to the Ministry of Foreign Affairs, forwarding the 'Newsweek' editorial article by Julián Marías, which 'above all highlights the enormous prestige of King Juan Carlos before the Spanish people and internationally, which is impossible to silence, particularly in relation to the events of 23 February.'",
+  "personas": [
+    { "nombre": "Julián Marías", "rol": "Filósofo español, autor del artículo en Newsweek sobre el Rey y el 23-F" },
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, sujeto del artículo" }
+  ],
+  "organizaciones": [
+    { "nombre": "Embajada de España en Buenos Aires", "tipo": "gobierno" },
+    { "nombre": "Newsweek", "tipo": "medios" }
+  ],
+  "eventos": [
+    { "fecha": "1981-05-17", "descripcion_es": "Embajada en Buenos Aires remite artículo de Julián Marías en Newsweek elogiando el papel del Rey en el 23-F", "descripcion_en": "Embassy in Buenos Aires forwards Julián Marías's Newsweek article praising the King's role in 23-F", "lugar": "Buenos Aires, Argentina" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "argentina", "prensa-extranjera", "juan-carlos-i"],
+  "_meta": { "doc_id": "Exteriores_19", "filename": "D.19._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

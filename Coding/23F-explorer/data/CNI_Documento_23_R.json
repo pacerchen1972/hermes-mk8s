@@ -1,0 +1,35 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 17 de mayo de 1982 de la vista oral Causa 2/81",
+  "titulo_en": "Intelligence note on the 17 May 1982 session of the Causa 2/81 oral hearing",
+  "fecha_documento": "1982-05-17",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID sobre la sesión del 17 de mayo de 1982 de la vista oral de la Causa 2/81 ante el Consejo Supremo de Justicia Militar. Intervienen defensores de tres tenientes de la Guardia Civil. Los defensores solicitan la aplicación del artículo 294 del Código de Justicia Militar (eximentes) e insisten en el 'pacto del capó' como elemento determinante, argumentando que debería ser tenido en cuenta para reducir las penas. La defensa argumenta obediencia debida a órdenes superiores.",
+  "resumen_en": "CESID intelligence note on the 17 May 1982 Causa 2/81 oral hearing at the Supreme Military Court. Three Civil Guard lieutenant defence counsel intervene. Defenders request application of Article 294 of the Military Justice Code (exemptions) and insist on the 'bonnet agreement' as a determining factor, arguing it should be considered to reduce sentences. Defence argues due obedience to superior orders.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-05-17",
+      "descripcion_es": "Sesión de la vista oral Causa 2/81: defensas de tenientes de la Guardia Civil; el 'pacto del capó' como argumento central",
+      "descripcion_en": "Causa 2/81 hearing session: Civil Guard lieutenant defences; 'bonnet agreement' as central argument",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "pacto-del-capo", "guardia-civil", "csjm"],
+  "_meta": {
+    "doc_id": "CNI_Documento_23_R",
+    "filename": "Documento_23_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 4,
+    "processed_by": "claude-code"
+  }
+}

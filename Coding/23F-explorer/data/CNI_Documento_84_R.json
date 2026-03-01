@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Nota informativa sobre la revisión de la sentencia de la Causa 2/81 por el CSJM",
+  "titulo_en": "Intelligence note on the review of the Causa 2/81 sentence by the CSJM",
+  "fecha_documento": "1981-10-19",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa parcialmente ilegible (R/ref. 06/25102/19.10.81) sobre la petición de revisión de la sentencia por parte del Consejo Supremo de Justicia Militar en la Causa 2/81. El texto, de baja calidad gráfica, trata sobre las posiciones de los consejeros togados en relación con el proceso y la posible revisión de la condena. Se menciona a Comandante García Blanca y al General Manrique. El documento aborda la postura de defensa sobre la revisión de sentencia, con referencias a la dirección actual y a los togados.",
+  "resumen_en": "Partially illegible intelligence note (R/ref. 06/25102/19.10.81) on the request for sentence review by the Supreme Military Court in Causa 2/81. The low-quality text concerns the positions of military judges regarding the proceedings and possible sentence revision. References to Commander García Blanca and General Manrique. The document addresses the defence position on sentence revision, with references to current management and military judges.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "CESID", "tipo": "inteligencia" }
+  ],
+  "eventos": [],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "csjm", "sentencia", "revision"],
+  "_meta": {
+    "doc_id": "CNI_Documento_84_R",
+    "filename": "Documento_84_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code",
+    "nota": "Documento de baja calidad gráfica; contenido parcialmente ilegible"
+  }
+}

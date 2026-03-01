@@ -1,0 +1,24 @@
+{
+  "titulo_es": "Nota informativa sobre campaña de ayuda económica a los implicados en el 23-F y malestar en las Fuerzas Armadas",
+  "titulo_en": "Intelligence note on economic support campaign for 23-F implicated and unrest in the Armed Forces",
+  "fecha_documento": "1981-03-18",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota de la Brigada de Información Interior (39-497G, 18 marzo 1981). Se ha tenido conocimiento de que, desde altas instancias castrenses, se podría iniciar una campaña de ayuda económica para los familiares de los militares y guardias civiles implicados en el asalto al Congreso. Al mismo tiempo, existe en un sector del Ejército una firme convicción de no tolerar ninguna persecución a los referidos familiares, lo cual produce 'un elevado malestar en el seno de las Fuerzas Armadas'.",
+  "resumen_en": "Interior Intelligence Brigade note (39-497G, 18 March 1981). Intelligence received that from high military circles, an economic support campaign may be launched for families of military and civil guard personnel implicated in the Congress assault. At the same time, a sector of the Army holds the firm conviction of not tolerating any persecution of these families, causing 'high unrest within the Armed Forces'.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
+    { "nombre": "Ejército de Tierra", "tipo": "militar" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-18", "descripcion_es": "Brigada de Información Interior detecta malestar militar: sectores del Ejército planean apoyo económico para familias de implicados y rechazan cualquier persecución", "descripcion_en": "Interior Intelligence Brigade detects military unrest: Army sectors plan economic support for implicated families and reject any persecution", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "malestar-militar", "apoyo-economico", "familias-implicados", "brigada-informacion-interior"],
+  "_meta": { "doc_id": "Interior_Policia_5", "filename": "18-03-81_NOTA_INFORMATIVA_SOBRE_LA_AYUDA_A_LOS_IMPLICADOS_23F.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

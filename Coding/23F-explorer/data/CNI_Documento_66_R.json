@@ -1,0 +1,30 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 26 feb. 1982 de la vista oral Causa 2/81: declaraciones sobre el comportamiento de Armada; propuesta rechazada por la JUME",
+  "titulo_en": "Intelligence note on the 26 Feb. 1982 Causa 2/81 hearing: declarations on Armada's conduct; proposal rejected by JUME",
+  "fecha_documento": "1982-02-26",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/90/3.249/26-02-82) sobre la sesión del 26 de febrero de 1982. La defensa del General Armada (Bermúdez) continuó con la lectura de declaraciones durante todo el día. Se leyeron declaraciones de los Generales Urrutia y Edriche Bilbao, que confirmaron haber recibido de Armada la orden de alerta. La certificación del General Santamaría dedujo que Armada no llevó a buen término sus negociaciones la noche del 23-F y que su propuesta de 'alianza' fue rechazada. Los Generales Esquivas, de Tejada, Lluch y Nouffles ratificaron la actuación correcta y disciplinada de Armada. Armada recibió una llamada en la que se le indicó que 'las armas que iban a necesitarse se sacrificaran', y la propuesta fue rechazada por el General Paredones Campos y la JUME.",
+  "resumen_en": "CESID intelligence note (C/90/3.249/26-02-82) on the 26 February 1982 session. Armada's defence (Bermúdez) continued reading declarations throughout the day. Declarations of Generals Urrutia and Edriche Bilbao confirmed they received an alert order from Armada. General Santamaría's certification concluded that Armada's negotiations on the night of 23-F failed and that his 'alliance' proposal was rejected. Generals Esquivas, de Tejada, Lluch and Nouffles confirmed Armada's correct and disciplined conduct. Armada received a call in which he was told 'the weapons that would be needed should be sacrificed', and the proposal was rejected by General Paredones Campos and the JUME.",
+  "personas": [
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Emitió orden de alerta a los Generales Urrutia y Edriche Bilbao; recibió una llamada en que se le dijo que 'las armas se sacrificaran'; su propuesta fue rechazada por la JUME"] },
+    { "nombre": "Santamaría", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "testigo", "acciones": ["Certificó que Armada no llevó a buen término sus negociaciones el 23-F y que fue rechazada su propuesta de 'alianza'"] },
+    { "nombre": "Paredones Campos", "cargo": "General, JUME", "organizacion": "Ejército de Tierra", "rol_en_23f": "testigo", "acciones": ["Rechazó la propuesta de Armada junto con la JUME"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Junta de Jefes de Estado Mayor (JUME)", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1982-02-26", "descripcion_es": "Vista oral Causa 2/81: múltiples Generales certifican conducta disciplinada de Armada; se revela que Armada emitió orden de alerta y que la JUME rechazó su propuesta", "descripcion_en": "Causa 2/81 hearing: multiple Generals certify Armada's disciplined conduct; revealed that Armada issued alert order and JUME rejected his proposal", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [
+    { "autor": "Llamada recibida por Armada (según testimonio)", "texto_es": "Las armas que iban a necesitarse se sacrificaran.", "texto_en": "The weapons that would be needed should be sacrificed.", "contexto": "Llamada telefónica recibida por el General Armada la noche del 23-F, citada en el juicio el 26 febrero 1982" }
+  ],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "jume", "testigos", "orden-alerta", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_66_R", "filename": "Documento_66_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

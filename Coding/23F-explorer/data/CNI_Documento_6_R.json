@@ -1,0 +1,106 @@
+{
+  "titulo_es": "Informe sobre participación de miembros de la AOME (CESID) en el 23-F y encubrimiento posterior",
+  "titulo_en": "Report on AOME (CESID special operations) members' participation in 23-F and subsequent cover-up",
+  "fecha_documento": "1981-02-24",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe interno del CESID sobre la participación de 6 miembros de la Agrupación Operativa de Misiones Especiales (AOME) en el golpe del 23-F. Algunos conocían los hechos de antemano y planificaron apoyo operativo. Tras el fracaso del golpe, el Comandante Cortina reunió el día 24 al Capitán García Almenta, Sargento Sales Maroto y Cabo Monge Segura para activar la 'Operación Mister', que alteró fechas en documentos para encubrir los movimientos del personal el día 23. El documento revela también que Cortina tuvo contactos previos al 23-F con el Nuncio Apostólico y el Embajador de EE.UU. Mr. Toduman.",
+  "resumen_en": "Internal CESID report on the involvement of 6 members of the AOME (Special Missions Operational Group) in the 23-F coup. Some had foreknowledge and planned operational support. After the coup's failure, Commander Cortina convened a meeting on 24 February with Captain García Almenta, Sergeant Sales Maroto and Corporal Monge Segura to activate 'Operation Mister', which altered dates on documents to conceal personnel movements on 23 February. The document also reveals Cortina had prior contacts with the Apostolic Nuncio and US Ambassador Toduman before 23-F.",
+  "personas": [
+    {
+      "nombre": "José Luis Cortina Prieto",
+      "cargo": "Comandante, AOME-CESID",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Organizó la participación de la AOME en el 23-F",
+        "Activó la 'Operación Mister' el día 24 para encubrir la participación",
+        "Reunió al personal el día 24 para falsificar fechas en documentos",
+        "Mantuvo contactos previos con el Nuncio Apostólico y el Embajador de EE.UU."
+      ]
+    },
+    {
+      "nombre": "Capitán García Almenta",
+      "cargo": "Capitán, AOME-CESID",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Participó activamente en el 23-F bajo órdenes de Cortina",
+        "Participó en la activación de la Operación Mister para encubrir la participación"
+      ]
+    },
+    {
+      "nombre": "Sargento Sales Maroto",
+      "cargo": "Sargento, AOME-CESID",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Participó en el encubrimiento; asistió a la reunión del día 24 con Cortina"]
+    },
+    {
+      "nombre": "Cabo Monge Segura",
+      "cargo": "Cabo, AOME-CESID",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Participó en el encubrimiento; asistió a la reunión del día 24 con Cortina"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "AOME (Agrupación Operativa de Misiones Especiales)", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "Seis miembros de la AOME (CESID) participan activamente en el 23-F, algunos con conocimiento previo y apoyo operativo planificado",
+      "descripcion_en": "Six AOME (CESID) members actively participate in 23-F, some with foreknowledge and planned operational support",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-24",
+      "descripcion_es": "Comandante Cortina reúne a Capitán García Almenta, Sgto. Sales Maroto y Cabo Monge Segura para activar la 'Operación Mister' y falsificar documentos que encubran los movimientos del día 23",
+      "descripcion_en": "Commander Cortina convenes Captain García Almenta, Sgt. Sales Maroto and Cpl. Monge Segura to activate 'Operation Mister' and falsify documents concealing 23 February movements",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Informe CESID sobre AOME",
+      "texto": "Fracasado el golpe de Estado. En la Unidad se dió orden de activar la Operación Míster, se corrigieron fechas, con lo que se justificaban los movimientos del personal de la Unidad el día 23 de Febrero.",
+      "traduccion_en": "After the coup failed. In the Unit an order was given to activate Operation Mister, dates were corrected, thereby justifying the unit's personnel movements on 23 February.",
+      "importancia": "Prueba documental del encubrimiento organizado por el CESID tras el fracaso del golpe: falsificación de documentos oficiales"
+    },
+    {
+      "autor": "Informe CESID sobre AOME",
+      "texto": "Se conocen contactos del Comandante Cortina con el Nuncio de Su Santidad y con el Embajador de EE.UU. Mr. Toduman en fechas previas al día 23.",
+      "traduccion_en": "Known contacts of Commander Cortina with the Apostolic Nuncio and US Ambassador Mr. Toduman on dates prior to 23 February.",
+      "importancia": "Sugiere que elementos del mundo diplomático y eclesiástico pudieron tener conocimiento previo del golpe"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "José Luis Cortina Prieto",
+      "destino": "AOME (Agrupación Operativa de Misiones Especiales)",
+      "tipo": "coordinó",
+      "descripcion": "Organizó la participación de la unidad en el golpe y el posterior encubrimiento",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "José Luis Cortina Prieto",
+      "destino": "Capitán García Almenta",
+      "tipo": "ordenó",
+      "descripcion": "Ordenó a García Almenta y otros activar la Operación Mister para encubrir la participación",
+      "fecha": "1981-02-24"
+    }
+  ],
+  "temas": ["cesid", "aome", "encubrimiento", "operacion-mister", "cortina", "implicacion-extranjera", "conspiracion", "post-golpe"],
+  "_meta": {
+    "doc_id": "CNI_Documento_6_R",
+    "filename": "Documento_6_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 8,
+    "processed_by": "claude-code"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Situación en las distintas regiones policiales el 25 de febrero de 1981",
+  "titulo_en": "Situation in the various police regions on 25 February 1981",
+  "fecha_documento": "1981-02-25",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe_regional",
+  "ministerio": "Interior",
+  "resumen_es": "Informe policial (25 febrero 1981) sobre la situación en las distintas regiones policiales de España al día siguiente del fracaso del golpe de Estado del 23-F. Documento de 24 páginas con el seguimiento de la situación en cada región policial, protestas, reacciones populares y medidas de seguridad adoptadas en el segundo día posterior al golpe.",
+  "resumen_en": "Police report (25 February 1981) on the situation in the various police regions of Spain the day after the failure of the 23-F coup. 24-page document tracking the situation in each police region, protests, popular reactions and security measures taken on the second day after the coup.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Dirección General de Seguridad (DGS)", "tipo": "seguridad" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-25", "descripcion_es": "Segundo informe policial regional post-23F: seguimiento de la situación en todas las regiones de España 48 horas después del fallido golpe", "descripcion_en": "Second regional police post-23F report: tracking the situation across all Spanish regions 48 hours after the failed coup", "lugar": "España" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "situacion-policial", "regiones-policiales", "ministerio-interior"],
+  "_meta": { "doc_id": "Interior_Policia_9", "filename": "SITUACION_REGIONES_POLICIALES_25-02-81.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 24, "processed_by": "claude-code" }
+}

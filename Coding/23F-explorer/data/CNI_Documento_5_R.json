@@ -1,0 +1,155 @@
+{
+  "titulo_es": "Informe completo de la actuación del CESID ante el 23-F (cronología y relaciones institucionales)",
+  "titulo_en": "Comprehensive CESID operational report on 23-F response (chronology and institutional liaisons)",
+  "fecha_documento": "1981-02-24",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe completo de 13 páginas del CESID sobre su actuación durante el 23-F. Documenta la cronología hora a hora desde las 17:00 del 23-F hasta las 14:00 del 24-F, las relaciones con JUJEM, Capitanía General de la 1ª Región Militar, DGGC, EME, CGI y IGPN. El CESID activó la Alerta Verde, montó un Centro de Operaciones, desplegó unidades en los accesos a Madrid, y dos directivos lograron entrar al Congreso y hablar directamente con Tejero, Menéndez y Pardo Zancada. El documento revela que la mayoría de guardias civiles habían ido 'engañados' y que el núcleo comprometido era una minoría. El despliegue se levantó parcialmente a las 04:00 del día 24 y completamente a las 14:00.",
+  "resumen_en": "Comprehensive 13-page CESID report on its actions during 23-F. Documents hour-by-hour chronology from 17:00 on 23 February to 14:00 on 24 February, relations with JUJEM, 1st Military Region Captain-General, DGGC, Army General Staff, CGI and National Police. CESID activated Green Alert, set up an Operations Centre, deployed units on Madrid access roads, and two executives managed to enter Congress and speak directly with Tejero, Menéndez and Pardo Zancada. The document reveals most Civil Guards had been deceived and the committed core was a minority. Deployment was partially lifted at 04:00 on 24 February and completely at 14:00.",
+  "personas": [
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Lideró la ocupación del Congreso",
+        "Habló con dos directivos del CESID que lograron entrar",
+        "Mantuvo conversaciones con Valencia durante la ocupación"
+      ]
+    },
+    {
+      "nombre": "Rafael Menéndez Tejada",
+      "cargo": "Comandante de la Policía Nacional",
+      "organizacion": "Policía Nacional",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Participó en la ocupación del Congreso; habló con los directivos del CESID"]
+    },
+    {
+      "nombre": "Ricardo Pardo Zancada",
+      "cargo": "Comandante de Infantería",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Participó en la ocupación del Congreso; habló con los directivos del CESID"]
+    },
+    {
+      "nombre": "General Aramburu",
+      "cargo": "Director General de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Fue informado por CESID de la llegada de las UARRE al Congreso, que desconocía",
+        "Intentó parlamentar con los golpistas"
+      ]
+    },
+    {
+      "nombre": "Alfonso Armada Comyn",
+      "cargo": "General",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Intentó parlamentar en el Congreso durante la ocupación"]
+    },
+    {
+      "nombre": "José Sáenz de Santa María",
+      "cargo": "General de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "leal",
+      "acciones": ["Intentó parlamentar con Tejero en el Congreso"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Junta de Jefes de Estado Mayor (JUJEM)", "tipo": "militar" },
+    { "nombre": "Capitanía General 1ª Región Militar", "tipo": "militar" },
+    { "nombre": "Dirección General de la Guardia Civil (DGGC)", "tipo": "policial" },
+    { "nombre": "Inspección General de Policía Nacional (IGPN)", "tipo": "policial" },
+    { "nombre": "División Acorazada (DA)", "tipo": "militar" },
+    { "nombre": "Congreso de los Diputados", "tipo": "gubernamental" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23T17:00",
+      "descripcion_es": "CESID recibe noticia de orden de acuartelamiento de la División Acorazada",
+      "descripcion_en": "CESID receives quartering order for Armoured Division",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T18:20",
+      "descripcion_es": "CESID conoce por radio el asalto al Congreso",
+      "descripcion_en": "CESID learns of Congress assault via radio",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T19:00",
+      "descripcion_es": "CESID activa Alerta Verde y monta Centro de Operaciones",
+      "descripcion_en": "CESID activates Green Alert and sets up Operations Centre",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T19:50",
+      "descripcion_es": "CESID completa despliegue informativo en todos los accesos a Madrid",
+      "descripcion_en": "CESID completes intelligence deployment on all Madrid access roads",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-24T04:00",
+      "descripcion_es": "CESID levanta parcialmente el despliegue tras la rendición de los golpistas",
+      "descripcion_en": "CESID partially lifts its deployment following surrender of coup plotters",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-24T14:00",
+      "descripcion_es": "CESID completa la retirada de todos los retenes desplegados",
+      "descripcion_en": "CESID completes withdrawal of all deployed units",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Informe CESID",
+      "texto": "Dos directivos del CESID lograron penetrar en el Congreso y hablar con los Jefes de los allí encerrados (Tejero, Menéndez, Pardo Zancada). Estos explicaron su actitud, que en aquel momento parecía irreductible.",
+      "traduccion_en": "Two CESID executives managed to penetrate Congress and speak with the leaders of those inside (Tejero, Menéndez, Pardo Zancada). They explained their position, which at that moment appeared irreversible.",
+      "importancia": "Confirma que agentes del CESID entraron físicamente al Congreso durante el golpe y tuvieron contacto directo con los golpistas"
+    },
+    {
+      "autor": "Informe CESID",
+      "texto": "Se supo enseguida que el núcleo verdaderamente comprometido era una minoría, y el resto habían ido engañados.",
+      "traduccion_en": "It was quickly established that the truly committed core was a minority, and the rest had been deceived into going.",
+      "importancia": "El CESID determinó desde dentro que la mayoría de guardias civiles no eran golpistas convencidos, información clave para la estrategia de resolución"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "coordinó",
+      "descripcion": "Directivos del CESID entraron al Congreso y hablaron con Tejero intentando disuadirle",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "CESID",
+      "destino": "Junta de Jefes de Estado Mayor (JUJEM)",
+      "tipo": "informó",
+      "descripcion": "CESID mantuvo enlace continuo con JUJEM durante todo el golpe, proporcionando información y recomendaciones",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "CESID",
+      "destino": "General Aramburu",
+      "tipo": "informó",
+      "descripcion": "CESID informó al Director General de la Guardia Civil de la llegada de las UARRE que él desconocía",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["cesid", "golpe", "cronologia", "operaciones", "tejero", "pardo-zancada", "armada", "congreso", "23f"],
+  "_meta": {
+    "doc_id": "CNI_Documento_5_R",
+    "filename": "Documento_5_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 13,
+    "processed_by": "claude-code"
+  }
+}

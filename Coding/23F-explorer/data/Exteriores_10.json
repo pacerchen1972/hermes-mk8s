@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Telegrama cifrado: Calvo Sotelo responde a Reagan agradeciendo su apoyo a la democracia española",
+  "titulo_en": "Coded telegram: Calvo Sotelo replies to Reagan thanking him for his support of Spanish democracy",
+  "fecha_documento": "1981-03-05",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "telegrama_cifrado",
+  "ministerio": "Exteriores",
+  "resumen_es": "Telegrama cifrado URGENTE del Ministro de Asuntos Exteriores al Embajador de España en Washington (5 marzo 1981, hora 23:55) transmitiendo la respuesta del Presidente del Gobierno Leopoldo Calvo Sotelo al Presidente Reagan: 'Mucho le agradezco su amable felicitación por mi nombramiento como Presidente del Gobierno Español y los términos en los que expresa su apoyo a las Instituciones Democráticas de mi País. Corresponde a naciones como las nuestras cooperar estrechamente, al lado de los demás países democráticos, en defensa de los principios comunes que inspiran a nuestra sociedad.' Firmado: Leopoldo Calvo Sotelo.",
+  "resumen_en": "URGENT coded telegram from the Foreign Minister to Spain's Ambassador in Washington (5 March 1981, 23:55) transmitting President of Government Leopoldo Calvo Sotelo's reply to President Reagan: 'I deeply thank you for your kind congratulations on my appointment as President of the Spanish Government and the terms in which you express your support for the Democratic Institutions of my Country. It falls to nations like ours to cooperate closely, alongside other democratic countries, in defence of the common principles that inspire our society.' Signed: Leopoldo Calvo Sotelo.",
+  "personas": [
+    { "nombre": "Leopoldo Calvo Sotelo", "rol": "Presidente del Gobierno de España, autor del mensaje" },
+    { "nombre": "Ronald Reagan", "rol": "Presidente de los Estados Unidos, destinatario" },
+    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Exteriores, firmante del telegrama" }
+  ],
+  "organizaciones": [
+    { "nombre": "Presidencia del Gobierno de España", "tipo": "gobierno" },
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-05", "descripcion_es": "Calvo Sotelo responde a Reagan en sus primeros días como Presidente del Gobierno, expresando voluntad de cooperación democrática España-EE.UU.", "descripcion_en": "Calvo Sotelo replies to Reagan in his first days as President, expressing willingness for democratic Spain-US cooperation", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "reagan", "calvo-sotelo", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_10", "filename": "D.10._AGMAE_R39017_Exp._4.jpg", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

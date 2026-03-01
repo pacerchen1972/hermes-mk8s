@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Embajada en Londres transmite la moción parlamentaria 'Spanish Democracy' firmada por más de 200 diputados británicos",
+  "titulo_en": "London Embassy transmits 'Spanish Democracy' parliamentary motion signed by more than 200 British MPs",
+  "fecha_documento": "1981-03-25",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Nota de la Embajada de España en Londres, firmada por Fernando Arias-Salgado (25 marzo 1981), al Ministerio de Asuntos Exteriores, transmitiendo la moción parlamentaria 'Spanish Democracy' presentada en la Cámara de los Comunes del Reino Unido (nº 357, 16 marzo 1981). La moción, registrada en el Libro de Preguntas y Avisos del Parlamento, fue suscrita por más de doscientos diputados de todos los partidos y expresa la admiración del Parlamento Británico por la actuación del pueblo y las instituciones españolas en defensa de la democracia durante el intento de golpe del 23-F.",
+  "resumen_en": "Note from Spain's London Embassy, signed by Fernando Arias-Salgado (25 March 1981), to the Ministry of Foreign Affairs, transmitting the 'Spanish Democracy' parliamentary motion tabled in the UK House of Commons (no. 357, 16 March 1981). The motion, recorded in the Parliament's Questions and Notices Book, was signed by more than two hundred MPs from all parties and expresses the British Parliament's admiration for the actions of the Spanish people and institutions in defence of democracy during the 23-F coup attempt.",
+  "personas": [
+    { "nombre": "Fernando Arias-Salgado", "rol": "Embajador de España en Londres, firmante de la nota de transmisión" }
+  ],
+  "organizaciones": [
+    { "nombre": "Embajada de España en Londres", "tipo": "gobierno" },
+    { "nombre": "Cámara de los Comunes del Reino Unido", "tipo": "gobierno" },
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-16", "descripcion_es": "La Cámara de los Comunes registra la moción 'Spanish Democracy' (nº 357) con más de 200 firmas de diputados de todos los partidos", "descripcion_en": "The House of Commons registers the 'Spanish Democracy' motion (no. 357) with over 200 signatures from MPs of all parties", "lugar": "Londres, Reino Unido" },
+    { "fecha": "1981-03-25", "descripcion_es": "La Embajada de España en Londres transmite la moción al Ministerio de Asuntos Exteriores de España", "descripcion_en": "Spain's Embassy in London transmits the motion to the Spanish Ministry of Foreign Affairs", "lugar": "Londres, Reino Unido" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "reino-unido", "parlamento-britanico", "diplomacia", "solidaridad-democratica"],
+  "_meta": { "doc_id": "Exteriores_31", "filename": "D.31._AGA-83-09301_exp._5.pdf", "folder": "exteriores/AGA-83-09301", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

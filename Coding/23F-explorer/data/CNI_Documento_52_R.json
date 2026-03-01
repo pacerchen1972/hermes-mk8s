@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 25 mar. 1982 de la vista oral Causa 2/81: interrogatorio continuado del Cte. Cortina y testimonio del Capitán Muñeca",
+  "titulo_en": "Intelligence note on the 25 Mar. 1982 Causa 2/81 hearing: continued interrogation of Cte. Cortina and testimony of Captain Muñeca",
+  "fecha_documento": "1982-03-25",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (N.Ref. 0/03/1650/25-03-82) sobre la sesión del 25 de marzo de 1982. El Comandante Cortina continuó siendo interrogado sobre sus actividades operativas y la Operación Galaxia. El Capitán Muñeca Ballesteros confirmó que el General Armada llegó al Congreso portando una gorra de Vicepresidente, y que también vio al General Prieto. El Fiscal señaló las contradicciones de Cortina respecto a la investigación de Galaxia y los contactos con Gómez Iglesias.",
+  "resumen_en": "CESID intelligence note (N.Ref. 0/03/1650/25-03-82) on the 25 March 1982 session. Commander Cortina continued to be questioned on his operational activities and Operation Galaxia. Captain Muñeca Ballesteros confirmed that General Armada arrived at Congress wearing a Vice-President's cap, and that he also saw General Prieto. The Prosecutor highlighted contradictions in Cortina's account regarding the Galaxia investigation and contacts with Gómez Iglesias.",
+  "personas": [
+    { "nombre": "José Cortina Prieto", "cargo": "Comandante de Infantería, CESID/AOME", "organizacion": "CESID", "rol_en_23f": "conspirador", "acciones": ["Continuó el interrogatorio sobre Operación Galaxia y contactos con Gómez Iglesias; el Fiscal señaló contradicciones en su testimonio"] },
+    { "nombre": "Muñeca Ballesteros", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Confirmó que Armada entró al Congreso con gorra de Vicepresidente; vio al General Prieto; reconoció el incidente del Coronel Aramburu en fotografías"] },
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Llegó al Congreso portando gorra de Vicepresidente según testimonio del Capitán Muñeca"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-25", "descripcion_es": "Vista oral Causa 2/81: Capitán Muñeca confirma que Armada entró al Congreso con gorra de Vicepresidente; Cortina interrogado sobre Operación Galaxia y contactos previos al golpe", "descripcion_en": "Causa 2/81 hearing: Captain Muñeca confirms Armada entered Congress wearing a Vice-President's cap; Cortina questioned on Operation Galaxia and pre-coup contacts", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "cortina", "armada", "operacion-galaxia", "gomez-iglesias", "guardia-civil", "testigos", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_52_R", "filename": "Documento_52_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

@@ -1,0 +1,68 @@
+{
+  "titulo_es": "Documento manuscrito de planificación operativa — Operación HALTON y cronología D-Day",
+  "titulo_en": "Handwritten operational planning document — Operation HALTON and D-Day countdown",
+  "fecha_documento": "1980-09-17",
+  "periodo": "pre-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "manuscrito",
+  "ministerio": "Interior",
+  "resumen_es": "Documento manuscrito de planificación operativa que establece una cronología de fases previas al golpe (D-3, D-2, D-1, D) y hace referencia a la 'Operación HALTON'. Menciona actualizaciones de datos de unidades militares cada 7 días a partir del 17-9-1980, y la integración de estructuras a todos los niveles (Junta Superior, Estado Mayor, Unidades Operativas, Capitanías). Describe la fase de 'calentar ambiente' y plantea preguntas operativas sobre quién preparará el ambiente y quién distribuirá armas. El documento revela que la planificación del golpe estaba en curso meses antes del 23-F.",
+  "resumen_en": "Handwritten operational planning document establishing a pre-coup phase countdown (D-3, D-2, D-1, D-Day) and referencing 'Operation HALTON'. Notes military unit data updates every 7 days from 17-9-1980, and integration of structures at all levels (Supreme Junta, General Staff, Operational Units, Captaincies). Describes the 'heating up the atmosphere' phase and poses operational questions about who will prepare conditions and distribute arms. Reveals coup planning was actively underway months before 23-F.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Fuerzas Armadas", "tipo": "militar" },
+    { "nombre": "Estado Mayor", "tipo": "militar" },
+    { "nombre": "Junta Superior", "tipo": "militar" },
+    { "nombre": "Capitanías Generales", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1980-09-17",
+      "descripcion_es": "Inicio de la actualización de datos de unidades militares cada 7 días para la operación",
+      "descripcion_en": "Start of weekly military unit data updates for the operation",
+      "lugar": "España"
+    },
+    {
+      "fecha": "1980-11-01",
+      "descripcion_es": "Antes del día 20 del mes no se dispondría de la adecuada valoración de unidades",
+      "descripcion_en": "Before the 20th of the month adequate unit assessment would not be available",
+      "lugar": "España"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Autor desconocido (documento manuscrito)",
+      "texto": "Datos actualizados cada 7 dias a partir 17-9-80",
+      "traduccion_en": "Data updated every 7 days from 17-9-80",
+      "importancia": "Demuestra que la planificación operativa del golpe estaba en marcha desde septiembre de 1980, 5 meses antes del 23-F"
+    },
+    {
+      "autor": "Autor desconocido (documento manuscrito)",
+      "texto": "Cronología últimas fases: D-3 contactos (resp. región, jefes comandos, TGens. suplentes). D-2 Responsables con comprometidos. D-1 Preparación. D (5 a 6 hs) acción.",
+      "traduccion_en": "Final phase timeline: D-3 contacts (regional resp., command chiefs, substitute Lt. Generals). D-2 Responsible parties with committed actors. D-1 Preparation. D (5 to 6 hours) action.",
+      "importancia": "Cronología operativa detallada del golpe, mostrando que estaba militarmente estructurado con días de antelación"
+    },
+    {
+      "autor": "Autor desconocido (documento manuscrito)",
+      "texto": "Operación HALTON: 'La acción estará basada en la que se han demandado comandos de asalto obediencia...'",
+      "traduccion_en": "Operation HALTON: 'The action will be based on assault commands of obedience demanded...'",
+      "importancia": "Única referencia conocida a 'Operación HALTON' como nombre de la operación o sub-operación del golpe"
+    },
+    {
+      "autor": "Autor desconocido (documento manuscrito)",
+      "texto": "Calentar ambiente: ¿Quién preparará ambiente de que se preparaban acciones? ¿Quiénes sembrarán balas... armas?",
+      "traduccion_en": "Heating up the atmosphere: Who will create the atmosphere that actions were being prepared? Who will plant bullets... weapons?",
+      "importancia": "Revela la existencia de un plan de provocación previa para justificar el golpe, incluyendo posiblemente la siembra de armas"
+    }
+  ],
+  "relaciones": [],
+  "temas": ["operacion-halton", "planificacion-previa", "cronologia-d-day", "estructura-militar", "septiembre-1980", "provocacion"],
+  "_meta": {
+    "doc_id": "23F_5._Documento_manuscrito_planificacion_del_golpe",
+    "filename": "23F_5._Documento_manuscrito_planificacion_del_golpe.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 7,
+    "processed_by": "claude-code"
+  }
+}

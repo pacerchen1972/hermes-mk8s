@@ -1,0 +1,33 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 15 mar. 1982 de la vista oral Causa 2/81: Tejero confirma reuniones previas con Milans y Torres Rojas; Cte. Pardo declara que el 23-F fue 'operación nacional'",
+  "titulo_en": "Intelligence note on the 15 Mar. 1982 Causa 2/81 hearing: Tejero confirms prior meetings with Milans and Torres Rojas; Cte. Pardo declares 23-F was a 'national operation'",
+  "fecha_documento": "1982-03-16",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (D/01/45.68/16-03-82, marcada DIRECTOR) sobre la sesión del 15 de marzo de 1982. Tejero confirmó reuniones preparatorias con el General Milans del Bosch (en enero, durante dos horas) y con el General Torres Rojas. Las reuniones tuvieron lugar en la calle Pintor Juan Gris y en la calle Biarritz. El Comandante Pardo declaró que el 23-F fue 'una operación nacional, a las órdenes del Rey'. El General Milans aseguró que apoyaba la propuesta de Gobierno de Armada y que le habían prometido no-responsabilidad.",
+  "resumen_en": "CESID intelligence note (D/01/45.68/16-03-82, marked DIRECTOR) on the 15 March 1982 session. Tejero confirmed preparatory meetings with General Milans del Bosch (in January, lasting two hours) and with General Torres Rojas. Meetings took place at calle Pintor Juan Gris and calle Biarritz. Commander Pardo declared that 23-F was 'a national operation, following the King's orders'. General Milans stated he backed Armada's Government proposal and had been promised immunity.",
+  "personas": [
+    { "nombre": "Antonio Tejero Molina", "cargo": "Teniente Coronel de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "golpista", "acciones": ["Confirmó reuniones preparatorias en enero con Milans del Bosch (dos horas) y con Torres Rojas; citó la calle Pintor Juan Gris y la calle Biarritz como lugares de encuentro"] },
+    { "nombre": "Pardo", "cargo": "Comandante", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Declaró que el 23-F fue 'una operación nacional, a las órdenes del Rey'"] },
+    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General, Capitán General 3ª Región Militar", "organizacion": "Ejército de Tierra", "rol_en_23f": "golpista", "acciones": ["Declaró que apoyaba la propuesta de Gobierno de Armada; afirmó que le habían prometido no-responsabilidad"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-15", "descripcion_es": "Vista oral Causa 2/81: Tejero confirma reuniones preparatorias en enero; Cte. Pardo declara el 23-F fue 'operación nacional a las órdenes del Rey'", "descripcion_en": "Causa 2/81 hearing: Tejero confirms January preparatory meetings; Cte. Pardo declares 23-F was a 'national operation following the King's orders'", "lugar": "Consejo Supremo de Justicia Militar, Madrid" },
+    { "fecha": "1982-01-18", "descripcion_es": "Reunión preparatoria del 23-F entre Tejero y Torres Rojas en la calle Pintor Juan Gris (confirmada en el juicio)", "descripcion_en": "23-F preparatory meeting between Tejero and Torres Rojas at calle Pintor Juan Gris (confirmed at hearing)", "lugar": "Madrid, calle Pintor Juan Gris" }
+  ],
+  "citas_clave": [
+    { "autor": "Comandante Pardo", "texto_es": "El 23-F fue una operación nacional, a las órdenes del Rey.", "texto_en": "23-F was a national operation, following the King's orders.", "contexto": "Declaración ante el CSJM, 15 marzo 1982" }
+  ],
+  "relaciones": [
+    { "origen": "Antonio Tejero Molina", "destino": "Jaime Milans del Bosch", "tipo": "reunion_preparatoria", "descripcion": "Reunión preparatoria en enero 1982, duración dos horas" },
+    { "origen": "Antonio Tejero Molina", "destino": "Manuel Torres Rojas", "tipo": "reunion_preparatoria", "descripcion": "Reunión en calle Pintor Juan Gris y calle Biarritz, enero 1982" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "tejero", "milans", "torres-rojas", "pardo", "reunion-previa", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_54_R", "filename": "Documento_54_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

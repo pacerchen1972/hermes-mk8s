@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 23 abr. 1982 de la vista oral Causa 2/81: testigo Mújica Herzog",
+  "titulo_en": "Intelligence note on the 23 Apr. 1982 Causa 2/81 hearing: witness Mújica Herzog",
+  "fecha_documento": "1982-04-23",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/SG/183/23-04-82) sobre la sesión del 23 de abril de 1982. Comparece como testigo el paisano señor Mújica Herzog (presunto conocedor de la planificación del golpe). También presta declaración el testigo Brigada del Ejército González Llenas. El presidente del CSJM convoca además al testigo señor FIC García. La sesión se reanuda una hora y catorce minutos más tarde con la lectura de dos autos del Consejo.",
+  "resumen_en": "CESID intelligence note (C/SG/183/23-04-82) on the 23 April 1982 session. Civilian witness Mr Mújica Herzog appears (alleged to have prior knowledge of the coup plan). Army Sergeant González Llenas also testifies. The CSJM president additionally summons witness Mr FIC García. Session resumes 1h14m later with the reading of two council orders.",
+  "personas": [
+    { "nombre": "Mújica Herzog", "cargo": "Paisano (testigo)", "organizacion": "civil", "rol_en_23f": "testigo", "acciones": ["Comparecido como testigo en la Causa 2/81; interrogado sobre sus contactos con el General Armada"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-23", "descripcion_es": "Vista oral Causa 2/81: comparecencia del testigo civil Mújica Herzog; interrogado sobre sus relaciones con Armada", "descripcion_en": "Causa 2/81 hearing: civilian witness Mújica Herzog appears; questioned about his relations with Armada", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "mujica-herzog", "testigos", "armada", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_35_R", "filename": "Documento_35_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 6, "processed_by": "claude-code" }
+}

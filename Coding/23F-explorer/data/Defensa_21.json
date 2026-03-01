@@ -1,0 +1,31 @@
+{
+  "titulo_es": "Estado Mayor del Ejército remite al Ministerio de Defensa expediente e informe sobre la detención de Milans del Bosch solicitado por la Casa del Rey (Carpeta 21804, Secreto)",
+  "titulo_en": "Army General Staff forwards to Ministry of Defence the file and report on Milans del Bosch's detention requested by the Royal Household (Carpeta 21804, Secret)",
+  "fecha_documento": "1981-04-28",
+  "periodo": "post-golpe",
+  "clasificacion_original": "secreto",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe SECRETO (Carpeta 21804, 6 páginas, 28 abril 1981) del Teniente General Jefe del Estado Mayor del Ejército José Gabeiras Montero al Ministerio de Defensa, remitiendo el expediente e informe completo sobre las circunstancias de la detención del Teniente General Milans del Bosch. El informe fue solicitado por la Casa de S.M. el Rey a través de escrito recibido el 21 de abril, firmado por el Jefe de la Casa Militar. El informe del TEMEJEME defiende la legalidad del arresto de Milans (despacho del Jefe de Servicio del Cuartel General desde el 24 de febrero) y la conformidad de las condiciones con el artículo 17 de la Constitución y el Reglamento de Establecimientos Penitenciarios (RD 2131/78).",
+  "resumen_en": "SECRET report (Carpeta 21804, 6 pages, 28 April 1981) from Lt General Chief of Army General Staff José Gabeiras Montero to Ministry of Defence, forwarding the complete file and report on the circumstances of Lt General Milans del Bosch's detention. The report was requested by HM the King's Household through a letter received on 21 April, signed by the Head of the Military Household. The TEMEJEME report defends the legality of Milans's arrest (held in the Chief of Service's office at General Headquarters since 24 February) and compliance with Article 17 of the Constitution and the Penitentiary Establishments Regulation (RD 2131/78).",
+  "personas": [
+    { "nombre": "José Gabeiras Montero", "rol": "Teniente General Jefe del Estado Mayor del Ejército, firmante del informe" },
+    { "nombre": "Jaime Milans del Bosch y Ussía", "rol": "Teniente General detenido, objeto del informe" },
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, cuya Casa Militar solicitó el informe sobre las condiciones de detención de Milans" }
+  ],
+  "organizaciones": [
+    { "nombre": "Estado Mayor del Ejército (EME)", "tipo": "militar" },
+    { "nombre": "Casa de S.M. el Rey - Casa Militar", "tipo": "gobierno" },
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-04-21", "descripcion_es": "La Casa Militar del Rey solicitó un informe sobre las circunstancias de la detención de Milans del Bosch", "descripcion_en": "The King's Military Household requested a report on the circumstances of Milans del Bosch's detention", "lugar": "Madrid" },
+    { "fecha": "1981-04-28", "descripcion_es": "El TEMEJEME Gabeiras remite al MinDef el informe sobre la detención de Milans, defendiendo su legalidad conforme a la Constitución y el RD 2131/78", "descripcion_en": "TEMEJEME Gabeiras forwards to Ministry of Defence report on Milans's detention, defending its legality under the Constitution and RD 2131/78", "lugar": "Madrid" }
+  ],
+  "citas_clave": [
+    { "texto_es": "La adopción de todas cuantas medidas fueron dictadas por mi Autoridad, en relación con el arresto del Teniente General MILANS DEL BOSCH, sólo tuvieron como guía el asistimiento de honor supuesto en su recta conciencia y en los términos del Artículo 26", "texto_en": "All measures taken by my Authority in relation to the arrest of Lt General MILANS DEL BOSCH were guided solely by the duty of honour presumed in his own conscience and within the terms of Article 26", "fuente": "Informe del TEMEJEME Gabeiras, Carpeta 21804" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "milans-del-bosch", "detencion", "casa-del-rey", "gabeiras", "ministerio-defensa"],
+  "_meta": { "doc_id": "Defensa_21", "filename": "Carpeta_21804_Secreto_informacion_sobre_circunstancias_de_la_detencion_de_Milans_del_Bosch.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 6, "processed_by": "claude-code" }
+}

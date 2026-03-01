@@ -1,0 +1,149 @@
+{
+  "titulo_es": "Conversación telefónica García Carrés con persona no identificada durante el golpe",
+  "titulo_en": "Phone conversation between García Carrés and unidentified person during the coup",
+  "fecha_documento": "1981-02-23",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "transcripcion_telefonica",
+  "ministerio": "Interior",
+  "resumen_es": "Transcripción de conversación entre García Carrés (C.) y una persona no identificada durante el asalto al Congreso. Se discuten los regimientos Pavía y Villaviciosa, la emisión de un manifiesto de los guardias civiles del Congreso a través de El Alcázar, los objetivos declarados del golpe (disolver el Parlamento y crear una Junta Militar), y la actitud de Tejero. García Carrés muestra escepticismo sobre Armada y descarta la información de Juan Plá. Al final predice que Tejero 'va a palmar'.",
+  "resumen_en": "Transcript of a conversation between García Carrés (C.) and an unidentified person during the assault on Congress. Discusses the Pavía and Villaviciosa regiments, a manifesto from the Civil Guards inside Congress to be broadcast via El Alcázar newspaper, the stated goals of the coup (dissolve Parliament, create a Military Junta), and Tejero's resolve. García Carrés dismisses information from Juan Plá and predicts Tejero 'is going to die'.",
+  "personas": [
+    {
+      "nombre": "Juan García Carrés",
+      "cargo": "Presidente del Sindicato Vertical de Actividades Diversas, enlace civil de los conspiradores",
+      "organizacion": "Red civil de apoyo al golpe",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Coordinó la difusión del manifiesto de los guardias civiles del Congreso",
+        "Desacreditó información proveniente de Juan Plá",
+        "Predijo la derrota o muerte de Tejero ('este a palmar')",
+        "Afirmó que la Dirección de Seguridad del Estado había sido utilizada en la operación"
+      ]
+    },
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Se mantuvo dentro del Congreso en posición inamovible ('a vida o muerte')",
+        "Rechazó el ofrecimiento de un avión para huir hecho por Armada (alegó mareos)"
+      ]
+    },
+    {
+      "nombre": "Alfonso Armada Comyn",
+      "cargo": "General de División, Segundo Jefe del Estado Mayor del Ejército",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Ofreció a Tejero un avión para escapar, oferta que Tejero rechazó"
+      ]
+    },
+    {
+      "nombre": "Juan Plá",
+      "cargo": "Periodista",
+      "organizacion": "Medios de comunicación",
+      "rol_en_23f": "testigo",
+      "acciones": [
+        "Habló con Tejero e informó de que los objetivos eran disolver el Parlamento y crear una Junta Militar",
+        "Su información fue desacreditada por García Carrés"
+      ]
+    },
+    {
+      "nombre": "Abad",
+      "cargo": "Periodista de El Alcázar",
+      "organizacion": "El Alcázar",
+      "rol_en_23f": "otro",
+      "acciones": [
+        "Encargado de transmitir y publicar el manifiesto de los guardias civiles del Congreso"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "Guardia Civil", "tipo": "policial" },
+    { "nombre": "Regimiento Pavía", "tipo": "militar" },
+    { "nombre": "Regimiento Villaviciosa", "tipo": "militar" },
+    { "nombre": "El Alcázar", "tipo": "otro" },
+    { "nombre": "Dirección de la Seguridad del Estado", "tipo": "policial" },
+    { "nombre": "Junta Militar", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "Los regimientos Pavía y Villaviciosa mencionados como unidades de apoyo al golpe dirigiéndose al Congreso",
+      "descripcion_en": "The Pavía and Villaviciosa regiments mentioned as coup support units heading to Congress",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "Los Guardias Civiles del Congreso preparan un manifiesto para ser transmitido por El Alcázar",
+      "descripcion_en": "The Civil Guards inside Congress prepare a manifesto to be broadcast through El Alcázar newspaper",
+      "lugar": "Madrid, Congreso de los Diputados"
+    },
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "Juan Plá informa que Tejero declaró que los objetivos son disolver el Parlamento y crear una Junta Militar que erradique el terrorismo",
+      "descripcion_en": "Juan Plá reports that Tejero stated the goals are to dissolve Parliament and create a Military Junta to eradicate terrorism",
+      "lugar": ""
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Juan García Carrés",
+      "texto": "Este se mantiene allí a vida o muerte, te lo digo yo.",
+      "traduccion_en": "He will hold out there to the death, I'm telling you.",
+      "importancia": "Describe la determinación de Tejero de no rendirse bajo ninguna circunstancia"
+    },
+    {
+      "autor": "Juan García Carrés",
+      "texto": "Este a palmar. Vamos.",
+      "traduccion_en": "He's going to die. Come on.",
+      "importancia": "García Carrés anticipa el fracaso y posible muerte de Tejero, mostrando el colapso del apoyo civil"
+    },
+    {
+      "autor": "Interlocutor desconocido (sobre Tejero)",
+      "texto": "Ha dicho que los objetivos son disolución del Parlamento y creación de una Junta Militar que erradique el terrorismo.",
+      "traduccion_en": "He said the objectives are dissolution of Parliament and creation of a Military Junta to eradicate terrorism.",
+      "importancia": "Única declaración explícita de los objetivos políticos del golpe"
+    },
+    {
+      "autor": "Interlocutor desconocido (sobre Armada)",
+      "texto": "El General Armada en la hora y media que había estado con él, pues que le había ofrecido un avión para que se marchara, y que él había dicho que se marea mucho en el avión y que no.",
+      "traduccion_en": "General Armada, during the hour and a half he had been with him, had offered him a plane to leave, and he said he gets very airsick and refused.",
+      "importancia": "Revela el intento de Armada de convencer a Tejero de abandonar y la negativa de este"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Alfonso Armada Comyn",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "coordinó",
+      "descripcion": "Armada se reunió con Tejero dentro del Congreso y le ofreció un avión para escapar, oferta rechazada",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Juan García Carrés",
+      "destino": "El Alcázar",
+      "tipo": "coordinó",
+      "descripcion": "Coordinó la publicación del manifiesto de los guardias civiles a través del periódico El Alcázar",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Juan Plá",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "informó",
+      "descripcion": "Plá habló con Tejero e informó sobre sus objetivos declarados y actitud",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["comunicaciones", "objetivos-golpe", "manifiesto", "junta-militar", "armada", "fractura-interna", "medios-comunicacion"],
+  "_meta": {
+    "doc_id": "23F_2._Conversacion_telefonica_GARCIA_CARRES",
+    "filename": "23F_2._Conversacion_telefonica_GARCIA_CARRES.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "titulo_es": "Conversación telefónica García Carrés y Tcol. Tejero durante el asalto al Congreso",
+  "titulo_en": "Phone conversation between García Carrés and Lt. Col. Tejero during the assault on Congress",
+  "fecha_documento": "1981-02-23",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "transcripcion_telefonica",
+  "ministerio": "Interior",
+  "resumen_es": "Transcripción de la conversación telefónica mantenida entre Juan García Carrés (civil, enlace con los conspiradores) y el Teniente Coronel Antonio Tejero Molina mientras este ocupaba el Congreso de los Diputados. García Carrés informa a Tejero de que unidades militares están en camino, le transmite apoyo moral y le advierte explícitamente que no se fíe de 'el señor que ha ido allí' (en referencia al General Armada). También hay un breve intercambio entre sus respectivas esposas.",
+  "resumen_en": "Transcript of the phone call between Juan García Carrés (civilian coup liaison) and Lt. Col. Antonio Tejero Molina while Tejero occupied the Congress of Deputies. García Carrés informs Tejero that military units are on their way, provides moral support, and explicitly warns him not to trust 'the gentleman who went there' (referring to General Armada). There is also a brief exchange between their respective wives.",
+  "personas": [
+    {
+      "nombre": "Juan García Carrés",
+      "cargo": "Presidente del Sindicato Vertical de Actividades Diversas, enlace civil de los conspiradores",
+      "organizacion": "Red civil de apoyo al golpe",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Llamó a Tejero al Congreso ocupado para darle apoyo moral",
+        "Informó de que unidades militares (Pavía, Villaviciosa) se dirigían al Congreso",
+        "Advirtió a Tejero de no fiarse del General Armada",
+        "Coordinó con Tejero la posición respecto al Secretario de Estado norteamericano",
+        "Instó a Tejero a aguantar hasta la llegada de los regimientos"
+      ]
+    },
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Ocupó el Congreso de los Diputados con guardias civiles armados",
+        "Mantuvo comunicaciones telefónicas desde el interior del Congreso",
+        "Expresó dudas sobre la veracidad de la información recibida",
+        "Aguardó la llegada de unidades militares de apoyo"
+      ]
+    },
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "cargo": "General de División, Capitán General de la III Región Militar (Valencia)",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Mencionado como el general que confirmó la información sobre fuentes fidedignas"
+      ]
+    },
+    {
+      "nombre": "Alfonso Armada Comyn",
+      "cargo": "General de División, Segundo Jefe del Estado Mayor del Ejército",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Referenciado indirectamente como 'el señor que ha ido allí' y 'el otro'",
+        "García Carrés advirtió a Tejero que no se fiara de él, alegando que quería ser Presidente"
+      ]
+    },
+    {
+      "nombre": "Carmen (esposa de García Carrés)",
+      "cargo": "Esposa",
+      "organizacion": "",
+      "rol_en_23f": "otro",
+      "acciones": [
+        "Habló brevemente con Tejero por teléfono durante la llamada"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "Guardia Civil", "tipo": "policial" },
+    { "nombre": "Congreso de los Diputados", "tipo": "gubernamental" },
+    { "nombre": "Regimiento Pavía", "tipo": "militar" },
+    { "nombre": "Regimiento Villaviciosa", "tipo": "militar" },
+    { "nombre": "El Alcázar", "tipo": "otro" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "Tejero ocupa el Congreso de los Diputados con guardias civiles armados durante la votación de investidura de Leopoldo Calvo-Sotelo",
+      "descripcion_en": "Tejero seizes the Congress of Deputies with armed Civil Guards during the investiture vote for Leopoldo Calvo-Sotelo",
+      "lugar": "Madrid, Congreso de los Diputados"
+    },
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "García Carrés informa que los regimientos Pavía y Villaviciosa salen de Madrid hacia el Congreso",
+      "descripcion_en": "García Carrés informs that the Pavía and Villaviciosa regiments are leaving Madrid towards Congress",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "El Secretario de Estado de EEUU declara que el golpe es un asunto interno de España",
+      "descripcion_en": "The US Secretary of State declares the coup is an internal Spanish matter",
+      "lugar": ""
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Juan García Carrés",
+      "texto": "La victoria es para España, ánimo, ánimo y ánimo. Los hombres de honor sabrán corresponder a todo esto.",
+      "traduccion_en": "Victory belongs to Spain, courage, courage and courage. Men of honour will know how to respond to all this.",
+      "importancia": "Frase de aliento al líder del asalto, refleja la retórica ultranacionalista de los conspiradores civiles"
+    },
+    {
+      "autor": "Juan García Carrés",
+      "texto": "Que no te fíes ni un pelo de aquel Sr. que ha ido allí. Que lo que ha dicho dice que es vergonzoso.",
+      "traduccion_en": "Don't trust that gentleman who went there even a bit. What he said is apparently shameful.",
+      "importancia": "Advertencia crítica contra el General Armada, revelando fracturas internas entre los conspiradores"
+    },
+    {
+      "autor": "Juan García Carrés",
+      "texto": "Dime Pedro... no te fíes na de Armada, que lo que le quiere es ser Presidente como sea al precio que sea.",
+      "traduccion_en": "Listen Pedro... don't trust Armada at all, all he wants is to be President by whatever means at whatever price.",
+      "importancia": "Nombra explícitamente a Armada y revela sus ambiciones personales como fuente de conflicto dentro del golpe"
+    },
+    {
+      "autor": "Antonio Tejero",
+      "texto": "¿Cómo me voy a mover, cojones, si de aquí no se puede uno mover, no sé lo que tú harías aquí.",
+      "traduccion_en": "How am I supposed to move, damn it, if one can't move from here, I don't know what you would do here.",
+      "importancia": "Revela la situación de inmovilidad táctica de Tejero dentro del Congreso"
+    },
+    {
+      "autor": "Juan García Carrés",
+      "texto": "¡Ah! me parece muy bien Norteamérica. ¡Sí señor! Que no se meta, que lo arreglemos esto nosotros.",
+      "traduccion_en": "That's fine with me, America. Yes sir! They shouldn't interfere, we'll sort this out ourselves.",
+      "importancia": "Muestra la actitud de los conspiradores ante la postura de EEUU de no intervención"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Juan García Carrés",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "llamó",
+      "descripcion": "Llamada de apoyo y coordinación al Congreso ocupado",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Juan García Carrés",
+      "destino": "Alfonso Armada Comyn",
+      "tipo": "se_opuso",
+      "descripcion": "Advirtió a Tejero de no fiarse de Armada, señalando sus ambiciones personales",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Regimiento Pavía",
+      "destino": "Congreso de los Diputados",
+      "tipo": "coordinó",
+      "descripcion": "Unidad mencionada como en camino hacia el Congreso en apoyo del golpe",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Regimiento Villaviciosa",
+      "destino": "Congreso de los Diputados",
+      "tipo": "coordinó",
+      "descripcion": "Unidad mencionada como en camino hacia el Congreso en apoyo del golpe",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["comunicaciones", "asalto-congreso", "coordinacion-golpe", "armada", "fractura-interna", "apoyo-civil"],
+  "_meta": {
+    "doc_id": "23F_1._Conversacion_telefonica_GARCIA_CARRES_y_Tcol._TEJERO",
+    "filename": "23F_1._Conversacion_telefonica_GARCIA_CARRES_y_Tcol._TEJERO.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 4,
+    "processed_by": "claude-code"
+  }
+}

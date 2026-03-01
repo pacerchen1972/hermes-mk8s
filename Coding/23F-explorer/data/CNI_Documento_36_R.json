@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 19 abr. 1982 de la vista oral Causa 2/81: testigos militares sobre Armada el 23-F",
+  "titulo_en": "Intelligence note on the 19 Apr. 1982 Causa 2/81 hearing: military witnesses on Armada on 23-F",
+  "fecha_documento": "1982-04-19",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (N/REF: C/SG/1019/19-04-82) sobre la sesión del 19 de abril de 1982. Testifican jefes del ejército y de la Guardia Civil. El Comandante Namil Esperanza declaró tener pleno conocimiento de lo ocurrido en el Cuartel General el 23-F, que el General Armada se presentó al mediodía, y que fue el segundo JEME. El Comandante Gordóniz también declaró, sin aportar datos nuevos. El testigo Comandante Gordóniz identificó a Armada como presente en el Cuartel General.",
+  "resumen_en": "CESID intelligence note (N/REF: C/SG/1019/19-04-82) on the 19 April 1982 session. Army and Civil Guard commanders testify. Commander Namil Esperanza declared full knowledge of 23-F events at Army HQ, that General Armada appeared at midday, and that he was the second JEME. Commander Gordóniz also testified without adding new information. Witness Gordóniz identified Armada as present at Army HQ.",
+  "personas": [
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Según testigo, se presentó al mediodía en el Cuartel General del Ejército el 23-F; fue confirmado como segundo JEME"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Cuartel General del Ejército", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-19", "descripcion_es": "Vista oral Causa 2/81: testigos militares confirman presencia de Armada en el Cuartel General del Ejército el 23-F al mediodía", "descripcion_en": "Causa 2/81 hearing: military witnesses confirm Armada's presence at Army HQ on 23-F at midday", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "testigos", "cuartel-general", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_36_R", "filename": "Documento_36_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

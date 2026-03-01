@@ -1,0 +1,23 @@
+{
+  "titulo_es": "CSJM comunica procesamiento de Capitán de Artillería (Carpeta 21800, Reservado, 27 junio 1981)",
+  "titulo_en": "CSJM notifies prosecution of Artillery Captain (Carpeta 21800, Reserved, 27 June 1981)",
+  "fecha_documento": "1981-06-27",
+  "periodo": "post-golpe",
+  "clasificacion_original": "reservado",
+  "tipo_documento": "oficio",
+  "ministerio": "Defensa",
+  "resumen_es": "Oficio del CSJM (RESERVADO, 27 junio 1981) comunicando al Ministerio de Defensa el procesamiento de un Capitán de Artillería implicado en la Causa 2/81, en cumplimiento del artículo 595 del CJM, una vez desestimados los recursos interpuestos.",
+  "resumen_en": "CSJM official communication (RESERVED, 27 June 1981) notifying the Ministry of Defence of the prosecution of an Artillery Captain implicated in Case 2/81, in compliance with Article 595 of the Military Justice Code, after appeals were dismissed.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-06-27", "descripcion_es": "CSJM notifica al MinDef el procesamiento de un Capitán de Artillería en la Causa 2/81", "descripcion_en": "CSJM notifies Ministry of Defence of the prosecution of an Artillery Captain under Case 2/81", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "procesamiento", "causa-2-81", "csjm", "ministerio-defensa"],
+  "_meta": { "doc_id": "Defensa_7", "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_6.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

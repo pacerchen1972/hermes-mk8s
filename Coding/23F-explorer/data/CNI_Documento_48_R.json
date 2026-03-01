@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Nota informativa (DTOR) sobre la sesión de la vista oral Causa 2/81: testimonios de la Comandancia Móvil de la Guardia Civil",
+  "titulo_en": "Intelligence note (DTOR) on the Causa 2/81 hearing session: testimonies from the Civil Guard Mobile Command",
+  "fecha_documento": "1982-03-22",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (marcada DTOR, ref. aprox. T/22-03-82) sobre una sesión de la vista oral. La Comandancia Móvil de la Guardia Civil bajo el Capitán Arroyo testificó durante la tarde. El testigo Izquierdo Sánchez declaró que fue convocado por radioteléfono para reunirse en la Baeza de Orcasitas entre las 13 y 14 horas del 23-F, sin establecer contacto previo con Tejero ni con Gómez Iglesias. No identificó el incidente del General Aramburu con Tejero en las fotografías publicadas. Reconoció recibir el mensaje del Rey a través de la cadena de mando.",
+  "resumen_en": "CESID intelligence note (marked DTOR, ref. approx. T/22-03-82) on a hearing session. The Civil Guard Mobile Command under Captain Arroyo testified in the afternoon. Witness Izquierdo Sánchez declared he was summoned by radio telephone to meet at Baeza de Orcasitas between 13:00 and 14:00 on 23-F, without prior contact with Tejero or Gómez Iglesias. He did not identify the General Aramburu–Tejero incident in published photographs. He acknowledged receiving the King's message through the chain of command.",
+  "personas": [
+    { "nombre": "Izquierdo Sánchez", "cargo": "Teniente de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Convocado por radioteléfono para Baeza de Orcasitas el 23-F; no conocía a Tejero ni a Gómez Iglesias; recibió el mensaje del Rey a través de la cadena de mando"] },
+    { "nombre": "Arroyo", "cargo": "Capitán de la Guardia Civil, Comandancia Móvil", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Comandó la unidad móvil que testificó en la sesión"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" },
+    { "nombre": "Comandancia Móvil de la Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-22", "descripcion_es": "Vista oral Causa 2/81: Comandancia Móvil de la Guardia Civil testifica; agentes declaran no conocer a Tejero ni a Gómez Iglesias y haber actuado por la cadena de mando", "descripcion_en": "Causa 2/81 hearing: Civil Guard Mobile Command testifies; agents declare they did not know Tejero or Gómez Iglesias and acted through the chain of command", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "guardia-civil", "tejero", "gomez-iglesias", "testigos", "cadena-de-mando", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_48_R", "filename": "Documento_48_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Carta del Embajador Todman transmitiendo la carta de Haig y el comunicado oficial sobre la democracia española",
+  "titulo_en": "Ambassador Todman's letter transmitting Haig's letter and the official communiqué on Spanish democracy",
+  "fecha_documento": "1981-02-27",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "carta_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Carta del Embajador de los Estados Unidos en Madrid, Terence A. Todman, al Ministro de Asuntos Exteriores José Pedro Pérez-Llorca (27 febrero 1981), transmitiendo la carta del Secretario Haig y el comunicado oficial del Departamento de Estado del 24 de febrero sobre la democracia española. Todman expresa su profunda satisfacción por la fortaleza de las instituciones democráticas españolas y felicita a Pérez-Llorca por su reelección como Ministro.",
+  "resumen_en": "Letter from US Ambassador in Madrid Terence A. Todman to Foreign Minister José Pedro Pérez-Llorca (27 February 1981), transmitting Secretary Haig's letter and the State Department's official communiqué of 24 February on Spanish democracy. Todman expresses deep satisfaction that Spain's democratic institutions withstood the strain and congratulates Pérez-Llorca on his reappointment as Minister.",
+  "personas": [
+    { "nombre": "Terence A. Todman", "rol": "Embajador de los Estados Unidos en España" },
+    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Asuntos Exteriores de España, destinatario" },
+    { "nombre": "Alexander M. Haig", "rol": "Secretario de Estado de los Estados Unidos" }
+  ],
+  "organizaciones": [
+    { "nombre": "Embajada de los Estados Unidos en Madrid", "tipo": "gobierno" },
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-27", "descripcion_es": "El Embajador Todman entrega personalmente a Pérez-Llorca la carta de Haig y el comunicado del Departamento de Estado, expresando satisfacción por la resistencia democrática española", "descripcion_en": "Ambassador Todman personally delivers to Pérez-Llorca Haig's letter and the State Department communiqué, expressing satisfaction at Spain's democratic resilience", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "todman", "perez-llorca", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_5", "filename": "D.5._AGMAE_R39017_Exp._4.jpg", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

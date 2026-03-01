@@ -1,0 +1,29 @@
+{
+  "titulo_es": "El Embajador español en París informa sobre las reacciones francesas al 23-F: Mitterrand llamó al Rey, Barre felicitó",
+  "titulo_en": "Spanish Ambassador in Paris reports on French reactions to 23-F: Mitterrand called the King, Barre congratulated",
+  "fecha_documento": "1981-03-02",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Nota del Embajador de España en París al Ministro de Asuntos Exteriores Pérez-Llorca (Paris, 2 marzo 1981): el Presidente de la República francesa François Mitterrand llamó personalmente al Rey Juan Carlos para manifestarle su solidaridad; el Primer Ministro Raymond Barre, en visita oficial a París, expresó su más calurosa felicitación; la Comunidad Europea también expresó su apoyo. El Embajador destaca que todos los colegas diplomáticos le expresaron su simpatía y que la TV francesa tuvo comentarios muy favorables para España. El Embajador transmite también los deseos del Primer Ministro Barre de hablar con Calvo Sotelo.",
+  "resumen_en": "Note from Spain's Ambassador in Paris to Foreign Minister Pérez-Llorca (Paris, 2 March 1981): French President François Mitterrand personally called King Juan Carlos to express solidarity; Prime Minister Raymond Barre, on an official visit to Paris, expressed his warmest congratulations; the European Community also expressed support. The Ambassador notes that all diplomatic colleagues expressed sympathy and that French TV had very favourable comments about Spain. The Ambassador also transmits PM Barre's wish to speak with Calvo Sotelo.",
+  "personas": [
+    { "nombre": "François Mitterrand", "rol": "Presidente de la República Francesa, llamó personalmente al Rey Juan Carlos" },
+    { "nombre": "Raymond Barre", "rol": "Primer Ministro de Francia, felicitó al Embajador español y quiso hablar con Calvo Sotelo" },
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, recibió la llamada de Mitterrand" },
+    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Exteriores, destinatario" }
+  ],
+  "organizaciones": [
+    { "nombre": "Embajada de España en París", "tipo": "gobierno" },
+    { "nombre": "Presidencia de la República Francesa", "tipo": "gobierno" },
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-02", "descripcion_es": "El Embajador informa de la solidaridad francesa: Mitterrand llamó al Rey, Barre felicitó personalmente; todos los colegas diplomáticos expresaron simpatía", "descripcion_en": "Ambassador reports French solidarity: Mitterrand called the King, Barre personally congratulated; all diplomatic colleagues expressed sympathy", "lugar": "París, Francia" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "francia", "mitterrand", "juan-carlos-i", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_24", "filename": "D.24._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

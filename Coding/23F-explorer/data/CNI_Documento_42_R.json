@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 5 abr. 1982 de la vista oral Causa 2/81: testimonios de Prieto, Juste y Torres Rojas",
+  "titulo_en": "Intelligence note on the 5 Apr. 1982 Causa 2/81 hearing: testimonies of Prieto, Juste and Torres Rojas",
+  "fecha_documento": "1982-04-05",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Segunda nota informativa del CESID (C/SG/5.337/05-04-82) sobre la sesión del 5 de abril de 1982. El TC Sergio Prieto declaró que Tejero afirmó 'que eso ya lo hacías en Buenos Aires' al no poder disuadirle. El General Juste declaró que la propuesta de Armada de formar un gobierno provisional era 'una barbaridad', y que hubo contactos previos entre el Rey, Milans del Bosch y Armada. El General Torres Rojas consideró la propuesta 'muy arriesgada'.",
+  "resumen_en": "Second CESID intelligence note (C/SG/5.337/05-04-82) on the 5 April 1982 session. Lt. Col. Sergio Prieto testified that Tejero told him 'you did that in Buenos Aires', when unable to dissuade him. General Juste declared that Armada's proposal to form a provisional government was 'outrageous', and that there had been prior contacts between the King, Milans del Bosch and Armada. General Torres Rojas considered the proposal 'very risky'.",
+  "personas": [
+    { "nombre": "José Juste Fernández", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "testigo", "acciones": ["Declaró que la propuesta de Armada de formar un gobierno provisional era 'una barbaridad'; señaló que hubo contactos del Rey con Milans y Armada antes del 23-F"] },
+    { "nombre": "Manuel Torres Rojas", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Declaró que la propuesta de Armada le pareció 'muy arriesgada' y que no dio orden de salida de unidades"] },
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Su propuesta de gobierno provisional fue calificada de 'barbaridad' por el testigo Juste y de 'muy arriesgada' por Torres Rojas"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-05", "descripcion_es": "Vista oral Causa 2/81: Juste califica la propuesta de gobierno provisional de Armada de 'barbaridad'; Torres Rojas la considera 'muy arriesgada'", "descripcion_en": "Causa 2/81 hearing: Juste calls Armada's provisional government proposal 'outrageous'; Torres Rojas calls it 'very risky'", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [
+    { "autor": "General Juste", "texto_es": "La propuesta de Armada de formar un Gobierno provisional de él mismo era una barbaridad.", "texto_en": "Armada's proposal to form a provisional government with himself at its head was outrageous.", "contexto": "Declaración ante el CSJM, 5 abril 1982" }
+  ],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "juste", "torres-rojas", "gobierno-provisional", "testigos", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_42_R", "filename": "Documento_42_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

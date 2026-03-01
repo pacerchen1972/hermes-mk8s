@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Asesoría Jurídica General del Ministerio de Defensa informa sobre situación administrativa del Capitán Sánchez Valiente (Causa 9481, Reservado)",
+  "titulo_en": "Ministry of Defence General Legal Advisory reports on Captain Sánchez Valiente's administrative situation (Causa 9481, Reserved)",
+  "fecha_documento": "1981-07-09",
+  "periodo": "post-golpe",
+  "clasificacion_original": "reservado",
+  "tipo_documento": "informe_juridico",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe RESERVADO (Causa 9481, 9 julio 1981, 2 páginas) de la Asesoría Jurídica General del Ministerio de Defensa, trasladado por orden del Ministro al Director General de la Guardia Civil, sobre la situación administrativa del Capitán Gil Sánchez Valiente Portillo, fugado al extranjero tras participar en el 23-F. El Ministerio mostró conformidad con el informe jurídico sobre el estatuto del capitán (ausente sin permiso / desertor) y sus consecuencias legales.",
+  "resumen_en": "RESERVED report (Causa 9481, 9 July 1981, 2 pages) from the Ministry of Defence General Legal Advisory, transferred by order of the Minister to the Civil Guard Director General, on the administrative situation of Captain Gil Sánchez Valiente Portillo, who fled abroad after participating in 23-F. The Ministry concurred with the legal report on the captain's status (absent without leave / deserter) and its legal consequences.",
+  "personas": [
+    { "nombre": "Gil Sánchez Valiente Portillo", "rol": "Capitán de la GC, fugado al extranjero (Grecia, con pasaporte argentino) tras el 23-F" },
+    { "nombre": "Ramón Fernández Sequeiros", "rol": "Firmante del traslado al Director General de la GC" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
+    { "nombre": "Dirección General de la Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1981-07-09", "descripcion_es": "MinDef traslada al Director General de la GC informe jurídico sobre situación administrativa de Sánchez Valiente, fugado al extranjero", "descripcion_en": "Ministry of Defence forwards to DGGC legal report on administrative situation of Sánchez Valiente, who fled abroad", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "sanchez-valiente", "causa-9481", "desercion", "guardia-civil", "fuga"],
+  "_meta": { "doc_id": "Defensa_24", "filename": "Causa_9481_reservado_Informe_de_Asesoria_Juridica_General_sobre_situacion_administrativa_del_Cap_Sanchez_Valiente.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

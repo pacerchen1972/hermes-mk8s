@@ -1,0 +1,23 @@
+{
+  "titulo_es": "CSJM solicita declaraciones sobre hechos del 23 y 24 de febrero de 1981 (Primer Oficio, Carpeta 21800)",
+  "titulo_en": "CSJM requests declarations on events of 23-24 February 1981 (First Official, Carpeta 21800)",
+  "fecha_documento": "1982-01-05",
+  "periodo": "juicio",
+  "clasificacion_original": "reservado",
+  "tipo_documento": "primer_oficio",
+  "ministerio": "Defensa",
+  "resumen_es": "Primer Oficio del Consejo Supremo de Justicia Militar (Carpeta 21800, RESERVADO) solicitando que se faciliten los datos conocidos sobre los hechos ocurridos los días 23 y 24 de febrero de 1981, en el marco de las diligencias de la Causa 2/81 por el intento de golpe de estado.",
+  "resumen_en": "First Official communication from the Supreme Council of Military Justice (Carpeta 21800, RESERVED) requesting that known data on events that occurred on 23-24 February 1981 be provided, within the framework of proceedings in Case 2/81 for the attempted coup d'état.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1982-01-05", "descripcion_es": "CSJM solicita datos sobre los hechos del 23-24 febrero 1981 en el marco de la instrucción de la Causa 2/81", "descripcion_en": "CSJM requests data on events of 23-24 February 1981 within the framework of Case 2/81 proceedings", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "csjm", "ministerio-defensa", "primer-oficio"],
+  "_meta": { "doc_id": "Defensa_8", "filename": "Carpeta_21800_Reservado_oficio_dando_cuenta_toma_de_declaracion_3.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

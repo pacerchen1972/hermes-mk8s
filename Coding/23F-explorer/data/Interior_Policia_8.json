@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Situación en las distintas regiones policiales y acciones de protesta previstas el 24 de febrero de 1981",
+  "titulo_en": "Situation in the various police regions and planned protest actions on 24 February 1981",
+  "fecha_documento": "1981-02-24",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe_regional",
+  "ministerio": "Interior",
+  "resumen_es": "Informe policial (34-474, 24 febrero 1981) sobre la situación actual en las distintas regiones policiales de España y las acciones de protesta previstas en relación a la ocupación del Palacio del Congreso de los Diputados. Documento de 21 páginas que recoge el estado de cada región policial del país en las primeras horas tras el fracaso del golpe del 23-F, incluyendo reacciones ciudadanas, protestas sindicales y acciones previstas.",
+  "resumen_en": "Police report (34-474, 24 February 1981) on the current situation in the various police regions of Spain and planned protest actions in relation to the occupation of the Congress building. 21-page document recording the state of each police region in the country in the first hours after the failure of the 23-F coup, including citizen reactions, union protests and planned actions.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Dirección General de Seguridad (DGS)", "tipo": "seguridad" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-24", "descripcion_es": "Informe policial sobre situación post-23F en todas las regiones de España: reacciones, protestas previstas y acciones ciudadanas en las primeras 24 horas tras el fallido golpe", "descripcion_en": "Police report on post-23F situation across all Spanish regions: reactions, planned protests and citizen actions in the first 24 hours after the failed coup", "lugar": "España" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "situacion-policial", "reacciones-ciudadanas", "regiones-policiales", "ministerio-interior"],
+  "_meta": { "doc_id": "Interior_Policia_8", "filename": "SITUACION_REGIONES_POLICIALES_24-02-81.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 21, "processed_by": "claude-code" }
+}

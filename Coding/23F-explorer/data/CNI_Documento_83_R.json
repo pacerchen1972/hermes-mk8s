@@ -1,0 +1,82 @@
+{
+  "titulo_es": "Nota interior CESID: rumores sobre entrevistas secretas del Rey con militares implicados en el 23-F",
+  "titulo_en": "CESID internal note: rumours about secret King meetings with military officers involved in the 23-F",
+  "fecha_documento": "1982-02-05",
+  "periodo": "juicio",
+  "clasificacion_original": "CONFIDENCIAL",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota Interior del CESID (N/Ref: 241/05-02-82, Microfilmación 04092/S, Calificación D/2, Fuente Confidencial) sobre rumores en círculos militares cántabros y castrenses madrileños acerca de entrevistas confidenciales entre S.M. el Rey y militares implicados en el golpe de febrero de 1981. Se asegura que alguien importante de la Casa Real se ha entrevistado con el General Armada. Se dice que el T.G. Milans del Bosch exigió que la entrevista fuera con la propia persona real, sin intermediarios. Los círculos afirman que el Rey se ha entrevistado confidencialmente con Milans del Bosch, y que se pretende que la Corona no salga lesionada del proceso. El CESID eleva estas informaciones porque los informantes no son 'callabajeros', algunos integran el sector militar, y lo aseguran como cierto.",
+  "resumen_en": "CESID internal note (N/Ref: 241/05-02-82, Microfilm 04092/S, Classification D/2, Confidential Source) on rumours in Cantabrian and Madrid military circles about confidential meetings between HM the King and military officers involved in the February 1981 coup. It is claimed that someone important from the Royal Household met with General Armada. Lieutenant General Milans del Bosch reportedly demanded the meeting be with the King personally, without intermediaries. Circles assert the King met confidentially with Milans del Bosch, and that the aim is to ensure the Crown emerges unharmed from the trial. CESID raises these reports because informants are not gossips — some are military sector members — and they assert the facts as true.",
+  "personas": [
+    {
+      "nombre": "Juan Carlos I",
+      "cargo": "Rey de España, Jefe Supremo de las Fuerzas Armadas",
+      "organizacion": "Casa Real",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Según rumores recogidos por el CESID, se habría entrevistado confidencialmente con el T.G. Milans del Bosch durante el juicio",
+        "Alguien importante de la Casa Real habría visitado a Armada según las mismas fuentes"
+      ]
+    },
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "cargo": "Teniente General, Capitán General de Valencia",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Según rumores, exigió que la entrevista con la Corona fuera con la persona real directamente, sin intermediarios"]
+    },
+    {
+      "nombre": "Alfonso Armada Comyn",
+      "cargo": "General, ex-secretario de la Casa del Rey",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Según rumores, alguien de la Casa Real se reunió con él durante el juicio"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Casa Real", "tipo": "gubernamental" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-02-05",
+      "descripcion_es": "El CESID recoge rumores sobre reuniones secretas del Rey con Milans del Bosch y Armada durante el juicio del 23-F",
+      "descripcion_en": "CESID collects rumours about secret King meetings with Milans del Bosch and Armada during the 23-F trial",
+      "lugar": "Madrid / Cantabria"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota Interior CESID 241/05-02-82",
+      "texto": "En concreto, se asegura que alguien muy importante de la Casa Real se ha entrevistado con el General Armada, matizando con su comportamientos relativos a la vista oral del proceso; que cuando de igual forma se quiso celebrar la entrevista con el General Milans del Bosch, éste exigió que la entrevista se concertase con la propia personal real, no admitiendo intermediarios ni asesores inferiores; y en tales círculos de opinión se ASEGURA que, en efecto, el Rey se ha entrevistado confidencialmente con el T.G.Milans del B.; se señala que por encima de todo se pretende que la Corona no salga lesionada del proceso.",
+      "traduccion_en": "Specifically, it is asserted that someone very important from the Royal Household met with General Armada, providing guidance on his conduct at the oral hearing; that when a similar meeting was sought with General Milans del Bosch, he demanded the meeting be with the King personally, without intermediaries or lower-level advisers; and in these circles of opinion it is ASSERTED that the King did indeed meet confidentially with Lt Gen Milans del Bosch; it is noted that above all else the aim is to ensure the Crown emerges unharmed from the proceedings.",
+      "importancia": "Documento extremadamente sensible: el CESID recogió rumores —de fuentes militares, no populares— sobre intervención de la Casa Real para proteger a los golpistas durante el juicio"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Juan Carlos I",
+      "destino": "Jaime Milans del Bosch",
+      "tipo": "entrevistó",
+      "descripcion": "Rumores recogidos por el CESID sobre entrevistas secretas entre el Rey y Milans del Bosch durante el juicio oral",
+      "fecha": "1982-02-05"
+    },
+    {
+      "origen": "Casa Real",
+      "destino": "Alfonso Armada Comyn",
+      "tipo": "entrevistó",
+      "descripcion": "Rumores sobre visita de alguien de la Casa Real a Armada para orientar su comportamiento en el juicio",
+      "fecha": "1982-02-05"
+    }
+  ],
+  "temas": ["rey-juan-carlos", "milans", "armada", "juicio", "causa-2-81", "cesid", "corona", "rumores", "entrevistas-secretas"],
+  "_meta": {
+    "doc_id": "CNI_Documento_83_R",
+    "filename": "Documento_83_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

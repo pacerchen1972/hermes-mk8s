@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Índices de Subversión en las Fuerzas Armadas — Propuesta de Acción (diciembre 1981)",
+  "titulo_en": "Subversion Indices in the Armed Forces — Action Proposal (December 1981)",
+  "fecha_documento": "1981-11-12",
+  "periodo": "post-golpe",
+  "clasificacion_original": "secreto",
+  "tipo_documento": "informe_interior",
+  "ministerio": "Interior",
+  "resumen_es": "Documento SECRETO (8 páginas, 12 noviembre 1981) sobre los índices de subversión detectados en las Fuerzas Armadas y una propuesta de acción para contrarrestarlos. El texto analiza las discrepancias internas, fracturas y denuncias que se producen dentro de las FAS, afectando a la imagen de S.M. el Rey como Jefe Supremo. Se incluye una propuesta de acción general para que el Gobierno mantenga la confianza y obediencia de los miembros de las FAS, defender la soberanía y el orden constitucional.",
+  "resumen_en": "SECRET document (8 pages, 12 November 1981) on subversion indices detected in the Armed Forces and an action proposal to counter them. The text analyses internal discrepancies, fractures and denunciations within the FAS, affecting the image of HM the King as Supreme Commander. Includes a general action proposal for the Government to maintain confidence and obedience among FAS members, defending sovereignty and constitutional order.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Fuerzas Armadas (FAS)", "tipo": "militar" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-11-12", "descripcion_es": "Elaboración de documento secreto sobre índices de subversión en las FAS y propuesta de acción para el Gobierno, en contexto post-23F", "descripcion_en": "Elaboration of secret document on subversion indices in the FAS and action proposal for the Government, in post-23F context", "lugar": "España" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "subversion-militar", "fuerzas-armadas", "secreto", "ministerio-interior", "orden-constitucional"],
+  "_meta": { "doc_id": "Interior_Archivo_2", "filename": "2_Indices_de_subversion_en_las_FAS_DIC_1981.pdf", "folder": "interior/archivo", "is_image_pdf": true, "pages": 8, "processed_by": "claude-code" }
+}

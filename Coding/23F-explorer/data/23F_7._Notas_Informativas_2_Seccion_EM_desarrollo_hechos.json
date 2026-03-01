@@ -1,0 +1,119 @@
+{
+  "titulo_es": "Notas informativas de la 2ª Sección del Estado Mayor — crónica minuto a minuto del golpe",
+  "titulo_en": "2nd Section General Staff intelligence notes — minute-by-minute chronicle of the coup",
+  "fecha_documento": "1981-02-23",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Registro cronológico de la 2ª Sección del Estado Mayor de la Dirección General de la Guardia Civil que documenta el desarrollo del golpe minuto a minuto desde las 18:20 hasta pasadas las 20:45 del 23 de febrero. Registra los movimientos de tropas, el despliegue en TVE y RNE, las comunicaciones del Rey con los Capitanes Generales, la negación de Milans del Bosch de haber ordenado nada, la llegada de un convoy militar por la N-1 desde Irún, y la declaración de estado de alerta en Valencia. Un documento excepcional por su carácter de crónica en tiempo real.",
+  "resumen_en": "Chronological log from the 2nd Section of the General Staff of the Guardia Civil Director General, documenting the coup minute by minute from 18:20 to after 20:45 on 23 February. Records troop movements, deployment at TVE and RNE, the King's calls to Captains General, Milans del Bosch denying having ordered anything, arrival of a military convoy via N-1 from Irún, and declaration of a state of alert in Valencia. An exceptional real-time chronicle.",
+  "personas": [
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "cargo": "General, Capitán General III Región Militar",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Negó al Rey haber ordenado nada (20:40)",
+        "El Coronel Manchado solo aceptaba órdenes suyas (20:45)"
+      ]
+    },
+    {
+      "nombre": "Rey Juan Carlos I",
+      "cargo": "Rey de España",
+      "organizacion": "Casa Real",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Habló con todos los Capitanes Generales en la noche del golpe",
+        "Habló con el General Milans del Bosch, quien negó haber ordenado nada"
+      ]
+    },
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Al mando de 7 autobuses con personal en el Congreso (19:20)",
+        "La fuerza bajo su mando no obedecía al Director General (20:15)"
+      ]
+    },
+    {
+      "nombre": "Coronel Manchado",
+      "cargo": "Coronel",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Solo aceptaba órdenes de Milans del Bosch, según informa el documento (20:45)"
+      ]
+    },
+    {
+      "nombre": "Tcol. Cassinello",
+      "cargo": "Teniente Coronel",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Habló con la Zarzuela (Casa Real) a las 20:40 y transmitió información sobre los contactos del Rey"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "Dirección General de la Guardia Civil", "tipo": "policial" },
+    { "nombre": "Estado Mayor 2ª Sección", "tipo": "militar" },
+    { "nombre": "Grupo Servicios Especiales", "tipo": "policial" },
+    { "nombre": "Televisión Española", "tipo": "otro" },
+    { "nombre": "Radio Nacional de España", "tipo": "otro" },
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "JUJEM (Junta de Jefes de Estado Mayor)", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-23T18:20", "descripcion_es": "Primeras noticias por radio sobre el asunto del Congreso", "descripcion_en": "First radio news about the Congress incident", "lugar": "Madrid" },
+    { "fecha": "1981-02-23T19:00", "descripcion_es": "Gente de Tráfico y Parque armada toman entradas al Parlamento, con órdenes de no hablar con nadie", "descripcion_en": "Armed Traffic and Park police take Parliament entrances, ordered not to speak to anyone", "lugar": "Madrid" },
+    { "fecha": "1981-02-23T19:10", "descripcion_es": "La fuerza de la Guardia Civil que rodea el Parlamento empieza a retirarse", "descripcion_en": "The Civil Guard force surrounding Parliament begins to withdraw", "lugar": "Madrid" },
+    { "fecha": "1981-02-23T20:00", "descripcion_es": "Convoy militar de 22 camiones entra por la carretera N-1 (Irún) a la altura del km 20", "descripcion_en": "Military convoy of 22 trucks enters via the N-1 road (Irún) at km 20", "lugar": "Madrid, N-1" },
+    { "fecha": "1981-02-23T20:10", "descripcion_es": "Radio Valencia declara estado de sitio en 11 puntos", "descripcion_en": "Radio Valencia declares state of siege at 11 points", "lugar": "Valencia" },
+    { "fecha": "1981-02-23T20:35", "descripcion_es": "RNE ocupada. Carros de combate en Ciudad Periodistas", "descripcion_en": "RNE occupied. Battle tanks at Ciudad Periodistas", "lugar": "Madrid" },
+    { "fecha": "1981-02-23T20:40", "descripcion_es": "JUJEM ordena al Ejército proteger RNE y TVE. El Rey habla con todos los Capitanes Generales y con Milans del Bosch, quien niega haber ordenado nada", "descripcion_en": "JUJEM orders Army to protect RNE and TVE. The King speaks with all Captains General and Milans del Bosch, who denies ordering anything", "lugar": "Madrid" },
+    { "fecha": "1981-02-23T20:45", "descripcion_es": "El Coronel Manchado solo acepta órdenes de Milans del Bosch", "descripcion_en": "Colonel Manchado only accepts orders from Milans del Bosch", "lugar": "Madrid" }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota informativa (20:40)",
+      "texto": "El Rey ha hablado con todos los Capitanes Generales y con General Milán del Bosch, negando este que haya ordenado nada.",
+      "traduccion_en": "The King has spoken with all Captains General and with General Milán del Bosch, who denies having ordered anything.",
+      "importancia": "Documentación en tiempo real de la intervención decisiva del Rey para detener el golpe"
+    },
+    {
+      "autor": "Nota informativa (20:15)",
+      "texto": "Están todos los Diputados sentados. Esperan a que llegue General Milán del Bosch. No retiran autobuses. No obedecen a Director General.",
+      "descripcion_en": "All Deputies are seated. Awaiting General Milán del Bosch. Buses not removed. Not obeying Director General.",
+      "importancia": "Confirma que los ocupantes del Congreso esperaban a Milans del Bosch, vinculándolo directamente al plan"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Rey Juan Carlos I",
+      "destino": "Jaime Milans del Bosch",
+      "tipo": "llamó",
+      "descripcion": "El Rey llamó a Milans del Bosch, quien negó haber ordenado el despliegue de tropas en Valencia",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "JUJEM",
+      "destino": "Televisión Española",
+      "tipo": "ordenó",
+      "descripcion": "JUJEM ordenó al Ejército proteger RNE y TVE para evitar que los golpistas usasen los medios",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["cronica-tiempo-real", "intervencion-rey", "milans-del-bosch", "ocupacion-medios", "despliegue-militar"],
+  "_meta": {
+    "doc_id": "23F_7._Notas_Informativas_2_Seccion_EM_desarrollo_hechos",
+    "filename": "23F_7._Notas_Informativas_2_Seccion_EM_desarrollo_hechos.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 5,
+    "processed_by": "claude-code"
+  }
+}

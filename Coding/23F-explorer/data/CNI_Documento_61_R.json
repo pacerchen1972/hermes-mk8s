@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 8 mar. 1982 de la vista oral Causa 2/81: el Rey citado 79 veces; Armada cesado la tarde del 23-F",
+  "titulo_en": "Intelligence note on the 8 Mar. 1982 Causa 2/81 hearing: King cited 79 times; Armada relieved on the afternoon of 23-F",
+  "fecha_documento": "1982-03-08",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/90/3935/08-03-82) sobre la sesión del 8 de marzo de 1982. El Rey fue citado nominalmente 79 veces y la Reina 6 veces durante la jornada. La defensa de Armada (Bermúdez) argumentó que su intención era presentar una solución constitucional que el Rey pudiera escuchar. El General Armada declaró haber sido cesado en la tarde del 23 de febrero. El Ministro de Defensa realizó comunicaciones al T.G. Gabeiras. El Coronel San Martín fue mencionado en relación con la cadena de transmisión de órdenes. La defensa de Milans alegó que actuó por la 'situación límite' del país.",
+  "resumen_en": "CESID intelligence note (C/90/3935/08-03-82) on the 8 March 1982 session. The King was cited by name 79 times and the Queen 6 times during the day. Armada's defence (Bermúdez) argued his intent was to present a constitutional solution for the King to hear. General Armada declared he had been relieved of command on the afternoon of 23 February. The Defence Minister made communications to T.G. Gabeiras. Colonel San Martín was mentioned in relation to the chain of command communications. Milans's defence argued he acted because of the country's 'extreme situation'.",
+  "personas": [
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Declaró haber sido cesado en la tarde del 23-F; su defensa argumentó que pretendía presentar una solución constitucional al Rey"] },
+    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General, Capitán General 3ª Región Militar", "organizacion": "Ejército de Tierra", "rol_en_23f": "golpista", "acciones": ["Su defensa (Escandell) alegó que actuó por la 'situación límite' de España"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-08", "descripcion_es": "Vista oral Causa 2/81: el Rey citado 79 veces, la Reina 6; Armada declaró ser cesado la tarde del 23-F; Ministro de Defensa comunicó con Gabeiras", "descripcion_en": "Causa 2/81 hearing: King cited 79 times, Queen 6; Armada declared relieved the afternoon of 23-F; Defence Minister communicated with Gabeiras", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "milans", "rey", "gabeiras", "testigos", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_61_R", "filename": "Documento_61_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

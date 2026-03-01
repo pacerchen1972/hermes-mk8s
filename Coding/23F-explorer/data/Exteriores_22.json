@@ -1,0 +1,24 @@
+{
+  "titulo_es": "Consulado en Montevideo transmite felicitaciones de la Confederación de Trabajadores de Uruguay por la resolución del 23-F",
+  "titulo_en": "Consulate in Montevideo transmits congratulations from Uruguay Workers' Confederation on the resolution of 23-F",
+  "fecha_documento": "1981-03-27",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_consular",
+  "ministerio": "Exteriores",
+  "resumen_es": "Nota del Consulado de España en Montevideo (27 marzo 1981) al Ministerio de Asuntos Exteriores, remitiendo carta de la Confederación General de Trabajadores de Uruguay (CUT) expresando su felicitación por la forma en que se superó en España la situación creada por el intento golpista del 23 de febrero. La nota destaca que el caso español sirve de ejemplo para los sectores conservadores en otras naciones que han vivido transiciones políticas similares.",
+  "resumen_en": "Note from Spain's Consulate in Montevideo (27 March 1981) to the Ministry of Foreign Affairs, forwarding a letter from Uruguay's General Confederation of Workers (CUT) expressing congratulations on how Spain overcame the situation created by the 23 February coup attempt. The note highlights that the Spanish case serves as an example for conservative sectors in other nations that have undergone similar political transitions.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Consulado de España en Montevideo", "tipo": "gobierno" },
+    { "nombre": "Confederación General de Trabajadores del Uruguay (CUT)", "tipo": "laboral" },
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-27", "descripcion_es": "Sindicato uruguayo CUT felicita a España por superar el golpe del 23-F; Consulado en Montevideo transmite a Exteriores", "descripcion_en": "Uruguayan CUT union congratulates Spain for overcoming the 23-F coup; Consulate in Montevideo transmits to Foreign Affairs", "lugar": "Montevideo, Uruguay" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "uruguay", "solidaridad", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_22", "filename": "D.22._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

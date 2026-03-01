@@ -1,0 +1,59 @@
+{
+  "titulo_es": "Nota informativa ARAP sobre la anunciada libertad provisional de procesados en la Causa 2/81 (abr. 1982)",
+  "titulo_en": "ARAP intelligence note on announced provisional release of Causa 2/81 defendants (Apr. 1982)",
+  "fecha_documento": "1982-04-19",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa ARAP del CESID del 19 de abril de 1982 sobre la resolución del Consejo Supremo de Justicia Militar (CSJM) que acordó la libertad provisional sin fianza del Capitán de la Guardia Civil Francisco Ignacio Román (procesado en la Causa 2/81). El documento analiza la extrañeza causada en los medios jurídicos, discute los artículos aplicables del Código de Justicia Militar, y advierte sobre las implicaciones de equiparar la responsabilidad de los tenientes de la División Acorazada (DAC) con la de otros procesados, señalando que ello ofrecería una imagen 'monstruosa jurídicamente y desmoralizadora'.",
+  "resumen_en": "CESID ARAP intelligence note of 19 April 1982 on the Supreme Military Court's resolution granting provisional release without bail to Civil Guard Captain Francisco Ignacio Román (defendant in Causa 2/81). The document analyses the surprise caused in legal circles, discusses applicable articles of the Military Justice Code, and warns about the implications of equating the liability of Armoured Division lieutenants with other defendants, noting this would present a 'legally monstrous and demoralising image'.",
+  "personas": [
+    {
+      "nombre": "Francisco Ignacio Román",
+      "cargo": "Capitán de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Procesado en la Causa 2/81; se le concedió libertad provisional sin fianza"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "División Acorazada (DAC)", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-04-19",
+      "descripcion_es": "El CSJM acuerda libertad provisional sin fianza del Capitán Francisco Ignacio Román; CESID analiza el impacto",
+      "descripcion_en": "Supreme Military Court grants provisional release to Captain Francisco Ignacio Román; CESID analyses the impact",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota ARAP-CESID",
+      "texto": "Debe evitarse toda ocasión de que se establezca interrelación entre ambos fenómenos [responsabilidad DAC y rendición], pues tal conexión ofrece una imagen monstruosa jurídicamente y desmoralizadora desde la perspectiva de la conciencia social.",
+      "traduccion_en": "Any occasion that might establish an interrelation between both phenomena should be avoided, as such a connection presents a legally monstrous and demoralising image from the perspective of social conscience.",
+      "importancia": "El CESID asesoraba implícitamente sobre la estrategia jurídica del proceso para proteger la imagen institucional"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Consejo Supremo de Justicia Militar (CSJM)",
+      "destino": "Francisco Ignacio Román",
+      "tipo": "juzgó",
+      "descripcion": "El CSJM acordó libertad provisional sin fianza al capitán Román en la Causa 2/81",
+      "fecha": "1982-04-19"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "libertad-provisional", "dac", "csjm"],
+  "_meta": {
+    "doc_id": "CNI_Documento_12_R",
+    "filename": "Documento_12_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 3,
+    "processed_by": "claude-code"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 12 mar. 1982 de la vista oral Causa 2/81: Torres Rojas niega participación en la 'Operación Armada'; Tejero alega órdenes del Rey",
+  "titulo_en": "Intelligence note on the 12 Mar. 1982 Causa 2/81 hearing: Torres Rojas denies participation in 'Operación Armada'; Tejero alleges King's orders",
+  "fecha_documento": "1982-03-12",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (N/Ref. C/90/4183/12-03-82) sobre la sesión del 12 de marzo de 1982. El General Torres Rojas rechazó toda pregunta que implicara responsabilidad propia. Negó participar en la 'Operación Armada'. Tejero insistió en que actuó correctamente y que toda la Guardia Civil y el Ejército son responsables colectivos. Se volvió a confirmar el uso de un 'garaje' del CESID como punto de reunión. Los abogados defensores señalaron que ningún testigo pudo confirmar que el Rey aprobara la operación, mientras Tejero continuó alegando órdenes reales.",
+  "resumen_en": "CESID intelligence note (N/Ref. C/90/4183/12-03-82) on the 12 March 1982 session. General Torres Rojas declined all questions implying personal responsibility. He denied participation in 'Operación Armada'. Tejero insisted he acted correctly and that all Civil Guard and Army members were collectively responsible. The use of a CESID 'garage' as a meeting point was again confirmed. Defence counsels noted no witness could confirm the King approved the operation, while Tejero continued to allege royal orders.",
+  "personas": [
+    { "nombre": "Manuel Torres Rojas", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Rechazó responder preguntas que implicaran responsabilidad personal; negó expresamente participación en la 'Operación Armada'"] },
+    { "nombre": "Antonio Tejero Molina", "cargo": "Teniente Coronel de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "golpista", "acciones": ["Insistió en haber actuado correctamente y en seguir órdenes superiores; afirmó que la Guardia Civil y el Ejército son colectivamente responsables"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-12", "descripcion_es": "Vista oral Causa 2/81: Torres Rojas niega 'Operación Armada'; Tejero alega órdenes del Rey; se confirma el garaje del CESID como punto de reunión clandestino", "descripcion_en": "Causa 2/81 hearing: Torres Rojas denies 'Operación Armada'; Tejero alleges royal orders; CESID garage confirmed as clandestine meeting point", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "torres-rojas", "tejero", "operacion-armada", "testigos", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_58_R", "filename": "Documento_58_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

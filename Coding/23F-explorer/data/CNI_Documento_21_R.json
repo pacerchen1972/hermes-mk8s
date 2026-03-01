@@ -1,0 +1,52 @@
+{
+  "titulo_es": "Nota informativa sobre la vista oral de la Causa 2/81: declaraciones de los procesados (may. 1982)",
+  "titulo_en": "Intelligence note on the Causa 2/81 oral hearing: defendants' statements (May 1982)",
+  "fecha_documento": "1982-05-24",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID del 24 de mayo de 1982 sobre el desarrollo de la vista oral de la Causa 2/81 ante el Consejo Supremo de Justicia Militar. Recoge las declaraciones finales de los procesados. La mayoría se abstuvo de declarar. Algunos procesados, incluidos representantes del Estado Mayor de la División Acorazada, solicitaron la exoneración de sus subordinados y negaron la existencia del delito de rebelión, aceptando responsabilidad por sus actos pero argumentando obediencia a órdenes superiores. Se menciona el 'pacto del capó' como referencia a acuerdos de rendición.",
+  "resumen_en": "CESID intelligence note of 24 May 1982 on the oral hearing of Causa 2/81 before the Supreme Military Court. Records defendants' final statements. Most abstained from speaking. Some defendants, including Armoured Division General Staff representatives, requested the exoneration of their subordinates and denied rebellion charges, accepting responsibility for their actions but arguing obedience to superior orders. Reference to the 'bonnet agreement' (surrender pact).",
+  "personas": [
+    {
+      "nombre": "Ricardo Pardo Zancada",
+      "cargo": "Comandante de Infantería",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Compareció en la vista oral de la Causa 2/81", "Estado Mayor de la División Acorazada solicitó exoneración de subordinados"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "División Acorazada (DAC)", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-05-24",
+      "descripcion_es": "Vista oral Causa 2/81: declaraciones finales de procesados ante el CSJM; mayoría se abstiene; algunos niegan el delito de rebelión",
+      "descripcion_en": "Causa 2/81 oral hearing: defendants' final statements before CSJM; majority abstain; some deny rebellion charges",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    {
+      "origen": "Consejo Supremo de Justicia Militar (CSJM)",
+      "destino": "División Acorazada (DAC)",
+      "tipo": "juzgó",
+      "descripcion": "El CSJM juzgó a miembros del Estado Mayor de la División Acorazada en la Causa 2/81",
+      "fecha": "1982-05-24"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "declaraciones", "dac", "csjm"],
+  "_meta": {
+    "doc_id": "CNI_Documento_21_R",
+    "filename": "Documento_21_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 10,
+    "processed_by": "claude-code"
+  }
+}

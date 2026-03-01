@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Cámara Municipal de Campo Maior (Portugal) condena el golpe fascista del 23-F y expresa solidaridad con España",
+  "titulo_en": "Municipal Council of Campo Maior (Portugal) condemns the fascist 23-F coup and expresses solidarity with Spain",
+  "fecha_documento": "1981-03-15",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "mocion",
+  "ministerio": "Exteriores",
+  "resumen_es": "La Câmara Municipal de Campo Maior (Portugal) aprueba por unanimidad el 2 de marzo de 1981 la siguiente moción: 'Repudiar, firmemente, a tentativa de golpe de inspiração fascista, levado a efeito no passado dia 23 de Fevereiro em Espanha, para liquidar as liberdades democráticas e direitos conquistados pelos trabalhadores e pelo povo do País vizinho, constituindo motivo de regozijo para todos os portugueses de sentimentos democráticos que a acção com fins totalitários tenha fracassado.' Transmitida al Canciller del Consulado de España en Elvas el 15 marzo. Firmada por Manuel Rui Azinhais Nabeiro, Presidente da Câmara.",
+  "resumen_en": "The Câmara Municipal de Campo Maior (Portugal) unanimously approves on 2 March 1981 the following motion: 'To firmly repudiate the coup attempt of fascist inspiration carried out on 23 February in Spain to liquidate democratic freedoms and rights won by workers and the people of the neighbouring country, constituting cause for joy for all Portuguese with democratic sentiments that the totalitarian action has failed.' Transmitted to Spain's Consulate in Elvas on 15 March. Signed by Manuel Rui Azinhais Nabeiro, Mayor.",
+  "personas": [
+    { "nombre": "Manuel Rui Azinhais Nabeiro", "rol": "Presidente (alcalde) de la Câmara Municipal de Campo Maior, firmante" }
+  ],
+  "organizaciones": [
+    { "nombre": "Câmara Municipal de Campo Maior", "tipo": "gobierno" },
+    { "nombre": "Consulado de España en Elvas", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-02", "descripcion_es": "Cámara Municipal de Campo Maior (Portugal) vota por unanimidad moción contra el golpe fascista del 23-F, expresando solidaridad con España", "descripcion_en": "Campo Maior (Portugal) Municipal Council unanimously votes motion against the fascist 23-F coup, expressing solidarity with Spain", "lugar": "Campo Maior, Portugal" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "portugal", "solidaridad", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_17", "filename": "D.17._AGMAE_R40201_Exp._215.jpg", "folder": "exteriores/AGMAE-40201", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

@@ -1,0 +1,50 @@
+{
+  "titulo_es": "Análisis del papel de la JUJEM en la crisis político-militar tras la sentencia del 23-F (jun. 1982)",
+  "titulo_en": "Analysis of JUJEM's role in the political-military crisis following the 23-F verdict (Jun. 1982)",
+  "fecha_documento": "1982-06-09",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Análisis interno del CESID sobre el papel de la Junta de Jefes de Estado Mayor (JUJEM) en la crisis político-militar desencadenada por la publicación de la sentencia del juicio del 23-F. El documento analiza las causas de la crisis (reacciones políticas, interpretaciones críticas en medios, rechazo corporativo militar) y las opciones de la JUJEM, advirtiendo que si optara por confrontación directa con el poder civil provocaría consecuencias similares a las de la solución histórica de Primo de Rivera.",
+  "resumen_en": "Internal CESID analysis of the JUJEM's role in the political-military crisis triggered by the publication of the 23-F trial verdict. Analyses the causes of the crisis (political reactions, critical media coverage, military corporate rejection) and the JUJEM's options, warning that opting for direct confrontation with civil power would produce consequences similar to the historical Primo de Rivera solution.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Junta de Jefes de Estado Mayor (JUJEM)", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-06-09",
+      "descripcion_es": "La JUJEM enfrenta una crisis política-militar tras la sentencia del 23-F; el CESID analiza sus opciones",
+      "descripcion_en": "JUJEM faces political-military crisis after 23-F verdict; CESID analyses its options",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Análisis CESID",
+      "texto": "Si la JUJEM se decidiera por la solución a) debe ser consciente de que provocaría las siguientes consecuencias: Provocará una confrontación directa con el poder civil que, en analogía con la solución histórica de Primo de Rivera...",
+      "traduccion_en": "If JUJEM opted for solution a) it must be aware it would provoke the following consequences: a direct confrontation with civil power, analogous to the historic Primo de Rivera solution...",
+      "importancia": "El CESID comparaba implícitamente el riesgo de un nuevo golpe con el precedente histórico de Primo de Rivera, advirtiendo a la cúpula militar de las consecuencias de la confrontación con el poder civil"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "Junta de Jefes de Estado Mayor (JUJEM)",
+      "tipo": "informó",
+      "descripcion": "CESID analizó internamente las opciones de la JUJEM ante la crisis post-sentencia",
+      "fecha": "1982-06-09"
+    }
+  ],
+  "temas": ["juicio", "sentencia", "jujem", "crisis-politica", "cesid", "primo-de-rivera"],
+  "_meta": {
+    "doc_id": "CNI_Documento_17_R",
+    "filename": "Documento_17_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

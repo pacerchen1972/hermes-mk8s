@@ -1,0 +1,24 @@
+{
+  "titulo_es": "Información integrada del CESID sobre los efectos sociales y militares de la fase final de la vista pública Causa 2/81",
+  "titulo_en": "CESID integrated intelligence on the social and military effects of the final phase of the Causa 2/81 public hearing",
+  "fecha_documento": "1982-03-15",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe_integrado",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe integrado del CESID (C/01/4335/15-03-82, marcado DTOR) sobre los efectos externos al juicio oral de la Causa 2/81. Analiza las reacciones sociales y militares ante las declaraciones de los procesados, los intentos de implicar al Rey en las alusiones realizadas ante el tribunal, y la difusión clandestina de una 'Carta al Rey'. Alerta sobre la presencia de miembros de 'Primera Línea' distribuyendo propaganda de la Unión Militar Española (UME) y sobre el riesgo de reactivación de posturas involucionistas en las Fuerzas Armadas.",
+  "resumen_en": "CESID integrated report (C/01/4335/15-03-82, marked DTOR) on external effects of the Causa 2/81 oral hearing. Analyses social and military reactions to the defendants' statements, attempts to implicate the King in references made at the tribunal, and clandestine circulation of a 'Letter to the King'. Alerts to the presence of 'Primera Línea' members distributing Unión Militar Española (UME) propaganda and the risk of resurgent anti-democratic attitudes within the Armed Forces.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Unión Militar Española (UME)", "tipo": "política" },
+    { "nombre": "Primera Línea", "tipo": "política" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-15", "descripcion_es": "CESID evalúa el impacto social del juicio: circula una 'Carta al Rey', la UME distribuye propaganda y existe riesgo de reactivación involucionista", "descripcion_en": "CESID assesses social impact of the trial: a 'Letter to the King' circulates, UME distributes propaganda, and risk of anti-democratic reactivation identified", "lugar": null }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "opinion-militar", "ume", "primera-linea", "extrema-derecha", "riesgo-golpista"],
+  "_meta": { "doc_id": "CNI_Documento_64_R", "filename": "Documento_64_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

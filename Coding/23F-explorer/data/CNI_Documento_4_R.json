@@ -1,0 +1,87 @@
+{
+  "titulo_es": "Resumen de la actuación del DDI (CESID) durante el 23-F: cronología hora a hora",
+  "titulo_en": "Summary of CESID DDI operations during 23-F: hour-by-hour chronology",
+  "fecha_documento": "1981-02-23",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Cronología detallada de las actuaciones del DDI (Dirección de Información del CESID) desde las 17:00 del 23 de febrero de 1981. Documenta: la noticia de acuartelamiento de unidades de la División Acorazada (DAC) a las 17:00; el asalto al Congreso conocido por radio a las 18:20; el montaje del centro de operaciones a las 19:00; los enlaces establecidos con la Dirección General de la Guardia Civil, Capitanía General, Estado Mayor del Ejército, y otras unidades. Dos directivos del CESID lograron penetrar en el Congreso. El documento revela también que el CESID informó al Capitán General de la III Región Militar sobre despliegues que éste desconocía, y sobre el rumor de que el Rey estaba preso.",
+  "resumen_en": "Detailed chronology of CESID DDI operations from 17:00 on 23 February 1981. Documents: news of Armoured Division (DAC) quartering at 17:00; radio report of Congress assault at 18:20; operations centre set up at 19:00; liaison established with Civil Guard DG, Captain-General, Army General Staff and other units. Two CESID executives managed to enter Congress. Also reveals CESID informed 3rd Military Region Captain-General of troop deployments he was unaware of, and of rumours the King was imprisoned.",
+  "personas": [
+    {
+      "nombre": "General Prieto",
+      "cargo": "General de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "leal",
+      "acciones": ["Un miembro del CESID estuvo en contacto con él en relación con las gestiones para disuadir a Tejero"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "División Acorazada (DAC)", "tipo": "militar" },
+    { "nombre": "Dirección General de la Guardia Civil (DGGC)", "tipo": "policial" },
+    { "nombre": "Estado Mayor del Ejército (EME)", "tipo": "militar" },
+    { "nombre": "III Región Militar", "tipo": "militar" },
+    { "nombre": "Congreso de los Diputados", "tipo": "gubernamental" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23T17:00",
+      "descripcion_es": "CESID recibe noticia de orden de acuartelamiento de unidades de la División Acorazada en nombre del Jefe de la División",
+      "descripcion_en": "CESID receives news of quartering order for Armoured Division units in the name of the Division Commander",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T18:20",
+      "descripcion_es": "CESID conoce por radio el asalto al Congreso de los Diputados",
+      "descripcion_en": "CESID learns of Congress assault via radio",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T19:00",
+      "descripcion_es": "CESID monta centro de operaciones y designa encargados de enlace con principales instituciones militares y policiales",
+      "descripcion_en": "CESID sets up operations centre and designates liaison officers with key military and police institutions",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T19:30",
+      "descripcion_es": "CESID establece control informativo de movimientos en carreteras de Extremadura y Colmenar; envía directivos a la calle para obtener información",
+      "descripcion_en": "CESID establishes surveillance of road movements in Extremadura and Colmenar; sends executives into the streets for intelligence",
+      "lugar": "Madrid y alrededores"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Informe DDI-CESID",
+      "texto": "El enlace con el Cap. Gral. permitió poner en su conocimiento el despliegue de U,s. en la III RG, que desconocía, así como el rumor de que S.M. estaba prisionero, lo que le hizo entrar en contacto con el Palacio de la Zarzuela.",
+      "traduccion_en": "Liaison with the Captain-General enabled informing him of troop deployments in the 3rd Military Region that he was unaware of, as well as the rumour that HM was a prisoner, which prompted him to contact the Zarzuela Palace.",
+      "importancia": "El CESID fue un intermediario clave de información durante el golpe, incluso para autoridades militares superiores que desconocían la situación real"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "III Región Militar",
+      "tipo": "informó",
+      "descripcion": "CESID informó al Capitán General de la III Región Militar de despliegues de tropas que éste desconocía",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "CESID",
+      "destino": "General Prieto",
+      "tipo": "coordinó",
+      "descripcion": "CESID se coordinó con el General Prieto de la Guardia Civil para disuadir a Tejero",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["cesid", "golpe", "cronologia", "division-acorazada", "operaciones", "23f", "congreso"],
+  "_meta": {
+    "doc_id": "CNI_Documento_4_R",
+    "filename": "Documento_4_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

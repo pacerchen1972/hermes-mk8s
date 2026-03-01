@@ -1,0 +1,49 @@
+{
+  "titulo_es": "Orden General Extraordinaria nº 2/82 de la JUJEM con motivo de la sentencia del 23-F",
+  "titulo_en": "JUJEM Extraordinary General Order No. 2/82 on the 23-F trial verdict",
+  "fecha_documento": "1982-06-08",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "orden",
+  "ministerio": "Defensa",
+  "resumen_es": "Transmisión telex de la Orden General Extraordinaria Número 2/82 del Cuartel General de la JUJEM (Junta de Jefes de Estado Mayor), emitida el 8 de junio de 1982 con motivo de la sentencia del juicio del 23-F. La orden reconoce que la sentencia ha provocado comentarios y críticas desfavorables que pueden afectar a la moral de los subordinados, y llama a las Fuerzas Armadas a cumplir su misión en defensa de la Constitución.",
+  "resumen_en": "Telex transmission of Extraordinary General Order No. 2/82 from JUJEM HQ (Joint Chiefs of Staff), issued 8 June 1982 following the 23-F trial verdict. The order acknowledges the verdict has provoked unfavourable comments and criticism that may affect subordinates' morale, and calls on the Armed Forces to fulfil their mission in defence of the Constitution.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Junta de Jefes de Estado Mayor (JUJEM)", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-06-08",
+      "descripcion_es": "La JUJEM emite Orden General Extraordinaria ante las reacciones a la sentencia del juicio del 23-F",
+      "descripcion_en": "JUJEM issues Extraordinary General Order in response to reactions to the 23-F trial verdict",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "JUJEM, Orden General Extraordinaria 2/82",
+      "texto": "CON MOTIVO DE LA SENTENCIA RECAIDA EN LA CAUSA SEGUIDA POR LOS SUCESOS DEL 23 DE FEBRERO DE 1.981, SE HAN PRODUCIDO COMENTARIOS Y CRITICAS DESFAVORABLES, QUE PUEDEN TENER REPERCUSION EN LA MORAL DE NUESTROS SUBORDINADOS.",
+      "traduccion_en": "FOLLOWING THE VERDICT IN THE CASE CONCERNING THE EVENTS OF 23 FEBRUARY 1981, UNFAVOURABLE COMMENTS AND CRITICISM HAVE ARISEN THAT MAY AFFECT THE MORALE OF OUR SUBORDINATES.",
+      "importancia": "La cúpula militar reconoció públicamente que la sentencia era polémica entre sus propias filas y emitió una orden para contener el malestar"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Junta de Jefes de Estado Mayor (JUJEM)",
+      "destino": "Ejército de Tierra",
+      "tipo": "ordenó",
+      "descripcion": "JUJEM emitió Orden General Extraordinaria para gestionar el impacto de la sentencia del 23-F en la moral de las FFAA",
+      "fecha": "1982-06-08"
+    }
+  ],
+  "temas": ["juicio", "sentencia", "jujem", "moral-militar", "causa-2-81"],
+  "_meta": {
+    "doc_id": "CNI_Documento_16_R",
+    "filename": "Documento_16_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

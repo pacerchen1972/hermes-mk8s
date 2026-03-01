@@ -1,0 +1,24 @@
+{
+  "titulo_es": "Nota informativa sobre el bloqueo de la cuenta bancaria de la Asociación de Mujeres de Militares y Policías",
+  "titulo_en": "Intelligence note on the blocking of the Association of Military and Police Wives' bank account",
+  "fecha_documento": "1981-03-27",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota de la Brigada de Información Interior (39-497, 27 marzo 1981). La Asociación de Mujeres de Militares y Policías había recibido tras el 23-F cuantiosas donaciones para las familias de los guardias civiles implicados y los herederos de las víctimas. Los fondos estaban depositados en una cuenta del Banco Central. Por orden del Ministerio del Interior, la cuenta ha sido bloqueada, impidiendo a sus titulares disponer del dinero.",
+  "resumen_en": "Interior Intelligence Brigade note (39-497, 27 March 1981). The Association of Military and Police Wives had received substantial donations after 23-F for families of implicated civil guards and victims' heirs. Funds were held in a Banco Central account. By order of the Interior Ministry, the account has been frozen, preventing its holders from accessing the funds.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
+    { "nombre": "Asociación de Mujeres de Militares y Policías", "tipo": "civil" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-27", "descripcion_es": "El Ministerio del Interior ordena el bloqueo de la cuenta bancaria de la Asociación de Mujeres de Militares y Policías que recibía fondos de apoyo a los implicados del 23-F", "descripcion_en": "Interior Ministry orders the freezing of the Association of Military and Police Wives' bank account, which was receiving support funds for 23-F implicated", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "apoyo-economico", "familias-implicados", "ministerio-interior", "brigada-informacion-interior"],
+  "_meta": { "doc_id": "Interior_Policia_7", "filename": "27-03-81_NOTA_INFORMATIVA_SOBRE_BLOQUEO_DE_CUENTA_DE_ASOC_DE_MUJERES_DE_MILITARES.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

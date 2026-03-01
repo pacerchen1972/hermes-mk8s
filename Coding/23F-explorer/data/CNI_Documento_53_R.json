@@ -1,0 +1,30 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 23 mar. 1982 de la vista oral Causa 2/81: Cte. Cortina admite Operación Galaxia; Capitán Acosta describe llegada de Armada al Congreso",
+  "titulo_en": "Intelligence note on the 23 Mar. 1982 Causa 2/81 hearing: Cte. Cortina admits Operation Galaxia; Captain Acosta describes Armada's arrival at Congress",
+  "fecha_documento": "1982-03-23",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (05/4.769/23-03-82) sobre la sesión del 23 de marzo de 1982. El Comandante Cortina admitió haber participado en la investigación de la Operación Galaxia y en conversaciones con Tejero y Pardo, aunque negó intervención directa en el 23-F. El Capitán Acosta describió la llegada del General Armada al Congreso acompañado y anunciado; confirmó la existencia de órdenes de la GC relacionadas con Tejero; y refirió el enfrentamiento entre Aramburu y Tejero dentro del Congreso.",
+  "resumen_en": "CESID intelligence note (05/4.769/23-03-82) on the 23 March 1982 session. Commander Cortina admitted to having participated in the Operation Galaxia investigation and in conversations with Tejero and Pardo, while denying direct involvement in 23-F. Captain Acosta described the arrival of General Armada at Congress accompanied and announced; confirmed GC orders related to Tejero; and referred to the confrontation between Aramburu and Tejero inside Congress.",
+  "personas": [
+    { "nombre": "José Cortina Prieto", "cargo": "Comandante de Infantería, CESID/AOME", "organizacion": "CESID", "rol_en_23f": "conspirador", "acciones": ["Admitió participar en la investigación de la Operación Galaxia; admitió conversaciones con Tejero y Pardo; negó intervención directa en el 23-F"] },
+    { "nombre": "Acosta", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Describió la llegada de Armada al Congreso acompañado y anunciado; confirmó la existencia de órdenes de la GC relativas a Tejero; describió el enfrentamiento Aramburu-Tejero"] },
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Según Acosta, llegó al Congreso acompañado y fue anunciado; se relacionaba con la cadena de mando de Tejero"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-23", "descripcion_es": "Vista oral Causa 2/81: Cortina admite haber investigado la Operación Galaxia; Capitán Acosta describe la llegada de Armada al Congreso y el enfrentamiento Aramburu-Tejero", "descripcion_en": "Causa 2/81 hearing: Cortina admits investigating Operation Galaxia; Captain Acosta describes Armada's arrival at Congress and the Aramburu-Tejero confrontation", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "José Cortina Prieto", "destino": "Antonio Tejero Molina", "tipo": "contacto_previo", "descripcion": "Cortina admitió conversaciones con Tejero en el contexto de la Operación Galaxia" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "cortina", "armada", "tejero", "operacion-galaxia", "guardia-civil", "testigos", "aramburu", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_53_R", "filename": "Documento_53_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

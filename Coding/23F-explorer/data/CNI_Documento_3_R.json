@@ -1,0 +1,87 @@
+{
+  "titulo_es": "Relación CESID (Dirección) con PREJUJEM (J-2) durante el 23-F: recomendaciones y gestiones",
+  "titulo_en": "CESID Directorate liaison with JUJEM Pre-meeting (J-2) during 23-F: recommendations and actions",
+  "fecha_documento": "1981-02-23",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota interna del CESID sobre las actuaciones mantenidas con la PREJUJEM (J-2) antes incluso de que se reuniera la Junta de Jefes de Estado Mayor durante el golpe. El CESID recomendó que la autoridad militar asumiera el control y emitiera comunicados; propuso acción psicológica en el Congreso sobre los guardias retenidos; recomendó aislar la zona del Congreso. Documenta los intentos de negociación del General Aramburu, General Armada y General Sáenz de Santa María en el Congreso, las conversaciones de Tejero con Valencia, y las negociaciones ofreciendo atenuantes a cambio de rendir las armas.",
+  "resumen_en": "Internal CESID note on actions taken with JUJEM's pre-meeting (J-2) even before the Joint Chiefs convened during the coup. CESID recommended military authority assume control and broadcast statements; proposed psychological action in Congress on detained guards; recommended isolating the Congress area. Documents negotiation attempts by Generals Aramburu, Armada and Sáenz de Santa María in Congress, Tejero's conversations with Valencia, and negotiations offering mitigating circumstances in exchange for surrender.",
+  "personas": [
+    {
+      "nombre": "General Aramburu",
+      "cargo": "General",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "leal",
+      "acciones": ["Intentó parlamentar con los golpistas en el Congreso"]
+    },
+    {
+      "nombre": "Alfonso Armada Comyn",
+      "cargo": "General",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Intentó negociar en el Congreso durante la ocupación"]
+    },
+    {
+      "nombre": "José Sáenz de Santa María",
+      "cargo": "General",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "leal",
+      "acciones": ["Intentó parlamentar con Tejero en el Congreso"]
+    },
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Mantuvo conversaciones con Valencia durante la ocupación del Congreso"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Junta de Jefes de Estado Mayor (JUJEM)", "tipo": "militar" },
+    { "nombre": "Congreso de los Diputados", "tipo": "gubernamental" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23T19:00",
+      "descripcion_es": "Intentos de negociación de Generales Aramburu, Armada y Sáenz de Santa María con los golpistas en el Congreso",
+      "descripcion_en": "Negotiation attempts by Generals Aramburu, Armada and Sáenz de Santa María with coup plotters in Congress",
+      "lugar": "Congreso de los Diputados, Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "CESID (Dirección)",
+      "texto": "Recomendación de acción sicológica en el Congreso, sobre los Guardias que habían sido obligados a ir y sobre todos, mediante información de la situación real en el resto de ESPAÑA (donde reinaba la calma), fracaso de la sublevación.",
+      "traduccion_en": "Recommendation for psychological action in Congress, targeting the Guards who had been forced to attend, providing information about the real situation in the rest of SPAIN (where calm prevailed) and the failure of the uprising.",
+      "importancia": "El CESID propuso operaciones de acción psicológica sobre los propios guardias civiles que habían sido movilizados involuntariamente para debilitar la cohesión de los golpistas"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "Junta de Jefes de Estado Mayor (JUJEM)",
+      "tipo": "informó",
+      "descripcion": "El CESID mantuvo contacto y proporcionó recomendaciones a la JUJEM desde antes de que se reuniera",
+      "fecha": "1981-02-23"
+    },
+    {
+      "origen": "Alfonso Armada Comyn",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "coordinó",
+      "descripcion": "Armada intentó negociar con Tejero en el Congreso durante la ocupación",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["cesid", "golpe", "negociacion", "armada", "tejero", "congreso", "accion-psicologica"],
+  "_meta": {
+    "doc_id": "CNI_Documento_3_R",
+    "filename": "Documento_3_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

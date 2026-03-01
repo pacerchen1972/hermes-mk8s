@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Carta del Canciller austríaco Bruno Kreisky al Rey Juan Carlos I expresando su admiración por su actuación en el 23-F",
+  "titulo_en": "Letter from Austrian Chancellor Bruno Kreisky to King Juan Carlos I expressing admiration for his role in 23-F",
+  "fecha_documento": "1981-02-23",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "carta_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Carta personal en alemán del Canciller Federal de Austria Bruno Kreisky al Rey Juan Carlos I (Viena, 23 febrero 1981), redactada tras conocer el fracaso del intento de golpe de Estado. Kreisky alaba el 'historischen Befehl' (orden histórica) del Rey y le califica como una de las grandes personalidades de la época, expresando su admiración personal y su esperanza en el futuro democrático de España. El tono es cálido y personal, destacando que la decisión del Rey salvó la democracia española.",
+  "resumen_en": "Personal letter in German from Austrian Federal Chancellor Bruno Kreisky to King Juan Carlos I (Vienna, 23 February 1981), written after learning of the failed coup attempt. Kreisky praises the King's 'historischen Befehl' (historic order) and describes him as one of the great personalities of our time, expressing personal admiration and hope for Spain's democratic future. The tone is warm and personal, emphasising that the King's decision saved Spanish democracy.",
+  "personas": [
+    { "nombre": "Bruno Kreisky", "rol": "Canciller Federal de Austria, autor de la carta de admiración" },
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, destinatario" }
+  ],
+  "organizaciones": [
+    { "nombre": "Cancillería Federal de Austria", "tipo": "gobierno" },
+    { "nombre": "Casa Real de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-23", "descripcion_es": "El Canciller Kreisky escribe al Rey Juan Carlos I para expresar su admiración por su orden histórica que frustró el golpe", "descripcion_en": "Chancellor Kreisky writes to King Juan Carlos I to express admiration for his historic order that foiled the coup", "lugar": "Viena, Austria" }
+  ],
+  "citas_clave": [
+    { "texto_es": "Vuestra Majestad ha dado una orden histórica [historischen Befehl] que le sitúa entre las grandes personalidades de nuestra época", "texto_en": "Your Majesty has given a historic order [historischen Befehl] that places you among the great personalities of our era", "fuente": "Carta de Bruno Kreisky al Rey Juan Carlos I, 23 febrero 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "austria", "kreisky", "juan-carlos-i", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_30", "filename": "D.30._AGA-83-09301_exp._5.pdf", "folder": "exteriores/AGA-83-09301", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

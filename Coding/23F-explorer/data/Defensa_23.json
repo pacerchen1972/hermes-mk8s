@@ -1,0 +1,26 @@
+{
+  "titulo_es": "DGGC ordena instrucción de primeras diligencias por abandono de destino del Capitán Sánchez Valiente (Causa 9481, Reservado)",
+  "titulo_en": "DGGC orders preliminary proceedings for Captain Sánchez Valiente's abandonment of post (Causa 9481, Reserved)",
+  "fecha_documento": "1981-03-02",
+  "periodo": "post-golpe",
+  "clasificacion_original": "reservado",
+  "tipo_documento": "oficio",
+  "ministerio": "Defensa",
+  "resumen_es": "Oficio RESERVADO (Causa 9481, 2 marzo 1981) del Director General de la Guardia Civil José Aramburu Topete al Coronel Sergio Gallego Ronquillo, Jefe Eventual, ordenando la instrucción de primeras diligencias por la supuesta comisión del delito de 'abandono de destino o residencia' por parte del Capitán de la GC Gil Sánchez Valiente Portillo, perteneciente al BAS-Comandancia, que había desaparecido la mañana del 24 de febrero de 1981.",
+  "resumen_en": "RESERVED official communication (Causa 9481, 2 March 1981) from Civil Guard Director General José Aramburu Topete to Colonel Sergio Gallego Ronquillo, Acting Chief, ordering preliminary proceedings for the alleged offence of 'abandonment of post or residence' by GC Captain Gil Sánchez Valiente Portillo, belonging to the BAS-Command, who had disappeared on the morning of 24 February 1981.",
+  "personas": [
+    { "nombre": "Gil Sánchez Valiente Portillo", "rol": "Capitán de la GC del BAS, desapareció el 24-2-1981 tras el golpe" },
+    { "nombre": "José Aramburu Topete", "rol": "Director General de la Guardia Civil, firmante de la orden" },
+    { "nombre": "Sergio Gallego Ronquillo", "rol": "Coronel Jefe Eventual, receptor de la orden de instrucción" }
+  ],
+  "organizaciones": [
+    { "nombre": "Dirección General de la Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-02", "descripcion_es": "DGGC Aramburu Topete ordena instrucción de primeras diligencias contra el Cap. Sánchez Valiente por abandono de destino; desapareció el 24-F y luego huyó a Grecia con pasaporte argentino", "descripcion_en": "DGGC Aramburu Topete orders preliminary proceedings against Captain Sánchez Valiente for abandonment of post; he disappeared on 24-F and later fled to Greece with an Argentine passport", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "sanchez-valiente", "causa-9481", "abandono-destino", "guardia-civil", "fuga"],
+  "_meta": { "doc_id": "Defensa_23", "filename": "Causa_9481_Reservado_parte_por_abandono_de_destino_del_Cap_Sanchez_Valiente.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

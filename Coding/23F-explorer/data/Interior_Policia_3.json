@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Nota informativa sobre actividades de Fuerza Nueva tras el 23-F: candidatura a Junta Cívico-Militar y 'divorcio del Rey con el Ejército'",
+  "titulo_en": "Intelligence note on Fuerza Nueva activities after 23-F: candidacy for Civic-Military Junta and 'divorce of the King from the Army'",
+  "fecha_documento": "1981-03-12",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota de la Brigada de Información Interior (12 marzo 1981). Un miembro [REDACTADO] de Fuerza Nueva considera interponer querella contra 'Sábado Gráfico', que lo identificó como parte de la Junta Cívico-Militar que habría gobernado si el golpe hubiera triunfado. Una fuente afirma que la 'sombra del golpe no se ha marchado' y menciona 'el divorcio del Rey con el Ejército'. Para el 13 de marzo estaba previsto un acto de afirmación nacional de Fuerza Nueva en el Palacio de Congresos de Palma de Mallorca.",
+  "resumen_en": "Interior Intelligence Brigade note (12 March 1981). A [REDACTED] Fuerza Nueva member considers suing 'Sábado Gráfico', which identified him as part of the Civic-Military Junta that would have governed if the coup had succeeded. A source states the 'shadow of the coup has not passed' and mentions the 'divorce of the King from the Army'. A Fuerza Nueva national affirmation act was planned for 13 March at the Palacio de Congresos in Palma de Mallorca.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
+    { "nombre": "Fuerza Nueva", "tipo": "política" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-12", "descripcion_es": "Brigada detecta: miembro de Fuerza Nueva amenaza con querella por su identificación como candidato a Junta Cívico-Militar; malestar por el llamado 'divorcio del Rey con el Ejército'", "descripcion_en": "Brigade detects: Fuerza Nueva member threatens lawsuit after being identified as candidate for Civic-Military Junta; discontent over alleged 'divorce of the King from the Army'", "lugar": "Madrid" },
+    { "fecha": "1981-03-13", "descripcion_es": "Acto de afirmación nacional de Fuerza Nueva en Palma de Mallorca, Palacio de Congresos", "descripcion_en": "Fuerza Nueva national affirmation act in Palma de Mallorca, Palacio de Congresos", "lugar": "Palma de Mallorca" }
+  ],
+  "citas_clave": [
+    { "autor": "Fuente (REDACTADO)", "texto_es": "Mientras la clase política no dé marcha atrás y no se haga una reforma política en vez de ruptura... Si a esto le unimos el divorcio del Rey con el Ejército, no sé cómo hay señores que dicen que el pueblo y la democracia han vencido.", "texto_en": "While the political class does not turn back and a political reform is not made instead of a rupture... If we add to this the divorce of the King from the Army, I do not know how anyone can say that the people and democracy have won.", "contexto": "Nota de la Brigada de Información Interior, 12 marzo 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "fuerza-nueva", "extrema-derecha", "junta-civico-militar", "rey", "ejercito", "brigada-informacion-interior"],
+  "_meta": { "doc_id": "Interior_Policia_3", "filename": "12-03-81_NOTA_INFORMATIVA_SOBRE_FUERZA_NUEVA.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

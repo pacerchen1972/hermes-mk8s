@@ -1,0 +1,32 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 28 abr. 1982 de la vista oral Causa 2/81: defensa de Armada por Bermúdez",
+  "titulo_en": "Intelligence note on the 28 Apr. 1982 Causa 2/81 hearing: Armada defence by Bermúdez",
+  "fecha_documento": "1982-04-28",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (SG/6.461/28-04-82) sobre la sesión del 28 de abril de 1982. El letrado Bermúdez concluye su defensa del General Armada. Su tesis fundamental: Armada es ajeno a la operación de toma del Congreso; el plan surgió en 1980 y el fin era presentar a Armada como candidato a la Presidencia del Gobierno para resolver una crisis de poder. Rebatió que Armada llevara cascos blancos. La defensa se basó en probar la ausencia de pruebas fehacientes de culpabilidad.",
+  "resumen_en": "CESID intelligence note (SG/6.461/28-04-82) on the 28 April 1982 session. Counsel Bermúdez concludes his defence of General Armada. Core thesis: Armada was not involved in the Congress takeover; the plan originated in 1980 with the aim of presenting Armada as Prime Minister candidate to resolve a power vacuum. Rebutted claim that Armada wore white helmet. Defence centred on the absence of concrete proof of guilt.",
+  "personas": [
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Su defensa negó su participación en la toma del Congreso; argumentó que el plan de 1980 era presentarle como candidato a Presidente del Gobierno"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-28", "descripcion_es": "Vista oral Causa 2/81: Bermúdez concluye defensa de Armada; tesis: plan de 1980 para presentar a Armada como candidato a Presidente del Gobierno", "descripcion_en": "Causa 2/81 hearing: Bermúdez concludes Armada defence; thesis: 1980 plan to present Armada as Prime Minister candidate", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Letrado Bermúdez (defensa Armada)",
+      "texto": "El General Armada es ajeno a la operación de toma del Congreso. Es de su ARMADA en 1980, y dos años ya de antigüedad como medio de encontrar al fin del proceso un candidato a la Presidencia.",
+      "traduccion_en": "General Armada had no part in the operation to seize Congress. The plan dates from 1980, and was conceived as a means to eventually present a candidate for the Presidency.",
+      "importancia": "Revela la tesis de la defensa de Armada: el plan conspirativo nació en 1980 para una solución política con Armada como Presidente de Gobierno, sin violencia"
+    }
+  ],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "conspiración-1980", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_33_R", "filename": "Documento_33_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 5, "processed_by": "claude-code" }
+}

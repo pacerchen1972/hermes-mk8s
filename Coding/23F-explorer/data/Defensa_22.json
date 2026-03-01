@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Dirección General de la GC comunica hoja de servicios del Capitán Sánchez Valiente al Juzgado Militar (Causa 9481, Reservado)",
+  "titulo_en": "Civil Guard Directorate General communicates Captain Sánchez Valiente's service record to Military Court (Causa 9481, Reserved)",
+  "fecha_documento": "1981-06-07",
+  "periodo": "post-golpe",
+  "clasificacion_original": "reservado",
+  "tipo_documento": "telegrama_postal",
+  "ministerio": "Defensa",
+  "resumen_es": "Telegrama Postal RESERVADO (Causa 9481, Dirección General de la Guardia Civil, Sección de Justicia, 7 junio 1981) enviado al Coronel-Juez del Juzgado Militar Especial de la 1ª Región Militar, adjuntando la hoja de servicios del Capitán Gil Sánchez Valiente Portillo, que había abandonado su destino en el BAS (Batallón de Acción Especial) y se encontraba en paradero desconocido (huido a Grecia con pasaporte argentino).",
+  "resumen_en": "RESERVED Postal Telegram (Causa 9481, Civil Guard Directorate General, Justice Section, 7 June 1981) sent to the Colonel-Judge of the Special Military Court of the 1st Military Region, attaching the service record of Captain Gil Sánchez Valiente Portillo, who had abandoned his post at the BAS (Special Action Battalion) and was unaccounted for (having fled to Greece with an Argentine passport).",
+  "personas": [
+    { "nombre": "Gil Sánchez Valiente Portillo", "rol": "Capitán de la GC, fugado tras el 23-F, objeto de la Causa 9481" }
+  ],
+  "organizaciones": [
+    { "nombre": "Dirección General de la Guardia Civil", "tipo": "seguridad" },
+    { "nombre": "Juzgado Militar Especial de la 1ª Región Militar", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1981-06-07", "descripcion_es": "DGGC envía hoja de servicios del Cap. Sánchez Valiente al Juzgado Militar; el capitán había huido al extranjero", "descripcion_en": "DGGC sends Captain Sánchez Valiente's service record to Military Court; the captain had fled abroad", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "sanchez-valiente", "causa-9481", "guardia-civil", "fuga"],
+  "_meta": { "doc_id": "Defensa_22", "filename": "Causa_9481_Reservado_Hoja_de_servicios_del_Cap_Sanchez_Valiente.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

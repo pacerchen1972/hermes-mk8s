@@ -1,0 +1,26 @@
+{
+  "titulo_es": "CSJM da cuenta de toma de declaración a testigo (Secreto, Carpeta 21800, segundo oficio)",
+  "titulo_en": "CSJM accounts for taking declaration from witness (Secret, Carpeta 21800, second communication)",
+  "fecha_documento": "1982-01-10",
+  "periodo": "juicio",
+  "clasificacion_original": "secreto",
+  "tipo_documento": "primer_oficio",
+  "ministerio": "Defensa",
+  "resumen_es": "Segundo Primer Oficio SECRETO del CSJM (Carpeta 21800) dando cuenta al Ministerio de Defensa de la toma de declaración a testigos sobre las circunstancias del 23-F. Menciona a José Pardo Zancada y Luis Cano París entre los relacionados con las declaraciones instructoras de la Causa 2/81.",
+  "resumen_en": "Second SECRET First Official from the CSJM (Carpeta 21800) accounting to the Ministry of Defence for taking declarations from witnesses on the circumstances of 23-F. References José Pardo Zancada and Luis Cano París among those related to the declaratory proceedings of Case 2/81.",
+  "personas": [
+    { "nombre": "Ricardo Pardo Zancada", "rol": "Teniente Coronel, relacionado con declaraciones en la instrucción de la Causa 2/81" },
+    { "nombre": "Luis Cano París", "rol": "Relacionado con declaraciones en la instrucción de la Causa 2/81" }
+  ],
+  "organizaciones": [
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1982-01-10", "descripcion_es": "CSJM da cuenta al MinDef de toma de declaraciones, mencionando a Pardo Zancada y Cano París", "descripcion_en": "CSJM accounts to Ministry of Defence for taking declarations, mentioning Pardo Zancada and Cano París", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "declaraciones", "pardo-zancada", "causa-2-81", "csjm"],
+  "_meta": { "doc_id": "Defensa_14", "filename": "Carpeta_21800_Secreto_oficio_dando_cuenta_toma_de_declaracion_2.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

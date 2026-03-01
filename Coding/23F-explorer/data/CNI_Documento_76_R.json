@@ -1,0 +1,56 @@
+{
+  "titulo_es": "Nota informativa sobre el Capitán Sánchez-Valiente en el extranjero tras el 23-F",
+  "titulo_en": "Intelligence note on Captain Sánchez-Valiente abroad after the 23-F",
+  "fecha_documento": null,
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (Microfilmación 10289/S) sobre la situación del Capitán Sánchez-Valiente en el extranjero. Según las informaciones, durante los primeros meses tras el golpe vivió tranquilamente, manteniendo contacto con familiares de los procesados. Su estancia en el extranjero obedece al acuerdo de la 'Operación Capó'. Se hallaba en Grecia. Desde Barcelona se mencionaba su presencia en el banco y las posibilidades de su regreso a España. No quiso someterse al General Armada ni tomar la actitud del resto de los implicados.",
+  "resumen_en": "CESID intelligence note (Microfilm 10289/S) on Captain Sánchez-Valiente's situation abroad. According to reports, during the first months after the coup he lived quietly, maintaining contact with defendants' relatives. His stay abroad follows the 'Capó Operation' agreement. He was in Greece. Sources in Barcelona mentioned his bank activity and the possibility of his return to Spain. He refused to submit to General Armada and declined to adopt the same position as other plotters.",
+  "personas": [
+    {
+      "nombre": "Sánchez Valiente",
+      "cargo": "Capitán",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Huyó al extranjero tras el 23-F, con arreglo a la 'Operación Capó'",
+        "Se hallaba en Grecia",
+        "Mantenía contactos con familiares de procesados",
+        "No quiso someterse al General Armada",
+        "Desde Barcelona se mencionaba su presencia en el banco"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" }
+  ],
+  "eventos": [
+    {
+      "fecha": null,
+      "descripcion_es": "Capitán Sánchez-Valiente en el extranjero (Grecia) tras el 23-F, al amparo de la 'Operación Capó'; se baraja su regreso a España",
+      "descripcion_en": "Captain Sánchez-Valiente abroad (Greece) after 23-F under the 'Capó Operation'; return to Spain being discussed",
+      "lugar": "Grecia"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    {
+      "origen": "Sánchez Valiente",
+      "destino": "Alfonso Armada Comyn",
+      "tipo": "se_opuso",
+      "descripcion": "Sánchez Valiente se negó a someterse al General Armada a diferencia del resto de implicados",
+      "fecha": null
+    }
+  ],
+  "temas": ["cesid", "post-golpe", "sanchez-valiente", "fuga", "operacion-capo", "grecia"],
+  "_meta": {
+    "doc_id": "CNI_Documento_76_R",
+    "filename": "Documento_76_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 3,
+    "processed_by": "claude-code"
+  }
+}

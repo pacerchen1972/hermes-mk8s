@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Información integrada del CESID sobre el impacto del juicio oral Causa 2/81 en la opinión militar y actividad de grupos extremistas",
+  "titulo_en": "CESID integrated intelligence report on the impact of the Causa 2/81 trial on military opinion and extremist group activity",
+  "fecha_documento": "1982-04-01",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe_integrado",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe integrado del CESID (marcado DTOR) sobre los efectos del juicio oral en la colectividad militar y en grupos de extrema derecha. Analiza la acumulación de declaraciones de los procesados prevista para la segunda quincena de mayo, la aparición de la sentencia y el clima político. Advierte de que grupos de extrema derecha (FAP, JONS, Agrupación José Antonio) utilizan el juicio para amplificar su influencia. Evalúa la posibilidad de nuevas intervenciones militares vinculadas a un hipotético triunfo de la izquierda.",
+  "resumen_en": "CESID integrated report (marked DTOR) on the trial's effects on the military collective and far-right groups. Analyses the accumulation of defendants' statements expected in the second half of May, the anticipated sentencing, and the political climate. Warns that far-right groups (FAP, JONS, Agrupación José Antonio) are exploiting the trial to expand their influence. Assesses the possibility of new military interventions linked to a hypothetical left-wing electoral victory.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "JONS (Juntas de Ofensiva Nacional-Sindicalista)", "tipo": "política" },
+    { "nombre": "Agrupación José Antonio", "tipo": "política" },
+    { "nombre": "Fuerzas del Acción Popular (FAP)", "tipo": "política" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-01", "descripcion_es": "CESID evalúa el riesgo de nuevas acciones militares o extremistas en el contexto del juicio del 23-F y del próximo ciclo electoral", "descripcion_en": "CESID assesses risk of new military or extremist actions in context of the 23-F trial and upcoming electoral cycle", "lugar": null }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "opinion-militar", "extrema-derecha", "jons", "fap", "riesgo-golpista"],
+  "_meta": { "doc_id": "CNI_Documento_45_R", "filename": "Documento_45_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

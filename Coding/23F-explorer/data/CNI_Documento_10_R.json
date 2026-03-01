@@ -1,0 +1,35 @@
+{
+  "titulo_es": "Nota informativa sobre incidentes de comisiones militares en la vista oral de la Causa 2/81",
+  "titulo_en": "Intelligence note on incidents involving military commissions at the Causa 2/81 oral hearing",
+  "fecha_documento": "1982-04-01",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID sobre incidentes durante las sesiones de la vista oral de la Causa 2/81 del Consejo Supremo de Justicia Militar. Miembros de las comisiones militares presentes en la sala participaron en aplausos, abucheos e increpaciones dirigidas a periodistas. El documento advierte de la previsible repetición de estos incidentes y sugiere medidas para prevenirlos.",
+  "resumen_en": "CESID intelligence note on incidents during the oral hearing sessions of Causa 2/81 at the Supreme Military Court. Military commission members present in the courtroom participated in applause, booing and heckling directed at journalists. The document warns of likely recurrence and suggests preventive measures.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-04-01",
+      "descripcion_es": "Miembros de comisiones militares participan en aplausos, abucheos e increpaciones a periodistas durante la vista de la Causa 2/81",
+      "descripcion_en": "Military commission members participate in applause, booing and heckling of journalists during the Causa 2/81 hearing",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "incidentes", "prensa", "comisiones-militares"],
+  "_meta": {
+    "doc_id": "CNI_Documento_10_R",
+    "filename": "Documento_10_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 22 feb. 1982 de la vista oral Causa 2/81: declaraciones de Cortina, Torres Rojas y Pardo Zancada",
+  "titulo_en": "Intelligence note on the 22 Feb. 1982 Causa 2/81 hearing: declarations of Cortina, Torres Rojas and Pardo Zancada",
+  "fecha_documento": "1982-02-22",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (ref. C/SG/2896/22-02-82) sobre la sesión del 22 de febrero de 1982 de la vista oral de la Causa 2/81. El Ministerio Fiscal solicitó la lectura de las declaraciones del Comandante Cortina y del careo Cortina-Tejero (ambos niegan contacto conspirativo), así como las del General Torres Rojas y del Comandante Pardo Zancada. También se leyeron declaraciones del Coronel San Martín (que descarga su responsabilidad sobre el General Juste) y del General Juste (que no tenía conocimiento previo). Durante la sesión se hicieron no menos de 89 referencias al Rey, 5 a la Reina y 21 al CESID.",
+  "resumen_en": "CESID intelligence note (ref. C/SG/2896/22-02-82) on the 22 February 1982 session of the Causa 2/81 oral hearing. The Public Prosecutor requested readings of Commander Cortina's declaration and the Cortina-Tejero confrontation (both deny conspiratorial contact), plus General Torres Rojas and Commander Pardo Zancada declarations. Also read were Colonel San Martín's declarations (shifting responsibility to General Juste) and General Juste's (claiming no prior knowledge). During the session at least 89 references were made to the King, 5 to the Queen, and 21 to CESID.",
+  "personas": [
+    {
+      "nombre": "José Cortina Prieto",
+      "cargo": "Comandante de Infantería, CESID/AOME",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Su declaración fue leída en la sesión del 22-02-82",
+        "Niega todo contacto o participación conspirativa con el resto de procesados"
+      ]
+    },
+    {
+      "nombre": "Luis Torres Rojas",
+      "cargo": "General de División",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Sus tres declaraciones fueron leídas; exalta valores morales"]
+    },
+    {
+      "nombre": "Ricardo Pardo Zancada",
+      "cargo": "Comandante de Infantería",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Sus cinco declaraciones fueron leídas",
+        "En sus declaraciones exculpa a los Capitanes que considera sus subordinados"
+      ]
+    },
+    {
+      "nombre": "José J. San Martín López",
+      "cargo": "Coronel de Artillería",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Descarga su responsabilidad sobre el General Juste en sus declaraciones"]
+    },
+    {
+      "nombre": "José Juste Fernández",
+      "cargo": "General",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "neutral",
+      "acciones": [
+        "Sus declaraciones demuestran que no tenía conocimiento previo de los hechos",
+        "El Coronel San Martín le ocultó los preparativos"
+      ]
+    },
+    {
+      "nombre": "Vicente Gómez Iglesias",
+      "cargo": "Capitán de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Niega todo contacto o participación conspirativa con el resto de procesados"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-02-22",
+      "descripcion_es": "Sesión vista oral Causa 2/81: lectura de declaraciones de Cortina, Torres Rojas, Pardo Zancada, San Martín y Juste; 89 referencias al Rey",
+      "descripcion_en": "Causa 2/81 hearing session: reading of Cortina, Torres Rojas, Pardo Zancada, San Martín and Juste declarations; 89 references to the King",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota informativa CESID",
+      "texto": "Se ha hecho referencia concreta al Rey, S.M. ó CORONA, no menos de 89 veces y a la REINA, no menos de 5 veces. Se ha hecho referencia concreta al CESID, no menos de 21 veces.",
+      "traduccion_en": "Concrete references were made to the King, HM or the Crown at least 89 times, and to the Queen at least 5 times. Concrete references to CESID were made at least 21 times.",
+      "importancia": "Cuantifica la centralidad del Rey y del CESID en el juicio, reflejando la estrategia de la defensa de implicar a la Corona"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "José J. San Martín López",
+      "destino": "José Juste Fernández",
+      "tipo": "acusó",
+      "descripcion": "San Martín descargó su responsabilidad sobre el General Juste en sus declaraciones ante el CSJM",
+      "fecha": "1982-02-22"
+    },
+    {
+      "origen": "José Cortina Prieto",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "careo",
+      "descripcion": "Diligencia de careo entre Cortina y Tejero; ambos niegan contacto conspirativo",
+      "fecha": "1982-02-22"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "cortina", "torres-rojas", "pardo-zancada", "csjm", "rey-juan-carlos"],
+  "_meta": {
+    "doc_id": "CNI_Documento_69_R",
+    "filename": "Documento_69_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 4,
+    "processed_by": "claude-code"
+  }
+}

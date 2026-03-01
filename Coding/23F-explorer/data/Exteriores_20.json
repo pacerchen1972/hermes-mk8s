@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Embajada en Buenos Aires remite carta del Partido Socialista Popular argentino de solidaridad con España",
+  "titulo_en": "Embassy in Buenos Aires forwards letter from Argentine Popular Socialist Party expressing solidarity with Spain",
+  "fecha_documento": "1981-05-14",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_consular",
+  "ministerio": "Exteriores",
+  "resumen_es": "Nota de la Embajada de España en Buenos Aires (14 mayo 1981, nr. 419) al Ministerio de Asuntos Exteriores, transmitiendo la carta del Secretario General del Comité Nacional del Partido Socialista Popular (PSP) de Argentina (Dr. Guillermo Estevez Boero), expresando en nombre del partido su solidaridad con España y condena de la actividad terrorista. El PSP es descrito como agrupación minoritaria universitaria, moderada.",
+  "resumen_en": "Note from Spain's Embassy in Buenos Aires (14 May 1981, no. 419) to the Ministry of Foreign Affairs, transmitting the letter from the Secretary General of Argentina's National Committee of the Popular Socialist Party (PSP) (Dr. Guillermo Estevez Boero), expressing on behalf of the party solidarity with Spain and condemnation of terrorist activity. The PSP is described as a minority university-based, moderate group.",
+  "personas": [
+    { "nombre": "Guillermo Estevez Boero", "rol": "Secretario General del Partido Socialista Popular (PSP) de Argentina" }
+  ],
+  "organizaciones": [
+    { "nombre": "Partido Socialista Popular (PSP) de Argentina", "tipo": "politica" },
+    { "nombre": "Embajada de España en Buenos Aires", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-05-14", "descripcion_es": "El Partido Socialista Popular argentino expresa solidaridad con España y condena la actividad terrorista; Embajada transmite a Exteriores", "descripcion_en": "Argentine Popular Socialist Party expresses solidarity with Spain and condemns terrorist activity; Embassy transmits to Foreign Affairs", "lugar": "Buenos Aires, Argentina" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "argentina", "solidaridad", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_20", "filename": "D.20._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

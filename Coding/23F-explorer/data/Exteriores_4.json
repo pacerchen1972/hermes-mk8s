@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Carta del Secretario de Estado Haig al Ministro de Exteriores Pérez-Llorca felicitando a España por la resolución del 23-F",
+  "titulo_en": "Letter from Secretary of State Haig to Foreign Minister Pérez-Llorca congratulating Spain on the resolution of 23-F",
+  "fecha_documento": "1981-02-26",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "carta_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Carta personal del Secretario de Estado de los Estados Unidos Alexander M. Haig al Ministro de Asuntos Exteriores de España José Pedro Pérez-Llorca (Washington D.C., 26 febrero 1981), felicitándole por la resolución de la situación en el Congreso: 'Tengo la más alta admiración por la determinación con la que se resolvió el problema, y creo que el resultado refleja la fortaleza de las nuevas instituciones democráticas de España.'",
+  "resumen_en": "Personal letter from US Secretary of State Alexander M. Haig to Spanish Foreign Minister José Pedro Pérez-Llorca (Washington D.C., 26 February 1981), congratulating him on the resolution of the situation in the Congress: 'I have the highest admiration for the determination with which the problem was resolved, and I believe that the outcome reflects the strength of Spain's new democratic institutions.'",
+  "personas": [
+    { "nombre": "Alexander M. Haig", "rol": "Secretario de Estado de los Estados Unidos, autor de la carta" },
+    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Asuntos Exteriores de España, destinatario" }
+  ],
+  "organizaciones": [
+    { "nombre": "Departamento de Estado de los Estados Unidos", "tipo": "gobierno" },
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-26", "descripcion_es": "El Secretario de Estado Haig escribe personalmente a Pérez-Llorca felicitando a España por la resolución democrática del 23-F", "descripcion_en": "Secretary of State Haig writes personally to Pérez-Llorca congratulating Spain on the democratic resolution of 23-F", "lugar": "Washington D.C." }
+  ],
+  "citas_clave": [
+    { "texto_es": "Tengo la más alta admiración por la determinación con la que se resolvió el problema, y creo que el resultado refleja la fortaleza de las nuevas instituciones democráticas de España", "texto_en": "I have the highest admiration for the determination with which the problem was resolved, and I believe that the outcome reflects the strength of Spain's new democratic institutions", "fuente": "Carta Alexander M. Haig a José Pedro Pérez-Llorca, 26 febrero 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "haig", "perez-llorca", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_4", "filename": "D.4._AGMAE_R39017_Exp._4.jpg", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

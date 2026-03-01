@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 29 abr. 1982 de la vista oral Causa 2/81: defensas de Armada y Milans del Bosch",
+  "titulo_en": "Intelligence note on the 29 Apr. 1982 Causa 2/81 hearing: defence of Armada and Milans del Bosch",
+  "fecha_documento": "1982-04-29",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (SC/6731/29-04-82) sobre la sesión del 29 de abril de 1982. El Sr. Hermosilla (defensor del General Armada) inicia su intervención con los fundamentos morales de la defensa. A las 10:47, el Coronel Escandell Cortés (defensor de Milans del Bosch e Ibáñez) toma la palabra hasta las 17:17 horas. El Coronel García expuso el listado de causas que impulsaron a Milans del Bosch a actuar, negando su participación en conversaciones conspirativas previas al 23-F.",
+  "resumen_en": "CESID intelligence note (SC/6731/29-04-82) on the 29 April 1982 session. Mr Hermosilla (defending General Armada) opens with the moral foundations of his defence. At 10:47, Colonel Escandell Cortés (defending Milans del Bosch and Ibáñez) speaks until 17:17. Colonel García laid out the causes that drove Milans del Bosch to act, denying his participation in any conspiratorial conversations before 23-F.",
+  "personas": [
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Su defensa (Hermosilla) expuso los fundamentos morales de su actuación"] },
+    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Su defensor Escandell negó que participara en conversaciones conspirativas antes del 23-F; alegó causas objetivas que le llevaron a actuar"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-29", "descripcion_es": "Vista oral Causa 2/81: Hermosilla inicia defensa de Armada; Escandell defiende a Milans del Bosch durante más de 6 horas", "descripcion_en": "Causa 2/81 hearing: Hermosilla opens Armada defence; Escandell defends Milans del Bosch for over 6 hours", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "milans", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_32_R", "filename": "Documento_32_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

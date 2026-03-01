@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 14 mar. 1982 de la vista oral Causa 2/81: interrogatorio del Coronel Ybáñez Inglés",
+  "titulo_en": "Intelligence note on the 14 Mar. 1982 Causa 2/81 hearing: interrogation of Colonel Ybáñez Inglés",
+  "fecha_documento": "1982-03-14",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (R/Ref. C/90/4146/14-03-82) sobre la sesión del 14 de marzo de 1982. El Coronel Ybáñez Inglés fue interrogado por el Fiscal y los defensores. Negó haber ordenado a Tejero que desarmase al Coronel Alcalá Galiano. El defensor de Milans (Escandell) estableció que el General Armada nunca quiso que le llamaran a la Zarzuela, y que el Rey llamó al General Milans del Bosch por teléfono. Escandell alegó que Milans actuó por la 'situación límite' de España. El defensor de Armada (Bermúdez) cuestionó la reunión en la Operación coordinada con Zarzuela.",
+  "resumen_en": "CESID intelligence note (R/Ref. C/90/4146/14-03-82) on the 14 March 1982 session. Colonel Ybáñez Inglés was questioned by the Prosecutor and defence counsels. He denied having ordered Tejero to disarm Colonel Alcalá Galiano. Milans's counsel (Escandell) established that General Armada never wanted to be called to Zarzuela, and that the King called General Milans del Bosch by telephone. Escandell argued that Milans acted because of the 'extreme situation' in Spain. Armada's counsel (Bermúdez) questioned the Zarzuela coordination meeting.",
+  "personas": [
+    { "nombre": "Ybáñez Inglés", "cargo": "Coronel", "organizacion": "Ejército de Tierra", "rol_en_23f": "acusado", "acciones": ["Negó haber ordenado a Tejero que desarmase al Coronel Alcalá Galiano; negó haber recibido órdenes directas del Rey"] },
+    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General, Capitán General 3ª Región Militar", "organizacion": "Ejército de Tierra", "rol_en_23f": "golpista", "acciones": ["Según su defensor Escandell, actuó motivado por la 'situación límite' de España; recibió llamada telefónica del Rey"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-14", "descripcion_es": "Vista oral Causa 2/81: Coronel Ybáñez niega ordenar a Tejero desarmar al Alcalá Galiano; defensor de Milans alega 'situación límite' y confirma llamada del Rey a Milans", "descripcion_en": "Causa 2/81 hearing: Colonel Ybáñez denies ordering Tejero to disarm Alcalá Galiano; Milans's counsel alleges 'extreme situation' and confirms King called Milans", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [
+    { "autor": "Abogado Escandell (defensa de Milans)", "texto_es": "La motivación del General Milans fue la 'situación límite' en que estaba España.", "texto_en": "General Milans's motivation was the 'extreme situation' Spain was in.", "contexto": "Interrogatorio de la defensa, CSJM, 14 marzo 1982" }
+  ],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "ybanez", "milans", "armada", "tejero", "testigos", "zarzuela", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_56_R", "filename": "Documento_56_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

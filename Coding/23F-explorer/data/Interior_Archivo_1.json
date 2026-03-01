@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Informe de Situación: Situación Militar y Reacciones de la Policía Nacional (12 noviembre 1981)",
+  "titulo_en": "Situation Report: Military Situation and National Police Reactions (12 November 1981)",
+  "fecha_documento": "1981-11-12",
+  "periodo": "post-golpe",
+  "clasificacion_original": "reservado_confidencial",
+  "tipo_documento": "informe_situacion",
+  "ministerio": "Interior",
+  "resumen_es": "Informe de Situación (RESERVADO-CONFIDENCIAL, 12 noviembre 1981) elaborado por la Policía Nacional sobre el clima militar y las reacciones del cuerpo policial nueve meses después del 23-F. Documento de 19 páginas que analiza: el reconocimiento del clima que motivó el golpe, la situación profesional de los policías que mantuvieron lealtad al Rey, las reacciones duras de la ultra-derecha, las actitudes en el ejército, el acceso de mandos de la Policía Nacional a la 'Línea Gallega', y la difusión de propaganda por los medios de comunicación.",
+  "resumen_en": "Situation Report (RESERVADO-CONFIDENCIAL, 12 November 1981) produced by the National Police on the military climate and police reactions nine months after 23-F. 19-page document analysing: recognition of the climate that motivated the coup, professional situation of officers who maintained loyalty to the King, hard reactions from the ultra-right, attitudes within the army, access of National Police officers to the 'Línea Gallega', and propaganda by the media.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Policía Nacional", "tipo": "seguridad" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-11-12", "descripcion_es": "La Policía Nacional elabora informe reservado sobre el clima militar y las actitudes en el cuerpo policial, incluyendo análisis de corrientes pro-golpistas y de la 'Línea Gallega' de lealtad al Rey", "descripcion_en": "National Police produces reserved report on military climate and attitudes within the police force, including analysis of pro-coup tendencies and the 'Línea Gallega' of loyalty to the King", "lugar": "España" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "policia-nacional", "situacion-militar", "linea-gallega", "ultra-derecha", "ministerio-interior"],
+  "_meta": { "doc_id": "Interior_Archivo_1", "filename": "1_PN_Informe_Situacion_12-11-81_desp.pdf", "folder": "interior/archivo", "is_image_pdf": true, "pages": 19, "processed_by": "claude-code" }
+}

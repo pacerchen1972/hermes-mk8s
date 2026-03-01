@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Cable USICA con comentarios del Secretario de Estado Haig sobre España tras el 23-F",
+  "titulo_en": "USICA cable with Secretary of State Haig's comments on Spain after 23-F",
+  "fecha_documento": "1981-03-10",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "cable_diplomatico",
+  "ministerio": "Exteriores",
+  "resumen_es": "Cable UNCLASSIFIED del USICA (United States Information Agency, Washington, 10 marzo 1981) sobre los comentarios del Secretario de Estado Alexander Haig sobre España. Haig declaró ante periodistas: 'No tenemos nada que decir hoy, salvo que hemos seguido la situación conforme se ha ido desarrollando. Es bueno que estéis por encima de la crisis, que ha sido un asunto interno.' El cable también reproduce el comunicado oficial del Departamento de Estado del 24 febrero: 'El papel y el liderazgo del Rey Juan Carlos fueron claramente instrumentales para acabar con la crisis y merecen especial admiración.'",
+  "resumen_en": "UNCLASSIFIED USICA (United States Information Agency, Washington, 10 March 1981) cable on Secretary of State Alexander Haig's comments on Spain. Haig stated to reporters: 'We have nothing to say today other than to say that we have been following the situation as it has developed. It is well that you are over the crisis and that has internal matter.' The cable also reproduces the State Department official statement of 24 February: 'The role and leadership of King Juan Carlos were clearly instrumental in ending the crisis and deserve particular admiration.'",
+  "personas": [
+    { "nombre": "Alexander M. Haig", "rol": "Secretario de Estado de los Estados Unidos" },
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, elogiado en el comunicado oficial de EE.UU." }
+  ],
+  "organizaciones": [
+    { "nombre": "United States Information Agency (USICA)", "tipo": "gobierno" },
+    { "nombre": "Departamento de Estado de los Estados Unidos", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-10", "descripcion_es": "Cable USICA reproduce comentarios de Haig y el comunicado oficial del Departamento de Estado sobre el 23-F, elogiando el papel del Rey", "descripcion_en": "USICA cable reproduces Haig's comments and State Department's official statement on 23-F, praising the King's role", "lugar": "Washington D.C." }
+  ],
+  "citas_clave": [
+    { "texto_es": "El papel y el liderazgo del Rey Juan Carlos fueron claramente instrumentales para acabar con la crisis y merecen especial admiración", "texto_en": "The role and leadership of King Juan Carlos were clearly instrumental in ending the crisis and deserve particular admiration", "fuente": "Comunicado oficial Departamento de Estado EE.UU., 24 febrero 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "haig", "juan-carlos-i", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_2", "filename": "D.2._AGMAE_R39017_Exp._4.jpg", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

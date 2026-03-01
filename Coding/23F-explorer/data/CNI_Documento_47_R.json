@@ -1,0 +1,24 @@
+{
+  "titulo_es": "Información integrada del CESID sobre la opinión militar y extremismo de derecha durante el juicio oral Causa 2/81",
+  "titulo_en": "CESID integrated intelligence on military opinion and right-wing extremism during the Causa 2/81 trial",
+  "fecha_documento": "1982-04-01",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe_integrado",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe integrado del CESID (marcado DTOR) sobre el clima político-militar durante el juicio oral. Analiza el impacto en la colectividad militar de la difusión de noticias adversas sobre los procesados; la existencia de grupos de extrema derecha que han tomado el juicio como bandera; y la posibilidad de nuevas intervenciones militares en caso de victoria electoral de la izquierda. Se señala la preocupación por el control operativo de determinados agregados militares y la Agrupación José Antonio como Primera Línea.",
+  "resumen_en": "CESID integrated report (marked DTOR) on the political-military climate during the trial. Analyses the impact on the military collective of adverse news about the defendants; the existence of far-right groups using the trial as a rallying cause; and the possibility of new military interventions in the event of a left-wing electoral victory. Concern is noted about the operational control of certain military attachés and the Agrupación José Antonio as a first-line organisation.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Agrupación José Antonio", "tipo": "política" },
+    { "nombre": "JONS (Juntas de Ofensiva Nacional-Sindicalista)", "tipo": "política" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-01", "descripcion_es": "CESID evalúa el impacto del juicio en la moral militar y el riesgo de interferencia de grupos de extrema derecha", "descripcion_en": "CESID assesses trial impact on military morale and risk of far-right group interference", "lugar": null }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "opinion-militar", "extrema-derecha", "riesgo-golpista", "moral-militar"],
+  "_meta": { "doc_id": "CNI_Documento_47_R", "filename": "Documento_47_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

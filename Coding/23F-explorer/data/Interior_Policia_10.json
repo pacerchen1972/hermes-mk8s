@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Situación en las distintas regiones policiales el 26 de febrero de 1981",
+  "titulo_en": "Situation in the various police regions on 26 February 1981",
+  "fecha_documento": "1981-02-26",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe_regional",
+  "ministerio": "Interior",
+  "resumen_es": "Informe policial (26 febrero 1981) sobre la situación en las distintas regiones policiales de España al tercer día del fracaso del golpe de Estado del 23-F. Documento de 34 páginas con el seguimiento de la situación en cada región policial, evolución de las protestas, manifestaciones democráticas y normalización progresiva del orden público.",
+  "resumen_en": "Police report (26 February 1981) on the situation in the various police regions of Spain on the third day after the failure of the 23-F coup. 34-page document tracking the situation in each police region, evolution of protests, democratic demonstrations and progressive normalisation of public order.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Dirección General de Seguridad (DGS)", "tipo": "seguridad" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-26", "descripcion_es": "Tercer informe policial regional post-23F: seguimiento de la situación y normalización progresiva del orden público en todas las regiones de España", "descripcion_en": "Third regional police post-23F report: tracking the situation and progressive normalisation of public order across all Spanish regions", "lugar": "España" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "situacion-policial", "normalizacion", "regiones-policiales", "ministerio-interior"],
+  "_meta": { "doc_id": "Interior_Policia_10", "filename": "SITUACION_REGIONES_POLICIALES_26-02-81.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 34, "processed_by": "claude-code" }
+}

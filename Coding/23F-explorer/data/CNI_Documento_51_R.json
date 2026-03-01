@@ -1,0 +1,31 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 24 mar. 1982 de la vista oral Causa 2/81: testimonios de Capitanes de la GC Pérez de la Lastra y Cid Fuertes",
+  "titulo_en": "Intelligence note on the 24 Mar. 1982 Causa 2/81 hearing: testimony from GC Captains Pérez de la Lastra and Cid Fuertes",
+  "fecha_documento": "1982-03-24",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (R/ref. 0.919/24-03-82) sobre la sesión del 24 de marzo de 1982. Testificaron el Capitán GC Pérez de la Lastra y el Capitán de Infantería Cid Fuertes. El Comandante Pardo fue identificado como enlace entre Tejero y la División Acorazada (DAC). Se confirmó que el CESID utilizaba un 'garaje' como punto de reunión. El TC Tejero ordenó al testigo no revelar ciertos hechos. El Capitán Cid Fuertes declaró que desde 1980 se produjeron cambios que justificaron la operación.",
+  "resumen_en": "CESID intelligence note (R/ref. 0.919/24-03-82) on the 24 March 1982 session. GC Captain Pérez de la Lastra and Infantry Captain Cid Fuertes testified. Commander Pardo was identified as the liaison between Tejero and the Armoured Division (DAC). It was confirmed that CESID used a 'garage' as a meeting point. Lt. Col. Tejero ordered the witness not to reveal certain facts. Captain Cid Fuertes declared that from 1980 onwards changes took place that justified the operation.",
+  "personas": [
+    { "nombre": "Pérez de la Lastra", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Confirmó que el CESID usaba un garaje como punto de reunión; el TC Tejero le ordenó no revelar ciertos hechos"] },
+    { "nombre": "Cid Fuertes", "cargo": "Capitán de Infantería", "organizacion": "Ejército de Tierra", "rol_en_23f": "testigo", "acciones": ["Declaró que desde 1980 se produjeron cambios que justificaron la operación; vinculado al Cte. Pardo y la DAC"] },
+    { "nombre": "Pardo", "cargo": "Comandante", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Identificado como enlace entre Tejero y la División Acorazada (SC-DAC); coordinador de un papel específico de apoyo a la Guardia Civil"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "División Acorazada (DAC)", "tipo": "militar" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-24", "descripcion_es": "Vista oral Causa 2/81: se establece el papel del Cte. Pardo como enlace entre Tejero y la DAC; se confirma el uso de un garaje del CESID como punto de reunión clandestino", "descripcion_en": "Causa 2/81 hearing: Cte. Pardo's role as liaison between Tejero and the DAC is established; CESID garage confirmed as clandestine meeting point", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "Pardo", "destino": "Antonio Tejero Molina", "tipo": "coordinacion", "descripcion": "Pardo actuó como enlace entre Tejero y la División Acorazada para la coordinación del 23-F" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "tejero", "pardo", "dac", "guardia-civil", "testigos", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_51_R", "filename": "Documento_51_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

@@ -1,0 +1,52 @@
+{
+  "titulo_es": "Relación CESID (Dirección) - General Jefe Estado Mayor de Capitanía durante el 23-F",
+  "titulo_en": "CESID Directorate liaison with Captain-General Staff Chief during 23-F",
+  "fecha_documento": "1981-02-23",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota interna del CESID que documenta las comunicaciones mantenidas entre la Dirección del CESID y el General Jefe del Estado Mayor de Capitanía durante el golpe del 23-F. El CESID recomendó que la autoridad militar emitiera un comunicado por radio y TVE indicando que el mando militar había controlado la situación. También se trató la identidad de las fuerzas de Caballería en TVE y Radio Nacional, y los movimientos de fuerzas de la División Acorazada (DA).",
+  "resumen_en": "Internal CESID note documenting communications between the CESID Directorate and the Captain-General Staff Chief during the 23-F coup. CESID recommended that military authority issue a statement on radio and TVE stating that military command had controlled the situation. Also discussed: the identity of Cavalry forces on TVE and National Radio, and movements of Armoured Division (DA) forces.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "División Acorazada (DA)", "tipo": "militar" },
+    { "nombre": "TVE (Televisión Española)", "tipo": "otro" },
+    { "nombre": "Radio Nacional de España", "tipo": "otro" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "El CESID recomienda al Jefe del Estado Mayor de Capitanía emitir un comunicado tranquilizador por radio y TVE durante el golpe",
+      "descripcion_en": "CESID recommends Captain-General Staff Chief broadcast a reassuring statement on radio and TVE during the coup",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "CESID (Dirección)",
+      "texto": "Recomendar que la Autoridad Militar más caracterizada emitiera un comunicado por radio o TVE, en relación a la situación, diciendo que el Mando Militar había controlado la situación y que reinaba la calma.",
+      "traduccion_en": "Recommend that the highest Military Authority issue a statement on radio or TVE stating that Military Command had controlled the situation and that calm prevailed.",
+      "importancia": "Demuestra el papel activo del CESID en la gestión de la comunicación estratégica durante el golpe"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "División Acorazada (DA)",
+      "tipo": "informó",
+      "descripcion": "CESID trató de conocer la amplitud y alcance de los movimientos de fuerzas de la DA durante el golpe",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["cesid", "golpe", "comunicaciones", "division-acorazada", "tve", "23f"],
+  "_meta": {
+    "doc_id": "CNI_Documento_2_R",
+    "filename": "Documento_2_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

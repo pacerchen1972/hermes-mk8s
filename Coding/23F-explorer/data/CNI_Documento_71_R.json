@@ -1,0 +1,86 @@
+{
+  "titulo_es": "Nota informativa sobre la primera sesión de la vista oral Causa 2/81 (19 feb. 1982)",
+  "titulo_en": "Intelligence note on the first session of the Causa 2/81 oral hearing (19 Feb. 1982)",
+  "fecha_documento": "1982-02-19",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (ref. C/SG/2818/19-02-82) sobre la primera sesión pública de la vista oral de la Causa 2/81 ante el Consejo Supremo de Justicia Militar, celebrada el 19 de febrero de 1982. El secretario relator leyó el apuntamiento (filiaciones, autos de procesamiento, conclusiones provisionales del Fiscal y defensores). El Ministerio Fiscal solicitó la lectura de declaraciones de Milans del Bosch, Armada, Ibáñez, Mas Oliver y otros. Se registraron numerosas menciones a S.M. el Rey. El Comandante Cortina acompañó con gestos de asentimiento o negación la lectura de ciertos fragmentos.",
+  "resumen_en": "CESID intelligence note (ref. C/SG/2818/19-02-82) on the first public session of the Causa 2/81 oral hearing before the Supreme Military Court, held on 19 February 1982. The reporting secretary read the case summary (defendants' profiles, indictments, provisional conclusions). The Public Prosecutor requested reading of declarations by Milans del Bosch, Armada, Ibáñez, Mas Oliver and others. Numerous references to HM the King were noted. Commander Cortina accompanied certain readings with gestures of assent or denial.",
+  "personas": [
+    {
+      "nombre": "José Cortina Prieto",
+      "cargo": "Comandante de Infantería, CESID/AOME",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Acompañó con gestos la lectura de ciertos fragmentos del apuntamiento durante la primera sesión"]
+    },
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "cargo": "Teniente General, Capitán General de Valencia",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Sus declaraciones fueron leídas en la primera sesión de la vista oral"]
+    },
+    {
+      "nombre": "Alfonso Armada Comyn",
+      "cargo": "General, ex-secretario de la Casa del Rey",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Sus declaraciones fueron leídas en la primera sesión de la vista oral"]
+    },
+    {
+      "nombre": "Francisco Laína García",
+      "cargo": "Director General de la Seguridad del Estado",
+      "organizacion": "Interior",
+      "rol_en_23f": "leal",
+      "acciones": ["Su declaración fue leída en la primera sesión; recibida con gestos ostensibles de los procesados"]
+    },
+    {
+      "nombre": "Sabino Fernández Campo",
+      "cargo": "Secretario General de la Casa del Rey",
+      "organizacion": "Casa Real",
+      "rol_en_23f": "leal",
+      "acciones": ["Su declaración (el Rey estaba a punto de jugar al squash cuando se produjo el asalto) fue leída y recibida con gestos de los procesados"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-02-19",
+      "descripcion_es": "Primera sesión pública de la vista oral Causa 2/81: lectura del apuntamiento y declaraciones ante el CSJM",
+      "descripcion_en": "First public session of the Causa 2/81 oral hearing: reading of case summary and declarations before the CSJM",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Familiar de procesado (en sala)",
+      "texto": "Habrá declaraciones en las que se va a poner al Rey de 'chupa de dómine'.",
+      "traduccion_en": "There will be declarations that will put the King in an extremely bad light.",
+      "importancia": "Anuncia la línea defensiva de culpabilizar al Rey o implicarle en el conocimiento previo del golpe"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Consejo Supremo de Justicia Militar (CSJM)",
+      "destino": "Jaime Milans del Bosch",
+      "tipo": "juzgó",
+      "descripcion": "Primera sesión del juicio oral en la Causa 2/81",
+      "fecha": "1982-02-19"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "primera-sesion", "vista-oral", "csjm"],
+  "_meta": {
+    "doc_id": "CNI_Documento_71_R",
+    "filename": "Documento_71_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 3,
+    "processed_by": "claude-code"
+  }
+}

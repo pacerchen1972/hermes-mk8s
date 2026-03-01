@@ -1,0 +1,95 @@
+{
+  "titulo_es": "Carta personal de Sabino Fernández Campo a Emilio Alonso Manglano con guión de reunión del Rey con Junta de Jefes (dic. 1981)",
+  "titulo_en": "Personal letter from Sabino Fernández Campo to Emilio Alonso Manglano with King's briefing notes for Joint Chiefs meeting (Dec. 1981)",
+  "fecha_documento": "1981-12-14",
+  "periodo": "post-golpe",
+  "clasificacion_original": "PERSONAL Y RESERVADA",
+  "tipo_documento": "carta",
+  "ministerio": "Defensa",
+  "resumen_es": "Carta personal y reservada de Sabino Fernández Campo, Secretario General de la Casa de S.M. el Rey, al Director del CESID Emilio Alonso Manglano, fechada el 14 de diciembre de 1981. Adjunta el guión que sirvió de base para la reunión que el Rey tuvo con el Presidente del Gobierno, el Ministro de Defensa y la Junta de Jefes de Estado Mayor. El guión del Rey analiza la situación militar post-23F, expresa preocupación por la moral de las Fuerzas Armadas ante la prensa, el inminente juicio a los golpistas, y el llamado 'manifiesto de los 100'. También se adjunta una curiosidad: tarjetas de la sastrería 'El Corte Español' donde las iniciales de las líneas deletrean verticalmente 'TEJERO'.",
+  "resumen_en": "Personal and reserved letter from Sabino Fernández Campo, Secretary General of the Royal Household, to CESID Director Emilio Alonso Manglano, dated 14 December 1981. Encloses the briefing notes the King used for a meeting with the President of the Government, the Minister of Defence, and the Joint Chiefs of Staff. The King's notes analyse the post-23F military situation, express concern about Armed Forces morale in the face of press coverage and the upcoming trial, and address the 'manifesto of the 100'. Also enclosed are business cards from tailor 'El Corte Español' where the initial letters of lines spell 'TEJERO' vertically.",
+  "personas": [
+    {
+      "nombre": "Sabino Fernández Campo",
+      "cargo": "Secretario General de la Casa de S.M. el Rey",
+      "organizacion": "Casa Real",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Remitió al Director del CESID el guión de la reunión del Rey con la Junta de Jefes",
+        "Actuó como canal de comunicación confidencial entre el Rey y el CESID"
+      ]
+    },
+    {
+      "nombre": "Emilio Alonso Manglano",
+      "cargo": "Director del Centro Superior de Información de la Defensa (CESID)",
+      "organizacion": "CESID",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Destinatario de la carta y del guión de la reunión real"
+      ]
+    },
+    {
+      "nombre": "Juan Carlos I",
+      "cargo": "Rey de España, Jefe Supremo de las Fuerzas Armadas",
+      "organizacion": "Casa Real",
+      "rol_en_23f": "leal",
+      "acciones": [
+        "Convocó y presidió reunión con Presidente del Gobierno, Ministro de Defensa y Junta de Jefes",
+        "Analizó la situación militar y el impacto del 23-F en las FFAA",
+        "Expresó preocupación por el 'manifiesto de los 100' y el ambiente previo al juicio"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "Casa Real", "tipo": "gubernamental" },
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Junta de Jefes de Estado Mayor (JUJEM)", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-12-14",
+      "descripcion_es": "Reunión del Rey Juan Carlos I con el Presidente del Gobierno, Ministro de Defensa y Junta de Jefes de Estado Mayor en La Zarzuela para analizar la situación militar post-23F",
+      "descripcion_en": "King Juan Carlos I meets with President of Government, Defence Minister and Joint Chiefs at Zarzuela to assess post-coup military situation",
+      "lugar": "Palacio de La Zarzuela, Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Juan Carlos I (guión de la reunión)",
+      "texto": "Si paso revista al periodo transcurrido desde la fecha importante del 23 de febrero de este año, he de recordar no sólo los acontecimientos de aquellos días, sino también mis intervenciones como Jefe del Estado y como Jefe Supremo de las Fuerzas Armadas.",
+      "traduccion_en": "Looking back at the period since the important date of 23 February this year, I must recall not only the events of those days, but also my own interventions as Head of State and Supreme Commander of the Armed Forces.",
+      "importancia": "El Rey reafirma su papel central en la defensa del orden constitucional durante el golpe"
+    },
+    {
+      "autor": "Juan Carlos I (guión de la reunión)",
+      "texto": "Lo cierto es que la situación militar, sobre todo después del llamado 'manifiesto de los 100', es hoy delicada y digna de atención.",
+      "traduccion_en": "The fact is that the military situation, especially after the so-called 'manifesto of the 100', is today delicate and deserving of attention.",
+      "importancia": "Revela tensión interna continuada en las FFAA meses después del golpe, con sectores involucionistas aún activos"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Sabino Fernández Campo",
+      "destino": "Emilio Alonso Manglano",
+      "tipo": "informó",
+      "descripcion": "Transmitió confidencialmente el guión real de la reunión con la JUJEM al director del CESID",
+      "fecha": "1981-12-14"
+    },
+    {
+      "origen": "Juan Carlos I",
+      "destino": "Junta de Jefes de Estado Mayor (JUJEM)",
+      "tipo": "coordinó",
+      "descripcion": "Convocó y presidió reunión para evaluar la situación militar post-23F",
+      "fecha": "1981-12-14"
+    }
+  ],
+  "temas": ["rey-juan-carlos", "cesid", "jujem", "post-golpe", "manifiesto-100", "sabino-fernandez-campo", "alonso-manglano"],
+  "_meta": {
+    "doc_id": "CNI_Documento_1_R",
+    "filename": "Documento_1_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 7,
+    "processed_by": "claude-code"
+  }
+}

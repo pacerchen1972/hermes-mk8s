@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 1 abr. 1982 de la vista oral Causa 2/81: testigos Tenientes Vucino y Carricedo",
+  "titulo_en": "Intelligence note on the 1 Apr. 1982 Causa 2/81 hearing: witnesses Lieutenants Vucino and Carricedo",
+  "fecha_documento": "1982-04-01",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/SG/5.338/01-04-82) sobre la sesión del 1 de abril de 1982. Testificaron los Tenientes Vucino y Carricedo durante la mañana. Declararon haber acudido al Congreso por orden del Capitán Gómez Iglesias sin saber que la acción fuera ilegal. Los abogados defensores argumentaron que la cadena de mando lleva inevitablemente hasta el General Armada y que el General Milans no habló de armas sino de un fin humanitario. Se hizo referencia a un despacho del Coronel García a Tejero fechado el 18 de febrero de 1981.",
+  "resumen_en": "CESID intelligence note (C/SG/5.338/01-04-82) on the 1 April 1982 session. Lieutenants Vucino and Carricedo testified in the morning. They declared they went to Congress on orders from Captain Gómez Iglesias without knowing the action was illegal. Defence counsels argued the chain of command leads inevitably to General Armada and that General Milans spoke only of humanitarian aims, not weapons. Reference was made to a dispatch from Colonel García to Tejero dated 18 February 1981.",
+  "personas": [
+    { "nombre": "Vucino", "cargo": "Teniente", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Declaró haber ido al Congreso por orden del Capitán Gómez Iglesias; afirmó no saber que la acción fuera ilegal"] },
+    { "nombre": "Carricedo", "cargo": "Teniente", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Declaró haber ido al Congreso por orden del Capitán Gómez Iglesias; afirmó no saber que la acción fuera ilegal"] },
+    { "nombre": "Vicente Gómez Iglesias", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "conspirador", "acciones": ["Identificado como quien ordenó a los testigos acudir al Congreso la noche del 23-F"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-01", "descripcion_es": "Vista oral Causa 2/81: Tenientes Vucino y Carricedo declaran haber actuado por órdenes de Gómez Iglesias sin conocimiento de la ilegalidad de la acción", "descripcion_en": "Causa 2/81 hearing: Lieutenants Vucino and Carricedo testify they acted on Gómez Iglesias's orders without knowledge of the action's illegality", "lugar": "Consejo Supremo de Justicia Militar, Madrid" },
+    { "fecha": "1981-02-18", "descripcion_es": "Despacho del Coronel García a Tejero (citado en la vista): referencia a instrucciones previas al golpe", "descripcion_en": "Colonel García's dispatch to Tejero (cited at hearing): reference to pre-coup instructions", "lugar": null }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "gomez-iglesias", "guardia-civil", "testigos", "cadena-de-mando", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_44_R", "filename": "Documento_44_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

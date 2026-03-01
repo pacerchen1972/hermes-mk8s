@@ -1,0 +1,82 @@
+{
+  "titulo_es": "Nota informativa CONFIDENCIAL sobre repercusión en prensa del arresto de Tejero como jefe de la Comandancia de Málaga (1977)",
+  "titulo_en": "CONFIDENTIAL intelligence note on press coverage of Tejero's arrest as Málaga Commander (1977)",
+  "fecha_documento": "1977-10-10",
+  "periodo": "pre-golpe",
+  "clasificacion_original": "CONFIDENCIAL",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota informativa CONFIDENCIAL nº 517, fechada el 10 de octubre de 1977, de la 312ª Comandancia de la Guardia Civil (Alicante) dirigida a la 2ª Sección del Estado Mayor en Madrid. Informa sobre la repercusión que ha tenido en la prensa el arresto y relevo del Teniente Coronel Tejero como Primer Jefe de la Comandancia de Málaga, noticia difundida por la Agencia Cifra. El documento señala que la noticia ha causado 'profundo malestar' entre el personal y la sociedad civil, considera que puede ser aprovechada por enemigos del cuerpo y partidos políticos, y pide que la fuente de la filtración sea investigada.",
+  "resumen_en": "CONFIDENTIAL intelligence note no. 517, dated 10 October 1977, from the 312th Civil Guard Command (Alicante) to the 2nd Section of the General Staff in Madrid. Reports on press coverage of Lt. Col. Tejero's arrest and removal as Málaga Commander, news distributed by Agency Cifra. Notes the story caused 'deep unease' among personnel and civil society, warns it may be exploited by enemies of the corps and political parties, and requests investigation into the source of the leak.",
+  "personas": [
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel, Primer Jefe de la Comandancia de Málaga",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Arrestado y relevado de su cargo como Primer Jefe de la Comandancia de Málaga en octubre de 1977"
+      ]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "312ª Comandancia Guardia Civil Alicante", "tipo": "policial" },
+    { "nombre": "Agencia Cifra", "tipo": "otro" },
+    { "nombre": "2ª Sección Estado Mayor Guardia Civil", "tipo": "policial" },
+    { "nombre": "3ª Zona Guardia Civil", "tipo": "policial" },
+    { "nombre": "312 Tercio Guardia Civil", "tipo": "policial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1977-10-01",
+      "descripcion_es": "Arresto y relevo del Teniente Coronel Tejero como Primer Jefe de la Comandancia de Málaga, previo al 23-F",
+      "descripcion_en": "Arrest and removal of Lt. Col. Tejero as Commander of Málaga, prior to 23-F",
+      "lugar": "Málaga"
+    },
+    {
+      "fecha": "1977-10-08",
+      "descripcion_es": "La Agencia Cifra publica la noticia del arresto de Tejero, causando malestar en el cuerpo",
+      "descripcion_en": "Agency Cifra publishes the news of Tejero's arrest, causing unease in the corps",
+      "lugar": "España"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota Informativa CONFIDENCIAL nº 517",
+      "texto": "Esta noticia ha causado profundo malestar entre el Personal del Cuerpo, así como también entre un sector de la población civil, por considerarse que el arresto que se impone a un Jefe no debe ser dado a publicidad, toda vez que ello supone un descrédito al arrestado en particular y para todo el Cuerpo en General.",
+      "traduccion_en": "This news has caused deep unease among Corps personnel and a sector of the civil population, as it is considered that the arrest of an officer should not be made public, since it discredits the arrested individual and the entire Corps.",
+      "importancia": "Revela la cultura institucional de la Guardia Civil: proteger la imagen del cuerpo ocultando la disciplina interna"
+    },
+    {
+      "autor": "Nota Informativa CONFIDENCIAL nº 517",
+      "texto": "Por otra parte, se estima que esta noticia puede ser aprovechada por los enemigos del Cuerpo, incluso por algún partido político, para orquestar una campaña de difamación contra la Guardia Civil.",
+      "traduccion_en": "Furthermore, it is estimated that this news may be exploited by enemies of the Corps, including political parties, to orchestrate a defamation campaign against the Civil Guard.",
+      "importancia": "Muestra la mentalidad defensiva y política de la cúpula de la Guardia Civil frente a la nueva democracia española"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "312ª Comandancia Guardia Civil Alicante",
+      "destino": "2ª Sección Estado Mayor Guardia Civil",
+      "tipo": "informó",
+      "descripcion": "Comunicó el impacto de la publicación del arresto de Tejero y solicitó identificar la fuente de la filtración",
+      "fecha": "1977-10-10"
+    },
+    {
+      "origen": "Agencia Cifra",
+      "destino": "Antonio Tejero Molina",
+      "tipo": "informó",
+      "descripcion": "Publicó la noticia del arresto de Tejero, filtrada desde fuentes desconocidas",
+      "fecha": "1977-10-08"
+    }
+  ],
+  "temas": ["antecedentes-tejero", "1977", "arrestos-previos", "prensa", "imagen-guardia-civil", "malaga"],
+  "_meta": {
+    "doc_id": "23F_11._Nota_Informativa_repercusion_prensa_arresto_Tejero_antes_1981",
+    "filename": "23F_11._Nota_Informativa_repercusion_prensa_arresto_Tejero_antes_1981.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 32,
+    "processed_by": "claude-code"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 23 feb. 1982 de la vista oral Causa 2/81: incidente Diario 16 y boicot de procesados",
+  "titulo_en": "Intelligence note on the 23 Feb. 1982 Causa 2/81 hearing: Diario 16 incident and defendants' boycott",
+  "fecha_documento": "1982-02-23",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (ref. C/SG/2992/24-02-82) sobre la sesión del 23 de febrero de 1982 —primer aniversario del golpe— de la vista oral de la Causa 2/81. El artículo de Diario 16 'Así asaltamos el Parlamento' desencadenó una crisis: los procesados y sus defensores se negaron a entrar en la Sala hasta que se retirara la acreditación a los periodistas de ese diario. Tras una tensa negociación con el director de Diario 16 y la suspensión de la acreditación del periódico, la sesión comenzó a las 13:32. Se leyeron declaraciones de Capitanes de la Guardia Civil y otros oficiales, todos alegando obediencia debida.",
+  "resumen_en": "CESID intelligence note (ref. C/SG/2992/24-02-82) on the 23 February 1982 session — first anniversary of the coup — of the Causa 2/81 oral hearing. The Diario 16 article 'Así asaltamos el Parlamento' (Thus we stormed Parliament) triggered a crisis: defendants and their counsel refused to enter the courtroom until Diario 16 journalists were expelled. After tense negotiations with Diario 16's director and suspension of the newspaper's press accreditation, the session began at 13:32. Declarations from Civil Guard captains and other officers were read, all pleading due obedience.",
+  "personas": [
+    {
+      "nombre": "Adolfo Salvador",
+      "cargo": "Periodista",
+      "organizacion": "Diario 16",
+      "rol_en_23f": "testigo",
+      "acciones": ["Publicó el artículo 'Así asaltamos el Parlamento' el 23 de febrero de 1982, primer aniversario del golpe, desencadenando el boicot de los procesados"]
+    },
+    {
+      "nombre": "Pedro Ramírez",
+      "cargo": "Director de Diario 16",
+      "organizacion": "Diario 16",
+      "rol_en_23f": "testigo",
+      "acciones": ["Llamado a hablar con el Tribunal al menos tres veces; al final la acreditación de Diario 16 fue suspendida"]
+    },
+    {
+      "nombre": "Miguel Ángel Aguilar",
+      "cargo": "Periodista",
+      "organizacion": "prensa",
+      "rol_en_23f": "testigo",
+      "acciones": ["Salió de la Sala en solidaridad con los periodistas de Diario 16 cuando fue suspendida su acreditación"]
+    },
+    {
+      "nombre": "Carlos Álvarez Arenas Pardina",
+      "cargo": "Capitán de Infantería",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["El artículo de Diario 16 le atribuía la frase '¡Al que dé un paso atrás le disparo personalmente en la nuca!', motivando el boicot"]
+    },
+    {
+      "nombre": "Jesús Muñecas Aguilar",
+      "cargo": "Capitán de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Sus declaraciones fueron leídas en la sesión; alegó obediencia debida"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Diario 16", "tipo": "otro" },
+    { "nombre": "Guardia Civil", "tipo": "policial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-02-23",
+      "descripcion_es": "Crisis en la vista oral Causa 2/81: artículo de Diario 16 provoca boicot de procesados y defensores; acreditación de Diario 16 suspendida; sesión inicia a las 13:32",
+      "descripcion_en": "Crisis in Causa 2/81 hearing: Diario 16 article triggers boycott by defendants and counsel; Diario 16 press accreditation suspended; session begins at 13:32",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Comunicado de los procesados",
+      "texto": "Los Generales, Jefes y Oficiales procesados por los sucesos del 23 de febrero se han negado a comparecer ante el Consejo Supremo de Justicia Militar, constituido en Sala de Justicia, en tanto asistan a las sesiones corresponsales de un diario que recoge en sus páginas un claro y grave insulto a la dignidad de un Oficial del Ejército Español.",
+      "traduccion_en": "The generals, officers and NCOs charged in connection with the 23 February events have refused to appear before the Supreme Military Court while correspondents from a newspaper that carries a clear and grave insult to the dignity of a Spanish Army Officer attend the sessions.",
+      "importancia": "Documento oficial de los procesados explicando su boicot colectivo, invocando el artículo 176 de las Reales Ordenanzas y al Rey como Jefe Supremo"
+    },
+    {
+      "autor": "Nota informativa CESID",
+      "texto": "En general, las declaraciones de los Oficiales de la Guardia Civil han puesto de manifiesto su desconocimiento de cualquier planteamiento anterior a la operación, y que su participación fue por obediencia a sus superiores jerárquicos, sin uso real de armas.",
+      "traduccion_en": "In general, the Civil Guard officers' declarations revealed their alleged ignorance of any prior planning, and that their participation was through obedience to their hierarchical superiors, without actual use of weapons.",
+      "importancia": "Describe la línea defensiva unificada de los oficiales de la Guardia Civil: obediencia debida"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Diario 16",
+      "destino": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "provocó",
+      "descripcion": "El artículo 'Así asaltamos el Parlamento' provocó una crisis en el juicio: boicot de procesados y defensores",
+      "fecha": "1982-02-23"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "diario-16", "boicot", "guardia-civil", "obediencia-debida", "prensa", "aniversario-23f"],
+  "_meta": {
+    "doc_id": "CNI_Documento_68_R",
+    "filename": "Documento_68_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 5,
+    "processed_by": "claude-code"
+  }
+}

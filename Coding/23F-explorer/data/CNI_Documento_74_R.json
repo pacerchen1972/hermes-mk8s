@@ -1,0 +1,36 @@
+{
+  "titulo_es": "Nota informativa del CESID sobre el Comandante Cortina — documento parcialmente ilegible",
+  "titulo_en": "CESID intelligence note on Commander Cortina — partially illegible document",
+  "fecha_documento": null,
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID de baja calidad gráfica. El texto, parcialmente ilegible, trata sobre el Comandante Cortina y el conocimiento de las actuaciones durante el 23-F. Se mencionan sesiones y bases, y referencias al conocimiento del Comandante Cortina sobre operaciones. Documento con microfilmación 9063/S.",
+  "resumen_en": "CESID intelligence note of poor graphic quality. The partially illegible text concerns Commander Cortina and knowledge of 23-F operations. References to sessions, bases, and Cortina's awareness of operations. Document bears microfilm number 9063/S.",
+  "personas": [
+    {
+      "nombre": "José Cortina Prieto",
+      "cargo": "Comandante de Infantería, CESID/AOME",
+      "organizacion": "CESID",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Referenciado en el documento en relación con el conocimiento de actuaciones del 23-F"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" }
+  ],
+  "eventos": [],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["cesid", "cortina", "post-golpe"],
+  "_meta": {
+    "doc_id": "CNI_Documento_74_R",
+    "filename": "Documento_74_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code",
+    "nota": "Documento de muy baja calidad gráfica; contenido parcialmente ilegible"
+  }
+}

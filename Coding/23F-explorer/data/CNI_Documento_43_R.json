@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 2 abr. 1982 de la vista oral Causa 2/81: testimonio del T.G. Gabeiras Montero (JEME)",
+  "titulo_en": "Intelligence note on the 2 Apr. 1982 Causa 2/81 hearing: testimony of Lt. Gen. Gabeiras Montero (JEME)",
+  "fecha_documento": "1982-04-02",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (N/Ref. C/SG/.668/02-04-82) sobre la sesión del 2 de abril de 1982, dedicada íntegramente al interrogatorio del T.G. Gabeiras Montero (JEME). Su declaración se caracterizó por respuestas de 'no lo sé' y 'no recuerdo', decepcionando a las defensas. Declaró que Armada siempre actuó en la línea de mando. Ante el defensor de Milans (Recandell), no aclaró los motivos de la detención del Capitán General ni confirmó si Armada fue nombrado 2º JEME con instrucciones. Ante el defensor de Armada (Bermúdez), afirmó que la salida de Armada hacia el Congreso 'no era constitucional'.",
+  "resumen_en": "CESID intelligence note (N/Ref. C/SG/.668/02-04-82) on the 2 April 1982 session, entirely devoted to the cross-examination of Lt. Gen. Gabeiras Montero (JEME). His testimony was characterised by 'I don't know' and 'I don't remember', disappointing the defence lawyers. He stated Armada always acted within the chain of command. Before Milans's counsel (Recandell), he did not clarify the reasons for arresting the Captain General nor whether Armada was appointed 2nd JEME with instructions. Before Armada's counsel (Bermúdez), he stated that Armada's departure towards Congress 'was not constitutional'.",
+  "personas": [
+    { "nombre": "José Gabeiras Montero", "cargo": "Teniente General, JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "testigo", "acciones": ["Testificó durante toda la jornada; adoptó actitud evasiva con respuestas de 'no recuerdo'; afirmó que Armada siempre actuó en la línea de mando; declaró que la salida de Armada hacia el Congreso 'no era constitucional'"] },
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Según Gabeiras, siempre actuó en la línea de mando durante el 23-F; su marcha hacia el Congreso fue calificada de inconstitucional por el JEME"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Ejército de Tierra", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1982-04-02", "descripcion_es": "Vista oral Causa 2/81: T.G. Gabeiras (JEME) testifica todo el día con respuestas evasivas; declara que la salida de Armada hacia el Congreso no era constitucional", "descripcion_en": "Causa 2/81 hearing: T.G. Gabeiras (JEME) testifies all day with evasive answers; declares Armada's move towards Congress was unconstitutional", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [
+    { "autor": "T.G. Gabeiras Montero", "texto_es": "La salida del General Armada hacia el Congreso no era constitucional.", "texto_en": "General Armada's departure towards Congress was not constitutional.", "contexto": "Interrogatorio por el defensor de Armada (Sr. Bermúdez), CSJM, 2 abril 1982" }
+  ],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "gabeiras", "armada", "jeme", "constitucionalidad", "testigos", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_43_R", "filename": "Documento_43_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

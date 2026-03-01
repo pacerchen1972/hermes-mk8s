@@ -1,0 +1,26 @@
+{
+  "titulo_es": "CSJM comunica procesamiento de Milans del Bosch y Armada Comyn (Carpeta 21800, Reservado)",
+  "titulo_en": "CSJM notifies prosecution of Milans del Bosch and Armada Comyn (Carpeta 21800, Reserved)",
+  "fecha_documento": "1981-04-10",
+  "periodo": "post-golpe",
+  "clasificacion_original": "reservado",
+  "tipo_documento": "oficio",
+  "ministerio": "Defensa",
+  "resumen_es": "Oficio de la Secretaría de Gobierno del CSJM (RESERVADO, 10 abril 1981) comunicando al Ministerio de Defensa el testimonio de los Autos de procesamiento del General de División Jaime Milans del Bosch y Ussía y del General de División Alfonso Armada Comyn, una vez desestimados los recursos interpuestos. Remitido mediante Consejero-Togado José Especial, designado por Real Decreto 357/1981.",
+  "resumen_en": "Government Secretariat of the CSJM official communication (RESERVED, 10 April 1981) notifying the Ministry of Defence of the proceedings record of the prosecution of Major General Jaime Milans del Bosch y Ussía and Major General Alfonso Armada Comyn, after appeals were dismissed. Forwarded via Special Judicial Counsellor designated by Royal Decree 357/1981.",
+  "personas": [
+    { "nombre": "Jaime Milans del Bosch y Ussía", "rol": "General de División, procesado en la Causa 2/81" },
+    { "nombre": "Alfonso Armada Comyn", "rol": "General de División, procesado en la Causa 2/81" }
+  ],
+  "organizaciones": [
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-04-10", "descripcion_es": "CSJM notifica el procesamiento conjunto de Milans del Bosch y Armada Comyn, primeros generales formalmente procesados por el 23-F", "descripcion_en": "CSJM notifies the joint prosecution of Milans del Bosch and Armada Comyn, the first generals formally prosecuted for 23-F", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "procesamiento", "milans-del-bosch", "armada", "causa-2-81", "csjm"],
+  "_meta": { "doc_id": "Defensa_2", "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_1.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

@@ -1,0 +1,57 @@
+{
+  "titulo_es": "Carta personal a Emilio Alonso Manglano sobre el enrarecimiento del ambiente en cuarteles antes del juicio (feb. 1982)",
+  "titulo_en": "Personal letter to Emilio Alonso Manglano on deteriorating barracks atmosphere ahead of the 23-F trial (Feb. 1982)",
+  "fecha_documento": "1982-02-25",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "carta",
+  "ministerio": "Defensa",
+  "resumen_es": "Carta personal del 25 de febrero de 1982 —primer aniversario del 23-F— dirigida al Director del CESID Emilio Alonso Manglano. El remitente alerta sobre el enrarecimiento del ambiente en los cuarteles y propone dos tipos de acciones: (1) intervenciones a nivel de unidad/compañía para evitar manifestaciones de apoyo a los procesados, insistiendo en los temas de disciplina, manipulación e imagen internacional; (2) acciones más delicadas de carácter psicológico. Considera que las reuniones masivas son contraproducentes y que la línea de mando es la vía más efectiva.",
+  "resumen_en": "Personal letter dated 25 February 1982 — first anniversary of 23-F — addressed to CESID Director Emilio Alonso Manglano. The author warns of a deteriorating atmosphere in military barracks and proposes two types of action: (1) unit/company-level interventions to prevent demonstrations of support for the accused, stressing discipline, manipulation and international image; (2) more delicate psychological actions. Considers mass meetings counterproductive and the chain of command the most effective channel.",
+  "personas": [
+    {
+      "nombre": "Emilio Alonso Manglano",
+      "cargo": "Director del CESID",
+      "organizacion": "CESID",
+      "rol_en_23f": "leal",
+      "acciones": ["Destinatario de la carta sobre la situación en cuarteles"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-02-25",
+      "descripcion_es": "Primer aniversario del 23-F: se alerta al Director del CESID del enrarecimiento del ambiente en cuarteles ante el inminente juicio a los golpistas",
+      "descripcion_en": "First anniversary of 23-F: CESID Director alerted to deteriorating barracks atmosphere ahead of the imminent trial of coup plotters",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Carta a Alonso Manglano",
+      "texto": "Creo que debería insistirse mucho en el tema de la DISCIPLINA, LA MANIPULACION Y LA IMAGEN QUE ESTAMOS PROYECTANDO AL MUNDO ENTERO.",
+      "traduccion_en": "I believe strong emphasis should be placed on DISCIPLINE, MANIPULATION and the IMAGE WE ARE PROJECTING TO THE ENTIRE WORLD.",
+      "importancia": "Revela la preocupación del CESID por la imagen internacional de España durante el juicio a los golpistas"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "CESID",
+      "destino": "Emilio Alonso Manglano",
+      "tipo": "informó",
+      "descripcion": "Alerta al Director del CESID sobre la situación en cuarteles y propone acciones de gestión de la moral militar",
+      "fecha": "1982-02-25"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "ambiente-cuarteles", "alonso-manglano", "moral-militar"],
+  "_meta": {
+    "doc_id": "CNI_Documento_11_R",
+    "filename": "Documento_11_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

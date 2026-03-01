@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Cámara Municipal de Elvas (Portugal) transmite moción de solidaridad con España ante el golpe del 23-F",
+  "titulo_en": "Municipal Council of Elvas (Portugal) transmits solidarity motion with Spain after the 23-F coup",
+  "fecha_documento": "1981-03-01",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "carta_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Carta de la Câmara Municipal de Elvas (Portugal) al Cónsul de España en Elvas (7350-Elvas), transmitiendo la 'Moção' de solidaridad aprobada por unanimidad en la reunión ordinaria de la Asamblea Municipal del día 19 del corriente mes, en la que la Asamblea expresa su solidaridad con el pueblo español ante el fracaso del intento golpista fascista del 23 de febrero.",
+  "resumen_en": "Letter from the Municipal Council of Elvas (Portugal) to Spain's Consul in Elvas (7350-Elvas), transmitting the solidarity 'Moção' passed unanimously at the Municipal Assembly's ordinary meeting on the 19th of that month, in which the Assembly expresses solidarity with the Spanish people following the failure of the fascist coup attempt of 23 February.",
+  "personas": [
+    { "nombre": "Joaquim Manuel Pinheiro Caldeira", "rol": "Presidente da Área da Assembleia Municipal de Elvas, firmante" }
+  ],
+  "organizaciones": [
+    { "nombre": "Câmara Municipal de Elvas", "tipo": "gobierno" },
+    { "nombre": "Consulado de España en Elvas", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-01", "descripcion_es": "La Asamblea Municipal de Elvas (Portugal) aprueba por unanimidad moción de solidaridad con España condenando el intento golpista del 23-F", "descripcion_en": "The Municipal Assembly of Elvas (Portugal) unanimously passes solidarity motion with Spain condemning the 23-F coup attempt", "lugar": "Elvas, Portugal" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "portugal", "solidaridad", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_15", "filename": "D.15._AGMAE_R40201_Exp._215.pdf", "folder": "exteriores/AGMAE-40201", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

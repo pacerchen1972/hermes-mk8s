@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Consulado en Córdoba (Argentina) remite editorial de 'La Voz del Interior' sobre el 23-F",
+  "titulo_en": "Consulate in Córdoba (Argentina) forwards editorial from 'La Voz del Interior' on 23-F",
+  "fecha_documento": "1981-06-14",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_consular",
+  "ministerio": "Exteriores",
+  "resumen_es": "Nota del Consulado General de España en Córdoba, Argentina (14 junio 1981) al Ministerio de Asuntos Exteriores, remitiendo el editorial del diario argentino 'La Voz del Interior' del día 6 de abril titulado 'Positiva revisión de un acto irreflexivo', en el que se pone de relieve el enorme prestigio del Rey Juan Carlos ante el pueblo español y en el ámbito internacional en relación con los sucesos del 23 de febrero.",
+  "resumen_en": "Note from Spain's Consulate General in Córdoba, Argentina (14 June 1981) to the Ministry of Foreign Affairs, forwarding the editorial from Argentine newspaper 'La Voz del Interior' of 6 April entitled 'Positive revision of a rash act', which highlights the enormous prestige of King Juan Carlos before the Spanish people and internationally in relation to the events of 23 February.",
+  "personas": [
+    { "nombre": "Juan Carlos I", "rol": "Rey de España, destacado en el editorial argentino por su papel en el 23-F" }
+  ],
+  "organizaciones": [
+    { "nombre": "Consulado General de España en Córdoba (Argentina)", "tipo": "gobierno" },
+    { "nombre": "La Voz del Interior", "tipo": "medios" },
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-06-14", "descripcion_es": "Consulado español en Córdoba (Argentina) remite a Exteriores editorial del periódico 'La Voz del Interior' elogiando al Rey Juan Carlos", "descripcion_en": "Spanish consulate in Córdoba (Argentina) forwards to Foreign Affairs editorial from 'La Voz del Interior' praising King Juan Carlos", "lugar": "Córdoba, Argentina" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "argentina", "prensa-extranjera", "juan-carlos-i"],
+  "_meta": { "doc_id": "Exteriores_18", "filename": "D.18._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

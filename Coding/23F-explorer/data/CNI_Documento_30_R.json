@@ -1,0 +1,24 @@
+{
+  "titulo_es": "Información integrada CESID: atención social a la Causa 2/81 y activismo ultraderechista (may. 1982)",
+  "titulo_en": "CESID integrated intelligence: social attention to Causa 2/81 and far-right activism (May 1982)",
+  "fecha_documento": "1982-05-13",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe integrado del CESID (DTOR C/013/7029/13-05-82) sobre el estado de la atención social a la Causa 2/81 y las actividades de grupos ultraderechistas. El interés público por el juicio ha caído a mínimos desde su inicio. El CESID registra la organización de concentraciones de Fuerza Nueva y FE-JONS en España y Valencia, posiblemente destinadas a generar apoyo social para los procesados. Se detectaron tensiones en el desfile militar ante la presencia de S.M. el Rey.",
+  "resumen_en": "CESID integrated report (DTOR C/013/7029/13-05-82) on the state of public attention to Causa 2/81 and far-right group activities. Public interest in the trial has fallen to its lowest since the start. CESID records the organisation of Fuerza Nueva and FE-JONS rallies in Spain and Valencia, possibly to generate public support for the defendants. Tensions detected at the military parade around HM the King's presence.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Fuerza Nueva", "tipo": "político" },
+    { "nombre": "Falange Española de las JONS (FE-JONS)", "tipo": "político" }
+  ],
+  "eventos": [
+    { "fecha": "1982-05-13", "descripcion_es": "El interés público por la Causa 2/81 cae a mínimos; grupos ultraderechistas (Fuerza Nueva, FE-JONS) planean concentraciones de apoyo a los procesados", "descripcion_en": "Public interest in Causa 2/81 at all-time low; far-right groups (Fuerza Nueva, FE-JONS) plan rallies in support of defendants", "lugar": "Madrid / España" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "fuerza-nueva", "fe-jons", "opinion-publica", "ultraderecha"],
+  "_meta": { "doc_id": "CNI_Documento_30_R", "filename": "Documento_30_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

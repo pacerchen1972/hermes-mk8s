@@ -1,0 +1,51 @@
+{
+  "titulo_es": "Citación urgente del CSJM a testigos de Guardia Civil y paisanos para la Causa 2/81 (ene. 1982)",
+  "titulo_en": "Urgent CSJM summons to Civil Guard witnesses and civilians for Causa 2/81 (Jan. 1982)",
+  "fecha_documento": "1982-01-05",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "oficio",
+  "ministerio": "Defensa",
+  "resumen_es": "Oficio urgente del Consejo Supremo de Justicia Militar (Microfilmación 00178/S) firmado por el General Consejero Togado Instructor de la Causa 2/81, José de Diego López. Ordena la comparecencia ante el CSJM de un Capitán, Cabo 1º, Guardias Civiles y un paisano, destinados en el Departamento de destino, para la práctica de la prueba testifical acordada en la Causa 2/81. Madrid, 5 de enero de 1982.",
+  "resumen_en": "Urgent official document from the Supreme Military Court (Microfilm 00178/S) signed by General Military Judge Instructor of Causa 2/81, José de Diego López. Orders the appearance before the CSJM of a Captain, Corporal 1st Class, Civil Guards and a civilian assigned to the addressee's Department, for testimonial evidence in Causa 2/81. Madrid, 5 January 1982.",
+  "personas": [
+    {
+      "nombre": "José de Diego López",
+      "cargo": "General Consejero Togado Instructor, Causa 2/81",
+      "organizacion": "Consejo Supremo de Justicia Militar (CSJM)",
+      "rol_en_23f": "neutral",
+      "acciones": ["Firmó la citación urgente a testigos para la Causa 2/81"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "policial" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-01-05",
+      "descripcion_es": "El CSJM emite citación urgente a testigos de Guardia Civil y paisanos para la Causa 2/81",
+      "descripcion_en": "CSJM issues urgent summons to Civil Guard witnesses and civilians for Causa 2/81",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    {
+      "origen": "Consejo Supremo de Justicia Militar (CSJM)",
+      "destino": "Guardia Civil",
+      "tipo": "juzgó",
+      "descripcion": "El CSJM citó a miembros de la Guardia Civil como testigos en la Causa 2/81",
+      "fecha": "1982-01-05"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "csjm", "testigos", "guardia-civil"],
+  "_meta": {
+    "doc_id": "CNI_Documento_79_R",
+    "filename": "Documento_79_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  }
+}

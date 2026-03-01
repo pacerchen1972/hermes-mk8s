@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Cable USICA sobre análisis político de España y el apoyo americano tras el 23-F",
+  "titulo_en": "USICA cable on political analysis of Spain and American support after 23-F",
+  "fecha_documento": "1981-03-04",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "cable_diplomatico",
+  "ministerio": "Exteriores",
+  "resumen_es": "Cable del USICA (United States Information Agency) a la Embajada de España en Washington con análisis político sobre España tras el 23-F y la percepción americana del proceso democrático español. El cable analiza el apoyo a España por parte de políticos y medios americanos, y la relación con la elección de Reagan.",
+  "resumen_en": "USICA (United States Information Agency) cable to Spain's Embassy in Washington with political analysis of Spain after 23-F and the American perception of Spain's democratic process. The cable analyses US political and media support for Spain and the relationship with Reagan's election.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "United States Information Agency (USICA)", "tipo": "gobierno" },
+    { "nombre": "Embajada de España en Washington", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-04", "descripcion_es": "USICA envía análisis sobre la percepción americana del proceso democrático español post-23F", "descripcion_en": "USICA sends analysis on the American perception of Spain's democratic process post-23F", "lugar": "Washington D.C." }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "diplomacia", "analisis-politico"],
+  "_meta": { "doc_id": "Exteriores_14", "filename": "D.14._AGMAE_R39017_Exp._4.pdf", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

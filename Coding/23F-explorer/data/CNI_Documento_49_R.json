@@ -1,0 +1,31 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 26 mar. 1982 de la vista oral Causa 2/81: testimonios de Capitanes de la Guardia Civil",
+  "titulo_en": "Intelligence note on the 26 Mar. 1982 Causa 2/81 hearing: testimony from Civil Guard Captains",
+  "fecha_documento": "1982-03-29",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (N/Ref. C/90/5.120/29-03-82) sobre la sesión del 26 de marzo de 1982. Testificaron Capitanes de la Guardia Civil incluyendo Pérez de la Lastra. El Fiscal demostró que Gómez Iglesias era amigo íntimo de Tejero y que el 19 de febrero de 1982 hubo reuniones en el domicilio de Cortina. Se estableció la cadena telefónica que vinculaba a Cortina con Gómez Iglesias y con los participantes en el golpe. El Capitán Abad confirmó que consideraba a Gómez Iglesias parte del CESID ('amigo del CESID').",
+  "resumen_en": "CESID intelligence note (N/Ref. C/90/5.120/29-03-82) on the 26 March 1982 session. Civil Guard Captains testified, including Pérez de la Lastra. The Prosecutor established that Gómez Iglesias was a close friend of Tejero and that on 19 February 1982 meetings took place at Cortina's home. A telephone chain linking Cortina to Gómez Iglesias and coup participants was established. Captain Abad confirmed he regarded Gómez Iglesias as part of CESID ('a CESID friend').",
+  "personas": [
+    { "nombre": "Pérez de la Lastra", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "testigo", "acciones": ["Testificó sobre las reuniones previas al 23-F y los contactos entre Cortina y Gómez Iglesias"] },
+    { "nombre": "Vicente Gómez Iglesias", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "conspirador", "acciones": ["Identificado en el juicio como amigo íntimo de Tejero y como 'amigo del CESID'; organizó reuniones previas al golpe"] },
+    { "nombre": "José Cortina Prieto", "cargo": "Comandante de Infantería, CESID/AOME", "organizacion": "CESID", "rol_en_23f": "conspirador", "acciones": ["Su domicilio fue señalado como lugar de reuniones previas al golpe el 19 de febrero de 1982"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-26", "descripcion_es": "Vista oral Causa 2/81: Capitanes de la GC testifican; se establece cadena Cortina → Gómez Iglesias → Tejero mediante reuniones y llamadas telefónicas previas al 23-F", "descripcion_en": "Causa 2/81 hearing: GC Captains testify; Cortina → Gómez Iglesias → Tejero chain established through pre-23F meetings and phone calls", "lugar": "Consejo Supremo de Justicia Militar, Madrid" },
+    { "fecha": "1982-02-19", "descripcion_es": "Reuniones en el domicilio del Cte. Cortina con participantes en el golpe (citado en el juicio)", "descripcion_en": "Meetings at Cte. Cortina's home with coup participants (cited at hearing)", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "José Cortina Prieto", "destino": "Vicente Gómez Iglesias", "tipo": "coordinacion", "descripcion": "Reuniones en el domicilio de Cortina antes del 23-F; Gómez Iglesias era considerado 'amigo del CESID'" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "cortina", "gomez-iglesias", "tejero", "guardia-civil", "testigos", "reunion-previa", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_49_R", "filename": "Documento_49_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

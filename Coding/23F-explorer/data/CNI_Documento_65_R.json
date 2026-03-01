@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Información integrada del CESID sobre el inicio de los interrogatorios de los procesados en la vista oral Causa 2/81",
+  "titulo_en": "CESID integrated intelligence on the start of defendant interrogations at the Causa 2/81 oral hearing",
+  "fecha_documento": "1982-03-11",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe_integrado",
+  "ministerio": "Defensa",
+  "resumen_es": "Informe integrado del CESID (N/ETA/DII/4332/11-03-82) sobre el inicio de la fase de interrogatorios de los procesados en la Causa 2/81. Analiza los esfuerzos de las defensas por filtrar en el ambiente la implicación del Rey; la estrategia de presentar a Armada actuando como 2º JEME con capacidad plena; y cómo las declaraciones del General Milans y del General Armada influyeron en el ánimo del TC Tejero. Evalúa el mensaje clandestino de que existen 'otros golpes sin desbaratar' circulando en el ambiente castrense.",
+  "resumen_en": "CESID integrated report (N/ETA/DII/4332/11-03-82) on the start of the defendant interrogation phase in Causa 2/81. Analyses defence efforts to leak implications of the King's involvement; the strategy of presenting Armada as acting with full authority as 2nd JEME; and how General Milans's and General Armada's statements influenced Lt. Col. Tejero's attitude. Assesses the clandestine message that 'other unfoiled coups' are circulating in military circles.",
+  "personas": [
+    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Sus declaraciones en el juicio influyeron en la actitud del TC Tejero; presentado por la defensa como actuando con plena autoridad como 2º JEME"] },
+    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General, Capitán General 3ª Región Militar", "organizacion": "Ejército de Tierra", "rol_en_23f": "golpista", "acciones": ["Sus declaraciones influyeron en el ánimo del TC Tejero; confirmaron el papel de mando de Tejero dentro de la operación"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-11", "descripcion_es": "CESID evalúa el impacto de las declaraciones de Armada y Milans sobre Tejero; detecta esfuerzo clandestino por implicar al Rey; alerta sobre rumores de 'otros golpes sin desbaratar'", "descripcion_en": "CESID assesses impact of Armada's and Milans's statements on Tejero; detects clandestine effort to implicate the King; alerts to rumours of 'other unfoiled coups'", "lugar": null }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "armada", "milans", "tejero", "rey", "opinion-militar", "riesgo-golpista"],
+  "_meta": { "doc_id": "CNI_Documento_65_R", "filename": "Documento_65_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

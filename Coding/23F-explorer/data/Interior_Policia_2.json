@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Nota informativa sobre reacciones del PCE y amenaza de la extrema derecha a la Monarquía tras el 23-F",
+  "titulo_en": "Intelligence note on PCE reactions and far-right threat to the Monarchy after 23-F",
+  "fecha_documento": "1981-05-11",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota de la Brigada de Información Interior (11 mayo 1981). Analiza reacciones del PCE ante los últimos acontecimientos políticos en Madrid desde el 23-F. Señala que sectores de extrema derecha persiguen implicar a la Monarquía y destruirla como institución democrática. Concluye que existe un 'jaque-mate a la Monarquía planteado por la extrema derecha, del que ya no puede volver atrás'.",
+  "resumen_en": "Interior Intelligence Brigade note (11 May 1981). Analyses PCE reactions to the latest political events in Madrid since 23-F. Notes that far-right sectors seek to implicate the Monarchy and destroy it as a democratic institution. Concludes there is a 'checkmate to the Monarchy posed by the far-right, from which it can no longer step back'.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
+    { "nombre": "Partido Comunista de España (PCE)", "tipo": "política" }
+  ],
+  "eventos": [
+    { "fecha": "1981-05-11", "descripcion_es": "Brigada de Información Interior evalúa amenaza de la extrema derecha a la Monarquía e implicaciones para la estabilidad democrática tras el 23-F", "descripcion_en": "Interior Intelligence Brigade assesses far-right threat to the Monarchy and implications for democratic stability after 23-F", "lugar": "Madrid" }
+  ],
+  "citas_clave": [
+    { "autor": "Brigada de Información Interior", "texto_es": "Existe un jaque-mate a la Monarquía planteado por la extrema derecha, un jaque-mate del que ya no puede volver atrás.", "texto_en": "There is a checkmate to the Monarchy posed by the far-right, a checkmate from which it can no longer step back.", "contexto": "Nota de la Brigada de Información Interior, 11 mayo 1981" }
+  ],
+  "relaciones": [],
+  "temas": ["post-golpe", "extrema-derecha", "monarquia", "pce", "brigada-informacion-interior", "estabilidad-democratica"],
+  "_meta": { "doc_id": "Interior_Policia_2", "filename": "11-05-81_NOTA_INFORMATIVA_SOBRE_EL_PCE.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

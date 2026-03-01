@@ -1,0 +1,29 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 4-5 mar. 1982 de la vista oral Causa 2/81: Tejero llama al 23-F 'estado de necesidad'; presentado informe del CESID",
+  "titulo_en": "Intelligence note on the 4-5 Mar. 1982 Causa 2/81 hearing: Tejero calls 23-F a 'state of necessity'; CESID report presented",
+  "fecha_documento": "1982-03-05",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/90/3664/05-03-82) sobre las sesiones del 4 y 5 de marzo de 1982. La defensa del TC Tejero presentó el informe del CESID al CSJM sobre las operaciones encubiertas relacionadas con el 23-F. El Teniente Coronel Tejero calificó el 23-F de 'estado de necesidad', intervención que el Presidente del Tribunal cortó. La declaración del Capitán García Almenta confirma la entrada de la Guardia Civil al Congreso. Se volvió a mencionar la 'Operación Mister'. Las acusaciones fueron presentadas en términos de 'infracción constitucional'.",
+  "resumen_en": "CESID intelligence note (C/90/3664/05-03-82) on the 4 and 5 March 1982 sessions. Tejero's defence presented the CESID report to the CSJM on covert operations related to 23-F. Lt. Col. Tejero called 23-F a 'state of necessity', an intervention cut off by the court President. Captain García Almenta's declaration confirms the Civil Guard's entry into Congress. 'Operation Mister' was mentioned again. The charges were framed in terms of 'constitutional violation'.",
+  "personas": [
+    { "nombre": "Antonio Tejero Molina", "cargo": "Teniente Coronel de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "golpista", "acciones": ["Calificó el 23-F de 'estado de necesidad' ante el tribunal; el Presidente del Tribunal le cortó la intervención"] },
+    { "nombre": "García Almenta", "cargo": "Capitán de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "acusado", "acciones": ["Confirmó la entrada de la fuerza de la Guardia Civil al Congreso el 23-F"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+  ],
+  "eventos": [
+    { "fecha": "1982-03-05", "descripcion_es": "Vista oral Causa 2/81: Tejero califica el 23-F de 'estado de necesidad'; se presenta el informe del CESID sobre operaciones encubiertas; se menciona la Operación Mister", "descripcion_en": "Causa 2/81 hearing: Tejero calls 23-F a 'state of necessity'; CESID report on covert operations presented; Operation Mister mentioned again", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [
+    { "autor": "Antonio Tejero Molina", "texto_es": "El 23-F fue un estado de necesidad.", "texto_en": "23-F was a state of necessity.", "contexto": "Declaración ante el CSJM, 4-5 marzo 1982; intervención cortada por el Presidente del Tribunal" }
+  ],
+  "relaciones": [],
+  "temas": ["juicio", "causa-2-81", "cesid", "tejero", "operacion-mister", "guardia-civil", "estado-de-necesidad", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_62_R", "filename": "Documento_62_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+}

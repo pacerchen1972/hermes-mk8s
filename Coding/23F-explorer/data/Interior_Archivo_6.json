@@ -1,0 +1,25 @@
+{
+  "titulo_es": "Nota informativa sobre posible golpe de estado: identificación de presuntos implicados (30 abril 1981)",
+  "titulo_en": "Intelligence note on possible coup d'état: identification of alleged implicated persons (30 April 1981)",
+  "fecha_documento": "1981-04-30",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota informativa (30-4-81, 4 páginas) que amplía una nota previa del 21 de abril sobre un posible golpe de estado, precisando datos sobre varios presuntos implicados (todos con nombres redactados). Uno de ellos pertenecía al 'Partido Nacional Independiente' (reducido grupo monárquico de extrema derecha), hijo de Teniente Coronel de Caballería con vinculaciones a los ya desaparecidos Servicios de Documentación de la Presidencia del Gobierno (SECED/predecesor del CESID). Otro militante de la 'Comunión Católica Monárquica' (legalizada el 1 abril 1977), originalmente carlista y ahora mostrando simpatía hacia el Rey Juan Carlos.",
+  "resumen_en": "Intelligence note (30-4-81, 4 pages) extending a previous April 21 note on a possible coup d'état, providing details on several alleged implicated persons (all names redacted). One belonged to the 'Partido Nacional Independiente' (small monarchist far-right group), son of a Cavalry Lieutenant Colonel with connections to the now-defunct Documentation Services of the Presidency (SECED/CESID predecessor). Another member of the 'Comunión Católica Monárquica' (legalised 1 April 1977), originally Carlist and now showing sympathy towards King Juan Carlos.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Partido Nacional Independiente", "tipo": "politica" },
+    { "nombre": "Comunión Católica Monárquica", "tipo": "politica" },
+    { "nombre": "Servicios de Documentación de la Presidencia del Gobierno (SECED)", "tipo": "seguridad" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-04-30", "descripcion_es": "Nota informativa amplía investigación sobre posible nuevo golpe: identifica presuntos implicados vinculados a grupos monárquicos de extrema derecha y al antiguo SECED", "descripcion_en": "Intelligence note extends investigation into possible new coup: identifies alleged implicated persons linked to far-right monarchist groups and the former SECED", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "posible-golpe", "extrema-derecha", "seced", "ministerio-interior", "carlismo"],
+  "_meta": { "doc_id": "Interior_Archivo_6", "filename": "6_POSIBLE_GOLPE_DE_ESTADO_desp.pdf", "folder": "interior/archivo", "is_image_pdf": true, "pages": 4, "processed_by": "claude-code" }
+}

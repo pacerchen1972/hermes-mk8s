@@ -1,0 +1,66 @@
+{
+  "titulo_es": "Nota informativa sobre incidente en el juicio durante la defensa del General Milans del Bosch (abr. 1982)",
+  "titulo_en": "Intelligence note on courtroom incident during General Milans del Bosch defence (Apr. 1982)",
+  "fecha_documento": "1982-04-28",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del 28 de abril de 1982 sobre un incidente ocurrido durante la intervención del codefensor del General Milans del Bosch, el Teniente General Cabeza Calahorra. Al aludir a la prensa, esta se consideró insultada. La periodista Pilar Urbano (ABC) intentó hacer un desplante arrastrando a otros periodistas. Se intentó redactar un escrito al Presidente de la Sala para impedir nuevos insultos.",
+  "resumen_en": "Intelligence note of 28 April 1982 on an incident during the intervention of General Milans del Bosch's co-counsel, Lieutenant General Cabeza Calahorra. When he alluded to the press, journalists took offence. Journalist Pilar Urbano (ABC) attempted a walkout trying to bring other journalists with her. A written complaint to the court president was drafted to prevent further insults.",
+  "personas": [
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "cargo": "Teniente General, Capitán General de la III Región Militar (Valencia)",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Procesado principal en la Causa 2/81; su defensa provocó incidente con la prensa"]
+    },
+    {
+      "nombre": "Cabeza Calahorra",
+      "cargo": "Teniente General, codefensor de Milans del Bosch",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "neutral",
+      "acciones": ["Sus comentarios sobre la prensa provocaron un incidente en sala durante el juicio"]
+    },
+    {
+      "nombre": "Pilar Urbano",
+      "cargo": "Periodista, ABC",
+      "organizacion": "ABC",
+      "rol_en_23f": "testigo",
+      "acciones": ["Intentó liderar una protesta de periodistas ante los insultos del codefensor de Milans"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "militar" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "ABC", "tipo": "otro" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-04-28",
+      "descripcion_es": "Incidente entre la defensa de Milans del Bosch y periodistas durante la vista de la Causa 2/81; Pilar Urbano (ABC) intenta un desplante colectivo",
+      "descripcion_en": "Incident between Milans del Bosch's defence and journalists during Causa 2/81 hearing; Pilar Urbano (ABC) attempts a collective walkout",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    {
+      "origen": "Cabeza Calahorra",
+      "destino": "Pilar Urbano",
+      "tipo": "se_opuso",
+      "descripcion": "Los comentarios de Cabeza Calahorra sobre la prensa provocaron el intento de protesta de Pilar Urbano",
+      "fecha": "1982-04-28"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "milans", "prensa", "incidente", "csjm"],
+  "_meta": {
+    "doc_id": "CNI_Documento_15_R",
+    "filename": "Documento_15_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

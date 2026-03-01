@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Gabinete del Ministro de Defensa comunica procesamiento del General Luis Torres Rojas al Estado Mayor del Ejército",
+  "titulo_en": "Minister of Defence's Cabinet notifies prosecution of General Luis Torres Rojas to Army General Staff",
+  "fecha_documento": "1981-04-20",
+  "periodo": "post-golpe",
+  "clasificacion_original": "secreto",
+  "tipo_documento": "oficio",
+  "ministerio": "Defensa",
+  "resumen_es": "Oficio SECRETO del Gabinete del Ministro de Defensa (20 abril 1981, núm. 317) comunicando al Jefe del Estado Mayor del Ejército el testimonio del Auto de Procesamiento del General de División don Luis Torres Rojas, una vez desestimado el recurso interpuesto, conforme al artículo 595 del Código de Justicia Militar. Firmado: Manuel Alonso Aguilar.",
+  "resumen_en": "SECRET communication from the Minister of Defence's Cabinet (20 April 1981, no. 317) notifying the Army Chief of Staff of the prosecution record of Major General Luis Torres Rojas, after his appeal was dismissed, pursuant to Article 595 of the Military Justice Code. Signed: Manuel Alonso Aguilar.",
+  "personas": [
+    { "nombre": "Luis Torres Rojas", "rol": "General de División, procesado en la Causa 2/81; comandante de División Acorazada Brunete" },
+    { "nombre": "Manuel Alonso Aguilar", "rol": "Firmante, Gabinete del Ministro de Defensa" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
+    { "nombre": "Estado Mayor del Ejército (EME)", "tipo": "militar" }
+  ],
+  "eventos": [
+    { "fecha": "1981-04-20", "descripcion_es": "MinDef notifica al EME el procesamiento del General Torres Rojas en la Causa 2/81", "descripcion_en": "Ministry of Defence notifies Army Chief of Staff of General Torres Rojas' prosecution in Case 2/81", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "procesamiento", "torres-rojas", "causa-2-81", "ministerio-defensa", "eme"],
+  "_meta": { "doc_id": "Defensa_10", "filename": "Carpeta_21800_Secreto_comunicacion_procesamiento_de_implicado_1.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

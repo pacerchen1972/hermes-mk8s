@@ -1,0 +1,52 @@
+{
+  "titulo_es": "Telexes interiores y de agencias recibidos en la 2ª Sección del Estado Mayor durante el golpe",
+  "titulo_en": "Internal and agency telexes received by the 2nd Section of the General Staff during the coup",
+  "fecha_documento": "1981-02-23",
+  "periodo": "golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "telex",
+  "ministerio": "Interior",
+  "resumen_es": "Colección de 102 páginas de telexes del Servicio Radiotelegráfico de la Guardia Civil recibidos por la 2ª Sección del Estado Mayor durante el golpe. Incluye comunicaciones de comandancias provinciales en toda España, informando sobre la situación de orden público y medidas de seguridad adoptadas. El telex visible (nº 191, de Lérida) informa que a partir de las 19 horas el Gobernador Civil ha decretado el estado de alerta del Plan Permanente de Seguridad y Protección.",
+  "resumen_en": "Collection of 102 pages of telexes from the Civil Guard's radiotelegraph service received by the 2nd Section of the General Staff during the coup. Includes communications from provincial commands across Spain reporting on public order and security measures. The visible telex (no. 191, from Lérida) reports that from 19:00 the Civil Governor has decreed the alert state of the Permanent Security and Protection Plan.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Servicio Radiotelegráfico de la Guardia Civil", "tipo": "policial" },
+    { "nombre": "Estado Mayor 2ª Sección Guardia Civil", "tipo": "policial" },
+    { "nombre": "422 Comandancia Guardia Civil Lérida", "tipo": "policial" },
+    { "nombre": "Gobernador Civil de Lérida", "tipo": "gubernamental" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23T19:00",
+      "descripcion_es": "El Gobernador Civil de Lérida decreta el estado de alerta del Plan Permanente de Seguridad y Protección",
+      "descripcion_en": "The Civil Governor of Lérida decrees the alert state of the Permanent Security and Protection Plan",
+      "lugar": "Lérida"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Telex nº 191, Comandancia de Lérida",
+      "texto": "A PARTIR 19 HORAS HOY, ORDENADO POR GOBERNADOR CIVIL, SE ESTABLECE ESTADO ALERTA DEL PLAN PERMANENTE DE SEGURIDAD Y PROTECCION.",
+      "traduccion_en": "FROM 19:00 TODAY, ORDERED BY CIVIL GOVERNOR, STATE OF ALERT IS ESTABLISHED UNDER THE PERMANENT SECURITY AND PROTECTION PLAN.",
+      "importancia": "Muestra la respuesta institucional provincial al golpe, con gobernadores civiles activando planes de seguridad en toda España"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Gobernador Civil de Lérida",
+      "destino": "422 Comandancia Guardia Civil Lérida",
+      "tipo": "ordenó",
+      "descripcion": "Ordenó la activación del Plan Permanente de Seguridad y Protección a partir de las 19:00",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["comunicaciones-nacionales", "respuesta-institucional", "plan-seguridad", "gobernadores-civiles", "red-guardia-civil"],
+  "_meta": {
+    "doc_id": "23F_8._Telex_interiores_y_de_Agencias_recibidos_en_2_Seccion_EM",
+    "filename": "23F_8._Telex_interiores_y_de_Agencias_recibidos_en_2_Seccion_EM.pdf",
+    "folder": "interior/guardia-civil",
+    "is_image_pdf": true,
+    "pages": 102,
+    "processed_by": "claude-code"
+  }
+}

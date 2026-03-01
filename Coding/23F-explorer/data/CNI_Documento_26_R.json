@@ -1,0 +1,28 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 6 may. 1982 de la vista oral Causa 2/81: defensa de Cortina y 'Operación Mister'",
+  "titulo_en": "Intelligence note on the 6 May 1982 Causa 2/81 hearing: Cortina's defence and 'Operation Mister'",
+  "fecha_documento": "1982-05-06",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (C/SG/125/06-05-82) sobre la sesión del 6 de mayo de 1982. El letrado García Villalobos, defensor del Comandante Cortina (para quien el Fiscal solicita 6 años de prisión y separación del servicio), rebatió las imputaciones fiscales invocando la 'Operación Mister'. Argumentó que no era verdad que Cortina participara en la reunión entre Tejero y Armada. También negó que Cortina hubiera acercado los autobuses del Parque al Congreso de manera conspirativa. También intervinieron defensores de Batista González y del Capitán Pérez de la Lastra.",
+  "resumen_en": "CESID intelligence note (C/SG/125/06-05-82) on the 6 May 1982 session. Counsel García Villalobos, defending Commander Cortina (for whom the Prosecutor requests 6 years' imprisonment and dismissal), rebutted prosecution charges invoking 'Operation Mister'. He argued Cortina did not participate in the Tejero-Armada meeting and denied Cortina conspiratorially moved the Park buses to Congress. Also intervened: defence counsel for Batista González and Captain Pérez de la Lastra.",
+  "personas": [
+    { "nombre": "José Cortina Prieto", "cargo": "Comandante de Infantería, CESID/AOME", "organizacion": "CESID", "rol_en_23f": "conspirador", "acciones": ["Su defensa invocó la 'Operación Mister'; Fiscal solicitó 6 años de prisión y separación del servicio"] },
+    { "nombre": "Juan Batista González", "cargo": "Capitán de Artillería", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Representado por José Ragutí Pellejero en la sesión"] }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+  ],
+  "eventos": [
+    { "fecha": "1982-05-06", "descripcion_es": "Vista oral Causa 2/81: defensa de Cortina invoca 'Operación Mister'; Fiscal pide 6 años y separación del servicio", "descripcion_en": "Causa 2/81 hearing: Cortina's defence invokes 'Operation Mister'; Prosecutor requests 6 years and dismissal", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    { "origen": "José Cortina Prieto", "destino": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "juzgó", "descripcion": "Defensa de Cortina en la vista oral: invocó Operación Mister y negó participación conspirativa", "fecha": "1982-05-06" }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "cortina", "operacion-mister", "csjm"],
+  "_meta": { "doc_id": "CNI_Documento_26_R", "filename": "Documento_26_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 6, "processed_by": "claude-code" }
+}

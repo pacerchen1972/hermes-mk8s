@@ -1,0 +1,23 @@
+{
+  "titulo_es": "Nota informativa sobre campaña del PSOE contra la involución política tras el 23-F",
+  "titulo_en": "Intelligence note on PSOE campaign against political involution after 23-F",
+  "fecha_documento": "1981-05-13",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Interior",
+  "resumen_es": "Nota de la Brigada de Información Interior (13 mayo 1981). El Partido Socialista Obrero Español (PSOE) ha decidido lanzar una campaña interna de formación sobre democracia y defensa contra la involución política. La campaña persigue analizar la situación política para asegurar el control democrático; promover fuerzas democráticas contra la involución; vincular las acciones a la ciudadanía y municipios; y que los cargos públicos del PSOE expliquen la Constitución y la democracia.",
+  "resumen_en": "Interior Intelligence Brigade note (13 May 1981). The PSOE has decided to launch an internal formation campaign on democracy and defence against political involution. The campaign aims to analyse the political situation to ensure democratic control; promote democratic forces against involution; link actions to civil society and municipalities; and have PSOE public officials explain the Constitution and democracy.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
+    { "nombre": "Partido Socialista Obrero Español (PSOE)", "tipo": "política" }
+  ],
+  "eventos": [
+    { "fecha": "1981-05-13", "descripcion_es": "PSOE lanza campaña interna de formación democrática y contra la involución política en respuesta al 23-F", "descripcion_en": "PSOE launches internal formation campaign for democracy and against political involution in response to 23-F", "lugar": "España" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "psoe", "democracia", "involucionism", "brigada-informacion-interior"],
+  "_meta": { "doc_id": "Interior_Policia_4", "filename": "13-05_1.PDF", "folder": "interior/policia", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+}

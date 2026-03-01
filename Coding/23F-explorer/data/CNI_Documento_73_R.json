@@ -1,0 +1,74 @@
+{
+  "titulo_es": "Nota informativa sobre relaciones entre militares y paisanos armados — Coronel Garchitorena y el 23-F",
+  "titulo_en": "Intelligence note on relations between military officers and armed civilians — Colonel Garchitorena and the 23-F",
+  "fecha_documento": "1981-04-14",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (N/RFA: C/D13/6320/14-04-81, Microfilmación 06295/S) sobre las relaciones entre militares y paisanos armados en torno al 23-F. José Antonio Assiego, promotor del sindicato Acción Sindicalista Nacional del Trabajo (ASNT) y persona que controla a unos 40 hombres profesionales de la ruptura de huelgas, está relacionado con el Coronel del Ejército Ricardo Garchitorena, del Gobierno Militar de Madrid. La noche del 23 de febrero, Assiego estaba preparado para salir a la calle al frente de varias decenas de paisanos armados. También aparece el Sargento 1º Juan Montero Ramírez como contacto de Garchitorena en la creación de grupos armados para actuar en el País Vasco.",
+  "resumen_en": "CESID intelligence note (N/RFA: C/D13/6320/14-04-81, Microfilm 06295/S) on relations between military officers and armed civilians connected to the 23-F. José Antonio Assiego, promoter of the ASNT trade union and controller of some 40 professional strike-breakers, is connected to Army Colonel Ricardo Garchitorena of the Madrid Military Government. On the night of 23 February, Assiego was ready to take to the streets with several dozen armed civilians. Also mentioned: Sergeant 1st Class Juan Montero Ramírez as Garchitorena's contact for forming armed groups to operate in the Basque Country.",
+  "personas": [
+    {
+      "nombre": "José Antonio Assiego",
+      "cargo": "Promotor del sindicato ASNT",
+      "organizacion": "Acción Sindicalista Nacional del Trabajo (ASNT)",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Controlaba unos 40 hombres profesionales de la ruptura de huelgas",
+        "La noche del 23-F estaba preparado para salir a la calle al frente de decenas de paisanos armados",
+        "Recibía instrucciones del Coronel Garchitorena"
+      ]
+    },
+    {
+      "nombre": "Ricardo Garchitorena",
+      "cargo": "Coronel del Ejército, Grupo B, Gobierno Militar de Madrid",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Daba instrucciones a Assiego",
+        "Actuación dudosa durante el intento de golpe de estado",
+        "Relacionado con la creación de grupos armados para el País Vasco"
+      ]
+    },
+    {
+      "nombre": "Juan Montero Ramírez",
+      "cargo": "Sargento 1º",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Contacto de Garchitorena en la creación de grupos armados para actuar en el País Vasco"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Gobierno Militar de Madrid", "tipo": "militar" },
+    { "nombre": "Acción Sindicalista Nacional del Trabajo (ASNT)", "tipo": "otro" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "Assiego estaba preparado con decenas de paisanos armados para salir a la calle la noche del 23-F, a la espera de órdenes del Coronel Garchitorena",
+      "descripcion_en": "Assiego was ready with dozens of armed civilians to take to the streets on the night of 23-F, awaiting orders from Colonel Garchitorena",
+      "lugar": "Madrid"
+    }
+  ],
+  "citas_clave": [],
+  "relaciones": [
+    {
+      "origen": "Ricardo Garchitorena",
+      "destino": "José Antonio Assiego",
+      "tipo": "coordinó",
+      "descripcion": "Garchitorena daba instrucciones a Assiego para movilizar paisanos armados la noche del 23-F",
+      "fecha": "1981-02-23"
+    }
+  ],
+  "temas": ["cesid", "post-golpe", "paisanos-armados", "garchitorena", "asnt", "madrid"],
+  "_meta": {
+    "doc_id": "CNI_Documento_73_R",
+    "filename": "Documento_73_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  }
+}

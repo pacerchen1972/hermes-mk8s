@@ -1,0 +1,28 @@
+{
+  "titulo_es": "El Embajador de España en la RFA transmite el mensaje de solidaridad del Ministro de Exteriores alemán Genscher tras el 23-F",
+  "titulo_en": "Spain's Ambassador in the FRG transmits solidarity message from German Foreign Minister Genscher after 23-F",
+  "fecha_documento": "1981-02-28",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Nota del Embajador de España en la República Federal de Alemania, Lothar Lahn, al Ministro de Asuntos Exteriores Pérez-Llorca (Bonn, 28 febrero 1981), transmitiendo y adjuntando la traducción del telegrama del Ministro de Asuntos Exteriores alemán Hans-Dietrich Genscher expresando la solidaridad de la República Federal de Alemania con España y la democracia española tras el frustrado golpe del 23-F. El Embajador resume que Genscher expresa su satisfacción por el triunfo del orden constitucional y su confianza en el futuro democrático de España.",
+  "resumen_en": "Note from Spain's Ambassador to the Federal Republic of Germany, Lothar Lahn, to Foreign Minister Pérez-Llorca (Bonn, 28 February 1981), transmitting and attaching the translation of a telegram from German Foreign Minister Hans-Dietrich Genscher expressing the FRG's solidarity with Spain and Spanish democracy after the failed 23-F coup. The Ambassador summarises that Genscher expresses satisfaction at the triumph of constitutional order and confidence in Spain's democratic future.",
+  "personas": [
+    { "nombre": "Lothar Lahn", "rol": "Embajador de España en la República Federal de Alemania, firmante" },
+    { "nombre": "Hans-Dietrich Genscher", "rol": "Ministro de Asuntos Exteriores de la RFA, autor del mensaje de solidaridad" },
+    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Exteriores de España, destinatario" }
+  ],
+  "organizaciones": [
+    { "nombre": "Embajada de España en Bonn", "tipo": "gobierno" },
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
+    { "nombre": "Ministerio de Asuntos Exteriores de la República Federal de Alemania", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-02-28", "descripcion_es": "El Embajador español en Bonn transmite a Madrid el mensaje de solidaridad del Ministro Genscher con la democracia española tras el 23-F", "descripcion_en": "Spain's Ambassador in Bonn transmits to Madrid Foreign Minister Genscher's solidarity message with Spanish democracy after 23-F", "lugar": "Bonn, República Federal de Alemania" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "alemania-occidental", "genscher", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_29", "filename": "D.29._AGA-83-09301_exp._5.pdf", "folder": "exteriores/AGA-83-09301", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+}

@@ -1,0 +1,26 @@
+{
+  "titulo_es": "Carta del Ministro Pérez-Llorca al Secretario de Estado Haig en respuesta a su felicitación del 26 febrero",
+  "titulo_en": "Foreign Minister Pérez-Llorca's letter to Secretary of State Haig in response to his 26 February congratulations",
+  "fecha_documento": "1981-03-04",
+  "periodo": "post-golpe",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "carta_diplomatica",
+  "ministerio": "Exteriores",
+  "resumen_es": "Carta del Ministro de Asuntos Exteriores de España José Pedro Pérez-Llorca al Secretario de Estado de los Estados Unidos Alexander M. Haig (Madrid, 4 marzo 1981), en respuesta a la carta de Haig del 26 de febrero: 'Le agradezco la felicitación de su atenta carta de 26 de febrero pasado por la satisfactoria solución de los problemas de los últimos días en mi país, así como los términos en que se expresa sobre la fortaleza de las instituciones democráticas españolas.'",
+  "resumen_en": "Letter from Spanish Foreign Minister José Pedro Pérez-Llorca to US Secretary of State Alexander M. Haig (Madrid, 4 March 1981), responding to Haig's letter of 26 February: 'I thank you for the congratulations in your kind letter of 26 February for the satisfactory resolution of the problems of recent days in my country, as well as the terms in which you express yourself about the strength of Spain's democratic institutions.'",
+  "personas": [
+    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Asuntos Exteriores de España, autor de la carta" },
+    { "nombre": "Alexander M. Haig", "rol": "Secretario de Estado de los Estados Unidos, destinatario" }
+  ],
+  "organizaciones": [
+    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
+    { "nombre": "Departamento de Estado de los Estados Unidos", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1981-03-04", "descripcion_es": "Pérez-Llorca responde a Haig agradeciendo las felicitaciones de EE.UU. por la resolución del 23-F", "descripcion_en": "Pérez-Llorca responds to Haig thanking the US for congratulations on the resolution of 23-F", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "haig", "perez-llorca", "diplomacia"],
+  "_meta": { "doc_id": "Exteriores_9", "filename": "D.9._AGMAE_R39017_Exp._4.jpg", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": false, "pages": 1, "processed_by": "claude-code" }
+}

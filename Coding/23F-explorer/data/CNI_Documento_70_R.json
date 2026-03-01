@@ -1,0 +1,82 @@
+{
+  "titulo_es": "Nota informativa sobre la sesión del 20 feb. 1982 de la vista oral Causa 2/81: Tejero acusa a más miembros del CESID",
+  "titulo_en": "Intelligence note on the 20 Feb. 1982 Causa 2/81 hearing session: Tejero accuses more CESID members",
+  "fecha_documento": "1982-02-20",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "nota_informativa",
+  "ministerio": "Defensa",
+  "resumen_es": "Nota informativa del CESID (ref. C/SG/2820/20-02-82) sobre la sesión del 20 de febrero de 1982 de la vista oral de la Causa 2/81. Sólo se celebró la sesión matinal. Se leyeron las cuatro declaraciones del Teniente Coronel Tejero; en la cuarta, Tejero afirmó que había más personas del CESID implicadas en el golpe. Aparece como nueva figura procesal el 'Sector de Valencia'. Las declaraciones de algunos procesados suscitan dudas sobre la conducta del Rey, al invocar el protagonismo del monarca y de la Reina como presuntamente conocedores del plan.",
+  "resumen_en": "CESID intelligence note (ref. C/SG/2820/20-02-82) on the 20 February 1982 session of the Causa 2/81 oral hearing. Only the morning session was held. Tejero's four declarations were read; in the fourth, Tejero stated that more CESID members were involved in the coup. The 'Valencia Sector' emerges as a new procedural figure. Some defendants' declarations raise doubts about the King's conduct, invoking the monarch's and Queen's alleged prior knowledge of the plan.",
+  "personas": [
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Sus cuatro declaraciones fueron leídas en la sesión del 20-02-82",
+        "En la cuarta declaración afirmó que había más personas del CESID implicadas en el golpe"
+      ]
+    },
+    {
+      "nombre": "Diego Ibáñez Inglés",
+      "cargo": "Coronel",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Sus declaraciones 1ª y 3ª fueron leídas; el defensor de Armada señaló que se había omitido parte"]
+    },
+    {
+      "nombre": "Pedro Mas Oliver",
+      "cargo": "Teniente Coronel de Infantería",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": ["Sus declaraciones 1ª y 3ª fueron leídas en la sesión"]
+    }
+  ],
+  "organizaciones": [
+    { "nombre": "CESID", "tipo": "inteligencia" },
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Sector de Valencia", "tipo": "militar" }
+  ],
+  "eventos": [
+    {
+      "fecha": "1982-02-20",
+      "descripcion_es": "Sesión matinal de la vista oral Causa 2/81: lectura de cuatro declaraciones de Tejero; afirma que más miembros del CESID estaban implicados",
+      "descripcion_en": "Morning session of Causa 2/81 hearing: reading of Tejero's four declarations; claims more CESID members were involved",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
+  ],
+  "citas_clave": [
+    {
+      "autor": "Nota informativa CESID",
+      "texto": "En la cuarta declaración del Teniente Coronel TEJERO afirma que había más personas del CESID implicadas.",
+      "traduccion_en": "In his fourth declaration, Lieutenant Colonel TEJERO states that more CESID members were involved.",
+      "importancia": "Acusación directa de implicación institucional del CESID en el golpe del 23-F, más allá de los agentes ya procesados"
+    },
+    {
+      "autor": "Nota informativa CESID",
+      "texto": "Continúa invocándose el protagonismo del REY y paralelamente el de la REINA; se afirma tenían conocimiento de lo que se proponían realizar los procesados.",
+      "traduccion_en": "References to the King's role continue, and in parallel to the Queen's; it is claimed they had prior knowledge of what the defendants planned to do.",
+      "importancia": "Documenta la estrategia defensiva de implicar a la Corona en el golpe para exculpar a los acusados"
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "Antonio Tejero Molina",
+      "destino": "CESID",
+      "tipo": "acusó",
+      "descripcion": "Tejero afirmó en su cuarta declaración que más personas del CESID estaban implicadas en el golpe",
+      "fecha": "1982-02-20"
+    }
+  ],
+  "temas": ["juicio", "causa-2-81", "cesid", "tejero", "sector-de-valencia", "rey-juan-carlos", "vista-oral"],
+  "_meta": {
+    "doc_id": "CNI_Documento_70_R",
+    "filename": "Documento_70_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": false,
+    "pages": 3,
+    "processed_by": "claude-code"
+  }
+}

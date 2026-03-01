@@ -1,0 +1,24 @@
+{
+  "titulo_es": "Anotaciones al desarrollo de las sesiones del Juicio Oral del 23-F (Proceso n.2-81)",
+  "titulo_en": "Annotations on the development of the 23-F oral trial sessions (Case no. 2-81)",
+  "fecha_documento": "1982-02-25",
+  "periodo": "juicio",
+  "clasificacion_original": "sin_clasificar",
+  "tipo_documento": "informe_judicial",
+  "ministerio": "Interior",
+  "resumen_es": "Documento de 36 páginas (25 febrero 1982) con anotaciones y análisis del desarrollo de las sesiones del Juicio Oral del 23-F (Proceso n.2-81) ante el Consejo Supremo de Justicia Militar. El autor, con 'horizonte limitado' por no asistir personalmente a las sesiones, evalúa la primera semana como 'positiva en su conjunto'. Analiza la dialéctica entre el interés público (resolución rápida) y el interés de los acusados (dilatar el proceso), el incidente con el Director del Diario 16 expulsado de la sala, y los intentos de los acusados de extender el proceso hasta 1982 y obtener votos electorales antes de sentencia firme.",
+  "resumen_en": "36-page document (25 February 1982) with annotations and analysis of the 23-F oral trial sessions (Case no. 2-81) before the Supreme Council of Military Justice. The author, with a 'limited horizon' from not personally attending sessions, evaluates the first week as 'positive as a whole'. Analyses the dialectic between public interest (quick resolution) and defendants' interest (prolonging proceedings), the incident with the Director of Diario 16 expelled from the room, and defendants' attempts to extend proceedings into 1982 and gain electoral votes before final sentence.",
+  "personas": [],
+  "organizaciones": [
+    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
+    { "nombre": "Diario 16", "tipo": "medios" },
+    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+  ],
+  "eventos": [
+    { "fecha": "1982-02-25", "descripcion_es": "Elaboración de análisis interno del Ministerio del Interior sobre la primera semana del Juicio Oral del 23-F; incidente con la expulsión del Director del Diario 16", "descripcion_en": "Interior Ministry internal analysis of the first week of the 23-F oral trial; incident with the expulsion of the Diario 16 Director", "lugar": "Madrid" }
+  ],
+  "citas_clave": [],
+  "relaciones": [],
+  "temas": ["juicio", "proceso-2-81", "csjm", "diario-16", "ministerio-interior", "analisis-judicial"],
+  "_meta": { "doc_id": "Interior_Archivo_3", "filename": "3_Juicio_del_23-F_desp.pdf", "folder": "interior/archivo", "is_image_pdf": true, "pages": 36, "processed_by": "claude-code" }
+}
