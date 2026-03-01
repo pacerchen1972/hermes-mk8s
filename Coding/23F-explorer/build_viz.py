@@ -665,7 +665,26 @@ function initGraph() {
 }
 
 function resetZoom() {
+  // 1. Reset pan/zoom
   svgEl.transition().duration(500).call(zoomBehavior.transform, d3.zoomIdentity);
+
+  // 2. Clear selected node and detail panel
+  clearDetail();
+  selectedNode = null;
+
+  // 3. Re-enable all node type filters
+  activeTypes = new Set(['person', 'organization', 'event', 'document']);
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.add('active'));
+  applyFilters();
+
+  // 4. Clear search box and remove dimming/hint
+  const searchBox = document.getElementById('search');
+  if (searchBox) searchBox.value = '';
+  nodeEl && nodeEl.classed('dimmed', false);
+  document.getElementById('search-hint')?.remove();
+
+  // 5. Reheat simulation so nodes spread back out
+  simulation && simulation.alpha(0.3).restart();
 }
 
 // ── Detail panel ──────────────────────────────────────────────────────────────
