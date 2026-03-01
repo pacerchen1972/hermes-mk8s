@@ -640,41 +640,43 @@ function initTimeline() {
     return;
   }
 
-  // Y-jitter: bucket by hour (golpe) or date (others)
-  const bucketKey = d => def.hourly
-    ? (d.date || '').slice(0, 13)   // 'YYYY-MM-DDTHH'
-    : (d.date || '').slice(0, 10);  // 'YYYY-MM-DD'
-  const buckets = d3.group(periodEvents, bucketKey);
-  const yJitter = new Map();
-  buckets.forEach(evs => {
-    evs.forEach((ev, i) => {
-      yJitter.set(ev, (i - (evs.length - 1) / 2) * 12);
-    });
-  });
-
+  const DOT_R  = 5;
   const centerY = margin.top + (H - margin.top - margin.bottom) / 2;
   const periodColor = { 'pre-golpe':'#f0b429','golpe':'#e05252','post-golpe':'#4a90d9','juicio':'#38c77e','otro':'#8b949e' };
 
+  // Compute clamped x position for each event
+  const getX = d => {
+    const dt = new Date(d.date);
+    return isNaN(dt.getTime()) ? margin.left
+         : Math.max(margin.left, Math.min(W - margin.right, x(dt)));
+  };
+
+  // Beeswarm: fix x to time position, let y spread via force collision
+  const simNodes = periodEvents.map(d => ({ d, fx: getX(d), y: centerY }));
+  d3.forceSimulation(simNodes)
+    .force('y', d3.forceY(centerY).strength(0.08))
+    .force('collide', d3.forceCollide(DOT_R + 2).strength(1))
+    .stop()
+    .tick(200);
+
+  const yMin = margin.top + DOT_R;
+  const yMax = H - margin.bottom - DOT_R;
+
   svg.selectAll('.tl-event')
-    .data(periodEvents)
+    .data(simNodes)
     .join('g')
       .attr('class', 'tl-event')
-      .attr('transform', d => {
-        const dt = new Date(d.date);
-        const xp = isNaN(dt.getTime()) ? margin.left
-                 : Math.max(margin.left, Math.min(W - margin.right, x(dt)));
-        return `translate(${xp},${centerY + (yJitter.get(d) || 0)})`;
-      })
+      .attr('transform', n => `translate(${n.fx},${Math.max(yMin, Math.min(yMax, n.y))})`)
     .call(g => g.append('circle')
-      .attr('r', 5)
-      .attr('fill', d => periodColor[d.period] || '#8b949e')
+      .attr('r', DOT_R)
+      .attr('fill', n => periodColor[n.d.period] || '#8b949e')
       .attr('opacity', 0.85)
       .style('cursor', 'pointer')
-      .on('mouseover', (event, d) => showTimelineTooltip(event, d))
+      .on('mouseover', (event, n) => showTimelineTooltip(event, n.d))
       .on('mouseout', hideTooltip)
-      .on('click', (event, d) => {
-        if (d.doc_id) {
-          const node = GRAPH_DATA.nodes.find(n => n.doc_id === d.doc_id);
+      .on('click', (event, n) => {
+        if (n.d.doc_id) {
+          const node = GRAPH_DATA.nodes.find(nd => nd.doc_id === n.d.doc_id);
           if (node) showDetail(node);
         }
       })
@@ -690,9 +692,15 @@ function showTimelineTooltip(event, d) {
   }
   // H-2: use esc() — never raw innerHTML with data values
   tooltip.innerHTML = `<strong>${esc(d.date)}</strong><br>${esc(currentLang==='es'?d.title:d.title_en||d.title)}`;
-  tooltip.style.left = (event.clientX + 10) + 'px';
-  tooltip.style.top = (event.clientY - 30) + 'px';
   tooltip.style.display = 'block';
+  // Flip to the left when near the right edge of the viewport
+  const gap = 10;
+  const ttW = tooltip.offsetWidth;
+  const overflows = event.clientX + gap + ttW > window.innerWidth;
+  tooltip.style.left = overflows
+    ? (event.clientX - gap - ttW) + 'px'
+    : (event.clientX + gap) + 'px';
+  tooltip.style.top = (event.clientY - 30) + 'px';
 }
 function hideTooltip() { if (tooltip) tooltip.style.display = 'none'; }
 
