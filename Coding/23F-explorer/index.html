@@ -250,6 +250,17 @@ function toggleType(type) {
   applyFilters();
 }
 
+function panToNode(d) {
+  if (d.x == null || d.y == null) return;
+  const c = document.getElementById('graph-container');
+  const W = c.clientWidth, H = c.clientHeight;
+  const k = d3.zoomTransform(svgEl.node()).k; // keep current scale
+  svgEl.transition().duration(600).call(
+    zoomBehavior.transform,
+    d3.zoomIdentity.translate(W / 2 - k * d.x, H / 2 - k * d.y).scale(k)
+  );
+}
+
 function filterSearch(query) {
   const q = query.toLowerCase().trim();
   if (q.length < 2) {
@@ -275,7 +286,10 @@ function filterSearch(query) {
     hint.textContent = `${matches.length} resultado${matches.length > 1 ? 's' : ''}`;
   }
   document.getElementById('graph-container').appendChild(hint);
-  if (matches.length === 1) showDetail(matches[0]);
+  if (matches.length === 1) {
+    showDetail(matches[0]);
+    panToNode(matches[0]);
+  }
 }
 
 function applyFilters() {
