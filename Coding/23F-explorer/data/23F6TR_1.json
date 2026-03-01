@@ -6,11 +6,11 @@
   "clasificacion_original": "sin_clasificar",
   "tipo_documento": "transcripcion_telefonica",
   "ministerio": "Interior",
-  "resumen_es": "Registro de 312 páginas de las conversaciones telefónicas mantenidas por Carmen, esposa del Teniente Coronel Tejero, durante el golpe. Desesperada, llama a la Capitanía General, al Capitán General de Valencia, al Coronel de Estado Mayor y a otras personas intentando comunicarse con su marido en el Congreso. Revela el impacto humano del golpe, menciona que el GEO rodea el edificio, y que el Director General de Seguridad quería grabar su voz para transmitírsela a Tejero por megáfono.",
-  "resumen_en": "312-page record of phone conversations by Carmen, wife of Lt. Col. Tejero, during the coup. Desperate, she calls the Capitanía General, the Captain General of Valencia, the Chief of Staff Colonel, and others trying to reach her husband inside Congress. Reveals the human impact of the coup, mentions the GEO surrounding the building, and that the Director General of Security wanted to record her voice to transmit it to Tejero via megaphone.",
+  "resumen_es": "Registro de 312 páginas de las conversaciones telefónicas mantenidas por Carmen Díez Pereira, esposa del Teniente Coronel Tejero, durante el golpe. Desesperada, llama a la Capitanía General, al Capitán General de Valencia, al Coronel de Estado Mayor y a otras personas intentando comunicarse con su marido en el Congreso. Revela el impacto humano del golpe, menciona que el GEO rodea el edificio, y que el Director General de Seguridad quería grabar su voz para transmitírsela a Tejero por megáfono.",
+  "resumen_en": "312-page record of phone conversations by Carmen Díez Pereira, wife of Lt. Col. Tejero, during the coup. Desperate, she calls the Capitanía General, the Captain General of Valencia, the Chief of Staff Colonel, and others trying to reach her husband inside Congress. Reveals the human impact of the coup, mentions the GEO surrounding the building, and that the Director General of Security wanted to record her voice to transmit it to Tejero via megaphone.",
   "personas": [
     {
-      "nombre": "Carmen (esposa de Tejero)",
+      "nombre": "Carmen Díez Pereira",
       "cargo": "Esposa del Tte. Coronel Tejero",
       "organizacion": "",
       "rol_en_23f": "otro",
@@ -62,13 +62,13 @@
   ],
   "citas_clave": [
     {
-      "autor": "Carmen (esposa de Tejero)",
+      "autor": "Carmen Díez Pereira",
       "texto": "No tardes, porque estoy desesperada. Porque si está el tío tan ostinao, están ahí las tanquetas del GEO y monta el número.",
       "traduccion_en": "Don't be long, I'm desperate. Because if he's as stubborn as ever, the GEO armoured vehicles are there and things will kick off.",
       "importancia": "Revela la situación táctica externa y el temor de la familia ante un posible asalto al Congreso"
     },
     {
-      "autor": "Carmen (esposa de Tejero)",
+      "autor": "Carmen Díez Pereira",
       "texto": "Sí, por favor, que no tengo a nadie más que a tí.",
       "traduccion_en": "Yes please, you're all I have.",
       "importancia": "Humaniza el drama personal detrás del golpe de estado"
@@ -76,7 +76,7 @@
   ],
   "relaciones": [
     {
-      "origen": "Carmen (esposa de Tejero)",
+      "origen": "Carmen Díez Pereira",
       "destino": "Antonio Tejero Molina",
       "tipo": "llamó",
       "descripcion": "Intentó repetidamente contactar con su marido en el interior del Congreso ocupado",
@@ -84,7 +84,7 @@
     },
     {
       "origen": "Dirección General de Seguridad",
-      "destino": "Carmen (esposa de Tejero)",
+      "destino": "Carmen Díez Pereira",
       "tipo": "coordinó",
       "descripcion": "Intentó utilizar a la esposa de Tejero como canal de negociación para convencer a Tejero de rendirse",
       "fecha": "1981-02-23"
