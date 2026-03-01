@@ -895,8 +895,27 @@ function initTimeline() {
   const H = tlEl.clientHeight || 80;
   const margin = { left: 50, right: 20, top: 14, bottom: 26 };
 
+  // Filter events first so we can derive the axis domain from actual data
+  const periodEvents = TIMELINE_DATA.filter(d => {
+    if (!d.date || !d.date.match(/^\d{4}/)) return false;
+    const dp = d.period || 'pre-golpe';
+    if (activePeriod === 'golpe')
+      return dp === 'golpe' || d.date.startsWith('1981-02-23');
+    return dp === activePeriod;
+  });
+
+  // Derive axis domain from actual data extent, with padding
+  let [dMin, dMax] = d3.extent(periodEvents, d => new Date(d.date));
+  if (!dMin) { dMin = new Date(def.start); dMax = new Date(def.end); }
+  const span = dMax - dMin || 1;
+  // Pad: 4% of span, minimum 30 min for golpe period, 1 day for others
+  const minPad = def.hourly ? 30 * 60 * 1000 : 24 * 60 * 60 * 1000;
+  const pad = Math.max(span * 0.04, minPad);
+  dMin = new Date(+dMin - pad);
+  dMax = new Date(+dMax + pad);
+
   const x = d3.scaleTime()
-    .domain([new Date(def.start), new Date(def.end)])
+    .domain([dMin, dMax])
     .range([margin.left, W - margin.right]);
 
   // Axis
@@ -910,15 +929,6 @@ function initTimeline() {
     .attr('x', margin.left).attr('y', margin.top)
     .attr('fill', def.color).attr('font-size', '10px').attr('font-weight', '700')
     .text(currentLang === 'es' ? def.label_es : def.label_en);
-
-  // Filter events for active period
-  const periodEvents = TIMELINE_DATA.filter(d => {
-    if (!d.date || !d.date.match(/^\d{4}/)) return false;
-    const dp = d.period || 'pre-golpe';
-    if (activePeriod === 'golpe')
-      return dp === 'golpe' || d.date.startsWith('1981-02-23');
-    return dp === activePeriod;
-  });
 
   if (!periodEvents.length) {
     svg.append('text')
