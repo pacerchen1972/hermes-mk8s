@@ -1,0 +1,21 @@
+{
+  "nombre": "José Luis Cortina Prieto",
+  "nombre_completo": "José Luis Cortina Prieto",
+  "aliases": ["Cortina", "Comandante Cortina"],
+  "fecha_nacimiento": "1944-01-01",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "Comandante del AOME (Agrupación Operativa de Misiones Especiales), CESID",
+  "rol_23f": "sospechoso / absuelto",
+  "descripcion_es": "Comandante jefe del AOME, la unidad de operaciones especiales del CESID (servicio de inteligencia militar). Fue acusado de facilitar vehículos robados y equipos de comunicación a Tejero para el asalto al Congreso, y de coordinar con los conspiradores desde el interior del servicio de inteligencia. Tras el fracaso del golpe, activó la 'Operación Mister', una operación de encubrimiento para proteger a agentes del CESID implicados. Se reunió con el Embajador estadounidense Todman y el Nuncio Apostólico en los días posteriores al golpe. Fue finalmente absuelto por el Consejo Supremo de Justicia Militar en 1982. Su procesamiento fue uno de los momentos más tensos del juicio.",
+  "descripcion_en": "Commander of AOME, the special operations unit of CESID (military intelligence). He was accused of providing stolen vehicles and communications equipment to Tejero for the Congress assault, and of coordinating with the conspirators from within the intelligence service. After the coup failed, he activated 'Operación Mister', a cover-up operation to protect implicated CESID agents. He met with US Ambassador Todman and the Apostolic Nuncio in the days after the coup. He was ultimately acquitted by the Supreme Military Council in 1982. His indictment was one of the most contentious moments of the trial.",
+  "acciones_23f": [
+    { "es": "Presuntamente facilitó vehículos robados y equipos de comunicación a Tejero para el asalto al Congreso", "en": "Allegedly provided stolen vehicles and communications equipment to Tejero for the Congress assault" },
+    { "es": "Dos agentes del AOME bajo su mando entraron al Congreso ocupado y hablaron con Tejero y Pardo Zancada", "en": "Two AOME agents under his command entered the occupied Congress and spoke with Tejero and Pardo Zancada" },
+    { "es": "Activó la 'Operación Mister' tras el fracaso del golpe para encubrir la implicación del CESID", "en": "Activated 'Operación Mister' after the coup failed to cover up CESID's involvement" },
+    { "es": "Se reunió con el Embajador estadounidense Todman y el Nuncio Apostólico en los días posteriores al 23-F", "en": "Met with US Ambassador Todman and the Apostolic Nuncio in the days following 23-F" }
+  ],
+  "condena": "Absuelto por el Consejo Supremo de Justicia Militar (3 junio 1982).",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Jos%C3%A9_Luis_Cortina_Prieto",
+  "wikipedia_en": ""
+}

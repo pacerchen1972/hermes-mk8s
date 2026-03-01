@@ -1,0 +1,18 @@
+{
+  "nombre": "Jesús Muñecas Aguilar",
+  "nombre_completo": "Jesús Muñecas Aguilar",
+  "aliases": ["Muñecas Aguilar", "Muñecas"],
+  "fecha_nacimiento": "",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "Teniente Coronel de la Guardia Civil",
+  "rol_23f": "conspirador",
+  "descripcion_es": "Teniente Coronel de la Guardia Civil que participó en el golpe del 23-F. Formó parte del grupo que asaltó el Congreso de los Diputados bajo el mando de Tejero. Fue procesado en la Causa 2/81 ante el Consejo Supremo de Justicia Militar y condenado a 5 años de prisión.",
+  "descripcion_en": "Civil Guard Lieutenant Colonel who participated in the 23-F coup. He was part of the group that assaulted the Congress of Deputies under Tejero's command. He was prosecuted in Case 2/81 before the Supreme Military Council and sentenced to 5 years in prison.",
+  "acciones_23f": [
+    { "es": "Participó en el asalto al Congreso de los Diputados bajo el mando de Tejero el 23 de febrero de 1981", "en": "Participated in the assault on the Congress of Deputies under Tejero's command on 23 February 1981" }
+  ],
+  "condena": "5 años de prisión (Tribunal Supremo, 22 abril 1983).",
+  "wikipedia_es": "",
+  "wikipedia_en": ""
+}

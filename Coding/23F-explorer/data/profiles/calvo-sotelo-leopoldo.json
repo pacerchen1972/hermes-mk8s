@@ -1,0 +1,20 @@
+{
+  "nombre": "Leopoldo Calvo-Sotelo",
+  "nombre_completo": "Leopoldo Calvo-Sotelo y Bustelo",
+  "aliases": ["Calvo-Sotelo", "Calvo Sotelo"],
+  "fecha_nacimiento": "1926-04-14",
+  "fecha_fallecimiento": "2008-05-03",
+  "lugar_nacimiento": "Madrid, España",
+  "cargo_en_23f": "Candidato a Presidente del Gobierno (debate de investidura en curso en el momento del golpe)",
+  "rol_23f": "víctima / testigo",
+  "descripcion_es": "Político de UCD que estaba siendo votado como nuevo Presidente del Gobierno en la sesión de investidura cuando Tejero irrumpió en el Congreso. El golpe del 23-F se produjo exactamente en el momento en que el Congreso procedía a votar su investidura como sucesor de Adolfo Suárez. Fue secuestrado junto al gobierno y los diputados durante 18 horas. Tras el fracaso del golpe, fue investido Presidente del Gobierno el 25 de febrero de 1981. Durante su mandato impulsó la integración de España en la OTAN.",
+  "descripcion_en": "UCD politician who was being voted in as the new Prime Minister in the investiture session when Tejero burst into the Congress. The 23-F coup occurred precisely at the moment the Congress was voting on his investiture as successor to Adolfo Suárez. He was held hostage along with the government and deputies for 18 hours. After the coup's failure, he was invested as Prime Minister on 25 February 1981. During his term he led Spain's integration into NATO.",
+  "acciones_23f": [
+    { "es": "Se encontraba en el estrado siendo sometido a la votación de investidura cuando Tejero irrumpió en el Congreso", "en": "Was at the podium being voted on for investiture when Tejero burst into Congress" },
+    { "es": "Fue secuestrado junto al gobierno y los diputados durante 18 horas", "en": "Was held hostage along with the government and deputies for 18 hours" },
+    { "es": "Fue investido Presidente del Gobierno el 25 de febrero de 1981 tras el fracaso del golpe", "en": "Was invested as Prime Minister on 25 February 1981 after the coup's failure" }
+  ],
+  "condena": "No procesado. Víctima del golpe.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Leopoldo_Calvo-Sotelo",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Leopoldo_Calvo-Sotelo"
+}

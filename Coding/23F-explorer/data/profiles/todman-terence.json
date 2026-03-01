@@ -1,0 +1,20 @@
+{
+  "nombre": "Terence Todman",
+  "nombre_completo": "Terence Alfonso Todman",
+  "aliases": ["Todman", "Embajador Todman"],
+  "fecha_nacimiento": "1926-03-16",
+  "fecha_fallecimiento": "2014-12-19",
+  "lugar_nacimiento": "St. Thomas, Islas Vírgenes de los Estados Unidos",
+  "cargo_en_23f": "Embajador de los Estados Unidos en España",
+  "rol_23f": "actor internacional",
+  "descripcion_es": "Embajador de los Estados Unidos en España durante el 23-F. Aparece en varios documentos del CNI/CESID en relación con los contactos post-golpe. El comandante José Luis Cortina (jefe del AOME/CESID) se reunió con él en los días posteriores al 23-F, lo que generó sospechas sobre posibles contactos entre la inteligencia militar española y la embajada estadounidense. Sus informes a Washington sobre la noche del golpe y los días posteriores son parte del archivo diplomático del período.",
+  "descripcion_en": "United States Ambassador to Spain during 23-F. He appears in several CNI/CESID documents in connection with post-coup contacts. Commander José Luis Cortina (head of AOME/CESID) met with him in the days following 23-F, which raised suspicions about possible contacts between Spanish military intelligence and the US Embassy. His reports to Washington on the coup night and the following days are part of the diplomatic archive of the period.",
+  "acciones_23f": [
+    { "es": "Recibió la visita del Comandante Cortina (jefe del AOME/CESID) en los días posteriores al 23-F", "en": "Received a visit from Commander Cortina (head of AOME/CESID) in the days following 23-F" },
+    { "es": "Sus contactos con el CESID post-golpe fueron documentados por los servicios de inteligencia españoles", "en": "His contacts with CESID after the coup were documented by Spanish intelligence services" },
+    { "es": "Informó a Washington sobre el desarrollo del golpe y la respuesta del Gobierno español", "en": "Reported to Washington on the development of the coup and the Spanish Government's response" }
+  ],
+  "condena": "No procesado. Actor internacional en el contexto del 23-F.",
+  "wikipedia_es": "",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Terence_Todman"
+}

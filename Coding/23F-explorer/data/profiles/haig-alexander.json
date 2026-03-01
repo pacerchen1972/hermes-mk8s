@@ -1,0 +1,20 @@
+{
+  "nombre": "Alexander Haig",
+  "nombre_completo": "Alexander Meigs Haig Jr.",
+  "aliases": ["Haig", "Al Haig"],
+  "fecha_nacimiento": "1924-12-02",
+  "fecha_fallecimiento": "2010-02-20",
+  "lugar_nacimiento": "Bala Cynwyd, Pennsylvania, Estados Unidos",
+  "cargo_en_23f": "Secretario de Estado de los Estados Unidos (Administración Reagan)",
+  "rol_23f": "actor internacional",
+  "descripcion_es": "Secretario de Estado de los Estados Unidos en la administración Reagan durante el 23-F. Su respuesta inicial al golpe fue polémica: declaró que el golpe era 'un asunto interno español', lo que fue interpretado como una falta de apoyo explícito a la democracia española. Esta postura fue criticada tanto en España como internacionalmente. Posteriormente Estados Unidos reafirmó su apoyo a la democracia española, pero el primer comunicado de Haig quedó como un momento incómodo en las relaciones hispano-estadounidenses. España estaba en proceso de negociar su ingreso en la OTAN en ese momento.",
+  "descripcion_en": "United States Secretary of State in the Reagan administration during 23-F. His initial response to the coup was controversial: he declared the coup was 'an internal Spanish matter', which was interpreted as a failure to explicitly support Spanish democracy. This stance was criticised both in Spain and internationally. The United States subsequently reaffirmed its support for Spanish democracy, but Haig's initial communiqué remained an uncomfortable moment in Spanish-American relations. Spain was in the process of negotiating its NATO membership at the time.",
+  "acciones_23f": [
+    { "es": "Declaró inicialmente que el golpe era 'un asunto interno español', en lugar de condenar explícitamente el intento golpista", "en": "Initially declared the coup was 'an internal Spanish matter' rather than explicitly condemning the coup attempt" },
+    { "es": "Su postura fue interpretada como falta de apoyo explícito a la democracia española por parte de Washington", "en": "His stance was interpreted as a failure by Washington to explicitly support Spanish democracy" },
+    { "es": "Estados Unidos reafirmó posteriormente su apoyo a la democracia española tras las críticas internacionales", "en": "The United States subsequently reaffirmed its support for Spanish democracy following international criticism" }
+  ],
+  "condena": "No procesado. Actor internacional en el contexto del 23-F.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Alexander_Haig",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Alexander_Haig"
+}

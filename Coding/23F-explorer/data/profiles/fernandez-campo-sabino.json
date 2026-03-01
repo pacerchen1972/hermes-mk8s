@@ -1,0 +1,21 @@
+{
+  "nombre": "Sabino Fernández Campo",
+  "nombre_completo": "Sabino Fernández Campo",
+  "aliases": ["Fernández Campo", "Conde de Latores"],
+  "fecha_nacimiento": "1918-10-09",
+  "fecha_fallecimiento": "2009-11-25",
+  "lugar_nacimiento": "Santa María de Grado, Asturias, España",
+  "cargo_en_23f": "Secretario General de la Casa del Rey (Jefe de la Casa de Su Majestad el Rey)",
+  "rol_23f": "leal al orden constitucional",
+  "descripcion_es": "Secretario General de la Casa del Rey y hombre de máxima confianza de Juan Carlos I. Durante la noche del 23-F fue el principal coordinador desde el Palacio de La Zarzuela: redactó el télex histórico que el Rey envió a todos los Capitanes Generales, coordinó las comunicaciones con los mandos militares leales y aconsejó al Monarca en cada paso de la noche. Se convirtió en el cerebro operativo de la respuesta institucional al golpe desde Zarzuela. Más tarde fue elevado a la nobleza con el título de Conde de Latores.",
+  "descripcion_en": "Secretary General of the Royal Household and King Juan Carlos I's most trusted aide. During the night of 23-F he was the main coordinator at Zarzuela Palace: he drafted the historic telex the King sent to all Captain-Generals, coordinated communications with loyal military commanders, and advised the Monarch at every step through the night. He became the operational brain of the institutional response to the coup from Zarzuela. He was later ennobled with the title of Count of Latores.",
+  "acciones_23f": [
+    { "es": "Coordinó todas las comunicaciones desde el Palacio de La Zarzuela durante la noche del golpe", "en": "Coordinated all communications from Zarzuela Palace throughout the coup night" },
+    { "es": "Redactó el histórico télex del Rey a todos los Capitanes Generales ordenando el restablecimiento del orden constitucional (21:35)", "en": "Drafted the King's historic telex to all Captain-Generals ordering restoration of constitutional order (21:35)" },
+    { "es": "Aconsejó al Rey Juan Carlos en cada decisión crítica de la noche del 23-F", "en": "Advised King Juan Carlos on every critical decision during the night of 23-F" },
+    { "es": "Coordinó con la JUJEM y los mandos militares leales la respuesta institucional al golpe", "en": "Coordinated with the JUJEM and loyal military commanders the institutional response to the coup" }
+  ],
+  "condena": "No procesado. Papel clave en el fracaso del golpe desde La Zarzuela.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Sabino_Fern%C3%A1ndez_Campo",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Sabino_Fern%C3%A1ndez_Campo"
+}

@@ -1,0 +1,23 @@
+{
+  "nombre": "Antonio Tejero Molina",
+  "nombre_completo": "Antonio Tejero Molina",
+  "aliases": ["Tejero", "El Tejerazo"],
+  "fecha_nacimiento": "1932-08-28",
+  "fecha_fallecimiento": "2026-02-25",
+  "lugar_nacimiento": "Málaga, España",
+  "cargo_en_23f": "Teniente Coronel de la Guardia Civil",
+  "rol_23f": "conspirador",
+  "descripcion_es": "Teniente Coronel de la Guardia Civil que lideró el asalto al Congreso de los Diputados el 23 de febrero de 1981 al frente de más de 200 guardias civiles armados. Disparó al techo de la sala de plenos para intimidar a los diputados. Mantuvo secuestrado el Congreso durante 18 horas hasta rendirse a mediodía del 24 de febrero. En la puerta del Congreso rechazó a Armada al no llevar la lista de ministros acordada. Falleció el 25 de febrero de 2026, el mismo día en que España desclasificó los documentos del golpe. Había protagonizado también un intento golpista previo en 1978 ('Operación Galaxia').",
+  "descripcion_en": "Civil Guard Lieutenant Colonel who led the assault on the Congress of Deputies on 23 February 1981 with more than 200 armed civil guards. He fired at the ceiling of the chamber to intimidate the deputies. He held the Congress hostage for 18 hours before surrendering at noon on 24 February. At the Congress door he refused entry to Armada for not having the agreed ministerial list. He died on 25 February 2026, the same day Spain declassified the coup documents. He had also led a previous coup attempt in 1978 ('Operación Galaxia').",
+  "acciones_23f": [
+    { "es": "Lideró el asalto al Congreso de los Diputados con más de 200 guardias civiles armados a las 18:23", "en": "Led the assault on the Congress of Deputies with more than 200 armed civil guards at 18:23" },
+    { "es": "Disparó al techo de la sala de plenos gritando '¡Todo el mundo al suelo!'", "en": "Fired at the ceiling of the chamber shouting 'Everybody on the floor!'" },
+    { "es": "Rechazó la entrada de Armada en el Congreso al comprobar que no traía la lista de ministros acordada", "en": "Refused Armada entry to Congress upon finding he did not bring the agreed ministerial list" },
+    { "es": "Mantuvo secuestrados a los diputados, gobierno y rey de facto durante 18 horas", "en": "Held deputies, government and the de-facto head of state hostage for 18 hours" },
+    { "es": "Se rindió a mediodía del 24 de febrero tras el discurso televisado del Rey", "en": "Surrendered at noon on 24 February following the King's televised address" },
+    { "es": "En su cuarta declaración en el juicio (20 feb 1982) afirmó que más miembros del CESID estaban implicados de los procesados", "en": "In his fourth trial declaration (20 Feb 1982) stated that more CESID members were implicated than those prosecuted" }
+  ],
+  "condena": "30 años de prisión (Tribunal Supremo, 22 abril 1983). Excarcelado en 1996. Primera condena del CSJM: 30 años (3 junio 1982).",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Antonio_Tejero",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Antonio_Tejero"
+}

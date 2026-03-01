@@ -1,0 +1,20 @@
+{
+  "nombre": "Emilio Alonso Manglano",
+  "nombre_completo": "Emilio Alonso Manglano",
+  "aliases": ["Alonso Manglano"],
+  "fecha_nacimiento": "1924-09-04",
+  "fecha_fallecimiento": "2010-06-03",
+  "lugar_nacimiento": "Valencia, España",
+  "cargo_en_23f": "Director General del CESID (Centro Superior de Información de la Defensa), nombrado tras el 23-F",
+  "rol_23f": "leal al orden constitucional",
+  "descripcion_es": "General del Ejército nombrado Director General del CESID (Centro Superior de Información de la Defensa) inmediatamente después del 23-F para reformar y depurar el servicio de inteligencia militar, en el que algunos agentes habían colaborado con los golpistas. Bajo su dirección (1981–1995), el CESID fue transformado en el principal servicio de inteligencia del Estado democrático español. Su larga dirección estuvo marcada posteriormente por escándalos de espionaje político interno.",
+  "descripcion_en": "Army General appointed Director General of CESID (Military Intelligence Centre) immediately after 23-F to reform and purge the military intelligence service, in which some agents had collaborated with the coup plotters. Under his leadership (1981–1995), CESID was transformed into the main intelligence service of the Spanish democratic state. His long tenure was later marked by political espionage scandals.",
+  "acciones_23f": [
+    { "es": "Fue nombrado Director del CESID inmediatamente después del 23-F para depurar el servicio de inteligencia", "en": "Was appointed CESID Director immediately after 23-F to purge the intelligence service" },
+    { "es": "Coordinó la investigación interna sobre la implicación de agentes del CESID en el golpe", "en": "Coordinated the internal investigation into CESID agents' involvement in the coup" },
+    { "es": "Dirigió el CESID durante 14 años (1981–1995), transformando el servicio tras el golpe", "en": "Led CESID for 14 years (1981–1995), transforming the service after the coup" }
+  ],
+  "condena": "No procesado en relación con el 23-F.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Emilio_Alonso_Manglano",
+  "wikipedia_en": ""
+}

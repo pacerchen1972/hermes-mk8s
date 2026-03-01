@@ -1,0 +1,20 @@
+{
+  "nombre": "Juan García Carrés",
+  "nombre_completo": "Juan García Carrés",
+  "aliases": ["García Carrés"],
+  "fecha_nacimiento": "1920-01-01",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "Presidente del Sindicato Vertical de Actividades Diversas (dirigente sindical franquista)",
+  "rol_23f": "conspirador (civil)",
+  "descripcion_es": "Dirigente sindical del régimen franquista y el principal conspirador civil del 23-F. Actuó como enlace entre los golpistas militares y sectores civiles ultraderechistas. Estuvo presente en el Congreso durante el asalto, lo que confirmó la existencia de una componente civil en la conspiración. Fue el único civil condenado entre los principales acusados. Su presencia en el Congreso al lado de los guardias civiles de Tejero evidenció la coordinación previa con el elemento civil de la trama.",
+  "descripcion_en": "Francoist trade union official and the main civilian conspirator of 23-F. He acted as liaison between the military coup plotters and far-right civilian sectors. He was present in Congress during the assault, confirming the existence of a civilian component in the conspiracy. He was the only civilian convicted among the principal defendants. His presence in the Congress alongside Tejero's civil guards evidenced prior coordination with the civilian element of the plot.",
+  "acciones_23f": [
+    { "es": "Actuó como enlace entre los militares golpistas y sectores civiles ultraderechistas", "en": "Acted as liaison between the military coup plotters and far-right civilian sectors" },
+    { "es": "Estuvo presente físicamente en el Congreso durante el asalto de Tejero", "en": "Was physically present in Congress during Tejero's assault" },
+    { "es": "Su presencia confirmó la componente civil de la conspiración del 23-F", "en": "His presence confirmed the civilian component of the 23-F conspiracy" }
+  ],
+  "condena": "2 años de prisión (Tribunal Supremo, 22 abril 1983).",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Juan_Garc%C3%ADa_Carr%C3%A9s",
+  "wikipedia_en": ""
+}

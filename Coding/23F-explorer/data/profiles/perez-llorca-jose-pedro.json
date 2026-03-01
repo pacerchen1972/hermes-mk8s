@@ -1,0 +1,19 @@
+{
+  "nombre": "José Pedro Pérez-Llorca",
+  "nombre_completo": "José Pedro Pérez-Llorca y Rodrigo",
+  "aliases": ["Pérez-Llorca", "Pérez Llorca"],
+  "fecha_nacimiento": "1940-12-21",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "Cádiz, España",
+  "cargo_en_23f": "Ministro de Asuntos Exteriores de España",
+  "rol_23f": "víctima / testigo",
+  "descripcion_es": "Ministro de Asuntos Exteriores de España en el momento del golpe del 23-F. Fue secuestrado en el Congreso de los Diputados junto al gobierno y los diputados durante 18 horas. Tras el fracaso del golpe, gestionó la respuesta diplomática de España ante la comunidad internacional, recibiendo los mensajes de apoyo de líderes como Reagan, Mitterrand, la Reina Isabel II y el Canciller Schmidt. Su ministerio acumuló un importante archivo de correspondencia diplomática relativa al golpe.",
+  "descripcion_en": "Spanish Minister of Foreign Affairs at the time of the 23-F coup. He was held hostage in the Congress of Deputies along with the government and deputies for 18 hours. After the coup's failure, he managed Spain's diplomatic response to the international community, receiving messages of support from leaders including Reagan, Mitterrand, Queen Elizabeth II and Chancellor Schmidt. His ministry accumulated an important diplomatic correspondence archive relating to the coup.",
+  "acciones_23f": [
+    { "es": "Fue secuestrado en el Congreso de los Diputados durante 18 horas junto al gobierno y los diputados", "en": "Was held hostage in the Congress of Deputies for 18 hours along with the government and deputies" },
+    { "es": "Gestionó la respuesta diplomática de España y recibió los mensajes de apoyo internacional a la democracia española", "en": "Managed Spain's diplomatic response and received international messages of support for Spanish democracy" }
+  ],
+  "condena": "No procesado. Víctima del golpe.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Jos%C3%A9_Pedro_P%C3%A9rez-Llorca",
+  "wikipedia_en": ""
+}

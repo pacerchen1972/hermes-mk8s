@@ -1,0 +1,19 @@
+{
+  "nombre": "Vicente Gómez Iglesias",
+  "nombre_completo": "Vicente Gómez Iglesias",
+  "aliases": ["Gómez Iglesias"],
+  "fecha_nacimiento": "",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "Capitán de la Guardia Civil",
+  "rol_23f": "conspirador",
+  "descripcion_es": "Capitán de la Guardia Civil que actuó como uno de los principales enlace y organizador del golpe del 23-F dentro del cuerpo. Fue uno de los intermediarios clave en la coordinación entre Tejero y Armada en los meses previos al golpe. Participó en la planificación operativa del asalto al Congreso.",
+  "descripcion_en": "Civil Guard Captain who served as one of the principal liaisons and organizers of the 23-F coup within the Corps. He was one of the key intermediaries in coordinating between Tejero and Armada in the months prior to the coup. He participated in the operational planning of the Congress assault.",
+  "acciones_23f": [
+    { "es": "Actuó como enlace clave entre Tejero y Armada durante los meses de conspiración previos al golpe", "en": "Served as key liaison between Tejero and Armada during the months of conspiracy before the coup" },
+    { "es": "Participó en la planificación operativa del asalto al Congreso de los Diputados", "en": "Participated in the operational planning of the assault on the Congress of Deputies" }
+  ],
+  "condena": "6 años de prisión (Tribunal Supremo, 22 abril 1983).",
+  "wikipedia_es": "",
+  "wikipedia_en": ""
+}

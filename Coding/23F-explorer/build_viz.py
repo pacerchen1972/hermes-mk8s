@@ -17,9 +17,10 @@ import urllib.request
 from collections import defaultdict
 from pathlib import Path
 
-DATA_DIR   = Path(__file__).parent / "data"
-OUTPUT     = Path(__file__).parent / "index.html"
-DOCS_BASE  = Path.home() / "Downloads" / "23F"
+DATA_DIR     = Path(__file__).parent / "data"
+PROFILES_DIR = Path(__file__).parent / "data" / "profiles"
+OUTPUT       = Path(__file__).parent / "index.html"
+DOCS_BASE    = Path.home() / "Downloads" / "23F"
 VENDOR_DIR = Path(__file__).parent / "vendor"
 VENDOR_D3  = VENDOR_DIR / "d3.min.js"
 D3_URL     = "https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"
@@ -47,6 +48,35 @@ def load_docs():
             print(f"  ⚠  skip {path.name}: {e}")
     return docs
 
+
+def slugify_name(s: str) -> str:
+    """Slugify for profile lookup (shared with build_graph slugify)."""
+    s = s.lower().strip()
+    s = re.sub(r"[^\w\s-]", "", s)
+    s = re.sub(r"[\s_]+", "-", s)
+    return s
+
+
+def load_profiles() -> dict:
+    """Load enriched person profiles from data/profiles/*.json.
+    Returns a dict keyed by slugified name for fast lookup, covering aliases."""
+    profiles = {}
+    if not PROFILES_DIR.exists():
+        return profiles
+    count = 0
+    for path in sorted(PROFILES_DIR.glob("*.json")):
+        try:
+            p = json.loads(path.read_text())
+            for name in [p.get("nombre", "")] + p.get("aliases", []):
+                if name:
+                    profiles[slugify_name(name)] = p
+            count += 1
+        except Exception as e:
+            print(f"  ⚠  skip profile {path.name}: {e}")
+    print(f"👤  Loaded {count} person profiles")
+    return profiles
+
+
 # ── Build graph data ──────────────────────────────────────────────────────────
 NODE_COLORS = {
     "person":       "#e05252",   # red
@@ -61,7 +91,7 @@ def slugify(s: str) -> str:
     s = re.sub(r"[\s_]+", "-", s)
     return s
 
-def build_graph(docs: list) -> dict:
+def build_graph(docs: list, profiles: dict = None) -> dict:
     nodes = {}   # id → node dict
     edges = []   # list of edge dicts
     node_id_counter = [0]
@@ -110,10 +140,21 @@ def build_graph(docs: list) -> dict:
             nombre = person.get("nombre", "").strip()
             if not nombre or len(nombre) < 3:
                 continue
+            # Merge enriched profile if available
+            prof = (profiles or {}).get(slugify_name(nombre), {})
             pid = get_or_create(nombre, "person", {
-                "cargo":    person.get("cargo", ""),
-                "org":      person.get("organizacion", ""),
-                "rol_23f":  person.get("rol_en_23f", ""),
+                "cargo":           prof.get("cargo_en_23f") or person.get("cargo", ""),
+                "org":             person.get("organizacion", ""),
+                "rol_23f":         prof.get("rol_23f") or person.get("rol_en_23f", ""),
+                "nombre_completo": prof.get("nombre_completo", nombre),
+                "fecha_nac":       prof.get("fecha_nacimiento", ""),
+                "fecha_def":       prof.get("fecha_fallecimiento", ""),
+                "descripcion_es":  prof.get("descripcion_es", ""),
+                "descripcion_en":  prof.get("descripcion_en", ""),
+                "acciones_23f":    prof.get("acciones_23f", []),
+                "condena":         prof.get("condena", ""),
+                "wikipedia_es":    prof.get("wikipedia_es", ""),
+                "wikipedia_en":    prof.get("wikipedia_en", ""),
             })
             nodes[pid]["docs"].append(doc_node_id)
             edges.append({
@@ -681,9 +722,32 @@ function showDetail(d) {
   else if (d.type === 'person') {
     if (d.cargo) html += `<div class="detail-subtitle">🎖 ${esc(d.cargo)}</div>`;
     if (d.org)   html += `<div class="detail-subtitle">🏛 ${esc(d.org)}</div>`;
+    // Birth/death dates if available from enriched profile
+    if (d.fecha_nac) {
+      const lifespan = d.fecha_def ? `${esc(d.fecha_nac)} – ${esc(d.fecha_def)}` : `n. ${esc(d.fecha_nac)}`;
+      html += `<div class="detail-subtitle">📆 ${lifespan}</div>`;
+    }
     if (d.rol_23f) {
       const rolColors = { conspirador:'#e05252', leal:'#38c77e', neutral:'#8b949e', víctima:'#f0b429', testigo:'#4a90d9' };
       html += `<span class="detail-type-badge" style="background:${esc(rolColors[d.rol_23f]||'#8b949e')};color:#fff">${esc(d.rol_23f)}</span>`;
+    }
+    // Enriched biographical description
+    const desc = lang === 'es' ? d.descripcion_es : d.descripcion_en;
+    if (desc) html += `<div class="detail-section"><h4>${lang==='es'?'Biografía':'Biography'}</h4><p>${esc(desc)}</p></div>`;
+    // Key actions during 23-F
+    if (d.acciones_23f && d.acciones_23f.length) {
+      html += `<div class="detail-section"><h4>${lang==='es'?'Acciones el 23-F':'Actions on 23-F'}</h4><ul style="padding-left:16px;margin:0">`;
+      d.acciones_23f.forEach(a => { html += `<li style="font-size:12px;color:#c9d1d9;margin-bottom:4px">${esc(typeof a === 'object' ? (lang==='es'?a.es:a.en)||a.es : a)}</li>`; });
+      html += `</ul></div>`;
+    }
+    // Trial sentence
+    if (d.condena) html += `<div class="detail-section"><h4>${lang==='es'?'Condena':'Sentence'}</h4><p style="color:#f0b429">${esc(d.condena)}</p></div>`;
+    // Wikipedia links
+    if (d.wikipedia_es || d.wikipedia_en) {
+      html += `<div class="detail-section"><h4>Wikipedia</h4>`;
+      if (d.wikipedia_es) html += `<a href="${esc(d.wikipedia_es)}" target="_blank" rel="noopener noreferrer" style="display:block;font-size:12px;color:#58a6ff;margin-bottom:4px">🔗 ES</a>`;
+      if (d.wikipedia_en) html += `<a href="${esc(d.wikipedia_en)}" target="_blank" rel="noopener noreferrer" style="display:block;font-size:12px;color:#58a6ff">🔗 EN</a>`;
+      html += `</div>`;
     }
     const connectedNodes = GRAPH_DATA.edges
       .filter(e => (e.source.id||e.source) === d.id || (e.target.id||e.target) === d.id)
@@ -993,7 +1057,8 @@ def main():
 
     print(f"📂  Loaded {len(docs)} extracted documents")
 
-    graph    = build_graph(docs)
+    profiles = load_profiles()
+    graph    = build_graph(docs, profiles)
     timeline = build_timeline(docs)
 
     print(f"🕸   Graph: {len(graph['nodes'])} nodes, {len(graph['edges'])} edges")

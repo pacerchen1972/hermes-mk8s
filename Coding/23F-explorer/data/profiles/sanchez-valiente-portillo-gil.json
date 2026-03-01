@@ -1,0 +1,20 @@
+{
+  "nombre": "Gil Sánchez Valiente",
+  "nombre_completo": "Gil Sánchez Valiente Portillo",
+  "aliases": ["Sánchez Valiente", "Capitán Sánchez Valiente"],
+  "fecha_nacimiento": "",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "Capitán de la Guardia Civil",
+  "rol_23f": "conspirador (fugado)",
+  "descripcion_es": "Capitán de la Guardia Civil implicado en el golpe del 23-F que huyó de España antes de poder ser procesado. Escapó al extranjero utilizando un pasaporte argentino. Según los documentos del CESID, se refugió en Grecia, mientras su esposa se encontraba en Londres. Su fuga y la posesión de documentación argentina falsa apuntaban a una red de apoyo internacional para los conspiradores fugados.",
+  "descripcion_en": "Civil Guard Captain implicated in the 23-F coup who fled Spain before he could be prosecuted. He escaped abroad using an Argentine passport. According to CESID documents, he took refuge in Greece, while his wife was in London. His flight and possession of false Argentine documentation pointed to an international support network for the fugitive conspirators.",
+  "acciones_23f": [
+    { "es": "Participó en la conspiración del 23-F como oficial de la Guardia Civil", "en": "Participated in the 23-F conspiracy as a Civil Guard officer" },
+    { "es": "Huyó de España antes de poder ser detenido y procesado", "en": "Fled Spain before he could be arrested and prosecuted" },
+    { "es": "Se refugió en Grecia con un pasaporte argentino; su esposa residía en Londres", "en": "Took refuge in Greece with an Argentine passport; his wife was living in London" }
+  ],
+  "condena": "Procesado en ausencia. Huyó al extranjero con documentación argentina.",
+  "wikipedia_es": "",
+  "wikipedia_en": ""
+}

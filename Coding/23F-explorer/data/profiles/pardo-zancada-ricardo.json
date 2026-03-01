@@ -1,0 +1,21 @@
+{
+  "nombre": "Ricardo Pardo Zancada",
+  "nombre_completo": "Ricardo Pardo Zancada",
+  "aliases": ["Pardo Zancada"],
+  "fecha_nacimiento": "1943-10-26",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "Comandante del Ejército de Tierra, adscrito a la División Acorazada Brunete",
+  "rol_23f": "conspirador",
+  "descripcion_es": "Comandante del Ejército de Tierra vinculado a la División Acorazada Brunete. Fue uno de los conspiradores más activos del 23-F: lideró un grupo de más de 50 soldados y vehículos blindados desde la División Brunete hasta el Congreso de los Diputados para reforzar a Tejero. Actuó de enlace entre Tejero y los mandos militares golpistas. Fue uno de los denominados 'duros' de la conspiración, partidario de una solución militar directa. Condenado a 12 años de prisión. Después de cumplir condena escribió sus memorias sobre el golpe.",
+  "descripcion_en": "Army Major attached to the Brunete Armoured Division. He was one of the most active conspirators of 23-F: he led a group of more than 50 soldiers and armoured vehicles from the Brunete Division to the Congress of Deputies to reinforce Tejero. He acted as liaison between Tejero and the military coup leaders. He was one of the so-called 'hardliners' of the conspiracy, in favour of a direct military solution. Sentenced to 12 years in prison. After serving his sentence he wrote his memoirs about the coup.",
+  "acciones_23f": [
+    { "es": "Lideró un grupo de más de 50 soldados armados desde la División Brunete hasta el Congreso para reforzar a Tejero", "en": "Led a group of more than 50 armed soldiers from the Brunete Division to Congress to reinforce Tejero" },
+    { "es": "Actuó como enlace entre Tejero en el Congreso y los mandos militares golpistas", "en": "Acted as liaison between Tejero in Congress and the military coup leaders" },
+    { "es": "Se reunió con los agentes del CESID que entraron al Congreso durante el asedio", "en": "Met with CESID agents who entered the Congress during the siege" },
+    { "es": "Fue uno de los últimos en rendirse cuando el golpe fracasó", "en": "Was one of the last to surrender when the coup failed" }
+  ],
+  "condena": "12 años de prisión (Tribunal Supremo, 22 abril 1983). Primera condena del CSJM: 6 años (3 junio 1982).",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Ricardo_Pardo_Zancada",
+  "wikipedia_en": ""
+}

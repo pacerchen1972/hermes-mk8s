@@ -1,0 +1,19 @@
+{
+  "nombre": "Pedro Mas Oliver",
+  "nombre_completo": "Pedro Mas Oliver",
+  "aliases": ["Mas Oliver"],
+  "fecha_nacimiento": "",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "Capitán de la Guardia Civil",
+  "rol_23f": "conspirador",
+  "descripcion_es": "Capitán de la Guardia Civil que participó en la conspiración y ejecución del golpe del 23-F. Fue uno de los oficiales que colaboró con Tejero en la planificación y el asalto al Congreso de los Diputados. Procesado en la Causa 2/81 y condenado a 6 años de prisión.",
+  "descripcion_en": "Civil Guard Captain who participated in the conspiracy and execution of the 23-F coup. He was one of the officers who collaborated with Tejero in the planning and assault on the Congress of Deputies. Prosecuted in Case 2/81 and sentenced to 6 years in prison.",
+  "acciones_23f": [
+    { "es": "Colaboró con Tejero en la planificación del asalto al Congreso de los Diputados", "en": "Collaborated with Tejero in planning the assault on the Congress of Deputies" },
+    { "es": "Participó en el asalto al Congreso el 23 de febrero de 1981", "en": "Participated in the Congress assault on 23 February 1981" }
+  ],
+  "condena": "6 años de prisión (Tribunal Supremo, 22 abril 1983).",
+  "wikipedia_es": "",
+  "wikipedia_en": ""
+}

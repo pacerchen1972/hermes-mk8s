@@ -1,0 +1,21 @@
+{
+  "nombre": "Alfonso Armada Comyn",
+  "nombre_completo": "Alfonso Armada y Comyn",
+  "aliases": ["Alfonso Armada"],
+  "fecha_nacimiento": "1920-01-14",
+  "fecha_fallecimiento": "2013-10-30",
+  "lugar_nacimiento": "Madrid, España",
+  "cargo_en_23f": "General de División, Segundo Jefe del Estado Mayor del Ejército",
+  "rol_23f": "conspirador",
+  "descripcion_es": "General de División y ex secretario personal del Rey Juan Carlos I, Armada fue la mente política del golpe del 23-F. Planeó presentarse ante el Congreso secuestrado como candidato a Presidente del Gobierno de consenso nacional, con el apoyo implícito del Rey. Tejero lo rechazó en la puerta del Congreso al comprobar que no llevaba la lista de ministros acordada. Condenado a 6 años por el Consejo Supremo de Justicia Militar (3 junio 1982) y a 30 años por el Tribunal Supremo (22 abril 1983). Fue excarcelado en 1988.",
+  "descripcion_en": "Major General and former personal secretary to King Juan Carlos I, Armada was the political brain of the 23-F coup. He planned to present himself to the hostage Congress as a consensus Prime Minister candidate, with the King's implicit backing. Tejero refused him entry at the Congress door when he arrived without the agreed ministerial list. Sentenced to 6 years by the Supreme Military Council (3 June 1982) and to 30 years by the Supreme Court (22 April 1983). Released in 1988.",
+  "acciones_23f": [
+    { "es": "Coordinó con Tejero y Milans el plan del golpe durante meses previos", "en": "Coordinated with Tejero and Milans the coup plan during preceding months" },
+    { "es": "Se presentó en el Congreso ocupado para intentar imponerse como presidente del Gobierno", "en": "Presented himself at the occupied Congress to attempt to impose himself as Prime Minister" },
+    { "es": "Fue rechazado por Tejero en la puerta al no llevar la lista de ministros acordada", "en": "Was refused entry by Tejero at the door for not having the agreed ministerial list" },
+    { "es": "Su rechazo en la puerta marcó el inicio del fracaso del golpe", "en": "His rejection at the door marked the beginning of the coup's failure" }
+  ],
+  "condena": "30 años de prisión (Tribunal Supremo, 22 abril 1983). Excarcelado en 1988. Primera condena del CSJM: 6 años (3 junio 1982).",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Golpe_de_Estado_en_Espa%C3%B1a_de_1981",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Alfonso_Armada"
+}

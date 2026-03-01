@@ -1,0 +1,23 @@
+{
+  "nombre": "Juan Carlos I",
+  "nombre_completo": "Juan Carlos Alfonso Víctor María de Borbón y Borbón-Dos Sicilias",
+  "aliases": ["Rey Juan Carlos", "Juan Carlos I de España", "El Rey"],
+  "fecha_nacimiento": "1938-01-05",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "Roma, Italia",
+  "cargo_en_23f": "Rey de España, Jefe Supremo de las Fuerzas Armadas",
+  "rol_23f": "defensor de la democracia",
+  "descripcion_es": "Rey de España y Jefe Supremo de las Fuerzas Armadas. Su actuación durante la noche del 23-F fue decisiva para el fracaso del golpe. Rechazó explícitamente la entrada de Armada en La Zarzuela, llamó personalmente a Milans del Bosch para ordenarle retirar los tanques, y apareció en televisión con uniforme de Capitán General a la 01:23 del 24 de febrero para ordenar el restablecimiento del orden constitucional. Los conspiradores habían contado con su apoyo implícito, que nunca llegó. En el juicio, fue mencionado más de 74 veces en una sola sesión por la defensa, que intentó implicarle como conocedor previo del golpe.",
+  "descripcion_en": "King of Spain and Supreme Commander of the Armed Forces. His actions during the night of 23-F were decisive in the coup's failure. He explicitly refused Armada entry to La Zarzuela, personally called Milans del Bosch to order tank withdrawal, and appeared on television in the uniform of Captain General at 01:23 on 24 February ordering the restoration of constitutional order. The conspirators had counted on his implicit support, which never came. During the trial, he was mentioned more than 74 times in a single session by the defence, which attempted to implicate him as having prior knowledge of the coup.",
+  "acciones_23f": [
+    { "es": "Recibió la noticia del asalto al Congreso a las 18:22 por la radio en el Palacio de La Zarzuela", "en": "Received news of the Congress assault at 18:22 via radio at Zarzuela Palace" },
+    { "es": "A las 19:00 rechazó explícitamente la entrada de Armada en La Zarzuela", "en": "At 19:00 explicitly refused Armada access to La Zarzuela" },
+    { "es": "Ordenó a la JUJEM asumir el mando militar y coordinar la respuesta leal", "en": "Ordered the JUJEM to take military command and coordinate the loyal response" },
+    { "es": "Habló directamente con Milans del Bosch (Valencia) ordenándole retirar los tanques", "en": "Spoke directly with Milans del Bosch (Valencia) ordering him to withdraw the tanks" },
+    { "es": "A las 21:35 envió el histórico télex a todos los Capitanes Generales ordenando el restablecimiento del orden constitucional", "en": "At 21:35 sent the historic telex to all Captain-Generals ordering the restoration of constitutional order" },
+    { "es": "Apareció en televisión con uniforme de Capitán General a la 01:23 del 24 de febrero condenando el golpe", "en": "Appeared on television in Captain General uniform at 01:23 on 24 February condemning the coup" }
+  ],
+  "condena": "No procesado. Su papel fue decisivo para el fracaso del golpe.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Juan_Carlos_I",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Juan_Carlos_I"
+}

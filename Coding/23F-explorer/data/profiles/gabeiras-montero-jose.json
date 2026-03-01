@@ -1,0 +1,20 @@
+{
+  "nombre": "José Gabeiras Montero",
+  "nombre_completo": "José Gabeiras Montero",
+  "aliases": ["Gabeiras", "General Gabeiras"],
+  "fecha_nacimiento": "1924-01-01",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "General del Ejército, Jefe del Estado Mayor del Ejército (JEME)",
+  "rol_23f": "leal al orden constitucional",
+  "descripcion_es": "General del Ejército y Jefe del Estado Mayor del Ejército (JEME) durante el 23-F. Fue uno de los mandos de la JUJEM (Junta de Jefes de Estado Mayor) que recibió las órdenes del Rey Juan Carlos para coordinar la respuesta leal de las Fuerzas Armadas al golpe. La defensa de los golpistas en el juicio invocó el 'pacto del capó', alegando que Gabeiras había pactado con los conspiradores una rendición negociada desde el capó de un vehículo militar. Esta versión fue refutada.",
+  "descripcion_en": "Army General and Chief of the Army General Staff (JEME) during 23-F. He was one of the JUJEM (Joint Chiefs of Staff) commanders who received King Juan Carlos's orders to coordinate the loyal Armed Forces response to the coup. The coup plotters' defence at trial invoked the 'pacto del capó', claiming Gabeiras had negotiated a surrender deal with the conspirators from the hood of a military vehicle. This version was refuted.",
+  "acciones_23f": [
+    { "es": "Como Jefe del Estado Mayor del Ejército, fue uno de los mandos de la JUJEM que coordinó la respuesta leal al golpe", "en": "As Chief of the Army General Staff, was one of the JUJEM commanders who coordinated the loyal response to the coup" },
+    { "es": "Recibió las órdenes del Rey Juan Carlos para mantener el orden constitucional", "en": "Received King Juan Carlos's orders to maintain constitutional order" },
+    { "es": "La defensa alegó un 'pacto del capó' con los golpistas, versión refutada por Gabeiras", "en": "The defence alleged a 'pact on the car hood' with the coup plotters, a version refuted by Gabeiras" }
+  ],
+  "condena": "No procesado.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Jos%C3%A9_Gabeiras_Montero",
+  "wikipedia_en": ""
+}

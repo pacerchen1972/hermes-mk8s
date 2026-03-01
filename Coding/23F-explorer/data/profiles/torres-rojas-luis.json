@@ -1,0 +1,20 @@
+{
+  "nombre": "Luis Torres Rojas",
+  "nombre_completo": "Luis Torres Rojas",
+  "aliases": ["Torres Rojas", "General Torres Rojas"],
+  "fecha_nacimiento": "1930-01-01",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "General de Brigada, Comandante de la División Acorazada Brunete nº 1 (Madrid)",
+  "rol_23f": "conspirador",
+  "descripcion_es": "General de Brigada al mando de la División Acorazada Brunete nº 1, la principal fuerza blindada próxima a Madrid. Participó en la conspiración del 23-F coordinando el posible empleo de la División Brunete para apoyar el golpe en Madrid. Bajo su mando o con su coordinación, el Comandante Pardo Zancada sacó un destacamento de soldados y vehículos blindados hacia el Congreso. Fue relevado de su mando tras el fracaso del golpe. Condenado a 12 años de prisión.",
+  "descripcion_en": "Brigadier General commanding the Brunete No. 1 Armoured Division, the main armoured force near Madrid. He participated in the 23-F conspiracy coordinating the potential use of the Brunete Division to support the coup in Madrid. Under his command or with his coordination, Major Pardo Zancada dispatched a detachment of soldiers and armoured vehicles to Congress. He was relieved of his command after the coup's failure. Sentenced to 12 years in prison.",
+  "acciones_23f": [
+    { "es": "Coordinó el posible empleo de la División Acorazada Brunete para apoyar el golpe en Madrid", "en": "Coordinated the potential use of the Brunete Armoured Division to support the coup in Madrid" },
+    { "es": "Bajo su mando, el Comandante Pardo Zancada sacó soldados y blindados de la División Brunete hacia el Congreso", "en": "Under his command, Major Pardo Zancada dispatched soldiers and armoured vehicles from the Brunete Division to Congress" },
+    { "es": "Fue relevado de su mando tras el fracaso del golpe", "en": "Was relieved of his command after the coup's failure" }
+  ],
+  "condena": "12 años de prisión (Tribunal Supremo, 22 abril 1983).",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Luis_Torres_Rojas",
+  "wikipedia_en": ""
+}

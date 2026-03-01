@@ -1,0 +1,21 @@
+{
+  "nombre": "Manuel Gutiérrez Mellado",
+  "nombre_completo": "Manuel Gutiérrez Mellado",
+  "aliases": ["Gutiérrez Mellado", "General Gutiérrez Mellado"],
+  "fecha_nacimiento": "1912-02-13",
+  "fecha_fallecimiento": "1995-12-25",
+  "lugar_nacimiento": "Madrid, España",
+  "cargo_en_23f": "General del Ejército, Vicepresidente Primero del Gobierno para Asuntos de Defensa",
+  "rol_23f": "defensor de la democracia",
+  "descripcion_es": "General del Ejército y Vicepresidente Primero del Gobierno encargado de Defensa. Su imagen poniéndose en pie y enfrentándose solo a los guardias civiles de Tejero en el hemiciclo del Congreso se convirtió en el símbolo más icónico de la resistencia civil durante el 23-F. Fue físicamente empujado y forcejeó con varios guardias civiles que intentaron obligarle a sentarse. Había sido el artífice de la reforma militar de la Transición. Murió el día de Navidad de 1995.",
+  "descripcion_en": "Army General and First Deputy Prime Minister for Defence. His image standing up alone to face Tejero's civil guards in the Congress chamber became the most iconic symbol of civilian resistance during 23-F. He was physically pushed and scuffled with several civil guards who tried to force him to sit down. He had been the architect of the military reform of the Transition. He died on Christmas Day 1995.",
+  "acciones_23f": [
+    { "es": "Se puso en pie y caminó hacia los guardias civiles armados de Tejero al irrumpir en el hemiciclo", "en": "Stood up and walked toward Tejero's armed civil guards as they burst into the chamber" },
+    { "es": "Forcejeó físicamente con varios guardias civiles que intentaban obligarle a sentarse", "en": "Physically scuffled with several civil guards who tried to force him to sit down" },
+    { "es": "Su actitud de resistencia se convirtió en símbolo de la defensa de la democracia ante el golpe", "en": "His defiant attitude became a symbol of defending democracy against the coup" },
+    { "es": "Permaneció en pie durante gran parte del asedio, negándose a someterse a los golpistas", "en": "Remained standing for much of the siege, refusing to submit to the coup plotters" }
+  ],
+  "condena": "No procesado. Víctima y resistente del golpe.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Manuel_Guti%C3%A9rrez_Mellado",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Manuel_Guti%C3%A9rrez_Mellado"
+}

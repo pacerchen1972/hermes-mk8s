@@ -1,0 +1,20 @@
+{
+  "nombre": "Adolfo Suárez González",
+  "nombre_completo": "Adolfo Suárez González",
+  "aliases": ["Adolfo Suárez", "Suárez"],
+  "fecha_nacimiento": "1932-09-25",
+  "fecha_fallecimiento": "2014-03-23",
+  "lugar_nacimiento": "Cebreros, Ávila, España",
+  "cargo_en_23f": "Ex Presidente del Gobierno (recién dimitido)",
+  "rol_23f": "víctima / defensor de la democracia",
+  "descripcion_es": "Artífice de la Transición española a la democracia y ex Presidente del Gobierno. Había dimitido el 29 de enero de 1981, tres semanas antes del golpe, y se encontraba en el hemiciclo como diputado de UCD en el momento del asalto. Se negó a tumbarse cuando los guardias civiles de Tejero irrumpieron en el Congreso, permaneciendo sentado con serenidad junto a Gutiérrez Mellado. Su imagen, serena e inmóvil ante los fusiles, se convirtió en uno de los símbolos más potentes de la resistencia democrática. Fue secuestrado junto al resto de diputados y ministros durante 18 horas.",
+  "descripcion_en": "Architect of the Spanish democratic Transition and former Prime Minister. He had resigned on 29 January 1981, three weeks before the coup, and was in the chamber as a UCD deputy when the assault began. He refused to duck for cover when Tejero's civil guards burst in, remaining seated calmly alongside Gutiérrez Mellado. His image, calm and motionless before the rifles, became one of the most powerful symbols of democratic resistance. He was held hostage along with the other deputies and ministers for 18 hours.",
+  "acciones_23f": [
+    { "es": "Permaneció sentado con serenidad cuando los guardias civiles de Tejero irrumpieron en el Congreso", "en": "Remained seated calmly when Tejero's civil guards burst into the Congress" },
+    { "es": "Se negó a tumbarse en el suelo junto a la mayoría de diputados", "en": "Refused to lie on the floor as most deputies did" },
+    { "es": "Fue secuestrado en el Congreso durante 18 horas junto al gobierno y el resto de diputados", "en": "Was held hostage in Congress for 18 hours along with the government and other deputies" }
+  ],
+  "condena": "No procesado. Víctima del golpe.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Adolfo_Su%C3%A1rez",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Adolfo_Su%C3%A1rez"
+}

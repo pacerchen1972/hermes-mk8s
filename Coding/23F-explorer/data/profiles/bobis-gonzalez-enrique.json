@@ -1,0 +1,18 @@
+{
+  "nombre": "Enrique Bobis González",
+  "nombre_completo": "Enrique Bobis González",
+  "aliases": ["Bobis González", "Bobis"],
+  "fecha_nacimiento": "",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "Capitán de la Guardia Civil",
+  "rol_23f": "conspirador",
+  "descripcion_es": "Capitán de la Guardia Civil que participó en el golpe del 23-F. Formó parte de la fuerza que asaltó el Congreso de los Diputados el 23 de febrero de 1981. Fue procesado en la Causa 2/81 y condenado a 3 años de prisión por el Tribunal Supremo.",
+  "descripcion_en": "Civil Guard Captain who participated in the 23-F coup. He was part of the force that assaulted the Congress of Deputies on 23 February 1981. He was prosecuted in Case 2/81 and sentenced to 3 years in prison by the Supreme Court.",
+  "acciones_23f": [
+    { "es": "Participó en el asalto al Congreso de los Diputados el 23 de febrero de 1981", "en": "Participated in the assault on the Congress of Deputies on 23 February 1981" }
+  ],
+  "condena": "3 años de prisión (Tribunal Supremo, 22 abril 1983).",
+  "wikipedia_es": "",
+  "wikipedia_en": ""
+}

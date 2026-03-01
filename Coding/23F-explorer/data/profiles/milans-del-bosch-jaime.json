@@ -1,0 +1,22 @@
+{
+  "nombre": "Jaime Milans del Bosch y Ussía",
+  "nombre_completo": "Jaime Milans del Bosch y Ussía",
+  "aliases": ["Milans del Bosch", "Jaime Milans del Bosch"],
+  "fecha_nacimiento": "1925-09-21",
+  "fecha_fallecimiento": "1997-08-18",
+  "lugar_nacimiento": "Madrid, España",
+  "cargo_en_23f": "Teniente General, Capitán General de la III Región Militar (Valencia)",
+  "rol_23f": "conspirador",
+  "descripcion_es": "Teniente General y Capitán General de la Región Militar de Valencia, Milans del Bosch fue el máximo mando militar implicado en el golpe del 23-F. Sacó los tanques a las calles de Valencia y declaró el estado de excepción en su región, alegando actuar bajo órdenes del Rey. El propio Rey Juan Carlos le llamó directamente para ordenarle que retirara las tropas. Fue condenado a 30 años de prisión y liberado en 1990. Es considerado la figura militar de mayor rango en la conspiración.",
+  "descripcion_en": "Lieutenant General and Captain General of the Valencia Military Region, Milans del Bosch was the highest-ranking military officer implicated in the 23-F coup. He ordered tanks into the streets of Valencia and declared a state of emergency in his region, claiming to act on the King's orders. King Juan Carlos personally called him to order the withdrawal of troops. Sentenced to 30 years in prison and released in 1990. He is considered the highest-ranking military conspirator.",
+  "acciones_23f": [
+    { "es": "Ordenó sacar los tanques a las calles de Valencia al inicio del golpe", "en": "Ordered tanks into the streets of Valencia at the start of the coup" },
+    { "es": "Declaró el estado de excepción en la III Región Militar alegando actuar bajo órdenes del Rey", "en": "Declared a state of emergency in the 3rd Military Region claiming to act on the King's orders" },
+    { "es": "El Rey Juan Carlos le llamó personalmente ordenándole retirar las tropas", "en": "King Juan Carlos personally called him ordering the withdrawal of troops" },
+    { "es": "Retiró los tanques a los cuarteles a la 01:15 del 24 de febrero tras la intervención del Rey", "en": "Withdrew tanks to barracks at 01:15 on 24 February following the King's intervention" },
+    { "es": "Su condena a 30 años causó 'profundo malestar' en los cuarteles según informes del CESID", "en": "His 30-year sentence caused 'profound unease' in barracks according to CESID reports" }
+  ],
+  "condena": "30 años de prisión (Tribunal Supremo, 22 abril 1983). Excarcelado en 1990. Primera condena del CSJM: 26 años (3 junio 1982).",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Jaime_Milans_del_Bosch_y_Uss%C3%ADa",
+  "wikipedia_en": "https://en.wikipedia.org/wiki/Jaime_Milans_del_Bosch"
+}

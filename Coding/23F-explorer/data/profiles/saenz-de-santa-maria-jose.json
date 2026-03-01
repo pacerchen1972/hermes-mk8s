@@ -1,0 +1,20 @@
+{
+  "nombre": "José Sáenz de Santa María",
+  "nombre_completo": "José Sáenz de Santa María Espeso",
+  "aliases": ["Sáenz de Santa María", "General Sáenz de Santa María"],
+  "fecha_nacimiento": "1927-10-14",
+  "fecha_fallecimiento": "",
+  "lugar_nacimiento": "España",
+  "cargo_en_23f": "General de la Guardia Civil, Director General de la Guardia Civil",
+  "rol_23f": "leal al orden constitucional",
+  "descripcion_es": "General de la Guardia Civil y Director General del cuerpo durante el 23-F. Fue el mando institucional de la Guardia Civil que tuvo que gestionar la crisis interna provocada por la implicación de Tejero y otros oficiales del cuerpo en el golpe. Coordinó la respuesta de las fuerzas de la Guardia Civil leales al orden constitucional y fue el encargado de negociar con Tejero la rendición y salida del Congreso de los Diputados el 24 de febrero de 1981.",
+  "descripcion_en": "Civil Guard General and Director General of the Corps during 23-F. He was the institutional commander of the Civil Guard who had to manage the internal crisis caused by the involvement of Tejero and other corps officers in the coup. He coordinated the response of the Civil Guard forces loyal to the constitutional order and was responsible for negotiating with Tejero the surrender and evacuation of the Congress of Deputies on 24 February 1981.",
+  "acciones_23f": [
+    { "es": "Como Director General de la Guardia Civil, gestionó la crisis interna provocada por la implicación de Tejero y otros oficiales en el golpe", "en": "As Director General of the Civil Guard, managed the internal crisis caused by Tejero's and other officers' involvement in the coup" },
+    { "es": "Coordinó las fuerzas de la Guardia Civil leales al orden constitucional durante la noche del golpe", "en": "Coordinated Civil Guard forces loyal to the constitutional order during the coup night" },
+    { "es": "Negoció con Tejero la rendición y la evacuación del Congreso de los Diputados el 24 de febrero de 1981", "en": "Negotiated with Tejero the surrender and evacuation of the Congress of Deputies on 24 February 1981" }
+  ],
+  "condena": "No procesado. Papel clave en la resolución del golpe.",
+  "wikipedia_es": "https://es.wikipedia.org/wiki/Jos%C3%A9_S%C3%A1enz_de_Santa_Mar%C3%ADa",
+  "wikipedia_en": ""
+}
