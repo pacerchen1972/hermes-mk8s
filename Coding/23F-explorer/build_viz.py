@@ -11,13 +11,29 @@ Usage:
 """
 
 import json
+import os
 import re
+import urllib.request
 from collections import defaultdict
 from pathlib import Path
 
 DATA_DIR   = Path(__file__).parent / "data"
 OUTPUT     = Path(__file__).parent / "index.html"
 DOCS_BASE  = Path.home() / "Downloads" / "23F"
+VENDOR_DIR = Path(__file__).parent / "vendor"
+VENDOR_D3  = VENDOR_DIR / "d3.min.js"
+D3_URL     = "https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"
+
+
+def ensure_d3():
+    """H-1: Vendor D3 locally to avoid CDN SRI risk."""
+    if not VENDOR_D3.exists():
+        VENDOR_DIR.mkdir(exist_ok=True)
+        print("⬇  Downloading D3 v7.9.0 to vendor/d3.min.js…")
+        urllib.request.urlretrieve(D3_URL, VENDOR_D3)
+        print(f"✅  D3 vendored ({VENDOR_D3.stat().st_size // 1024} KB)")
+    else:
+        print(f"✓  D3 already vendored ({VENDOR_D3.stat().st_size // 1024} KB)")
 
 # ── Load all extracted documents ──────────────────────────────────────────────
 def load_docs():
@@ -218,8 +234,9 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; img-src 'self' data:; base-uri 'self'; form-action 'none'; object-src 'none'">
 <title>23-F — Mapa de Conocimiento / Knowledge Map</title>
-<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="vendor/d3.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -399,6 +416,17 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 const GRAPH_DATA = __GRAPH_DATA__;
 const TIMELINE_DATA = __TIMELINE_DATA__;
 const PDF_BASE = "__PDF_BASE__";
+
+// ── Security: HTML-escape helper (C-3, H-2) ───────────────────────────────────
+function esc(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#x27;');
+}
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let currentLang = 'es';
@@ -612,47 +640,50 @@ function showDetail(d) {
   const tl = TYPE_LABELS[d.type] || { es: d.type, en: d.type, color: '#8b949e' };
   const lang = currentLang;
 
-  let html = `<button id="detail-close" title="Cerrar / Close" onclick="clearDetail();selectedNode=null;">×</button><div class="detail-content">`;
-  html += `<span class="detail-type-badge" style="background:${tl.color};color:${d.type==='event'||d.type==='document'?'#000':'#fff'}">${tl[lang]}</span>`;
-  html += `<div class="detail-title">${d.label}</div>`;
+  // C-3: all user-data interpolations use esc() — never raw innerHTML
+  let html = `<div class="detail-content">`;
+  html += `<span class="detail-type-badge" style="background:${esc(tl.color)};color:${d.type==='event'||d.type==='document'?'#000':'#fff'}">${esc(tl[lang])}</span>`;
+  html += `<div class="detail-title">${esc(d.label)}</div>`;
 
   if (d.type === 'document') {
     const subtitle = lang === 'es' ? d.titulo_es : d.titulo_en;
     if (subtitle && subtitle !== d.label)
-      html += `<div class="detail-subtitle">${subtitle}</div>`;
+      html += `<div class="detail-subtitle">${esc(subtitle)}</div>`;
 
-    if (d.fecha) html += `<div class="detail-subtitle">📅 ${d.fecha}${d.clasificacion ? ` &nbsp;·&nbsp; 🔒 ${d.clasificacion}` : ''}</div>`;
-    if (d.ministerio) html += `<div class="detail-subtitle">🏛 ${d.ministerio} &nbsp;·&nbsp; ${d.tipo||''}</div>`;
+    if (d.fecha) html += `<div class="detail-subtitle">📅 ${esc(d.fecha)}${d.clasificacion ? ` &nbsp;·&nbsp; 🔒 ${esc(d.clasificacion)}` : ''}</div>`;
+    if (d.ministerio) html += `<div class="detail-subtitle">🏛 ${esc(d.ministerio)} &nbsp;·&nbsp; ${esc(d.tipo||'')}</div>`;
 
     const resumen = lang === 'es' ? d.resumen_es : d.resumen_en;
     if (resumen) {
-      html += `<div class="detail-section"><h4>${lang==='es'?'Resumen':'Summary'}</h4><p>${resumen}</p></div>`;
+      html += `<div class="detail-section"><h4>${lang==='es'?'Resumen':'Summary'}</h4><p>${esc(resumen)}</p></div>`;
     }
 
     if (d.citas && d.citas.length) {
       html += `<div class="detail-section"><h4>${lang==='es'?'Citas clave':'Key quotes'}</h4>`;
       d.citas.slice(0,3).forEach(q => {
-        const texto = lang === 'es' ? q.texto : (q.traduccion_en || q.texto);
-        html += `<div class="quote-block"><p>"${texto}"</p><small>— ${q.autor||'Desconocido'}</small></div>`;
+        // JSON schema uses texto_es/texto_en/fuente (not texto/autor)
+        const texto = lang === 'es' ? (q.texto_es || q.texto) : (q.texto_en || q.traduccion_en || q.texto_es || q.texto);
+        const fuente = q.fuente || q.autor || 'Desconocido';
+        html += `<div class="quote-block"><p>"${esc(texto)}"</p><small>— ${esc(fuente)}</small></div>`;
       });
       html += `</div>`;
     }
 
     if (d.temas && d.temas.length)
-      html += `<div class="detail-section"><h4>Temas / Topics</h4>${d.temas.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`;
+      html += `<div class="detail-section"><h4>Temas / Topics</h4>${d.temas.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`;
 
     if (d.folder && d.filename) {
       const pdfPath = PDF_BASE + d.folder + '/' + d.filename;
-      html += `<a class="open-pdf" href="${pdfPath}" target="_blank">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</a>`;
+      html += `<a class="open-pdf" href="${esc(pdfPath)}" target="_blank" rel="noopener noreferrer">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</a>`;
     }
   }
 
   else if (d.type === 'person') {
-    if (d.cargo) html += `<div class="detail-subtitle">🎖 ${d.cargo}</div>`;
-    if (d.org)   html += `<div class="detail-subtitle">🏛 ${d.org}</div>`;
+    if (d.cargo) html += `<div class="detail-subtitle">🎖 ${esc(d.cargo)}</div>`;
+    if (d.org)   html += `<div class="detail-subtitle">🏛 ${esc(d.org)}</div>`;
     if (d.rol_23f) {
       const rolColors = { conspirador:'#e05252', leal:'#38c77e', neutral:'#8b949e', víctima:'#f0b429', testigo:'#4a90d9' };
-      html += `<span class="detail-type-badge" style="background:${rolColors[d.rol_23f]||'#8b949e'};color:#fff">${d.rol_23f}</span>`;
+      html += `<span class="detail-type-badge" style="background:${esc(rolColors[d.rol_23f]||'#8b949e')};color:#fff">${esc(d.rol_23f)}</span>`;
     }
     const connectedNodes = GRAPH_DATA.edges
       .filter(e => (e.source.id||e.source) === d.id || (e.target.id||e.target) === d.id)
@@ -661,22 +692,23 @@ function showDetail(d) {
       .filter(Boolean);
     if (connectedNodes.length) {
       html += `<div class="detail-section"><h4>${lang==='es'?'Conexiones':'Connections'} (${connectedNodes.length})</h4>`;
+      // C-2: use data-node-id attribute instead of onclick interpolation
       connectedNodes.slice(0, 8).forEach(cn => {
-        html += `<span class="tag" style="cursor:pointer;border:1px solid ${cn.color};color:${cn.color}" onclick="event.stopPropagation();showDetail(GRAPH_DATA.nodes.find(n=>n.id==='${cn.id}'))">${cn.label.slice(0,30)}</span>`;
+        html += `<span class="tag" style="cursor:pointer;border:1px solid ${esc(cn.color)};color:${esc(cn.color)}" data-node-id="${esc(cn.id)}">${esc(cn.label.slice(0,30))}</span>`;
       });
       html += '</div>';
     }
   }
 
   else if (d.type === 'event') {
-    if (d.fecha) html += `<div class="detail-subtitle">📅 ${d.fecha}</div>`;
-    if (d.lugar) html += `<div class="detail-subtitle">📍 ${d.lugar}</div>`;
+    if (d.fecha) html += `<div class="detail-subtitle">📅 ${esc(d.fecha)}</div>`;
+    if (d.lugar) html += `<div class="detail-subtitle">📍 ${esc(d.lugar)}</div>`;
     const desc = lang === 'es' ? d.desc_es : d.desc_en;
-    if (desc) html += `<div class="detail-section"><h4>${lang==='es'?'Descripción':'Description'}</h4><p>${desc}</p></div>`;
+    if (desc) html += `<div class="detail-section"><h4>${lang==='es'?'Descripción':'Description'}</h4><p>${esc(desc)}</p></div>`;
   }
 
   else if (d.type === 'organization') {
-    if (d.tipo_org) html += `<div class="detail-subtitle">${d.tipo_org}</div>`;
+    if (d.tipo_org) html += `<div class="detail-subtitle">${esc(d.tipo_org)}</div>`;
     const connectedNodes = GRAPH_DATA.edges
       .filter(e => (e.source.id||e.source) === d.id || (e.target.id||e.target) === d.id)
       .map(e => (e.source.id||e.source) === d.id ? (e.target.id||e.target) : (e.source.id||e.source))
@@ -684,8 +716,9 @@ function showDetail(d) {
       .filter(Boolean);
     if (connectedNodes.length) {
       html += `<div class="detail-section"><h4>${lang==='es'?'Conexiones':'Connections'} (${connectedNodes.length})</h4>`;
+      // C-2: use data-node-id attribute instead of onclick interpolation
       connectedNodes.slice(0, 8).forEach(cn => {
-        html += `<span class="tag" style="cursor:pointer;border:1px solid ${cn.color};color:${cn.color}" onclick="event.stopPropagation();showDetail(GRAPH_DATA.nodes.find(n=>n.id==='${cn.id}'))">${cn.label.slice(0,30)}</span>`;
+        html += `<span class="tag" style="cursor:pointer;border:1px solid ${esc(cn.color)};color:${esc(cn.color)}" data-node-id="${esc(cn.id)}">${esc(cn.label.slice(0,30))}</span>`;
       });
       html += '</div>';
     }
@@ -693,6 +726,14 @@ function showDetail(d) {
 
   html += `</div>`;
   panel.innerHTML = html;
+
+  // C-2: Close button created via DOM API (no onclick injection in innerHTML)
+  const closeBtn = document.createElement('button');
+  closeBtn.id = 'detail-close';
+  closeBtn.title = 'Cerrar / Close';
+  closeBtn.textContent = '×';
+  closeBtn.addEventListener('click', e => { e.stopPropagation(); clearDetail(); selectedNode = null; });
+  panel.insertBefore(closeBtn, panel.firstChild);
 
   // Highlight connected nodes
   const connectedIds = new Set([d.id]);
@@ -836,7 +877,8 @@ function showTimelineTooltip(event, d) {
     tooltip.style.cssText = 'position:fixed;background:#21262d;border:1px solid #30363d;padding:6px 10px;border-radius:6px;font-size:11px;color:#e6edf3;pointer-events:none;z-index:99;max-width:200px';
     document.body.appendChild(tooltip);
   }
-  tooltip.innerHTML = `<strong>${d.date}</strong><br>${currentLang==='es'?d.title:d.title_en||d.title}`;
+  // H-2: use esc() — never raw innerHTML with data values
+  tooltip.innerHTML = `<strong>${esc(d.date)}</strong><br>${esc(currentLang==='es'?d.title:d.title_en||d.title)}`;
   tooltip.style.left = (event.clientX + 10) + 'px';
   tooltip.style.top = (event.clientY - 30) + 'px';
   tooltip.style.display = 'block';
@@ -847,6 +889,16 @@ function hideTooltip() { if (tooltip) tooltip.style.display = 'none'; }
 window.addEventListener('DOMContentLoaded', () => {
   initGraph();
   initTimeline();
+
+  // C-2: event delegation for data-node-id connection tags in detail panel
+  document.getElementById('detail').addEventListener('click', e => {
+    const tag = e.target.closest('[data-node-id]');
+    if (tag) {
+      e.stopPropagation();
+      const node = GRAPH_DATA.nodes.find(n => n.id === tag.dataset.nodeId);
+      if (node) showDetail(node);
+    }
+  });
 
   // ── Timeline resize handle ─────────────────────────────────────────────────
   let tlResizing = false, tlStartY = 0, tlStartH = 0;
@@ -906,14 +958,34 @@ document.addEventListener('keydown', e => {
 def generate_html(graph: dict, timeline: list) -> str:
     graph_json    = json.dumps(graph,    ensure_ascii=False, separators=(',', ':'))
     timeline_json = json.dumps(timeline, ensure_ascii=False, separators=(',', ':'))
-    pdf_base = f"file:///Users/ricardodelarrearemiro/Downloads/23F/"
-    html = HTML_TEMPLATE.replace("__PDF_BASE__", pdf_base)
-    html = html.replace("__GRAPH_DATA__",    graph_json)
-    html = html.replace("__TIMELINE_DATA__", timeline_json)
-    return html
+
+    # H-3: prevent </script> injection when JSON is embedded inside <script> tags
+    graph_json    = graph_json.replace('</', '<\\/')
+    timeline_json = timeline_json.replace('</', '<\\/')
+
+    # C-1: PDF base URL from env var; fall back to local dev path with a warning
+    pdf_base = os.environ.get('PDF_BASE_URL', '').rstrip('/')
+    if pdf_base:
+        if not pdf_base.startswith('https://'):
+            raise ValueError(
+                f"PDF_BASE_URL must start with https:// (got: {pdf_base!r}). "
+                "Refusing to embed non-https URL in published HTML."
+            )
+        pdf_base += '/'
+    else:
+        pdf_base = 'file:///Users/ricardodelarrearemiro/Downloads/23F/'
+        print("⚠  PDF_BASE_URL not set — using local file path (development only).")
+        print("   Set PDF_BASE_URL=https://your-bucket/path/ before publishing.")
+
+    html_out = HTML_TEMPLATE.replace("__PDF_BASE__", pdf_base)
+    html_out = html_out.replace("__GRAPH_DATA__",    graph_json)
+    html_out = html_out.replace("__TIMELINE_DATA__", timeline_json)
+    return html_out
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 def main():
+    ensure_d3()  # H-1: vendor D3 before building HTML
+
     docs = load_docs()
     if not docs:
         print("❌  No extracted documents found in data/. Run extract.py first.")
