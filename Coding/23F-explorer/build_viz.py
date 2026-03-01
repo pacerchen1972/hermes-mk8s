@@ -140,9 +140,11 @@ def build_graph(docs: list, profiles: dict = None) -> dict:
             nombre = person.get("nombre", "").strip()
             if not nombre or len(nombre) < 3:
                 continue
-            # Merge enriched profile if available
+            # Merge enriched profile if available; use canonical name to deduplicate
+            # variants like "Antonio Tejero" vs "Antonio Tejero Molina"
             prof = (profiles or {}).get(slugify_name(nombre), {})
-            pid = get_or_create(nombre, "person", {
+            canonical_nombre = prof.get("nombre", nombre)
+            pid = get_or_create(canonical_nombre, "person", {
                 "cargo":           prof.get("cargo_en_23f") or person.get("cargo", ""),
                 "org":             person.get("organizacion", ""),
                 "rol_23f":         prof.get("rol_23f") or person.get("rol_en_23f", ""),
