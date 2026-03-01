@@ -543,9 +543,13 @@ function filterSearch(query) {
     return;
   }
   const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const nq = normalize(q);
-  const matches = GRAPH_DATA.nodes.filter(d => normalize(d.label).includes(nq));
-  nodeEl.classed('dimmed', d => !normalize(d.label).includes(nq));
+  // Split into tokens; a node matches if its label contains ANY token (OR).
+  // This way "Antonio Tejero" and "Tejero" both surface all 18 Tejero nodes,
+  // because "tejero" is one of the tokens and matches them all.
+  const tokens = normalize(q).split(/\s+/).filter(t => t.length >= 2);
+  const hits = d => tokens.some(t => normalize(d.label).includes(t));
+  const matches = GRAPH_DATA.nodes.filter(hits);
+  nodeEl.classed('dimmed', d => !hits(d));
 
   // Remove old hint
   document.getElementById('search-hint')?.remove();
