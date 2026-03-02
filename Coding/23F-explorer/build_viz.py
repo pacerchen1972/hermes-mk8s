@@ -28,8 +28,8 @@ D3_URL     = "https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"
 
 def ensure_d3():
     """H-1: Vendor D3 locally to avoid CDN SRI risk."""
+    VENDOR_DIR.mkdir(exist_ok=True)
     if not VENDOR_D3.exists():
-        VENDOR_DIR.mkdir(exist_ok=True)
         print("⬇  Downloading D3 v7.9.0 to vendor/d3.min.js…")
         urllib.request.urlretrieve(D3_URL, VENDOR_D3)
         print(f"✅  D3 vendored ({VENDOR_D3.stat().st_size // 1024} KB)")
@@ -394,6 +394,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   /* ── Stats bar ── */
   .stats { padding: 4px 20px; background: #0d1117; border-top: 1px solid #30363d;
             font-size: 11px; color: #8b949e; display: flex; gap: 16px; flex-shrink: 0; }
+
 </style>
 </head>
 <body>
@@ -410,48 +411,48 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 </header>
 
 <div class="filters">
-  <label id="label-show">Mostrar:</label>
-  <button class="filter-btn person active" onclick="toggleType('person')">● Personas</button>
-  <button class="filter-btn organization active" onclick="toggleType('organization')">■ Organizaciones</button>
-  <button class="filter-btn event active" onclick="toggleType('event')">◆ Eventos</button>
-  <button class="filter-btn document active" onclick="toggleType('document')">▶ Documentos</button>
-  <input class="search-box" id="search" type="text" placeholder="Buscar / Search…" oninput="filterSearch(this.value)">
+  <label id="label-show">Show:</label>
+  <button class="filter-btn person active" onclick="toggleType('person')">● Persons</button>
+  <button class="filter-btn organization active" onclick="toggleType('organization')">■ Organizations</button>
+  <button class="filter-btn event active" onclick="toggleType('event')">◆ Events</button>
+  <button class="filter-btn document active" onclick="toggleType('document')">▶ Documents</button>
+  <input class="search-box" id="search" type="text" placeholder="Search…" oninput="filterSearch(this.value)">
 </div>
 
 <div class="main">
   <div id="graph-container">
     <svg id="graph"></svg>
-    <button id="zoom-reset" onclick="resetZoom()" title="Reset view / Vista inicial" style="position:absolute;top:10px;right:10px;background:#21262d;border:1px solid #30363d;color:#e6edf3;padding:6px 10px;border-radius:6px;cursor:pointer;font-size:13px;z-index:10">&#8857; Reset</button>
+    <button id="zoom-reset" onclick="resetZoom()" title="Reset view" style="position:absolute;top:10px;right:10px;background:#21262d;border:1px solid #30363d;color:#e6edf3;padding:6px 10px;border-radius:6px;cursor:pointer;font-size:13px;z-index:10">&#8857; Reset</button>
   </div>
   <div id="detail">
     <div class="detail-placeholder">
       <h3>23-F Knowledge Map</h3>
-      <p>Haz clic en cualquier nodo para ver los detalles del documento, persona u organización.</p>
-      <p style="margin-top:8px">Click any node to explore details.</p>
+      <p>Click any node to explore details.</p>
       <p style="margin-top:20px; font-size:11px">
-        <span style="color:#e05252">●</span> Personas &nbsp;
-        <span style="color:#4a90d9">■</span> Organizaciones &nbsp;
-        <span style="color:#f0b429">◆</span> Eventos &nbsp;
-        <span style="color:#38c77e">▶</span> Documentos
+        <span style="color:#e05252">●</span> Persons &nbsp;
+        <span style="color:#4a90d9">■</span> Organizations &nbsp;
+        <span style="color:#f0b429">◆</span> Events &nbsp;
+        <span style="color:#38c77e">▶</span> Documents
       </p>
     </div>
   </div>
 </div>
 
 <div id="timeline-wrapper">
-  <div id="timeline-resize-handle" title="Drag to resize / Arrastra para redimensionar"></div>
+  <div id="timeline-resize-handle" title="Drag to resize"></div>
   <div id="period-tabs">
-    <span class="period-tab-label" id="tl-label">Periodo:</span>
-    <button class="period-tab active" data-period="pre-golpe" onclick="selectPeriod('pre-golpe')">Pre-golpe</button>
+    <span class="period-tab-label" id="tl-label">Period:</span>
+    <button class="period-tab active" data-period="pre-golpe" onclick="selectPeriod('pre-golpe')">Pre-coup</button>
     <button class="period-tab" data-period="golpe" onclick="selectPeriod('golpe')">23-F</button>
-    <button class="period-tab" data-period="post-golpe" onclick="selectPeriod('post-golpe')">Post-golpe</button>
-    <button class="period-tab" data-period="juicio" onclick="selectPeriod('juicio')">Juicio</button>
+    <button class="period-tab" data-period="post-golpe" onclick="selectPeriod('post-golpe')">Post-coup</button>
+    <button class="period-tab" data-period="juicio" onclick="selectPeriod('juicio')">Trial</button>
   </div>
   <div id="timeline"><svg id="timeline-svg"></svg></div>
 </div>
 
+
 <div class="stats" id="stats-bar">
-  Cargando / Loading…
+  Loading…
 </div>
 
 <script>
@@ -486,28 +487,6 @@ function setLang(lang) {
   currentLang = lang;
   document.getElementById('btn-es').classList.toggle('active', lang === 'es');
   document.getElementById('btn-en').classList.toggle('active', lang === 'en');
-  document.getElementById('label-show').textContent = lang === 'es' ? 'Mostrar:' : 'Show:';
-  const labels = {
-    person:       { es: '● Personas',       en: '● Persons' },
-    organization: { es: '■ Organizaciones', en: '■ Organizations' },
-    event:        { es: '◆ Eventos',        en: '◆ Events' },
-    document:     { es: '▶ Documentos',     en: '▶ Documents' },
-  };
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    const type = ['person','organization','event','document'].find(t => btn.classList.contains(t));
-    if (type) btn.textContent = labels[type][lang];
-  });
-  const periodLabels = {
-    'pre-golpe': { es: 'Pre-golpe', en: 'Pre-coup' },
-    'golpe':     { es: '23-F',      en: '23-F' },
-    'post-golpe':{ es: 'Post-golpe',en: 'Post-coup' },
-    'juicio':    { es: 'Juicio',    en: 'Trial' },
-  };
-  document.querySelectorAll('.period-tab').forEach(b => {
-    const pid = b.dataset.period;
-    if (periodLabels[pid]) b.textContent = periodLabels[pid][lang];
-  });
-  document.getElementById('tl-label').textContent = lang === 'es' ? 'Periodo:' : 'Period:';
   d3.select('#timeline-svg').selectAll('*').remove();
   initTimeline();
   updateStats();
@@ -558,7 +537,7 @@ function filterSearch(query) {
   hint.style.cssText = 'position:absolute;top:40px;right:20px;font-size:11px;padding:4px 8px;border-radius:4px;z-index:20;';
   if (matches.length === 0) {
     hint.style.background = '#3d1a1a'; hint.style.color = '#e05252';
-    hint.textContent = 'Sin resultados / No results';
+    hint.textContent = 'No results';
   } else {
     hint.style.background = '#1a2d1a'; hint.style.color = '#38c77e';
     hint.textContent = `${matches.length} resultado${matches.length > 1 ? 's' : ''}`;
@@ -582,16 +561,13 @@ function applyFilters() {
 
 // ── Stats bar ─────────────────────────────────────────────────────────────────
 function updateStats() {
-  const n = GRAPH_DATA.nodes, e = GRAPH_DATA.edges, l = currentLang;
-  const w = l === 'es'
-    ? { nodes:'Nodos', edges:'Conexiones', persons:'Personas', docs:'Documentos', orgs:'Organizaciones', events:'Eventos' }
-    : { nodes:'Nodes', edges:'Connections', persons:'Persons', docs:'Documents', orgs:'Organizations', events:'Events' };
+  const n = GRAPH_DATA.nodes, e = GRAPH_DATA.edges;
   document.getElementById('stats-bar').textContent =
-    `${w.nodes}: ${n.length}  |  ${w.edges}: ${e.length}  |  ` +
-    `${w.persons}: ${n.filter(x=>x.type==='person').length}  |  ` +
-    `${w.docs}: ${n.filter(x=>x.type==='document').length}  |  ` +
-    `${w.orgs}: ${n.filter(x=>x.type==='organization').length}  |  ` +
-    `${w.events}: ${n.filter(x=>x.type==='event').length}`;
+    `Nodes: ${n.length}  |  Connections: ${e.length}  |  ` +
+    `Persons: ${n.filter(x=>x.type==='person').length}  |  ` +
+    `Documents: ${n.filter(x=>x.type==='document').length}  |  ` +
+    `Organizations: ${n.filter(x=>x.type==='organization').length}  |  ` +
+    `Events: ${n.filter(x=>x.type==='event').length}`;
 }
 
 // ── D3 Graph ──────────────────────────────────────────────────────────────────
@@ -744,7 +720,7 @@ function showDetail(d) {
       d.citas.slice(0,3).forEach(q => {
         // JSON schema uses texto_es/texto_en/fuente (not texto/autor)
         const texto = lang === 'es' ? (q.texto_es || q.texto) : (q.texto_en || q.traduccion_en || q.texto_es || q.texto);
-        const fuente = q.fuente || q.autor || 'Desconocido';
+        const fuente = q.fuente || q.autor || 'Unknown';
         html += `<div class="quote-block"><p>"${esc(texto)}"</p><small>— ${esc(fuente)}</small></div>`;
       });
       html += `</div>`;
@@ -753,7 +729,7 @@ function showDetail(d) {
     if (d.temas && d.temas.length)
       html += `<div class="detail-section"><h4>Temas / Topics</h4>${d.temas.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`;
 
-    if (d.folder && d.filename) {
+    if (d.folder && d.filename && PDF_BASE) {
       const pdfPath = PDF_BASE + d.folder + '/' + d.filename;
       html += `<a class="open-pdf" href="${esc(pdfPath)}" target="_blank" rel="noopener noreferrer">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</a>`;
     }
@@ -834,7 +810,7 @@ function showDetail(d) {
   // C-2: Close button created via DOM API (no onclick injection in innerHTML)
   const closeBtn = document.createElement('button');
   closeBtn.id = 'detail-close';
-  closeBtn.title = 'Cerrar / Close';
+  closeBtn.title = 'Close';
   closeBtn.textContent = '×';
   closeBtn.addEventListener('click', e => { e.stopPropagation(); clearDetail(); selectedNode = null; });
   panel.insertBefore(closeBtn, panel.firstChild);
@@ -851,18 +827,15 @@ function showDetail(d) {
 }
 
 function clearDetail() {
-  const msg = currentLang === 'es'
-    ? 'Haz clic en cualquier nodo para ver detalles.'
-    : 'Click any node to explore details.';
   document.getElementById('detail').innerHTML = `
     <div class="detail-placeholder">
       <h3>23-F Knowledge Map</h3>
-      <p>${msg}</p>
+      <p>Click any node to explore details.</p>
       <p style="margin-top:8px; font-size:11px">
-        <span style="color:#e05252">●</span> ${currentLang==='es'?'Personas':'Persons'} &nbsp;
-        <span style="color:#4a90d9">■</span> ${currentLang==='es'?'Organizaciones':'Organizations'} &nbsp;
-        <span style="color:#f0b429">◆</span> ${currentLang==='es'?'Eventos':'Events'} &nbsp;
-        <span style="color:#38c77e">▶</span> ${currentLang==='es'?'Documentos':'Documents'}
+        <span style="color:#e05252">●</span> Persons &nbsp;
+        <span style="color:#4a90d9">■</span> Organizations &nbsp;
+        <span style="color:#f0b429">◆</span> Events &nbsp;
+        <span style="color:#38c77e">▶</span> Documents
       </p>
     </div>`;
   nodeEl && nodeEl.classed('dimmed', false);
@@ -882,6 +855,7 @@ const PERIOD_DEFS = [
 ];
 let activePeriod = 'pre-golpe';
 
+// ── Coup map ───────────────────────────────────────────────────────────────────
 function selectPeriod(pid) {
   activePeriod = pid;
   document.querySelectorAll('.period-tab').forEach(b =>
@@ -1095,9 +1069,9 @@ def generate_html(graph: dict, timeline: list) -> str:
             )
         pdf_base += '/'
     else:
-        pdf_base = 'file:///Users/ricardodelarrearemiro/Downloads/23F/'
-        print("⚠  PDF_BASE_URL not set — using local file path (development only).")
-        print("   Set PDF_BASE_URL=https://your-bucket/path/ before publishing.")
+        pdf_base = ''
+        print("ℹ  PDF_BASE_URL not set — PDF links hidden in output.")
+        print("   Set PDF_BASE_URL=https://your-host/path/ to enable PDF buttons.")
 
     html_out = HTML_TEMPLATE.replace("__PDF_BASE__", pdf_base)
     html_out = html_out.replace("__GRAPH_DATA__",    graph_json)
