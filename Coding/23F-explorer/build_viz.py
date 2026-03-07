@@ -729,9 +729,13 @@ function showDetail(d) {
     if (d.temas && d.temas.length)
       html += `<div class="detail-section"><h4>Temas / Topics</h4>${d.temas.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`;
 
-    if (d.folder && d.filename && PDF_BASE) {
-      const pdfPath = PDF_BASE + d.folder + '/' + d.filename;
-      html += `<a class="open-pdf" href="${esc(pdfPath)}" target="_blank" rel="noopener noreferrer">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</a>`;
+    if (d.folder && d.filename) {
+      if (PDF_BASE) {
+        const pdfPath = PDF_BASE + d.folder + '/' + d.filename;
+        html += `<a class="open-pdf" href="${esc(pdfPath)}" target="_blank" rel="noopener noreferrer">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</a>`;
+      } else {
+        html += `<button class="open-pdf" style="cursor:not-allowed;opacity:0.5" disabled title="PDF downloads not configured">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</button>`;
+      }
     }
   }
 
