@@ -139,8 +139,10 @@ def build_graph(docs: list, profiles: dict = None) -> dict:
 
         # Document node
         doc_label = make_doc_label(doc.get("titulo_es", doc_id))
+        _slug = re.sub(r"[\s_]+", "-", re.sub(r"[^\w\s-]", "", doc_id.lower().strip())).strip("-")
         doc_node_id = get_or_create(doc_label, "document", {
             "doc_id":       doc_id,
+            "page_url":     f"{SITE_URL}/documentos/{_slug}/",
             "filename":     fname,
             "folder":       folder,
             "titulo_es":    doc.get("titulo_es", ""),
@@ -1341,6 +1343,8 @@ function showDetail(d) {
       } else {
         html += `<button class="open-pdf" style="cursor:not-allowed;opacity:0.5" disabled title="PDF downloads not configured">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</button>`;
       }
+      if (d.page_url)
+        html += `<a class="open-pdf" href="${esc(d.page_url)}" target="_blank" rel="noopener noreferrer">📖 ${lang==='es'?'Ver texto completo':'Read full text'}</a>`;
     }
   }
 
