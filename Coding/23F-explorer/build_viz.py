@@ -209,6 +209,12 @@ def build_graph(docs: list, profiles: dict = None) -> dict:
                 "tipo_org": org.get("tipo", "") if isinstance(org, dict) else ""
             })
             nodes[oid]["docs"].append(doc_node_id)
+            edges.append({
+                "source": oid,
+                "target": doc_node_id,
+                "type":   "mentioned_in",
+                "label":  "mencionada en",
+            })
 
         # Events
         for ev in doc.get("eventos", []):
