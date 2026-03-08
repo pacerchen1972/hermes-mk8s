@@ -651,11 +651,14 @@ function showDetail(d) {
       if (d.wikipedia_en) html += `<a href="${esc(d.wikipedia_en)}" target="_blank" rel="noopener noreferrer" style="display:block;font-size:12px;color:#58a6ff">🔗 EN</a>`;
       html += `</div>`;
     }
-    const connectedNodes = GRAPH_DATA.edges
-      .filter(e => (e.source.id||e.source) === d.id || (e.target.id||e.target) === d.id)
-      .map(e => (e.source.id||e.source) === d.id ? (e.target.id||e.target) : (e.source.id||e.source))
-      .map(nid => GRAPH_DATA.nodes.find(n => n.id === nid))
-      .filter(Boolean);
+    const connectedNodes = [...new Map(
+      GRAPH_DATA.edges
+        .filter(e => (e.source.id||e.source) === d.id || (e.target.id||e.target) === d.id)
+        .map(e => (e.source.id||e.source) === d.id ? (e.target.id||e.target) : (e.source.id||e.source))
+        .map(nid => GRAPH_DATA.nodes.find(n => n.id === nid))
+        .filter(Boolean)
+        .map(n => [n.id, n])
+    ).values()];
     if (connectedNodes.length) {
       html += `<div class="detail-section"><h4>${lang==='es'?'Conexiones':'Connections'} (${connectedNodes.length})</h4>`;
       // C-2: use data-node-id attribute instead of onclick interpolation
@@ -675,11 +678,14 @@ function showDetail(d) {
 
   else if (d.type === 'organization') {
     if (d.tipo_org) html += `<div class="detail-subtitle">${esc(d.tipo_org)}</div>`;
-    const connectedNodes = GRAPH_DATA.edges
-      .filter(e => (e.source.id||e.source) === d.id || (e.target.id||e.target) === d.id)
-      .map(e => (e.source.id||e.source) === d.id ? (e.target.id||e.target) : (e.source.id||e.source))
-      .map(nid => GRAPH_DATA.nodes.find(n => n.id === nid))
-      .filter(Boolean);
+    const connectedNodes = [...new Map(
+      GRAPH_DATA.edges
+        .filter(e => (e.source.id||e.source) === d.id || (e.target.id||e.target) === d.id)
+        .map(e => (e.source.id||e.source) === d.id ? (e.target.id||e.target) : (e.source.id||e.source))
+        .map(nid => GRAPH_DATA.nodes.find(n => n.id === nid))
+        .filter(Boolean)
+        .map(n => [n.id, n])
+    ).values()];
     if (connectedNodes.length) {
       html += `<div class="detail-section"><h4>${lang==='es'?'Conexiones':'Connections'} (${connectedNodes.length})</h4>`;
       // C-2: use data-node-id attribute instead of onclick interpolation
