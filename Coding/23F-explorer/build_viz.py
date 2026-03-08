@@ -843,6 +843,69 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   .stats { padding: 4px 20px; background: #0d1117; border-top: 1px solid #30363d;
             font-size: 11px; color: #8b949e; display: flex; gap: 16px; flex-shrink: 0; }
 
+  /* ── Mobile (≤ 768px) ──────────────────────────────────────────────────────── */
+  @media (max-width: 768px) {
+    header { padding: 10px 12px; gap: 10px; min-height: 48px; }
+    header h1 { font-size: 14px; letter-spacing: 0; }
+    header span { display: none; }
+    .lang-toggle button { padding: 8px 12px; font-size: 13px; }
+
+    .filters { padding: 6px 12px; gap: 6px; flex-wrap: nowrap;
+               overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    .filters::-webkit-scrollbar { display: none; }
+    .filter-btn { padding: 8px 10px; font-size: 0; flex-shrink: 0;
+                  min-width: 36px; min-height: 36px;
+                  display: flex; align-items: center; justify-content: center; }
+    .filter-btn::before { font-size: 14px; content: attr(data-icon); }
+    .search-box { width: 120px; min-width: 90px; flex-shrink: 0;
+                  margin-left: 0; font-size: 16px; }
+
+    .main { flex-direction: column; overflow: visible; }
+
+    #detail { position: fixed; bottom: 0; left: 0; right: 0; width: 100%;
+              max-height: 0; height: auto; border-left: none;
+              border-top: 1px solid #30363d; border-radius: 12px 12px 0 0;
+              overflow: hidden; transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1);
+              z-index: 100; }
+    #detail.panel-open  { max-height: 55vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+    #detail.panel-expanded { max-height: 92vh; }
+    #detail-sheet-handle { width: 100%; height: 20px; display: flex;
+                           align-items: center; justify-content: center;
+                           cursor: grab; flex-shrink: 0; touch-action: none; }
+    #detail-sheet-handle::after { content: ''; display: block; width: 40px; height: 4px;
+                                   border-radius: 2px; background: #30363d; }
+    #detail-close { width: 44px; height: 44px; font-size: 18px;
+                    line-height: 44px; top: 6px; right: 8px; }
+
+    #graph-container { flex: 1; min-height: 0; }
+    svg#graph { touch-action: none; }
+    #zoom-reset { padding: 10px 14px !important; font-size: 14px !important; }
+
+    #timeline-wrapper { height: auto !important; flex-shrink: 0; }
+    #timeline-wrapper.tl-collapsed #timeline { display: none; }
+    #timeline-wrapper.tl-collapsed #timeline-resize-handle { display: none; }
+    #timeline-resize-handle { display: none; }
+    #period-tabs { padding: 4px 10px; gap: 4px; overflow-x: auto;
+                   flex-wrap: nowrap; scrollbar-width: none; min-height: 44px; }
+    #period-tabs::-webkit-scrollbar { display: none; }
+    .period-tab { padding: 6px 10px; flex-shrink: 0; }
+    .period-tab-label { display: none; }
+    #tl-toggle-btn { margin-left: auto; background: none; border: 1px solid #30363d;
+                     color: #8b949e; border-radius: 4px; padding: 4px 8px;
+                     font-size: 12px; cursor: pointer; flex-shrink: 0;
+                     min-width: 44px; min-height: 36px; }
+    #timeline-wrapper.tl-open #timeline { display: block; height: 120px; }
+
+    .stats { font-size: 10px; padding: 3px 12px; overflow-x: auto;
+             flex-wrap: nowrap; white-space: nowrap; scrollbar-width: none; }
+    .stats::-webkit-scrollbar { display: none; }
+  }
+
+  @media (max-width: 375px) {
+    header h1 { font-size: 12px; }
+    .search-box { width: 90px; }
+  }
+
 </style>
 </head>
 <body>
@@ -860,10 +923,10 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 
 <div class="filters">
   <label id="label-show">Show:</label>
-  <button class="filter-btn person active" onclick="toggleType('person')">● Persons</button>
-  <button class="filter-btn organization active" onclick="toggleType('organization')">■ Organizations</button>
-  <button class="filter-btn event active" onclick="toggleType('event')">◆ Events</button>
-  <button class="filter-btn document active" onclick="toggleType('document')">▶ Documents</button>
+  <button class="filter-btn person active" data-icon="●" onclick="toggleType('person')">● Persons</button>
+  <button class="filter-btn organization active" data-icon="■" onclick="toggleType('organization')">■ Organizations</button>
+  <button class="filter-btn event active" data-icon="◆" onclick="toggleType('event')">◆ Events</button>
+  <button class="filter-btn document active" data-icon="▶" onclick="toggleType('document')">▶ Documents</button>
   <input class="search-box" id="search" type="text" placeholder="Search…" oninput="filterSearch(this.value)">
 </div>
 
@@ -955,6 +1018,14 @@ function updateStaticUI(lang) {
     const btn = document.querySelector(`.period-tab[data-period="${p.id}"]`);
     if (btn) btn.textContent = es ? p.label_es : p.label_en;
   });
+  // Mobile timeline toggle button
+  const tlToggleBtn = document.getElementById('tl-toggle-btn');
+  if (tlToggleBtn) {
+    const isOpen = document.getElementById('timeline-wrapper').classList.contains('tl-open');
+    tlToggleBtn.textContent = isOpen
+      ? (es ? '▼ Línea de tiempo' : '▼ Timeline')
+      : (es ? '▲ Línea de tiempo' : '▲ Timeline');
+  }
   // Stats bar
   updateStats();
   // Detail placeholder (if no node selected)
@@ -1058,7 +1129,11 @@ function initGraph() {
   zoomBehavior = d3.zoom().scaleExtent([0.2, 4]).on('zoom', e => g.attr('transform', e.transform));
   svgEl = d3.select('#graph')
     .attr('viewBox', [0, 0, W, H])
+    .style('touch-action', 'none')
     .call(zoomBehavior);
+
+  // Prevent iOS from hijacking touch gestures on the graph canvas
+  container.addEventListener('touchmove', e => e.preventDefault(), { passive: false });
 
   // Arrow markers (defs must come before g so markers are defined in DOM first)
   svgEl.append('defs').selectAll('marker')
@@ -1089,10 +1164,13 @@ function initGraph() {
     .join('g')
       .attr('class', 'node')
       .call(d3.drag()
-        .on('start', dragStart)
+        .on('start', (event, d) => { d._dragStartX = event.x; d._dragStartY = event.y; dragStart(event, d); })
         .on('drag',  dragged)
-        .on('end',   dragEnd))
-      .on('click', (event, d) => { event.stopPropagation(); showDetail(d); });
+        .on('end',   (event, d) => {
+          const dx = event.x - d._dragStartX, dy = event.y - d._dragStartY;
+          dragEnd(event, d);
+          if (Math.hypot(dx, dy) < 5) showDetail(d);
+        }));
 
   nodeEl = nodeGroups;
 
@@ -1307,6 +1385,7 @@ function showDetail(d) {
   nodeEl.classed('dimmed', n => !connectedIds.has(n.id));
   linkEl.classed('dimmed', l =>
     (l.source.id||l.source) !== d.id && (l.target.id||l.target) !== d.id);
+  if (IS_MOBILE()) openDetailSheet(d);
 }
 
 function clearDetail() {
@@ -1322,6 +1401,7 @@ function clearDetail() {
         <span style="color:#38c77e">▶</span> ${es?'Documentos':'Documents'}
       </p>
     </div>`;
+  closeDetailSheet();
   nodeEl && nodeEl.classed('dimmed', false);
   linkEl && linkEl.classed('dimmed', false);
 }
@@ -1433,7 +1513,12 @@ function initTimeline() {
       .attr('fill', n => periodColor[n.d.period] || '#8b949e')
       .attr('opacity', 0.85)
       .style('cursor', 'pointer')
-      .on('mouseover', (event, n) => showTimelineTooltip(event, n.d))
+      .on('mouseover touchstart', (event, n) => {
+        const clientX = event.touches ? event.touches[0].clientX : event.clientX;
+        const clientY = event.touches ? event.touches[0].clientY : event.clientY;
+        showTimelineTooltip({ clientX, clientY }, n.d);
+        if (event.touches) setTimeout(hideTooltip, 2000);
+      })
       .on('mouseout', hideTooltip)
       .on('click', (event, n) => {
         if (n.d.doc_id) {
@@ -1465,6 +1550,38 @@ function showTimelineTooltip(event, d) {
 }
 function hideTooltip() { if (tooltip) tooltip.style.display = 'none'; }
 
+// ── Mobile bottom sheet ───────────────────────────────────────────────────────
+const IS_MOBILE = () => window.innerWidth <= 768;
+
+function openDetailSheet(d) {
+  if (!IS_MOBILE()) return;
+  const panel = document.getElementById('detail');
+  panel.classList.add('panel-open');
+  panel.classList.remove('panel-expanded');
+  if (!document.getElementById('detail-sheet-handle')) {
+    const handle = document.createElement('div');
+    handle.id = 'detail-sheet-handle';
+    panel.insertBefore(handle, panel.firstChild);
+    let startY = 0;
+    handle.addEventListener('touchstart', e => { startY = e.touches[0].clientY; }, { passive: true });
+    handle.addEventListener('touchend', e => {
+      const dy = startY - e.changedTouches[0].clientY;
+      if (dy > 40) panel.classList.add('panel-expanded');
+      if (dy < -40) { panel.classList.remove('panel-expanded', 'panel-open'); clearDetail(); selectedNode = null; }
+    }, { passive: true });
+  }
+  if (history.state && history.state.detailOpen) {
+    history.replaceState({ detailOpen: true }, '');
+  } else {
+    history.pushState({ detailOpen: true }, '');
+  }
+}
+
+function closeDetailSheet() {
+  if (!IS_MOBILE()) return;
+  document.getElementById('detail').classList.remove('panel-open', 'panel-expanded');
+}
+
 // ── Init ──────────────────────────────────────────────────────────────────────
 window.addEventListener('DOMContentLoaded', () => {
   initGraph();
@@ -1479,6 +1596,49 @@ window.addEventListener('DOMContentLoaded', () => {
       if (node) showDetail(node);
     }
   });
+
+  // ── Mobile-only setup ─────────────────────────────────────────────────────
+  if (IS_MOBILE()) {
+    // Timeline collapse toggle
+    const tlWrapper2 = document.getElementById('timeline-wrapper');
+    tlWrapper2.classList.add('tl-collapsed');
+    const toggleBtn = document.createElement('button');
+    toggleBtn.id = 'tl-toggle-btn';
+    toggleBtn.textContent = currentLang === 'es' ? '▲ Línea de tiempo' : '▲ Timeline';
+    toggleBtn.setAttribute('aria-label', 'Toggle timeline');
+    toggleBtn.setAttribute('aria-expanded', 'false');
+    document.getElementById('period-tabs').appendChild(toggleBtn);
+    toggleBtn.addEventListener('click', () => {
+      const open = tlWrapper2.classList.toggle('tl-open');
+      tlWrapper2.classList.toggle('tl-collapsed', !open);
+      const label = open
+        ? (currentLang === 'es' ? '▼ Línea de tiempo' : '▼ Timeline')
+        : (currentLang === 'es' ? '▲ Línea de tiempo' : '▲ Timeline');
+      toggleBtn.textContent = label;
+      toggleBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (open) { d3.select('#timeline-svg').selectAll('*').remove(); initTimeline(); }
+    });
+
+    // Filter button icons + aria-labels
+    const iconMap  = { person:'●', organization:'■', event:'◆', document:'▶' };
+    const ariaMap  = { person:'Personas', organization:'Organizaciones', event:'Eventos', document:'Documentos' };
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      const type = ['person','organization','event','document'].find(t => btn.classList.contains(t));
+      if (type) { btn.dataset.icon = iconMap[type]; btn.setAttribute('aria-label', ariaMap[type]); }
+    });
+
+    // Search box — mobile keyboard hints
+    const searchBox2 = document.getElementById('search');
+    searchBox2.setAttribute('inputmode', 'search');
+    searchBox2.setAttribute('autocomplete', 'off');
+    searchBox2.setAttribute('autocorrect', 'off');
+    searchBox2.setAttribute('autocapitalize', 'none');
+
+    // Back-swipe closes detail panel
+    window.addEventListener('popstate', () => {
+      if (selectedNode) { closeDetailSheet(); clearDetail(); selectedNode = null; }
+    });
+  }
 
   // ── Timeline resize handle ─────────────────────────────────────────────────
   let tlResizing = false, tlStartY = 0, tlStartH = 0;
