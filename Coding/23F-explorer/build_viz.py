@@ -355,12 +355,13 @@ def generate_doc_page(doc: dict, pdf_base: str) -> str:
     temas       = doc.get("temas", [])
     doc_id      = doc.get("_meta", {}).get("doc_id", "")
     filename    = doc.get("_meta", {}).get("filename", "")
+    folder      = doc.get("_meta", {}).get("folder", "")
     slug        = doc_slug(doc)
 
     # PDF link
     pdf_html = ""
     if pdf_base and filename:
-        pdf_url = f"{pdf_base}{filename}"
+        pdf_url = f"{pdf_base}{folder + '/' if folder else ''}{filename}"
         pdf_html = (f'<a class="pdf-btn" href="{esc_html(pdf_url)}" target="_blank" rel="noopener">'
                     f'📄 Descargar PDF / Download PDF</a>')
 
