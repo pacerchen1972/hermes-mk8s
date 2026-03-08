@@ -36,13 +36,24 @@
       "cargo": "Sargento 1º",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Contacto de Garchitorena en la creación de grupos armados para actuar en el País Vasco"]
+      "acciones": [
+        "Contacto de Garchitorena en la creación de grupos armados para actuar en el País Vasco"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Gobierno Militar de Madrid", "tipo": "militar" },
-    { "nombre": "Acción Sindicalista Nacional del Trabajo (ASNT)", "tipo": "otro" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Gobierno Militar de Madrid",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Acción Sindicalista Nacional del Trabajo (ASNT)",
+      "tipo": "otro"
+    }
   ],
   "eventos": [
     {
@@ -62,7 +73,14 @@
       "fecha": "1981-02-23"
     }
   ],
-  "temas": ["cesid", "post-golpe", "paisanos-armados", "garchitorena", "asnt", "madrid"],
+  "temas": [
+    "cesid",
+    "post-golpe",
+    "paisanos-armados",
+    "garchitorena",
+    "asnt",
+    "madrid"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_73_R",
     "filename": "Documento_73_R.pdf",
@@ -70,5 +88,7 @@
     "is_image_pdf": true,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "N/RFA: C/D13 / 6320 {14-04-81 .\nntc ”\n\"00\nea\n5/5\nMb MICRO EILMACIOR 06295/5\nNOTA INFORMATIVA n t\ni\nt\nAAreteteintret E\ne\nL\nR\nASUNTO: Relaciones entre algunos militares y paisanos armados a e\nW\n+\n6\nJose Antonio ASSIEGO,actual promotor del nuevo sindica- e\nto Acción Sindicalista Macional del Trabajo (ASNT) ,y perso-\nA\nna que controla a unos 40homtres profesionales de la ruptu-R\nra de huelgas por la violencia y habitualmente armados, es- R\ntá relacionado con un Coronel del Ejército, Grupo 8, desti- A\nnado en el Gobierno Militar de Madrid, llamado Ricardo GAR- A\n_ CHITORENA, del cual recibe instrucciones. A este respecto\nparece que da noche del 23 de Febrero ASSIEGO estuvo prepa-\nrado para salir a la callc al frente de varias decenas de -\npaisanos armados y la persona de la que esperaba recibir la NE\norden para tal acción era, precisamente, el citado Coronel es\nGARCHITORENA,\nCA\nPor otra parte este Coronel tuvo una actuación dudosa du- |\nrante cl intento de golpe de estado, habiéndose especuiado\ncon la posibilidad de que hubiera intentado hacerse con el.\ncontrol del Gobierno Militar apoyado por un grupo de paisa-\nnos armados. Entre estos parece seguro.se encontraba el Sar-\ngento 1% JUAN MONTERO RAMIREZ, ya lígado conanterioridadal |\nCoronel GARCHITORENA en la creación de grupos armados para - j-\nactuar en el País Vasco, sometido a procedimiento judicial\np c o i r ona e d s o te AS m S o I t E i G v O o . y actual o mente también en conta A cto con el menl i\nEl hecho de que el Coronel GARCHITORENA. y el Comindante\nSAENZ DE INESTRILLAS hayan podido mantener estrechos contac- :\ntos por haber estado ambos destinados en el edificio del Go\nbierno Militar; la información relativa a la supuesta prepa-\nración de un golpe de mano por parte de este último; así cu-\nmo los contactos que ha. mantenidorecientemente con cl Tenian\nte CoronelcMEER DE RIBERA, constituyen uncuadro preocupante\nya que pudicra representar una aproximación entre el grupo en\nque se desenvuelve este último, mas inteligente y con mayor\ncapacidad de organización, y el núcleo mas violento que con-\ntrola el Coronel GARCHITORENA, sobre todo si, como parece, |\npuede cortar con los hombres de ASSIEGO,. algunos de ellos ver\ndaderos pistoleros, en arden a la realización de alguns -- 1\nacción o golpe de mano. .\nETO.",
+  "texto_completo_en": "N/RFA: C/D13 / 6320 {14-04-81 .\nntc”\n\"00\neah\n5/5\nMb MICRO EILMACIOR 06295/5\nINFORMATIVE NOTE n t\ni\nt\nAAreteteintret E\nand\nl\nR\nSUBJECT: Relations between some military personnel and armed civilians\nW\n+\n6\nJose Antonio ASSIEGO, current promoter of the new union\nto Mational Trade Union Action of Labor (ASNT), and perso-\nA\nna that controls about 40 menthree professionals of the ruptu-R\nra of strikes due to violence and usually armed, es- R\nis related to an Army Colonel, Group 8, assigned to\nborn in the Military Government of Madrid, called Ricardo GAR- A\n_ CHITORENA, from which he receives instructions. In this regard\nIt seems that on the night of February 23 ASSIEGO was prepared\nted to go out into the street in front of several dozen -\narmed countrymen and the person from whom he expected to receive the NE\norder for such action was, precisely, the aforementioned Colonel is\nGARCHITORENA,\nAC\nOn the other hand, this Colonel had a dubious performance du- |\nbefore the attempted coup d'état, having speculated\nwith the possibility that he had tried to get hold of it.\ncontrol of the Military Government supported by a group of countrymen\nwe armed. Among these, it seems certain, was the Sar-\npeople 1% JUAN MONTERO RAMIREZ, already linked with previous |\nColonel GARCHITORENA in the creation of armed groups to - j-\nact in the Basque Country, subject to judicial procedure\np c o i r ona e d s o te AS m S o I t E i G v O o . and currently also in contact with the menl i\nThe fact that Colonel GARCHITORENA. and the Commander\nSAENZ DE INESTILLAS have been able to maintain close contact:\ncough for having both been stationed in the Go building\nmilitary government; the information relating to the alleged preparation\nration of a blow of the hand by the latter; so cu-\nmo the contacts you have. recently with cl Tenian\nColonel MEER DE RIBERA, constitute a worrying picture\nsince it could represent an approximation between the group in\nthat the latter develops, more intelligent and with greater\norganization capacity, and the most violent core that con-\nColonel GARCHITORENA is trolling, especially if, as it seems, |\ncan cut with ASSIEGO's men. some of them see\nreal gunmen, on fire to carry out some crimes -- 1\naction or hand strike. .\nETO."
 }

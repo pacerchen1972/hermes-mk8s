@@ -9,18 +9,50 @@
   "resumen_es": "Nota de la Embajada de España en La Habana (Cuba, 7 abril 1982) al Ministerio de Asuntos Exteriores, remitiendo el suelto publicado en la sección 'Hilo Directo' del diario cubano 'Granma' sobre el incidente protagonizado el día 5 de abril por algunos procesados en el juicio por el intento de golpe militar del 23 de febrero de 1981. Firmado: Enrique Larreque.",
   "resumen_en": "Note from Spain's Embassy in Havana, Cuba (7 April 1982) to the Ministry of Foreign Affairs, forwarding the item published in Cuban newspaper 'Granma's 'Hilo Directo' section on the incident involving some defendants at the trial of the 23 February 1981 attempted military coup on 5 April. Signed: Enrique Larreque.",
   "personas": [
-    { "nombre": "Enrique Larreque", "rol": "Embajador de España en Cuba, firmante" }
+    {
+      "nombre": "Enrique Larreque",
+      "rol": "Embajador de España en Cuba, firmante"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Embajada de España en La Habana", "tipo": "gobierno" },
-    { "nombre": "Granma", "tipo": "medios" },
-    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+    {
+      "nombre": "Embajada de España en La Habana",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Granma",
+      "tipo": "medios"
+    },
+    {
+      "nombre": "Ministerio de Asuntos Exteriores de España",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-04-07", "descripcion_es": "El diario cubano Granma informa sobre un incidente en el juicio del 23-F; la Embajada española en La Habana transmite el recorte", "descripcion_en": "Cuban newspaper Granma reports on an incident at the 23-F trial; Spanish Embassy in Havana transmits the clipping", "lugar": "La Habana, Cuba" }
+    {
+      "fecha": "1982-04-07",
+      "descripcion_es": "El diario cubano Granma informa sobre un incidente en el juicio del 23-F; la Embajada española en La Habana transmite el recorte",
+      "descripcion_en": "Cuban newspaper Granma reports on an incident at the 23-F trial; Spanish Embassy in Havana transmits the clipping",
+      "lugar": "La Habana, Cuba"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "reacciones-internacionales", "cuba", "prensa-extranjera", "incidente-juicio"],
-  "_meta": { "doc_id": "Exteriores_25", "filename": "D.25._AGA-83-08764_exp._5.pdf", "folder": "exteriores/AGA-83-08764", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "reacciones-internacionales",
+    "cuba",
+    "prensa-extranjera",
+    "incidente-juicio"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_25",
+    "filename": "D.25._AGA-83-08764_exp._5.pdf",
+    "folder": "exteriores/AGA-83-08764",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "ms\nbu’ 323.8 lus) - 4h\nCitese esta referencia en la contestación\nS La Habana, 7 de abril de 1982\n: Y E = ano (Ske \\ Asunto: Incidente en juicio 23 F.\n. Lo Alb : \\\nExcmo. Señor:\nAdjunto remito a V. E. el suelto que en su\nSección \"Hilo Directo\" publica hoy el diario \"Granma\",\nsobre el incidente protagonizado el pasado día 5 por «\nalgunos de los procesados en el juicio por el intento\nde golpe militar de 23 de febrero de 1981.\nDios guarde a V. E. muchos años\nEL EMBAJADOR DE ESPAÑA\nLt\nEnrique Larroque\nEXCMO. SEÑOR MINISTRO DE ASUNTOS EXTERIORES.-\n\n\"4\nWee coe tc Se SAR\nquedan \\\n- Aunque se vistan como seres humanos, gorilas se\n© UHnh v iveiejjoo rrefráen dicej qure “lea m oneae aounqaue dores de aviones, en base a que unos y otros\nse vista de seda, mona se queda”. Y los “hacen rehenes”. A\npeninsulares —en definitiva,. gorila no es más El generalillo; acostumbrado a dar órdenes\n«ue un mono grande— ucaban de volver a confire .de en\nmar esa máxima popular. española, seas”, “me'da asco y náuseas”... Y dividennádus-\nLos periódicos madrileños del martes in\nsu situación judicial, abandonó la sala, seguido\nampliamente de un bochornoso e inad ble es-.\nulo protagonizado el lunes un grupo de\nde sus compinches,\nconnotados illas del falli Eg militar Pri ai seso han popa con in-\nober a rente\ndel 23 de febrero de 1981 en Es; fae lonan, “de orp si”, la cala en que son\nEstos señores —el teniente general Milans del\nBosch, el capitán de navío Camilo Menéndez, el omiso aIl spre suidente dnel tribu nav l e caso\nteniente coronel Mas y el comandante Pardo Como bien señalara el rotativo “Vanguardia”,\nZancada— formaron una algarabía en pleno jui- dichos individuos olvidaron su condición de pro»\ncio. que se les sigue en un alto tribunal mil cesados y creyeron encontrarse en una reunión\npor su participación en el abortado complot, -\nmu\nMilans del Bosch inició el “show” cuando se Y es que los implicados en la fracasada aso-\nE tema de este antropoide cuartelario un arre nada castrense, que suspiran por los viejos aires\nato de histeria al escuchar que uno de los prin- que no imponen la dirección de la brújula\ncipales testigos establecía una similitud entre los en el actual clima político español, aunque se\ny m e ilit a p re a s r a q u ad e u a e s ñ a a lt r a se ro d n e e l l p C o o d n e g r r y es o lo e s n s e s c u u e e s s t c r a a - - vistan como seres humanos : , 0 g o Jo ri sléa sG saeb rqieule cdman.o /",
+  "texto_completo_en": "ms\nbu’ 323.8 lus) - 4h\nCite this reference in the response\nS Havana, April 7, 1982\n: And E = anus (Ske \\ Subject: Incident in trial 23 F.\n. Lo Alb: \\\nHon. Sir:\nAttached I send to Your Excellency the document that in its\nSection \"Hilo Directo\" published today by the newspaper \"Granma\",\nabout the incident that took place on the 5th by «\nsome of those prosecuted in the trial for the attempted\nmilitary coup of February 23, 1981.\nMay God keep Your Excellency for many years\nTHE AMBASSADOR OF SPAIN\nLt\nEnrique Larroque\nEXCELLENCE MINISTER OF FOREIGN AFFAIRS.-\n\n\"4\nWee coe tc Se SAR\nremain \\\n- Even though they dress like human beings, gorillas\n© UHnh v iveiejjoo rrefraen saysj quere “read m oneae aounqaue dores of airplanes, on the basis that one and the other\ndresses in silk, mona stays.\" And they \"take them hostages.\"\npeninsular - in short,. gorilla is no longer El generalillo; used to giving orders\n“that a big monkey—they were about to trust again.\nsea that popular maxim. Spanish, you are”, “it makes me sick and nauseous”... And dividennádus-\nThe Madrid newspapers of Tuesday\nhis judicial situation, left the courtroom, followed\nwidely of a shameful and inaudible es-.\nulo starring on Monday a group of\nof his cronies,\nrenowned islands of the falli Eg military Pri ai seso have stern with in-\nober a rent\nof February 23, 1981 in Es; fae lonan, “of orp si”, the cove in which they are\nThese gentlemen—Lieutenant General Milans of the\nBosch, the captain of the ship Camilo Menéndez, the ignoring of the spre suidente of the naval tribe in the case\nLieutenant Colonel Mas and Commander Pardo As the newspaper “Vanguardia” pointed out,\nStride - formed an uproar in the middle of the court - said individuals forgot their status as pro\ncio. that they are being followed in a high court by a thousand dismissed and they thought they were at a meeting\nfor his participation in the aborted plot, -\nmu\nMilans del Bosch started the “show” when those involved in the failed association\nThe theme of this anthropoid barracks is a military arrangement, which sighs for the old airs\nof hysteria upon hearing that one of the princes does not impose the direction of the compass\ncipal witnesses established a similarity between the current Spanish political climate, although\nand me illit a p re a s r a q u a d e u a e s n a a l t r a se ro d n e el l p C o o d n e g r r and that is what it is n s e s c u u e e s st c r a a - - dress like human beings: , 0 g o Jo ri sléa sG saeb rqieule cdman.o /"
 }

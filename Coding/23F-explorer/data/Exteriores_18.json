@@ -9,18 +9,50 @@
   "resumen_es": "Nota del Consulado General de España en Córdoba, Argentina (14 junio 1981) al Ministerio de Asuntos Exteriores, remitiendo el editorial del diario argentino 'La Voz del Interior' del día 6 de abril titulado 'Positiva revisión de un acto irreflexivo', en el que se pone de relieve el enorme prestigio del Rey Juan Carlos ante el pueblo español y en el ámbito internacional en relación con los sucesos del 23 de febrero.",
   "resumen_en": "Note from Spain's Consulate General in Córdoba, Argentina (14 June 1981) to the Ministry of Foreign Affairs, forwarding the editorial from Argentine newspaper 'La Voz del Interior' of 6 April entitled 'Positive revision of a rash act', which highlights the enormous prestige of King Juan Carlos before the Spanish people and internationally in relation to the events of 23 February.",
   "personas": [
-    { "nombre": "Juan Carlos I", "rol": "Rey de España, destacado en el editorial argentino por su papel en el 23-F" }
+    {
+      "nombre": "Juan Carlos I",
+      "rol": "Rey de España, destacado en el editorial argentino por su papel en el 23-F"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Consulado General de España en Córdoba (Argentina)", "tipo": "gobierno" },
-    { "nombre": "La Voz del Interior", "tipo": "medios" },
-    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+    {
+      "nombre": "Consulado General de España en Córdoba (Argentina)",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "La Voz del Interior",
+      "tipo": "medios"
+    },
+    {
+      "nombre": "Ministerio de Asuntos Exteriores de España",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-06-14", "descripcion_es": "Consulado español en Córdoba (Argentina) remite a Exteriores editorial del periódico 'La Voz del Interior' elogiando al Rey Juan Carlos", "descripcion_en": "Spanish consulate in Córdoba (Argentina) forwards to Foreign Affairs editorial from 'La Voz del Interior' praising King Juan Carlos", "lugar": "Córdoba, Argentina" }
+    {
+      "fecha": "1981-06-14",
+      "descripcion_es": "Consulado español en Córdoba (Argentina) remite a Exteriores editorial del periódico 'La Voz del Interior' elogiando al Rey Juan Carlos",
+      "descripcion_en": "Spanish consulate in Córdoba (Argentina) forwards to Foreign Affairs editorial from 'La Voz del Interior' praising King Juan Carlos",
+      "lugar": "Córdoba, Argentina"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "argentina", "prensa-extranjera", "juan-carlos-i"],
-  "_meta": { "doc_id": "Exteriores_18", "filename": "D.18._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "argentina",
+    "prensa-extranjera",
+    "juan-carlos-i"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_18",
+    "filename": "D.18._AGA-83-07633_exp._4.pdf",
+    "folder": "exteriores/AGA-83-07633",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "[sas\nCórdoba, 16 de Junio de 1981.-\nT L iíto y se e s ( ta r E eferenc V ia en la I -eon te F 2 E .. ) . y 5\nASUNTO: Remite recorte de prensa.-\nIBEROAMERICA\nNe ¡AE\n— Puttar - EXCMO. SEÑOR:\nao “4 lb : ‘D. Adjunto a V.TM. un editorial de La Voz\nA Y del Interior del pasado día 6 titulado\"Positiva\nTA! revisión de un acto irreflexivo\".-\n13\" >\nDios guarde a V,E, muchos años\nDad Do\nSALVADOR BLASCO LOPEZ\nCONSUL GENERAL DE ESPAÑA\nEXCMO. SEÑOR MINISTRO DE ASUNTOS EXTERIORES\nMADRID\n\nDIARIO INDEPENDIENTE DE LA MAÑANA\nDirector: JORGE S. REMONDA-RUIBAL\nCORDOBA, nae ANG 6 DE JUNIO DE 1981 da\neire\nsiB\ne\na\nempresa Sever (ex-Flat) dispuso una — IOMA\nPositiva revisión de\ne\nun acto irreflexivo\nEl 23 de febrero último, un funam- fundamental de los grandes diploma--\nbulesco oficial de la Guardia Civil in- tico F s e q li u zm e e e n n t e e l , c e k a n bib\ntentó un tragicómico ensayo de de- —\nEstado ha demostraedo. en ed\n“sestabilización del régimen democra-_\ntico español. La zozobra que.vivieron.. + una mayor prudencia en el juicio, uunn: a\nel equipo ministerial y los diputados - más exacta valoración de cuanto\nde las Cortes, amenazados de muerte juega Occidente en la península. Si\npor un grupo de desorientados bed no ha sige por boca del propio\nmiembros de la “Benemérita” lleva- - Haig; por lo menos algunos de sus\ndos a protagonizar una aventura que colaboradores inmediatos han tenido\nhabría sido absurda si detrás de ella el buen tino de expresarse, clara y ro-\nno se avizorara la presencia oscura tundamente, sobre cualquier ensayo:\nde la reacción, se propagó no sola- futuro de quebrar el proceso de rede- i\nmente al resto de España sino que se mocratización. Lawrence Eaglebur- ©\nextendió a una Europa Occidental ger, subsecretario de Estado para\nque espera anhelante la consolida- Asuntos de Europa ha sido reconfor- |\nción de las instituciones de la de- tantemente lúcido al expresar que su\nmocracia en España. Y repercutió en - _ pais “se opone y se opondrá con\nel resto del mundo, sobrecogido por | energía a cualquier intento de in-\nla perspectiva de la reinstalación del terrumpir el actual proceso político :\nautoritarismo en la gloriosa nación. hispano”.\nEn esas horas tensas, el secreta- Desde luego, estas seguridades\nrio de Estado de los Estados Unidos, - no servirán demasiado para disuadir\nAlexander Haig, tuvo una actuación a los sectores golpistas, pero fortale-\ndesventurada, al aseverar que el epi- cen considerablemente ie posicion —\nsodio que se vivía en la capital hispa- de las fuerzas democráticas y, sobre —\nna era un asunto inter los espa- todo, dan una exacta dimensión del\nñoles. Como si la des tabilización aislamiento que padecerían los agen-\npolítica del rei! e reacción en caso de obtener\nlo. éxito en alguna eventual embestida .\nfutura contra la democracia. Pero, in-\ndudablemente, la definición de Eagle-\nburger tendrá un valor aún mayor si\no de lo que consigue convocar a la realidad a su\n-debe serle poe ns inherente:\nBe -propio superior, es decir, al tempera-\nla prudente | nderación de los - mental y aveces irreflexivo Alexander\n. hechos y sus p ¿ ns, Haig.",
+  "texto_completo_en": "[sas\nCórdoba, June 16, 1981.-\nT L iíto and se e s (ta r E eferenc V ia in the I -eon te F 2 E .. ) . and 5\nSUBJECT: Send press clipping.-\nIBEROAMERICA\nNe ¡AE\n— Puttar - H.E. SIR:\nao “4 lb: ‘D. Attached to V.TM. an editorial from La Voz\nA Y del Interior of last day 6 entitled\"Positiva\nTA! review of a thoughtless act\".-\n13\" >\nGod keep V, E, many years\nDad Do\nSALVADOR BLASCO LOPEZ\nCONSUL GENERAL OF SPAIN\nEXCELLENCE MINISTER OF FOREIGN AFFAIRS\nMADRID\n\nINDEPENDENT MORNING DIARY\nDirector: JORGE S. REMONDA-RUIBAL\nCORDOBA, nae ANG JUNE 6, 1981 da\neire\nyesB\nand\nto\ncompany Sever (ex-Flat) arranged a — IOMA\nPositive review of\nand\na thoughtless act\nLast February 23, a fundamental funam- of the great diploma--\nbulesco Civil Guard officer in-tico F s e q li u zm e e e n t e e l , c e k a n bib\nattempted a tragicomic attempt at de-\nState has demonstrated. in ed\n“stabilization of the democratic regime\nSpanish Tico. The anxiety they experienced... + greater prudence in judgment, uunn: a\nthe ministerial team and the deputies - more accurate assessment of how much\nof the Cortes, threatened with death, the West plays in the peninsula. Yes\nby a group of disoriented bed has not followed through his own mouth\nmembers of the “Bemérita” carry- - Haig; at least some of their\ntwo to star in an adventure that immediate collaborators have had\nwould have been absurd if behind it the good sense of expressing oneself, clearly and\nThe dark presence will not be seen clearly, on any essay:\nof the reaction, it spread not only- future of breaking the process of rede- i\nmind to the rest of Spain but rather democratization. Lawrence Eaglebur- ©\nextended to a Western Europe ger, undersecretary of state for\nthat eagerly awaits the consolidation- European Affairs has been reassuring- |\ntion of the institutions of the\ndemocracy in Spain. And it had repercussions on - _ country “opposes and will oppose with\nthe rest of the world, overwhelmed by | energy to any attempt to\nthe prospect of reinstating the current political process:\nauthoritarianism in the glorious nation. Hispanic.”\nIn those tense hours, the secret- Of course, these assurances\nriver of statehood of the United States, - will not do much to deter\nAlexander Haig, had a performance in the coup sectors, but strengthened\nhapless, by asserting that the epi- considerably ie position —\nsodium that was experienced in the Hispanic capital of the democratic forces and, above all,\nIt was not a matter between the Spaniards, they give an exact dimension of the\nñoles. As if the destabilization and isolation that the agents would suffer\nking's politics! e reaction in case of obtaining\nit. success in any eventual attack.\nfuture against democracy. But, in-\nundoubtedly, Eagle's definition\nburger will have an even greater value if\nor what he manages to summon reality to his\n-it must be inherent to him:\nBe -superior own, that is, at tempera-\nthe prudent | nderation of the - mental and sometimes thoughtless Alexander\n. facts and their points, Haig."
 }

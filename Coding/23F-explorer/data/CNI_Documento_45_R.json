@@ -10,16 +10,51 @@
   "resumen_en": "CESID integrated report (marked DTOR) on the trial's effects on the military collective and far-right groups. Analyses the accumulation of defendants' statements expected in the second half of May, the anticipated sentencing, and the political climate. Warns that far-right groups (FAP, JONS, Agrupación José Antonio) are exploiting the trial to expand their influence. Assesses the possibility of new military interventions linked to a hypothetical left-wing electoral victory.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "JONS (Juntas de Ofensiva Nacional-Sindicalista)", "tipo": "política" },
-    { "nombre": "Agrupación José Antonio", "tipo": "política" },
-    { "nombre": "Fuerzas del Acción Popular (FAP)", "tipo": "política" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "JONS (Juntas de Ofensiva Nacional-Sindicalista)",
+      "tipo": "política"
+    },
+    {
+      "nombre": "Agrupación José Antonio",
+      "tipo": "política"
+    },
+    {
+      "nombre": "Fuerzas del Acción Popular (FAP)",
+      "tipo": "política"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-04-01", "descripcion_es": "CESID evalúa el riesgo de nuevas acciones militares o extremistas en el contexto del juicio del 23-F y del próximo ciclo electoral", "descripcion_en": "CESID assesses risk of new military or extremist actions in context of the 23-F trial and upcoming electoral cycle", "lugar": null }
+    {
+      "fecha": "1982-04-01",
+      "descripcion_es": "CESID evalúa el riesgo de nuevas acciones militares o extremistas en el contexto del juicio del 23-F y del próximo ciclo electoral",
+      "descripcion_en": "CESID assesses risk of new military or extremist actions in context of the 23-F trial and upcoming electoral cycle",
+      "lugar": null
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "causa-2-81", "cesid", "opinion-militar", "extrema-derecha", "jons", "fap", "riesgo-golpista"],
-  "_meta": { "doc_id": "CNI_Documento_45_R", "filename": "Documento_45_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "opinion-militar",
+    "extrema-derecha",
+    "jons",
+    "fap",
+    "riesgo-golpista"
+  ],
+  "_meta": {
+    "doc_id": "CNI_Documento_45_R",
+    "filename": "Documento_45_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "ATOR\n6747 /29-4-82\nINFORMACION INTEGRADA\nLa intervención en el proceso de los Generales Cabezas\nCalahorra y De Santiago en el primer dia de intervención de las\ndefensas puede considerarse como la de máximas repercusiones pú\nblicas dentro de las que han de desarrollarse en los próximos -\ndias dada su categoría y personalidad. La prensa involucionista\nha puesto de su parte todo lo posible para potenciar el influjo\nde ambos alegatos sobre las FAS, pretendiendo que representan -\nen exclusiva la auténtica \"voz del Ejército\" en el seno de la Sa\nla de Justicia. La defensa del General Armada en el que se dan -\npresupuestos de culpabilidad en cierto modo contrapuestos con la\nde muchos procesados ha producido malestar en estos creandose ten\nsiones en la vista.\nLa acumulación de acontecimientos previsto para la se-\ngunda quincena de mayo -declaraciones finales de los procesados,\nexpectación de sentencias, elecciones andaluzas y semana de las\nFAS- puede verse incrementada artificialmente por los proyectos\nen curso en el seno de grupos y partidos situados a la derecha\nde Alianza Popular. Asi por parte de algunas personalidades poli\nticas y financieras de este sector se pretende la firma masiva\nde un documento que se daria a la prensa con la intención de dar\nla sensación pública de apoyo indirecto a los procesados y comba-\ntir la creencia que según ellos ha creado la prensa, de que las\nFAS están aisladas de la sociedad.Parece que el intento está en-\ncontrando muchas dificultades sufriendo mas rechazos de los espe\nrados.\nEn el mismo orden de cosas se proyecta una manifestación\nque se pretende reuna a gran cantidad de personas convocada en --\nprincipio \"contra el terrorismo y en apoyo de las FAS\" con las --\nmismas finalidades genéricas antes apuntadas. Por parte de los -\ngrupos más propensos a la violencia de la extrema-derecha se rea-\nlizan también preparativos para poner en práctica alteraciones de\norden público, siembra de panfletos etc.",
+  "texto_completo_en": "ATOR\n6747 /29-4-82\nINTEGRATED INFORMATION\nThe intervention in the process of Generals Cabezas\nCalahorra and De Santiago on the first day of intervention of the\ndefenses can be considered the one with maximum public repercussions\nwars within those that have to be developed in the next -\ndays given his category and personality. The involutionist press\nhas done everything possible to enhance the influence\nof both allegations about the FAS, claiming that they represent -\nexclusively the authentic \"voice of the Army\" within the Sa\nthat of Justice. The defense of the General Armada in which they occur -\npresuppositions of guilt in some way opposed to the\nof many defendants has caused discomfort in them, creating tension\nsions in sight.\nThe accumulation of events planned for the second\nsecond fortnight of May -final statements of the defendants,\nexpectation of sentences, Andalusian elections and week of the\nFAS- can be artificially increased by projects\nongoing within groups and parties located on the right\nof Popular Alliance. Thus on the part of some political personalities\nethics and financial aspects of this sector, massive signature\nof a document that would be given to the press with the intention of giving\nthe public feeling of indirect support for those prosecuted and fighting\nthrow away the belief that according to them the press has created, that the\nFAS are isolated from society. It seems that the attempt is on-\nI encounter many difficulties, suffering more rejections from my peers.\nrados.\nIn the same order of things a manifestation is projected\nwhich is intended to bring together a large number of people convened in --\nprinciple \"against terrorism and in support of the FAS\" with the --\nsame generic purposes mentioned above. On the part of the -\ngroups more prone to far-right violence are realised.\npreparations are also underway to implement changes in\npublic order, planting of pamphlets, etc."
 }

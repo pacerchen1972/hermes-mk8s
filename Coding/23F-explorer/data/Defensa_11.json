@@ -9,18 +9,50 @@
   "resumen_es": "Oficio SECRETO del Gabinete del Ministro de Defensa (22 abril 1981, núm. 538) comunicando al Jefe del Estado Mayor de la Armada el testimonio del Auto de Procesamiento del Capitán de Navío Camilo Menéndez Vives, conforme al artículo 595 del CJM. Firmado: Manuel Alonso Aguilar.",
   "resumen_en": "SECRET communication from the Minister of Defence's Cabinet (22 April 1981, no. 538) notifying the Chief of Naval Staff of the prosecution record of Naval Captain Camilo Menéndez Vives, pursuant to Article 595 of the Military Justice Code. Signed: Manuel Alonso Aguilar.",
   "personas": [
-    { "nombre": "Camilo Menéndez Vives", "rol": "Capitán de Navío, procesado en la Causa 2/81" },
-    { "nombre": "Manuel Alonso Aguilar", "rol": "Firmante, Gabinete del Ministro de Defensa" }
+    {
+      "nombre": "Camilo Menéndez Vives",
+      "rol": "Capitán de Navío, procesado en la Causa 2/81"
+    },
+    {
+      "nombre": "Manuel Alonso Aguilar",
+      "rol": "Firmante, Gabinete del Ministro de Defensa"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
-    { "nombre": "Estado Mayor de la Armada", "tipo": "militar" }
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Estado Mayor de la Armada",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-04-22", "descripcion_es": "MinDef notifica al Almirante Jefe del Estado Mayor de la Armada el procesamiento del Cap. de Navío Menéndez Vives en la Causa 2/81", "descripcion_en": "Ministry of Defence notifies Chief of Naval Staff of the prosecution of Naval Captain Menéndez Vives in Case 2/81", "lugar": "Madrid" }
+    {
+      "fecha": "1981-04-22",
+      "descripcion_es": "MinDef notifica al Almirante Jefe del Estado Mayor de la Armada el procesamiento del Cap. de Navío Menéndez Vives en la Causa 2/81",
+      "descripcion_en": "Ministry of Defence notifies Chief of Naval Staff of the prosecution of Naval Captain Menéndez Vives in Case 2/81",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "procesamiento", "causa-2-81", "ministerio-defensa", "armada"],
-  "_meta": { "doc_id": "Defensa_11", "filename": "Carpeta_21800_Secreto_comunicacion_procesamiento_de_implicado_2.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "procesamiento",
+    "causa-2-81",
+    "ministerio-defensa",
+    "armada"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_11",
+    "filename": "Carpeta_21800_Secreto_comunicacion_procesamiento_de_implicado_2.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "1 MINISTERIO DE DEF ‘\nA\na\nS/Ref.2 Nom. Fe N/Ref.” Nom,\nAG\n_—-> 51--RG-MI At\n51 R2-MI\nASUNTO:\nDe orden de S.E. a s fines legales ont antes\ntengo el honor de remitir a V.E. testimonio del Auto de\nProcesamiento del C. de Navío don CAMILO MENBNDEZ VIVES,\nque por haber sido desestimado el recurso que contra él\nse interpuso, ha a los efectos de lo dispues\nto en el artículo le Justicia Militar.\nDios guarde a V.E. muchos años.\nMadrid, ¿2 de Abril de 1.981.\nEL GENERAL JEFE DEL GABI}\n- Manuel Alonso Aguilar -\nExcmo. Sr. ALMIRANTE JEFE DEL ESTADO MAYOR DE LA ARMADA.\nMADRID",
+  "texto_completo_en": "1 MINISTRY OF DEF'\nA\nto\nS/Ref.2 Nom. Faith N/Ref.” Nom,\nAG\n_—-> 51--RG-MI At\n51 R2-MI\nSUBJECT:\nBy order of H.E. for legal purposes ont before\nI have the honor to refer to V.E. testimony of the Order of\nProsecution of the Ship Code Mr. CAMILO MENBNDEZ VIVES,\nthat because the appeal against him had been rejected\nwas interposed, for the purposes of the provisions\nto in the article Military Justice.\nGod save Your Excellency many years.\nMadrid, April 2, 1981.\nTHE CHIEF GENERAL OF THE GABI}\n- Manuel Alonso Aguilar -\nHon. Mr. ADMIRAL CHIEF OF THE NAVY STAFF.\nMADRID"
 }

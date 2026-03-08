@@ -10,15 +10,46 @@
   "resumen_en": "CESID integrated report (DTOR C/013/7029/13-05-82) on the state of public attention to Causa 2/81 and far-right group activities. Public interest in the trial has fallen to its lowest since the start. CESID records the organisation of Fuerza Nueva and FE-JONS rallies in Spain and Valencia, possibly to generate public support for the defendants. Tensions detected at the military parade around HM the King's presence.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Fuerza Nueva", "tipo": "político" },
-    { "nombre": "Falange Española de las JONS (FE-JONS)", "tipo": "político" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Fuerza Nueva",
+      "tipo": "político"
+    },
+    {
+      "nombre": "Falange Española de las JONS (FE-JONS)",
+      "tipo": "político"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-05-13", "descripcion_es": "El interés público por la Causa 2/81 cae a mínimos; grupos ultraderechistas (Fuerza Nueva, FE-JONS) planean concentraciones de apoyo a los procesados", "descripcion_en": "Public interest in Causa 2/81 at all-time low; far-right groups (Fuerza Nueva, FE-JONS) plan rallies in support of defendants", "lugar": "Madrid / España" }
+    {
+      "fecha": "1982-05-13",
+      "descripcion_es": "El interés público por la Causa 2/81 cae a mínimos; grupos ultraderechistas (Fuerza Nueva, FE-JONS) planean concentraciones de apoyo a los procesados",
+      "descripcion_en": "Public interest in Causa 2/81 at all-time low; far-right groups (Fuerza Nueva, FE-JONS) plan rallies in support of defendants",
+      "lugar": "Madrid / España"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "causa-2-81", "cesid", "fuerza-nueva", "fe-jons", "opinion-publica", "ultraderecha"],
-  "_meta": { "doc_id": "CNI_Documento_30_R", "filename": "Documento_30_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "fuerza-nueva",
+    "fe-jons",
+    "opinion-publica",
+    "ultraderecha"
+  ],
+  "_meta": {
+    "doc_id": "CNI_Documento_30_R",
+    "filename": "Documento_30_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "DT of\nC/DI3/ 7829 /17--05-82\nINFORMACION INTEGRADA\nLa atención social dirigida a la Causa 2/81 está en las\ncotas más bajas desde su iniciación. No aumentará hasta -\nque los procesados hagan sus alegaciones personales. Por -\notra parte, en los grupúsculos violentos de extrema dere~~\ncha todavía no aparecen síntomas de tensión preparatoria\nde las acciones de agitación previstas para el fín de la -\nvista oral. Es probable, que tanto estas acciones como ==\notras dirigidas a demostrar apoyo social para los procesa-\ndos se orientena la semana del 24 al 30 de este mes, y que\nintenten sacar el mayor provecho posible a la ofensiva de\nETA y a las tensiones que ésta pueda crear en las fuerzas\nde Seguridad.\nLa remisión de propaganda a las FAS, últimamente detec-\ntada, asi como los rumores públicos propalados artificial)-\nmente van expresamente dirigidos a crear una acumulación ~\nde tensiones en torno a la presencia de S.M, en el desfile\nmilitar previsto en Zaragoza. En relación con dichos rumo-\nres puede negarse tajantemente cualquier actitud negativa\npor parte de las Unidades que intervengan a dicho desfile,\nconsiderándose posible, en el peor de los casos, algún ges\nto hostil en algún sector muy concreto del público asisten\nte.\nEs significativo, por otra parte, que las Organizaciones\nJuveniles de Fuerza Nueva y FE-JONS, hayan sido convocadas\na concentraciones en Segovia y Valencia precisamente el =\n30 de Mayo.Parecen pretender apartar a los militantes de -\nZaragoza,\n\np E o E E s E $ S dam P e a A A\n>, Y ESPAÑA TE EXIGE UN GRAN SACRA]\nFICIO, MANTEN TU MORAL ALTA Y.\nESPERA EN TU PUESTO. TE LLAMA-\nREMOS.\nse acerca un momento historico y tu\ntienes aque participar en el.De otra\nforma lo lamentaras luego\nNO HABLES DE QUE TU PATRIA\nESTA EN PELIGRO.i salvala!\n“nie”",
+  "texto_completo_en": "DT of\nC/DI3/ 7829 /17--05-82\nINTEGRATED INFORMATION\nThe social attention directed to Cause 2/81 is in the\nlowest levels since its inception. It will not increase until -\nfor the defendants to make their personal allegations. By -\nOn the other hand, in the violent groups of extreme right~~\nsymptoms of preparatory tension have not yet appeared\nof the agitation actions planned for the end of the -\noral view. It is likely that both these actions and ==\nothers aimed at demonstrating social support for the processes\ntwo are aimed at the week of the 24th to the 30th of this month, and that\ntry to get the most out of the offensive\nETA and the tensions that it can create in the forces\nof Security.\nThe sending of propaganda to the FAS, recently detected\ntada, as well as artificially spread public rumors)-\nmind are expressly aimed at creating an accumulation ~\nof tensions around the presence of His Majesty, in the parade\nmilitary planned in Zaragoza. In relation to said rumours-\nres can categorically deny any negative attitude\nby the Units that participate in said parade,\nconsidering possible, in the worst case, some ge\nhostility in some very specific sector of the public attend\nyou.\nIt is significant, on the other hand, that the Organizations\nYouth from Fuerza Nueva and FE-JONS, have been summoned\nto concentrations in Segovia and Valencia precisely the =\nMay 30. They seem to intend to separate the militants from -\nZaragoza,\n\np E o E E s E $ S dam P e a A A\n>, AND SPAIN DEMANDS YOU A GREAT SACRA]\nFICIO, KEEP YOUR MORAL HIGH AND.\nWAIT AT YOUR POSITION. HE CALLS YOU-\nOARS.\nA historic moment is approaching and you\nYou have to participate in it. On the other hand\nway you'll regret it later\nDON'T TALK ABOUT YOUR COUNTRY\nSHE IS IN DANGER. I save her!\n“nie”"
 }

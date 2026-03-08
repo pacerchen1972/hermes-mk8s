@@ -14,40 +14,56 @@
       "cargo": "Comandante de Infantería, CESID/AOME",
       "organizacion": "CESID",
       "rol_en_23f": "conspirador",
-      "acciones": ["Acompañó con gestos la lectura de ciertos fragmentos del apuntamiento durante la primera sesión"]
+      "acciones": [
+        "Acompañó con gestos la lectura de ciertos fragmentos del apuntamiento durante la primera sesión"
+      ]
     },
     {
       "nombre": "Jaime Milans del Bosch",
       "cargo": "Teniente General, Capitán General de Valencia",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Sus declaraciones fueron leídas en la primera sesión de la vista oral"]
+      "acciones": [
+        "Sus declaraciones fueron leídas en la primera sesión de la vista oral"
+      ]
     },
     {
       "nombre": "Alfonso Armada Comyn",
       "cargo": "General, ex-secretario de la Casa del Rey",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Sus declaraciones fueron leídas en la primera sesión de la vista oral"]
+      "acciones": [
+        "Sus declaraciones fueron leídas en la primera sesión de la vista oral"
+      ]
     },
     {
       "nombre": "Francisco Laína García",
       "cargo": "Director General de la Seguridad del Estado",
       "organizacion": "Interior",
       "rol_en_23f": "leal",
-      "acciones": ["Su declaración fue leída en la primera sesión; recibida con gestos ostensibles de los procesados"]
+      "acciones": [
+        "Su declaración fue leída en la primera sesión; recibida con gestos ostensibles de los procesados"
+      ]
     },
     {
       "nombre": "Sabino Fernández Campo",
       "cargo": "Secretario General de la Casa del Rey",
       "organizacion": "Casa Real",
       "rol_en_23f": "leal",
-      "acciones": ["Su declaración (el Rey estaba a punto de jugar al squash cuando se produjo el asalto) fue leída y recibida con gestos de los procesados"]
+      "acciones": [
+        "Su declaración (el Rey estaba a punto de jugar al squash cuando se produjo el asalto) fue leída y recibida con gestos de los procesados"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
     {
@@ -74,7 +90,14 @@
       "fecha": "1982-02-19"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "cesid", "primera-sesion", "vista-oral", "csjm"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "primera-sesion",
+    "vista-oral",
+    "csjm"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_71_R",
     "filename": "Documento_71_R.pdf",
@@ -82,5 +105,7 @@
     "is_image_pdf": false,
     "pages": 3,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "C/ SG / 2818 / 19-02-82\nNOTA INFORMATIVA\nASUNTO: Vista oral 2/81.\n1. DESARROLLO DE LA PRIMERA SESION DE LA VISTA ORAL\nA las 10,10 de la mañana del día 19 de Febrero de 1982, se\ninicia la sesión pública.\no\nGon autorización del Presidente de la Sala, el secretario re\nlator inicia la lectura del apuntamiento, que ha finalizado a las\n11,30 horas.\nEl apuntamiento ha recogido:\n- Filiaciones de los procesados.\nAutos de procesamiento.\n- Conclusiones provisionales del Fiscal.\n- Conclusiones provisionales de los defensores.\nA continúaci6n se inicia .la prueba documental, con petición -\npor parte del Ministerio Fiscal de la lectura de diligencias\ncompletas, no por numeración sucesiva, sino por su relación con\ncada uno de los procesados. Un breve descanso de 15 minutos dio\nlugar, al reanudarse la vista, a un momento de gra~ expectación\npor la ausencia de la Sala de gran parte de los procesados, que\ncontinuaban en el pasillo habilitado para sus descansos. Pasados\nunos instantes, se reincorporaron a sus puestos.-\n~\nLa sesión se interrumpe entre las 14 y 16 horas; al reiniciar-\nse, continúa .la lectura de diligencias. A las 18 horas el Presi\ndente de la Sala levanta la sesi6n.\nLas diligencias solicitadas por el Ministerio Fiscal han sido:\n- Declaraciones del Teniente General Miláns del Bosch, General\nArmada, Coronel Ibáñez, Teniente Coronel Más, parcial del\nTeniente General Pascual Galmes, General Fernández Campos, -\nTeniente General Gabeiras y Sr. Laína. Careos entre el Tte.\nentre éste vari J\n~~~~~s:!~:~\ny\n\n,2. INCIDENCIAS E IMPRESIONES EN TORNO AL DESARROLLO DE LA PRIMERA\nSESION\n- El Presidente ha permitido dar lectura parcial a la declaración\ndel Tte. Gral. Pascual Galmes, rompiendo el principio de que la\ndiligencia ha de leerse completa para no tomar partes que favo~\nrezcan o perjudiquen a los procesados, sacándolas de su contexto\ngeneral. Ello es un mal precedente.\nEn ese momento, el letiado Sr. Zugasti ha inici~do un movi-\nmiento para formular una protesta, pero el letrado L6pez Monte\nro le ha detenido con un ge_sto.\n()\n- Se produjo un incidente entre el Relator y el Fiscal al solici~\ntar este último la lectura de la declaración del Tte. Gral. Ga\nbeiras y contestar el primero que estaba citado como testigo. -\nZanjado por el Presidente, que orden6 la lectura solicitada por\nel Fiscal.\n- A lo largo de la lectura del apuntamento se han producido nume\nrosas menciones a Su Majestad.\n- Han sido recogidas con gestos ostensibles de los procesados y,\nen algún caso, de los propios defensores las lecturas de dili\ngencias siguientes:\n. Declaración del Gral. Fernández Campo de que el Rey estaba a\nü\npunto de iniciar un partido de squask cuando se produjo el\nasalto al Congreso .\n. La declaración del Tte. Gral. Gabeiras .\n. La declaraci6n de D. Francisco Laina Garcia.\n- Un ju~idico del Ej~rcito de Tierra, alto, delgado, probablemente\nCapitán, sentado entre los observadores, ha sonreído en varias -\nocasiones a lo la~go del apuntamiento. Ha producido algún comen\ntario desfavorable.\nEl Comandante Cortina ha acompañado en varias ocasiones la lectu\nra de ciertos fragmentos del apuntamiento con gestos con la cabe\nza asintiendo o negando.\n\n3. OTRAS INFORMACION\n- Comisiones mili tares; Son de cornposici6n diversa, ·destacando su\nselecci6n·entre Jefes de elevada edad; tarnbi~n numerosos Jefes\ny Oficiales DEM y otros destinados en S~gundas Secciones.\n- Procesados y familiares; En_ general, al menos aparentemente, -\nlos procesados mantienen mayor serenidad que los familiares.\n- Algún· procesado _comenta que el terna se animará dentro de 8 6 10\ndfas.\n- Un familiar comenta que habrá declaraciones en las que se va a\no\nponer al Rey de \"chupa de d6mine\".\n- Algún procesado y algún asistente pr6xirno a los procesados se\nmanifestaban contentos inicialmente con la forma en que se ha-\nbfa desarrollado el apuntamiento.\n- Prensa: Han ocupado la· totalidad de los asientos asignados, con\nla presencia de los principales especialistas en ternas políti\ncos y .militares.\n- Organizaci6n: Pequeñas deficiencias iniciales, cuya resoluci6n\nestá prevista.\n/1 - 2 - Y/",
+  "texto_completo_en": "C/ SG / 2818 / 02-19-82\nINFORMATIVE NOTE\nSUBJECT: Oral hearing 2/81.\n1. DEVELOPMENT OF THE FIRST SESSION OF THE ORAL HEARING\nAt 10:10 in the morning on February 19, 1982,\nstarts the public session.\nor\nWith the authorization of the President of the Chamber, the secretary re\nlator begins reading the notes, which he finished at\n11:30 a.m.\nThe report has included:\n- Affiliations of the defendants.\nProcessing cars.\n- Provisional conclusions of the Prosecutor.\n- Provisional conclusions of the defenders.\nThe documentary evidence then begins, with a request -\nby the Public Prosecutor's Office of the reading of proceedings\ncomplete, not by successive numbering, but by their relationship with\neach of the defendants. A short 15 minute break gave\nplace, upon resumption of viewing, a moment of great expectation\ndue to the absence of the Chamber of a large part of the defendants, who\nThey continued in the hallway set up for their breaks. Past\nfor a few moments, they returned to their positions.-\n~\nThe session is interrupted between 2 and 4 p.m.; upon restart-\nYes, the reading of proceedings continues. At 6 p.m. the President\nThe floor of the Chamber adjourns the meeting.\nThe procedures requested by the Public Prosecutor's Office have been:\n- Statements by Lieutenant General Milans del Bosch, General\nNavy, Colonel Ibáñez, Lieutenant Colonel Más, part of the\nLieutenant General Pascual Galmes, General Fernández Campos, -\nLieutenant General Gabeiras and Mr. Laína. Clashes between the Lt.\nbetween this vari J\n~~~~~s:!~:~\nand\n\n,2. INCIDENTS AND IMPRESSIONS REGARDING THE DEVELOPMENT OF THE FIRST\nSESSION\n- The President has allowed the declaration to be partially read\nof Lt. Gen. Pascual Galmes, breaking the principle that the\ndiligence must be read completely so as not to take parts that favor~\ncause or harm the defendants, taking them out of their context\ngeneral. This is a bad precedent.\nAt that moment, the deceased Mr. Zugasti has started a movement\nlie to formulate a protest, but the lawyer L6pez Monte\nro stopped him with a gesture.\n()\n- An incident occurred between the Rapporteur and the Prosecutor at the request\nThe latter read the statement of the Lt. Gen. Ga\nbeiras and answer the first one who was summoned as a witness. -\nSettled by the President, who ordered the reading requested by\nthe Prosecutor.\n- Throughout the reading of the report, a number of issues have occurred.\nroses mentions to His Majesty.\n- They have been collected with obvious gestures from the defendants and,\nin some cases, from the defenders themselves, the readings of dili\nfollowing agencies:\n. Declaration by General Fernández Campo that the King was at\nu\nabout to start a squash game when the\nassault on Congress.\n. The statement of Lt. Gen. Gabeiras.\n. The statement of Mr. Francisco Laina Garcia.\n- A lawyer from the Army, tall, thin, probably\nCaptain, sitting among the observers, has smiled several times -\noccasions throughout the pointing. Has produced some food\nunfavorable rate.\nCommander Cortina has accompanied the reading on several occasions.\nra of certain fragments of pointing with head gestures\nza nodding or denying.\n\n3. OTHER INFORMATION\n- Military commissions; They are of diverse composition, highlighting their\nselection between senior leaders; also numerous Chiefs\nand DEM Officers and others assigned to Second Sections.\n- Defendants and family members; In general, at least apparently, -\nThe defendants maintain greater serenity than the family members.\n- Some processed comment that the topic will be animated in 8 6 10\ndays.\n- A family member comments that there will be statements in which he is going to\nor\nput the King of \"chupa de d6mine\".\n- Some defendant and some assistant close to the defendants are\nThey were initially happy with the way things were done.\nbfa developed pointing.\n- Press: They have occupied all of the assigned seats, with\nthe presence of the main specialists in political topics\ncos and .military.\n- Organization: Small initial deficiencies, whose resolution\nis planned.\n/1 - 2 - Y/"
 }

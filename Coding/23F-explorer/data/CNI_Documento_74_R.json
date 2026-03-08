@@ -14,16 +14,25 @@
       "cargo": "Comandante de Infantería, CESID/AOME",
       "organizacion": "CESID",
       "rol_en_23f": "conspirador",
-      "acciones": ["Referenciado en el documento en relación con el conocimiento de actuaciones del 23-F"]
+      "acciones": [
+        "Referenciado en el documento en relación con el conocimiento de actuaciones del 23-F"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    }
   ],
   "eventos": [],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["cesid", "cortina", "post-golpe"],
+  "temas": [
+    "cesid",
+    "cortina",
+    "post-golpe"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_74_R",
     "filename": "Documento_74_R.pdf",
@@ -32,5 +41,7 @@
     "pages": 1,
     "processed_by": "claude-code",
     "nota": "Documento de muy baja calidad gráfica; contenido parcialmente ilegible"
-  }
+  },
+  "texto_completo_es": "mcefiacion:\n“DEY GESIÓ”. AA litroión\nBASES DE SESIONESy |\nreino unido\nión:ESTAMO:surpiadssSEL. :JUNARDO.ETUVTERO\nTDs, ACERVISTADE.LAS.SHOUL ALIONES:DEGONOCIMIENT\n- QUE,SE:y\"HACIANAL.SONANDANTE-CORT getIs\nRia YRESPUNSABILADADES:EN-ELCEUTROS\nPARQUE ayia SUCONSIGUIENTEBAYAEN:ER\nSASSacecs,PsPoRlOei: i\nuUEea\nLON:ESTA DISPUESTAAeBinfest DAVES...\neENCARECEn UNAVEZMAS: A:TODOS LOSNEERBROS DELSER\nW i e n o e LA t N E R C E ZS L I A D C A J D O OD N E A. MAC N O T N EN E E L R CE E N NE TR L O : s. HA S S us E P S E T R R S I O C N T A O S SE Y CR 5 E 0 T 5 O1 a 0 i D e »\nae NOTA. DEBE SER DESTRUIDAUNA. vez LEJOA POR LoS DESTINA\nT e - l\nHORA DE\nRECEPCION-",
+  "texto_completo_en": "mcephiacion:\n\"DEY GESIÓ”. AA litroion\nheSESIONESy BASES |\nuk\nión:ESTAMO:surpiadssSEL. :JUNARDO.ETUVTERO\nTDs, ACERVISTADE.LAS.SHOUL ALIONES:DEGONOCIMIENT\n- QUE,SE:y\"HACÍANAL.SONANDANTE-CORT getIs\nRia YRESPUNSABILADADES:EN-ELCEUTROS\nPARK ayia SUCONSIGUIENTEBAYAEN:ER\nSASSacecs,PsPoRlOei: i\nuUEea\nLON:ESTA DISPUESTAAeBinfest DAVES...\neENCARECEn UNAVEZMAS: A:TODOS LOSNEERBROS DELSER\nW i er n o e LA t N N E R C E ZS L I A D C A J D O OD N E A. MA C N O T N EN E E L R CE E N NE TR L O : s. HA S S us E P S E T R R S I O C N T A O S SE Y CR 5 E 0 T 5 O1 a 0 i D e »\nae NOTA. DEBE SER DESTRUIDAUNA. vez LEJOA POR LoS DESTINA\nT e - l\nHORA DE\nRECEPCION-"
 }

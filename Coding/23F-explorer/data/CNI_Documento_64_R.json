@@ -10,15 +10,47 @@
   "resumen_en": "CESID integrated report (C/01/4335/15-03-82, marked DTOR) on external effects of the Causa 2/81 oral hearing. Analyses social and military reactions to the defendants' statements, attempts to implicate the King in references made at the tribunal, and clandestine circulation of a 'Letter to the King'. Alerts to the presence of 'Primera Línea' members distributing Unión Militar Española (UME) propaganda and the risk of resurgent anti-democratic attitudes within the Armed Forces.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Unión Militar Española (UME)", "tipo": "política" },
-    { "nombre": "Primera Línea", "tipo": "política" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Unión Militar Española (UME)",
+      "tipo": "política"
+    },
+    {
+      "nombre": "Primera Línea",
+      "tipo": "política"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-03-15", "descripcion_es": "CESID evalúa el impacto social del juicio: circula una 'Carta al Rey', la UME distribuye propaganda y existe riesgo de reactivación involucionista", "descripcion_en": "CESID assesses social impact of the trial: a 'Letter to the King' circulates, UME distributes propaganda, and risk of anti-democratic reactivation identified", "lugar": null }
+    {
+      "fecha": "1982-03-15",
+      "descripcion_es": "CESID evalúa el impacto social del juicio: circula una 'Carta al Rey', la UME distribuye propaganda y existe riesgo de reactivación involucionista",
+      "descripcion_en": "CESID assesses social impact of the trial: a 'Letter to the King' circulates, UME distributes propaganda, and risk of anti-democratic reactivation identified",
+      "lugar": null
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "causa-2-81", "cesid", "opinion-militar", "ume", "primera-linea", "extrema-derecha", "riesgo-golpista"],
-  "_meta": { "doc_id": "CNI_Documento_64_R", "filename": "Documento_64_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "opinion-militar",
+    "ume",
+    "primera-linea",
+    "extrema-derecha",
+    "riesgo-golpista"
+  ],
+  "_meta": {
+    "doc_id": "CNI_Documento_64_R",
+    "filename": "Documento_64_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "C/D1/4339/16-03-82\nDTOR.\nINFORMACION INTEGRADA\nASUNTO: DESARROLLO DE LA VISTA PUBLICA DE LA CAUSA 2/81.\nEn las últimas sesiones de la vista pública de la causa 2/81\nse aportan pocos aspectos nuevos desde el punto de vista jurídi\nco, habiéndose producido sin embargo muy diversas reacciones ex\nternas a la sala del juicio. En las declaraciones de los proce-\nsados destacan:el tono de arenga del General Torres Rojas y la\nsencillez de planteamientos del Capitán de Navío Menéndez,-en--\njuiciadas con muy diferente óptica desde los ámbitos afines o -\n‘no a la involución-;los intentos de implicar al General Juste -\ndel Coronel San Martín y el grave daño que ha sufrido la. tesis\ndel General Armada tras la intervención del Coronel Ibáñez. En\ncírculos responsables existe preocupación por lo que se conside\nra escasa intervención del tribunal para impedir las intenciona\ndas alusiones a S.M. por parte de procesados y defensores. Di--\nchas alusiones y la resultante final de las afirmaciones de abo\ngados y procesados, recogidas diariamente por los medios de co-\nmunicación social, suponen una acción persistente de erosión cu\nyas consecuencias en el cuerpo social comienzan a apreciarse ya\ncomo negativas. Ello se muestra, entre otros síntomas, en una -\nreactivación de la actitud ofensiva que ha tomado en los últi--\nmos días la prensa de tendencias involucionistas.\nPor otra parte, a las circunstancias antes descritas se ha -\nunido una serie de factores concretos que parecen haber servido\nde catalizador de un proceso de afloración a la superficie de -\nsensaciones sociales, hasta ahora encubiertas, que producen una\ndoble consecuencia en forma,por una parte, de aumento de los te\nmores sobre la posibilidad de que se produzca en el futuro una\nnueva acción involutiva y por otra de exigencia pública al po--\nder ejecutivo para que lleve a cabo acciones más enérgicas para\n\nprevenirlas y reprimirlas. En la trayectoria de las variables -\nreacciones sociales ante el desarrollo del proceso, se constata\nque, tras las tensiones iniciales y la posterior sensación de -\nalivio por la normalidad del mismo, aparece un momento circuns-\ntancial de inquietud e inseguridad. Es muy discutible si dicha\nsensación colectiva ha sido recogida por la prensa en el ambien\nte social o ha sido provocada directamente por ella misma al --\nenjuiciar con excesivo pesimismo algunos aspectos de la situa--\nción actual.\nLas causas del citado momento de depresión pueden buscarse -\nen la persistencia de los ataques al Rey, no sólo en la sala de\njusticia sino fuera de ella por medio de bulos, rumores, propa-\nganda, pintadas, etc.;.en las amenazas más o menos veladas que\naparecen en declaraciones de los procesados, prensa involucio--\nnista y propaganda clandestina sobre la existencia de golpes --\nviolentos todavía sin desmontar; en la intermitente actividad -\nterrorista de ETA; en la continua acusación global de la prensa\nsobre debilidad del gobierno en la defensa del sistema; en la -\nanunciada disolución de la Brigada policial que se ocupa de in-\nvestigar las acciones involutivas e incluso en la resolución de\nla ejecutiva federal del PSOE de soslayar la confrontación con\nel gobierno en función de la fragilidad del momento.\nCara al futuro deben esperarse nuevas oscilaciones -positivas\ny negativas-, tanto en el desarrollo de la Causa como en sus re-\npercusiones globales de toda índole. Y ello no sólo en función -\nde las circunstancias de cada momento o de las gestiones de . go\nbierno sino también de las diversas acciones positivas que pue--\nden generarse en el cuerpo social como respuesta y reacción na-\ntural a las iniciativas involucionistas.",
+  "texto_completo_en": "C/D1/4339/16-03-82\nDTOR.\nINTEGRATED INFORMATION\nSUBJECT: DEVELOPMENT OF THE PUBLIC HEARING OF CASE 2/81.\nIn the last sessions of the public hearing of case 2/81\nFew new aspects are provided from a legal point of view.\nco, having however produced very diverse reactions ex\nshortlists to the courtroom. In the statements of the proceedings\nsados stand out: the harangue tone of General Torres Rojas and the\nsimplicity of approaches of Captain Menéndez,-in--\njudged with very different perspectives from related areas or -\n'no to devolution-; attempts to implicate General Juste -\nof Colonel San Martín and the serious damage that the. thesis\nof the General Armada after the intervention of Colonel Ibáñez. In\nresponsible circles there is concern about what is considered\nThere was little intervention by the court to prevent the intentions\nyou give allusions to H.M. by defendants and defenders. Di--\nThese allusions and the final result of Abo's statements\nharvested and processed, collected daily by the means of co-\nsocial communication, suppose a persistent action of erosion cu\nconsequences in the social body are already beginning to be appreciated\nas negative. This is shown, among other symptoms, in a -\nreactivation of the offensive attitude that it has taken in recent--\nIn the last few days the press has involutionist tendencies.\nOn the other hand, the circumstances described above have been -\nunited a series of specific factors that seem to have served\ncatalyst for an upwelling process to the surface of -\nsocial sensations, until now hidden, that produce a\ndouble consequence in the form, on the one hand, of an increase in the\nmore about the possibility of a future\nnew involutive action and another of public demand to the po--\nexecutive to take stronger action to\n\nprevent and repress them. In the path of the variables -\nsocial reactions to the development of the process, it is confirmed\nthat, after the initial tensions and the subsequent feeling of -\nrelief for the normality of it, a circumstantial moment appears.\ntantial amount of restlessness and insecurity. It is very debatable whether said\ncollective sensation has been picked up by the press in the environment\nsocial tee or has been caused directly by itself by --\njudge some aspects of the situation with excessive pessimism--\ncurrent tion.\nThe causes of the aforementioned moment of depression can be sought -\nin the persistence of the attacks on the King, not only in the courtroom\njustice but outside of it through hoaxes, rumors, propaganda\nganda, graffiti, etc.;.in the more or less veiled threats that\nappear in statements of the accused, press involucio--\nnyist and clandestine propaganda about the existence of coups --\nviolent ones still undismantled; in the intermittent activity -\nETA terrorist; in the continuing global indictment of the press\nabout the government's weakness in defending the system; in the -\nannounced dissolution of the police brigade that deals with in-\ninvestigate involutive actions and even in the resolution of\nthe federal executive of the PSOE to avoid the confrontation with\nthe government based on the fragility of the moment.\nLooking to the future, new oscillations - positive - should be expected.\nand negative -, both in the development of the Cause and in its re-\nglobal percussions of all kinds. And this not only in function -\nof the circumstances of each moment or the efforts of . go\ngovernment but also of the various positive actions that can--\ncan be generated in the social body as a natural response and reaction.\ntural to involutionist initiatives."
 }

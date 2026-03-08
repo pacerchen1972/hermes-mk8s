@@ -10,13 +10,25 @@
   "resumen_en": "Partially illegible intelligence note (R/ref. 06/25102/19.10.81) on the request for sentence review by the Supreme Military Court in Causa 2/81. The low-quality text concerns the positions of military judges regarding the proceedings and possible sentence revision. References to Commander García Blanca and General Manrique. The document addresses the defence position on sentence revision, with references to current management and military judges.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "CESID", "tipo": "inteligencia" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    }
   ],
   "eventos": [],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "causa-2-81", "csjm", "sentencia", "revision"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "csjm",
+    "sentencia",
+    "revision"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_84_R",
     "filename": "Documento_84_R.pdf",
@@ -25,5 +37,7 @@
     "pages": 2,
     "processed_by": "claude-code",
     "nota": "Documento de baja calidad gráfica; contenido parcialmente ilegible"
-  }
+  },
+  "texto_completo_es": "1\n· .. ,;•·.\n1\n1 1\n\n'\n'·\n'\n,:\n).-:'..\\.,.; ·,: ... ·,._i•;:)itídó;~;é .•. .'• ,., . .,.\n.... _.; . -, ~-,·-~, .. '4\"\"f\"\"''•.n.n···:-¡--j¡¡,o···d?o.• ,. 'itra·> l!t~·•<'<'!'i'K:,,t,!<'~8-•,\n• ••.- : :- r:- : _ ' i / t f 'r ; .\\ ; : , \\ \\ . ·. ; m ·; a . ~ tr ~:, p ., a ~ r ~,· ~ ~._ \\:;.1ia ;~:··.;.,;' fea'use~f'n:t ·lt.,' e0·1: . ; : ~ ; . s v ·e1 . 1far ._ r a1:t· · ( u l 'd\n• -~-: \\1 ·'dj;' 20'''' '·' t\" •. ,. \"·) 'i'd' .. \"t~'\n.. ..:_,.í,. :/,;i,<<.,,}t.. \\Y\\ \"º~.•''it: - .~ J·.P,..Au.f; ;';'.,,t . l P:,r:,e.~· . _8!'.;,_~ _ J ,,,., r ',}J * . w 'i:; : , l ~ l: ', : , / , ~ ,•· , ~ 9 -· -, ..\n• ,' ~-.,..,, ,: 1 '.'¡ 1·· 1 ••• no ,: tn ar.t l nez .•·~~- ;· -?. .. r•~ '';,~' \"{}':, ,,~. .J -~-'-f:'~¡;.:_t~¡. ., IJ/•\"'.l11/, ~_\\;;h';~,.:1l,}'. ¡, - - ~~ ·, - , { . ti.\n·•bti'{ · •.· ,.•• !i(( .:\n..·; ~:/f. .. >::J.: .\n-->/ -,::\n:_: i t;i'fJ ¿:{..\n..n r:mri •.,,,, ;:,· ·· ·· ·•\n..\n·, '.'• •/ . ·,\\_''\n•,,·,\n. )·\\ ·:-~:.~·-\n'irú(\\r,'\n.: ·:.·~~;_¿ ',\\ :.,·· . .\n-\\~:r.,. ..\n-:~) :.:r:)_ ·,.\n_-_:,:,·. t : : , \\·- .;..: ,,\n}< ....\n• J ~ / ,. .. . ..}{> : - J { \\: i \" U ir.-~ ~ fü ; ~ : ~ ; 1 ¡ r1 / . \\ J : J d ,~\" t 1 ::1•J.:'i •: 1 · :!i ! · t -. ~ ,:t~ t; .. · . :f ; ~ : • • ' lo . :\" } :..,. ~ ,--r { ,~ }t , ,",
+  "texto_completo_en": "1\n· .. ,;•·.\n1\n1 1\n\n'\n'·\n'\n,:\n).-:'..\\.,.; ·,: ... ·,._i•;:)itídó;~;é .•. .'• ,., . .,.\n.... _.; . -, ~-,·-~, .. '4\"\"f\"\"''•.n.n···:-¡--j¡,o···d?o.• ,. 'itra·> l!t~·•<'<'!'i'K:,,t,!<'~8-•,\n• ••.- : :- r:- : _ ' i / t f 'r ; .\\ ; : , \\ \\ . ·. ; m ·; to . ~ tr ~:, p ., a ~ r ~,· ~ ~._ \\:;.1ia ;~:··.;.,;' fea'use~f'n:t ·lt.,' e0·1: . ; : ~ ; . s v ·e1 . 1far ._ r a1:t· · ( u l 'd\n• -~-: \\1 ·'dj;' 20'''' '·' t\" •. ,. \"·) 'i'd' .. \"t~'\n.. ..:_,.í,. :/,;i,<<.,,}t.. \\Y\\ \"º~.•''it: - .~ J·.P,..Au.f; ;';'.,,t . l P:,r:,e.~· . _8!'.;,_~ _ J ,,,., r ',}J * . w 'i:; : , l ~ l: ', : , / , ~ ,•· , ~ 9 -· -, ..\n• ,' ~-.,..,, ,: 1 '.'¡ 1·· 1 ••• no ,: tn ar.t l nez .•·~~- ;· -?. .. r•~ '';,~' \"{}':, ,,~. .J -~-'-f:'~¡;.:_t~¡. ., IJ/•\"'.l11/, ~_\\;;h';~,.:1l,}'. ¡, - - ~~ ·, - , { . you.\n·•bti'{ · •.· ,.•• !i(( .:\n..·; ~:/f. .. >::J.: .\n-->/ -,::\n:_: i t;i'fJ ¿:{..\n..n r:mri •.,,,, ;:,· ·· ·· ·•\n..\n·, '.'• •/ . ·,\\_''\n•,,·,\n. )·\\ ·:-~:.~·-\n'irú(\\r,'\n.: ·:.·~~;_¿ ',\\ :.,·· . .\n-\\~:r.,. ..\n-:~) :.:r:)_ ·,.\n_-_:,:,·. t : : , \\·- .;..: ,,\n}< ....\n• J ~ / ,. .. . ..}{> : - J { \\: i \" U ir.-~ ~ fü ; ~ : ~ ; 1 ¡ r1 / . \\ J : J d ,~\" t 1 ::1•J.:'i •: 1 · :!i ! · t -. ~ ,:t~ t; .. · . :f ; ~ : • • ' it . :\" } :..,. ~ ,--r { ,~ }t , ,"
 }

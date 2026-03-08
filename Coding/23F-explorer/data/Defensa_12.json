@@ -9,18 +9,50 @@
   "resumen_es": "Informe jurídico SECRETO del Gabinete del Ministro de Defensa (núm. 5045, 8 septiembre 1981, 3 páginas) sobre el escrito promovido por el procesado don José Cid Fortea, dirigido al Presidente del Gobierno. El Ministerio de Defensa, conforme al criterio del Asesor General, remite el escrito a la Secretaría de Estado de la Presidencia del Gobierno, con informe para resolver el recurso de queja presentado. Firmado: Manuel Alonso Aguilar.",
   "resumen_en": "SECRET legal report from the Minister of Defence's Cabinet (no. 5045, 8 September 1981, 3 pages) on the petition submitted by defendant José Cid Fortea, addressed to the President of the Government. The Ministry of Defence, following the General Adviser's criteria, forwards the petition to the State Secretariat of the Presidency with a report to resolve the complaint appeal. Signed: Manuel Alonso Aguilar.",
   "personas": [
-    { "nombre": "José Cid Fortea", "rol": "Procesado en la Causa 2/81, promovió recurso contra desestimación de recusación" },
-    { "nombre": "Manuel Alonso Aguilar", "rol": "Firmante, Gabinete del Ministro de Defensa" }
+    {
+      "nombre": "José Cid Fortea",
+      "rol": "Procesado en la Causa 2/81, promovió recurso contra desestimación de recusación"
+    },
+    {
+      "nombre": "Manuel Alonso Aguilar",
+      "rol": "Firmante, Gabinete del Ministro de Defensa"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
-    { "nombre": "Secretaría de Estado - Presidencia del Gobierno", "tipo": "gobierno" }
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Secretaría de Estado - Presidencia del Gobierno",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-09-08", "descripcion_es": "MinDef remite a Presidencia del Gobierno informe jurídico sobre recurso de queja del procesado José Cid Fortea", "descripcion_en": "Ministry of Defence forwards to Government Presidency legal report on complaint appeal of defendant José Cid Fortea", "lugar": "Madrid" }
+    {
+      "fecha": "1981-09-08",
+      "descripcion_es": "MinDef remite a Presidencia del Gobierno informe jurídico sobre recurso de queja del procesado José Cid Fortea",
+      "descripcion_en": "Ministry of Defence forwards to Government Presidency legal report on complaint appeal of defendant José Cid Fortea",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "recurso-juridico", "causa-2-81", "ministerio-defensa", "cid-fortea"],
-  "_meta": { "doc_id": "Defensa_12", "filename": "Carpeta_21800_Secreto_informe_juridico_sobre_recurso_contra_la_desestimacion_de_la_recusacion_del_Ministro_de_Defensa.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "recurso-juridico",
+    "causa-2-81",
+    "ministerio-defensa",
+    "cid-fortea"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_12",
+    "filename": "Carpeta_21800_Secreto_informe_juridico_sobre_recurso_contra_la_desestimacion_de_la_recusacion_del_Ministro_de_Defensa.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 3,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "MINISTERIO DE DEFENSA GABINETE DEL MINISTRO\nPRESIDENCIA DEL GOBIERNO\nRegistro General *\nENTRADA. : :\nS/Ref.° ey Nom. Fecha = SET 109 ey N/Ref. Núm.\nMona 22 JUL sl eee 9-S=ne YSL\n= 2.4204\n2015\nyA\nASUNTO: ESCRITO PROMOVIDO POR DON JOSE CID FORTEA\nDe orden del Sr. Ministro de Defensa; y de conformidadl\na\ncon el criterio del Asesor General de este Departamento en\nel informe que se acompaña, le remito escrito dirigido al\nExcmo. Sr. Presidente del Gobierno por don JUAN CORUJO Y\ny LOPEZ-VILLAMIL, Procurador de los Tribunales, en nombre y\nrepresentación de don JOSE CID FORTEA.\nDios guarde a Vd. muchos años\nMADRID & Septiembre de 1981\nEL GENERAL JEFE DEL GABINETE\n- Manuel Alonso Aguilar -\nSS Jefe del Servicio de Recursos.-\nSECRETARIA DE ESTADO - PRESIDENCIA DEL GOBIERNO M“ASDSR= TE =D\n\ne MoYscas MiO, d e GViefenoa\nAusoria General\nExcmo. Sr.:\nPor la representación de D. JOSE CID FORTEA, procesado en\nla Causa n° 2/81 que se instruye con motivo de los hechos ocurri\ndos losdias 23 y 24 de febrero último, se formula ante el Excmo.\nSr. Presidente del Gobierno, con fecha 7 de julio próximo pasa-\ndo el adjunto escrito en el que suplica se tenga por interpuesto\nRecurso de Reposición, previo al Contencioso-Administrativo, con\ntra la Resolución de este Ministerio, de 29 de junio de 1981, y,\nal propio tiempo, se tenga por recusado al Excmo. Sr. Ministro\n2/E\nde Defensa, de acuerdo con la petición que formuló en escrito de\nfecha 19 de mayo anterior.\n1887/C\nEl error de que parte el escrito que nos ocupa, resulta -\nevidente: basta la lectura de lo que se califica, como \"Resolu\nción\" de este Ministerio, para comprobar que no lo es tal, sino\nuna simple comunicación de requerimiento al interesado, a fin\nde que diese cumplimiento en su escrito -fecha 19 de mayo de -\n1981- que a dicho efecto se le devolvía- a determinadas exigen\ncias procesales expresamente previstas en el Decreto 1408/1966,\nde 2 de junio, de Adaptación de la Ley de Procedimiento Adminis\ntrativo a la Administración Militar.\nSiendo ello así, esto es, no tratándose de un acto adminis\ntrativo que resuelva con carácter definitivo ninguna de las cues\ntiones planteadas por el interesado en su aludido escrito de 19\nde mayo, es visto que no cabe contra él recurso contencioso-admi\nnistrativo, tal como previene el art” 37.1 de la Ley de la Ju-\nrisdicción, de 27 de diciembre de 1956, y, por ende, el califi-\ncado como \"Recurso de reposición\" por aquél resulta inadmisible\nal no existir una previa resolución la Administración que, direc\nta o indirectamente, haya decidido sobre el fondo del asunto y\nque no sea susceptible de recurso ordinario en via administrati-\nva.\nPor otra parte, e indipendiente de la inadmisibilidad pro-\ncesal del escrito que nos ocupa como Recurso de Reposición, es de\nadvertir que el interesado nó da cumplimiento en él al requeri-\nmiento que en 29 de junio de 1981 por este Ministerio se le efes\ntu6. Y ante tal comportamiento, es de poner de relieve que el\nart” 71 del Decreto 1408/66, de 2 de junio, antes citado, previe\nne que si el escrito de iniciación del procedimiento administra\ntivo no reuniera los datos que señala el art” 69 -tal como ha Su\ncedido en el presente caso- se requerirá al que lo haya suscrito\npara que subsane la falta \"con apercibimiento de que si así no -\nlo hiciere, se archivará sin más tramite\".\nao ae\n\nAasorizao IA\na\nPor consiguiente, la contumacia del interesado en no cum-\nplir el requerimiento en cuestión, incardina su conducta en el\nsupuesto contemplado por el invocado artículo de la Ley adminis\ntrativa procedimental.\nEn su virtud, y como quiera que el escrito vá dirigido al -\nExcmo. Sr. Presidente del Gobierno, debe remitirse a dicha Su\nperior Autoridad, junto con el presente informe, si V.E. fuese\nde conformidad con el mismo.\nMadrid, a 4J4 de Agosto de 1981.\nEL ASE OR GENERAL, hctol.\n—\nFRANCISCO SALVADOR NIVELA\nEXCMO. SR. MINISTRO DE DEFENSA.\nPlaza",
+  "texto_completo_en": "MINISTRY OF DEFENSE MINISTER'S CABINET\nPRESIDENCY OF THE GOVERNMENT\nGeneral Registry *\nENTRANCE. : :\nS/Ref.° and Nom. Date = SET 109 ey N/Ref. No.\nMona 22 JUL sl eee 9-S=ne YSL\n= 2.4204\n2015\nyA\nSUBJECT: WRIT PROMOTED BY MR. JOSE CID FORTEA\nBy order of the Minister of Defense; and conformity\nto\nwith the criteria of the General Advisor of this Department in\nthe attached report, I am sending you a letter addressed to\nHon. Mr. President of the Government by Mr. JUAN CORUJO AND\nand LOPEZ-VILLAMIL, Attorney of the Courts, in the name and\nrepresentation of Mr. JOSE CID FORTEA.\nMay God keep you for many years\nMADRID & September 1981\nTHE GENERAL CHIEF OF THE CABINET\n- Manuel Alonso Aguilar -\nSS Head of the Resources Service.-\nSECRETARY OF STATE - PRESIDENCY OF THE GOVERNMENT M“ASDSR= TE =D\n\ne MoYscas MiO, by GViefenoa\nGeneral License\nHon. Mr.:\nFor the representation of Mr. JOSE CID FORTEA, prosecuted in\nCase No. 2/81 that is being investigated due to the events that occurred\ntwo days last February 23 and 24, it is formulated before the Hon.\nMr. President of the Government, on July 7, next\ndo the written attachment in which he pleads be considered filed\nAppeal for Replacement, prior to the Contentious-Administrative, with\nfollowing the Resolution of this Ministry, of June 29, 1981, and,\nAt the same time, the Hon. Mr. Minister\n2/E\nof Defense, in accordance with the request that he formulated in writing of\ndate May 19 previous.\n1887/C\nThe error from which the writing in question begins, results -\nevident: just read what is described as \"Resolu\ntion\" of this Ministry, to verify that it is not such, but\na simple communication of a request to the interested party, in order\nthat he complied in his letter - dated May 19, -\n1981 - which for this purpose was returned - to certain require\nprocedural matters expressly provided for in Decree 1408/1966,\nof June 2, Adaptation of the Adminis Procedure Law\ntreatment to the Military Administration.\nThis being so, that is, not being an administrative act\ntreaty that definitively resolves none of the issues\ntions raised by the interested party in his aforementioned letter of 19\nof May, it is seen that there is no room for a contentious-admin appeal against him\nnistrative, as provided in art” 37.1 of the Judiciary Law.\nrisdiction, of December 27, 1956, and, therefore, the qualification\nceded as \"Replacement appeal\" for which it is inadmissible\nAs there is no prior resolution, the Administration that, directing\ntatly or indirectly, has decided on the merits of the matter and\nthat is not susceptible to ordinary appeal through administrative means.\ngoes.\nOn the other hand, and regardless of the inadmissibility\ncessation of the document that concerns us as a Resource for Replacement, it is\nwarn that the interested party does not comply with the requirement\nI believe that on June 29, 1981, this Ministry informed him\nyou6. And in the face of such behavior, it is worth highlighting that the\nart” 71 of Decree 1408/66, of June 2, cited above, provides\nne that if the document initiating the procedure administers\ntivo did not gather the data indicated in art” 69 -as Su\ntransferred in the present case - the person who signed it will be required\nto remedy the fault \"with a warning that if not -\ndoes so, it will be archived without further processing.\nao ae\n\nAasorizao IA\nto\nConsequently, the contumacy of the interested party in not complying\ncomply with the requirement in question, incardins his conduct in the\nassumption contemplated by the invoked article of the Administrative Law\nprocedural deal.\nIn its virtue, and as the writing is addressed to -\nHon. Mr. President of the Government, you must refer to said Su\nHigher Authority, together with this report, if Your Excellency was\nin accordance with the same.\nMadrid, 4J4 August 1981.\nTHE GENERAL ASE OR, hctol.\n—\nFRANCISCO SALVADOR NIVELA\nEXCELLENCE MR. MINISTER OF DEFENSE.\nSquare"
 }

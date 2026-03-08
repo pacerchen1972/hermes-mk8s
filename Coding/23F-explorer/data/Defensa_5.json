@@ -9,18 +9,51 @@
   "resumen_es": "Oficio del CSJM (RESERVADO, 7 julio 1981) comunicando al Ministerio de Defensa el procesamiento del Capitán de la Guardia Civil Don Vicente Gómez Iglesias, en cumplimiento del artículo 595 del CJM, una vez desestimados los recursos interpuestos. Gómez Iglesias era el oficial de la Guardia Civil que coordinó el asalto al Congreso junto a Tejero.",
   "resumen_en": "CSJM official communication (RESERVED, 7 July 1981) notifying the Ministry of Defence of the prosecution of Civil Guard Captain Vicente Gómez Iglesias, in compliance with Article 595 of the Military Justice Code, after appeals were dismissed. Gómez Iglesias was the Civil Guard officer who coordinated the Congress assault alongside Tejero.",
   "personas": [
-    { "nombre": "Vicente Gómez Iglesias", "rol": "Capitán de la Guardia Civil, coordinador del asalto al Congreso, procesado en la Causa 2/81" }
+    {
+      "nombre": "Vicente Gómez Iglesias",
+      "rol": "Capitán de la Guardia Civil, coordinador del asalto al Congreso, procesado en la Causa 2/81"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Guardia Civil", "tipo": "seguridad" },
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Guardia Civil",
+      "tipo": "seguridad"
+    },
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-07-07", "descripcion_es": "CSJM notifica al MinDef el procesamiento del Cap. GC Vicente Gómez Iglesias, coordinador del asalto al Congreso", "descripcion_en": "CSJM notifies Ministry of Defence of the prosecution of GC Captain Vicente Gómez Iglesias, coordinator of the Congress assault", "lugar": "Madrid" }
+    {
+      "fecha": "1981-07-07",
+      "descripcion_es": "CSJM notifica al MinDef el procesamiento del Cap. GC Vicente Gómez Iglesias, coordinador del asalto al Congreso",
+      "descripcion_en": "CSJM notifies Ministry of Defence of the prosecution of GC Captain Vicente Gómez Iglesias, coordinator of the Congress assault",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "procesamiento", "gomez-iglesias", "guardia-civil", "causa-2-81", "csjm"],
-  "_meta": { "doc_id": "Defensa_5", "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_4.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "procesamiento",
+    "gomez-iglesias",
+    "guardia-civil",
+    "causa-2-81",
+    "csjm"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_5",
+    "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_4.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "CONSEJO SUPREMO\nDE JUSTICIA MILITAR\nEXCMO + SEÑOR+\nRELATORIA DE EJERCITO\nConforme a lo prevenido en el art. 555 del Código\noA\nde Justicia Militar, y por haberlo acordado así el Com\nsejo Reunido en Sala de Justicia, en Providencia del -\ndía 30de de Junio de 1981, tengo el honor de remitir a\nV.E. testimonio del Auto de procesamiento del Capitán\nde la Guardia Civil DON VICENTE GOMEZ IGLESIAS, una -\nvez firme por haber sido desestimado el recurso inter\npuesto en su momento, y que a tal efecto eleva a este\nConsejo Supremo el Consejero Togado Juez Especial desig-\nnado por Real Decreto 287/1981, Instructor de la Causa\nnúm. 2/1981.\nDios guarde a VeE.muchos años\nMadrid, 53 Julio de 1.981\nEXCMO + SENOR.\nEL TENIENTE GENERAL PRESIDENTE\nLGA\nMNISTRO DE\n- 8 JUL. 1981\nine * |\n-Iuis Alvarez Rodríguez -\n+ SEÑOR+.MINISTRO DE DEFENS. Plaza-",
+  "texto_completo_en": "SUPREME COUNCIL\nMILITARY JUSTICE\nEXCELLENCE + LORD+\nARMY RAPPORTEUR\nIn accordance with the provisions of art. 555 of the Code\noA\nof Military Justice, and as the Com\nsejo Meeting in the Courtroom, in Providencia del -\nJune 30, 1981, I have the honor to refer to\nV.E. testimony of the Captain's indictment\nof the Civil Guard DON VICENTE GOMEZ IGLESIAS, one -\nonce final due to the dismissal of the appeal\nplaced at the time, and to this end elevates this\nSupreme Council the Councilor Robed Special Judge appointed\nnated by Royal Decree 287/1981, Investigator of the Cause\nno. 2/1981.\nGod keep VeE.many years\nMadrid, July 53, 1981\nHE + MR.\nTHE LIEUTENANT GENERAL PRESIDENT\nLGA\nMINISTER OF\n- JUL 8 1981\nine * |\n-Iuis Alvarez Rodríguez -\n+ LORD+.MINISTER OF DEFENSES. Square-"
 }

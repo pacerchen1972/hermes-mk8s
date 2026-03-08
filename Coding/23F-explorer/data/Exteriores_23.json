@@ -9,20 +9,56 @@
   "resumen_es": "Carta personal del Rey Juan Carlos I (Palacio de la Zarzuela, 21 marzo 1981) al Lic. Cristino Bernardo, Secretario de la Cámara de Representantes de Puerto Rico, agradeciendo el mensaje de solidaridad y reconocimiento de la Cámara: 'El Pueblo español nunca ha olvidado los profundos lazos que le unen a Puerto Rico, lazos en que las razones históricas del país han dejado un espacio a un afecto inalterable que se renueva cada día.'",
   "resumen_en": "Personal letter from King Juan Carlos I (Zarzuela Palace, 21 March 1981) to Lic. Cristino Bernardo, Secretary of Puerto Rico's House of Representatives, thanking them for the Chamber's solidarity and recognition message: 'The Spanish people have never forgotten the deep bonds that unite them to Puerto Rico, bonds in which the country's historical reasons have left space for an unchanging affection that renews itself each day.'",
   "personas": [
-    { "nombre": "Juan Carlos I", "rol": "Rey de España, autor de la carta personal" },
-    { "nombre": "Cristino Bernardo", "rol": "Secretario de la Cámara de Representantes de Puerto Rico, destinatario" }
+    {
+      "nombre": "Juan Carlos I",
+      "rol": "Rey de España, autor de la carta personal"
+    },
+    {
+      "nombre": "Cristino Bernardo",
+      "rol": "Secretario de la Cámara de Representantes de Puerto Rico, destinatario"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Casa de S.M. el Rey - Palacio de la Zarzuela", "tipo": "gobierno" },
-    { "nombre": "Cámara de Representantes de Puerto Rico", "tipo": "gobierno" }
+    {
+      "nombre": "Casa de S.M. el Rey - Palacio de la Zarzuela",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Cámara de Representantes de Puerto Rico",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-21", "descripcion_es": "El Rey Juan Carlos escribe personalmente al Secretario de la Cámara de Puerto Rico agradeciendo la solidaridad puertorriqueña con España tras el 23-F", "descripcion_en": "King Juan Carlos writes personally to Puerto Rico's Chamber Secretary thanking Puerto Rico for its solidarity with Spain after 23-F", "lugar": "Madrid - Palacio de la Zarzuela" }
+    {
+      "fecha": "1981-03-21",
+      "descripcion_es": "El Rey Juan Carlos escribe personalmente al Secretario de la Cámara de Puerto Rico agradeciendo la solidaridad puertorriqueña con España tras el 23-F",
+      "descripcion_en": "King Juan Carlos writes personally to Puerto Rico's Chamber Secretary thanking Puerto Rico for its solidarity with Spain after 23-F",
+      "lugar": "Madrid - Palacio de la Zarzuela"
+    }
   ],
   "citas_clave": [
-    { "texto_es": "El Pueblo español nunca ha olvidado los profundos lazos que le unen a Puerto Rico, lazos en que las razones históricas del país han dejado un espacio a un afecto inalterable que se renueva cada día", "texto_en": "The Spanish people have never forgotten the deep bonds that unite them to Puerto Rico, bonds in which the country's historical reasons have left space for an unchanging affection that renews itself each day", "fuente": "Carta del Rey Juan Carlos a la Cámara de Representantes de Puerto Rico, 21 marzo 1981" }
+    {
+      "texto_es": "El Pueblo español nunca ha olvidado los profundos lazos que le unen a Puerto Rico, lazos en que las razones históricas del país han dejado un espacio a un afecto inalterable que se renueva cada día",
+      "texto_en": "The Spanish people have never forgotten the deep bonds that unite them to Puerto Rico, bonds in which the country's historical reasons have left space for an unchanging affection that renews itself each day",
+      "fuente": "Carta del Rey Juan Carlos a la Cámara de Representantes de Puerto Rico, 21 marzo 1981"
+    }
   ],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "puerto-rico", "juan-carlos-i", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_23", "filename": "D.23._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "puerto-rico",
+    "juan-carlos-i",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_23",
+    "filename": "D.23._AGA-83-07633_exp._4.pdf",
+    "folder": "exteriores/AGA-83-07633",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "PALACIO DE LA ZARZUELA\n25 de Marzo de 1.981\nSeñor Secretario:\nLe agradezco sinceramente el envío del mensaje de la Cámara\nde Representantes de Puerto Rico en que se expresa, la simpatía y la\nsolidaridad con el Pueblo Español _y con mi persona, en los difíciles\nmomentos” vividos recientemente en “España.\nEl Pueblo Español nunca ha olvidado los profundos lazos que\nle unen a Puerto Rico, lazos en que las razones históricas del pasa\ndo han dejado el espacio a un afecto imborrable que se renueva cada\ndía. E\nCon mis mejores deseos de ventura para el Pueblo de Puerto\nRico y para su Cámara de Representantes reciba, Señor Secretario,\nel testimonio de mi más alta consideración.\nATA\nPa\nSR. LIC. CRISTINO BERNAZARD\nSECRETARIO DE LA CAMARA DE REPRESENTANTES DE PUERTO RICO",
+  "texto_completo_en": "ZARZUELA PALACE\nMarch 25, 1981\nMr. Secretary:\nI sincerely thank you for sending the Chamber's message\nof Representatives of Puerto Rico in which the sympathy and\nsolidarity with the Spanish People _and with myself, in the difficult times\nmoments” recently lived in “Spain.\nThe Spanish People have never forgotten the deep ties that\nbind him to Puerto Rico, ties in which the historical reasons for the pass\nhave left space for an indelible affection that is renewed every\nday. E\nWith my best wishes of luck to the Town of Puerto\nRico and for your House of Representatives receive, Mr. Secretary,\nthe testimony of my highest consideration.\nATA\nDa\nMR. LIC. CHRISTINE BERNAZARD\nSECRETARY OF THE HOUSE OF REPRESENTATIVES OF PUERTO RICO"
 }

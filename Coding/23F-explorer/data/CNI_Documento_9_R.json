@@ -10,8 +10,14 @@
   "resumen_en": "CESID ARAP intelligence note dated 10 March 1982 on the concerning behaviour of military commissions attending the Causa 2/81 trial. The document highlights the risk that having the same personnel on these commissions for months generates bonds of sympathy with the accused and their families, potentially compromising impartiality and the image of the proceedings.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "militar" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+    {
+      "nombre": "CESID",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
     {
@@ -38,7 +44,14 @@
       "fecha": "1982-03-10"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "cesid", "comisiones-militares", "simpatias-golpistas", "csjm"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "comisiones-militares",
+    "simpatias-golpistas",
+    "csjm"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_9_R",
     "filename": "Documento_9_R.pdf",
@@ -46,5 +59,7 @@
     "is_image_pdf": false,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "ARAP/ 10.03.82\nNOTA INFORMATIVA\nA la vista de las informaciones que llegan, preocupa el com\nportamiento de los miembros de las diferentes comisiones milita\nres. El que algunas estén formadas por las mismas personas des\nde que se inici6 el proceso, es un peligro porque el trato con\ntínuo con los inculpados y sus familiares fomenta unos lazos de\nsimpatía difíciles de superar. La necesidad de alterar la compo\nsici6n de las comisiones se ve acrecentada por la conveniencia\nde que el juicio sea presenciado por el mayor número de Jefes -\ny Oficiales.\na\nDe la 3- Regi6n Militar - posiblemente la más sensibilizada\npor estos sucesos - han vuelto a repetir los que vinieron la -\nprimera semana, con lo que - dado que la asistencia es volunta\nria - se pone de manifiesto una inclinaci6n hacia los procesa-\ndos que está lejos de la objetividad deseada.\nConvendría insistir en este tema y en recordar el comporta\nmiento correcto que deben observar cuantos militares asistan al\nConsejo de Guerra.",
+  "texto_completo_en": "ARAP/ 03/10/82\nINFORMATIVE NOTE\nIn view of the information that is arriving, the com\nbehavior of the members of the different military commissions\nres. The fact that some are made up of the same people\nafter the process began, it is a danger because dealing with\nContinuous contact with the accused and their families fosters ties of\nsympathy difficult to overcome. The need to alter the compo\nposition of the commissions is increased by the convenience\nthat the trial be witnessed by the greatest number of Chiefs -\nand Officers.\nto\nFrom the 3rd Military Region - possibly the most sensitive\nfor these events - those who came - have repeated it again -\nfirst week, so - since attendance is voluntary\nria - an inclination towards processing is evident\ntwo that is far from the desired objectivity.\nIt would be advisable to insist on this issue and remember the behavior\ncorrect procedure that must be observed by all military personnel attending the\nWar Council."
 }

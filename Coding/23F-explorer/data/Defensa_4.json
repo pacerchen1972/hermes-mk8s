@@ -10,14 +10,40 @@
   "resumen_en": "CSJM official communication (RESERVED, Case no. 2/1981, 16 June 1981) notifying the Ministry of Defence of the prosecution of an Infantry Commander implicated in 23-F, after appeals were dismissed. Instructor of Case no. 2/1981: Special Judicial Counsellor designated by Royal Decree 357/1981.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-06-16", "descripcion_es": "CSJM notifica al MinDef el procesamiento de un Comandante de Infantería en la Causa 2/81", "descripcion_en": "CSJM notifies Ministry of Defence of the prosecution of an Infantry Commander under Case 2/81", "lugar": "Madrid" }
+    {
+      "fecha": "1981-06-16",
+      "descripcion_es": "CSJM notifica al MinDef el procesamiento de un Comandante de Infantería en la Causa 2/81",
+      "descripcion_en": "CSJM notifies Ministry of Defence of the prosecution of an Infantry Commander under Case 2/81",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "procesamiento", "causa-2-81", "csjm", "ministerio-defensa"],
-  "_meta": { "doc_id": "Defensa_4", "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_3.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "procesamiento",
+    "causa-2-81",
+    "csjm",
+    "ministerio-defensa"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_4",
+    "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_3.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "CONSEJO SUPREMO\nDE JUSTICIA MILITAR\nRELATORIA DE EJERCITO EXCMD. SEÑOR+\nConforme a lo prevenido en el arte 555 del Código\nLu de Justicia Militar, y por haberlo acordadoasí el -\nConsejo Reunido en Sala de Justicia, en Providencia\n® del día 16 de Junio de 1981, tengo el honor de remi-\ntir a V.E. testimonio del Auto de procesamiento del\nComandante de Infantería DON JOSE CORTINA PRIETO, una\nvez firme por haber sido desestimado el recurso in-\nterpuesto en su momento, y que a tal efecto eleva a\neste Consejo Supremo el Consejero Togado Juez Espe\ncial designado por Real Decreto 287/1981, Instructor\nde la Causa núme 2/1981.\nDios guarde a VeEsmuchos agos\nMadrid, /? de Junio de 1981.\nEL TENIENTE GENZRAL PRESIDENTE\nE\n- Luis Alvarez Rodríguez -\nEXCMO + SEÑOR.MINISTRO DE DEFENSA. pla a a",
+  "texto_completo_en": "SUPREME COUNCIL\nMILITARY JUSTICE\nEXCMD ARMY RAPPORTEUR. LORD+\nIn accordance with the provisions of art 555 of the Code\nLu of Military Justice, and because it was agreed upon by the -\nCouncil Meeting in the Courtroom, in Providencia\n® of June 16, 1981, I have the honor to send\nthrow V.E. testimony of the indictment of the\nInfantry Commander DON JOSE CORTINA PRIETO, a\nonce final because the appeal has been rejected.\nput in place at the time, and to this end raises\nthis Supreme Council the Counselor Robed Judge Espe\ncial designated by Royal Decree 287/1981, Instructor\nof Case number 2/1981.\nGod save VeEsmany ago\nMadrid, /? June 1981.\nLIEUTENANT GENZRAL PRESIDENT\nE\n- Luis Alvarez Rodríguez -\nHE + MR. MINISTER OF DEFENSE. pla to to"
 }

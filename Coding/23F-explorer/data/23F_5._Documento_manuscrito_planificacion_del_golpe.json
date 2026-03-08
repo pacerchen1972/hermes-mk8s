@@ -10,10 +10,22 @@
   "resumen_en": "Handwritten operational planning document establishing a pre-coup phase countdown (D-3, D-2, D-1, D-Day) and referencing 'Operation HALTON'. Notes military unit data updates every 7 days from 17-9-1980, and integration of structures at all levels (Supreme Junta, General Staff, Operational Units, Captaincies). Describes the 'heating up the atmosphere' phase and poses operational questions about who will prepare conditions and distribute arms. Reveals coup planning was actively underway months before 23-F.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Fuerzas Armadas", "tipo": "militar" },
-    { "nombre": "Estado Mayor", "tipo": "militar" },
-    { "nombre": "Junta Superior", "tipo": "militar" },
-    { "nombre": "Capitanías Generales", "tipo": "militar" }
+    {
+      "nombre": "Fuerzas Armadas",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Estado Mayor",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Junta Superior",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Capitanías Generales",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
     {
@@ -56,7 +68,14 @@
     }
   ],
   "relaciones": [],
-  "temas": ["operacion-halton", "planificacion-previa", "cronologia-d-day", "estructura-militar", "septiembre-1980", "provocacion"],
+  "temas": [
+    "operacion-halton",
+    "planificacion-previa",
+    "cronologia-d-day",
+    "estructura-militar",
+    "septiembre-1980",
+    "provocacion"
+  ],
   "_meta": {
     "doc_id": "23F_5._Documento_manuscrito_planificacion_del_golpe",
     "filename": "23F_5._Documento_manuscrito_planificacion_del_golpe.pdf",
@@ -64,5 +83,7 @@
     "is_image_pdf": true,
     "pages": 7,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "NA di 20 o 1 A fimmdo de la Adenda\n_ Dak, adralinado enda kids a pda ¿2-3-€o\nEM Os Opperaliuas a cimil emfo de Cope Gam, Comer",
+  "texto_completo_en": "NA di 20 or 1 At the end of the Addendum\n_ Dak, adralinado enda kids a pda ¿2-3-€o\nEM Os Opperaliuas a cimil emfo de Cope Gam, Comer"
 }

@@ -9,25 +9,81 @@
   "resumen_es": "Propuesta SECRETA del La Región Militar (21 mayo 1982, 4 páginas) al Ministro de Defensa Alberto Oliart Saussol para la distribución de los procesados en la Causa 2/81 en dos fases: Primera fase (inmediata) y Segunda fase (período más largo, según evolución del juicio). Lista detallada con nombres de procesados y unidades asignadas: Alcalá de Henares 'Ala A' (Milans del Bosch, Torres Rojas, San Martín López, Álvarez Arenas, Bobis González, Muñecas Aguilar); 'Ala B' (Tejero, Pardo Zancada, Pérez de la Lastra, Acera Martín, Lázaro Corthay); Base Aérea de Getafe (Armada); Servicio Geográfico del Ejército (Cortina Prieto, Gómez Iglesias).",
   "resumen_en": "SECRET proposal from the Military Region (21 May 1982, 4 pages) to Minister of Defence Alberto Oliart Saussol for distributing Case 2/81 defendants in two phases: First phase (immediate) and Second phase (longer period, depending on trial developments). Detailed list with defendants' names and assigned units: Alcalá de Henares 'Wing A' (Milans del Bosch, Torres Rojas, San Martín López, Álvarez Arenas, Bobis González, Muñecas Aguilar); 'Wing B' (Tejero, Pardo Zancada, Pérez de la Lastra, Acera Martín, Lázaro Corthay); Getafe Air Base (Armada); Army Geographical Service (Cortina Prieto, Gómez Iglesias).",
   "personas": [
-    { "nombre": "Alberto Oliart Saussol", "rol": "Ministro de Defensa, destinatario de la propuesta" },
-    { "nombre": "Jaime Milans del Bosch", "rol": "Procesado, asignado a Alcalá de Henares Ala A" },
-    { "nombre": "Luis Torres Rojas", "rol": "Procesado, asignado a Alcalá de Henares Ala A" },
-    { "nombre": "Alfonso Armada", "rol": "Procesado, asignado a Base Aérea de Getafe" },
-    { "nombre": "Antonio Tejero", "rol": "Procesado, asignado a Alcalá de Henares Ala B" },
-    { "nombre": "Ricardo Pardo Zancada", "rol": "Procesado, asignado a Alcalá de Henares Ala B" },
-    { "nombre": "José Luis Cortina Prieto", "rol": "Procesado, asignado al Servicio Geográfico del Ejército" },
-    { "nombre": "Vicente Gómez Iglesias", "rol": "Procesado, asignado al Servicio Geográfico del Ejército" },
-    { "nombre": "Jesús Muñecas Aguilar", "rol": "Procesado, asignado a Alcalá de Henares Ala A" }
+    {
+      "nombre": "Alberto Oliart Saussol",
+      "rol": "Ministro de Defensa, destinatario de la propuesta"
+    },
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "rol": "Procesado, asignado a Alcalá de Henares Ala A"
+    },
+    {
+      "nombre": "Luis Torres Rojas",
+      "rol": "Procesado, asignado a Alcalá de Henares Ala A"
+    },
+    {
+      "nombre": "Alfonso Armada",
+      "rol": "Procesado, asignado a Base Aérea de Getafe"
+    },
+    {
+      "nombre": "Antonio Tejero",
+      "rol": "Procesado, asignado a Alcalá de Henares Ala B"
+    },
+    {
+      "nombre": "Ricardo Pardo Zancada",
+      "rol": "Procesado, asignado a Alcalá de Henares Ala B"
+    },
+    {
+      "nombre": "José Luis Cortina Prieto",
+      "rol": "Procesado, asignado al Servicio Geográfico del Ejército"
+    },
+    {
+      "nombre": "Vicente Gómez Iglesias",
+      "rol": "Procesado, asignado al Servicio Geográfico del Ejército"
+    },
+    {
+      "nombre": "Jesús Muñecas Aguilar",
+      "rol": "Procesado, asignado a Alcalá de Henares Ala A"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-05-21", "descripcion_es": "Se propone al Ministro de Defensa la distribución de los principales procesados del 23-F en diferentes unidades militares: Armada a la Base Aérea de Getafe, Cortina al Servicio Geográfico, Tejero y Pardo Zancada a Alcalá de Henares", "descripcion_en": "Minister of Defence proposed distribution of main 23-F defendants across military units: Armada to Getafe Air Base, Cortina to Geographical Service, Tejero and Pardo Zancada to Alcalá de Henares", "lugar": "Madrid" }
+    {
+      "fecha": "1982-05-21",
+      "descripcion_es": "Se propone al Ministro de Defensa la distribución de los principales procesados del 23-F en diferentes unidades militares: Armada a la Base Aérea de Getafe, Cortina al Servicio Geográfico, Tejero y Pardo Zancada a Alcalá de Henares",
+      "descripcion_en": "Minister of Defence proposed distribution of main 23-F defendants across military units: Armada to Getafe Air Base, Cortina to Geographical Service, Tejero and Pardo Zancada to Alcalá de Henares",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "detenidos", "distribucion-procesados", "causa-2-81", "ministerio-defensa", "armada", "tejero", "cortina"],
-  "_meta": { "doc_id": "Defensa_20", "filename": "Carpeta_21804_Secreto_distribucion_de_los_procesados_por_la_causa_2_81_en_diferentes_unidades_militares_durante_el_juicio.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 4, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "detenidos",
+    "distribucion-procesados",
+    "causa-2-81",
+    "ministerio-defensa",
+    "armada",
+    "tejero",
+    "cortina"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_20",
+    "filename": "Carpeta_21804_Secreto_distribucion_de_los_procesados_por_la_causa_2_81_en_diferentes_unidades_militares_durante_el_juicio.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 4,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "Madrid, 31 de Mayo de 1.982\nEXCMO. SR. D. ALBERTO OLIART SAUSSOL.\nMinistro de Defensa.\nPlaza de la Moncloa, 8.\n18 REGION MILITAR MADRID-8\nEL CAPITAN GENERAL\nMi respetado y querido Ministro:\nTe adjunto propuesta de una posible distribu-\nción del personal implicado en el proceso del 23-F, distribuido en dos fases.\nLa 12 creo seria conveniente realizarla antes de la comunicación de las sen-\ntencias, y la 2% ya para un periodo más largo,posteriormente, en espera de la\nresolución del posible recurso y por lo tanto de que las sentencias sean fir-\nmes.\nTengo algunas dudas sobre la seguridad que pue-\nde ofrecer el Castillo de San Fernando (Figueras) por lo que acaso conviniera\npensar en el de Santa Catalina (Cádiz) pero en todo caso para ello hay tiempo\npara tomar la decisión.\nRespetuosamente te saluda y queda a tus gratas\nórdenes tu subordinado.\n)\nY\nLA A\nSL\nCA\nFdo. Ricardo Arozarena Giróny\n\nne\nSH Y USSIA\nALVAREZ ARENAS +\nSCO DUS) GARCIA-FTGUE\nTOSE LUIS ABAD GUTIERREZ\nS AGUILAR\nR\nJOSE\nTAL,\nARO CORTFAY x\nExcmo. Sr. General Div.D. ALFONSO ARMADA COMYN K\nUELA DE GUE A_NAVAL\nitán de Navio D. CAMILO MENENDEZ, VIVES K\n-SERVICIO GEOGRAFICO DET, EJERCITO ZONA \"A\"\nSr Conandante D. JOSE LUIS CORTINA PRIETO 2\nSr. Capitan D. VICENTE GOMEZ IGLESTAS\nA \"gn\nSr. Capitan D. JUAN BATISTA GONZALEZ\nSr. Teniente D. PEDRO IZQUIFRDO SANCHEZ\nSr. Teniente D. CESAR ALVAREZ FERNANDEZ X\nSr. Teniente D. JOSE NUNEZ RUANOK\nSr. Teniente D. VICENTTM RAMOS RUEDA XK\nSr. Teniente D. JESUS ALONSO HERNAIZ\n. Sr. Teniente D. M E OZA CARRANCO\nSr. Teniente De\n. Sr. Teniente D",
+  "texto_completo_en": "Madrid, May 31, 1982\nEXCELLENCE MR. D. ALBERTO OLIART SAUSSOL.\nMinister of Defense.\nPlaza de la Moncloa, 8.\n18 MADRID MILITARY REGION-8\nTHE CAPTAIN GENERAL\nMy respected and dear Minister:\nI attach a proposal for a possible distribution.\ntion of the personnel involved in the 23-F process, distributed in two phases.\nI think it would be convenient to carry out the 12th before the communication of the\nholdings, and 2% for a longer period, subsequently, waiting for the\nresolution of the possible appeal and therefore that the sentences are final.\nmonth.\nI have some doubts about the security that can be\nto offer the Castle of San Fernando (Figueras) for what might be appropriate\nthink about the one in Santa Catalina (Cádiz) but in any case there is time for it\nto make the decision.\nHe respectfully greets you and remains at your pleasure.\norders your subordinate.\n)\nand\nTHE A\nSL\nAC\nSigned Ricardo Arozarena Giróny\n\nne\nSH AND USSIA\nALVAREZ ARENAS +\nSCO DUS) GARCIA-FTGUE\nCOUGH LUIS ABAD GUTIERREZ\nS AGUILAR\nR\nJOSEPH\nSUCH,\nCORTFAY HOOP x\nHon. Mr. General Div.D. ALFONSO ARMADA COMYN K\nGUE A_NAVAL UNIT\nitán de Navio D. CAMILO MENENDEZ, VIVES K\n-DET GEOGRAPHICAL SERVICE, ARMY ZONE \"A\"\nMr. Conandante Mr. JOSE LUIS CORTINA PRIETO 2\nMr. Captain D. VICENTE GOMEZ IGLESTAS\nA \"gn\nMr. Captain D. JUAN BATISTA GONZALEZ\nMr. Lieutenant Mr. PEDRO IZQUIFRDO SANCHEZ\nMr. Lieutenant Mr. CESAR ALVAREZ FERNANDEZ X\nMr. Lieutenant Mr. JOSE NUNEZ RUANOK\nMr. Lieutenant D. VICENTTM RAMOS RUEDA XK\nMr. Lieutenant Mr. JESUS ALONSO HERNAIZ\n. Mr. Lieutenant D. M E OZA CARRANCO\nMr. Lieutenant\n. Mr. Lieutenant D"
 }

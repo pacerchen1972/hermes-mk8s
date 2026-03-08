@@ -14,34 +14,51 @@
       "cargo": "General",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "leal",
-      "acciones": ["Intentó parlamentar con los golpistas en el Congreso"]
+      "acciones": [
+        "Intentó parlamentar con los golpistas en el Congreso"
+      ]
     },
     {
       "nombre": "Alfonso Armada Comyn",
       "cargo": "General",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Intentó negociar en el Congreso durante la ocupación"]
+      "acciones": [
+        "Intentó negociar en el Congreso durante la ocupación"
+      ]
     },
     {
       "nombre": "José Sáenz de Santa María",
       "cargo": "General",
       "organizacion": "Guardia Civil",
       "rol_en_23f": "leal",
-      "acciones": ["Intentó parlamentar con Tejero en el Congreso"]
+      "acciones": [
+        "Intentó parlamentar con Tejero en el Congreso"
+      ]
     },
     {
       "nombre": "Antonio Tejero Molina",
       "cargo": "Teniente Coronel de la Guardia Civil",
       "organizacion": "Guardia Civil",
       "rol_en_23f": "conspirador",
-      "acciones": ["Mantuvo conversaciones con Valencia durante la ocupación del Congreso"]
+      "acciones": [
+        "Mantuvo conversaciones con Valencia durante la ocupación del Congreso"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "militar" },
-    { "nombre": "Junta de Jefes de Estado Mayor (JUJEM)", "tipo": "militar" },
-    { "nombre": "Congreso de los Diputados", "tipo": "gubernamental" }
+    {
+      "nombre": "CESID",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Junta de Jefes de Estado Mayor (JUJEM)",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Congreso de los Diputados",
+      "tipo": "gubernamental"
+    }
   ],
   "eventos": [
     {
@@ -75,7 +92,15 @@
       "fecha": "1981-02-23"
     }
   ],
-  "temas": ["cesid", "golpe", "negociacion", "armada", "tejero", "congreso", "accion-psicologica"],
+  "temas": [
+    "cesid",
+    "golpe",
+    "negociacion",
+    "armada",
+    "tejero",
+    "congreso",
+    "accion-psicologica"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_3_R",
     "filename": "Documento_3_R.pdf",
@@ -83,5 +108,7 @@
     "is_image_pdf": false,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "RELACION CESID (Dirección) - PREJUJEM(J-2)\n(Desde un principio y antes de que se reuniera la Junta de Jefes\nde Estado Mayor se mantuvo relaci6n)\n- Recomendación de que la Autoridad Militar asumiera el\ncontrol de la situaci6n y diera un comunicado por radio y TV.\n- Recomendación de acci6n sicológica en el Congreso, -\nsobre los Guardias que habían sido obligados a ir y sobre todos,\nmediante informaci6n de la situación real en el resto de ESPAÑA\n(donde reinaba la calma), fracaso de la sublevación, ......... .\n- Recomendación de aislar la zona del Congreso para\nevitar que los sublevados recibieran refuerzo y adhesiones.\n- Información sobre la situaci6n en las diversas regio\nnes militares, recibida de los Sectores.\n- Información sobre la situaci6n en la zona de la capi\ntal, movimiento de Unidades y vehículos militares, (corte de la -\ncarretera de El Goloso, movimiento de vehículos de la DA, llegada\nde elementos móviles de dicha DA con PM al Congreso, presencia de\nvehículos militares en Radio y TVE, .... )\n- Información sobre la situación interior del Congreso.\nAcciones realizadas por el TCol. TEJERO.\n- Lectura del Capitán General de Valencia y de las su-\npuestas regiones adheridas al golpe.\n- Actitud tensa de los Guardias y del TCol. TEJERO den-\ntro del Congreso en relaci6n al aislamiento de miembros del Gob\n\n.•\n- 2 -\nno (Presidente, Vicepresidente Primero, Ministro de Defensa, Se\ncretarios Generales PSOE y PCE, etc.).\n- Intentos de parlamento del General ARAMBURU, General\nARMADA y General SAENZ DE SANTA MARIA en el Congreso.\n- Conversaciones mantenidas por el TCol. TEJERO con VA\nLENCIA.\n- Negociaciones con los sediciosos ofreciendo circuns\ntancias atenuantes en caso de deponer las armas.\n- Recomendaciones sobre la conveniencia de prever acciones en ca\nso de evolución favorable de la situación en el sentido de:\n- Dónde y cómo llevar los detenidos\n- Escoltas\nNombramiento de jueces\n- Redacción de un comunicado\n(Durante toda la tarde hubo un contínuo intercambio de información\nentre la JUJEM y el CESID).",
+  "texto_completo_en": "RELATIONSHIP CESID (Address) - PREJUJEM (J-2)\n(From the beginning and before the Board of Chiefs met\nof the General Staff, a relationship was maintained)\n- Recommendation that the Military Authority assume the\ncontrol of the situation and give a statement on radio and TV.\n- Recommendation of psychological action in Congress, -\non the Guards who had been forced to go and on everyone,\nthrough information on the real situation in the rest of SPAIN\n(where calm reigned), failure of the uprising, ......... .\n- Recommendation to isolate the Congress area to\nprevent the rebels from receiving reinforcements and accessions.\n- Information about the situation in the various regions\nmilitary resources, received from the Sectors.\n- Information about the situation in the capital area\nsuch, movement of military units and vehicles, (cut of the -\nEl Goloso road, movement of DA vehicles, arrival\nof mobile elements of said DA with PM to Congress, presence of\nmilitary vehicles on Radio and TVE, ....)\n- Information about the internal situation of Congress.\nActions carried out by the TCol. WEAVING.\n- Reading of the Captain General of Valencia and the su-\nplaced regions attached to the blow.\n- Tense attitude of the Guards and the TCol. TEJERO den-\nCongress in relation to the isolation of members of the Government\n\n.•\n- 2 -\nno (President, First Vice President, Minister of Defense, Se\nGeneral Secretary PSOE and PCE, etc.).\n- Parliament attempts by General ARAMBURU, General\nARMADA and General SAENZ DE SANTA MARIA in Congress.\n- Conversations held by the TCol. TEJERO with VA\nLENCE.\n- Negotiations with the seditionists offering circums\nmitigating measures in case of laying down arms.\n- Recommendations on the convenience of foreseeing actions in ca\nfavorable evolution of the situation in the sense of:\n- Where and how to take detainees\n- Escorts\nAppointment of judges\n- Writing a statement\n(Throughout the afternoon there was a continuous exchange of information\nbetween JUJEM and CESID)."
 }

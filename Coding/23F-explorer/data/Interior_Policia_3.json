@@ -10,17 +10,55 @@
   "resumen_en": "Interior Intelligence Brigade note (12 March 1981). A [REDACTED] Fuerza Nueva member considers suing 'Sábado Gráfico', which identified him as part of the Civic-Military Junta that would have governed if the coup had succeeded. A source states the 'shadow of the coup has not passed' and mentions the 'divorce of the King from the Army'. A Fuerza Nueva national affirmation act was planned for 13 March at the Palacio de Congresos in Palma de Mallorca.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
-    { "nombre": "Fuerza Nueva", "tipo": "política" }
+    {
+      "nombre": "Brigada de Información Interior",
+      "tipo": "seguridad"
+    },
+    {
+      "nombre": "Fuerza Nueva",
+      "tipo": "política"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-12", "descripcion_es": "Brigada detecta: miembro de Fuerza Nueva amenaza con querella por su identificación como candidato a Junta Cívico-Militar; malestar por el llamado 'divorcio del Rey con el Ejército'", "descripcion_en": "Brigade detects: Fuerza Nueva member threatens lawsuit after being identified as candidate for Civic-Military Junta; discontent over alleged 'divorce of the King from the Army'", "lugar": "Madrid" },
-    { "fecha": "1981-03-13", "descripcion_es": "Acto de afirmación nacional de Fuerza Nueva en Palma de Mallorca, Palacio de Congresos", "descripcion_en": "Fuerza Nueva national affirmation act in Palma de Mallorca, Palacio de Congresos", "lugar": "Palma de Mallorca" }
+    {
+      "fecha": "1981-03-12",
+      "descripcion_es": "Brigada detecta: miembro de Fuerza Nueva amenaza con querella por su identificación como candidato a Junta Cívico-Militar; malestar por el llamado 'divorcio del Rey con el Ejército'",
+      "descripcion_en": "Brigade detects: Fuerza Nueva member threatens lawsuit after being identified as candidate for Civic-Military Junta; discontent over alleged 'divorce of the King from the Army'",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-03-13",
+      "descripcion_es": "Acto de afirmación nacional de Fuerza Nueva en Palma de Mallorca, Palacio de Congresos",
+      "descripcion_en": "Fuerza Nueva national affirmation act in Palma de Mallorca, Palacio de Congresos",
+      "lugar": "Palma de Mallorca"
+    }
   ],
   "citas_clave": [
-    { "autor": "Fuente (REDACTADO)", "texto_es": "Mientras la clase política no dé marcha atrás y no se haga una reforma política en vez de ruptura... Si a esto le unimos el divorcio del Rey con el Ejército, no sé cómo hay señores que dicen que el pueblo y la democracia han vencido.", "texto_en": "While the political class does not turn back and a political reform is not made instead of a rupture... If we add to this the divorce of the King from the Army, I do not know how anyone can say that the people and democracy have won.", "contexto": "Nota de la Brigada de Información Interior, 12 marzo 1981" }
+    {
+      "autor": "Fuente (REDACTADO)",
+      "texto_es": "Mientras la clase política no dé marcha atrás y no se haga una reforma política en vez de ruptura... Si a esto le unimos el divorcio del Rey con el Ejército, no sé cómo hay señores que dicen que el pueblo y la democracia han vencido.",
+      "texto_en": "While the political class does not turn back and a political reform is not made instead of a rupture... If we add to this the divorce of the King from the Army, I do not know how anyone can say that the people and democracy have won.",
+      "contexto": "Nota de la Brigada de Información Interior, 12 marzo 1981"
+    }
   ],
   "relaciones": [],
-  "temas": ["post-golpe", "fuerza-nueva", "extrema-derecha", "junta-civico-militar", "rey", "ejercito", "brigada-informacion-interior"],
-  "_meta": { "doc_id": "Interior_Policia_3", "filename": "12-03-81_NOTA_INFORMATIVA_SOBRE_FUERZA_NUEVA.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "fuerza-nueva",
+    "extrema-derecha",
+    "junta-civico-militar",
+    "rey",
+    "ejercito",
+    "brigada-informacion-interior"
+  ],
+  "_meta": {
+    "doc_id": "Interior_Policia_3",
+    "filename": "12-03-81_NOTA_INFORMATIVA_SOBRE_FUERZA_NUEVA.pdf",
+    "folder": "interior/policia",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "y\nASUNTOS FUERZA NUEVA\nEs muy posible que WWW inicio una querella\ncriminal contra la revista \"Sábado Gráfico\", donde le dan -\ncomo seguro uno de los miembros de la Junta Civico-Militar\nque se formase después del golpe militar, en caso do que hue\nbiera triunfado.\nWIND afirma que 61 jamás estuvo en ninguna\nreunión de las celebradas en el piso de Isles Filipinas du-\nrante el mes de cotubre, como afirma el mismo semanario.\nMIR ha manifestado a sus más allegados que la -\nsombra del golpe no se ha marchado, aunque haya Gobernadores\nCiviles que les moleste ofrlo. \"Mientras la clase política no\n66 marcha atrás y no se haga una reforma política en ves de\nruptura, que es lo que se ha hecho, no se puede decir que es=-\nta situación se haya acabado. Si a esto le unimos lo que se\nha denominado entre las Fuerzas Armadas \"el divorcio del Rey\ncon el Bjército\",no sé cómo hay señores que dicen que el pue\nblo y la democracia han vencido.\"\ncofo\n9\n\nPara el día 13 de marso, está previsto un acto de\nafirmación nacional en el Palacio de Congresos de Palma de\nMallorca.\nPara ol día siguiente, está previsto otro acto -\nigual en la Isla de Menorca. Hasta última hora no se sabrá\nsí asistirs MIA,\nSe encuentra en estudio una serie de conferencias\nques con motivo del día i de abril, fecha conmemorativa de la\nfinalización de la guerra civil española, el aula de Fuerza\nNueva quiere impartir.\nEn caso de que estas jornadas se lleven a efecto,\nse anunciará oportunamente.\nMadrid, 12 de marzo de 1.981",
+  "texto_completo_en": "and\nNEW FORCE ISSUES\nIt is very possible that WWW filed a lawsuit\ncriminal against the magazine \"Sábado Grafico\", where they give -\nas surely one of the members of the Civic-Military Board\nthat was formed after the military coup, in case it hue\nwould have triumphed.\nWIND claims that 61 was never in any\nmeeting of those held on the floor of the Philippine Islands during\nduring the month of Copper, as stated by the same weekly.\nMIR has told those closest to him that the -\nshadow of the coup has not left, although there are Governors\nCivilians who mind offering it. \"While the political class does not\n66 go back and do not carry out political reform instead of\nbreakup, which is what has been done, you cannot say what it is=-\nThis situation is over. If we add to this what is\nhas called among the Armed Forces \"the divorce of the King\nwith the Army\", I don't know how there are people who say that the\n\"Blo and democracy have won.\"\ncofo\n9\n\nFor March 13, an event is planned\nnational affirmation at the Palma de Janeiro Congress Palace\nMallorca.\nFor the next day, another event is planned -\nSame on the Island of Menorca. Until the last minute we will not know\nyes you will attend MIA,\nA series of conferences is being studied\nques on the occasion of April 1st, commemorative date of the\nend of the Spanish civil war, the Fuerza classroom\nNew wants to impart.\nIf these sessions take place,\nwill be announced in due course.\nMadrid, March 12, 1981"
 }

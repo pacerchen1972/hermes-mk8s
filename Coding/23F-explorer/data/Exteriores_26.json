@@ -9,19 +9,54 @@
   "resumen_es": "Telegrama cifrado del Ministro de Asuntos Exteriores Pérez-Llorca al Embajador de España en Bonn (8 marzo 1981, nr. 53) transmitiendo el siguiente mensaje de S.M. el Rey al Presidente de la República Federal de Alemania: 'Agradezco profundamente a Vuestra Excelencia sus cordiales sentimientos de simpatía y apoyo en relación con el frustrado atentado contra la legalidad constitucional de España que tuvo lugar el pasado día 23 y quedo muy reconocido a sus buenos deseos. Reciba, Señor Presidente, el testimonio de mi más alta consideración y estima, así como mis votos de felicidad y prosperidad para el noble pueblo alemán. JUAN CARLOS R.'",
   "resumen_en": "Coded telegram from Foreign Minister Pérez-Llorca to Spain's Ambassador in Bonn (8 March 1981, no. 53) transmitting King Juan Carlos's message to the President of the Federal Republic of Germany: 'I deeply appreciate Your Excellency's cordial feelings of sympathy and support in relation to the frustrated attempt against Spain's constitutional legality that took place on the 23rd, and am most grateful for your good wishes. Please accept, Mr President, the token of my highest consideration and esteem, as well as my wishes of happiness and prosperity for the noble German people. JUAN CARLOS R.'",
   "personas": [
-    { "nombre": "Juan Carlos I", "rol": "Rey de España, autor del mensaje de agradecimiento" },
-    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Exteriores, firmante del telegrama" }
+    {
+      "nombre": "Juan Carlos I",
+      "rol": "Rey de España, autor del mensaje de agradecimiento"
+    },
+    {
+      "nombre": "José Pedro Pérez-Llorca",
+      "rol": "Ministro de Exteriores, firmante del telegrama"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
-    { "nombre": "Embajada de España en Bonn", "tipo": "gobierno" },
-    { "nombre": "Presidencia de la República Federal de Alemania", "tipo": "gobierno" }
+    {
+      "nombre": "Ministerio de Asuntos Exteriores de España",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Embajada de España en Bonn",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Presidencia de la República Federal de Alemania",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-08", "descripcion_es": "El Rey Juan Carlos transmite al Presidente de la RFA su gratitud por su apoyo tras el 23-F, a través del Ministerio de Exteriores", "descripcion_en": "King Juan Carlos transmits to the FRG President his gratitude for his support after 23-F, through the Ministry of Foreign Affairs", "lugar": "Madrid" }
+    {
+      "fecha": "1981-03-08",
+      "descripcion_es": "El Rey Juan Carlos transmite al Presidente de la RFA su gratitud por su apoyo tras el 23-F, a través del Ministerio de Exteriores",
+      "descripcion_en": "King Juan Carlos transmits to the FRG President his gratitude for his support after 23-F, through the Ministry of Foreign Affairs",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "alemania-occidental", "juan-carlos-i", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_26", "filename": "D.26._AGA-83-09301_exp._5.pdf", "folder": "exteriores/AGA-83-09301", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "alemania-occidental",
+    "juan-carlos-i",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_26",
+    "filename": "D.26._AGA-83-09301_exp._5.pdf",
+    "folder": "exteriores/AGA-83-09301",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "fia’ 328. 2 ($6 |-/7/34 As\nMINISTERIO\nDE Comunicado por ..Dixección Beneral.de.. Europa. .................\nas o e A A. iM be >\nSERRA + El Ministro de Asuntos Exteriores =\nnim. 9,3 peer: ATA A AN RO de España\nClase ... CLARO... Mid E PA EN aie oe eee >\nEUROPA, -\nL\nRUEGO A V.E. TRANSMITA EL SIGUIENTE MENSAJE\nDE SU MAJESTAD EL REY AL PRESIDENTE DELA REPUBLICA\nF EDERAL DE ALEMANIA:\n\"AGRADEZCO PROFUNDAMENTE A VUESTRA EXCELEN.\nCIA SUS CORDIALES SENTIMIENTOS DE SIMPATIA Y APOYO EN RE.\nLACION CON EL FRUSTRADO ATENTADO CONTRA LA LEGALIDA| |\nCONSTITUCIONAL DE ESPANA QUE TUVO LUGAR EL PASADO Ay\n23 Y QUEDO MUY RECONOCIDO A SUS BUENOS DESEOS.\nRECIBA, SEÑOR PRESIDENTE, EL TESTIMONIO DE MI\nMAS ALTA CONSIDERACION Y ESTIMA, ASI COMO MIS VOTOS\nDE FELICIDAD Y PROSPERIDAD PARA EL NOBLE PUEBLO ALEMAN\nY PARA EL BIENESTAR PERSONAL DE VUESTRA EXCELENCIA. -\nJUAN CARLOS R.'\". PEREZ-LLORCA,\nComuníquese.",
+  "texto_completo_en": "fia’ 328. 2 ($6 |-/7/34 As\nMINISTRY\nDE Communicated by ..Dixección Beneral.de.. Europe. .................\nas o e A A. iM be >\nSERRA + The Minister of Foreign Affairs =\nnim. 9.3 peer: ATA A AN RO from Spain\nClass... CLEAR... Mid E PA EN aie oe eee >\nEUROPE, -\nl\nI PRAY TO YOUR V.E. TRANSMIT THE FOLLOWING MESSAGE\nFROM HIS MAJESTY THE KING TO THE PRESIDENT OF THE REPUBLIC\nF EDERAL OF GERMANY:\n\"I DEEPLY THANK YOUR EXCELLENCE.\nCIA YOUR CORDIAL FEELINGS OF SYMPATHY AND SUPPORT IN RE.\nLACION WITH THE FRUSTRATED ATTACK AGAINST LEGALITY | |\nCONSTITUTIONAL CONSTITUTION OF SPAIN THAT TOOK PLACE LAST Ay\n23 AND I AM VERY ACKNOWLEDGED FOR YOUR GOOD WISHES.\nRECEIVE, MR. PRESIDENT, THE TESTIMONY OF MY\nHIGHEST CONSIDERATION AND ESTIMATE, AS WELL AS MY VOTES\nOF HAPPINESS AND PROSPERITY FOR THE NOBLE GERMAN PEOPLE\nAND FOR THE PERSONAL WELL-BEING OF YOUR EXCELLENCE. -\nJUAN CARLOS R.'\". PEREZ-LLORCA,\nGet in touch."
 }

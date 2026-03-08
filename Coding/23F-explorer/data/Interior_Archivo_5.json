@@ -10,14 +10,42 @@
   "resumen_en": "Intelligence note from the Valladolid Information Brigade (3 pages) on the formation of three pro-coup tendencies in the army after 23-F: A) Corriente Inestrillas ('Los Inestrillos') — hard/violent action, meet at 'La Hípica' in Valladolid, advocate coup as political solution; B) Corriente Almendros — intellectual faction of the army, operates clandestinely distributing pamphlets to Officers' homes arguing military coup was the only logical exit; C) Corriente Opus-Dei — purely ideological, linked to political Opus Dei. Note includes lists of identified officers (names redacted) by category: violent fascists and 'Turkish-style' colonels' coup.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Brigada de Información de Valladolid", "tipo": "seguridad" },
-    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+    {
+      "nombre": "Brigada de Información de Valladolid",
+      "tipo": "seguridad"
+    },
+    {
+      "nombre": "Ministerio del Interior",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-01", "descripcion_es": "La Brigada de Información de Valladolid identifica tres corrientes pro-golpistas en el ejército: 'Los Inestrillos', 'Almendros' y 'Opus-Dei', con listados de oficiales implicados", "descripcion_en": "Valladolid Information Brigade identifies three pro-coup tendencies in the army: 'Los Inestrillos', 'Almendros' and 'Opus-Dei', with lists of implicated officers", "lugar": "Valladolid" }
+    {
+      "fecha": "1981-03-01",
+      "descripcion_es": "La Brigada de Información de Valladolid identifica tres corrientes pro-golpistas en el ejército: 'Los Inestrillos', 'Almendros' y 'Opus-Dei', con listados de oficiales implicados",
+      "descripcion_en": "Valladolid Information Brigade identifies three pro-coup tendencies in the army: 'Los Inestrillos', 'Almendros' and 'Opus-Dei', with lists of implicated officers",
+      "lugar": "Valladolid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "involucionismo", "corrientes-pro-golpistas", "valladolid", "opus-dei", "brigada-informacion", "ministerio-interior"],
-  "_meta": { "doc_id": "Interior_Archivo_5", "filename": "5_INVOLUCIONISMO_POLITICO_PROVOCADO_POSIBLE_GOLPE_MILITAR_desp.pdf", "folder": "interior/archivo", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "involucionismo",
+    "corrientes-pro-golpistas",
+    "valladolid",
+    "opus-dei",
+    "brigada-informacion",
+    "ministerio-interior"
+  ],
+  "_meta": {
+    "doc_id": "Interior_Archivo_5",
+    "filename": "5_INVOLUCIONISMO_POLITICO_PROVOCADO_POSIBLE_GOLPE_MILITAR_desp.pdf",
+    "folder": "interior/archivo",
+    "is_image_pdf": true,
+    "pages": 3,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "ee A e\nWTA A A A ee\nASUNTO. \" Involucionismo politico provocado por un posible\nGolpe Militar.Su incidencia en VALLADOLID. \"\" //\nRecientemente se ha venido observando en la esfera militar y a\nnivel nacional, la formación de trés tendencias o corrientes pro-gol-\npistas.Dichas tendencias presentan matices plenamente\ndiferenciados\npero que ante el objetivo común que se proponen podrian en un momen-\nto determinado buscar la unión, siempre que se dieran unas condicio-\nnes\nobjetivas,que se estimaran a los trés niveles, como ideneas pa-\nra lograr un resultado con exito.\nMomentaneamente su actuación se realiza por separado,con el empleo\nde tecnicas diferentes.\nA).-CORRIENTE INESTRILLAS.—\nSus partidarios son conocidos familiarmente, en el ambiente militar,\ncomo \"Los Inestrillos\".Su comportamiento es ostensible y sin recato.\nSon partidarios de la acción dura o violenta,manifestandose publica-\nmente en reuniones en las realizan comentarios contrarios al sieste-\nma politico y la necesidad del golpe como medio de solucion a los —\nproblemas. La Sociedad militar \"La Hipica\",de Valladolid, es el lugar\nmas siduo para sus reuniones.\nB).-CORRIENTE ALMENDROS.=\nIntegrada por la facción intelectual del Bjercito.Su liena de ac-\ntuación entra de lleno dentro de la\nclandestinidad,pretendiendo con\nrazonamientó, que apozfin como logicos,influenciar en el ejercito so-\nbre la necesidad del golpe militar,\nPuede enmarcarse dentro de esta tendencia una serie de panfletos\naparecidos en viviendas de Jefes y Oficiales de la capital,trás el\nintento del Golpe de Estado del 23-F,cuyo formato estaba basado en\nun estudio social,politico y economico de España, para finalizar abo-\ncando en que la unica salida logica era el golpe militar.\nC).-CORRIENTE OPUS-DEI.-—De momento con cqanpgter puramente ideo",
+  "texto_completo_en": "ee A e\nWTA A A A ee\nSUBJECT. \"Political involutionism caused by a possible\nMilitary Coup. Its incidence in VALLADOLID. \"\" //\nRecently it has been observed in the military sphere and\nnational level, the formation of three pro-gol trends or currents\nclues. These trends present nuances fully\ndifferentiated\nbut that given the common objective they propose, they could in a moment\ndetermined to seek union, provided that certain conditions were met.\nnes\nobjectives, which were estimated at the three levels, as ideal for\nto achieve a successful result.\nMomentarily their performance is carried out separately, with the employment\nof different techniques.\nA).-INESTRILLA CURRENT.—\nIts supporters are familiarly known, in the military environment,\nlike \"Los Inestrillos\". Their behavior is ostensible and without modesty.\nThey are supporters of harsh or violent action, publicly demonstrating\nly in meetings in which they make comments contrary to the sieste-\npolitical crisis and the need for the coup as a means of solving the —\nproblems. The military society \"La Hipica\", of Valladolid, is the place\nmore diligent for your meetings.\nB).-ALMOND STREAM.=\nMade up of the intellectual faction of the Bjercito. Its line of action\ntuation falls squarely within the\nclandestinity, pretending with\nreasoned, that apozfin as logicians, influence the army so-\nabout the need for the military coup,\nA series of pamphlets can be framed within this trend.\nappeared in the homes of Chiefs and Officers of the capital, after the\nattempted coup d'état of 23-F, whose format was based on\na social, political and economic study of Spain, to finish abo-\nwhen the only logical solution was a military coup.\nC).-CORRIENTE OPUS-DEI.-—At the moment with purely ideological cqanpgter"
 }

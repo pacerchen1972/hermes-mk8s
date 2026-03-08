@@ -10,8 +10,14 @@
   "resumen_en": "CESID intelligence note on incidents during the oral hearing sessions of Causa 2/81 at the Supreme Military Court. Military commission members present in the courtroom participated in applause, booing and heckling directed at journalists. The document warns of likely recurrence and suggests preventive measures.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "militar" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+    {
+      "nombre": "CESID",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
     {
@@ -23,7 +29,14 @@
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "causa-2-81", "cesid", "incidentes", "prensa", "comisiones-militares"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "incidentes",
+    "prensa",
+    "comisiones-militares"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_10_R",
     "filename": "Documento_10_R.pdf",
@@ -31,5 +44,7 @@
     "is_image_pdf": false,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "NOTA INFORMATIVA\nASUNTO: Comisiones militares en vista causa 2/81 C.S.J.M.\nLos incidentes ocurridos ayer en la sala durante la vista\nde la causa 2/81 del C.S.J.M. incluyeron la participacion de\nalgunos miembros de las comisiones militares asistentes, tan\nto en los aplausos y abucheos como incluso en las increpaci~\nnes dirigidas a los periodistas.\nAnte la previsible ocurrencia de nuevos incidentes, provo\ncados por actuaciones de los procesados o de sus defensores,\nse estima la conveniencia de ·que los militares representantes\nmás caracterizados de cada organismo de la Administración Cen\ntral, Región o Zona sean responsabilizados del comportamiento\nde los miembros de la respectiva comisió.n.\nPor otra parte, se estima que la permanencia prolongada de\nmiembros en cada comisión puede producir una deformación de\nactitudes, favdrables a la intervención en incidentes de esta\nclase. Por ello sería conveniente la sustitución periódica(por\nejemplo, semanalmente) de los miembros de las comisiones lo\nque, por otra parte, favorecería el que la información descen\ndente transmitida a su través estaría menos influida por las\ncaracterísticas personales de los comisionados.\nEn cualquier caso, las comisiones debieran recibir instruccic\nnes concretas sobre actitud a .mantener.",
+  "texto_completo_en": "INFORMATIVE NOTE\nSUBJECT: Military commissions in hearing case 2/81 C.S.J.M.\nThe incidents that occurred yesterday in the courtroom during the hearing\nof case 2/81 of the C.S.J.M. included the participation of\nsome members of the attending military commissions, as\nin the applause and boos as well as in the rebukes.\nnes aimed at journalists.\nGiven the foreseeable occurrence of new incidents, provo\nfallen due to actions of the defendants or their defenders,\nIt is considered advisable that the military representatives\nmost characterized by each agency of the Cen Administration\ntral, Region or Zone are held responsible for the behavior\nof the members of the respective commission.\nOn the other hand, it is estimated that the prolonged permanence of\nmembers in each commission can produce a distortion of\nattitudes, favorable to intervention in incidents of this\nclass. Therefore, periodic replacement would be advisable (for\nexample, weekly) of the committee members\nwhich, on the other hand, would favor the information descending\ndent transmitted through it would be less influenced by the\npersonal characteristics of the commissioners.\nIn any case, the commissions should receive instructions\nConcrete instructions about attitude to maintain."
 }

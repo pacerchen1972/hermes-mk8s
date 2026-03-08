@@ -21,7 +21,10 @@
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    }
   ],
   "eventos": [
     {
@@ -48,7 +51,13 @@
       "fecha": "1981-05-22"
     }
   ],
-  "temas": ["cesid", "cortina", "procesamiento", "post-golpe", "aome"],
+  "temas": [
+    "cesid",
+    "cortina",
+    "procesamiento",
+    "post-golpe",
+    "aome"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_75_R",
     "filename": "Documento_75_R.pdf",
@@ -56,5 +65,7 @@
     "is_image_pdf": true,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "DErr el) Serie ee\nA COREY BASES\nPU LMACION£ )\nCalificación , ? EhtJ Re!oNITEJHA ENTRADA\n| Ne ‘, ‘ect ffie 4\nAAAOsasTs A“IItNTERoR\nS/[Ref.\nASUNTO: PROCESAMIENTO DE UN JEFE,\nEn el día de hoy se ha producido el procesamientodel\nComandante de Infantería, D.E.M. DON JOSE CORTINA PRIETO,\nen relación a los hechos acaecidos durante los dias23 y\n24 de febrero último, lo que se traslada para conocimiento\ngeneral.\nDado el carscter sensible del asunto, se encarece la\ndebida reserva ch cl tratamiento del mismo.\n3\ni\ny\n4\nI\ny\nY£\n3\n3\nE\n4E\ne\n7\né;\n5\n%\n:\nEt\nÉ\nf\nY\ni",
+  "texto_completo_en": "DErr el) Series ee\nTO COREY BASES\nPU LMATION£ )\nRating, ? EhtJ Re!oNITEJHA ENTRY\n| Ne ', 'ect ffie 4\nAAAOsasTs A“IItNTERoR\nS/[Ref.\nSUBJECT: PROSECUTION OF A CHIEF,\nToday the processing of the\nInfantry Commander, D.E.M. DON JOSE CORTINA PRIETO,\nin relation to the events that occurred during days 23 and\nLast February 24, which is transferred for information\ngeneral.\nGiven the sensitive nature of the matter, the\ndue reservation ch cl treatment thereof.\n3\ni\nand\n4\nI\nand\nY£\n3\n3\nE\n4E\nand\n7\ne;\n5\n%\n:\net\nHe\nf\nand\ni"
 }

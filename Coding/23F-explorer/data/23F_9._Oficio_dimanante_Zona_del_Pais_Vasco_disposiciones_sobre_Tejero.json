@@ -24,9 +24,18 @@
     }
   ],
   "organizaciones": [
-    { "nombre": "5ª Zona Guardia Civil (País Vasco)", "tipo": "policial" },
-    { "nombre": "Comandancia de Málaga", "tipo": "policial" },
-    { "nombre": "Dirección General de la Guardia Civil", "tipo": "policial" }
+    {
+      "nombre": "5ª Zona Guardia Civil (País Vasco)",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "Comandancia de Málaga",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "Dirección General de la Guardia Civil",
+      "tipo": "policial"
+    }
   ],
   "eventos": [
     {
@@ -66,7 +75,14 @@
       "fecha": "1981-01-11"
     }
   ],
-  "temas": ["vigilancia-previa", "perfil-tejero", "malaga", "pais-vasco", "disciplina-guardia-civil", "pre-golpe"],
+  "temas": [
+    "vigilancia-previa",
+    "perfil-tejero",
+    "malaga",
+    "pais-vasco",
+    "disciplina-guardia-civil",
+    "pre-golpe"
+  ],
   "_meta": {
     "doc_id": "23F_9._Oficio_dimanante_Zona_del_Pais_Vasco_disposiciones_sobre_Tejero",
     "filename": "23F_9._Oficio_dimanante_Zona_del_Pais_Vasco_disposiciones_sobre_Tejero.pdf",
@@ -74,5 +90,7 @@
     "is_image_pdf": true,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "a e w0) o o) Z 9)uiZz ule Bd -\n5 ZONA\nDE LA\nJEFATURA\nGUARDIA CIVIL\nS/RE um. \" Fecha\nES\nASUNTO:\nE\nj\n> Q 32y 2s3 sto O « e f aaE S]\nmi\n1d\nel\n3o q Ryo ol\nb\nE\nSo.\naa que ha\n“\na\n£6 Y1o +B avtaernvacos a o9ct ae\n4\no o\na d eaB g rio 3\n35 wamoo ©\n¢ % a\ndogsvavoE ;2\ny 3\nn e ooÉE 6 si al 2 a E l A“ 15oE ‘ A2ao |\ni\no\nasd aS y @: t\nBS\naa4oOrs St\n(\nHG\na b\nc t\no\n2\na; n (2)E> a\n:\n3o\na302 !",
+  "texto_completo_en": "a e w0) o o) Z 9)uiZz ule Bd -\n5 ZONE\nOF THE\nHEAD OFFICE\nCIVIL GUARD\nS/RE um. \"Date\nEN\nSUBJECT:\nE\nj\n> Q 32y 2s3 sto O « e f aaE S]\nmy\n1d\nthe\n3rd q Ryo ol\nb\nE\nSo.\nah what happened\n“\nto\n£6 Y1o +B avtaernvacos a o9ct ae\n4\nor or\na d eaB g rio 3\n35 wamoo ©\n¢ % a\ndogsvavoE ;2\nand 3\nn e ooÉE 6 si al 2 a E l A“ 15oE ‘ A2ao |\ni\nor\nasd aS and @:t\nB.S.\naa4oOrs St\n(\nH.G.\na b\nc t\nor\n2\nto; n (2)E> a\n:\n3rd\na302 !"
 }

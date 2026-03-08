@@ -61,12 +61,30 @@
     }
   ],
   "organizaciones": [
-    { "nombre": "Guardia Civil", "tipo": "policial" },
-    { "nombre": "Regimiento Pavía", "tipo": "militar" },
-    { "nombre": "Regimiento Villaviciosa", "tipo": "militar" },
-    { "nombre": "El Alcázar", "tipo": "otro" },
-    { "nombre": "Dirección de la Seguridad del Estado", "tipo": "policial" },
-    { "nombre": "Junta Militar", "tipo": "militar" }
+    {
+      "nombre": "Guardia Civil",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "Regimiento Pavía",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Regimiento Villaviciosa",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "El Alcázar",
+      "tipo": "otro"
+    },
+    {
+      "nombre": "Dirección de la Seguridad del Estado",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "Junta Militar",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
     {
@@ -137,7 +155,15 @@
       "fecha": "1981-02-23"
     }
   ],
-  "temas": ["comunicaciones", "objetivos-golpe", "manifiesto", "junta-militar", "armada", "fractura-interna", "medios-comunicacion"],
+  "temas": [
+    "comunicaciones",
+    "objetivos-golpe",
+    "manifiesto",
+    "junta-militar",
+    "armada",
+    "fractura-interna",
+    "medios-comunicacion"
+  ],
   "_meta": {
     "doc_id": "23F_2._Conversacion_telefonica_GARCIA_CARRES",
     "filename": "23F_2._Conversacion_telefonica_GARCIA_CARRES.pdf",
@@ -145,5 +171,7 @@
     "is_image_pdf": true,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "CONVERSACION ENTRE GARCIA CARRES Y OTRA PERSONA /\nsi\nSi Juan\nVillaviciosa y Pavía y esto es lo nuestro Villaviciosa y\nPavía. Os van a enviar un manifiesto los Guardias Civiles\nde las Cortes.\nEstos regimientos...-\nNo, estos regimientos .van a defenderles pero dilo con 9\nsi lo dices. Te he estado llamando hace un rato y no —\nestabas en el despacho.\ny\nVamos a ver, dime, y un manifiesto quién lo va a mandar?.\nLos Guardias Civiles de dentro, si pudiéramos conectar. T\nten preparado un magnetofón que he dichd que te llamen, p\nte he estado llamando por el otro y no lo cogías; he llar\npor aquí. *\nVa-a trasmitir un tal Abad de El Alcázar.\nExacto.\nEsto será auténtico, no se lo habrán inventado en El Alca\nSi, leemelo.\nNo, lo están pasando ahora a máquina.\nSi, si, si, no, no, no, es el auténtico esto es de los Gy\ndias Civiles. Eso es verdad que me lo ha dicho ami Tejer\nque he hablado con él.\nBueno, Bueno\nMe ha llamado él.a mi, porque alli rio contesta nadie.\nC.\nBueno, pues has oído a Plá, a Juan Pla.\nCc. Si, no no lo he oído. -\nBueno, pues ha dicho que ha hablado con Tejero, que algun\namigos comunes se habian enfadado porque decía que era un\noperación del Gobierno, que el es un hombre pacifico, que\nno le gusta eso. Que ha hablado con Tejero y que Tejero t\ndicho que los objetivos son disolución del Parlamento y cr\nción de una Junta Militar que erradique el terrorismo y\nque el General Rrmada en la hora y media que había estadc\ncon él, pues que le había ofrecido un avión para que se y\nchara, y que el habia dicho que se marea mucho en el avié\ny que no. En síntesis, eso- :\n\ne.\nYa,:pero no es’ verdad lo de Juan Pla, porque le ha diche\na la mujerimire Vd. no tiene apoyo de fuera y yo creo qu\ncon el hijo debería ir a hablar allí; o sea que lo ha .-\nutilizado la Dirección de la Seguridad del Estado. Te lo\ndigo yo. Pla dirá lo que le de la gana.\nNo, no si yo no....\nEntiendes. o\nYa, ya, pero querría esto?.\nEste se mantiene alli a vida o muerte, te lo digo yo.\nPobre hombre. o EN\nEste a palmar. Vamos.\nPobre hombre. -\nVale.\nVale Jefe.\nVale. .",
+  "texto_completo_en": "CONVERSATION BETWEEN GARCIA CARRES AND ANOTHER PERSON /\nyes\nYes John\nVillaviciosa and Pavia and this is ours Villaviciosa and\nPavia. The Civil Guards are going to send you a manifesto\nof the Cortes.\nThese regiments...-\nNo, these regiments are going to defend you but say it with 9\nif you say so. I've been calling you for a while and no—\nyou were in the office.\nand\nLet's see, tell me, and who is going to send a manifesto?\nThe Civil Guards inside, if we could connect. T\nHave a tape recorder ready that I have told them to call you, p\nI've been calling you about the other one and you didn't pick it up; I cry\nover here. *\nA certain Abad de El Alcázar is going to transmit.\nExact.\nThis will be authentic, they will not have invented it in El Alca\nYes, read it to me.\nNo, they are typing it now.\nYes, yes, yes, no, no, no, it is the real thing, this is from the Gy\nCivil days. That's true, what my friend Tejer told me\nthat I have spoken with him.\nWell, well\nHe called me, because no one answers there.\nc.\nWell, you've heard Plá, Juan Pla.\nDC. Yes, no I haven't heard it. -\nWell, he said that he has spoken with Tejero, that someone\nmutual friends had gotten angry because he said he was a\noperation of the Government, that he is a peaceful man, that\nHe doesn't like that. That he has spoken with Tejero and that Tejero\nsaid that the objectives are dissolution of Parliament and cr\ntion of a Military Junta that eradicates terrorism and\nthat General Rrmada in the hour and a half that he had been\nwith him, since he had offered him a plane so that he could\nchara, and that he had said that he gets very dizzy on the plane\nand what not. In summary, that-:\n\ne.\nYes, but what about Juan Pla is not true, because he told him\nto the womanimire You do not have support from outside and I believe that\nI should go talk to my son there; or so it has.-\nused by the State Security Directorate. you\nI say. Pla will say whatever he wants.\nNo, not if I don't....\nYou understand. or\nYeah, yeah, but would I want this?\nThis one stays there for life or death, I tell you.\nPoor man. or IN\nThis one to palm. Come on.\nPoor man. -\nOkay.\nOkay Boss.\nOkay. ."
 }

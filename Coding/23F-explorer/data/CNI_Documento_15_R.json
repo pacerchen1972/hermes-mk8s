@@ -14,27 +14,42 @@
       "cargo": "Teniente General, Capitán General de la III Región Militar (Valencia)",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Procesado principal en la Causa 2/81; su defensa provocó incidente con la prensa"]
+      "acciones": [
+        "Procesado principal en la Causa 2/81; su defensa provocó incidente con la prensa"
+      ]
     },
     {
       "nombre": "Cabeza Calahorra",
       "cargo": "Teniente General, codefensor de Milans del Bosch",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "neutral",
-      "acciones": ["Sus comentarios sobre la prensa provocaron un incidente en sala durante el juicio"]
+      "acciones": [
+        "Sus comentarios sobre la prensa provocaron un incidente en sala durante el juicio"
+      ]
     },
     {
       "nombre": "Pilar Urbano",
       "cargo": "Periodista, ABC",
       "organizacion": "ABC",
       "rol_en_23f": "testigo",
-      "acciones": ["Intentó liderar una protesta de periodistas ante los insultos del codefensor de Milans"]
+      "acciones": [
+        "Intentó liderar una protesta de periodistas ante los insultos del codefensor de Milans"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "militar" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "ABC", "tipo": "otro" }
+    {
+      "nombre": "CESID",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "ABC",
+      "tipo": "otro"
+    }
   ],
   "eventos": [
     {
@@ -54,7 +69,14 @@
       "fecha": "1982-04-28"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "milans", "prensa", "incidente", "csjm"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "milans",
+    "prensa",
+    "incidente",
+    "csjm"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_15_R",
     "filename": "Documento_15_R.pdf",
@@ -62,5 +84,7 @@
     "is_image_pdf": false,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "28-IV-82\nNOTA INFORMATIVA\n- En el día de hoy, durante la intervenci6n del defensor del\nGeneral Milans del Bosch, y por su codefensor el TTe. Gral.\nCabeza Calahorra, se produjo un incidente cuando aludi6 a\nla prensa, y esta se consideró insultada.\n• Como consecuencia de este incidente:\n- Pilar Urbano -ABC-quiso hacer un desplante y arrastrar\ntras ella a otros periodistas.\n- Sep.petende redactar un escrito dirigido al Pte. de la Sa\nla para que se impidan nuevos insultos a la prensa.\n- La citada periodista, intentó soliviantar a otros compañe\nros, precis·amente porque fue indirectamente señalada.\n- Ante el cariz que tomaba la situaci6n, se avisó al CRISDE\npara que se tomas-en medidas y a la Casa para informaci6n.\n~ En poco tiempo se.presento en Campamemto el General Toque\n;r-o,. que pudo atemperar a la pe:t:'iodista. Diciendola que ha\nbía hablado con el Pte. del Tribunal, y ambos, el Gral. -\nToquero y el Gral. G6mez de Salazar, rogaban discreci6n y\ntemplanza.\n-.... Entre los peTiodistas, quizá también afectados en menor -\ngl?ado, se cTít±caba con dureza \"las injustas expresiones\n· del Gral. Calahorra\".\n- El Representante de la Sec. de E. para la Información, hizo\nlo imposible para calmar los animes de los periodistas, pe\nro se encuentra sin base moral porque no ha podido agradar\na los informadores de la prensa.\nEn ese punto, el Sr. Abella, prometió entregar a los perio\ndistas el escrito de las conclusiones provisionales del fi\nnal, y este se las neg6.\n• Al respecto, el equipo de la \"Casa\", intenta por todos los\nmedios posibles, romper la resistencia del fiscal, ·y.a que\nse supone que las citadas conclusiones evitarían la~ inter\nvenciones personales de muchos periodistas que observan con\ntemor el desequilibrio informativo producido por las sucesi\nvas noticias de los alegatos de los defensores.\n- Por ello, se ha hablado directamente con el Gral. Pastrana,\ncon el Gene:t:'al Martinez García, Coronel Serrado y otros que\ncomprenden la necesidad de que el escrito del fiscal togado\npueda ser ut8lizado por la prensa.\n- Algunos derensores (Hermosilla) ya han dado .su escrito de\ndefensa a algunos periodistas.\n- Se espera que mañana día 29 se entregue al equipo de \"la\ncasa\" el escrito del fiscal.",
+  "texto_completo_en": "28-IV-82\nINFORMATIVE NOTE\n- Today, during the intervention of the defender of the\nGeneral Milans del Bosch, and by his co-defender the TTe. General\nCabeza Calahorra, an incident occurred when he alluded to\nthe press, and they considered themselves insulted.\n• As a result of this incident:\n- Pilar Urbano -ABC- wanted to make a move and drag\nother journalists after her.\n- Sep.petende write a letter addressed to the President of the Sa\nto prevent new insults to the press.\n- The aforementioned journalist tried to provoke other colleagues\nros, precisely because it was indirectly pointed out.\n- Given the direction the situation was taking, CRISDE was notified\nso that measures are taken and to the House for information.\n~ In a short time General Toque appeared at Campamemto\n;r-o,. that could temper the journalistic pe:t:''. Telling her that she has\nI had spoken with the President of the Court, and both, the General -\nToquero and General G6mez de Salazar, begged for discretion and\ntemperance.\n-.... Among journalists, perhaps also less affected -\ng?late, \"the unjust expressions\n· of General Calahorra\".\n- The Representative of the Sec. of E. for Information, made\nthe impossible to calm the journalists' spirits, but\nro finds himself without a moral basis because he has not been able to please\nto press reporters.\nAt that point, Mr. Abella promised to deliver to the newspapers\nyou distance the writing from the provisional conclusions of the fi\nnal, and he denied them.\n• In this regard, the \"House\" team tries by all means\npossible means, break the prosecutor's resistance, and since\nIt is assumed that the aforementioned conclusions would avoid the inter\npersonal ventions of many journalists who observe with\nfear the information imbalance produced by the successions\nnews of the defenders' allegations.\n- For this reason, we have spoken directly with General Pastrana,\nwith Gene:t:'al Martinez García, Coronel Serrado and others who\nunderstand the need for the prosecutor's written document\ncan be used by the press.\n- Some derensores (Hermosilla) have already given their written consent.\ndefense of some journalists.\n- It is expected that tomorrow the 29th it will be delivered to the \"la\nhouse\" the prosecutor's brief."
 }

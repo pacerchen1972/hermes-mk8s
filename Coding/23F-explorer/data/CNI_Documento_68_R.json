@@ -14,42 +14,64 @@
       "cargo": "Periodista",
       "organizacion": "Diario 16",
       "rol_en_23f": "testigo",
-      "acciones": ["Publicó el artículo 'Así asaltamos el Parlamento' el 23 de febrero de 1982, primer aniversario del golpe, desencadenando el boicot de los procesados"]
+      "acciones": [
+        "Publicó el artículo 'Así asaltamos el Parlamento' el 23 de febrero de 1982, primer aniversario del golpe, desencadenando el boicot de los procesados"
+      ]
     },
     {
       "nombre": "Pedro Ramírez",
       "cargo": "Director de Diario 16",
       "organizacion": "Diario 16",
       "rol_en_23f": "testigo",
-      "acciones": ["Llamado a hablar con el Tribunal al menos tres veces; al final la acreditación de Diario 16 fue suspendida"]
+      "acciones": [
+        "Llamado a hablar con el Tribunal al menos tres veces; al final la acreditación de Diario 16 fue suspendida"
+      ]
     },
     {
       "nombre": "Miguel Ángel Aguilar",
       "cargo": "Periodista",
       "organizacion": "prensa",
       "rol_en_23f": "testigo",
-      "acciones": ["Salió de la Sala en solidaridad con los periodistas de Diario 16 cuando fue suspendida su acreditación"]
+      "acciones": [
+        "Salió de la Sala en solidaridad con los periodistas de Diario 16 cuando fue suspendida su acreditación"
+      ]
     },
     {
       "nombre": "Carlos Álvarez Arenas Pardina",
       "cargo": "Capitán de Infantería",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["El artículo de Diario 16 le atribuía la frase '¡Al que dé un paso atrás le disparo personalmente en la nuca!', motivando el boicot"]
+      "acciones": [
+        "El artículo de Diario 16 le atribuía la frase '¡Al que dé un paso atrás le disparo personalmente en la nuca!', motivando el boicot"
+      ]
     },
     {
       "nombre": "Jesús Muñecas Aguilar",
       "cargo": "Capitán de la Guardia Civil",
       "organizacion": "Guardia Civil",
       "rol_en_23f": "conspirador",
-      "acciones": ["Sus declaraciones fueron leídas en la sesión; alegó obediencia debida"]
+      "acciones": [
+        "Sus declaraciones fueron leídas en la sesión; alegó obediencia debida"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Diario 16", "tipo": "otro" },
-    { "nombre": "Guardia Civil", "tipo": "policial" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Diario 16",
+      "tipo": "otro"
+    },
+    {
+      "nombre": "Guardia Civil",
+      "tipo": "policial"
+    }
   ],
   "eventos": [
     {
@@ -82,7 +104,17 @@
       "fecha": "1982-02-23"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "cesid", "diario-16", "boicot", "guardia-civil", "obediencia-debida", "prensa", "aniversario-23f"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "diario-16",
+    "boicot",
+    "guardia-civil",
+    "obediencia-debida",
+    "prensa",
+    "aniversario-23f"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_68_R",
     "filename": "Documento_68_R.pdf",
@@ -90,5 +122,7 @@
     "is_image_pdf": false,
     "pages": 5,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "' ,l\nC/SG/ 2992/24-02-82\nNOTA INFORMATIVA\nASUNTO: Vista Oral 2/81. del Consejo Supremo de Justicia Militar.\n1.- .DESARROLLO DE LA SESION CORRESPONDIENTE AL 23.02.82\nAntes de la hora de comienzo oficial de la Vista las comisio\nnes militares y familias comentan el artículo de Diario 16 \"Así•\nasaltamos el Parlamento\", escrito por Adolfo Salvador con la opi\nnión unánime de su inoportunidad, pero sin que se detecte que ello\npueda afectar el discurrir del Juicio.\nConforme pasa el tiempo y no comienza la sesi6n los comenta-/\nrios surgen, así como el movimiento de periodistas.\nEl primer rumor es que los procesados se niegan a entrar en -\nla Sala con motivo del artículo antes citado.\nDespués la noticia es que los defensores también se niegan a/\nentrar en la Sala.\nEn este tiempo el Tribunal está sentado en sus sitios corres\npondientes. Surge a continuación la noticia de que se comenzaría/\nsi hay una rectificación de la noticia.\nLlaman al director de Diari.o 16 y entra, al parecer, a hablar\ncon el Tribunal. Esto se repite por lo menos tres veces.\nS~ busca una solución negociada. El ambiente es de expectaci6n\ntensa. La última noticia es que la condición impuesta por los de-/\nfensores es que tienen que suspender la acreditación a los perio-/\ndistas de Dia~io 16.\nParece ser que los defensores se niegan, si no se dan estas-/\ncondiciones, a ejercer la defensa y se habla de que habrá que nom\nbrar defensores de oficio. Un grupo de periodistas afirma que esto\nlo apoyan sólo tres o cuatro defensores y que el resta estaría dis\npuesto a cumplir con su obligación.\n\n2\nAnte la disyuntiva de que se aceptara ia propuesta por parte\ndel Tribunal, los representantes de TV. y RN. piensan que habr§\nsolidaridad del resto de la prensa con los afectados. También son\nde la opinión que el tratamiento que P.J. Ramírez est§ dando al/\ntema es de \"una gran f~ivolidad\".\nA las 13'32 horas se abre la sesión sin que la mayoría sepa/\nqué solución se adoptó.\nA petición de la Defensa (Sr. Gómez García), el Pres~dente -\n~oncede a éste la palabra:\nProtesta enérgica y en voz enaltecida por el agravio a su de\nfendido. Al comenzar esta alocución un familiar de un procesado/\n(mujer) dice en voz alta \"¡Bien¡.\nTermina y un Jefe de uniforme en voz alta profiere palabras/\nmalsonantes que son el inicio de aplausos de paisanos y algunos/\nmilitares de un1forme.\nDespués, el Fiscal, en uso de sus facultades toma la palabra\ny con energía en las palabras y en la voz, hace las consideracio\nnes que considera oportunas.\nUna vez terminado, el Sr. Scandell habla en nombre del Gene\nral De Santiago e interpretando el sentido de todos los defenso\nres militares, en su propia representación y sbore todo como mi\nlitar. Su voz es igualmente enérgica.\no A continuación el Sr. Presidente suspende la acreditación de\nla representación de Diario 16. Su voz también es enérgica.\nAquí se lanzan palabras como \"bandido, bien, etc.\". Fuertes/\naplausos de familiares y algunas personas de uniforme.\nCon los periodistas pertenecientes a Diario 16 salen también\nMigue1·Angel Aguilar y dos periodistas más. El resto se ~ira, ti\ntubea, · pero se queda.\nComienzan las lecturas de las declaraciones. La primera del/\nCapitán de la Guardia Civil D. JOSE LUIS ABAD GUTIERREZ. Nada más\ncomenzar, el Sr. Pedrol Rius se levanta y sale de la Sala. Detrás\nde él un grupo de l etrados que estaban a su alrededor y simultá\nneamente la práctica totalidad de los periodistas. Sólo quedan -\nnueve periodistas. A los cinco minutos entran do~ periodistas .\n. . . / / / ...\n\n3\nA las 13'45 horas entra en la Sala el Sr. Pedro! Rius con los\nletrados y representantes acreditados que anteriormente le habían\nacompañado en la salida. Pasados unos cinco minutos vuelve a -sa-/'\nlir el Sr. Pedro! Rius.\nA las 14'00 horas entran dos periodistas, siendo uno de ellos\nde El País. Otro sale.\nEn Anexo A, se adjuntan NOTAS INFORMATIVAS EXTRAORDINARIAS-/\nNUMs. 1 y 2, elaboradas por la OIDREP.\nAl iniciarse propiamente la Sesi6n, continu6 el Sr. Fiscal so\nlicitando la lectura de las siguientes diligencias:\n- 1~ y 3~ declaraciones del Capitán de la Guardia Civil Don -\nJOSE LUIS ABAD GUTIERREZ.\nCertificaci6n parcial sobre servicios relativa al anterior.\n- 1ª declaraci6n y declaraci6n indagatoria del Capitán de la/\nGuardia Civil Don ENRIQUE BOBIS GONZALEZ.\n- 1-ª declaraci6n y declaraci6n indagatoria del Capitán de la/\nGuardia Civil Don JUAN PEREZ DE LA LASTRA.\nA las 14'15 horas el Presidente de la Sala suspende la Vista/\nhasta las 16'15 horas.\nu\nPor la tarde el Sr. Fiscal solicit6 la lectura de:\n- 1ª declaraci6n y declaraci6n indagatoria del Capitán de la/\nGuardia Civil Don CARLOS LAZARO GORTAIN.\n- 1ª declaraci6n del Teniente de la Guardia Civil Don MANUEL/\nl3OZA CARRANCO.\n·a\n- 1- declaraci6n del Teniente de la Guardia Civil Don PEDRO -\nIZQUIERDO SANCHEZ.\n- 1~ declaración del Teniente de la Guardia Civil Don JOSE NU\nÑEZ RUANO.\n- 1ª declaraci6n del Teniente de la Guardia Civil Don VICENTE\nRAMOS RUEDA.\n- 1ª declaraci6n y declaraci6n indagatoria del Capitán Don-/\nFRANCISCO ACERA MARTIN.\n. .. .....\n/ /\n\n4\n1~ declaraci6n del Teniente de la Guardia Civil Don SANTIA~\nGO VECINO NUÑEZ.\na\n- 1- declaración y declaraci6n ind~gatoria del Capitán de la/ \\\nGuardia Civil Don FRANCISCO IGNACIO ROMAN.\n1~ y 2~ declaraciones, declaraci6n indagatoria, Auto de Pro\ncesamfento y 3~ declaración del Capitán de la Guardia Civil\nDon JESUS MUÑECAS AGUILAR.\n1~ declaraci6n del Cabo 1~ de la Guardia Civil Don FRANCIS\nCO DE BURGOS NUÑEZ.\n1~ declaración 'del Teniente de la Guardia Civil Don VICENTE\nCARRICONDO SANCHEZ.\n- 1§: declaraci6n del Teniente de la Guardia Civil Don CESAR -\nALVAREZ FERNANDEZ.\n- i~ declaración y declaraci6n indagatoria del Teniente de la\nGuardia Civil Don JESUS ALONSO HERNAIZ.\n- 1~, 2§: y 3§: dec.laraciones del Capitán de Navío Don CA.MILO -\nMENENDEZ VIVES.\n- Declaraci6n del Contralmirante Ingeniero de la Armada Don -\nMIGUEL MARTIN RIERA.\nA las 18'00 horas se interrumpió la Vista las las 10'00 horas\nde mañana.\n2.- INCIDENCIAS Y ESTIMACIONES SOBRE EL DESARROLLO DE LA SESION.\n- Retraso en la iniciación de la Sesión, e incidentes en la SALA,\nreseñados en el apartado anterior y Anexo \"A\".\n- Poco después de plantearse la negativa de los procesados a com\nparecer en la Sala, estos hicieron circular entre los asistentes\npor un procedimiento subrepticio un comunicado en· e1 que expli\ncaban su postura y que se enseñaba a familiares y asistentes-/\nafines.\nEn dicho comunicado exponían su indignación por el artículo\npublicado en Diario 16, en el que se hacía referencia al Capitán\nALVAREZ ARENAS. Añadían que consideraban tener derecho a ser am\nparados por el Mando a este respecto, a tenor de lo establecido\nen las Reales Ordenanzas y solicitaban que por la Sala se adop\ntaran las medidas oportunas para retirar las acreditaciones de/\nlos representantes del diario ~ ~- cu~stión~- -=\n... .....\n/ /\n\n5\n- Integrantes de a~gunas de las Comisiones mantuvieron informados\na sus Capitanes Generales, mediante comunicaciones telef6nicas,\ndel desarrollo de los incidentes. En algún momento comentaron - ,\nla expectación despertada al circular el rumor de que los proce\nsados podrían ser conducidos por la fuerza. En algunas Capita-/\nnías, al parecer, se estim6 como un hecho de mucha gravedad la/\nposibilidad de que se confirmara este rumor.\n- En_ general, las declaraciones de los Oficiales de la Guardia Ci\nvil han puesto de manifiesto -en versión de los mismos-, el de~\nconocimiento de cualquier planteamiento anterior a la operaci6n,\ny que su participación fue por obediencia a sus superiores jerár\nquicos, sin uso real de armas, esforzándose posteriormente en -\nevitar derramamiento de sangre, y en otras funciones humanita-/\nrias.\n- La asistencia de los representantes de los medios de comunica-/\nci6n social durante la tarde ha sido normal. Al finalizar la se\nsi6n, la OIDREP ha facilitado a los mismos reproducción de alg~\nnos artículos del Cód~go de Justicia Militar (Anexo \"B'')\"\n3.- OTROS HECHO~ Y COMENTARIOS.\nEntre familiares y algunos miembros de las comisiones militares\nexiste la presunción de que son objeto de vigilancia.\n'ú\n- La vigilancia policial en las inmediaciones del Acuartelamiento\na las 18'00 horas era grande, incluyendo en sus previsiones, fur\ngones con caballos.",
+  "texto_completo_en": "',l\nC/SG/ 2992/24-02-82\nINFORMATIVE NOTE\nSUBJECT: Oral Hearing 2/81. of the Supreme Council of Military Justice.\n1.- DEVELOPMENT OF THE SESSION CORRESPONDING TO 02/23/82\nBefore the official start time of the Hearing, the commissions\nMilitary personnel and families comment on the Diario 16 article \"Asi•\nWe stormed Parliament\", written by Adolfo Salvador with the opi\nunanimous opinion of its inappropriateness, but without detecting that this\nmay affect the course of the trial.\nAs time passes and the session does not begin, he comments on them-/\nrivers arise, as well as the movement of journalists.\nThe first rumor is that the defendants refuse to enter -\nthe Chamber on the occasion of the aforementioned article.\nThen the news is that the defenders also refuse to/\nenter the room.\nAt this time the Court is sitting in its seats\npondents. The news then emerges that it would begin/\nif there is a rectification of the news.\nThey call the director of Diari.o 16 and he comes in, apparently, to talk\nwith the Court. This is repeated at least three times.\nS~ seeks a negotiated solution. The atmosphere is one of expectation\ntense. The latest news is that the condition imposed by the de-/\ndefenders is that they have to suspend the accreditation of the perio-/\nyou are far from Day 16.\nIt seems that the defenders refuse, if these are not given-/\nconditions, to exercise the defense and there is talk that it will be necessary to appoint\nprovide public defenders. A group of journalists affirms that this\nonly three or four defenders support him and the rest would be\nset to fulfill his obligation.\n\n2\nFaced with the dilemma of accepting the proposal from\nof the Court, the representatives of TV. and RN. they think there will be\nsolidarity of the rest of the press with those affected. They are also\nof the opinion that the treatment that P.J. Ramírez is giving al/\nThe theme is \"great frivolity.\"\nAt 1:32 p.m. the session opens without the majority knowing/\nwhat solution was adopted.\nAt the request of the Defense (Mr. Gómez García), the President -\nGive this one the word:\nEnergetic protest and in an elevated voice for the grievance against his\nfenced At the beginning of this speech, a relative of a defendant\n(woman) says out loud \"Good!\"\nIt ends and a Chief in uniform loudly utters words/\nswear words that are the beginning of applause from countrymen and some/\nmilitary uniformly.\nAfterwards, the Prosecutor, using his powers, takes the floor.\nand with energy in words and voice, he makes the considerations\ntions that they consider appropriate.\nOnce finished, Mr. Scandell speaks on behalf of Gene\nral of Santiago and interpreting the meaning of all the defense\nmilitary res, in their own representation and taste everything as my\nlitar. His voice is equally energetic.\no The President then suspends the accreditation of\nthe representation of Diario 16. His voice is also energetic.\nWords like \"bandit, good, etc.\" are thrown around here. Strong/\napplause from family members and some people in uniform.\nWith the journalists belonging to Diario 16 they also go out\nMigue1·Angel Aguilar and two more journalists. The rest will be angry, you\ntubea, but it stays.\nThe readings of the statements begin. The first of/\nCaptain of the Civil Guard Mr. JOSE LUIS ABAD GUTIERREZ. nothing more\nTo begin, Mr. Pedrol Rius gets up and leaves the room. behind\nof him a group of lawyers who were around him and simultaneously\nvirtually all journalists. There are only -\nnine journalists. Five minutes later, two journalists enter.\n. . . // / ...\n\n3\nAt 1:45 p.m. Mr. Pedro enters the room! Rius with the\nlawyers and accredited representatives who had previously\naccompanied on the way out. After about five minutes it returns to -sa-/'\nlir Mr. Pedro! Rius.\nAt 2:00 p.m. two journalists enter, one of them\nfrom El País. Another comes out.\nEXTRAORDINARY INFORMATIVE NOTES are attached in Annex A-/\nNUMS. 1 and 2, prepared by the OIDREP.\nAt the beginning of the Session, the Prosecutor continued his\nbidding for the reading of the following proceedings:\n- 1~ and 3~ statements by Captain of the Civil Guard Don -\nJOSE LUIS ABAD GUTIERREZ.\nPartial certification on services relative to the previous one.\n- 1st statement and investigative statement of the Captain of the\nCivil Guard Don ENRIQUE BOBIS GONZALEZ.\n- 1st statement and investigative statement of the Captain of the\nCivil Guard Don JUAN PEREZ DE LA LASTRA.\nAt 2:15 p.m. the President of the Chamber suspends the Hearing/\nuntil 4:15 p.m.\nu\nIn the afternoon, the Prosecutor requested the reading of:\n- 1st statement and investigative statement of the Captain of the\nCivil Guard Don CARLOS LAZARO GORTAIN.\n- 1st statement of Civil Guard Lieutenant Don MANUEL/\nl3OZA CARRANCO.\n·a\n- 1- statement by Lieutenant of the Civil Guard Don PEDRO -\nLEFT SANCHEZ.\n- 1~ statement by Lieutenant of the Civil Guard Don JOSE NU\nÑEZ RUANO.\n- 1st statement of Civil Guard Lieutenant Don VICENTE\nRAMOS RUEDA.\n- 1st statement and investigative statement of Captain Don-/\nFRANCISCO ACERA MARTIN.\n. .. .....\n//\n\n4\n1~ statement from Civil Guard Lieutenant Don SANTIA~\nGO NEIGHBOR NUÑEZ.\nto\n- 1- declaration and investigative statement of the Captain of the/ \\\nCivil Guard Don FRANCISCO IGNACIO ROMAN.\n1~ and 2~ statements, investigative statement, Pro Order\ndismissal and 3~ statement from the Captain of the Civil Guard\nDon JESUS AGUILAR DOLLS.\n1~ statement from Corporal 1~ of the Civil Guard Don FRANCIS\nBURGOS NUÑEZ CO.\n1~ statement 'by Lieutenant of the Civil Guard Don VICENTE\nCARRICONDO SANCHEZ.\n- 1§: statement by Lieutenant of the Civil Guard Don CESAR -\nALVAREZ FERNANDEZ.\n- i~ statement and investigative statement of the Lieutenant of the\nCivil Guard Don JESUS ALONSO HERNAIZ.\n- 1~, 2§: and 3§: statements by Captain Don CA.MILO -\nMENENDEZ VIVES.\n- Statement by Rear Admiral Navy Engineer Don -\nMIGUEL MARTIN RIERA.\nAt 6:00 p.m. the hearing was interrupted at 10:00 a.m.\nin the morning.\n2.- INCIDENTS AND ESTIMATES ON THE DEVELOPMENT OF THE SESSION.\n- Delay in the start of the Session, and incidents in the ROOM,\noutlined in the previous section and Annex \"A\".\n- Shortly after considering the refusal of the defendants to com\napparently in the room, these were circulated among the attendees\nby a surreptitious procedure a statement in which he explained\ntheir position and that it was taught to family members and assistants-/\nrelated.\nIn said statement they expressed their indignation at the article\npublished in Diario 16, in which reference was made to Captain\nALVAREZ ARENAS. They added that they considered they had the right to be loved\nstopped by the Command in this regard, in accordance with the provisions\nin the Royal Ordinances and requested that the Chamber adopt\nwill take the appropriate measures to withdraw the accreditations of/\nthe representatives of the newspaper ~ ~- question ~- -=\n........\n//\n\n5\n- Members of some of the Commissions were kept informed\nto their Captains General, through telephone communications,\nof the development of the incidents. At some point they commented -,\nthe expectation aroused by the rumor circulating that the process\nsados could be taken away by force. In some Capita-/\nHowever, apparently, it was considered a very serious fact.\npossibility of this rumor being confirmed.\n- In general, the statements of the Civil Guard Officers\nvile have revealed -in their version-, the de~\nknowledge of any approach prior to the operation,\nand that his participation was out of obedience to his hierarchical superiors\nquicos, without actual use of weapons, subsequently striving to -\navoid bloodshed, and in other humanitarian functions-/\nRias.\n- The assistance of representatives of the media-/\nSocial interaction during the afternoon has been normal. At the end of the\nHowever, the OIDREP has provided them with the reproduction of some\narticles of the Code of Military Justice (Annex \"B'')\"\n3.- OTHER FACTS~ AND COMMENTS.\nBetween family members and some members of the military commissions\nThere is a presumption that they are the subject of surveillance.\n'u\n- Police surveillance in the vicinity of the Barracks\nat 6:00 p.m. it was great, including in its forecasts, fur\ngone with horses."
 }

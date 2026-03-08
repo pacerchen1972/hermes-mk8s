@@ -10,14 +10,40 @@
   "resumen_en": "CSJM official communication (RESERVED, 27 June 1981) notifying the Ministry of Defence of the prosecution of an Artillery Captain implicated in Case 2/81, in compliance with Article 595 of the Military Justice Code, after appeals were dismissed.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-06-27", "descripcion_es": "CSJM notifica al MinDef el procesamiento de un Capitán de Artillería en la Causa 2/81", "descripcion_en": "CSJM notifies Ministry of Defence of the prosecution of an Artillery Captain under Case 2/81", "lugar": "Madrid" }
+    {
+      "fecha": "1981-06-27",
+      "descripcion_es": "CSJM notifica al MinDef el procesamiento de un Capitán de Artillería en la Causa 2/81",
+      "descripcion_en": "CSJM notifies Ministry of Defence of the prosecution of an Artillery Captain under Case 2/81",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "procesamiento", "causa-2-81", "csjm", "ministerio-defensa"],
-  "_meta": { "doc_id": "Defensa_7", "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_6.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "procesamiento",
+    "causa-2-81",
+    "csjm",
+    "ministerio-defensa"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_7",
+    "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_6.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "CONSEJO SUPREMO\nDE JUSTICIA\nMILITAR =\nEXCMO +. SEÑOR:\nRELATORIA DE EJERCITO\nConforme a lo prevenido en el art.555 del Cé-\ndigo de Justicia Militar, y por haberlo acordado —\nye 2 asi el Consejo Reunido en Sala de Justicia, en Pro-\nvidencia del día 16 de Junio de 1981, tengo el ho-\nnor de remitir a Vel. testimonio del Auto de proces\nsamiento del Capitán de Artillería DON JUAN BATISTA\nGONZALEZ, una vez firme por haber sido desestimado\nel recurso interpuesto en su momento, y que a tal —\nefecto eleva a este Consejo Supremo el Consejero To=\ngado Juez Especial designado por Real Decreto 287/1981,\nInstructor de la Causa núm. 2/1981.\nDios guarde a VeEsmuchos años\nMadrid, /7 , de Junio de 1981.\nEXCMO. SEÑOR»\nEL TENIENTE GENERAL PRESIDENTE\nEXCMO +SEÑOR+ MINISTRO DE DEF . PIAZA-",
+  "texto_completo_en": "SUPREME COUNCIL\nOF JUSTICE\nMILITARY =\nEXCELLENCE +. SIR:\nARMY RAPPORTEUR\nIn accordance with the provisions of article 555 of the Cé-\nI say Military Justice, and because it was agreed upon —\nye 2 thus the Council Meeting in the Courtroom, in Pro-\nclairvoyance of June 16, 1981, I have the\nnor to refer to Vel. testimony of the trial order\nadvice of Artillery Captain DON JUAN BATISTA\nGONZALEZ, once firm for having been dismissed\nthe appeal filed at the time, and that as such —\neffect elevates to this Supreme Council the Councilor To=\nSpecial Judge appointed by Royal Decree 287/1981,\nInstructor of Case no. 2/1981.\nGod keep VeEs many years\nMadrid, /7, June 1981.\nEXCELLENCE LORD»\nTHE LIEUTENANT GENERAL PRESIDENT\nHE +LORD+ MINISTER OF DEF. PIAZA-"
 }

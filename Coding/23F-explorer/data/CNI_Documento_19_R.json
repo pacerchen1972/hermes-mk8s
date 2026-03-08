@@ -14,12 +14,20 @@
       "cargo": "Teniente General, Capitán General de Valencia",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Condenado a 30 años de prisión en la Causa 2/81; la sentencia causó profundo malestar en los cuarteles"]
+      "acciones": [
+        "Condenado a 30 años de prisión en la Causa 2/81; la sentencia causó profundo malestar en los cuarteles"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "Estado Mayor del Ejército (EME)", "tipo": "militar" },
-    { "nombre": "III Región Militar", "tipo": "militar" }
+    {
+      "nombre": "Estado Mayor del Ejército (EME)",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "III Región Militar",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
     {
@@ -46,7 +54,14 @@
       "fecha": "1982-06-07"
     }
   ],
-  "temas": ["juicio", "sentencia", "milans", "rey-juan-carlos", "iii-region-militar", "opinion-militar"],
+  "temas": [
+    "juicio",
+    "sentencia",
+    "milans",
+    "rey-juan-carlos",
+    "iii-region-militar",
+    "opinion-militar"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_19_R",
     "filename": "Documento_19_R.pdf",
@@ -54,5 +69,7 @@
     "is_image_pdf": false,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "CAPGEN-3\nSECCION DE CONTRAINFORMACION DEL EME.\nNUMERO:424;5.530\nFECHA:07-06-82\nHORA: 1 O, 23\nRF~:120;3.975 SECCION DE CONTRAINTELIGENCIA.\nASUNTO.- ESTADO DE OPINION SOBRE LAS SENTENCIAS\nEn relación con el teletipo de la referencia y una vez\nrealizada una consulta a las diferentes guarniciones de esta\nRegión, se informa lo siguiente:\nA. - Estado de opinión de las sentencias\n. La sentencia de 30 años recaida sobre el Teniente Ge\nneral MILANS, ha producido un profundo sentimiento de\npesar cuando es un Mando que en la Región goza de mu\ncha estima y se pensaba que su historial habria de in\nfluir en la sentencia. -\n. Otras sentencias ostensiblemente rebajadas, como la -\ndel General Armada han llamado la atención.\nAsimismo y por ser muy conocido y querido en la Re\ngión ha causado mucha tristeza la sentencia y consi\nguiente separación del Ejército del Coronel IBAÑEZ IN\nGLES .\n. Han sido acogidas con alegria las sentencias absoluto\nrias de los Oficiales Subalternos, por considerar que\nla exculpatoria de la \"OBEDIENCIA DEBIDA\" debe ser po\ntenciada en beneficio de la propia institución fililitar\ny de la disciplina exigible para su normal funcionamien\nto. En esta Región, por circunstancias especiales que -\nincurrieron en ella, se valora muy positivamente este\neximente de la \"OBEDIENCIA DEBIDA\" .\n. Se acoge con disciplina y con todo respeto las senten\ncias dictadas por el Tribunal Supremo de Justicia Mil!\ntar.\nB.- De las reacciones de los rn.c.s. y algunas personalidades\npolíticas .\n. En general están causando un deplorable efecto por cuan\nto se duda de la justicia militar, representada en este\ncaso por el Consejo Supremo de Justicia Militar, que -\ntras una vista de más de tres meses ha dictado unas sen\ntencias que, si bien son legalmente recurribles, no pue\nden ni deben serlo en la forma y medida en que se esta\nhaciendo .\n. Temor de que el recurso de casación y posterior decisión\ndel Tribunal Supremo, pueda de alguna manera, dejar una\nimágen ~rronea de lo que es justicia militar .\n. Por otra parte, llama la atención a los cuadros de mando,\ny les duele y molesta profundamente, la profusión de in\nsultos y de juicios de valor que se están vertiendo so\nbre los procesados y condenados, que son a juicio de ~\n-1- .¡.\n\nopinantes, personas de honor y militares al fin y al ·\ncabo.\nTambién destaca el comentario relativo a la precisión\nhecha en nota a los medios de comunicación social por\nel Gobierno, en la que se pone en duda que el Jefe Su\npremo de las FAS, sea el Rey, a quien se obedeció en\ntodo momento y fue, gracias a su intervención por lo\nque pudo resolverse una situación tan dificil como la\nplanteada .\n. Es de destacar el impacto causado por determinados me\ndios de comunicación social que han llamado delicuen~\ntes vulgares y terroristas a los principales procesa\ndos.\nC.- Reacciones anónimas\n. Independientemente de las consabidas pintadas al día\nsiguiente de divulgar las sentencias, se arrojaron por\nlas calles de esta capital octavillas de las que se re\nrnite un ejemplar por correo. -\nSu origen y la intencionalidad de quienes encierra y -\nmanifiesta las criticas de la publicación claramente -\nexpuestas, al General que suscribe.\nD.- Conveniencia de estudiar la posible libertad condicional\nde los procesados al alcanzar la edad de septuagenarios.\nAunque parezca prematuro, someto a la consideración de\nla superioridad el estudio ya de la posibilidad de la\nconcesión legal de libertad condicional de los condena\ndos al alcanzar la edad de setuagenarios, dado que con\narreglo al articulo 1 .001 del código la remisión de la\ncondena se hace a estos efectos con arreglo a la legis\nlación penitenciaria común.\nE.- Consideración final\n. A juicio del General que suscribe y de Autoridades Ju\ndiciales el hecho de que las sentencias del Tribunal\nSupremo de Justicia Militar sean apelables a la Sala -\n2~, del Tribunal Supremo de Justicia Civil, supone un\nprimer paso para la supresión de la jurisdicción mili\ntar en Paz, relegandola solamente en tiempos de guerra\ncomo ya ocurre en otros países.\nFIRMADO: RAFAEL ALLENDE DESALAZAR Y URBINA\nEL CAPITAN GENERAL,\n-2-",
+  "texto_completo_en": "CAPGEN-3\nEME COUNTER INFORMATION SECTION.\nNUMBER:424;5,530\nDATE:07-06-82\nTIME: 1 W, 23\nRF~:120;3.975 COUNTERINTELLIGENCE SECTION.\nSUBJECT.- STATE OF OPINION ON THE JUDGMENTS\nIn connection with the reference ticker and once\nmade a consultation to the different garrisons of this\nRegion, the following is reported:\nA. - State of opinion of the sentences\n. The 30-year sentence imposed on Lieutenant Ge\nneral MILANS, has produced a deep feeling of\nregret when it is a Command that in the Region enjoys much\ncha esteem and it was thought that his record would have\nflow into the sentence. -\n. Other ostensibly reduced sentences, such as -\nof the General Armada have attracted attention.\nLikewise, and for being well known and loved in the Re\ngión has caused much sadness the sentence and consi\nNext separation from the Army of Colonel IBAÑEZ IN\nGLES.\n. The absolute sentences have been welcomed with joy\nrias of the Subaltern Officers, considering that\nthe exculpatory of \"DUE OBEDIENCE\" must be po\nintended for the benefit of the filiate institution itself\nand the discipline required for its normal functioning\nto. In this Region, due to special circumstances that -\nincurred in it, this is valued very positively\nexcuse from \"DUE OBEDIENCE\".\n. They are welcomed with discipline and with all respect, they are sentenced\ncies issued by the Supreme Court of Justice Mil!\ntar.\nB.- Of the reactions of the rn.c.s. and some personalities\npolicies.\n. In general they are having a deplorable effect because\nThere is no doubt about military justice, represented in this\ncase by the Supreme Council of Military Justice, which -\nAfter a hearing of more than three months, he has dictated some\ntences that, although they are legally appealable, cannot be\ngive nor should they be in the form and extent in which they are\ndoing.\n. Fear that the appeal and subsequent decision\nof the Supreme Court, can in some way, leave a\nwrong image of what military justice is.\n. On the other hand, it draws attention to the dashboards,\nand it hurts and bothers them deeply, the profusion of\ninsults and value judgments that are being poured out\nabout those prosecuted and convicted, who are in the opinion of ~\n-1- .¡.\n\nopinionated, people of honor and military personnel at the end\ncorporal.\nAlso noteworthy is the comment regarding precision\nmade in a note to social media by\nthe Government, in which it is questioned that Chief Su\nprime minister of the FAS, be the King, who was obeyed in\nat all times and it was, thanks to his intervention,\nthat a situation as difficult as the\nraised.\n. It is worth highlighting the impact caused by certain me\ngod of social communication that they have called delicuen~\nvulgar and terrorist attacks to the main prosecutions\ntwo.\nC.- Anonymous reactions\n. Regardless of the usual daily graffiti\nAfter the sentences were announced, they threw themselves into\nthe streets of this capital leaflets of which\nSend a copy by mail. -\nIts origin and the intentionality of those who it contains and -\nexpresses the criticism of the publication clearly -\nexposed, to the undersigned General.\nD.- Convenience of studying possible conditional release\nof those prosecuted upon reaching the age of septuagenarians.\nAlthough it may seem premature, I submit to the consideration of\nsuperiority the study of the possibility of\nlegal granting of parole of those convicted\ntwo upon reaching the age of setuagenarians, given that with\nPursuant to article 1,001 of the code, the referral of the\nsentence is made for these purposes in accordance with the law\ncommon prison lation.\nE.- Final consideration\n. In the opinion of the undersigned General and Jury Authorities\nThe fact that the Court's rulings\nSupreme Court of Military Justice are appealable to the Chamber -\n2~, of the Supreme Court of Civil Justice, represents a\nfirst step towards the suppression of military jurisdiction\nbe in Peace, relegating it only in times of war\nas is already happening in other countries.\nSIGNED: RAFAEL ALLENDE DESALAZAR Y URBINA\nTHE CAPTAIN GENERAL,\n-2-"
 }

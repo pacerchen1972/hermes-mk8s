@@ -10,8 +10,14 @@
   "resumen_en": "Internal CESID analysis of the JUJEM's role in the political-military crisis triggered by the publication of the 23-F trial verdict. Analyses the causes of the crisis (political reactions, critical media coverage, military corporate rejection) and the JUJEM's options, warning that opting for direct confrontation with civil power would produce consequences similar to the historical Primo de Rivera solution.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "militar" },
-    { "nombre": "Junta de Jefes de Estado Mayor (JUJEM)", "tipo": "militar" }
+    {
+      "nombre": "CESID",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Junta de Jefes de Estado Mayor (JUJEM)",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
     {
@@ -38,7 +44,14 @@
       "fecha": "1982-06-09"
     }
   ],
-  "temas": ["juicio", "sentencia", "jujem", "crisis-politica", "cesid", "primo-de-rivera"],
+  "temas": [
+    "juicio",
+    "sentencia",
+    "jujem",
+    "crisis-politica",
+    "cesid",
+    "primo-de-rivera"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_17_R",
     "filename": "Documento_17_R.pdf",
@@ -46,5 +59,7 @@
     "is_image_pdf": false,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": ",,\nEL PAPEL DE LA JUJEM EN LA CRISIS POLITICO~MILITAR\n1,- LA CAUSA DE LA CRISIS\n1.1.- La publicación de la Sentencia ha provocado:\n- Reacciones políticas (tanto del ejecutivo corno de la opo\nsición)-\no\n- Interpretaciones de diversa apreciación crítica en los\nM.C.S. y\n- Rechazo corporativo militar a dichas reacciones e interpr~\ntaciones.\n1.2.- La JUJEM que, corno cúpula del Mando Militar hasta ahora ha\nbía eludido cualqui er opinión al juicio, por fin se ve obl1\ngada a mostrarse por primera vez y lo hace con una nota tras\nla que se adivina un gran dilema de inaplazable solución.\nSu papel al frente de las FAS. debe definirse en una de\nlas dos interpretaciones que se subyacen en el fondo del pr~\no\nblerna de la Causa 2/81. La interpretación del artículo 8Q.\nEn este sentido la JUJEM debe asumir una de l as siguien\ntes actitudes:\na ) Son el vértice de una corporación con poder institu\ncional.\nb) Son el vínculo entre el único poder, el político, y\nla fuerza, las FAS.\n. ... ....\n/ /\n\n¡ • ., .// ••••\n- 2 -\n2.- LAS CONSECUENCIAS\n2.1.- Si la JUJEM se decidiera por la solución a) debe ser cons\nciente de que provocaría las siguientes consecuencias:\n. Provocará una confrontación directa con el poder civil que,\nen analogía con la solución histórica de Primo de Rivera -\npresionará sobre el Rey .\n. El Rey no parece dado a adoptar las mismas soluciones que\nsu abuelo.\n() . La JUJEM se encontraría con un dilema dotavía más grave,\nenfrentarse al Rey.\n2.2.- Si la JUJEM decidiera adoptar la solución b) deberá afrontar\nun díficil e histórico papel que exigiría:\n. Asumir su dependencia del poder civil y hacerla explícita\ncon lo cual cerraría un ciclo histórico .\n. Ejercer su doble capacidad,persuasiva y de mando,para ha\ncerse obedecer por las FAS en nombre del Rey.\nÜ\n3.- CONCLUSION\nLa JUJEM debe:\n1) Conocer hasta donde le puede llevar esta alternativa.\n2) Saber que, por ser la solución a)un absurdo, no tiene más\nremedio que adoptar la solución b) aunque discrepe.\n3) Ser capaz de asumir con sensibilidad y energía el mando de\nlas FAS.",
+  "texto_completo_en": ",,\nTHE ROLE OF THE JUJEM IN THE POLITICAL~MILITARY CRISIS\n1- THE CAUSE OF THE CRISIS\n1.1.- The publication of the Judgment has caused:\n- Political reactions (both from the executive and the oppo\nsition)-\nor\n- Interpretations of diverse critical appreciation in the\nM.C.S. and\n- Military corporate rejection of such reactions and interpretation\ntations.\n1.2.- The JUJEM, which, as the leadership of the Military Command until now, has\nhad evaded any opinion at the trial, he is finally forced to\nto be shown for the first time and it does so with a note after\nwhich suggests a great dilemma with an urgent solution.\nHis role at the head of the FAS. must be defined in one of\nthe two interpretations that underlie the background of the pr~\nor\nblerna of Cause 2/81. The interpretation of article 8Q.\nIn this sense, JUJEM must assume one of the following\nthese attitudes:\na) They are the apex of a corporation with institutional power\ntional.\nb) They are the link between the only power, the political, and\nthe force, the FAS.\n. ... ....\n//\n\n¡ • ., .// ••••\n- 2 -\n2.- THE CONSEQUENCES\n2.1.- If the JUJEM decides on solution a) it must be considered\naware that it would cause the following consequences:\n. It will provoke a direct confrontation with the civil power that,\nin analogy with Primo de Rivera's historical solution -\nwill put pressure on the King.\n. The King does not seem inclined to adopt the same solutions as\nhis grandfather.\n() . The JUJEM would find itself with a more serious dotavía dilemma,\nconfront the King.\n2.2.- If the JUJEM decides to adopt solution b) it must face\na difficult and historic role that would require:\n. Assume your dependence on civil power and make it explicit\nwhich would close a historical cycle.\n. Exercise your double capacity, persuasive and commanding, to have\nbe obeyed by the FAS in the name of the King.\nu\n3.- CONCLUSION\nThe JUJEM must:\n1) Know how far this alternative can take you.\n2) Know that, because the solution is a) absurd, it has no more\nremedy than to adopt solution b) even if he disagrees.\n3) Be able to assume, with sensitivity and energy, the command of\nthe FAS."
 }

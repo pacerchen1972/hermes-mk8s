@@ -9,19 +9,59 @@
   "resumen_es": "Nota informativa del CESID (C/HB/3504/01-04-82, marcada DTOR) sobre los incidentes de la tarde del 5 de abril de 1982. A las 17:45 el General Santamaría fue llamado pero el abogado De Miguel no lo utilizó. A continuación el General Milans del Bosch declaró sentirse mal, con náuseas por lo que se había dicho, y abandonó la sala. Le siguió el TC Mas. El Presidente ordenó desalojar la sala de inmediato. En las inmediaciones, el periodista Miguel Aguilar se expresó vociferante. Un grupo de compañeros lo condujo fuera del lugar. Eran las 17:51 horas.",
   "resumen_en": "CESID intelligence note (C/HB/3504/01-04-82, marked DTOR) on the incidents of the afternoon of 5 April 1982. At 17:45 General Santamaría was called but counsel De Miguel did not use him. General Milans del Bosch then declared he felt unwell and nauseous at what had been said, and left the room. Lt. Col. Mas followed immediately. The President ordered the courtroom cleared. Outside, journalist Miguel Aguilar was heard shouting vocally. A group of colleagues escorted him out. It was 17:51.",
   "personas": [
-    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General, Capitán General 3ª Región Militar", "organizacion": "Ejército de Tierra", "rol_en_23f": "golpista", "acciones": ["Se sintió mal durante la sesión del 5 de abril y abandonó la sala manifestando náuseas; fue seguido por el TC Mas"] }
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "cargo": "Teniente General, Capitán General 3ª Región Militar",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "golpista",
+      "acciones": [
+        "Se sintió mal durante la sesión del 5 de abril y abandonó la sala manifestando náuseas; fue seguido por el TC Mas"
+      ]
+    }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-04-05", "descripcion_es": "El General Milans del Bosch abandona la sala de la vista oral por indisposición; el Presidente ordena desalojar el tribunal a las 17:51", "descripcion_en": "General Milans del Bosch leaves the courtroom due to indisposition; President orders the court cleared at 17:51", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+    {
+      "fecha": "1982-04-05",
+      "descripcion_es": "El General Milans del Bosch abandona la sala de la vista oral por indisposición; el Presidente ordena desalojar el tribunal a las 17:51",
+      "descripcion_en": "General Milans del Bosch leaves the courtroom due to indisposition; President orders the court cleared at 17:51",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
   ],
   "citas_clave": [
-    { "autor": "Jaime Milans del Bosch", "texto_es": "Quiero salir... me siento mal... siento náuseas por lo que se ha dicho... se marchó.", "texto_en": "I want to leave... I feel unwell... I feel nauseous because of what has been said... and he left.", "contexto": "Salida del General Milans del Bosch de la sala del CSJM, 5 abril 1982, 17:51" }
+    {
+      "autor": "Jaime Milans del Bosch",
+      "texto_es": "Quiero salir... me siento mal... siento náuseas por lo que se ha dicho... se marchó.",
+      "texto_en": "I want to leave... I feel unwell... I feel nauseous because of what has been said... and he left.",
+      "contexto": "Salida del General Milans del Bosch de la sala del CSJM, 5 abril 1982, 17:51"
+    }
   ],
   "relaciones": [],
-  "temas": ["juicio", "causa-2-81", "cesid", "milans", "incidentes", "csjm"],
-  "_meta": { "doc_id": "CNI_Documento_46_R", "filename": "Documento_46_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "milans",
+    "incidentes",
+    "csjm"
+  ],
+  "_meta": {
+    "doc_id": "CNI_Documento_46_R",
+    "filename": "Documento_46_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 3,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "PpTOR\nC/D1/5584/06-04-82\nNOTA INFORMATIVA\nASUNTO: Vista oral de la causa 2/81: Incidentes en la tarde de hoy,\n5 de Abril de 1982.\nSon las 17'40 horas del dia 5 de Abril de 1982.\nEl Sr. de Miguel pregunta al testigo General Santamaria si\npuede decir el porqué y para qué de la utilización del término\nrehenes que en el transcurso de su declaración había empleado\ntres veces. :\nEl General Saenz de Santamaria lo explica con un simil que\nmás o menos es asi:\n\"Si unas personas armadas amenazan en un avión a un piloto\npara que cambie el rumbo de su aparato... De igual manera pue\nde decirse que si una fuerza entra en el Congreso, amenaza con\nlas armas al Presidente de la Cámara (que es su piloto) e inten\nta cambiar el rumbo del país a través de intimidación...\"\nEn ese momento el Capitán de Navió Menendez Vives se levan\nta y abandona la Sala. A continuación le sigue decididamente -\nel Comte. Pardo Zancada. Se levantan también Batista,Muñecas y Cid F.\nIgualmente se levantan otros procesados, cuando el Presidente -\nordena a todos que se sienten (lo que hicieron); el General Mi-\nlans del Bosch se adelanta y dirigiéndose al Consejo dice:\n= \"Solicitamos marcharnos porque nos estan dando un califica~\ntivo que no merecemos\".\nEl Presidente contesta que no ha lugar.\n\nInterviene el letrado Sr. Segura solicitando igualmente re\ntirarse del Consejo en esta tarde.\nSimultáneamente un elevado número de familiares salen de -\nla Sala dando portazos. Igualmente los codefensores y algu\nnos pasantes se van del recinto.\nEl Presidente pide al testigo Gral. Santamaría si está --\ndispuesto a retirar lo dicho, cosa que hace después de un\npequeño titubeo.\nEl Gral. Milans contesta que no le sirve la rectificación\ny continua:\n- \"Quiero salir... me siento mal... siento nauseas por lo que\nse ha dicho... me marcho ...\"\nCon esto sale inmediatamente seguido del Tcol. Mas.\nOtros procesados se levantan con la aparente misma inten-\nción. El Presidente les ordena se sienten y acatan. También\nexpresa que el Gral. al abandonar la Sala se atendrá a las\nconsecuencias.\nInterviene el Sr. Escandell (defensor del Gral. Milans) y\npide al Consejo no tenga en cuenta la actitud de su patro-\ncinado y ruega se le disculpe pues todo se debe a su estado\nanímico.\nA continuación el Sr. Quintana, defensor del Gral. Torres\nRojas pide una suspensión temporal que permita reconsiderar\nel tema.\nTambién el defensor del Tcol. Mas expresa que su defendido\nha salido para atender al Gral. Milans pues es su Ayudante.\nSe solicita la suspensión por el letrado Sr. Sanz Arribas y\nel Presidente tras admitir las explicaciones dadas por el -\ntestigo y aconsejar calma a los concurrentes, ordena a. ~~--\notro grupo de procesados que se habia. levantado que se sen\ntaran.\n\nSeguidamente el Presidente pregunta al letrado Sr. de Miguel\nsi ha terminado el interrogatorio. Este contesta que si, y -\nel Presidente replica que haga ver a sus patrocinados la --\ngravedad de su actitud suspendiendo la sesión hasta el mar-\ntes a las diez de la mañana.\n4\nCuando se retiraban los procesados,el Coronel Ibañez Inglés\nse quedó increpando al Gral. Saez de Santamaría, llamándole\nrepetidas veces \"cabrón\". Uno de los observadores jurídicos,\nal parecer miembro del PCESY.Nuñez Casal llamó la atención\nsobre tal hecho, lo que provocó la inmediata y violenta ré-\nPlica de los letrados Sres. Gómez García y Muñoz Perea que,\na su vez increparon a dicho observador.\nEl Presidente ordenó que fuese desalojada la Sala inmedia--\ntamente.\nFuera de la Sala y en las proximidades de la puerta el pe-\nriodista D. Miguel Aguilar expresó en voz alta y dirigiéndo\n“se a la generalided de las personas que en ese momento sa==\n‘lian coméntando peyorativamente la declaración del Gral. San\ntamaría:\n- \"Estoy honrado de ser amigo del Gral. Santamaría\"\nUn grupo de compañeros tomándole del brazo le sugirieron -\nabandonar el lugar.\nEran las 17'51 horas.",
+  "texto_completo_en": "PpTOR\nC/D1/5584/06-04-82\nINFORMATIVE NOTE\nSUBJECT: Oral hearing of case 2/81: Incidents this afternoon,\nApril 5, 1982.\nIt is 5:40 p.m. on April 5, 1982.\nMr. de Miguel asks the witness General Santamaria if\ncan say the why and why of the use of the term\nhostages that in the course of his statement he had used\nthree times. :\nGeneral Saenz de Santamaria explains it with a simile that\nmore or less it is like this:\n\"If armed people threaten a pilot on a plane\nto change the direction of your device... In the same way you can\nof saying that if a force enters Congress, it threatens\nthe weapons to the President of the Chamber (who is his pilot) and try\nta change the course of the country through intimidation...\"\nAt that moment, Captain Menendez Vives stood up.\nta and leaves the room. This is followed decisively -\nthe Comte. Brown Stride. Batista, Muñecas and Cid F also stand up.\nLikewise, other prosecutions arise, when the President -\norders everyone to sit down (which they did); General Mi-\nIans from Bosch steps forward and addressing the Council says:\n= \"We request to leave because they are giving us a grade~\ntive that we do not deserve.\nThe President answers that there is no place.\n\nThe lawyer Mr. Segura intervenes, also requesting re\nget out of the Council this afternoon.\nSimultaneously, a large number of family members leave -\nthe room slamming doors. Likewise the co-defenders and some\nOur interns leave the premises.\nThe President asks the witness General Santamaría if he is --\nwilling to take back what he said, which he does after a\nlittle hesitation.\nGeneral Milans answers that rectification is of no use to him\nand continues:\n- \"I want to go out... I feel bad... I feel nauseous because of what\nIt has been said... I am leaving...\"\nWith this it comes out immediately followed by Tcol. Further.\nOther defendants stand up with the apparent same intention.\ntion. The President orders them to sit down and comply. Also\nexpresses that the General when leaving the Room will abide by the\nconsequences.\nMr. Escandell (defender of General Milans) intervenes and\nasks the Council not to take into account the attitude of his patron\ncinated and begs for forgiveness as it is all due to his condition\nmood.\nNext, Mr. Quintana, defender of General Torres\nRojas asks for a temporary suspension to allow reconsideration\nthe topic.\nAlso the defender of Tcol. More expresses that his client\nHe has left to attend to General Milans since he is his Assistant.\nThe suspension is requested by the lawyer Mr. Sanz Arribas and\nthe President after admitting the explanations given by the -\nwitness and advise those present to calm down, order a. ~~--\nanother group of defendants that had been. raised to sit\ntaran\n\nNext, the President asks the lawyer Mr. de Miguel\nif the interrogation is over. He answers yes, and -\nThe President replies that he should make his patrons see the --\nseriousness of his attitude, suspending the session until Mar-\nyou at ten in the morning.\n4\nWhen the defendants were leaving, Colonel Ibañez Inglés\nHe remained rebuking General Saez de Santamaría, calling him\nrepeatedly \"bastard.\" One of the legal observers,\napparently a member of the PCESY. Nuñez Casal attracted attention\nabout this fact, which caused the immediate and violent\nEscrow of the lawyers Messrs. Gómez García and Muñoz Perea that,\nin turn they rebuked said observer.\nThe President ordered that the immediate Chamber be evacuated--\ntedly.\nOutside the room and near the door, the person\njournalist D. Miguel Aguilar expressed out loud and directing\n“I know the generality of the people who at that moment sa==\n'lian commenting pejoratively on the statement of General San\nTamaria:\n- \"I am honored to be a friend of General Santamaría\"\nA group of colleagues taking him by the arm suggested -\nleave the place.\nIt was 5:51 p.m."
 }

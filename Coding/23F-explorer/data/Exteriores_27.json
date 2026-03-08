@@ -9,20 +9,59 @@
   "resumen_es": "Telegrama cifrado del Ministro de Exteriores Pérez-Llorca al Embajador de España en Londres (3 marzo 1981, nr. 66) transmitiendo el mensaje del Rey Juan Carlos a la Reina Isabel II del Reino Unido, en respuesta al que envió a través del Embajador Parsons: 'Agradezco vivamente a Vuestra Majestad los sentimientos personales que me expresa en su mensaje, así como su felicitación por el fracaso del reciente intento de alterar gravemente nuestro orden constitucional. Estoy seguro de que Vuestra Majestad refleja plenamente el sentir de todo el pueblo británico.' PEREZ-LLORCA.",
   "resumen_en": "Coded telegram from Foreign Minister Pérez-Llorca to Spain's Ambassador in London (3 March 1981, no. 66) transmitting King Juan Carlos's message to Queen Elizabeth II of the United Kingdom, in response to hers sent through Ambassador Parsons: 'I warmly appreciate Your Majesty's personal feelings expressed in your message, as well as your congratulations on the failure of the recent attempt to seriously alter our constitutional order. I am certain that Your Majesty fully reflects the feelings of the entire British people.' PEREZ-LLORCA.",
   "personas": [
-    { "nombre": "Juan Carlos I", "rol": "Rey de España, autor del mensaje de agradecimiento" },
-    { "nombre": "Isabel II de Gran Bretaña", "rol": "Reina del Reino Unido, destinataria" },
-    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Exteriores, firmante del telegrama" }
+    {
+      "nombre": "Juan Carlos I",
+      "rol": "Rey de España, autor del mensaje de agradecimiento"
+    },
+    {
+      "nombre": "Isabel II de Gran Bretaña",
+      "rol": "Reina del Reino Unido, destinataria"
+    },
+    {
+      "nombre": "José Pedro Pérez-Llorca",
+      "rol": "Ministro de Exteriores, firmante del telegrama"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
-    { "nombre": "Casa Real Británica", "tipo": "gobierno" },
-    { "nombre": "Embajada de España en Londres", "tipo": "gobierno" }
+    {
+      "nombre": "Ministerio de Asuntos Exteriores de España",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Casa Real Británica",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Embajada de España en Londres",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-03", "descripcion_es": "El Rey Juan Carlos responde al mensaje de solidaridad de la Reina Isabel II, agradeciendo el apoyo británico tras el fracaso del 23-F", "descripcion_en": "King Juan Carlos replies to Queen Elizabeth II's solidarity message, thanking British support after the 23-F failure", "lugar": "Madrid" }
+    {
+      "fecha": "1981-03-03",
+      "descripcion_es": "El Rey Juan Carlos responde al mensaje de solidaridad de la Reina Isabel II, agradeciendo el apoyo británico tras el fracaso del 23-F",
+      "descripcion_en": "King Juan Carlos replies to Queen Elizabeth II's solidarity message, thanking British support after the 23-F failure",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "reino-unido", "juan-carlos-i", "isabel-ii", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_27", "filename": "D.27._AGA-83-09301_exp._5.pdf", "folder": "exteriores/AGA-83-09301", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "reino-unido",
+    "juan-carlos-i",
+    "isabel-ii",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_27",
+    "filename": "D.27._AGA-83-09301_exp._5.pdf",
+    "folder": "exteriores/AGA-83-09301",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "MINISTERIO Ab \"P27, 2( U6 /- 17/77 occiso\nDe Comunicado por ..PIRECCION GENERAL DE EUROPA\nASUNTOS a EXT r ERIO i R a ES Expedido el ..9.... de ... MARZO... de 19...81. @ las ............ >\noF be El Ministro de Asuntos Exteriores pz\nNúm. oa AUDIO (7 Pe =\nió RPA IO AS e ee Se\nEUROPA, -\nRUEGO A V.E. HAGA LLEGAR A S,M, BRITANICA, LA\nREINA ISABEL, EL SIGUIENTE MENSAJE DE S.M. EL REY DON\nJUAN CARLOS, RESPUESTA AL QUE AQUí LE TRANSMITIO EL\nEMBAJADOR PARSONS:\n\"AGRADEZCO VIVAMENTE A VUESTRA MAJESTAD LOS\nSENTIMIENTOS PERSONALES QUE ME EXPRESA EN SU MEN-\nSAJE, ASI COMO SU FELICITACION POR EL FRACASO DEL RE-\nCIENTE INTENTO DE ALTERAR GRAVEMENTE NUESTRO ORDEN\ni CONSTITUCIONAL. ESTOY SEGURO DE QUE VUESTRA MAJESTAD\nREFLEJA FIELMENTE --El.-SENTIR-DE- T2DO-EL-PUEBLO-BRITA-=\nNICO\" PEREZ-LLORCA.\nCOMUNIQUESE E\nió a",
+  "texto_completo_en": "MINISTRY Ab \"P27, 2( U6 /- 17/77 deceased\nFrom a statement by the GENERAL DIRECTORATE OF EUROPE\nMATTERS a EXT r ERIO i R a ES Issued on ....9.... of ... MARCH... 19...81. @ the ............ >\noF be The Minister of Foreign Affairs pz\nNo. or AUDIO (7 Pe =\nio RPA IO AS e ee Se\nEUROPE, -\nI PRAY TO YOUR V.E. MAKE S,M, BRITISH, LA REACH\nQUEEN ELIZABETH, THE NEXT MESSAGE FROM H.M. THE KING DON\nJUAN CARLOS, RESPONSE TO THE ONE WHO TRANSMITTED HERE THE\nAMBASSADOR PARSONS:\n\"I VIVELY THANK YOUR MAJESTY FOR THE\nPERSONAL FEELINGS THAT HE EXPRESSES TO ME IN HIS MIND\nSAJE, AS WELL AS HIS CONGRATULATION ON THE FAILURE OF THE RE-\nCENTER ATTEMPT TO SERIOUSLY ALTER OUR ORDER\ni CONSTITUTIONAL. I AM SURE THAT YOUR MAJESTY\nFAITHFULLY REFLECTS --The-FEELING-OF-T2DO-THE-TOWN-BRITA-=\nNICO\" PEREZ-LLORCA.\nCOMMUNICATE AND\nwent to"
 }

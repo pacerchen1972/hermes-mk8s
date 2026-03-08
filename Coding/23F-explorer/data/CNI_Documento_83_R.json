@@ -24,19 +24,29 @@
       "cargo": "Teniente General, Capitán General de Valencia",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Según rumores, exigió que la entrevista con la Corona fuera con la persona real directamente, sin intermediarios"]
+      "acciones": [
+        "Según rumores, exigió que la entrevista con la Corona fuera con la persona real directamente, sin intermediarios"
+      ]
     },
     {
       "nombre": "Alfonso Armada Comyn",
       "cargo": "General, ex-secretario de la Casa del Rey",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Según rumores, alguien de la Casa Real se reunió con él durante el juicio"]
+      "acciones": [
+        "Según rumores, alguien de la Casa Real se reunió con él durante el juicio"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Casa Real", "tipo": "gubernamental" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Casa Real",
+      "tipo": "gubernamental"
+    }
   ],
   "eventos": [
     {
@@ -70,7 +80,17 @@
       "fecha": "1982-02-05"
     }
   ],
-  "temas": ["rey-juan-carlos", "milans", "armada", "juicio", "causa-2-81", "cesid", "corona", "rumores", "entrevistas-secretas"],
+  "temas": [
+    "rey-juan-carlos",
+    "milans",
+    "armada",
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "corona",
+    "rumores",
+    "entrevistas-secretas"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_83_R",
     "filename": "Documento_83_R.pdf",
@@ -78,5 +98,7 @@
     "is_image_pdf": true,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "De 56 '\nCRI\"\nA\nFuente a\nMICROFILMACION\nCalificación _ “7\n' PECHA ENTRADA\nNOTA INTERIOR ©\n| o,\n8/Rot,\nwire. 24 1. /05~02-82 *\nri|\nPAS Saliee entrevistas da S.M.El Ray con militares implicados an *\nA\n:\nOs En algunos núcleos. cualificados de opinión cántabra,e in-\n-Cluso también en ambientes castrenses de la capital,se da por segue\nras algunas entrevistas confidenciales y sigilosas de S.Moel Rey con:\nalgunas principales del intento'del \"golpe de Estado\" dal pasado :\nFebrero de 1.41.\nLo\nEn conereto,se aseguraque alguien muy importante de la.\nCasa: Real se haentrevistado con el General Armada,matizanda con\n81 comportamientos relativos a la vista oral del. proceso;y que cuane |\ndo de igual forma se quiso celebrar la entrevista con'elGeneral Mig. .\n_-lans del Bosch,dste exigió que la ‘entrevista se concretase con la\npropia personal real,no admitiendo intermediarios ni eslabones in-\nferiores; y en tales círculos de opinión se ASEGURA que,en ePacto,\n' @l Rey sé ha. entrevistada-oconfidencidimente\ncon el T.G.iiilans del 8.3:\nl s e e si s o e n ñ a a d l a a d Q e u l e- p p r o o r ce e s n o ci y ma qu d e e: e t n o - d t o od s o e p c r a e so t , e l n o d s e q “i u n e te l n a tos Co e r n ona tal ho se s n a t l i g d a o '*\nna provengan delos principales procesadas y de reconocida vocación\nmanárquica. o o, E” .\no Y nos permitimos elevar. a conocimiento: superior tales in+\nfarmaciónes porque:. oo : o o\n+ de élloses a t ) an las in a t p eg i r n a a d n o t s es en no el sa s n ec \" t c o a r ll m e i ba l j i e t r a ó r s\" , e incluso al : guno\nb) Porque los mismos asegurancomo ciertes tales hachos,\nc) Porque,de no ser ciertos,e¢l rumor es gravespero an todo 2\ncasoysi fuesen de causalidad cierta, también seríangraves las ligere- :\nzas filtrantess o a et\n“po 3 pular\",s E i n n t o od p o art c e a n s e o c , i r e a n t t i e fic a am p o a s rc q e u l e as t d a e do op lo ini a o n n te o r i i b o l r es no y ds cua r n u t m i o t r a . - : |\n_ tivamente restringidas, - oT l mB",
+  "texto_completo_en": "56'\n\"CRI\"\nA\nSource to\nMICROFILMATION\nRating _ “7\n'ENTRY CHECK\nINSIDE NOTE ©\n| or,\n8/Rot,\nwire. 24 1. /05~02-82 *\nri|\nPAS Saliee interviews given by H.M.El Ray with soldiers involved an *\nA\n:\nOs In some nuclei. qualified Cantabrian opinion, and in-\n-Even in military environments in the capital, it is taken for granted\nHere are some confidential and secret interviews of S.Moel Rey with:\nSome of the main ones from the past \"coup d'état\" attempt:\nFebruary 1.41.\nIt\nIn fact, it makes sure that someone very important to the.\nHouse: Real has interviewed General Armada, qualifying with\n81 behaviors related to the oral hearing of the. process;and that cuane |\nIn the same way, they wanted to hold the interview with General Mig. .\n_-lans of the Bosch, dste demanded that the 'interview be carried out with the\nown real personnel, not admitting intermediaries or independent links.\ninferiors; and in such circles of opinion it is ENSURE that, in ePacto,\n'@l King know ha. interviewed-orconfidentially\nwith the T.G.iiilans of 8.3:\nl s e e si s o en ñ a a d la a d i g d a o '*\ndo not come from the main processed and recognized vocation\nmanarchic. or or, E” .\no And we allow ourselves to elevate. a knowledge: superior such in+\npharmacy because: oo : o o\n+ of themloses a t ) an las in a t peg i r n a a d not o t s es en no el sa s n ec \" t c o a r ll me e i bal j i e t r a ó r s \", and even some: some\nb) Because they themselves affirm such facts as true,\nc) Because, if they are not true, the rumor is serious, but still 2\ncase and if they were of certain causality, the slightest consequences would also be serious:\nfiltering zass or a et\n“po 3 pular\",s E in n t o od po art c e an s e o c , i r e a n t t i e fic a am p o as rc q e u l e as t d a e do op lo inia on n n te o r i i b o l r es no y ds cua r n u t m i o t r a . - : |\n_ tively restricted, - oT l mB"
 }

@@ -9,18 +9,48 @@
   "resumen_es": "Declaración del Portavoz del Departamento de Estado de los Estados Unidos (Washington D.C., 24 febrero 1981), en español, sobre los sucesos del 23-F. El texto señala que el ataque a la democracia española fue obra de un reducido número de personas; que la abrumadora mayoría de las fuerzas armadas y del pueblo de España permaneció fiel al Rey y a la Constitución; que el papel desempeñado por el Rey Juan Carlos contribuyó de manera sobresaliente a la solución de la crisis y merece especial admiración.",
   "resumen_en": "Statement by US State Department Spokesman (Washington D.C., 24 February 1981), in Spanish, on the 23-F events. The text notes that the attack on Spanish democracy was the work of a small number of people; that the overwhelming majority of the armed forces and the Spanish people remained loyal to the King and the Constitution; that the role played by King Juan Carlos contributed outstandingly to resolving the crisis and deserves special admiration.",
   "personas": [
-    { "nombre": "Juan Carlos I", "rol": "Rey de España, elogiado por EE.UU. por su papel en la resolución del golpe" }
+    {
+      "nombre": "Juan Carlos I",
+      "rol": "Rey de España, elogiado por EE.UU. por su papel en la resolución del golpe"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Departamento de Estado de los Estados Unidos", "tipo": "gobierno" }
+    {
+      "nombre": "Departamento de Estado de los Estados Unidos",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-02-24", "descripcion_es": "EE.UU. emite declaración oficial sobre el 23-F elogiando al Rey Juan Carlos y la resistencia democrática española", "descripcion_en": "US issues official statement on 23-F praising King Juan Carlos and Spanish democratic resistance", "lugar": "Washington D.C." }
+    {
+      "fecha": "1981-02-24",
+      "descripcion_es": "EE.UU. emite declaración oficial sobre el 23-F elogiando al Rey Juan Carlos y la resistencia democrática española",
+      "descripcion_en": "US issues official statement on 23-F praising King Juan Carlos and Spanish democratic resistance",
+      "lugar": "Washington D.C."
+    }
   ],
   "citas_clave": [
-    { "texto_es": "El papel desempeñado por el Rey Juan Carlos y su actuación de la mejor resolución, han contribuido de manera sobresaliente a la solución de la crisis y merece especial admiración", "texto_en": "The role played by King Juan Carlos contributed outstandingly to resolving the crisis and deserves special admiration", "fuente": "Declaración Departamento de Estado EE.UU., 24 febrero 1981" }
+    {
+      "texto_es": "El papel desempeñado por el Rey Juan Carlos y su actuación de la mejor resolución, han contribuido de manera sobresaliente a la solución de la crisis y merece especial admiración",
+      "texto_en": "The role played by King Juan Carlos contributed outstandingly to resolving the crisis and deserves special admiration",
+      "fuente": "Declaración Departamento de Estado EE.UU., 24 febrero 1981"
+    }
   ],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "juan-carlos-i", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_3", "filename": "D.3._AGMAE_R39017_Exp._4.pdf", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "estados-unidos",
+    "juan-carlos-i",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_3",
+    "filename": "D.3._AGMAE_R39017_Exp._4.pdf",
+    "folder": "exteriores/AGMAE-R39017",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "Washington, D.C.\nFeb. 24, 1981\nDECLARACION DEL PORTAVOZ DEL DEPARTAMENTO DE ESTADO\nDurante las últimas veinticuatro horas hemos seguido\nlos acontecimientos occuridos en España con sumo interés y\natención. Hemos comprobado que el ataque a la democracia\nespañola ha provenido sólo de un reducido número de personas.\nLa abrumadora mayoría de las fuerzas armadas y del pueblo de\nEspaña han permanecido fieles al Rey y a la Constitución. Como\ntodos los ¿amigos de España, nos congratulamos por la feliz\nresolución de la crisis y por la fortaleza mostrada por las\ninstituciones y por los dirigentes de la nueva democracia\nespañola. El papel desempeñado por el Rey Juan Carlos y su\nconducción de la nación española han contribuido de manera\nsobresaliente a la solución de la crisis y merecen especial\nadmiración.\n\nTEXT OF U.S. STATEMENT ON SPAIN\nCR NN EE Ht\nWe are gratified that democracy in Spain has survived.\nOver the past 24 hours, we followed events in Spain\nwith great interest and attention. We note that the challenge\nto Spanish democracy was limited to a small number of\npeople. The overwhelming majority of the armed forces\nand the Spanish people remained loyal to the King and\nthe constitution.\nLike all the friends of that country, we join in\nexpressing our congratulations on the successful resolution\nof this crisis and on the strength shown by the institutions\nand leaders of Spain's new democracy.\nThe role and leadership of King Juan Carlos were\nclearly instrumental in ending the crisis and are\ndeserving of particular admiration.\nThe President called the King this morning at 10:35 A.M.\nWashington time.\nFebruary 24, 1981\nWashington, D,C.",
+  "texto_completo_en": "Washington, D.C.\nFeb. 24, 1981\nSTATEMENT BY THE SPOKESMAN OF THE STATE DEPARTMENT\nDuring the last twenty-four hours we have continued\nthe events that occurred in Spain with great interest and\nattention. We have proven that the attack on democracy\nSpanish has come from only a small number of people.\nThe overwhelming majority of the armed forces and people of\nSpain have remained faithful to the King and the Constitution. How\nAll friends of Spain, we congratulate ourselves for the happy\nresolution of the crisis and for the strength shown by the\ninstitutions and by the leaders of the new democracy\nSpanish. The role played by King Juan Carlos and his\nleadership of the Spanish nation have contributed significantly\noutstanding contribution to the solution to the crisis and deserve special\nadmiration\n\nTEXT OF U.S. STATEMENT ON SPAIN\nCR NN EE Ht\nWe are gratified that democracy in Spain has survived.\nOver the past 24 hours, we followed events in Spain\nwith great interest and attention. We note that the challenge\nto Spanish democracy was limited to a small number of\npeople. The overwhelming majority of the armed forces\nand the Spanish people remained loyal to the King and\nthe constitution.\nLike all the friends of that country, we join in\nexpressing our congratulations on the successful resolution\nof this crisis and on the strength shown by the institutions\nand leaders of Spain's new democracy.\nThe role and leadership of King Juan Carlos were\nclearly instrumental in ending the crisis and are\ndeserving of particular admiration.\nThe President called the King this morning at 10:35 A.M.\nWashington time.\nFebruary 24, 1981\nWashington, D.C."
 }

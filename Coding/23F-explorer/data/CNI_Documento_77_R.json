@@ -22,8 +22,14 @@
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Guardia Civil", "tipo": "policial" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Guardia Civil",
+      "tipo": "policial"
+    }
   ],
   "eventos": [
     {
@@ -35,7 +41,14 @@
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["cesid", "post-golpe", "sanchez-valiente", "fuga", "pasaporte-argentino", "grecia"],
+  "temas": [
+    "cesid",
+    "post-golpe",
+    "sanchez-valiente",
+    "fuga",
+    "pasaporte-argentino",
+    "grecia"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_77_R",
     "filename": "Documento_77_R.pdf",
@@ -43,5 +56,7 @@
     "is_image_pdf": true,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "| EX\nN.REa. yC/D13/10544/02-06-\"81\nCalificación: C-2_\nmicromumsgion 10422/c/\nNOTA INFORMATIVA\nMEA Ossesss\nAsunto: CAPITAN SANCHEZ VALIENTE.\nnicas.\nSe desplaza con un pasaporte de.nacionalidad argentinaque\nsegún la fuente, le fué. facilitado por su hermanoen.Roma:ydesde\nsu huída de España ha recorrido: varios paises de Hispanoamérica”y\nEuropa, encontrándose en la actualidadken Grecia mientras. su espo-.\n$4 permanece en Londres. Paba\nNo puede descartarse que ladifusión de su estancia.actual.\nen Grecia, pudiera responder a undeseo de \"intoxicación\": con da+\nfinalidad de ocultar el lugar. donde realmente: se encuentra,\npapanteragia",
+  "texto_completo_en": "| EX\nN.REa. yC/D13/10544/02-06-\"81\nGrade: C-2_\nmicromumsgion 10422/c/\nINFORMATIVE NOTE\nMEA Ossesss\nSubject: CAPTAIN SANCHEZ VALIENTE.\nunique\nTravels with a passport of Argentine nationality\nAccording to the source, it went well. provided by his brother in Rome: and from\nHis escape from Spain has traveled through several countries in Latin America” and\nEurope, currently being in Greece while. his husband.\n$4 remains in London. Paba\nIt cannot be ruled out that the dissemination of your current stay.\nin Greece, could respond to a desire for \"intoxication\": with da+\npurpose of hiding the place. where really: it is located,\npapanteragia"
 }

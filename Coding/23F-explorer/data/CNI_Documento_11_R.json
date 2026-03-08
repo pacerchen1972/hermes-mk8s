@@ -14,11 +14,16 @@
       "cargo": "Director del CESID",
       "organizacion": "CESID",
       "rol_en_23f": "leal",
-      "acciones": ["Destinatario de la carta sobre la situación en cuarteles"]
+      "acciones": [
+        "Destinatario de la carta sobre la situación en cuarteles"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "militar" }
+    {
+      "nombre": "CESID",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
     {
@@ -45,7 +50,14 @@
       "fecha": "1982-02-25"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "cesid", "ambiente-cuarteles", "alonso-manglano", "moral-militar"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "ambiente-cuarteles",
+    "alonso-manglano",
+    "moral-militar"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_11_R",
     "filename": "Documento_11_R.pdf",
@@ -53,5 +65,7 @@
     "is_image_pdf": false,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "Madrid, 25 de Febrero de 1982\nEmilio:\nPor lo que me llega, el ambiente en los cuarteles se está\nenrareciendo. Yo creo que habría que hacer algo para disiparlo\no, por lo menos, contenerlo.\nLas reuniones masivas son siempre malas, p::>rque es la ocasi6n\nde los tirroratos . Pero, en milicia lo más eficaz es la línea de\nmando. Por eso creo que se podrían realizar dos tipos de accio\nnes:\n1. - Reuniones sucesivas de los distintos ni veles de Mando;\nes decir: el Capitán General de cada Regi6n reune a\nlos Generales que tiene a sus 6rdenes a los que les da\nlas siguientes instrucciones:\na) Se está juzgando a unos militares que cometieron -\nun acto de indisciplina. Hay que ser respetuosos\ncon la Justicia y aceptar su veredicto.\nb) La actitud de los procesados es respetable siempre\nque se mantenga dentro de la ética y el honor mili\ntar. Un plante no parece lo más adecuado en un pro\nceso militar.\nc) Hay sectores sociales que intentan manipular a las -\nFAS con prop6sitos no confesables. Los militares de\nbemos estar atentos y comportanos de acuerdo con lo\nque puede ser mejor para España y no para unos gru\npos minoritarios.\nd) Tenemos centrada la mirada del mundo entero, por -\nlo que debemos extremar nuestro comportamiento pa\nra demostrar que somos un ejército serio, con una -\ntradici6n gloriosa y un futuro que nos va a equipa\nrar a los Ejércitos más preparados del mundo occi-\ndental.\ne) Hay que estar prevenidos contra un posible acto\nterrorista que, con toda seguridad, tendría la mis\nma finalidad inmediata que los sectores interesados\nen hacer triunfar el Golpe. Todos debemos redoblar\nlas medidas personal~s de seguridad y vigilar con -\nrigor las que estén establecidas en los Centros y -\nAcuartelamientos.\nf) La disciplina debe ser norma prioritaria en estos -\nmomentos, exigiendo de los inferiores un comporta-\nmiento digno, evitando las murmuraciones y cortando\nde raiz los bulos y rumores que, desde posiciones -\ninteresadas, se difunden de modo continuado.\nEstos mismos criterios, u otros parecidos, serían\ntransmitidos por la cadena de mando hasta llegar a la\n\n2.-\n-\nJ\n'<\n•\nUnidad, Compañía, o similar, cuidando en que nadie pue\nda manifestarse a favor de los procesados, entre otras\ncosas porque se prejuzgaría la actitud del Tribunal -\nque es quien tiene que decidir.\nCreo que debería insistirse mucho en el tema de la\nDISCIPLINA, LA MANIPULACION Y LA IMAGEN QUE ESTAMOS\nPROYECTANDO AL MUNDO ENTERO.\n2.- La otra acción es más delicada y de características pa\nrecidas a otras de las que te hablé hace poco. Se tra\nta de buscar a las personas de más prestigio de cada -\nCentro o Unidad y reunirlas para que, bien el Presiden\nte Calvo Sotelo, bien el Ministro, les explique perso=\nnalmente la actitud del Gobierno, la trascendencia na\ncional e internacional del Proceso y lo que esperan y\ndesean de las FAS. Hay que hacerlo en un clima disten\ndido para que cada cual pueda exponer su punto de vis=\nta. A mi se me ocurren algunos nombres como: Javier -\nPardo, Romero Ales, Pepe Peñas, Pepe Cassinello, Váz--\nquez ...... (TCol. que manda el Gr. de Artillería de la\nBrigada XI), etc. Creo que sería una buena ocasi6n pa\nraque el Gobierno conociera de primera mano lo que-=\npiensan en las FAS y que, a su vez, los militares su-\npieran lo que quiere el Gobierno. Como es natural, ten\ndrían que asistir gente de Marina y Aire. Pero lo más=\npeligroso y urgente es el Ejército del 'fi tEftl(.t\nYa me dirás que hacemos.\nUn abrazo y a tus órdenes\n- José Faura -",
+  "texto_completo_en": "Madrid, February 25, 1982\nEmilio:\nFrom what I get, the atmosphere in the barracks is getting worse.\nrarefying. I think something should be done to dispel it.\nor, at least, contain it.\nMass gatherings are always bad, because it is the occasion\nof the tirrorats. But, in militia the most effective is the line of\ncommand. That's why I think two types of actions could be carried out.\nnes:\n1. - Successive meetings of the different levels of Command;\nThat is to say: the Captain General of each Region brings together\nthe Generals he has under his orders to whom he gives\nthe following instructions:\na) Some soldiers are being tried who committed -\nan act of indiscipline. You have to be respectful\nwith Justice and accept its verdict.\nb) The attitude of the defendants is always respectable\nthat remains within military ethics and honor\ntar. A plan does not seem the most appropriate in a pro\nmilitary cess.\nc) There are social sectors that try to manipulate the -\nFAS for unspeakable purposes. The military of\nWe must be attentive and behave in accordance with what\nwhich can be better for Spain and not for some gru\nminority pos.\nd) We have the gaze of the entire world focused, for -\nwhat we must extreme our behavior to\nto demonstrate that we are a serious army, with a -\nglorious tradition and a future that will equip us\nto the most prepared armies of the Western world\ndental.\ne) We must be prepared against a possible act\nterrorist who, with all certainty, would have the same\nmore immediate purpose that the interested sectors\nin making the Coup succeed. We must all redouble\npersonal safety measures and monitor with -\nrigor those established in the Centers and -\nQuarterings.\nf) Discipline must be a priority norm in these -\nmoments, demanding from inferiors a behavior\ndignified speech, avoiding gossip and cutting off\nroot the hoaxes and rumors that, from positions -\ninterested, they spread continuously.\nThese same criteria, or similar ones, would be\ntransmitted through the chain of command until reaching the\n\n2.-\n-\nJ.\n'<\n•\nUnit, Company, or similar, taking care that no one can\nto demonstrate in favor of the accused, among others\nthings because the attitude of the Court would be prejudged -\nThat's who has to decide.\nI think that much emphasis should be placed on the issue of\nDISCIPLINE, MANIPULATION AND THE IMAGE WE ARE\nPROJECTING TO THE WHOLE WORLD.\n2.- The other action is more delicate and has characteristics\nsimilar to others that I told you about recently. It is tra\nto look for the most prestigious people in each -\nCenter or Unit and bring them together so that, either the President\nCalvo Sotelo, well the Minister, explain to them personally=\nFinally, the attitude of the Government, the transcendence\ntional and international process and what they expect and\nthey want from the FAS. It has to be done in a relaxed climate\ngiven so that everyone can express their point of view\nta. Some names come to mind like: Javier -\nPardo, Romero Ales, Pepe Peñas, Pepe Cassinello, Váz--\nquez...... (TCol. commanded by the Artillery Group of the\nBrigade XI), etc. I think it would be a good opportunity to\nso that the Government knew first-hand what-=\nThey think of the FAS and that, in turn, the military su-\nThey want what the Government wants. Naturally, have\nPeople from the Navy and Air Force should attend. But the most =\ndangerous and urgent is the Army of the 'fi tEftl(.t\nYou'll tell me what we do.\nA hug and at your service\n- José Faura -"
 }

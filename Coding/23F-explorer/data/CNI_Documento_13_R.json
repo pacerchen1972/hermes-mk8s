@@ -14,12 +14,20 @@
       "cargo": "Sociólogo, Centro de Investigaciones Sociológicas (CIS)",
       "organizacion": "Centro de Investigaciones Sociológicas (CIS)",
       "rol_en_23f": "neutral",
-      "acciones": ["Identificado por CESID como posible responsable de encuestas sobre la Causa 2/81"]
+      "acciones": [
+        "Identificado por CESID como posible responsable de encuestas sobre la Causa 2/81"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "militar" },
-    { "nombre": "Centro de Investigaciones Sociológicas (CIS)", "tipo": "gubernamental" }
+    {
+      "nombre": "CESID",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Centro de Investigaciones Sociológicas (CIS)",
+      "tipo": "gubernamental"
+    }
   ],
   "eventos": [
     {
@@ -46,7 +54,14 @@
       "fecha": "1982-03-08"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "cesid", "listas-oficiales", "opinion-publica", "cis"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "listas-oficiales",
+    "opinion-publica",
+    "cis"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_13_R",
     "filename": "Documento_13_R.pdf",
@@ -54,5 +69,7 @@
     "is_image_pdf": false,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "ARAP/08.03.82\nNOTA INFORMATIVA\n1.- La lista de oficiales con irnplicaci6n política que corre -\npor los cuarteles es una realidad de la que se han hecho -\neco la prensa en más de una ocasi6n.\nParece conveniente que el Mando torne cartas en el asunto.\nSu silencio puede interpretarse de forma muy negativa, es\npecialmente por pa~te de los que se encuentran inclu~dos -\nen la lista¿ quién los defiende?.\nPodemos llegar a una situaci6n parecida a la que existía -\nantes de cambiar a la JUJEM.\n2.- La quema de una bandera española en Anoeta, puede tener\nuna repercusión en la dinámica del Proceso.\n,+-___ J_I \"\nIndependientemente de la \"explo~ n que haga determinada\nprensa del suceso, algfin abogado puede esgrimir lo sucedi\ndo para insistir en sus tesis e, incluso, provocar un al-\ntercado en la sala.\nParece conveniente que la autoridad gubernativa haga caer\nuna sanción ejemplar sobre los responsables del acto, a pe\nsarde que se escudan diciendo que nada pudieron hacer por\nevitarlo. ¿ Qué hubiera pasado si dos encapuchados tratan\nde quemar una ikurriña ?.\nPor otra parte en el clima pre-electoral en que nos encon\ntramos, los políticos están propensos a realizar declara~\nciones. Hay que aprovechar esta circusntancia para obli-\ngarles a definirse sobre este suceso.\nEl Ministro del Interior ya debía haber dicho algo, en re\npresentación del Gobierno. El de Defensa, puede aprovechar\ncualquier circunstancia para incidir en el terna. Pero an-\ntes hay que tomar las medidas gubernativas.\nLos líderes políticos también pueden manifestarse en este\nsentido.\nPero tendría especial significaci6n que representanbes de\nlos partidos nacionalistas se decidieran en relaci6n con\nel suceso. Jordi Pujol, Trias Fargas, Roca, Rojas Marcos,\nel alcalde de Sevilla, etc ..... Hay que forzar también a -\nGaraicoechea, Arzallus, Bandrés, etc. y si no quieren rnani\nfestarlo, hacerlo pGblico, con las consecuencias que de-~\nello se puedan derivar.\n\n2.-\n3.- Se tienen noticias de que en el Centro de Investigaciones -\n/ Sociológicas (CIS) situado en la calle Pedro Texeira, puede\nque se estén haciendo encuestas en relación con la Vista de\nla Causa 2/81.\nSería conveniente CONFIRMAR esta referencia y a ser posible\nrecibir los resultados.\nEl requerimiento deberá hacerse al sociol6go LOPEZ PINTOR.\nTeléfono 456.12.61.",
+  "texto_completo_en": "ARAP/08.03.82\nINFORMATIVE NOTE\n1.- The list of officials with political involvement that runs -\nby the barracks is a reality that has been made -\nechoed the press on more than one occasion.\nIt seems appropriate that the Command takes action on the matter.\nYour silence can be interpreted in a very negative way, it is\nespecially on the part of those who are included -\nOn the list, who defends them?\nWe can reach a situation similar to the one that existed -\nbefore switching to the JUJEM.\n2.- The burning of a Spanish flag in Anoeta may have\nan impact on the dynamics of the Process.\n,+-___ J_I \"\nRegardless of the \"explosion\" that a certain\npress about the event, some lawyer can argue what happened\nto insist on his theses and even provoke an al-\ntercado in the room.\nIt seems convenient that the government authority should bring down\nan exemplary sanction on those responsible for the act, despite\nsarde who hide behind themselves by saying that they could do nothing for\navoid it. What would have happened if two hooded men tried\nto burn an ikurriña?\nOn the other hand, in the pre-electoral climate in which we found ourselves\nsections, politicians are prone to make declarations\ntions. We must take advantage of this circumstance to force\nhelp them define themselves about this event.\nThe Minister of the Interior should have already said something, in re\nGovernment presentation. The Defense, can take advantage\nany circumstance to influence the topic. But still-\nYou have to take government measures.\nPolitical leaders can also speak out in this\nsense.\nBut it would have special significance that they represent\nthe nationalist parties decided in relation to\nthe event. Jordi Pujol, Trias Fargas, Roca, Rojas Marcos,\nthe mayor of Seville, etc.... We must also force -\nGaraicoechea, Arzallus, Bandrés, etc. and if they don't want rnani\ncelebrate it, make it public, with the consequences that de-~\nthat can be derived.\n\n2.-\n3.- There is news that in the Research Center -\n/ Sociological (CIS) located on Pedro Texeira Street, you can\nthat surveys are being carried out in relation to the View of\nCase 2/81.\nIt would be advisable to CONFIRM this reference and if possible\nreceive the results.\nThe request must be made to the sociologist LOPEZ PINTOR.\nTelephone 456.12.61."
 }

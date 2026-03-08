@@ -10,8 +10,14 @@
   "resumen_en": "Official document from the CSJM Instructor (Microfilm 00471/S), pursuant to a Supreme Military Court order of 17 November 1981, requesting CESID certification on: (a) whether Cortina's intelligence unit activities concluded with a written report; (b) whether CESID had permanent intelligence activities on 23-F unconnected to Congress; (c) whether Cortina's School Unit had an independent transmission system; (d) whether the system had a fixed base station and mobile vehicles; (e) whether the system was obsolete; (f) the average range of a vehicle radio-telephone.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "CESID", "tipo": "inteligencia" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    }
   ],
   "eventos": [
     {
@@ -31,7 +37,15 @@
       "fecha": null
     }
   ],
-  "temas": ["juicio", "causa-2-81", "csjm", "cesid", "cortina", "transmisiones", "certificacion"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "csjm",
+    "cesid",
+    "cortina",
+    "transmisiones",
+    "certificacion"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_80_R",
     "filename": "Documento_80_R.pdf",
@@ -39,5 +53,7 @@
     "is_image_pdf": true,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "MICROFILMACION.\n00474pS |\n¡ ME\nNe\n@\n- CONSEJO SUPREMO . W i i ta k P ca e nedoh 3\nDE YUST ss IGIA MILITAR o o\na ee Ñ é\nOCUSEIERO “L0GAD0 “7\nGanZHaLb\nINSTRUCTOR.CAUSA N2 2/81 . oO .\nTINO, SEÑOR:\n€\nFun. <A\nLo _ o v R C d $ f i e a a r i e w u e c i m s d m i i b a e o o d r E s , o e n 2 e ? / s 8 e c d l e 1 e n e u . m C m p e s i l i S n o n a i t l b t l ~ m r r e a i n o e r e , o e d 3 n R v s e t e e o 5 o b c J 8 , & e i q u l e u s d c n i e e t e t ó i r o l n c v t s o i o i M a r f H i a i o l l c d q c a i y o e u h t r e e a d n f a s r a t u e o , d t a c b o o N h y r r N m a i e e é d u d n d a n i i l d A o a e o . u n c s t t i d q o o e s i s u i c i e e t d g e t a e u l c e d l i o o e p r n r C d r 2 t e o e e e e s n n s N s e s z 1 o n e o 3 = t j é m o e o = . x\n- b 3\nj e\nr 8\na a)\nos\na\nc\nc\non\nk S\no f\ni i\ne n\nv e\nc u\ni n\nc c\nd\ni l\ne\nó e\nd e\nn o\ns\n.\ni\ny\nO\nd\nn\ne\nr f g o\ne\nr a\nn lo\nn n\nt g\na o\nr s\nt\ne\nq\nr\ni\ng i\nu v\na i\ne a\ns d m\nm\ne\nd\no\na i\ns\nn\nu\ne d\nn\nr\nc\na i\no\na\nn\nb\ni c\na\nn l f\nd\nu o\ne\nl r\ne\na z\nl a\ns\nl C g\np\no u\ne r\nm ñ\ne\na o\nc S\nn s\ne u\nd .\ns b\na (\nt\ne n\ni v\nt\nva\ne\ne\nS\n.\nu\ne\ns C\ng n\nv.\nt\n1\na\n-\ne\n1 Th 0\nc\nes\no\n:\nn\nb) Si en el CESID existe” constancia\núealgunaeotivi-\nv d e a i d nt i i n t f r o e r s nav ae iva feb p r e e r r m o ene y nt s e in s n i i z n u g l u i n m a ns v e in c c o u n la l c o i s ón hec c h o o n s e d o e s l ]\n¥-63-L m t m e r e ec n e n ) d m t a e e S b r i a i p s a i r l e a a o l n a U e C c n s o t i m i d e i v n a n i d d d d a e a n E p d t s e e c e n s u d , C e i O l e d R e n e , T t I e e N n i d A s n e e , t f l e d i g e i r r n s a e z p d s a o t a n o y , e e n n u o d e t e i l o l u p i e C n z r r a e g s d v a i o i n s v o t a h e d q a i e a u b e i : t de ~ u - al { 4i\ni\nf d c i a i u ) o j e a l t e e s S e i l . n l é o f e l s l o as no d s e s i in s s y t t t i e a p n o l o t a a r c o e m i s s e o t d n á r i e o a i s d e , n i t n o e m t g a e f r s l u a e n d r c c o e c i : n o o p n t s o r e e r r s i p u e o n v n r & e t t h o a i t e c i r n l u i o e l s s e o e , r s r d a \" a e n c u o c i n m e o g á n s r s t a r n al\n‘que’ tres. oO : oe\n- l d e e e t d ) o i , c S a i b d a e t s a a g l as en t s s a i e d s ñ o t e e n m y z a a d s e d . e . n + e t n r o a r ng r w e i o n s d i s i o m n i e e s n n t o o e p : r o a r -e l l o i qu o s e O £ L 8: E0 — =\nc y a £ b ) c e ua E l e n s ‘ é p e e s l r t d a a e r s l e c r n o a r d c d i l i c u o ~ d c t e i e d o l n é G e f e s o l n c o r u a a d l p i o e o r s - t t a e t e l l i e l a f l o d c n e a o n t c i a e p e o n u e n L d e i v c o e i h o q i . e u d e a0,\n+ * 1\n- Ruego a V.I, la\nurgentoremisiónde los certifiica-\n\nMICROFILMACION = 00411/5 -\no»\n. gos\nsolicitadoB»\nDios guarde A\nV,I.muchosahos\nUadrid, 8\ndéEnero.de1,982\nEl\nGENERALCONSEJERO:POGADOIRSTRUCTORY\nne\noii 7. L p E i Oee ft ce P CR m E M gf e oa\nwh .\nA Y\nxes XaL o\n2: K i a s s f4 .x | .\n: . VA .\nse . E ] .\nr . ‘Me ‘\nIA\nwya A_ - o.\n> AS - José de Diego López +.\n“uO\nSUPZRIOR DE TAPOXACL ON DE LA DERE:SA\nT O, E B O i , S S . Z T N a O D R e” o OG P A a G s L e B o L D G I e RE l C a IO C R as D t E e L lia CE n . é nude 5s MADRID",
+  "texto_completo_en": "MICROFILMATION.\n00474pS |\nME\nne\n@\n- SUPREME COUNCIL. W i i ta k P ca e nedoh 3\nOF YUST ss MILITARY CHURCH o o\na ee Ñ é\nOCUSEIERO “L0GAD0 “7\nGanZHaLb\nINSTRUCTOR.CAUSE N2 2/81. oO.\nTINO, SIR:\n€\nFun. <A\nLo _ o v R C d $ f i e a a r i e w u e c i ms d m i i b a e o o d r E s , o en n 2 e ? / s 8 e c d l e 1 e n e u . m C m pes i l i S n o n a it l bt l ~ m r r e a i no e r e , o ed 3 n R v s e t e e o 5 o b c J 8 , & e i q u l e u s d c n i e e t e t ó i r o l n c vt s o i o i M a r f H i a i o l l c d q c a i i o e u h t r e e a d n f a s r a t u e o , d t a c bo o N h y r r N m a i e e e é d u d n d a n i i l d A o a e o . u n c s t t i d q o o e s i s u i c i e e t d g e ta e u l c ed l o o ep r n r C d r 2 t e o e e e e s n n s N s e s z 1 on e o 3 = t j ​​é m o e o = . x\n- b 3\nj e\nr 8\na a)\nos\nto\nc\nc\non\nk S\nor f\ni i\ne n\ngo and\nc u\ni n\nc c\nd\ni l\nand\nor and\nof and\nno or\nyes\n.\ni\nand\nOr\nd\nn\nand\nr f g o\nand\nr a\nn it\nn n\nt g\nto or\nr s\nt\nand\nq\nr\ni\ng i\nu v\nto i\nand to\ns d m\nm\nand\nd\nor\nto i\nyes\nn\nu\ne d\nn\nr\nc\nto i\nor\nto\nn\nb\ni c\nto\nn l f\nd\nu or\nand\nl r\nand\na z\nhe to\nyes\nl C g\np\nor u\ne r\nm ñ\nand\nto or\nc S\nn.s.\ne u\nd.\ns b\na (\nt\ne n\ni v\nt\ngoes\nand\nand\nYes\n.\nu\nand\ns C\ng n\nv.\nt\n1\nto\n-\nand\n1 Th 0\nc\nis\nor\n:\nn\nb) If there is “certificate” in the CESID\nueasomeeotivi-\nv d e a id nt i i n t f r o e r s nav ae iva feb p p e e r r m o jan y nt s e in s n i i z n u g l u in m a ns v e in c c o u n la l c o i s n done c h o o n s e d o e s l ]\nyen T t I e e N n i d A s n e e , t f l e d i g e i r r n s a e z p d sa o t a no y , e en n u o de te i l o l u p i e C n z r r a e g s d v a i o i n s v o t a h e d q a i e a u b e i : t de ~ u - al { 4i\ni\nf d c i a i u ) o j e al t e e s S e i l . n l é o f e l s l o as no d s e s i in s s y ttt i e ap no lo ta a a r co e m i s s e o t d n á r i e o a i s d e, n i t no e m t g a e f r s l u a e n d r c c o e c i: no o o p n t s o r e e r s i p u e o n v n r & e t t h o a i t e c i r n l u i o e l s e o e , r s r d a \" a en c u o c i n m e o g án s r star n al\n'what' three. oO: oe\n- l d e e e t d ) o i , c S a i b d a e t s a a g las en t s s a i e d s ño t e en m y za a a d s e d . e. n + e t n r o a r ng r w e i o n s d i s i o m n i e e s n n t o o e p : r o a r -e l l o iqu o s e O £ L 8: E0 — =\nc y a £ b ) c e ua El e ns ‘ é pe e s l rt d a a e r s le c rno a ard c d i l i cu u o ~ d c t e i e do l né G e f e s o l n c o r u a a d l pio e o r s - t t a e t e l l i e la f l o d c n e a on t c i a e pe o n u e n L d e i v c o e i h o q i . e u d e a0,\n+ * 1\n- I pray to V.I, the\nurgent resubmission of the certificates\n\nMICROFILMATION = 00411/5 -\nor»\n. gos\nrequestedB»\nGod save A\nV,I.manyhos\nUadrid, 8\nJanuary 1982\nThe\nGENERAL COUNSEL: POGADOIRSTRUCTORY\nne\noii 7. L p E i Oee ft ce P CR m E M gf e oa\nwh .\nA Y\nxes XaL or\n2: K i a s s f4 .x | .\n: . GOES .\nHE . E ] .\nr. 'Me'\nAI\nwya A_ - o.\n> AS - José de Diego López +.\n“uO\nTAPOXACL UPPER ON THE RIGHT:SA\nT O, E B O i , S S . Z T N a O D R e” o OG P A a G s L e B o L D G I e RE l C a IO C R as D t E e L lia CE n . é nude 5s MADRID"
 }

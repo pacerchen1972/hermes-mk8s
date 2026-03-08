@@ -9,17 +9,47 @@
   "resumen_es": "Oficio del Consejo Supremo de Justicia Militar (Carpeta 21800, RESERVADO) comunicando al Ministerio de Defensa el procesamiento formal del Teniente General Jaime Milans del Bosch y Ussía, en cumplimiento del artículo 595 del Código de Justicia Militar, una vez desestimados los recursos interpuestos.",
   "resumen_en": "Official communication from the Supreme Council of Military Justice (Carpeta 21800, RESERVED) notifying the Ministry of Defence of the formal prosecution of Lt General Jaime Milans del Bosch y Ussía, in compliance with Article 595 of the Code of Military Justice, after appeals were dismissed.",
   "personas": [
-    { "nombre": "Jaime Milans del Bosch y Ussía", "rol": "Teniente General, procesado en la Causa 2/81" }
+    {
+      "nombre": "Jaime Milans del Bosch y Ussía",
+      "rol": "Teniente General, procesado en la Causa 2/81"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-17", "descripcion_es": "CSJM comunica oficialmente al Ministerio de Defensa el procesamiento de Milans del Bosch en el marco de la Causa 2/81", "descripcion_en": "CSJM officially notifies Ministry of Defence of Milans del Bosch's prosecution under Case 2/81", "lugar": "Madrid" }
+    {
+      "fecha": "1981-03-17",
+      "descripcion_es": "CSJM comunica oficialmente al Ministerio de Defensa el procesamiento de Milans del Bosch en el marco de la Causa 2/81",
+      "descripcion_en": "CSJM officially notifies Ministry of Defence of Milans del Bosch's prosecution under Case 2/81",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "procesamiento", "milans-del-bosch", "causa-2-81", "csjm", "ministerio-defensa"],
-  "_meta": { "doc_id": "Defensa_1", "filename": "Carpeta_21800_Reservado_comunicacion_del_procesamiento_de_Milans.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "procesamiento",
+    "milans-del-bosch",
+    "causa-2-81",
+    "csjm",
+    "ministerio-defensa"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_1",
+    "filename": "Carpeta_21800_Reservado_comunicacion_del_procesamiento_de_Milans.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "Consejo Supremo\nde\nJusticia Militar\nS/Rt.* Núm. Fecha N/Ret.* Núm\nASUNTO\na ,\nE\nO L\nY\nAS\n9\nDs",
+  "texto_completo_en": "Supreme Council\nof\nMilitary Justice\nS/Rt.* No. Date N/Ret.* No.\nISSUE\nto,\nE\nO L\nand\nAS\n9\nds"
 }

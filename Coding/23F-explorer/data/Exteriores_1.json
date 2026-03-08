@@ -9,20 +9,58 @@
   "resumen_es": "Documento índice del Ministerio de Asuntos Exteriores (Madrid, 13 marzo 1981) que lista cronológicamente todos los mensajes y declaraciones oficiales de los Estados Unidos sobre los sucesos del 23 y 24 de febrero en Madrid: (1) Comunicación del Secretario de Estado Haig del 23-F; (2) Llamada del Presidente Reagan al Rey el 24-F; (3) Declaración del Departamento de Estado del 24-F; (4-5) Declaración del Ministro Exteriores y Carta Embajador Todman del 26-27 F; (6) Carta Reagan al Rey 27-F; (7) Carta Reagan a Calvo Sotelo 26-F; (8) Resolución del Congreso de EE.UU. 4 marzo. Además incluye 'Otros Documentos': respuestas españolas de Pérez-Llorca, Calvo Sotelo y proyecto de respuesta del Rey.",
   "resumen_en": "Index document from the Ministry of Foreign Affairs (Madrid, 13 March 1981) listing chronologically all US official messages and declarations on the events of 23-24 February in Madrid: (1) Secretary of State Haig's 23-F communication; (2) President Reagan's phone call to the King on 24-F; (3) State Department declaration of 24-F; (4-5) Foreign Minister declaration and Ambassador Todman's letter of 26-27 Feb; (6) Reagan's letter to the King of 27 Feb; (7) Reagan's letter to Calvo Sotelo of 26 Feb; (8) US Congress Resolution of 4 March. Also includes 'Other Documents': Spanish responses from Pérez-Llorca, Calvo Sotelo and draft reply by the King.",
   "personas": [
-    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Asuntos Exteriores de España" },
-    { "nombre": "Alexander M. Haig", "rol": "Secretario de Estado de los Estados Unidos" },
-    { "nombre": "Ronald Reagan", "rol": "Presidente de los Estados Unidos" },
-    { "nombre": "Terence A. Todman", "rol": "Embajador de EE.UU. en España" }
+    {
+      "nombre": "José Pedro Pérez-Llorca",
+      "rol": "Ministro de Asuntos Exteriores de España"
+    },
+    {
+      "nombre": "Alexander M. Haig",
+      "rol": "Secretario de Estado de los Estados Unidos"
+    },
+    {
+      "nombre": "Ronald Reagan",
+      "rol": "Presidente de los Estados Unidos"
+    },
+    {
+      "nombre": "Terence A. Todman",
+      "rol": "Embajador de EE.UU. en España"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
-    { "nombre": "Departamento de Estado de los Estados Unidos", "tipo": "gobierno" }
+    {
+      "nombre": "Ministerio de Asuntos Exteriores de España",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Departamento de Estado de los Estados Unidos",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-13", "descripcion_es": "Ministerio de Exteriores elabora índice de todas las comunicaciones oficiales estadounidenses sobre el 23-F", "descripcion_en": "Ministry of Foreign Affairs compiles index of all US official communications about 23-F", "lugar": "Madrid" }
+    {
+      "fecha": "1981-03-13",
+      "descripcion_es": "Ministerio de Exteriores elabora índice de todas las comunicaciones oficiales estadounidenses sobre el 23-F",
+      "descripcion_en": "Ministry of Foreign Affairs compiles index of all US official communications about 23-F",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "estados-unidos", "diplomacia", "ministerio-exteriores"],
-  "_meta": { "doc_id": "Exteriores_1", "filename": "D.1._AGMAE_R39017_Exp._4.pdf", "folder": "exteriores/AGMAE-R39017", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "estados-unidos",
+    "diplomacia",
+    "ministerio-exteriores"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_1",
+    "filename": "D.1._AGMAE_R39017_Exp._4.pdf",
+    "folder": "exteriores/AGMAE-R39017",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "MINISTERIO DE ASUNTOS EXTERIORES Madrid, 13 de marzo de 1981\nDIRECCION GENERAL DE POLITICA EXTERIOR\nPARA AMERICA DEL NORTE Y PACIFICO\nMENSAJES Y DECLARACIONES OFICIALES DE LOS ESTADOS\nUNIDOS SOBRE LOS SUCESOS DEL 23 Y 24 DE FEBRERO EN\nMADRID\n23 de febrero: Comentario del Secretario de Estado\nHaig (18,00 horas en Estados Unidos; 24,00 horas en\nEspaña).\n24 de febrero: Llamada telefónica del Presidente Reagan\na S,M, el Rey (10,35 horas en los Estados Unidos; do ada]\nhoras en España).\n24 de febrero: Declaración del Departamento de Estado\n(12,00 horas en los Estados Unidos; 18,00 horas en Espai\n26 de febrero: Carta del Secretario Haig al Ministro de\nAsuntos Exteriores,\n27 de febrero: Carta del Embajador Todman al Ministro\nde Asuntos Exteriores, remitiendo los documentos 3 yt,\n27 de febrero: Carta del Presidente Reagan a S.M. el\nRey.\n28 de febrero: Carta del Presidente Reagan al Presidente\nCalvo Sotelo,\n4 de marzo: Resolución del Congreso de los Estados\nUnidos.\nOTROS DOCUMENTOS:\n4 de marzo: Carta del Ministro de Asuntos Exteriores\nal Secretario de Estado en respuesta a la suya del día\n26.\n5 de marzo: Mensaje del Presidente Calvo Sotelo al\nPresidente Reagan en respuesta al suyo del día 28 (envia-\ndo-por telegrama a la Embajada de España en Washington\npara su entrega).\n10 de marzo: Proyecto de respuesta de S.M. el Rey a\nla carta del Presidente Reagan del día 27, (enviado al\nGabinete del Sr. Ministro para su “tramitacion),\n\nDIRECCION GENERAL DE POLITICA EXTERIOR\nPARA AMERICA DEL NORTE Y PACIFICO\n10 de marzo: Telegrama de la Embajada de España en\nWashington con la referencia hecha a las Instituciones\ndemocráticas españolas en la reunión Haig-Genscher.\n10 de marzo: Carta del Ministro de Asuntos Exteriares\nal Embajador Todman agradeciéndole el envío de la reso-\nlución del Congreso norteamericano del 4 de marzo,\n11 de marzo: Crónica de James M. Markham, corres-\nponsal del New York Times en Madrid con el título\n' Comment by Haig draws fire in Spain\".",
+  "texto_completo_en": "MINISTRY OF FOREIGN AFFAIRS Madrid, March 13, 1981\nGENERAL DIRECTORATE OF FOREIGN POLICY\nFOR NORTH AMERICA AND THE PACIFIC\nOFFICIAL MESSAGES AND DECLARATIONS FROM STATES\nUNITED ON THE EVENTS OF FEBRUARY 23 AND 24 IN\nMADRID\nFebruary 23: Secretary of State's Comment\nHaig (6:00 p.m. in the United States; 24:00 p.m. in\nSpain).\nFebruary 24: Phone call from President Reagan\nto His Majesty the King (10:35 a.m. in the United States; Sunday)\nhours in Spain).\nFebruary 24: State Department Statement\n(12:00 p.m. in the United States; 6:00 p.m. in Espai\nFebruary 26: Letter from Secretary Haig to the Minister of\nforeign affairs,\nFebruary 27: Letter from Ambassador Todman to the Minister\nof Foreign Affairs, sending documents 3 and t,\nFebruary 27: Letter from President Reagan to H.M. the\nKing.\nFebruary 28: Letter from President Reagan to the President\nCalvo Sotelo,\nMarch 4: Resolution of the Congress of the States\nUnited.\nOTHER DOCUMENTS:\nMarch 4: Letter from the Minister of Foreign Affairs\nto the Secretary of State in response to his of the day\n26.\nMarch 5: Message from President Calvo Sotelo to\nPresident Reagan in response to yours on the 28th (sent-\ndo-by telegram to the Spanish Embassy in Washington\nfor delivery).\nMarch 10: Draft response from H.M. the King to\nPresident Reagan's letter of the 27th, (sent to\nCabinet of the Minister for its “processing),\n\nGENERAL DIRECTORATE OF FOREIGN POLICY\nFOR NORTH AMERICA AND THE PACIFIC\nMarch 10: Telegram from the Spanish Embassy in\nWashington with the reference made to the Institutions\nSpanish democratic elections at the Haig-Genscher meeting.\nMarch 10: Letter from the Minister of Foreign Affairs\nto Ambassador Todman thanking him for sending the resolution\nution of the North American Congress on March 4,\nMarch 11: Chronicle of James M. Markham, correspondent\nnewspaper of the New York Times in Madrid with the title\n' Comment by Haig draws fire in Spain\"."
 }

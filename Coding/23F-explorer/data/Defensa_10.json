@@ -9,18 +9,51 @@
   "resumen_es": "Oficio SECRETO del Gabinete del Ministro de Defensa (20 abril 1981, núm. 317) comunicando al Jefe del Estado Mayor del Ejército el testimonio del Auto de Procesamiento del General de División don Luis Torres Rojas, una vez desestimado el recurso interpuesto, conforme al artículo 595 del Código de Justicia Militar. Firmado: Manuel Alonso Aguilar.",
   "resumen_en": "SECRET communication from the Minister of Defence's Cabinet (20 April 1981, no. 317) notifying the Army Chief of Staff of the prosecution record of Major General Luis Torres Rojas, after his appeal was dismissed, pursuant to Article 595 of the Military Justice Code. Signed: Manuel Alonso Aguilar.",
   "personas": [
-    { "nombre": "Luis Torres Rojas", "rol": "General de División, procesado en la Causa 2/81; comandante de División Acorazada Brunete" },
-    { "nombre": "Manuel Alonso Aguilar", "rol": "Firmante, Gabinete del Ministro de Defensa" }
+    {
+      "nombre": "Luis Torres Rojas",
+      "rol": "General de División, procesado en la Causa 2/81; comandante de División Acorazada Brunete"
+    },
+    {
+      "nombre": "Manuel Alonso Aguilar",
+      "rol": "Firmante, Gabinete del Ministro de Defensa"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
-    { "nombre": "Estado Mayor del Ejército (EME)", "tipo": "militar" }
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Estado Mayor del Ejército (EME)",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-04-20", "descripcion_es": "MinDef notifica al EME el procesamiento del General Torres Rojas en la Causa 2/81", "descripcion_en": "Ministry of Defence notifies Army Chief of Staff of General Torres Rojas' prosecution in Case 2/81", "lugar": "Madrid" }
+    {
+      "fecha": "1981-04-20",
+      "descripcion_es": "MinDef notifica al EME el procesamiento del General Torres Rojas en la Causa 2/81",
+      "descripcion_en": "Ministry of Defence notifies Army Chief of Staff of General Torres Rojas' prosecution in Case 2/81",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "procesamiento", "torres-rojas", "causa-2-81", "ministerio-defensa", "eme"],
-  "_meta": { "doc_id": "Defensa_10", "filename": "Carpeta_21800_Secreto_comunicacion_procesamiento_de_implicado_1.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "procesamiento",
+    "torres-rojas",
+    "causa-2-81",
+    "ministerio-defensa",
+    "eme"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_10",
+    "filename": "Carpeta_21800_Secreto_comunicacion_procesamiento_de_implicado_1.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "ss\nMINISTERIO DE DEFE GABINETE DEL MINISTRO SIS\nS/Ref.° Nom. Fecha N/Ref.° Nom.\n“pS\nASUNTO:\nExcmo. Señor:\nD Ó e orNden dlee a los fines legales correspondien-\nte , tengo honor remitir a V.E. testimonio del Auto\nde Procesamiento del Excmo. Sr. General de División don\nLUIS TORRES ROJAS, que por haber sido desestimado el re-\ncurso que contra 61 se interpuso, ha quedado firme, a los\nefectos de lo dispuesto en el artículo 55 del Código de\nJusticia Milita\nDios guarde a V.E. muchos años.\nMadrid, 2%/de Abril de 1.981.\nEL GENERAL JEFE DEL GABI\n“ Manuel Alonso Aguilar -\nExcmo. Sr. Teniente General Jefe del Estado Mayor del Ejército.\nMADRID",
+  "texto_completo_en": "ss\nMINISTRY OF DEFE MINISTER'S CABINET SIS\nS/Ref.° Nom. Date N/Ref. Nom.\n“pS\nSUBJECT:\nHon. Sir:\nD Ó e order dlee for the corresponding legal purposes.\nI have the honor to refer you to Your Excellency. testimony of the Car\nof Processing of the Hon. Mr. Division General Mr.\nLUIS TORRES ROJAS, who, because the appeal had been dismissed,\ncourse that was interposed against 61, has remained firm, to the\neffects of the provisions of article 55 of the Code of\nMilitary Justice\nGod save Your Excellency many years.\nMadrid, 2%/April 1981.\nTHE CHIEF GENERAL OF THE GABI\n“Manuel Alonso Aguilar -\nHon. Mr. Lieutenant General Chief of the Army Staff.\nMADRID"
 }

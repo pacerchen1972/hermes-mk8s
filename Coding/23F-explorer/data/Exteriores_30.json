@@ -9,20 +9,57 @@
   "resumen_es": "Carta personal en alemán del Canciller Federal de Austria Bruno Kreisky al Rey Juan Carlos I (Viena, 23 febrero 1981), redactada tras conocer el fracaso del intento de golpe de Estado. Kreisky alaba el 'historischen Befehl' (orden histórica) del Rey y le califica como una de las grandes personalidades de la época, expresando su admiración personal y su esperanza en el futuro democrático de España. El tono es cálido y personal, destacando que la decisión del Rey salvó la democracia española.",
   "resumen_en": "Personal letter in German from Austrian Federal Chancellor Bruno Kreisky to King Juan Carlos I (Vienna, 23 February 1981), written after learning of the failed coup attempt. Kreisky praises the King's 'historischen Befehl' (historic order) and describes him as one of the great personalities of our time, expressing personal admiration and hope for Spain's democratic future. The tone is warm and personal, emphasising that the King's decision saved Spanish democracy.",
   "personas": [
-    { "nombre": "Bruno Kreisky", "rol": "Canciller Federal de Austria, autor de la carta de admiración" },
-    { "nombre": "Juan Carlos I", "rol": "Rey de España, destinatario" }
+    {
+      "nombre": "Bruno Kreisky",
+      "rol": "Canciller Federal de Austria, autor de la carta de admiración"
+    },
+    {
+      "nombre": "Juan Carlos I",
+      "rol": "Rey de España, destinatario"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Cancillería Federal de Austria", "tipo": "gobierno" },
-    { "nombre": "Casa Real de España", "tipo": "gobierno" }
+    {
+      "nombre": "Cancillería Federal de Austria",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Casa Real de España",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-02-23", "descripcion_es": "El Canciller Kreisky escribe al Rey Juan Carlos I para expresar su admiración por su orden histórica que frustró el golpe", "descripcion_en": "Chancellor Kreisky writes to King Juan Carlos I to express admiration for his historic order that foiled the coup", "lugar": "Viena, Austria" }
+    {
+      "fecha": "1981-02-23",
+      "descripcion_es": "El Canciller Kreisky escribe al Rey Juan Carlos I para expresar su admiración por su orden histórica que frustró el golpe",
+      "descripcion_en": "Chancellor Kreisky writes to King Juan Carlos I to express admiration for his historic order that foiled the coup",
+      "lugar": "Viena, Austria"
+    }
   ],
   "citas_clave": [
-    { "texto_es": "Vuestra Majestad ha dado una orden histórica [historischen Befehl] que le sitúa entre las grandes personalidades de nuestra época", "texto_en": "Your Majesty has given a historic order [historischen Befehl] that places you among the great personalities of our era", "fuente": "Carta de Bruno Kreisky al Rey Juan Carlos I, 23 febrero 1981" }
+    {
+      "texto_es": "Vuestra Majestad ha dado una orden histórica [historischen Befehl] que le sitúa entre las grandes personalidades de nuestra época",
+      "texto_en": "Your Majesty has given a historic order [historischen Befehl] that places you among the great personalities of our era",
+      "fuente": "Carta de Bruno Kreisky al Rey Juan Carlos I, 23 febrero 1981"
+    }
   ],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "austria", "kreisky", "juan-carlos-i", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_30", "filename": "D.30._AGA-83-09301_exp._5.pdf", "folder": "exteriores/AGA-83-09301", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "austria",
+    "kreisky",
+    "juan-carlos-i",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_30",
+    "filename": "D.30._AGA-83-09301_exp._5.pdf",
+    "folder": "exteriores/AGA-83-09301",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "a + eee U6 J-1$/%1\nE yah : Wien, am 25. Februar 1981\nDie jahrelangen freundschaftlichen Beziehungen -\nauf die ich mich auf Grund Ihrer AuBerungen, Majestát,\nzu berufen erlaube - lassen es mir richtig erscheinen,\nIhnen aus Anlaf der vergangenen Ereignisse meine\ngrofe Bewunderung fiir Ihre Haltung zum Ausdruck zu\nbringen. Sie sind durch Ihre Botschaft und Ihren\nhistorischen Befehl zu einer der grofen Persónlich-\nkeiten der Geschichte unserer Zeit geworden, fiir\ndie Ihnen alle Demokratien Europas zu besonderem Dank\nverpflichtet sind.\nDarf ich mir , als einem der Alteren unter den\ndemokratischen Staatsmánnern Europas, erlauben, Ihnen\ndiesen Dank in besonders herzlicher Weise zum Ausdruck\nzu bringen.\n¡E\nAn\nSeine Majestát\nKónig Juan Carlos I. von Spanien\nMadox da\n\nd | | 416 323.0 (05) 1/51\nEL CANCILLER FEDERAL\nViena, a 25 de febrero de 1981-\nMajestad, |\nLas relaciones amistosas de muchos años - a las que me permito\nlatir basandome Majestad, en sus declaraciones — me hacen considerar\noportuno expresar mi gran admiración ' por su actuación durante los re-\ncientes acontecimientos. Por Sú mensaje y su mando histórico, se ha con-\nvertido en una de las grandes personalidades de ha*historia de nuestro\ntiempo, debiendo todas las democracias de Europa agradecerselo muy espe-\ncialmente.\nMe permito como uno de los estadistas demécraticos más antiguos\nde Europa, expresarle este agradecimiento de una forma muy especial.\nAtentamente |\nBruno Kreisky",
+  "texto_completo_en": "a + eee U6 J-1$/%1\nE yah : Wien, am 25. February 1981\nDie jahrelangen freundschaftlichen Beziehungen -\nauf die ich mich auf Grund Ihrer AuBerungen, Majestat,\nzu berufen erlaube - lassen es mir richtig erscheinen,\nIhnen aus Anlaf der vergangenen Ereignisse meine\ngrofe Bewunderung fiir Ihre Haltung zum Ausdruck zu\nbringen. Sie sind durch Ihre Botschaft und Ihren\nhistorischen Befehl zu einer der grofen Personlich-\nkeiten der Geschichte unserer Zeit geworden, fiir\nDie Ihnen alle Demokratien Europas zu kisserem Dank\nverpflichtet sind.\nDarf ich mir, als einem der Alteren unter den\ndemokratischen Staatsmánnern Europas, erlauben, Ihnen\ndiesen Dank in kissers herzlicher Weise zum Ausdruck\nzu bringen.\nAnd\nAn\nSeine Majestat\nKónig Juan Carlos I. von Spanien\nMadox da\n\nd | | 416 323.0 (05) 1/51\nTHE FEDERAL CHANCELLOR\nVienna, February 25, 1981-\nMajesty, |\nThe friendly relations of many years - to which I allow myself\nbeat based on your Majesty, on your statements - they make me consider\nopportune to express my great admiration for his performance during the re-\ncient events. By His message and his historical command, it has been con-\npoured into one of the great personalities in the history of our\ntime, and all the democracies of Europe owe a very special thank you.\ncially.\nI allow myself as one of the oldest democratic statesmen\nof Europe, to express this gratitude to you in a very special way.\nSincerely |\nBruno Kreisky"
 }

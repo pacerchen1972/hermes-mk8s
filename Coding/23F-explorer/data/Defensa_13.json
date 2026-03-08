@@ -10,14 +10,40 @@
   "resumen_en": "SECRET First Official communication from the Supreme Council of Military Justice (Carpeta 21800) accounting to the Ministry of Defence for taking a declaration from a witness or implicated person on events of 23-24 February 1981, within the Case 2/81 proceedings.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-01-03", "descripcion_es": "CSJM da cuenta al MinDef de la toma de declaración en el marco de la instrucción de la Causa 2/81", "descripcion_en": "CSJM accounts to Ministry of Defence for taking of declaration within Case 2/81 proceedings", "lugar": "Madrid" }
+    {
+      "fecha": "1982-01-03",
+      "descripcion_es": "CSJM da cuenta al MinDef de la toma de declaración en el marco de la instrucción de la Causa 2/81",
+      "descripcion_en": "CSJM accounts to Ministry of Defence for taking of declaration within Case 2/81 proceedings",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "declaraciones", "causa-2-81", "csjm", "ministerio-defensa"],
-  "_meta": { "doc_id": "Defensa_13", "filename": "Carpeta_21800_Secreto_oficio_dando_cuenta_toma_de_declaracion_1.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "declaraciones",
+    "causa-2-81",
+    "csjm",
+    "ministerio-defensa"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_13",
+    "filename": "Carpeta_21800_Secreto_oficio_dando_cuenta_toma_de_declaracion_1.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "Pie\npe\nConsejo\nSupremo\nde\n|\nJusticia Mreilitar\n|\nS/Ret.\nNúm\nSee\neee\n|\necha\nN/Ret.\nNúm\n2\nS\nin\n,\n4\n$\nY\n/\nk AL\nS\nC\n>",
+  "texto_completo_en": "Foot\npe\nAdvice\nSupreme\nof\n|\nJustice Mreilitar\n|\nS/Ret.\nNo.\nSee\neee\n|\ncast\nN/Ret.\nNo.\n2\nYes\nin\n,\n4\n$\nand\n/\nk AL\nYes\nc\n>"
 }

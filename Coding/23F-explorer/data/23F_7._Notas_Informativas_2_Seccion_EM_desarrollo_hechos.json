@@ -59,23 +59,84 @@
     }
   ],
   "organizaciones": [
-    { "nombre": "Dirección General de la Guardia Civil", "tipo": "policial" },
-    { "nombre": "Estado Mayor 2ª Sección", "tipo": "militar" },
-    { "nombre": "Grupo Servicios Especiales", "tipo": "policial" },
-    { "nombre": "Televisión Española", "tipo": "otro" },
-    { "nombre": "Radio Nacional de España", "tipo": "otro" },
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "JUJEM (Junta de Jefes de Estado Mayor)", "tipo": "militar" }
+    {
+      "nombre": "Dirección General de la Guardia Civil",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "Estado Mayor 2ª Sección",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Grupo Servicios Especiales",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "Televisión Española",
+      "tipo": "otro"
+    },
+    {
+      "nombre": "Radio Nacional de España",
+      "tipo": "otro"
+    },
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "JUJEM (Junta de Jefes de Estado Mayor)",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-02-23T18:20", "descripcion_es": "Primeras noticias por radio sobre el asunto del Congreso", "descripcion_en": "First radio news about the Congress incident", "lugar": "Madrid" },
-    { "fecha": "1981-02-23T19:00", "descripcion_es": "Gente de Tráfico y Parque armada toman entradas al Parlamento, con órdenes de no hablar con nadie", "descripcion_en": "Armed Traffic and Park police take Parliament entrances, ordered not to speak to anyone", "lugar": "Madrid" },
-    { "fecha": "1981-02-23T19:10", "descripcion_es": "La fuerza de la Guardia Civil que rodea el Parlamento empieza a retirarse", "descripcion_en": "The Civil Guard force surrounding Parliament begins to withdraw", "lugar": "Madrid" },
-    { "fecha": "1981-02-23T20:00", "descripcion_es": "Convoy militar de 22 camiones entra por la carretera N-1 (Irún) a la altura del km 20", "descripcion_en": "Military convoy of 22 trucks enters via the N-1 road (Irún) at km 20", "lugar": "Madrid, N-1" },
-    { "fecha": "1981-02-23T20:10", "descripcion_es": "Radio Valencia declara estado de sitio en 11 puntos", "descripcion_en": "Radio Valencia declares state of siege at 11 points", "lugar": "Valencia" },
-    { "fecha": "1981-02-23T20:35", "descripcion_es": "RNE ocupada. Carros de combate en Ciudad Periodistas", "descripcion_en": "RNE occupied. Battle tanks at Ciudad Periodistas", "lugar": "Madrid" },
-    { "fecha": "1981-02-23T20:40", "descripcion_es": "JUJEM ordena al Ejército proteger RNE y TVE. El Rey habla con todos los Capitanes Generales y con Milans del Bosch, quien niega haber ordenado nada", "descripcion_en": "JUJEM orders Army to protect RNE and TVE. The King speaks with all Captains General and Milans del Bosch, who denies ordering anything", "lugar": "Madrid" },
-    { "fecha": "1981-02-23T20:45", "descripcion_es": "El Coronel Manchado solo acepta órdenes de Milans del Bosch", "descripcion_en": "Colonel Manchado only accepts orders from Milans del Bosch", "lugar": "Madrid" }
+    {
+      "fecha": "1981-02-23T18:20",
+      "descripcion_es": "Primeras noticias por radio sobre el asunto del Congreso",
+      "descripcion_en": "First radio news about the Congress incident",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T19:00",
+      "descripcion_es": "Gente de Tráfico y Parque armada toman entradas al Parlamento, con órdenes de no hablar con nadie",
+      "descripcion_en": "Armed Traffic and Park police take Parliament entrances, ordered not to speak to anyone",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T19:10",
+      "descripcion_es": "La fuerza de la Guardia Civil que rodea el Parlamento empieza a retirarse",
+      "descripcion_en": "The Civil Guard force surrounding Parliament begins to withdraw",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T20:00",
+      "descripcion_es": "Convoy militar de 22 camiones entra por la carretera N-1 (Irún) a la altura del km 20",
+      "descripcion_en": "Military convoy of 22 trucks enters via the N-1 road (Irún) at km 20",
+      "lugar": "Madrid, N-1"
+    },
+    {
+      "fecha": "1981-02-23T20:10",
+      "descripcion_es": "Radio Valencia declara estado de sitio en 11 puntos",
+      "descripcion_en": "Radio Valencia declares state of siege at 11 points",
+      "lugar": "Valencia"
+    },
+    {
+      "fecha": "1981-02-23T20:35",
+      "descripcion_es": "RNE ocupada. Carros de combate en Ciudad Periodistas",
+      "descripcion_en": "RNE occupied. Battle tanks at Ciudad Periodistas",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T20:40",
+      "descripcion_es": "JUJEM ordena al Ejército proteger RNE y TVE. El Rey habla con todos los Capitanes Generales y con Milans del Bosch, quien niega haber ordenado nada",
+      "descripcion_en": "JUJEM orders Army to protect RNE and TVE. The King speaks with all Captains General and Milans del Bosch, who denies ordering anything",
+      "lugar": "Madrid"
+    },
+    {
+      "fecha": "1981-02-23T20:45",
+      "descripcion_es": "El Coronel Manchado solo acepta órdenes de Milans del Bosch",
+      "descripcion_en": "Colonel Manchado only accepts orders from Milans del Bosch",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [
     {
@@ -107,7 +168,13 @@
       "fecha": "1981-02-23"
     }
   ],
-  "temas": ["cronica-tiempo-real", "intervencion-rey", "milans-del-bosch", "ocupacion-medios", "despliegue-militar"],
+  "temas": [
+    "cronica-tiempo-real",
+    "intervencion-rey",
+    "milans-del-bosch",
+    "ocupacion-medios",
+    "despliegue-militar"
+  ],
   "_meta": {
     "doc_id": "23F_7._Notas_Informativas_2_Seccion_EM_desarrollo_hechos",
     "filename": "23F_7._Notas_Informativas_2_Seccion_EM_desarrollo_hechos.pdf",
@@ -115,5 +182,7 @@
     "is_image_pdf": true,
     "pages": 5,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "yb\nDIRECCION GENERAL DE LA GUARDIA CIVIL\nESTADO MAYOR - 22 SECCION.\n18,20 Noticias dadas por radio sobre asunto CORTES\n19,00 Gurpo Servicios Especiales./ Gente de Tráfico y Parque\ncon uniforme y armamento tienen tomadas entradas al Pax\nlamento y calles laterales./ Tienen órdenes de no hablar\ncon nadie./ Tambien hay Policia Nacional./ Se niegan a\nhablar con personal del Grupo Servicios Especiales.\n19,10 Grupo Servicios Especiales/. Según emisora dé Policia,\nde Fuerza de la Guardia Civil que rodea el Parlamento,\nse está retirando.\n19,20 Grupo Servicios Especiales/. Hay 7 autobuses del Parque\ncon personal/. Parece ser al mando del TCOL. TEJERO.\n19,50 Grupo Servicios Especiales/. Fuerzas Guardia Civil y Po-\nlicia al Mando de un TCOL. del Ejército están en Neptuno\ny se dirigen hacia las Cortes.\n20,00 Grupo Servicios Especiales/. Por Carretera N-1 (Irún),\nentra un convoy militar /. Es muy grande/. No saben en-\ntidad./ Grupo Servicios Especiales/. Son 22 camiones a\nla altura Km. 20.\n20,10 Información particular/ Parece ser que por Radio Valen-\ncia se ha declarado estado de sitio (11 puntos).\n20,15 Grupo Servicios Especiales/. En interior Cortes hay un\nTCOL y varios Oficiales/. Están todos los Diputados sen~\ntados/. Esperan a que llegue General Milán del Bosch. —\nNo retiran autobuses/. No obedecen a Director General.\n20,35 Diario Pueblo/. Han ocupado RNE, :\nDiario Pueblo/. Carros de combate en Ciudad Periodistas.\n20,40 CESID/. JUJEM ha ordenado que Ejército proteja RNE y TVE:\npara que nadie dé proclamas.\n20,40 TCOL. Cassinello habla con Zarzuela/. El Rey ha hablado\ncon todos los Capitanes General y con General Milan del\nBosch, negando este que haya ordenado nada.\n20,45 Coronel Manchado parece ser:que no acepta más Órdenes\nque las de Miláns del Bosch.\n\n20,45 Parece ser que Tte. Merlo (de Villoviciosa 14) esté -\ncon una tanqueta en TVE/, Parece que los 22 camiones se\ndirigen a TVE/. El Tte. Merlo dice que no acepta más —\nordenes que las de su Coronel/. Posteriormente se sabe\nque está alli cumplimentando \"Diane 2\".\n20,50 Grupo Servicios Especiales/ Carretera N-VI Km. 15, hay\n20 Land Rover de Guardia Civil.\n20,50 Fuerzas 1112 Comandancia controlan TVE y relevan a Fuer—\nzas Ejército (a las de Tte. Merlo).\n21,00 Diario Pueblo/. Están saliendo varios diputados (Felipe\nGonz'alez, Santiago Carrillo, Rodríguez Sahagún, Alfon-\nso Guerra, Gutierrez Mellado, Adolfo Suarez).\n21'20 Grupo Servicios Especiales/. Km. 15 Carretera N-1 hay ~\n22 Camiones Ej'ercito unos con personal y otros con ame\ntralladoras pesadas.\n21,20 Cía. Guardia Civil Alcalá/. BRIPAC ha tocado Generala/.\nNo han salido de Acuartelamiento.\n21,25 En 3 autocares particulares desembarcan en Dirección Ge-\nneral Fuerzas del GAR con abundante armamento y munición.\n21,30 Se confirma que TVE está controlada por Fuerzas 1112 Co-\nmandancia que relevaron a Fuerzas Ejército.\n\n21,30 (YA).—Son desalojados del Congreso los Civiles no di-\nPputados y funcionarios.\n22,15 (YA).-Llegada al Palacio del Congreso de 6 autocares\n(2 particulares) con fuerzas del GAR y GEI procedentes\nEl Escorial.\n(228c).-Se retiran de las inmediaciones del Congreso\nlas fuerzas de Policía Nacional.\nSin con (EFE).-Nota del Gobierno Civil de Sevilla anunciando\nfirmar la adopción de medidas cautelares y disuasorias para\ngarantizar la paz y seguridad ciudadanas.\nDIA 24\n00,07 (22 Sc).-Acompañado por el Director General del Cuerpo\ny procedentes del Hotel Palace, llega hasta el Congre-\nso el General Armada, penetrando éste en su interior y\nregresando el General Aramburu al Hotel.\n00,15 (EFE).—Ametrallamiento del Ayuntamiento de Santa Coloma\nde Gramanet donde se encontraba reunido e Consistorio,\npor varios individuos desde un automóvil.\n00,15 (YA).-Conversación telefónica del Rey con el Presidente\nde la Real Academia Gallega, Domingo Garcia Sabel, comur\nnicándole que la situación está controlada.\n01,14 (22 Sc).-Mensaje del Rey por TVE a toda la Nación. Duró\ndos minutos.\n01,25 (EFE).-Entrevista del Director General del Cuerpo con\nel Gobernador Civil de Madrid SR. Nicolás García, en\nel Hotel Palace.\n01,30 (22Sec).—Llegada a la puerta del Congreso de vehículos\ncon fuerza de Policía Militar pertenecientes a la Divi-\nsión Acorazada Brunete. Al frente de ellos un Comandan—\nte y un Capitán.\n02,30 (22Sc).-Parte de la fuerza de Policía Militar estacio-\nnada frente al Congreso, penetra en el patio interior\ndel edificio, entre los edificios viejo y nuevo.\n(EFE).-Acuden al Ayuntamiento de Valencia los represen\ntantes municipales, a la espera del Alcalde procedente\ndel Gobierno Civil,\n\n06,00 (EFE).—Componentes de los partidos políticos de mayor\nrepresentación parlamentaria, se reunen en el Ministe-\nrio del Interior.\n07,00 (YA).-El General Milans del Bosch ordena la retirada\nde los carros de las calles de Valencia.\n09,00 (YA).-Llegan a las proximidades del Congreso varias\nUnidades especiales de Policia Nacional (Escuadron GEO,\ny tanquetas).\n09, 30 Hotel Palace/11 Guardias quieren salir y parecer ser\nque los van a dejar.\n09'48 Radio/Se está desalojando el Congreso por orden del\ndel TCOL. TEJERO. Salen 8 diputados/Gabriel Cisneros\nsale en ambulancia.\n10,00 Hotel Palace/Los once Guardias que se entregaron que\nse entregaron son trasladados en 2 Land-Rover al Cole-\ngio de Guardias Jóvenes de VALDEMORO.\n10,00 Radio/Incidente del Sr. Fraga con la Guardia Civil. Es\nsacado del hemicido y trasladado a otra dependencia.\n10,00 Radio/Se rumorea que otros 20 Guardias se van a entre-\ngar en los próximos minutos.\n10'20 Radio/Han salido un total de 14 mujeres diputados. La\nnota la dió por radio el Capitán Astorga de la P.N.\n10,25 Comunicado de la Dirección de la Seguridad del Estado\npor radio/ \"Calma en todo el territorio español\",\n10,35 radio/Salen en ambulancia los diputados:\nSr. Garcia Margallo\nSr. Jesús Viana\ny parece ser también que la Sra. Carmela\nGarcia Moreno.\n1035 Radio/Comunicado de la JUJEM diciendo que la mayoría\nde los diputados podrían salir en diez minutos.\nA las 10'50 horas se desmintió por radio este comuni-\ncado.\nRadio/ Se sabe que están en habitaciones separadas '\nen una el Sr. Suárez, en otra los Sres. Felipe Gon-\nzález, Carrillo, Rodriguez Sahagún y en otra el Sr.\nFraga.\nRadio/ Un Guardia Civil sale en ambulancia.\nRadio/ El General Aramburu atraviesa la verja del Pa-\nlacio de Congresos.\n\n11,10 Radio/ Algunos Guardias Civiles saltan por las venta-\nnas del jer. piso hasta un total de casi 50. Son in-\ntroducidos en autocares del Cuerpo.\n11,20 Radio/ TCOL. TEJERO después de entrar el General ARAM-\nBURU se dirige a los Diputados diciendo: \"Da la sensa—\nción de que está solucionado el problema, mantengan la\ncalma\".\n11,25 Radio/ Parece que llega a un acuerdo (Intervención del\nGeneral Aramburu).\n11,25 Radio/ Autocares de la Guardia Civil se aproximan a las\nCortes a recoger a los Guardias Civiles.\n11,30 Radio/ Se dan a conocer las condiciones exigidas por\nel TCOL. TEJERO para entregarse.\n11,55 Radio/ Se inicia la salida de los Diputados con abso-\nluta normalidad.\n12,25 Radio/ Se entrega el TCOL. TEJERO al Director General\nde la Guardia Civil ne presencia del General Armada.",
+  "texto_completo_en": "and b\nGENERAL DIRECTORATE OF THE CIVIL GUARD\nGENERAL STAFF - 22 SECTION.\n18.20 News given by radio on CORTES issue\n19.00 Gurpo Special Services./ Traffic and Park People\nwith uniform and weapons they have taken entrances to the Pax\nlament and side streets./ They have orders not to speak\nwith anyone./ There is also the National Police./ They refuse to\ntalk to personnel from the Special Services Group.\n19.10 Special Services Group/. According to the police station,\nof Civil Guard Force that surrounds Parliament,\nis retiring.\n19.20 Special Services Group/. There are 7 park buses\nwith staff/. He appears to be in command of TCOL. WEAVING.\n19.50 Special Services Group/. Civil Guard and Police Forces\nLies in Command of a TCOL. of the Army are in Neptune\nand they head towards the Cortes.\n20.00 Special Services Group/. By Highway N-1 (Irun),\na military convoy enters /. It is very big/. They don't know in-\nentity./ Special Services Group/. There are 22 trucks\nthe height Km. 20.\n20.10 Particular information/ It seems that on Radio Valen-\na state of siege has been declared (11 points).\n20.15 Special Services Group/. Inside Cortes there is a\nTCOL and various Officials/. All the Deputies are sen~\nted/. They wait for General Milan del Bosch to arrive. —\nThey don't pick up buses. They do not obey the General Director.\n20.35 Diario Pueblo/. They have occupied RNE:\nPueblo Newspaper/. Battle tanks in Ciudad Periodistas.\n20.40 CESID/. JUJEM has ordered the Army to protect RNE and TVE:\nso that no one makes proclamations.\n20.40 TCOL. Cassinello talks to Zarzuela/. The King has spoken\nwith all the Captains General and with General Milan of the\nBosch, denying that he ordered anything.\n20.45 Colonel Manchado seems to be: he does not accept any more Orders\nthan those of Milans del Bosch.\n\n20.45 It seems that Lt. Merlo (de Villoviciosa 14) is -\nwith a tank on TVE/, It seems that the 22 trucks were\nthey direct to TVE/. The Lt. Merlo says he doesn't accept any more —\norders than those of his Colonel/. Later it is known\nwho is there completing \"Diane 2\".\n20.50 Special Services Group/ Highway N-VI Km. 15, there are\n20 Civil Guard Land Rovers.\n20.50 Forces 1112 Command control TVE and relieve Fuer—\nwow Army (to those of Lt. Merlo).\n21.00 Diario Pueblo/. Several deputies are leaving (Felipe\nGonz'alez, Santiago Carrillo, Rodríguez Sahagún, Alfon-\nso Guerra, Gutierrez Mellado, Adolfo Suarez).\n21'20 Special Services Group/. Km. 15 Highway N-1 there ~\n22 Army Trucks, some with personnel and others with personnel\nheavy shearers.\n21.20 Co. Civil Guard Alcalá/. BRIPAC has touched Generala/.\nThey have not left the Barracks.\n21.25 In 3 private coaches they disembark at General Direction.\nneral GAR Forces with abundant weapons and ammunition.\n21.30 It is confirmed that TVE is controlled by Fuerzas 1112 Co-\ncommand that relieved the Army Forces.\n\n21,30 (YA).—Civilians not participating in Congress are evicted from Congress.\nDeputies and officials.\n22.15 (NOW).-Arrival at the Congress Palace of 6 coaches\n(2 individuals) with forces from the GAR and GEI from\nThe Escorial.\n(228c).-They withdraw from the vicinity of Congress\nthe National Police forces.\nWithout with (EFE).-Note from the Civil Government of Seville announcing\nsign the adoption of precautionary and dissuasive measures to\nguarantee citizen peace and security.\nDAY 24\n00.07 (22 Sc).-Accompanied by the General Director of the Corps\nand coming from the Palace Hotel, it reaches the Congre-\nis the General Armada, who penetrates inside and\nGeneral Aramburu returning to the Hotel.\n00.15 (EFE).—Machine gunning of the Santa Coloma City Council\nof Gramanet where the Consistory was meeting,\nby several individuals from a car.\n00.15 (YA).-Telephone conversation between the King and the President\nof the Royal Galician Academy, Domingo Garcia Sabel, comur\nletting him know that the situation is under control.\n01.14 (22 Sc).-Message from the King on TVE to the entire Nation. lasted\ntwo minutes.\n01.25 (EFE).-Interview of the General Director of the Corps with\nthe Civil Governor of Madrid SR. Nicolás García, in\nthe Palace Hotel.\n01.30 (22Sec).—Vehicles arrive at the Congress door\nwith Military Police force belonging to the Division\nBrunete Armored sion. In front of them a Commander—\nyou and a Captain.\n02.30 (22Sc).-Part of the stationary Military Police force.\nnothing in front of Congress, enters the inner courtyard\nof the building, between the old and new buildings.\n(EFE).-They go to the Valencia City Council to represent them\nmunicipal representatives, waiting for the Mayor from\nof the Civil Government,\n\n06.00 (EFE).—Components of the largest political parties\nparliamentary representation, meet in the Ministry\nInterior river.\n07.00 (NOW).-General Milans of Bosch orders the withdrawal\nof the cars on the streets of Valencia.\n09.00 (NOW).- Several people arrive near the Congress\nSpecial units of the National Police (GEO Squadron,\nand tankettes).\n09, 30 Hotel Palace/11 Guards want to go out and appear to be\nthat they are going to leave them.\n09'48 Radio/Congress is being evacuated by order of the\nof TCOL. WEAVING. 8 deputies leave / Gabriel Cisneros\nHe leaves in an ambulance.\n10.00 Hotel Palace/The eleven Guards who surrendered\ndelivered are transported in 2 Land-Rover to Cole-\ngio of Young Guards of VALDEMORO.\n10.00 Radio/Incident of Mr. Fraga with the Civil Guard. It is\nremoved from the hemicide and transferred to another unit.\n10.00 Radio/It is rumored that another 20 Guards are going to train\ngar in the next few minutes.\n10'20 Radio/A total of 14 women deputies have left. The\nThe note was given by radio by Captain Astorga of the P.N.\n10.25 Statement from the Directorate of State Security\nby radio/ \"Calm throughout the Spanish territory\",\n10.35 radio/The deputies leave by ambulance:\nMr. Garcia Margallo\nMr. Jesus Viana\nand it also seems that Mrs. Carmela\nGarcia Moreno.\n1035 Radio/Communiqué from the JUJEM saying that the majority\nof the deputies could leave in ten minutes.\nAt 10:50 a.m. this communication was denied on the radio.\nfallen\nRadio/ They are known to be in separate rooms'\nin one Mr. Suárez, in another Messrs. Felipe Gon-\nzález, Carrillo, Rodriguez Sahagún and in another Mr.\nFraga.\nRadio/ A Civil Guard leaves in an ambulance.\nRadio/ General Aramburu crosses the gate of the Pa-\nCongress lace.\n\n11.10 Radio/ Some Civil Guards jump out of the windows\nnas del jer. floor to a total of almost 50. They are in-\ntransported on Corps coaches.\n11.20 Radio/TCOL. TEJERO after General ARAM entered\nBURU addresses the Deputies saying: \"Give the sense—\nthat the problem is solved, keep the\ncalm down.\"\n11.25 Radio/ It seems that an agreement is reached (Intervention of the\nGeneral Aramburu).\n11.25 Radio/Civil Guard buses approach the\nCortes to pick up the Civil Guards.\n11.30 Radio/ The conditions required by\nthe TCOL. TEJERO to surrender.\n11.55 Radio/ The departure of the Deputies begins with abso-\nmourning normality.\n12.25 Radio/ TCOL is delivered. TEJERO to the General Director\nof the Civil Guard and presence of the General Armada."
 }

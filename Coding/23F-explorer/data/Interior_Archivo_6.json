@@ -10,16 +10,49 @@
   "resumen_en": "Intelligence note (30-4-81, 4 pages) extending a previous April 21 note on a possible coup d'état, providing details on several alleged implicated persons (all names redacted). One belonged to the 'Partido Nacional Independiente' (small monarchist far-right group), son of a Cavalry Lieutenant Colonel with connections to the now-defunct Documentation Services of the Presidency (SECED/CESID predecessor). Another member of the 'Comunión Católica Monárquica' (legalised 1 April 1977), originally Carlist and now showing sympathy towards King Juan Carlos.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Partido Nacional Independiente", "tipo": "politica" },
-    { "nombre": "Comunión Católica Monárquica", "tipo": "politica" },
-    { "nombre": "Servicios de Documentación de la Presidencia del Gobierno (SECED)", "tipo": "seguridad" },
-    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+    {
+      "nombre": "Partido Nacional Independiente",
+      "tipo": "politica"
+    },
+    {
+      "nombre": "Comunión Católica Monárquica",
+      "tipo": "politica"
+    },
+    {
+      "nombre": "Servicios de Documentación de la Presidencia del Gobierno (SECED)",
+      "tipo": "seguridad"
+    },
+    {
+      "nombre": "Ministerio del Interior",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-04-30", "descripcion_es": "Nota informativa amplía investigación sobre posible nuevo golpe: identifica presuntos implicados vinculados a grupos monárquicos de extrema derecha y al antiguo SECED", "descripcion_en": "Intelligence note extends investigation into possible new coup: identifies alleged implicated persons linked to far-right monarchist groups and the former SECED", "lugar": "Madrid" }
+    {
+      "fecha": "1981-04-30",
+      "descripcion_es": "Nota informativa amplía investigación sobre posible nuevo golpe: identifica presuntos implicados vinculados a grupos monárquicos de extrema derecha y al antiguo SECED",
+      "descripcion_en": "Intelligence note extends investigation into possible new coup: identifies alleged implicated persons linked to far-right monarchist groups and the former SECED",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "posible-golpe", "extrema-derecha", "seced", "ministerio-interior", "carlismo"],
-  "_meta": { "doc_id": "Interior_Archivo_6", "filename": "6_POSIBLE_GOLPE_DE_ESTADO_desp.pdf", "folder": "interior/archivo", "is_image_pdf": true, "pages": 4, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "posible-golpe",
+    "extrema-derecha",
+    "seced",
+    "ministerio-interior",
+    "carlismo"
+  ],
+  "_meta": {
+    "doc_id": "Interior_Archivo_6",
+    "filename": "6_POSIBLE_GOLPE_DE_ESTADO_desp.pdf",
+    "folder": "interior/archivo",
+    "is_image_pdf": true,
+    "pages": 4,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "Asunto: POSIBLE GOLPE DE ESTADO\nComo ampliación a la nota informativa de fecha 21 del\ncorriente mes, en la que se concretaban diversos aspectos sobre\nun posible golpe de estado, se han podido precisar los siguien-\ntes nuevos extremos sobre algunos de los que se citan como pre-\nsuntos implicados:\npendiente, un reducido grupo político que aunque legalmente - -\nconstituido tiene una mfnima capacidad financiera y un número -\nde militantes reducidfsimo, es un hombre que como su partido es\nde ideología monárquica, si bien propugna la legitimidad de una\nrama dinástica opuesta a los Borbones, y es de tendencia neta--\nmente derechista. Es hijo de MMMM Teniente Coronel\nde Caballeria, que en la actualidad ejerce la función de Ayudan\nte de un General, por el momento no identificado. Según la fuen\nte informante, tanto el padre como el hermano, MAA\nO han tenido o tienen vinculaciones con algunos ser\nvicios de información militar. Al parecer», MN tuvo --\nciertos contactos con los ya desaparecidos Servicios de Documen\ntación de la Presidencia del Gobierno. Esta circunstancia le fa\ncilitaria a MJ el acceso a determinadas informacio-\nnes confidenciales.\n\nAunque normalmente pasa la mayor parte de la jornada\nen el domicilio ya citado de la calle MMM, lo cier\nto es que éste es propiedad de sus padres. La fuente informan-\nte señala que ha adquirido un piso en las afueras de Madrid, a\ndonde va únicamente a dormir. El teléfono que se ha detallado\ncomo correspondiente a ese piso, el número QM aparece\ncomo \"vacante\" en los servicios de la Telefónica.\nHace algún tiempo fue investigado por periodistas --\ndel semanario \"Interviú\", quienes pretendían hacer un reporta-\nje sobre 61 y sus compañeros de partido por actividades que --\nlos redactores en cuestión consideraban como \"ilicitas'\". No --\nhay constancia de que la información periodística haya visto -\nfinalmente la luz en las píginas de la revista.\nSu posición económica puede considerarse como sanea-\nda, ocupando un cargo relativamente importante en la empresa -\nPE (E >,\nfilial de la Compañía Telefónica Nacional de España.\nHombre muy inquieto políticamente, se había venido -\nmanifestando habitualmente como de ideología carlista, si bien\nen las últimas semanas parece que, influenciado por MM, —\nviene registrando una acusada tendencia a apoyar la línea gu--\nbernamental y de abierta simpatía hacia el Rey don Juan Carlos\nDe cualkier forma, sigue siendo MMMM de la Co-\nmunión Católico Monárquica, partido legalizado el 1 de abril -\nde 1977, cargo para el que fue elegido bastante después de la\nconstitución de este grupo, entre cuyos promotores (que inten-\ntaban constituir la Comunión Tradicionalista, lo que les fue -\ndenegado) no apareció entonces.",
+  "texto_completo_en": "Subject: POSSIBLE COUP D'ÉTAT\nAs an extension to the information note dated 21\ncurrent month, in which various aspects were specified\na possible coup d'état, the following have been specified\nnew extremes on some of those cited as pre-\nissues involved:\npending, a small political group that although legally - -\nconstituted has a minimum financial capacity and a number -\nof very small militants, he is a man who, like his party, is\nof monarchical ideology, although it advocates the legitimacy of a\ndynastic branch opposite to the Bourbons, and is of net tendency--\nright-wing mind He is the son of MMMM Lieutenant Colonel\nof Cavalry, which currently performs the function of Help\nfrom a General, currently unidentified. According to the source\nyour informant, both the father and the brother, MAA\nOr they have had or have links with some beings\nmilitary information vices. \"Apparently,\" MN had --\ncertain contacts with the now defunct Document Services\ntation of the Presidency of the Government. This circumstance made him\ncilitarian MJ access to certain information\nconfidential information.\n\nAlthough he usually spends most of the day\nat the address already mentioned on MMM Street, what is certain\nThis is the property of his parents. The source informs\nHe tells you that he has purchased an apartment on the outskirts of Madrid,\nwhere he only goes to sleep. The telephone number that has been detailed\nas corresponding to that floor, the QM number appears\nas a \"vacancy\" in Telefónica services.\nSome time ago he was investigated by journalists --\nfrom the weekly \"Interviú\", who intended to make a report\nheh about 61 and his party colleagues for activities that --\nthe editors in question considered them \"illegal.\" No --\nThere is evidence that journalistic information has seen -\nfinally the light on the pages of the magazine.\nIts economic position can be considered healthy.\nda, occupying a relatively important position in the company -\nPE (E >,\nsubsidiary of the National Telephone Company of Spain.\nA very restless man politically, he had come -\nusually manifesting as Carlist ideology, although\nIn recent weeks it seems that, influenced by MM, —\nhas been registering a marked tendency to support the gu--\nbernamental and open sympathy towards King Juan Carlos\nIn any case, it is still MMMM of the Co-\nCatholic Monarchist munion, party legalized on April 1 -\nof 1977, a position for which he was elected well after the\nconstitution of this group, among whose promoters (who tried to\nwere to constitute the Traditionalist Communion, which was -\ndenied) did not appear then."
 }

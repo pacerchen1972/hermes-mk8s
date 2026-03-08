@@ -9,18 +9,64 @@
   "resumen_es": "Informe integrado del CESID (N/ETA/DII/4332/11-03-82) sobre el inicio de la fase de interrogatorios de los procesados en la Causa 2/81. Analiza los esfuerzos de las defensas por filtrar en el ambiente la implicación del Rey; la estrategia de presentar a Armada actuando como 2º JEME con capacidad plena; y cómo las declaraciones del General Milans y del General Armada influyeron en el ánimo del TC Tejero. Evalúa el mensaje clandestino de que existen 'otros golpes sin desbaratar' circulando en el ambiente castrense.",
   "resumen_en": "CESID integrated report (N/ETA/DII/4332/11-03-82) on the start of the defendant interrogation phase in Causa 2/81. Analyses defence efforts to leak implications of the King's involvement; the strategy of presenting Armada as acting with full authority as 2nd JEME; and how General Milans's and General Armada's statements influenced Lt. Col. Tejero's attitude. Assesses the clandestine message that 'other unfoiled coups' are circulating in military circles.",
   "personas": [
-    { "nombre": "Alfonso Armada Comyn", "cargo": "General, segundo JEME", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Sus declaraciones en el juicio influyeron en la actitud del TC Tejero; presentado por la defensa como actuando con plena autoridad como 2º JEME"] },
-    { "nombre": "Jaime Milans del Bosch", "cargo": "Teniente General, Capitán General 3ª Región Militar", "organizacion": "Ejército de Tierra", "rol_en_23f": "golpista", "acciones": ["Sus declaraciones influyeron en el ánimo del TC Tejero; confirmaron el papel de mando de Tejero dentro de la operación"] }
+    {
+      "nombre": "Alfonso Armada Comyn",
+      "cargo": "General, segundo JEME",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Sus declaraciones en el juicio influyeron en la actitud del TC Tejero; presentado por la defensa como actuando con plena autoridad como 2º JEME"
+      ]
+    },
+    {
+      "nombre": "Jaime Milans del Bosch",
+      "cargo": "Teniente General, Capitán General 3ª Región Militar",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "golpista",
+      "acciones": [
+        "Sus declaraciones influyeron en el ánimo del TC Tejero; confirmaron el papel de mando de Tejero dentro de la operación"
+      ]
+    }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-03-11", "descripcion_es": "CESID evalúa el impacto de las declaraciones de Armada y Milans sobre Tejero; detecta esfuerzo clandestino por implicar al Rey; alerta sobre rumores de 'otros golpes sin desbaratar'", "descripcion_en": "CESID assesses impact of Armada's and Milans's statements on Tejero; detects clandestine effort to implicate the King; alerts to rumours of 'other unfoiled coups'", "lugar": null }
+    {
+      "fecha": "1982-03-11",
+      "descripcion_es": "CESID evalúa el impacto de las declaraciones de Armada y Milans sobre Tejero; detecta esfuerzo clandestino por implicar al Rey; alerta sobre rumores de 'otros golpes sin desbaratar'",
+      "descripcion_en": "CESID assesses impact of Armada's and Milans's statements on Tejero; detects clandestine effort to implicate the King; alerts to rumours of 'other unfoiled coups'",
+      "lugar": null
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "causa-2-81", "cesid", "armada", "milans", "tejero", "rey", "opinion-militar", "riesgo-golpista"],
-  "_meta": { "doc_id": "CNI_Documento_65_R", "filename": "Documento_65_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "armada",
+    "milans",
+    "tejero",
+    "rey",
+    "opinion-militar",
+    "riesgo-golpista"
+  ],
+  "_meta": {
+    "doc_id": "CNI_Documento_65_R",
+    "filename": "Documento_65_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "N/RFA:C/DI/ 4132 /11-3-82\nINFORMACION INTEGRADA\nASUNTO.- DESARROLLO DE LA VISTA PUBLICA DE LA CAUSA 2/81\nEl comienzo de esta nueva fase de interrogatorios ha reaviva-\ndo, como era de esperar, el interés por el desarrollo del proce-\nso. Un nuevo incidente, el orden en que debian ser interrogados\nlos procesados, fué resuelto en favor del criterio de la defensa\nen contra de la opinión del fiscal, cosa que quedó en el ambien-\nte. Aparece la sensación de que el Tribunal está tomando una se-\nrie de decisiones desde una posición coyuntural de fuerza que ~~\npueden contribuir a acumular tensiones entre la jurisdicción cas\ntrense y ciertos sectores sociales.\nA lo largo de esta nueva fase cabe destacar la insistencia de\nla defensa por dejar flotar en el ambiente la implicación del -\nRey, el estado de caosexistente en las fechas anteriores al 23-F\ny la amenazante existencia de \"otros golpes\" aún sin desbaratar.\nDe otra parte, las declaraciones del General Milans y del Gene\nral Armada han influido claramente en el ánimo del Teniente Coro\nnel Tejero. Las del primero presentan indirectamente la acción\ndel Teniente Coronel como la de un grupo violento y manipulado al\nque hubiera esperado el exilio en caso de haber sido posible la -\nreconducción de dicha acción. Las del General Armada presentan al\nTeniente Coronel sereno y firme en el mando,y a los miembros de su\ngrupo como hombres de bien incapaces de una masacre. Aboga asi-\nmismo por el cumplimiento de lo pactado en la rendición. En sin-\ntesis, es posible que las declaraciones del General Milans hayan\nproducido un ligero desencanto en el ánimo del Teniente Coronel\nTejero, mientras que las del General Armada hayan suavizado el ~\nrechazo inicial hacia su persona. Cabría por tanto esperar algu-\nna sorpresa en las declaraciones del Teniente Coronel y quizá un\naglutinamiento del grupo de miembros de la Guardia Civil procesa-\ndos.\n\nPor lo que respecta a las FAS, quizá sea el ámbito en el que\nse haya producido un mayor aumento de la atención con que se\nsigue el proceso a partir de que se iniciara la declaración de\nlos procesados. Se mantiene sin embargo la ausencia de tensio-\nnes y el hermetismo en las manifestaciones externas.\nLa \"carta al Rey\" se sigue difundiendo mano a mano; su influ\njo ideológico es negativo aunque poco perceptible, Otras formas\nde propaganda influyen escasamente\nDe otra parte cunde en las FAS la sensación de que la Insti-\ntución Militar saldrá poco favorecida de la causa 2/81.\nEn otro orden de cosas, se ha producido la detención, muy sig-\nnificativa de miembros de \"PRIMERA LINEA\" de FEJONS con varios\nKilos de propaganda de la Unión Militar Española (UME). En el\nhecho resalta la importancia de que,en las circunstancias actua\nles, la filial de un partido legal participe activamente en la\ndifusión de tal propaganda.\nDebe aclararse en primer lugar que ningún dato objetivo permi\nte suponer la existencia real de un grupo clandestino militar\norganizado como tal, más allá de la connivencia y frecuente re-\nlación de media docena de militares con dicho grupo falangista\nradical, que por otra parte son sobradamente conocidos por sus\npresuntas implicaciones en actividades involucionistas dadas a\nconocer por la prensa.En segundo lugar destaca el interés de los\nsectores más implicados en la involución de hacer creer a las -\nFAS y a la sociedad española en general que existe tal grupo mi-\nlitar organizado para un golpe de estado, pretendiendo con ello\namedrentar y convencer en función de sus fines. Ello puede rela-\ncionarse también por una parte con la extensión que está adqui-\nriendo en las últimas horas el rumor, artificialmente propalado,\nde la existencia de un \"golpe duro\" en el horizonte próximo, Y -\npor otra con la frecuente mención que en el desarrollo de la vis\nta pública de la causa 2/81 se hace a la existencia de tres modos\ndiferentes de golpe de estado que habrian quedado potencialmente\npendientes de ejecución.: Todo ello parece obedecer a una operación\npsicológica, coordinada o no, destinada a presionar tanto a los -\njueces como a la sociedad.",
+  "texto_completo_en": "N/RFA:C/DI/ 4132 /11-3-82\nINTEGRATED INFORMATION\nSUBJECT.- DEVELOPMENT OF THE PUBLIC HEARING OF CASE 2/81\nThe beginning of this new phase of interrogations has rekindled\nAs expected, the interest in the development of the process\nso. A new incident, the order in which they had to be interrogated\nthe defendants, was resolved in favor of the defense criteria\nagainst the opinion of the prosecutor, which remained in the air.\nyou. There is a feeling that the Court is taking a decision\nseries of decisions from a conjunctural position of strength that ~~\ncan contribute to accumulating tensions between the jurisdiction cas\ntrain and certain social sectors.\nThroughout this new phase, it is worth highlighting the insistence of\nthe defense of letting the implication of - float in the environment\nRey, the state of chaos existing on the dates prior to 23-F\nand the threatening existence of \"other blows\" still undisturbed.\nOn the other hand, the statements of General Milans and Gene\nral Armada have clearly influenced the spirit of Lieutenant Coro\nnel Tejero. Those of the first indirectly present the action\nof the Lieutenant Colonel as that of a violent and manipulated group\nwho would have waited for exile if the -\nredirection of said action. Those of the General Armada present to the\nLieutenant Colonel serene and firm in command, and the members of his\ngroup as good men incapable of a massacre. Advocate like this\nsame for compliance with what was agreed upon in the surrender. In sin-\nthesis, it is possible that General Milans' statements have\nproduced a slight disenchantment in the spirit of the Lieutenant Colonel\nTejero, while those of General Armada have softened the ~\ninitial rejection towards him. One might therefore expect some\nsurprise in the statements of the Lieutenant Colonel and perhaps a\ngathering of the group of members of the Civil Guard\ntwo.\n\nAs far as the FAS is concerned, perhaps it is the area in which\nthere has been a greater increase in the attention with which\nThe process follows from the moment the declaration of\nthose processed. However, the absence of tension is maintained.\nnes and hermeticism in external manifestations.\nThe \"letter to the King\" continues to be spread hand to hand; his influence\nideological jog is negative although hardly perceptible. Other forms\npropaganda has little influence\nOn the other hand, there is a feeling in the FAS that the Institution\nMilitary tution will emerge little favored from case 2/81.\nIn another order of things, the arrest has occurred, very\nnificant number of members of \"PRIMERA LINEA\" of FEJONS with several\nKilos of propaganda from the Spanish Military Union (UME). In the\nfact highlights the importance that, in the current circumstances\nles, the affiliate of a legal party actively participates in the\ndissemination of such propaganda.\nIt should be clarified first of all that no objective data allows\nassume the real existence of a clandestine military group\norganized as such, beyond the connivance and frequent re-\nconnection of half a dozen soldiers with said Falangist group\nradical, which on the other hand are well known for their\nalleged implications in involutionary activities given to\nknow through the press. Secondly, the interest of the\nsectors most involved in the involution of making people believe -\nFAS and Spanish society in general that such a group exists\nlitar organized for a coup d'état, thereby intending\nintimidate and convince according to their purposes. This can relate\non the one hand with the extension that is being acquired.\nlaughing in the last hours at the rumor, artificially spread,\nof the existence of a \"hard blow\" on the near horizon, AND -\non the other hand with the frequent mention that in the development of vision\npublic information of case 2/81 is brought into existence in three ways\ndifferent coup d'état that would have potentially been\npending execution: All of this seems to be due to an operation\npsychological, coordinated or not, aimed at putting pressure on both -\njudges as well as society."
 }

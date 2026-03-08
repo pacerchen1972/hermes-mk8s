@@ -24,20 +24,33 @@
       "cargo": "Coronel",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Sus declaraciones 1ª y 3ª fueron leídas; el defensor de Armada señaló que se había omitido parte"]
+      "acciones": [
+        "Sus declaraciones 1ª y 3ª fueron leídas; el defensor de Armada señaló que se había omitido parte"
+      ]
     },
     {
       "nombre": "Pedro Mas Oliver",
       "cargo": "Teniente Coronel de Infantería",
       "organizacion": "Ejército de Tierra",
       "rol_en_23f": "conspirador",
-      "acciones": ["Sus declaraciones 1ª y 3ª fueron leídas en la sesión"]
+      "acciones": [
+        "Sus declaraciones 1ª y 3ª fueron leídas en la sesión"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Sector de Valencia", "tipo": "militar" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Sector de Valencia",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
     {
@@ -70,7 +83,15 @@
       "fecha": "1982-02-20"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "cesid", "tejero", "sector-de-valencia", "rey-juan-carlos", "vista-oral"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "tejero",
+    "sector-de-valencia",
+    "rey-juan-carlos",
+    "vista-oral"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_70_R",
     "filename": "Documento_70_R.pdf",
@@ -78,5 +99,7 @@
     "is_image_pdf": false,
     "pages": 3,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "C/SG/2820/20-02-82.\n, bT-OR .\n.\nNOTA INFORMATIVA\nASUNTO: Vista oral 2/81\n1.- DESARROLLO DE LA SESION CORRESPONDIENTE AL 20-02-82 .\nSolo ha tenido lugar la sesi6n de la mañana. Empez6 a las\n10,06 horas.\nDurante la sesión han tenido lugar, a petición del Sr. Fi~\ncal las declaraciones siguientes:\no\n• Parcial de Teniente Coronel D. Luis Arana Lorite(Ayte.\nGral. Lluch) •\n. Parcial de· Teniente Coronel D. Manuel Miler Hidalgo(Ayte.\nGral~ Esquivias) .\n• 1ª,2ª,3ª y 4ª del Teniente Coronel TEJERO .\n. Careo Teniente Coronel TEJERO - SR. CARRES.\nDescanso de· 11 , 50 horas a 12, 13 horas .\n. Careo Teniente Coronel TEJERO - Capitán GOMEZ IGLESIAS\nCertificación del Presidente del Congreso Sr. LAVILLA .\n• Certificación sobre la situación militar del TCOL.TEJE\nRO •\n. lª y 3ª del Coronel D. DIEGO IBANEZ INGLES\n.. Certificación del entonces Gobernador Civil de Valencia\nD.José María Fernández del Rio Fernández\n. 1ª y 3ª del Teniente Coronel MAS OLIVER.\nLa vista se interrumpió hasta las 10,00 horas del lunes\ndía 22-02-82.\n-1-\n./.\n\n..\n2.- INCIDENCIAS E IMPRESIONES EN TORNO AL DESARROLLO DE LA SE\nSION. ':\nAl finalizar la lectura de la segunda declaraci6n del Co\n1\nronel Ibañez el defensor del Gral. Armada hizo notar que\nse había omitido parte de la declaraci6n; el presidente·\naccedi6 a que se leyera lo omitido.\nEl fiscal continúa pidiendo se lean.declaraciones parcia\nles. Al parecer existía un acuerdo informal de la SALA pa\nra permitir la lectura parcial de diligencias, así como no\nsolicitar la lectura de declaraciones de personas citadas\ncomo testigos a la vista oral.\no\nEste último aspecto fué roto ayer por el Sr. Fiscal.\nUno de. los defensores manifiesta:. que habían llegado a una\n\"especie de acuerdo\", antes de comenzar la vista, según el\ncual ni el Ministerio Fiscal ni los .defensores iban a pedir\nexcesivas lecturas de declaraciones. Sin embargo la línea\ndel Fiscal está alarg~ndo de manera muy notable ésta fase\ninicial de la vista; puede dar lugar además a que algunos\ndefensores hagan lo mismo.\nReticencias y sonrisas de defensores y codefensores al leer\nse las declaraciones:\n()\n. Gobernador Civíl de Valencia\n. Teniente Coronel Tejero\nContinúa invocandose el protagonismo del REY y paralelamen-\n', te el de la REINA; se afirma tenían conocimiento de lo que\nse proponían realizar los procesados. La lectura de declara\nciones de algunos procesados hace que el nombre de Su Maje~\ntad esté_presente de modo continuado. En quienes no tengan\nun juicio formado al respecto, introduce la duda en torno a\nla. conducta del REY.\n-2-\n.\n/.\n\nEl CESID fila de declaraciones,con\nuna nueva figura: el SECTOR DE VALENCIA.\nEn la cuarta declaración del Teniente Coronel TEJERO\nafirma que habia más personas del CESID implicadas.\n3.- OTRAS INFORMACIONES DE CARACTER GENERAL\nLos familiares ván tomando más actividad y se acercan más\na las primeras filas. También realizan ge_stos y comenta\nrios.\nComentario entre letrados invitados sobre que está perfi\nlada una misma linea defensiva que comprende al Gral. Ar\nmada, Cte. Cortina y Cap. Gómez Iglésias.\nMenor asistencia de invitados (Periodistas, familiares y\n()\nasimismo militares).\nPRENSA:\nDesde Barcelona ha llamado LA VANGUARDIA a la sala de pren\nsa requiriendo información sobre qué decisión se .adoptará en\nrelación a los documentos que, al parecer, tiene el editor\nLARA (Supuesta maleta del _Cap. Sánchez Valiente).\nSEGURIDAD INTERIOR:\nLa salida de los procesados al finalizar cáda sesión, se·vé\nalterada por la presencia de familiares y periodistas. Esta\no\ncircunstancia, ·que puede dar lugar a incidentes, deberia ser\nevitada.\nSEGURIDAD EXTERIOR:\nMenos efectivos que en el dia de ayer, al menos aparentemen\nte, a lo largo del itinerario. Esta circunstancia se ha vi~\nto agravada por la no presencia de la Guardia Civil de Trá\nfico regulando la circulación en semáforos y giros obliga\ndos, sobre todo en la zona de Aluche a caballo sobre la -\ncarretera de Extremadura.\n-3-",
+  "texto_completo_en": "C/SG/2820/20-02-82.\n, bT-OR .\n.\nINFORMATIVE NOTE\nSUBJECT: Oral hearing 2/81\n1.- DEVELOPMENT OF THE SESSION CORRESPONDING TO 02-20-82.\nOnly the morning session has taken place. It started at\n10.06 hours.\nDuring the session, at the request of Mr. Fi~\ncal the following statements:\nor\n• Partial of Lieutenant Colonel D. Luis Arana Lorite (Ayte.\nGen. Lluch) •\n. Partial of · Lieutenant Colonel D. Manuel Miler Hidalgo (Ayte.\nGral~ Esquivias).\n• 1st, 2nd, 3rd and 4th of Lieutenant Colonel TEJERO.\n. Careo Lieutenant Colonel TEJERO - MR. CARRES.\nRest from 11:50 a.m. to 12:13 p.m.\n. Careo Lieutenant Colonel TEJERO - Captain GOMEZ IGLESIAS\nCertification of the President of Congress Mr. LAVILLA.\n• Certification on the military situation of TCOL.TEJE\nRO •\n. 1st and 3rd of Colonel D. DIEGO IBANEZ ENGLISH\n.. Certification of the then Civil Governor of Valencia\nMr. José María Fernández del Rio Fernández\n. 1st and 3rd of Lieutenant Colonel MAS OLIVER.\nThe hearing was interrupted until 10:00 a.m. on Monday\nday 02-22-82.\n-1-\n./.\n\n..\n2.- INCIDENTS AND IMPRESSIONS REGARDING THE DEVELOPMENT OF THE SE\nZION. ':\nAt the end of the reading of the second declaration of the Co\n1\nRonel Ibañez, the defender of the General Armada, noted that\npart of the statement had been omitted; the president\nHe agreed to have what was omitted read.\nThe prosecutor continues to ask that partial statements be read.\nthem. Apparently there was an informal agreement of the SALA to\nto allow partial reading of proceedings, as well as not\nrequest the reading of statements of cited persons\nas witnesses at the oral hearing.\nor\nThis last aspect was broken yesterday by the Prosecutor.\nOne of. The defenders state: that they had reached a\n\"kind of agreement\", before starting the hearing, according to the\nwhich neither the Prosecutor's Office nor the defenders were going to ask for\nexcessive reading of statements. However the line\nof the Prosecutor is lengthening this phase in a very notable way\ninitial view; It may also lead to some\ndefenders do the same.\nReluctance and smiles from defenders and co-defenders when reading\nI know the statements:\n()\n. Civil Governor of Valencia\n. Lieutenant Colonel Tejero\nThe protagonism of the KING continues to be invoked and, at the same time,\n', you that of the QUEEN; It is stated that they were aware of what\nthey proposed to carry out the proceedings. Reading declares\ntions of some defendants makes the name of His Majesty~\ntad be_present continuously. In those who do not have\na judgment formed in this regard, introduces doubt about\nthe. conduct of the KING.\n-2-\n.\n/.\n\nThe CESID row of declarations, with\na new figure: the VALENCIA SECTOR.\nIn the fourth statement of Lieutenant Colonel TEJERO\nHe claims that there were more people from CESID involved.\n3.- OTHER GENERAL INFORMATION\nFamily members are becoming more active and getting closer\nto the first rows. They also make gestures and comment\nrivers.\nCommentary between invited lawyers about what is perfi\nlades the same defensive line that includes General Ar\nmada, Cte. Curtain and Cap. Gómez Iglésias.\nLower attendance of guests (Journalists, family members and\n()\nalso military).\nPRESS:\nFrom Barcelona, LA VANGUARDIA called the press room\nsa requesting information about what decision will be adopted in\nrelation to the documents that, apparently, the editor has\nLARA (Alleged suitcase of _Cap. Sánchez Valiente).\nINTERIOR SECURITY:\nThe output of the processed at the end of each session is seen\naltered by the presence of family and journalists. This\nor\ncircumstance, which may give rise to incidents, should be\navoided.\nEXTERNAL SECURITY:\nLess effective than yesterday, at least apparently\nyou, along the itinerary. This circumstance has been seen\naggravated by the non-presence of the Traffic Civil Guard\nfico regulating traffic at traffic lights and turns requires\ntwo, especially in the Aluche area on horseback on the -\nExtremadura highway.\n-3-"
 }

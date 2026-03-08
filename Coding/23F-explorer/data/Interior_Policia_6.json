@@ -10,14 +10,41 @@
   "resumen_en": "Interior Intelligence Brigade note (39-497G, 18 March 1981). The director of 'Cambio-16' [REDACTED] and the Interior Ministry head of press are preparing a book on the 23-F military coup. The central thesis is that it was based on 'Operación Ariete', designed during the Carrero Blanco era, comprising: 1) power vacuum; 2) mass demonstrations. The second part was stopped in Barcelona at 6 AM. It would reveal that 6,206 guards stormed the Congress building with a plan that envisaged 80-110 deaths.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
-    { "nombre": "Cambio-16", "tipo": "medios" }
+    {
+      "nombre": "Brigada de Información Interior",
+      "tipo": "seguridad"
+    },
+    {
+      "nombre": "Cambio-16",
+      "tipo": "medios"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-18", "descripcion_es": "Brigada detecta que periodistas preparan libro sobre 'Operación Ariete' como base del 23-F; datos sensibles sobre número de guardias y plan de muertes", "descripcion_en": "Brigade detects journalists preparing book on 'Operación Ariete' as basis of 23-F; sensitive data about number of guards and planned deaths", "lugar": "Madrid" }
+    {
+      "fecha": "1981-03-18",
+      "descripcion_es": "Brigada detecta que periodistas preparan libro sobre 'Operación Ariete' como base del 23-F; datos sensibles sobre número de guardias y plan de muertes",
+      "descripcion_en": "Brigade detects journalists preparing book on 'Operación Ariete' as basis of 23-F; sensitive data about number of guards and planned deaths",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "operacion-ariete", "cambio-16", "prensa", "carrero-blanco", "brigada-informacion-interior"],
-  "_meta": { "doc_id": "Interior_Policia_6", "filename": "18-03-81_NOTA_INFORMATIVA_SOBRE_LA_OPERACION_ARIETE.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "operacion-ariete",
+    "cambio-16",
+    "prensa",
+    "carrero-blanco",
+    "brigada-informacion-interior"
+  ],
+  "_meta": {
+    "doc_id": "Interior_Policia_6",
+    "filename": "18-03-81_NOTA_INFORMATIVA_SOBRE_LA_OPERACION_ARIETE.pdf",
+    "folder": "interior/policia",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "|\n“\n1\nV\n8\na\n6\nd\n*\nd\n1\n0\nu e\np\nV\nT o\nY A z\nA\nA\nN\nH z\ne\na\nO\nw\nT\nO\nY\na\nI a\nL\np\nI V\nw\nN\ns\n8\nI\ni\nV\nv l\na 1\nv o d\nr w a\nT\n*\n‘p\n“ t\nu\na p\n3 e\ny\nv-\n0\nN\n7\nT\na\nt\nO\nOL\nN\nN\nS\nY\nL\nS\nH\nO\nL\nD\nW\n2\nL\nM\n9\nI\nW\nA\nD\nO\nO\na\n)\n\n39-497 SG.\naah it\nASUNTOS Bh Zins BASADO BM LA \"OPERACION AREEER® —\nGoLPé dé\nESTANO.-\nla el libro que el direeter de \"Cambio=16\", QUE,\nQUID, y el jefe de prensa del itinisterio del Interior, Wh-\nGEE, preparen sebro el golpe militar del 23-7, -\nproyectan revelar diversas fesetas baste chora ne divulgades.\ndef la eovalucoión que se híso del proyentado asalto por les ay\nGEOS al Palecio del Cengrese, ocupado por WER. La epera-\nción se «ealeuló que supondría entre 80 y 110 muertes y une\nde los aspectos que la feces fue ol hesho de que el a\nWMA porasmcciora en un denpacho inmedicto a una\nde las vías de penetración catudiadas,\nLea autores del líbro barajan la tesis de que el\ngolpe militar estuve tasado en la \"Operación Aricte\", dise-\nflada por el JUE e la época de Carrere Mag\nCe, y que constaba de dos partes: 18) Vaofo de poder; y 28)\ndesSydenen de masas. Esta segunda fue frenada en Bareqlous | py\npasadas lus seis de la aadrugads, en que se exuló une convo- |\n¿2\ny y\ncateria callejaya de CC.00. y UGT.\n‘\ner\n1\n\"YNde\n»\ny\né\n4\n|\n'”\n4\n4\nMadrid, 18 de marzo de 1.981",
+  "texto_completo_en": "|\n“\n1\nV\n8\nto\n6\nd\n*\nd\n1\n0\nu e\np\nV\nYou or\nY A z\nA\nA\nN\nHz\nand\nto\nOr\nw\nT\nOr\nand\nto\nI to\nl\np\nIV\nw\nN\nyes\n8\nI\ni\nV\nv l\nto 1\nv or d\nr w a\nT\n*\n'p\n“t\nu\na p\n3e\nand\nv-\n0\nN\n7\nT\nto\nt\nOr\nOL\nN\nN\nYes\nand\nl\nYes\nh\nOr\nl\nd\nW\n2\nl\nM\n9\nI\nW\nA\nd\nOr\nOr\nto\n)\n\n39-497 SG.\naah it\nBh Zins ISSUES BASED ON BM \"OPERATION AREEER® —\nGoLPé give\nESTANO.-\nthe the book that the direeter of \"Change=16\", WHAT,\nQUID, and the press chief of the Ministry of the Interior, Wh-\nGEE, prepare for the military coup of 7/23, -\nThey plan to reveal various fesetas baste chora ne disclosures.\ndef the evaluation that was made of the planned assault by them\nGEOS to the Palecio del Cengrese, occupied by WER. The wait-\n\"It was estimated that it would mean between 80 and 110 deaths and\nof the aspects that the feces was ol fact that the a\nWMA porasmcciora in an unmedicated office at a\nof the catudied penetration routes,\nRead the book's authors consider the thesis that the\nmilitary coup I was assessed in \"Operation Aricte\", designed\nFlada by JUE and the time of Carrere Mag\nCe, and which consisted of two parts: 18) Vaofo of power; and 28)\nmass deSydenen. This second one was stopped in Bareqlous | py\nafter six hours of the morning, in which a convo was exiled |\n2\nand and\nCallejaya catering at CC.00. and UGT.\n'\ner\n1\n\"YNde\n»\nand\nhe\n4\n|\n'”\n4\n4\nMadrid, March 18, 1981"
 }

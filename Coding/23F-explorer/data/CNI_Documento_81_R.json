@@ -14,12 +14,20 @@
       "cargo": "Comandante de Infantería, CESID/AOME",
       "organizacion": "CESID",
       "rol_en_23f": "conspirador",
-      "acciones": ["Su Unidad Escuela disponía de un sistema de transmisiones independiente, certificado por el CESID para la Causa 2/81"]
+      "acciones": [
+        "Su Unidad Escuela disponía de un sistema de transmisiones independiente, certificado por el CESID para la Causa 2/81"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
     {
@@ -39,7 +47,14 @@
       "fecha": "1982-01-08"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "cesid", "cortina", "transmisiones", "certificacion"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "cortina",
+    "transmisiones",
+    "certificacion"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_81_R",
     "filename": "Documento_81_R.pdf",
@@ -47,5 +62,7 @@
     "is_image_pdf": true,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "|\nemAA:a. aie obeseeS ie .oe. Ln3 tr. 3 4CSte: e . 4 Si FzAA I+aNn.DAA er IseseriedEaeLt673\n. GENTRO SUPERIOR\n2 G G RAF M e INISTERIO DE DEFENSA —.|' Mw\nbikBe hn\nINFONMACION DE LA DEFENSA\nSree\n_ MICROFILMACION 00305 /sg. |\ne Nittof, Nica,\n8/Ref. Nim =o\nCausa 2/81 2 BOL. AM\nASUNTO: CERTIFICACIÓN SOLICITADA. PARA SU UNION A LA CAUSA 2/81 DEL CONSEJO SUPREMO\n.\n\"DEOUSTICIA MILITAR, ,\n7\nEXCMO. SEÑOR:\nDando, cumplimiento a-cuanto interesa en su Ofiéto de fecha 8del\npresentemes de Enero, librado para dar cumplimientoa lo acordado enAuto --\ndel Consejo Reunido en Sala de Justicia, de fecha 17deNoviembre de 1981, y +\n- en relación con los extremos a que 5€ refiere en el-mismo, cúmpleme manifes--\ntarta lo siguiente:\n, a) Que, efectivamente, tódas lasacciones informativas en la Uni,\ndad al mando del Comandante CORTINA debíanconcluir y concluían conla confec:-\no\nción y entrega de un informe a. sus defes.\nb) Que en el Centro Superior -de Información de la Defensa exis-<,\ntian y existen varias actividades informativas \"permanentes\", algunas deellas\ncoincidentes en la fecha del 23 de febrero de 1981, y sin que ninguna de ellas\ntuvjera vinculaciónconel asalto al Congreso de os Diputados.\no e) Qué en la UnidadEscuela, integrada en la Unidad que mandaba-\nel Comandante CORTINA, dispone efectivamente de unsistema de transmisiones =\nindependiente del resto y que es utilizada habitualmentepara actividades de:\nenseñanza.\ndy Queel: sistema. está integrado por una emisora central, o emi.\nsora base, de carácter Fijos un “número,superior a tres,,deemisores móviles;\n\nMICROFILMACION\n00305/s|\n+ d s a e e si ' e e n n c t c o r o m e n o tr l r a o a b s d a i n o t t i o e p p l o e é s r f a o d t n e i o v s r o a s d p , i o o r « t t e e n á l t é F i f e l b o e r n s e o r s d o é p d o d e r i t f á 1 e 9 t r 8 i e 1 l n , e t s t e , s re l t s o i s p u o n d s i . e da \" C d t o e i n s p c ; o re m ta e m d e i n o t \" e . ,\ny l s a i s e o l n p e d r s á e c m t c á i a s c r a a m s c o . t d e e d e ) r e r Q í n l u s o a e ti , e c U s e n a t f i s a e d b c a t a d t é i y c E v n s a e i c m s c u e a t e n s á l t a. e i d , n : e f s e t e r i l i n o a m r d a e o t s e ' r a 6 ia l m ] o á s s O n p ú a e c n r l t a e i t g o i u s v o e s Op d s e e e ra t t d r i e a v d n o i s s c , m a i a - -\n- _ _d E t r i e o o r s t ia e l p l a é r z d a o e - n l o t o s r s a ) i n r n s a s m d E t i i a l s o l i t a o a e d n l l o e c é s s a f e n o e c n n n e o v m s u e e n h d p a í i o c o r c u t , i l á u o t d e s i a n l d e a l s u a e s t r t . d a o e m c d ó o t e v n i d i p i l u c o e n i s ' o m , k n e i e d y l s i ó o d n d . e e e t s d r c o o r s i t t p i a a a e s r n , a to T d s o é] s me m r - a a - s =\nDios guarde a V.E. muchos años.\no .\nMADRID, 12 de Enero de 1982.\nEL . DIRECTOR GENERAL, .\nNtif}Fao.\nEmilio Alonso Manglano\n\"MO.SEROR GENERAL TOGADO, INSTRUCTOR\n.\nee\neai“\nDE LA CAUSA N2. 2/81.\nisejo Supremode Justicia Militar...\n: Ps\nPLAZA.",
+  "texto_completo_en": "|\nemAA:a. aie obeseeS ie .oe. Ln3 tr. 3 4CSte: e . 4 If FzAA I+aNn.DAA er IseseriedEaeLt673\n. UPPER CENTER\n2 G G RAF M e DEFENSE MINISTRY —.|' Mw\nbikBe hn\nDEFENSE INFORMATION\nSree\n_ MICROFILMATION 00305 /sg. |\ne Nittof, Nica,\n8/Ref. Nim =o\nCause 2/81 2 BOL. A.M.\nSUBJECT: CERTIFICATION REQUESTED. FOR YOUR JOIN TO CAUSE 2/81 OF THE SUPREME COUNCIL\n.\n\"MILITARY DEOUSTICE, ,\n7\nEXCELLENCE SIR:\nGiving, compliance to whatever interests you in your Ofiéto dated 8th\npresentmonth of January, issued to comply with what was agreed inAuto --\nof the Council Meeting in the Chamber of Justice, dated November 17, 1981, and +\n- in relation to the extremes to which €5 refers therein, please provide me with instructions--\npie the following:\n, a) That, indeed, all informative actions at the Uni,\nunder the command of Commander CORTINA they had to conclude and did conclude with the confection:-\nor\ntion and delivery of a report a. their defenses.\nb) That in the Higher Defense Information Center there exists,\ntian and there are several \"permanent\" information activities, some of them\ncoincident on the date of February 23, 1981, and without any of them\nIt was linked to the assault on the Congress of Deputies.\nor e) What in the SchoolUnit, integrated into the Unit that commanded\nCommander CORTINA, effectively has a transmission system =\nindependent of the rest and that is usually used for activities of:\nteaching.\ndy Queel: system. It is made up of a central station, or emi.\nsora base, of a Fixed nature a “number, greater than three, of mobile transmitters;\n\nMICROFILMATION\n00305/s|\n+ dsa r s d o é p do d e r i t f á 1 e 9 t r 8 i e 1 l n , e t s t e , s re l t s o i s p u o n d s i . e da \" C d t o e in s p c ; or re m ta e m d e i not o t \" e . ,\nand l s a i s e o l n p e d r s á e c m t c á i as s c r a a m s c o . t d e e d e ) r e r Q í n l u s o a e ti , ecu U s e na t fi sa a ed b c a t a d t é i y c E v n sa e i c m s c u e a t e n s á l t a. e i d , n : e f s e t e r i l i no a m r d a e o t se ' r a 6 ia l m ] o á s s O n p ú a e c n r l t a e it g o i u s v o e s Op d s e e e ra t t d r i e a v d no i s s c , m a i a - -\n-__d n h d p a í i o c o r c u t , i l á u o t d e s i a n l d e a l s u a e st r t . d a o e m c d ó o te v n i d i p i lu c o en i s ' o m , k n e i e d y l s i ó o d nd . e e e t s d r c o o r s i t t p i a a a e s r n , a to T d so é] s me m r - a a - s =\nGod save Your Excellency many years.\neither .\nMADRID, January 12, 1982.\nTHE . GENERAL DIRECTOR, .\nNtif}Fao.\nEmilio Alonso Manglano\n\"MO. SERIOUS GENERAL TOGADO, INSTRUCTOR\n.\nee\neai“\nOF CAUSE N2. 2/81.\nSupreme Court of Military Justice...\n:Ps\nSQUARE."
 }

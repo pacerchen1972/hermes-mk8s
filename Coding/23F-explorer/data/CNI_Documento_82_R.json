@@ -14,34 +14,51 @@
       "cargo": "Director General del CESID",
       "organizacion": "CESID",
       "rol_en_23f": "neutral",
-      "acciones": ["Firmó el oficio ordenando la comparecencia de testigos del CESID/Guardia Civil para la Causa 2/81"]
+      "acciones": [
+        "Firmó el oficio ordenando la comparecencia de testigos del CESID/Guardia Civil para la Causa 2/81"
+      ]
     },
     {
       "nombre": "José Ramón Tostón de la Calle",
       "cargo": "Capitán",
       "organizacion": "CESID",
       "rol_en_23f": "testigo",
-      "acciones": ["Citado como testigo ante el CSJM para la Causa 2/81 el 18 de enero de 1982"]
+      "acciones": [
+        "Citado como testigo ante el CSJM para la Causa 2/81 el 18 de enero de 1982"
+      ]
     },
     {
       "nombre": "José Castillo Orfega",
       "cargo": "Guardia 2º",
       "organizacion": "Guardia Civil",
       "rol_en_23f": "testigo",
-      "acciones": ["Citado como testigo ante el CSJM para la Causa 2/81"]
+      "acciones": [
+        "Citado como testigo ante el CSJM para la Causa 2/81"
+      ]
     },
     {
       "nombre": "José Álvarez Sola",
       "cargo": "Guardia 2º",
       "organizacion": "Guardia Civil",
       "rol_en_23f": "testigo",
-      "acciones": ["Citado como testigo ante el CSJM para la Causa 2/81"]
+      "acciones": [
+        "Citado como testigo ante el CSJM para la Causa 2/81"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Guardia Civil", "tipo": "policial" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Guardia Civil",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
     {
@@ -61,7 +78,15 @@
       "fecha": "1982-01-12"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "cesid", "alonso-manglano", "guardia-civil", "testigos", "csjm"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "alonso-manglano",
+    "guardia-civil",
+    "testigos",
+    "csjm"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_82_R",
     "filename": "Documento_82_R.pdf",
@@ -69,5 +94,7 @@
     "is_image_pdf": true,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "o 1” qn . 5 », . CE o NTROSUP A ERIO - R. : 1 -] €) Sl\n_MINISPERIO DE DEFENSA o. DE ;\nLe = INFORMACION DE La DEFENSA:\nN/Rof. Nims\n5/Ref > Nim\nASUNTO: COMPARECENCIA EN CONSEJO SUPREMO UN OFICIAL Y DOS GUARDIAS.-\nEXCMO, SEÑOR::\nPara su conocimiento. y efectos\ncorrespondientes, tengo el|\nhonor de comunicar a VE.que, al objeto de dar cumplimiento -\nal escrito nim. 4 de fecha 5 dé los corrientes del General:Con\n— p s r e é j m er o o d T e og J a us d t o ic I i n a st M r i u l c i t t o a r r, del he a or C d a e u n s a a do n . úm a . l C 2 a /8 p 1 itá de n l D. Con J s O e S j E o’. RA S - u - -\nMON\ny D.\nTO\nJ\nS\nO\nT\nS\nO\nE\nN\nA\nD\nL\nE\nVAR\nL\nE\nA\nZ\nCA\nS\nB\nO\nL\nL\nE\nA,\ny\nla\nGua\nc\nr\no\nd\nm\ni\np\na\na\ns\nrec\n22\ne\n%\nn\ns\nc\n.\nia\nD.\ne\nJ\nn\nOS\nd\nE\nich\nC\no\nAST\nC\nI\no\nL\nn\nL\ns\nO\nej\nO\no\nRT\nS\nE\nu\nG\n--\nA\npremo ei día-18 del presente mes.a las 09,45 horas, para prue-\nba testificalen la Causa\nanteriormentecitada. N\nDios guarde aV.E. muchos años.\nMadrid,12 de enero de 1982\n- BL\nDIRECTORGENERAL, .\n_ «EMILIO ALONSO MANGLANO-\n“os\nEXCMO. SEÑOR TENÍENTE GENERAL, DIRECTOR GENERAL DE LA GUARDIA CIVIL...¿\na |\n(12 sección deE.M.) NN\n= ”",
+  "texto_completo_en": "o 1” qn . 5 », . CE o NTROSUP A ERIO - R.: 1 -] €) Sl\n_MINISTRY OF DEFENSE o. DE ;\nLe = DEFENSE INFORMATION:\nN/Roff. Nims\n5/Ref > Nim\nSUBJECT: APPEARANCE IN SUPREME COUNCIL ONE OFFICER AND TWO GUARDS.-\nYOUR EXCELLENCE, SIR::\nFor your information. and effects\ncorresponding, I have the|\nhonor to inform VE.that, in order to comply -\nto the writing nim. 4 dated 5th of the General's current: With\n— p s r e é j m er o o d T e og J a us d t o ic I i n a st M r i u l c i t t o a r r, del he a or C d a e u n s a a d o n . um a . l C 2 a /8 p 1 itá de n l D. With J s O e S j E o’. RA S - u - -\nMON\nand d.\nTO\nJ.\nYes\nOr\nT\nYes\nOr\nE\nN\nA\nd\nl\nE\nVAR\nl\nE\nA\nZ\nAC\nYes\nb\nOr\nl\nl\nE\nA,\nand\nthe\nGuide\nc\nr\nor\nd\nm\ni\np\nto\nto\nyes\nrec\n22\nand\n%\nn\nyes\nc\n.\nia\nd.\nand\nJ.\nn\nOS\nd\nE\nich\nc\nor\nAST\nc\nI\nor\nl\nn\nl\nyes\nOr\ne.g.\nOr\nor\nRT\nYes\nE\nu\ng\n--\nA\nprize on the 18th of this month at 9:45 a.m., to test\nba testify the Cause\npreviously mentioned. N\nGod save V.E. many years.\nMadrid, January 12, 1982\n-BL\nDIRECTOR-GENERAL, .\n_ «EMILIO ALONSO MANGLANO-\n“you\nEXCELLENCE LORD LIEUTENANT GENERAL, DIRECTOR GENERAL OF THE CIVIL GUARD...\nto |\n(12 section of E.M.) NN\n= ”"
 }

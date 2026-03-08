@@ -10,15 +10,44 @@
   "resumen_en": "Interior Intelligence Brigade note (39-497, 27 March 1981). The Association of Military and Police Wives had received substantial donations after 23-F for families of implicated civil guards and victims' heirs. Funds were held in a Banco Central account. By order of the Interior Ministry, the account has been frozen, preventing its holders from accessing the funds.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
-    { "nombre": "Asociación de Mujeres de Militares y Policías", "tipo": "civil" },
-    { "nombre": "Ministerio del Interior", "tipo": "gobierno" }
+    {
+      "nombre": "Brigada de Información Interior",
+      "tipo": "seguridad"
+    },
+    {
+      "nombre": "Asociación de Mujeres de Militares y Policías",
+      "tipo": "civil"
+    },
+    {
+      "nombre": "Ministerio del Interior",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-27", "descripcion_es": "El Ministerio del Interior ordena el bloqueo de la cuenta bancaria de la Asociación de Mujeres de Militares y Policías que recibía fondos de apoyo a los implicados del 23-F", "descripcion_en": "Interior Ministry orders the freezing of the Association of Military and Police Wives' bank account, which was receiving support funds for 23-F implicated", "lugar": "Madrid" }
+    {
+      "fecha": "1981-03-27",
+      "descripcion_es": "El Ministerio del Interior ordena el bloqueo de la cuenta bancaria de la Asociación de Mujeres de Militares y Policías que recibía fondos de apoyo a los implicados del 23-F",
+      "descripcion_en": "Interior Ministry orders the freezing of the Association of Military and Police Wives' bank account, which was receiving support funds for 23-F implicated",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "apoyo-economico", "familias-implicados", "ministerio-interior", "brigada-informacion-interior"],
-  "_meta": { "doc_id": "Interior_Policia_7", "filename": "27-03-81_NOTA_INFORMATIVA_SOBRE_BLOQUEO_DE_CUENTA_DE_ASOC_DE_MUJERES_DE_MILITARES.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "apoyo-economico",
+    "familias-implicados",
+    "ministerio-interior",
+    "brigada-informacion-interior"
+  ],
+  "_meta": {
+    "doc_id": "Interior_Policia_7",
+    "filename": "27-03-81_NOTA_INFORMATIVA_SOBRE_BLOQUEO_DE_CUENTA_DE_ASOC_DE_MUJERES_DE_MILITARES.pdf",
+    "folder": "interior/policia",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "PEA EZ\nRegistro ENTRADA\n2 7.MAR, 1981\nEEN]\n| ASUNTOS) BLOQUEADA UNA CUENTA DE LA ASOCIACION DE MUJERES DE\nPla\nLa Ascoiacién de Maj Militares y Policías ba\nbía recibido tras el 23-P cuantiosas sumas económicas, en con\ncepto de donativos para las familias do los guardias civiles\nimplicados, así como para los herederos de las víctimas de --\nasesinatos.\nEstos fondos se encontraban a nombre de la Asociación\nen una cuenta del Banco Central, Por una orden del Ministerio\n_ ‘Gel Interior, la cuenta he eído bloqueada y so impide @ sue AL\ntulares disponer del dinero.\nMadrid, 27 de marzo de 1,981.",
+  "texto_completo_en": "PEA EZ\nINPUT Registration\n2 MAR 7, 1981\nEEN]\n| ISSUES) AN ACCOUNT OF THE WOMEN'S ASSOCIATION OF\nPla\nThe Association of Military and Police Majesties\nhad received large financial sums after 23-P, in con\ndonations for the families of the civil guards\ninvolved, as well as for the heirs of the victims of --\nmurders.\nThese funds were in the name of the Association\nin a Central Bank account, By order of the Ministry\n_ 'Gel Interior, the account has been blocked and it prevents @ sue AL\ntures have the money.\nMadrid, March 27, 1981."
 }

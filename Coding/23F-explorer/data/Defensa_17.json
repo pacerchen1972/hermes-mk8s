@@ -9,19 +9,56 @@
   "resumen_es": "Nota (Carpeta 21802, SECRETO, 18 febrero 1983, 2 páginas) sobre el ingreso del TC Tejero en la Prisión Naval de Cartagena el 8 octubre 1982 y el régimen de visitas restrictivo impuesto por el Ministro de Defensa: solo familiares directos y abogados. El abogado defensor solicitó en enero 1983 una revisión del régimen. El documento analiza el marco legal (Art. 7 del Reglamento de Establecimientos Penitenciarios, RD 2131/78) y los mensajes SECRETOS intercambiados entre el Ministerio de Defensa, la Capitanía General de la Zona Marítima del Mediterráneo y la Tercera Región Militar. Incluye como anexos mensajes AJEMA de octubre 1982.",
   "resumen_en": "Note (Carpeta 21802, SECRET, 18 February 1983, 2 pages) on TC Tejero's entry into Cartagena Naval Prison on 8 October 1982 and the restrictive visit regime imposed by the Minister of Defence: only immediate family and lawyers. Defence counsel requested a review in January 1983. The document analyses the legal framework (Art. 7 of the Penitentiary Establishments Regulations, RD 2131/78) and SECRET messages exchanged between the Ministry of Defence, the Mediterranean Maritime Zone Command and the Third Military Region. Includes AJEMA messages from October 1982 as annexes.",
   "personas": [
-    { "nombre": "Antonio Tejero Molina", "rol": "Teniente Coronel de la GC, condenado principal del 23-F, ingresó en Prisión Naval de Cartagena el 8-10-1982" }
+    {
+      "nombre": "Antonio Tejero Molina",
+      "rol": "Teniente Coronel de la GC, condenado principal del 23-F, ingresó en Prisión Naval de Cartagena el 8-10-1982"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
-    { "nombre": "Prisión Naval de Cartagena", "tipo": "militar" },
-    { "nombre": "Estado Mayor de la Armada (AJEMA)", "tipo": "militar" }
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Prisión Naval de Cartagena",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Estado Mayor de la Armada (AJEMA)",
+      "tipo": "militar"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-10-08", "descripcion_es": "Tejero ingresa en la Prisión Naval de Cartagena; el Ministro de Defensa impone régimen restrictivo de visitas: solo familiares directos y abogados", "descripcion_en": "Tejero enters Cartagena Naval Prison; Minister of Defence imposes restrictive visit regime: only immediate family and lawyers", "lugar": "Cartagena" },
-    { "fecha": "1983-02-18", "descripcion_es": "Nota secreto analiza marco legal del régimen de visitas de Tejero tras petición de su defensa de revisión", "descripcion_en": "Secret note analyses legal framework for Tejero's visit regime following defence counsel's request for review", "lugar": "Madrid" }
+    {
+      "fecha": "1982-10-08",
+      "descripcion_es": "Tejero ingresa en la Prisión Naval de Cartagena; el Ministro de Defensa impone régimen restrictivo de visitas: solo familiares directos y abogados",
+      "descripcion_en": "Tejero enters Cartagena Naval Prison; Minister of Defence imposes restrictive visit regime: only immediate family and lawyers",
+      "lugar": "Cartagena"
+    },
+    {
+      "fecha": "1983-02-18",
+      "descripcion_es": "Nota secreto analiza marco legal del régimen de visitas de Tejero tras petición de su defensa de revisión",
+      "descripcion_en": "Secret note analyses legal framework for Tejero's visit regime following defence counsel's request for review",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "tejero", "prision-naval", "regimen-penitenciario", "ministerio-defensa"],
-  "_meta": { "doc_id": "Defensa_17", "filename": "Carpeta_21802_Secreto_comunicando_levantamiento_de_incomunicacion_de_Tejero.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "tejero",
+    "prision-naval",
+    "regimen-penitenciario",
+    "ministerio-defensa"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_17",
+    "filename": "Carpeta_21802_Secreto_comunicando_levantamiento_de_incomunicacion_de_Tejero.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "as Madrid, 18 de febrero de 1.983\nEl Alinirande\nJefe del Estado Mayor,deta Amada\nExcmo.Sr.D. Narciso Serra Serra\nMinistro de Defensa\nMADRID.\npera Leet :\nTe adjunto una nota sobre el asunto de que\nte hablé ayer en el Museo Naval, ya que creo debe\nsolucionarse cuanto antes.\nVLE\noA ase (RE\n—=Saturnino Suanzes-\nque se reconoce el derecho a recibir diariamente y en las horas\nque se señalen a sus familias y amistades, cumpliendo los re-\nquisitos de control previstos en el artículo 28 de la misma\ndisposición.\nHabiendo partido del Excmo.Sr. Ministro de Defensa las\nmedidas establecidas, su levantamiento o ratificación pudiera\nser decidido al mismo nivel, directamente o a través de la Sala\nde Justicia del Consejo Supremo de Justicia Militar, que se\nha dirigido al Capitán General de la Zona Marítima del Medite-\nrráneo, y al de la Tercera Región Militar interesando se infor-\nmara sobre el origen de las órdenes dadas al respecto.\nMadrid, 16 de febrero de 1.983\nANEXOS :\nMensaje de AJEMA n2 682, de 06.10.1982.\nMensaje de AJEMA n2 691, de 08.10.1982.\nMensaje de AJEMA, sin número, de 08.10.1982.\nMensaje de AJEMA, n2 05410, de 18.10.1982. aca\n\nEl día 6 de octubre de 1.982 cumplimentando órdenes ver-\nbales del Excmo.Sr.Ministro de Defensa, el Teniente Coronel\nde la Guardia Civil Don ANTONIO TEJERO MOLINA ingresó en la\nPrisión Naval de Cartagena. El Jefe del Estado Mayor de la Ar-\nmada interesó instrucciones sobre el régimen que debía obser-\nvarse con dicho Jefe. El dia 8 del mismo mes, telefónicamente\nel Excmo.Sr.Ministro dispuso que el régimen de visitas del Te-\nniente Coronel TEJERO quedaba limitado hasta nueva orden a\nfamiliares directos y sus abogados, órdenes que fueron transmi-\ntidas a la Capitanía General de la Zona Marítima del Mediterrá-\nneo, de la que depende dicho Establecimiento penitenciario,\npor mensaje SECRETO n2 0.691, del que se dió cuenta al Sr. Mi-\nnistro como destinatario de información.\nPor el abogado defensor del citado Teniente Coronel,\ncon escrito de fecha 26 de enero, se ha solicitado del Excmo.\nSr.Capitán General de la Zona Maritima del Mediterráneo se le-\nvanten las medidas restrictivas de comunicación establecidas,\ny se le reconozcan los derechos de visitas de familiares y\namistades.\nEl régimen de comunicaciones y visitas de los oficiales\ny suboficiales presos o arrestados en establecimientos penales\nmilitares está establecido por el Artículo 123 del Reglamento\naprobado por Real Decreto 3331/78, de 22 de diciembre, en el\nque se reconoce el de cho a recibir diariamente y en las horas\nque se señalen a sus familias y amistades, cumpliendo los re-\nquisitos de control previstos en el artículo 28 de la misma\ndisposición.\nHabiendo partido del Excmo.Sr. Ministro de Defensa las\nmedidas establecidas, su levantamiento o ratificación pudiera\nser decidido al mismo nivel, directamente o a través de la Sala\nde Justicia del Consejo Supremo de Justicia Militar, que se\nha dirigido al Capitán General de la Zona Marítima del Medite-\nrráneo, y al de la Tercera Región Militar interesando se infor-\nmara sobre el origen de las órdenes dadas al respecto.\nMadrid, 16 de febrero de 1.983\nANEXOS :\na) Mensaje de AJEMA n2 682, de 06.10.1982.\nb) Mensaje de AJEMA n2 691, de 08.10.1982.\nCc) Mensaje de AJEMA, sin número, de 08.10.1982.\nd) Mensaje de AJEMA, n2 05410, de 18.10.1982.",
+  "texto_completo_en": "as Madrid, February 18, 1983\nThe Alinirande\nChief of the General Staff, Deta Amada\nHis Excellency Mr.D. Narciso Serra Serra\nDefense Minister\nMADRID.\nLeet pear:\nI attach a note to you on the matter that\nI spoke to you yesterday at the Naval Museum, since I think it must\nbe resolved as soon as possible.\nVLE\noA ase (RE\n—=Saturnino Suanzes-\nwhich recognizes the right to receive daily and in the hours\nthat they be pointed out to their families and friends, fulfilling the requirements\ncontrol requirements provided for in article 28 of the same\ndisposition.\nHaving departed from His Excellency Mr. Minister of Defense\nestablished measures, their lifting or ratification could\nbe decided at the same level, directly or through the Chamber\nof Justice of the Supreme Council of Military Justice, which is\nhas directed the Captain General of the Mediterranean Maritime Zone-\nrran, and that of the Third Military Region interested in being informed\nmara about the origin of the orders given in this regard.\nMadrid, February 16, 1983\nANNEXES:\nMessage from AJEMA n2 682, dated 06.10.1982.\nMessage from AJEMA n2 691, dated 10/08/1982.\nMessage from AJEMA, without number, dated 08.10.1982.\nMessage from AJEMA, n2 05410, dated 10/18/1982. here\n\nOn October 6, 1982, completing verdict orders.\nbales of His Excellency Minister of Defense, Lieutenant Colonel\nof the Civil Guard Don ANTONIO TEJERO MOLINA entered the\nCartagena Naval Prison. The Chief of the General Staff of the Army\ninterested instructions on the regimen to be observed.\nleave with said Chief. On the 8th of the same month, by telephone\nHis Excellency the Minister ordered that the visiting regime of the Te-\nColonel TEJERO was limited until further orders to\nimmediate family members and their lawyers, orders that were transmitted\nsent to the General Captaincy of the Mediterranean Maritime Zone.\nneo, on which said penitentiary establishment depends,\nby SECRET message n2 0.691, which was reported to Mr. Mi-\nnistro as recipient of information.\nBy the defense attorney of the aforementioned Lieutenant Colonel,\nWith a letter dated January 26, it has been requested from the Hon.\nMr. Captain General of the Maritime Zone of the Mediterranean is\nlift the established restrictive communication measures,\nand the rights of family visits are recognized and\nfriendships.\nThe regime of communications and visits of officials\nand non-commissioned officers imprisoned or arrested in penal establishments\nmilitary is established by Article 123 of the Regulation\napproved by Royal Decree 3331/78, of December 22, in the\nthat the right to receive daily and in the hours\nthat they be pointed out to their families and friends, fulfilling the requirements\ncontrol requirements provided for in article 28 of the same\ndisposition.\nHaving departed from His Excellency Mr. Minister of Defense\nestablished measures, their lifting or ratification could\nbe decided at the same level, directly or through the Chamber\nof Justice of the Supreme Council of Military Justice, which is\nhas directed the Captain General of the Mediterranean Maritime Zone-\nrran, and that of the Third Military Region interested in being informed\nmara about the origin of the orders given in this regard.\nMadrid, February 16, 1983\nANNEXES:\na) Message from AJEMA n2 682, dated 06.10.1982.\nb) Message from AJEMA n2 691, dated 10/08/1982.\nCc) Message from AJEMA, without number, dated 10/08/1982.\nd) Message from AJEMA, n2 05410, dated 10/18/1982."
 }

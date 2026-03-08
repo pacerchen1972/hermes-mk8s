@@ -10,16 +10,48 @@
   "resumen_en": "Interior Intelligence Brigade note (11 May 1981). Analyses PCE reactions to the latest political events in Madrid since 23-F. Notes that far-right sectors seek to implicate the Monarchy and destroy it as a democratic institution. Concludes there is a 'checkmate to the Monarchy posed by the far-right, from which it can no longer step back'.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
-    { "nombre": "Partido Comunista de España (PCE)", "tipo": "política" }
+    {
+      "nombre": "Brigada de Información Interior",
+      "tipo": "seguridad"
+    },
+    {
+      "nombre": "Partido Comunista de España (PCE)",
+      "tipo": "política"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-05-11", "descripcion_es": "Brigada de Información Interior evalúa amenaza de la extrema derecha a la Monarquía e implicaciones para la estabilidad democrática tras el 23-F", "descripcion_en": "Interior Intelligence Brigade assesses far-right threat to the Monarchy and implications for democratic stability after 23-F", "lugar": "Madrid" }
+    {
+      "fecha": "1981-05-11",
+      "descripcion_es": "Brigada de Información Interior evalúa amenaza de la extrema derecha a la Monarquía e implicaciones para la estabilidad democrática tras el 23-F",
+      "descripcion_en": "Interior Intelligence Brigade assesses far-right threat to the Monarchy and implications for democratic stability after 23-F",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [
-    { "autor": "Brigada de Información Interior", "texto_es": "Existe un jaque-mate a la Monarquía planteado por la extrema derecha, un jaque-mate del que ya no puede volver atrás.", "texto_en": "There is a checkmate to the Monarchy posed by the far-right, a checkmate from which it can no longer step back.", "contexto": "Nota de la Brigada de Información Interior, 11 mayo 1981" }
+    {
+      "autor": "Brigada de Información Interior",
+      "texto_es": "Existe un jaque-mate a la Monarquía planteado por la extrema derecha, un jaque-mate del que ya no puede volver atrás.",
+      "texto_en": "There is a checkmate to the Monarchy posed by the far-right, a checkmate from which it can no longer step back.",
+      "contexto": "Nota de la Brigada de Información Interior, 11 mayo 1981"
+    }
   ],
   "relaciones": [],
-  "temas": ["post-golpe", "extrema-derecha", "monarquia", "pce", "brigada-informacion-interior", "estabilidad-democratica"],
-  "_meta": { "doc_id": "Interior_Policia_2", "filename": "11-05-81_NOTA_INFORMATIVA_SOBRE_EL_PCE.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "extrema-derecha",
+    "monarquia",
+    "pce",
+    "brigada-informacion-interior",
+    "estabilidad-democratica"
+  ],
+  "_meta": {
+    "doc_id": "Interior_Policia_2",
+    "filename": "11-05-81_NOTA_INFORMATIVA_SOBRE_EL_PCE.pdf",
+    "folder": "interior/policia",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "37-497\nRRe:g iEstro ENTR ) :D A [ f E\nTis\nNO nn EO\nASUNTO: P.C.E.\nA raíz de los últimos acontecimientos en Madrid,\nademás de la sicosis ya existente en el seno del Partido\ndespués del 23 de febrero, han tenido lugar una serie de\nreflexiones sobre el momento actual por parte de los teéri-\ncos del mismo, quienes exponen en una nota confidencial al\nSecretario General, el peligro \"Que supone dejar a la extre-\nma derecha que impere en el mercado negro del rumor, las de-\nclaraciones del QUINA, y lo más grave, in-\ncidir en la supuesta implicación del Rey en el golpe\".\nGaara\n\"La extrema derecha quiere implicar a la Monar-\nquía y destrozarla como Institución democrática\".\n\"Se deduce, sigue la nota, que existe un jaque-\nmate a la Monarquía, planteado por la extrema derecha, un\njaque-mate, del que ya no puede volverse atrás.\nY",
+  "texto_completo_en": "37-497\nRRe:g iEstro ENTR ) :D A [ f E\nTis\nNO nn EO\nSUBJECT: P.C.E.\nFollowing the latest events in Madrid,\nin addition to the psychosis already existing within the Party\nAfter February 23, a series of events have taken place\nreflections on the current moment by theorists\ncos of the same, who expose in a confidential note to the\nSecretary General, the danger \"of leaving the extreme\nmore right that prevails in the black market of rumor, the\nclarifications of QUINA, and most seriously,\ndecide on the King's alleged involvement in the coup\".\nGaara\n\"The extreme right wants to involve the Monar-\n\"and destroy it as a democratic institution.\"\n\"It follows, the note continues, that there is a check-\nkill the Monarchy, proposed by the extreme right, a\ncheckmate, from which there is no turning back.\nand"
 }

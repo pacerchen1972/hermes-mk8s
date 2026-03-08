@@ -10,15 +10,44 @@
   "resumen_en": "Note from Spain's Consulate in Montevideo (27 March 1981) to the Ministry of Foreign Affairs, forwarding a letter from Uruguay's General Confederation of Workers (CUT) expressing congratulations on how Spain overcame the situation created by the 23 February coup attempt. The note highlights that the Spanish case serves as an example for conservative sectors in other nations that have undergone similar political transitions.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Consulado de España en Montevideo", "tipo": "gobierno" },
-    { "nombre": "Confederación General de Trabajadores del Uruguay (CUT)", "tipo": "laboral" },
-    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+    {
+      "nombre": "Consulado de España en Montevideo",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Confederación General de Trabajadores del Uruguay (CUT)",
+      "tipo": "laboral"
+    },
+    {
+      "nombre": "Ministerio de Asuntos Exteriores de España",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-27", "descripcion_es": "Sindicato uruguayo CUT felicita a España por superar el golpe del 23-F; Consulado en Montevideo transmite a Exteriores", "descripcion_en": "Uruguayan CUT union congratulates Spain for overcoming the 23-F coup; Consulate in Montevideo transmits to Foreign Affairs", "lugar": "Montevideo, Uruguay" }
+    {
+      "fecha": "1981-03-27",
+      "descripcion_es": "Sindicato uruguayo CUT felicita a España por superar el golpe del 23-F; Consulado en Montevideo transmite a Exteriores",
+      "descripcion_en": "Uruguayan CUT union congratulates Spain for overcoming the 23-F coup; Consulate in Montevideo transmits to Foreign Affairs",
+      "lugar": "Montevideo, Uruguay"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "uruguay", "solidaridad", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_22", "filename": "D.22._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "uruguay",
+    "solidaridad",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_22",
+    "filename": "D.22._AGA-83-07633_exp._4.pdf",
+    "folder": "exteriores/AGA-83-07633",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "evideo, 27 de marzo de 1981\nDIRECCION GENERAL DE\nIBEROAMERTCA\nASUNTO: Felicitación C.G.T.U.\nExcmo. Señor:\nTengo la honra de remitir a V.E. copia de la\ncarta que he recibido de la Confederación General de\nTrabajadores del Uruguay transmitiendo la decisión\nde su Comité Ejecutivo de hacerme llegar su felici-\ntación por la forma en que se ha superado en España\nla dificil y triste situación creada por el intento\ngolpista del pasado 23 de febrero.\nAsimismo señalo a V.E. que he recibido numero-\nsas muestras de adhesión de ciudadanos uruguayos\nsiendo también de destacar la que me hizo llegar el\nPartido Demócrata Cristiano del Uruguay.\nTodo ello no ha: hecho sino poner de relieve\nlo importante que es como ejemplo para los sectores\ndemécraticos de los países sudamericanos la forma\nen que se ha producido la transición política en Es-\npaña. Y la satisfacción con que se observa la conso-\nlidación -no exenta de problemas- del sistema de li-\nbertades.\nDios guarde a VeE. muchos años.\nNEGOCIOS aio.\nJorge Dezcallar\nExcmo. Señor Ministro de Asuntos Exteriores\nMADRID\n\nCONFEDERACION GENERAL DE TRABAJADORES DEL URUGUAY\nFilial ORIT - CIOSL\nDirección provisoria\nGral. Flores 2980/82 Montevideo,17 de marzo de 1981.-\nTel. 23-55-40\nMontevideo - Uruguay\nSr.Excelentísimo Embajador de España\nPRESENTE\nDe nuestra mayor consideración:\nRepresentando la ación del Comité Eje+\ncutivo de nuestra Confederación del día de la fecha y con la mayor ale\nerfa de nuestras filiales en todo el país, queremos presentar a Ud. los\nsaludos y el beneplácito, por la forma en que la democracia española ha\nrespondido a los intentos de quebrar, lo que es no ya un deseo sino una\nrealidad vigente en la madre patria.\nHa sido para nosotros doloroso Sr. Emba=\njador, cuando hemos vivido las angustias de vuestros parlamentarios, las\ninstituciones administrativas y políticas, que sin embargo supieron res\nponder con firmeza a log intentos de un golpe de estado, que hubiera si~\ndo criminal.-\nEsa lección de fuerza ideológica con que\nlos partidos democráticos, comprometidos con la libertad de esa madre paw\ntria que tanto queremos, fueron capaces de trasmitirnos, coréanos Sr. Ine\nbajador que nosotros, enraizado oon las tradiciones artiguistas llevanos\nun destino final democrático, par el cual luchamos, sufrimos y si es new\ncesario moriremos.-\nAl trasmitirle la satisfacción del Comité\nEjecutivo de la CGTU por el triunfo de la democracia, le hacemos llegar\nnuestra adhesión y amistado»\nFraternalmente hacemos llegar al Sr. Bmbda~\njador y ú quienes gobiernan su patria, nuestra 7 consideración .:-\nAdemar Ferdndez y\nSecretario General\nIA, ARPA ee S\nEE\nmt",
+  "texto_completo_en": "evideo, March 27, 1981\nGENERAL DIRECTORATE OF\nIBEROAMERTCA\nSUBJECT: Congratulations C.G.T.U.\nHon. Sir:\nI have the honor to refer to Your Excellency copy of the\nletter I have received from the General Confederation of\nUruguayan workers transmitting the decision\nof your Executive Committee to send me your congratulations.\ntation for the way in which it has been overcome in Spain\nthe difficult and sad situation created by the attempt\ncoup plotter of last February 23.\nI also point out to V.E. that I have received number\ngreat signs of support from Uruguayan citizens\nalso worth highlighting is the one sent to me by\nChristian Democratic Party of Uruguay.\nAll of this has only highlighted\nhow important it is as an example for the sectors\ndemocrats of the South American countries the way\nin which the political transition has occurred in Es-\ncloth And the satisfaction with which the consolidation is observed\nlidation -not without problems- of the lidation system\nliberties.\nGod save VeE. many years.\nBUSINESS aio.\nJorge Dezcallar\nHon. Mr. Minister of Foreign Affairs\nMADRID\n\nGENERAL CONFEDERATION OF WORKERS OF URUGUAY\nORIT Subsidiary - ICFTU\nprovisional address\nGral. Flores 2980/82 Montevideo, March 17, 1981.-\nTel. 23-55-40\nMontevideo - Uruguay\nHis Excellency Ambassador of Spain\nPRESENT\nOf our highest consideration:\nRepresenting the action of the Eje+ Committee\ncutive of our Confederation of the day of the date and with the greatest joy\nerfa of our subsidiaries throughout the country, we want to present to you the\ngreetings and approval, for the way in which Spanish democracy has\nresponded to the attempts to break, which is no longer a desire but a\ncurrent reality in the motherland.\nIt has been painful for us Mr. Emba=\njedor, when we have experienced the anguish of your parliamentarians, the\nadministrative and political institutions, which nevertheless knew how to res\nfirmly condemn attempts at a coup d'état, which would have\ncriminal.-\nThat lesson of ideological force with which\nthe democratic parties, committed to the freedom of that mother paw\ntria that we love so much, they were able to transmit to us, Koreans Mr. Ine\ndownpipe that we, rooted in artistic traditions, take us\na democratic final destination, for which we fight, suffer and if it is new\nwe will die.-\nBy conveying the satisfaction of the Committee\nExecutive of the CGTU for the triumph of democracy, we send you\nour adhesion and friendship\nFraternally we send Mr. Bmbda~\njador and those who govern their country, our 7 consideration.:-\nAdemar Ferdndez and\nSecretary General\nIA, ARPA ee S\nEE\nmt"
 }

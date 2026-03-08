@@ -10,15 +10,46 @@
   "resumen_en": "CESID integrated report (marked DTOR) on the political-military climate during the trial. Analyses the impact on the military collective of adverse news about the defendants; the existence of far-right groups using the trial as a rallying cause; and the possibility of new military interventions in the event of a left-wing electoral victory. Concern is noted about the operational control of certain military attachés and the Agrupación José Antonio as a first-line organisation.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Agrupación José Antonio", "tipo": "política" },
-    { "nombre": "JONS (Juntas de Ofensiva Nacional-Sindicalista)", "tipo": "política" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Agrupación José Antonio",
+      "tipo": "política"
+    },
+    {
+      "nombre": "JONS (Juntas de Ofensiva Nacional-Sindicalista)",
+      "tipo": "política"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-04-01", "descripcion_es": "CESID evalúa el impacto del juicio en la moral militar y el riesgo de interferencia de grupos de extrema derecha", "descripcion_en": "CESID assesses trial impact on military morale and risk of far-right group interference", "lugar": null }
+    {
+      "fecha": "1982-04-01",
+      "descripcion_es": "CESID evalúa el impacto del juicio en la moral militar y el riesgo de interferencia de grupos de extrema derecha",
+      "descripcion_en": "CESID assesses trial impact on military morale and risk of far-right group interference",
+      "lugar": null
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "causa-2-81", "cesid", "opinion-militar", "extrema-derecha", "riesgo-golpista", "moral-militar"],
-  "_meta": { "doc_id": "CNI_Documento_47_R", "filename": "Documento_47_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "opinion-militar",
+    "extrema-derecha",
+    "riesgo-golpista",
+    "moral-militar"
+  ],
+  "_meta": {
+    "doc_id": "CNI_Documento_47_R",
+    "filename": "Documento_47_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "DTOR\nC/D1/ 5583 05.04.82\nINFORMACION INTEGRADA\nAl iniciarse la fase de declaraciones de los testigos, la ten\nsión en torno a la vista oral de la causa 2/81 ha vuelto a ele-\nvarse,tras un periodo casi rutinario en el que la atención pú--\nblica había disminuido considerablemente.Dicha tensión ha alcan\nzado particular entidad con motivo del grave incidente surgido\nen la tarde del lunes, durante la declaración del General Sáenz\nde Santa María, Este ¡incidente tendrá su reflejo lógico en la\ncolectividad militar,sobre la que se apuntan divisiones como --\nconsecuencia de una visión de los acontecimientos realizada des\nde diferentes puntos de vista. A su vez el tratamiento otorgado\npor los medios de comunicación y los comentarios y juicios de -\nvalor en torno al tema, pueden trasladar dichas tensiones al con\njunto del cuerpo social. La posibilidad de que los procesados -\nprotagonicen nuevos incidentes,permanece latente si su excesiva\nsensibilidad no encuentra una respuesta adecuada por parte del\nTribunal.\nEl aumento cuantitativo de los “actos: organizados por los -\"\ngrupos civiles que apoyan postulados involucionistas,ha ido acom\npañado de un incremento notable en la difusión de panfletos anó-.\nnimos dirigidos a los miembros de la colectividad militar y de\nuna intensificación, en la prensa que sigue esta misma línea, de\nla campaña en torno a la idea de \"el Ejército en el banquillo\".-\nLos elogios dirigidos a los militares procesados y a los que ---\nellos consideran afines, contrastan vivamente con el tratamiento\ndado a los que se han significado de alguna manera por su adapta\nción a la situación actual, Con ello se pretende presionar psico\nlógicamente a los miembros de las FAS al objeto de provocar una -\nruptura en la necesaria cohesión de los Ejércitos. Desde puntos -\nde vista contrarios,las torpezas informativas de determinados pe\nriódicos, pretendiendo defender el Sistema, provocan la irrita--\nción de la colectividad militar multiplicando el efecto consegui\ndo por la prensa anteriormente citada.\n\nEl amplio eco que ha tenido la ocupación de las islas Malvi-\nnas no ha dejado tampoco de ser aprovechado desde posiciones in\nvolucionistas, presentando de un modo muy superficial determina\ndos paralelismos y contrastes con un simplismo intencionado.\nLa fecha del 1% de abril, que en las circunstancias actuales\nera propicia para la realización de \"movidas\" y actos violentos\nencaminados a agudizar las actuales tensiones, ha transcurrido -\nsin incidentes, a pesar de que existían algunos proyectos en es\nte sentido. La calma observada probablemente responda a la efi-\ncaz acción policial, tanto informativa como preventiva. Como --\nreacción a esta continuada acción policial y en previsión de fu\nturos acontecimientos o decisiones gubernativas que pudieran con\nducirles a la clandestinidad, se observa en los grupos de extre-\nma derecha una preocupación por mejorar sus estructuras orgáni--\ncas perfeccionando el control operativo de sus militantes. Ello\nes particularmente notorio en los grupos falangistas aparentemen\nte desgajados de FE de las JONS como pueden ser Primera Línea y\nla Agrupación José Antonio.\nPermanece la acción psicológica, en forma de rumores, sobre po\nsibles nuevas intervenciones militares en la normalidad de la vi-\nda política, sin que por el momento existan datos objetivos que -\npermitan darles credibilidad. Dichos rumores se centran durante -\nestos días en el próximo otoño, ligando la eventual intervención\nmilitar a un posible adelanto de las elecciones generales en las\nque se produjera un hipotético triunfo de la izquierda.",
+  "texto_completo_en": "DTOR\nC/D1/ 5583 05.04.82\nINTEGRATED INFORMATION\nAt the beginning of the witness statement phase, the\nsion regarding the oral hearing of case 2/81 has been re-elected\nleave, after an almost routine period in which public attention--\nwar had decreased considerably. This tension has reached\nparticular entity due to the serious incident that arose\non Monday afternoon, during General Sáenz's statement\nof Santa María, This incident will have its logical reflection in the\nmilitary community, on which divisions such as --\nconsequence of a vision of events carried out\nfrom different points of view. In turn, the treatment granted\nby the media and the comments and judgments of -\nvalue around the topic, they can transfer these tensions to the\ntogether with the social body. The possibility that the defendants -\nlead to new incidents, remains latent if their excessive\nsensitivity does not find an adequate response from the\nCourt.\nThe quantitative increase in “acts: organized by the -\"\ncivil groups that support involutionist postulates, has gone hand in hand\naccompanied by a notable increase in the dissemination of anonymous pamphlets.\nencouragement addressed to members of the military community and\nan intensification, in the press that follows this same line, of\nthe campaign around the idea of \"the Army on the bench\".-\nThe praise directed at the prosecuted soldiers and those who ---\nthey consider similar, they contrast sharply with the treatment\ngiven to those who have been signified in some way by their adaptability\ntion to the current situation. This is intended to pressure psycho\nlogically to the members of the FAS in order to provoke a -\nrupture in the necessary cohesion of the Armies. From points -\nfrom contrary points of view, the informative clumsiness of certain people\nnewspapers, pretending to defend the System, provoke irritation--\ntion of the military community multiplying the effect achieved\nby the aforementioned press.\n\nThe wide echo that the occupation of the Malvi-\nnas has not stopped being exploited from positions in\nevolutionists, presenting in a very superficial way determines\ntwo parallels and contrasts with intentional simplicity.\nThe date of 1% of April, which in the current circumstances\nwas conducive to carrying out \"movements\" and violent acts\naimed at exacerbating current tensions, has elapsed -\nwithout incident, despite the fact that there were some projects in progress\nI felt you. The calm observed probably responds to the efficiency\nnecessary police action, both informative and preventive. Like --\nreaction to this continued police action and in anticipation of fu\nother events or government decisions that could\ndriving them underground, is observed in extreme groups.\nright now a concern for improving their organic structures--\ncas perfecting the operational control of its militants. It\nIt is particularly noticeable in Falangist groups apparently\nyou are separated from the FAITH of the JONS such as the First Line and\nthe José Antonio Group.\nThe psychological action remains, in the form of rumors, about po\npossible new military interventions in the normality of life\ngives policy, without for the moment there being objective data that -\nallow you to give them credibility. These rumors are centered during -\nthese days in the coming fall, linking the eventual intervention\nmilitary to a possible advancement of the general elections in the\nthat there would be a hypothetical victory for the left."
 }

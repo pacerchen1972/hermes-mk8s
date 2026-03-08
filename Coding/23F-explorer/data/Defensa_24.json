@@ -9,18 +9,51 @@
   "resumen_es": "Informe RESERVADO (Causa 9481, 9 julio 1981, 2 páginas) de la Asesoría Jurídica General del Ministerio de Defensa, trasladado por orden del Ministro al Director General de la Guardia Civil, sobre la situación administrativa del Capitán Gil Sánchez Valiente Portillo, fugado al extranjero tras participar en el 23-F. El Ministerio mostró conformidad con el informe jurídico sobre el estatuto del capitán (ausente sin permiso / desertor) y sus consecuencias legales.",
   "resumen_en": "RESERVED report (Causa 9481, 9 July 1981, 2 pages) from the Ministry of Defence General Legal Advisory, transferred by order of the Minister to the Civil Guard Director General, on the administrative situation of Captain Gil Sánchez Valiente Portillo, who fled abroad after participating in 23-F. The Ministry concurred with the legal report on the captain's status (absent without leave / deserter) and its legal consequences.",
   "personas": [
-    { "nombre": "Gil Sánchez Valiente Portillo", "rol": "Capitán de la GC, fugado al extranjero (Grecia, con pasaporte argentino) tras el 23-F" },
-    { "nombre": "Ramón Fernández Sequeiros", "rol": "Firmante del traslado al Director General de la GC" }
+    {
+      "nombre": "Gil Sánchez Valiente Portillo",
+      "rol": "Capitán de la GC, fugado al extranjero (Grecia, con pasaporte argentino) tras el 23-F"
+    },
+    {
+      "nombre": "Ramón Fernández Sequeiros",
+      "rol": "Firmante del traslado al Director General de la GC"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" },
-    { "nombre": "Dirección General de la Guardia Civil", "tipo": "seguridad" }
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Dirección General de la Guardia Civil",
+      "tipo": "seguridad"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-07-09", "descripcion_es": "MinDef traslada al Director General de la GC informe jurídico sobre situación administrativa de Sánchez Valiente, fugado al extranjero", "descripcion_en": "Ministry of Defence forwards to DGGC legal report on administrative situation of Sánchez Valiente, who fled abroad", "lugar": "Madrid" }
+    {
+      "fecha": "1981-07-09",
+      "descripcion_es": "MinDef traslada al Director General de la GC informe jurídico sobre situación administrativa de Sánchez Valiente, fugado al extranjero",
+      "descripcion_en": "Ministry of Defence forwards to DGGC legal report on administrative situation of Sánchez Valiente, who fled abroad",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "sanchez-valiente", "causa-9481", "desercion", "guardia-civil", "fuga"],
-  "_meta": { "doc_id": "Defensa_24", "filename": "Causa_9481_reservado_Informe_de_Asesoria_Juridica_General_sobre_situacion_administrativa_del_Cap_Sanchez_Valiente.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "sanchez-valiente",
+    "causa-9481",
+    "desercion",
+    "guardia-civil",
+    "fuga"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_24",
+    "filename": "Causa_9481_reservado_Informe_de_Asesoria_Juridica_General_sobre_situacion_administrativa_del_Cap_Sanchez_Valiente.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "|| { i1i| ||||||i | | j\n‘ U\nS\nm\na\n= =\n=| < a|l =|\n\n-se\n4\nA\npa\nroo\n,oirait\nerceS\n,aipocotof\netnese\nrp\nal\nASESORIA JURIDICA GENERAL\nHam.\n2078\nSUNTO: ministrativa\nGIL SANC\ninado el adjunto expediente, al «\nha unido «to de procesamiento del Oficial «\nGuardia Civil citado en el \"Asunto\", esta Asesor\nica General, nf ad con lo inform\nel As Jurídico de la Guardia civil, estima\nprocede acordar pase del interesado a la si\nde \"procesado\" por encontrarse ya en la de \"\nnistrativa\" de conformidad con las disposicion\nles vigentes (arto 368 del Código de Justicia M\n9 y Orden de 2ro de 1.943), uacion esta\n¢ ma num. 120/4829/8 26 de a\n3 en permanecer hasta tanto se resue\n% procedimiento judicial que se le sigue.\n%\noO\na los efectos económicos\ncs dos d icha situación, si bien la referida Orde\n1.943 establece en su artículo 19, segundo párralo, qu\na los que sean baja en el Ejército por falta de presen\ntación, una z aprehendidos se le reditará y abona\nrá en concepto de pensión alimenti Mel tercio del -\nividad\", este p\na suscribe, be\nEl oy interpretado a la luz de lo di\n2 ticulo 694, segundo parrafo del Cc\nal vincul\n3 parte del propio i\na i dicha pensión,\na via acreditación de que concurren los requisitos ex\ngq dos ho precepto.\nDIRECTOR DEL",
+  "texto_completo_en": "|| { i1i| ||||||i | | j\n' U\nYes\nm\nto\n= =\n=| < a|l =|\n\n-se\n4\nA\npa\nroo\n,oirait\nerceS\n,aipocotof\netnese\nrp\nto\nGENERAL LEGAL ADVICE\nHam.\n2078\nSUNTO: administrative\nGIL SANC\ninated the attached file, to «\nhas joined “Officer Processing Process”\nCivil Guard cited in the \"Subject\", this Advisor\nica General, nf ad with the information\nthe Legal Ace of the Civil Guard, estimates\nIt is necessary to agree to transfer the interested party to the\nof \"processed\" because it is already in that of \"\nnistrativa\" in accordance with the provisions\nthem in force (art. 368 of the Code of Justice M\n9 and Order of 2nd of 1943), uation is\n¢ ma num. 120/4829/8 26 from to\n3 to remain until resolved\n% judicial procedure followed.\n%\noO\nfor economic purposes\ncs two such situation, although the aforementioned Order\n1943 establishes in its article 19, second paragraph, that\nto those who are discharged from the Army due to lack of presence\ntation, a z apprehended will be refunded and paid\nwill be paid as alimony for one third of the -\nivity\", this p\nsubscribe, be\nHe heard interpreted in the light of what he said\n2 article 694, second paragraph of the CC\nto the link\n3 part of own i\nto this pension,\nthrough accreditation that the ex requirements are met\ngq two ho precept.\nDIRECTOR OF"
 }

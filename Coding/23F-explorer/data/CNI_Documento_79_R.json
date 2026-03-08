@@ -14,12 +14,20 @@
       "cargo": "General Consejero Togado Instructor, Causa 2/81",
       "organizacion": "Consejo Supremo de Justicia Militar (CSJM)",
       "rol_en_23f": "neutral",
-      "acciones": ["Firmó la citación urgente a testigos para la Causa 2/81"]
+      "acciones": [
+        "Firmó la citación urgente a testigos para la Causa 2/81"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Guardia Civil", "tipo": "policial" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Guardia Civil",
+      "tipo": "policial"
+    }
   ],
   "eventos": [
     {
@@ -39,7 +47,13 @@
       "fecha": "1982-01-05"
     }
   ],
-  "temas": ["juicio", "causa-2-81", "csjm", "testigos", "guardia-civil"],
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "csjm",
+    "testigos",
+    "guardia-civil"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_79_R",
     "filename": "Documento_79_R.pdf",
@@ -47,5 +61,7 @@
     "is_image_pdf": true,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "SA\nsi\nURGENTE\nSl\nOS EneSUPREMO\nMiiref ane 00178JS\nDE JUSTICIA MILITAR\n‘\n3h 19\nas KA ¡AS Aw)\nTeil. 0 Sealed RP 2/61\n..\nLinenSbORs\nTabs if\nVide Pura da ¡re¢ q otica de la uruebsa teutifiesl acordu\ndu cn la Couce 2/81 que se instruye ante este Alto\nTribiuml, Reuwído en Sola de Juuticia, be dispues~\nto la comparecenciaante este Concejo Supreno, del\nCusitén, Cabo 18 Guardians Civiles y paisane det»\ncd y , dos\n4ingdot en eco Departamento que al dorso se relacio-\nnon, los dfes y nores que ce indican por ¿2 ¿ue som\nLicite ge V.0. ordene 10 opervuno) ogra QUe comeursrnin)\na l\n%\na sao dTee eLoxret Conweveerj’o, vnáidvbar eqnm dOFe csa110\n0\nr“artun.y\nMuhsis. 4-6> diil,e eyx SAeOpFa einLi 2eieAac=dos‘a.\n“2 Ro oma\naC Panwa B Vee QuCinGe OL.\neddy D de nerd do avte i\nbh Gli Bead elope wih aNderailait\n5\ndá\n‘awe\neet\ny\n, :\nMm O1 Lail a AaeRO O a+ hleeae\ns%\nwaa\n\"4 mo sa 4 PU he 2 reo, eeudead A yes\neu de ea dd roas Vea. Ds La AS a wÚa\nayy re\nPAiPARSAS\n\nmame he:m has .z a mo.Y\nade we ow ee we te\niteraheerantagtyFNmemeSeabedsemenNiAtte\nDfa 18 decenero Se 1982-a 185°9,45 horas Lunes -\nr ivi] D.José Ramón Zovión de la Calle\nCapitir de +u\nCubo 12 Ww : D.Rafsel Monge Segura\nGuardia. Civil Ddosé Alvarez Sola..\n1 DAntonio Castilio Ortega\nD.Estoban Sicrva ¿úsiz",
+  "texto_completo_en": "SA\nyes\nURGENT\nSl\nOS EneSUPREMO\nMiiref ane 00178JS\nMILITARY JUSTICE\n'\n3h 19\nas KA ¡AS Aw)\nTeil. 0 Sealed RP 2/61\n..\nLinenSbORs\nTabs if\nVide Pura da ¡re¢ q otica de la uruebsa teutifiesl accordu\ndu cn la Couce 2/81 that is instructed before this Alto\nTribiuml, Reuwído in Sola de Juuticia, be ready~\nto the appearance before this Supreme Council, of the\nCusitén, Cabo 18 Civil Guardians and paisane det»\ncd and two\n4ingdot in eco Department that on the back is related\nnon, the dfes and nors that are indicated by ¿2 ¿ue som\nTender ge V.0. I ordered 10 opervuno) ogre THAT eatersrnin)\nto him\n%\na sao dTee eLoxret Conweveerj’o, vnáidvbar eqnm dOFe csa110\n0\nr“artun.y\nMuhsis. 4-6> diil,e eyx SAeOpFa einLi 2eieAac=two‘a.\n“2 Rome\nBC Panwa B Vee QuCinge OL.\neddy D from nerd do avte i\nbh Gli Bead elope wih aNderailait\n5\nda\n'awe\neet\nand\n, :\nMm O1 Lail a AaeRO O a+ hleeae\ns%\nwaaa\n\"4 mo sa 4 PU he 2 reo, eeudead A yes\neu de ea dd roas See. Ds The AS to wÚa\nayy re\nPAiPARSAS\n\nmame he:m has .z a mo.Y\nade we ow ee we te\niteraheerantagtyFNmemeSeabedsemenNiAtte\nDay 18 December 1982-at 185°9.45 hours Monday -\nr ivi] Mr. José Ramón Zovión de la Calle\nCapitir of +u\nCube 12 Ww: D.Rafsel Monge Segura\nGuard. Civil Ddosé Alvarez Sola..\n1 DAntonio Castilio Ortega\nMr. Estoban Sicrva ¿úsiz"
 }

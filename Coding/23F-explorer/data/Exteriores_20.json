@@ -9,17 +9,46 @@
   "resumen_es": "Nota de la Embajada de España en Buenos Aires (14 mayo 1981, nr. 419) al Ministerio de Asuntos Exteriores, transmitiendo la carta del Secretario General del Comité Nacional del Partido Socialista Popular (PSP) de Argentina (Dr. Guillermo Estevez Boero), expresando en nombre del partido su solidaridad con España y condena de la actividad terrorista. El PSP es descrito como agrupación minoritaria universitaria, moderada.",
   "resumen_en": "Note from Spain's Embassy in Buenos Aires (14 May 1981, no. 419) to the Ministry of Foreign Affairs, transmitting the letter from the Secretary General of Argentina's National Committee of the Popular Socialist Party (PSP) (Dr. Guillermo Estevez Boero), expressing on behalf of the party solidarity with Spain and condemnation of terrorist activity. The PSP is described as a minority university-based, moderate group.",
   "personas": [
-    { "nombre": "Guillermo Estevez Boero", "rol": "Secretario General del Partido Socialista Popular (PSP) de Argentina" }
+    {
+      "nombre": "Guillermo Estevez Boero",
+      "rol": "Secretario General del Partido Socialista Popular (PSP) de Argentina"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Partido Socialista Popular (PSP) de Argentina", "tipo": "politica" },
-    { "nombre": "Embajada de España en Buenos Aires", "tipo": "gobierno" }
+    {
+      "nombre": "Partido Socialista Popular (PSP) de Argentina",
+      "tipo": "politica"
+    },
+    {
+      "nombre": "Embajada de España en Buenos Aires",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-05-14", "descripcion_es": "El Partido Socialista Popular argentino expresa solidaridad con España y condena la actividad terrorista; Embajada transmite a Exteriores", "descripcion_en": "Argentine Popular Socialist Party expresses solidarity with Spain and condemns terrorist activity; Embassy transmits to Foreign Affairs", "lugar": "Buenos Aires, Argentina" }
+    {
+      "fecha": "1981-05-14",
+      "descripcion_es": "El Partido Socialista Popular argentino expresa solidaridad con España y condena la actividad terrorista; Embajada transmite a Exteriores",
+      "descripcion_en": "Argentine Popular Socialist Party expresses solidarity with Spain and condemns terrorist activity; Embassy transmits to Foreign Affairs",
+      "lugar": "Buenos Aires, Argentina"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "argentina", "solidaridad", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_20", "filename": "D.20._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "argentina",
+    "solidaridad",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_20",
+    "filename": "D.20._AGA-83-07633_exp._4.pdf",
+    "folder": "exteriores/AGA-83-07633",
+    "is_image_pdf": true,
+    "pages": 3,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "y >\n| 47\njut 9230(b)-—4\nBuenos Aires, 14 de mayo 1981.\npe, wae ASUNTO: Remite nota del Partido Soctatista\nPopular. REGISTRO GENERAL\nGabinete Señor Ministro. 16 mao 1981,\nIberoamérica. fp\n¡9 Excmo. Señor:\nV : Adjunto tengo la honra de pasar a manos\nA de V.E. fotocopia de la carta que me ha dirigido el\nSecretario General del Comité Nacional del Partido\nSocialista Popular (PSP), por la que me expresa,\nen nombre de la Mesa de dicho Partido, su solida-\nridad con España y su condena de la actividad te-\nrrorista, tras los últimos atentados ocurridos en\nnuestro país.\nEl Partido Socialista Popular es una\nSSS\nagrupación minoritaria, con caudal electoral y gra-\nvitación imposibles de determinar en las actuales\nircunstancias, compuesta generalmente por estu-\ndiantes universitarios.\nSu Secretario General, el Dr. Guillermo\nCops «El GGHHAA (sin au jos), Estevez Boero, es un abogado distinguido y pasa\ná por ser una persona moderada en todos los aspectos.\nSA\nJk\n28\no 4 oe\n\nEl Partido Socialista Popular mantiene\nrelaciones con el Partido Socialista Obrero español,\nal que también ha dirigido una carta en parecidos\ntérminos de solidaridad y de condena.\nDios guarde a V.E. muchos años.\nEL EMBAJADOR DE ESPAÑA\nMu .\nHa Zi >\nEnrique Pérez-Hernandez\nEXCMO. SEÑOR MINISTRO DE ASUNTOS EXTERIORES - MADRID.\n\nPARTIDO SOCIALISTA POPULAR\nCa— CpOMIT E ONANCIONAL i\nBuenos Aires, 8 de mayo de 1981,\nAl Excelentísimo\nSeñor Embajador de Fspaña\nDon Enriqué Pérez Hernández\nDe mi mayor consideración:\n‘i Tengo el agrado de dirigirme a Ud, y por\nvuestro digno intermedio a vuestro gobierno, en nombre de la Mesa.\nEjecutiva del Comité Nacional del Partido Socialista Popular,\n¡Los nuevos atentados terroristas produ-\ncidos en el día de ayer en vuestro país, determinan nuestra soli-\ndaridad con España y la reiterabión dé nuestra elara. condena del\naccionar terrorista.\nLos problemas de ispaña serán resueltos\nbor los españoles. Pero los atentados contra la vida no pueden sen\najenos a la sensibilidad de todos logs hombres.\ny Reitérole Señor Embajador, nuestra salj~\ndaridad para con el laborioso desvelo del pueblo y gobierno espa»\nfiol en su défícil camino hacia la demoopacia., ‘\nSaludo a Ud. respetuosamente.\nMh: yn\n[esto4\nrmo Estevez Boero\ndec, Grats.)",
+  "texto_completo_en": "and >\n| 47\njut 9230(b)-—4\nBuenos Aires, May 14, 1981.\npe, wae SUBJECT: Send note from the Soctatista Party\nPopular. GENERAL REGISTRATION\nCabinet Mr. Minister. May 16, 1981,\nIberoamerica. fp\n9 His Excellency Sir:\nV: Attached I have the honor to pass on to\nA from V.E. photocopy of the letter addressed to me by\nGeneral Secretary of the National Committee of the Party\nPopular Socialist Party (PSP), for which he expresses to me,\non behalf of the Bureau of said Party, his solidarity\nity with Spain and his condemnation of the\nterrorist, after the latest attacks that occurred in\nour country.\nThe Popular Socialist Party is a\nSSS\nminority group, with electoral wealth and great\nvitation impossible to determine in the current\ncircumstances, generally composed of stu-\nuniversity students.\nIts Secretary General, Dr. Guillermo\nCops «The GGHHAA (without au jos), Estevez Boero, is a distinguished lawyer and passes\nfor being a moderate person in all aspects.\nSA\njk\n28\no 4 oe\n\nThe Popular Socialist Party maintains\nrelations with the Spanish Socialist Workers Party,\nto whom he has also addressed a similar letter\nterms of solidarity and condemnation.\nGod save Your Excellency many years.\nTHE AMBASSADOR OF SPAIN\nMu.\nHa Zi >\nEnrique Pérez-Hernandez\nEXCELLENCE MINISTER OF FOREIGN AFFAIRS - MADRID.\n\nPOPULAR SOCIALIST PARTY\nCa— CpOMIT E ONANCIONAL i\nBuenos Aires, May 8, 1981,\nTo the Most Excellent\nMr. Ambassador of Fspaña\nDon Enrique Pérez Hernández\nOf my greatest consideration:\n'I have the pleasure of addressing you, and for\nyour worthy intermediary to your government, in the name of the Table.\nExecutive of the National Committee of the Popular Socialist Party,\nThe new terrorist attacks produced\nyesterday in your country, determine our request\ndarity with Spain and the reiteration of our faith. condemnation of\nterrorist action.\nSpain's problems will be resolved\nbor the Spanish. But attacks on life cannot be\nalien to the sensitivity of all men.\nand I reiterate, Mr. Ambassador, our salj~\n\"darity towards the laborious care of the Spanish people and government\"\nfiol on his difficult path towards demoopacia., '\nI greet you respectfully.\nMh: yn\n[this4\nrmo Estevez Boero\ndec, Grats.)"
 }

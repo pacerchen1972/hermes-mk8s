@@ -14,16 +14,36 @@
       "cargo": "General de la Guardia Civil",
       "organizacion": "Guardia Civil",
       "rol_en_23f": "leal",
-      "acciones": ["Un miembro del CESID estuvo en contacto con él en relación con las gestiones para disuadir a Tejero"]
+      "acciones": [
+        "Un miembro del CESID estuvo en contacto con él en relación con las gestiones para disuadir a Tejero"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "militar" },
-    { "nombre": "División Acorazada (DAC)", "tipo": "militar" },
-    { "nombre": "Dirección General de la Guardia Civil (DGGC)", "tipo": "policial" },
-    { "nombre": "Estado Mayor del Ejército (EME)", "tipo": "militar" },
-    { "nombre": "III Región Militar", "tipo": "militar" },
-    { "nombre": "Congreso de los Diputados", "tipo": "gubernamental" }
+    {
+      "nombre": "CESID",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "División Acorazada (DAC)",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Dirección General de la Guardia Civil (DGGC)",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "Estado Mayor del Ejército (EME)",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "III Región Militar",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Congreso de los Diputados",
+      "tipo": "gubernamental"
+    }
   ],
   "eventos": [
     {
@@ -75,7 +95,15 @@
       "fecha": "1981-02-23"
     }
   ],
-  "temas": ["cesid", "golpe", "cronologia", "division-acorazada", "operaciones", "23f", "congreso"],
+  "temas": [
+    "cesid",
+    "golpe",
+    "cronologia",
+    "division-acorazada",
+    "operaciones",
+    "23f",
+    "congreso"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_4_R",
     "filename": "Documento_4_R.pdf",
@@ -83,5 +111,7 @@
     "is_image_pdf": false,
     "pages": 2,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "...\nRESUMEN DE LA ACTUACION DE \"DDI\"\nDía\n23 1700 Noticia orden acuartelamiento U,s DAC en nombre Jefe Di\nvisión.\n1820 Noticia radio asalto Congreso.\na\n1830 Se pregunta a la 2- Sec. de EM, DGGC,IGPN,Div.Infor.EME\n(Int) y CGI si saben algo de lo que ocurre. Respuesta -\nnegativa.\n1900 Se monta centro de operaciones y se designan encargados\ndel enlace con DGGC,Cap.General,EME(Int) ,CGI/DSE e IGPN\n1930 Se establece control informativo de movimientos en ca-\nrreteras de EXTREMADURA y COLMENAR.\n1930 Se envían a la calla directivos de DIE y DCI para obten\nci6n de información.\nVarios contactos con Cor.BENDALA(Div.Infor.EME) para in\ntercambio de información y sugerencias.\n2000 Se ordena a los Sectores pasen a situación de alerta\nverde, desplieguen al máximo sus posibilidades de obten\nci6n de información y envíen parte de situación cada-=\ndos horas.\nDesplazamiento de dos directivos a IGPN para establecer\ncontacto con su EM.\n2400 Conversación con Tcol PACHECO (2ª Sec.EM.CAPGE.III RM),\npara sugerirle proponga a su mando la reconsideración -\nde las medidas adoptadas, a fin de evitar impresión de\nposible connivencia con Tcol. TEJERO.\n24 0330 Se ordena a los Sectores suspendan envío partes de si-\ntuaci6n hasta 0500.\n0910 Desplazamiento de dos directivos al Hotel PALACE para -\ncontacto con EM. IGPN. (Perrnanenciendo allí 'hasta 1100).\n0930 Se envía un oficial de enlace al EMACON/JUJEM. Lleva -\npropuesta de instalación de altavoces en zon~ Congreso,\nimpermeabilización de la zona para evitar posibles nue\nvas incorporaciones de U,s si situación se prolonga y ~\nestudio urgente de medidas para cuando termine ocupa--\nción Congreso. Se mantiene allí hasta las 1230.\n1800 Se ordena a los Sectores pasen a situación de normali-\ndad y suspendan envío de partes de situación.\nACTUACIONES PERMAMENTES\nA lo largo del período se ha mantenido contacto directo y per\nmanente con el Cap.Gral. de la I RG y, además, frecuentes con\n\n- 2 -\ntactos telefónicos con gran número de Unidades y Centros Mili\ntares.\nEl enlace con el Cap. Gral. permitió poner en su conocimiento\nel despliegue de U,s. en la III RG, qué desconocía, así como\nel rumor de que S.M. estaba prisionero, lo que le hizo entrar\nen contacto con el Palacio de la Zarzuela. Por su parte, el\nCESID pudo conocer en todo momento las decisiones del Cap. Ge\nneral.\nUn miembro del CESID estuvo en contacto con el General PRIETO\n(GC) en relación con las gestiones para disuadir al Tcol. TE\nJERO.\nDos directivos del CESID lograron penetrar en el Congreso y -\nhablar con los Jefes de los allí encerrados (Tejero, Menén--\ndez, Pardo Zancada). Estos explicaron su actitud, que en\naquel momento parecía irreductible, y no pusieron ninguna di\nficultad para la salida posterior del personal del CESID.\nOtros miembros del CESID pudieron entrar igualmente en el Con\ngreso y hablar con algunos de los números de la Guardia Civil\nparticipantes en la ocupación. Se supo enseguida que el nú--\ncleo verdaderamente comprometido era una minoría, y el resto\nhabían ido engañados.\nEl Director General de la Guardia Civil, General Aramburu, co\nnoci6 la llegada a las inmediaciones del Congreso de las UAR~\ncuya orden de intervenir desconocía, igualmente a través del\npersonal del CESID.\nSe estuvo al corriente en todo momento de las actitudes de\nlos grupos de extrema derecha en relación con los hechos.",
+  "texto_completo_en": "...\nSUMMARY OF THE PERFORMANCE OF \"DDI\"\nDay\n23 1700 News quartering order U,s DAC on behalf of Chief Di\nvision.\n1820 News radio assault Congress.\nto\n1830 Question is asked to the 2-Sec. of EM, DGGC,IGPN,Div.Infor.EME\n(Int) and CGI do know something about what is happening. Answer -\nnegative.\n1900 Operations center is set up and managers are appointed\nof the link with DGGC, General Cap., EME (Int), CGI/DSE and IGPN\n1930 Informative control of movements in cars is established.\nroads of EXTREMADURA and COLMENAR.\n1930 Directors of DIE and DCI are sent to the streets to obtain\ntion of information.\nSeveral contacts with Cor.BENDALA(Div.Infor.EME) to in\nexchange of information and suggestions.\n2000 Sectors are ordered to go on alert\ngreen, deploy to the maximum your possibilities of obtaining\ninformation and send part of the situation each-=\ntwo hours.\nDisplacement of two managers to IGPN to establish\nContact your MS.\n2400 Conversation with Tcol PACHECO (2nd Sec.EM.CAPGE.III RM),\nto suggest to your command to reconsider -\nof the measures adopted, in order to avoid the impression of\npossible collusion with Tcol. WEAVING.\n24 0330 Sectors are ordered to suspend sending parts of\ntuation until 0500.\n0910 Transfer of two managers to the PALACE Hotel to -\ncontact with EM. IGPN. (Remaining there 'until 1100).\n0930 A liaison officer is sent to EMACON/JUJEM. Takes -\nproposal to install loudspeakers in the Congress area,\nwaterproofing of the area to avoid possible new\nyou incorporate U,s if the situation is prolonged and ~\nurgent study of measures for when occupation ends--\ntion Congress. It remains there until 1230.\n1800 The Sectors are ordered to return to a normal situation.\nity and suspend sending of situation reports.\nPERMANENT ACTIONS\nThroughout the period direct and personal contact has been maintained\nmaintain with Cap.Gral. of the I RG and, in addition, frequent with\n\n- 2 -\ntelephone contacts with a large number of Military Units and Centers\ntasks.\nThe link with Chap. General allowed to inform you\nthe deployment of U,s. in the III RG, what I did not know, as well as\nthe rumor that H.M. he was a prisoner, which made him enter\nin contact with the Palacio de la Zarzuela. For his part, the\nCESID was able to know at all times the decisions of Cap. General.\nA member of the CESID was in contact with General PRIETO\n(GC) in relation to efforts to deter Tcol. TE\nJERO.\nTwo CESID directors managed to penetrate Congress and -\ntalk to the Chiefs of those imprisoned there (Tejero, Menén--\ndez, Pardo Zancada). These explained their attitude, which in\nThat moment seemed irreducible, and they made no difference.\ndifficulty for the subsequent departure of CESID personnel.\nOther members of the CESID were also able to enter the Con\nreturn and talk to some of the numbers of the Civil Guard\nparticipants in the occupation. It was immediately known that the number--\nTruly committed cleo was a minority, and the rest\nThey had been deceived.\nThe Director General of the Civil Guard, General Aramburu, co\nHe noticed the arrival in the vicinity of the UAR Congress~\nwhose order to intervene he was unaware of, also through the\nCESID staff.\nHe was aware at all times of the attitudes of\nfar-right groups in relation to the events."
 }

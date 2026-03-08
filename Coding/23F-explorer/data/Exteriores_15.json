@@ -9,17 +9,46 @@
   "resumen_es": "Carta de la Câmara Municipal de Elvas (Portugal) al Cónsul de España en Elvas (7350-Elvas), transmitiendo la 'Moção' de solidaridad aprobada por unanimidad en la reunión ordinaria de la Asamblea Municipal del día 19 del corriente mes, en la que la Asamblea expresa su solidaridad con el pueblo español ante el fracaso del intento golpista fascista del 23 de febrero.",
   "resumen_en": "Letter from the Municipal Council of Elvas (Portugal) to Spain's Consul in Elvas (7350-Elvas), transmitting the solidarity 'Moção' passed unanimously at the Municipal Assembly's ordinary meeting on the 19th of that month, in which the Assembly expresses solidarity with the Spanish people following the failure of the fascist coup attempt of 23 February.",
   "personas": [
-    { "nombre": "Joaquim Manuel Pinheiro Caldeira", "rol": "Presidente da Área da Assembleia Municipal de Elvas, firmante" }
+    {
+      "nombre": "Joaquim Manuel Pinheiro Caldeira",
+      "rol": "Presidente da Área da Assembleia Municipal de Elvas, firmante"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Câmara Municipal de Elvas", "tipo": "gobierno" },
-    { "nombre": "Consulado de España en Elvas", "tipo": "gobierno" }
+    {
+      "nombre": "Câmara Municipal de Elvas",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Consulado de España en Elvas",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-01", "descripcion_es": "La Asamblea Municipal de Elvas (Portugal) aprueba por unanimidad moción de solidaridad con España condenando el intento golpista del 23-F", "descripcion_en": "The Municipal Assembly of Elvas (Portugal) unanimously passes solidarity motion with Spain condemning the 23-F coup attempt", "lugar": "Elvas, Portugal" }
+    {
+      "fecha": "1981-03-01",
+      "descripcion_es": "La Asamblea Municipal de Elvas (Portugal) aprueba por unanimidad moción de solidaridad con España condenando el intento golpista del 23-F",
+      "descripcion_en": "The Municipal Assembly of Elvas (Portugal) unanimously passes solidarity motion with Spain condemning the 23-F coup attempt",
+      "lugar": "Elvas, Portugal"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "portugal", "solidaridad", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_15", "filename": "D.15._AGMAE_R40201_Exp._215.pdf", "folder": "exteriores/AGMAE-40201", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "portugal",
+    "solidaridad",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_15",
+    "filename": "D.15._AGMAE_R40201_Exp._215.pdf",
+    "folder": "exteriores/AGMAE-40201",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "tx\nCAMARA MUNICIPAL DE ELVAS\nTELEFS\nAPARTADO 70\nASSUNTO:\nenvio £\npanhol,\n44933 - Formato A4\n\nALIANCA * POVO UNIDO\nMOGXO DE SOLIDARIEDADE COM 10) POVO ESPANHOL\nOs eleitos da APU na Assembleia Municipal propsem que esta aprove e envie\npara divulgacáo nos érgaes da Comunicagáo Social , e envie cópia para o\nCensulade Espanhol em Elvas , Embaixada de Espanha e érgaes Municipais de\nBadajoz a seguinte Mocae .\n1 - A accáo gelpista de inspiracie fascista desencadeada em Espanha ne\npassade dia 23/2/81 proveceu cempreensivelmente sérias preocupacoes e viva\nindignac&e nos democratas portugueses e na epiniae pública Nacional ,\n-A APU cendena firmemente aquela tentativa de golpe claramente apostada em\nfazer retroceder o processe pelftice em Espanha e liquidar as liberdades\ndemocráticas e direites comquistados pelos trabalhadores e pelos povos do\nPaís vizinho .\n2 - Constitui desde já fundado motive de regozijo para todos es portugueses\nde sentimentos democráticos que a tentativa de golpe reacciendérie ne País\nvizinhe tenha fracassade e que nesta grave emergéncia da vida política Espa-\nnhela tenham prevalecido as posicées favoráveis ao prosseguimento de processa\ndemocrátice .\n3 - Os eleites da APU reafirmam a sua inteira solidariedade para cem es tral\nbalhadores e forcas democráticas de Espanha . exprimem ao mesmo tempo a sua\nprefunda cenfianca de qne cem a sua unidade assegurarae e prosseguimento e\ndesenvolvimento viteriose de processo democrátice em Espanha :, em correspon-\ndéncia com os interesses , a vontade e as aspiracdes dos pevos do País vizi-\nnho +\nELVAS, 26 de FEVEREIRO de 1981",
+  "texto_completo_en": "tx\nMUNICIPAL CHAMBER OF ELVAS\nTELEFS\nSECTION 70\nSUBJECT:\nshipping £\npanhol,\n44933 - A4 format\n\nALLIANCA * UNITED POVO\nMOGXO DE SOLIDARIEDADE COM 10) POVO ESPANHOL\nThe votes of the APU in the Municipal Assembly propose that this approval and sending\nto disseminate to us Social Communication ergaes, and send a copy to or\nCensulade Espanhol em Elvas, Embaixada de Espanha e érgaes Municipales de\nBadajoz next Mocae.\n1 - A fascist-inspired incident unleashed in Spain\nPassed day 2/23/81 proveceu always be seriously concerned and live\noutrage among Portuguese democrats in the National public epiniae,\n-APU firmly condemns that attempted coup clearly committed to\nmake the process go back in Spain and liquidate the freedoms\ndemocratic and rights gained by workers and poor people\nVizinho country.\n2 - It constitutes since it was founded a reason for rejoicing for all the Portuguese\nof democratic sentiments that the attempted coup reacciendérie ne Country\nvizinhe has failed and that this serious emergency in political life in Spain\nnhela tenham prevailed as posicées favoráveis ao prosseguimento de processa\ndemocratic.\n3 - The eleites of APU reaffirm its integrity of solidarity for cem es tral\nbalhadores and democratic forces of Spain. express ourselves at the same time as yours\ncenfianca cover that cem to your insurance unit and progress\nviteriose development of the democratic process in Spain:, em correspondingly\ndéncia com os interesses, a vontade e as aspirations dos pevos do País vizi-\nnho +\nELVAS, FEBRUARY 26, 1981"
 }

@@ -9,21 +9,61 @@
   "resumen_es": "Nota de prensa de la Embajada Británica en Madrid (3/81) reproduciendo los mensajes del Reino Unido tras el 23-F: (1) Mensaje de la Reina Isabel II al Rey Juan Carlos I: 'Quedé fuertemente impresionada por el temple constante de la actitud española en el Parlamento cuando ya conocíamos el resultado final. Envío mis felicitaciones a su Majestad y a todos los que han intervenido con tanto ánimo para proteger el orden constitucional.' (2) Mensaje del Speaker de la Cámara de los Comunes al Presidente del Congreso español, expresando su admiración por la defensa del orden democrático y transmitiendo la felicitación del pueblo británico.",
   "resumen_en": "Press release from the British Embassy in Madrid (3/81) reproducing the UK's messages after 23-F: (1) Message from Queen Elizabeth II to King Juan Carlos I: 'I was deeply impressed by the steady attitude displayed in the Spanish Parliament when we knew the final outcome. I send my congratulations to Your Majesty and to all those who intervened with such determination to protect constitutional order.' (2) Message from the Speaker of the House of Commons to the President of Spain's Congress, expressing admiration for the defence of democratic order and conveying the British people's congratulations.",
   "personas": [
-    { "nombre": "Isabel II de Gran Bretaña", "rol": "Reina del Reino Unido, envió mensaje de solidaridad al Rey Juan Carlos" },
-    { "nombre": "Juan Carlos I", "rol": "Rey de España, destinatario del mensaje de Isabel II" }
+    {
+      "nombre": "Isabel II de Gran Bretaña",
+      "rol": "Reina del Reino Unido, envió mensaje de solidaridad al Rey Juan Carlos"
+    },
+    {
+      "nombre": "Juan Carlos I",
+      "rol": "Rey de España, destinatario del mensaje de Isabel II"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Embajada Británica en Madrid", "tipo": "gobierno" },
-    { "nombre": "Casa Real Británica", "tipo": "gobierno" },
-    { "nombre": "Cámara de los Comunes del Reino Unido", "tipo": "gobierno" }
+    {
+      "nombre": "Embajada Británica en Madrid",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Casa Real Británica",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Cámara de los Comunes del Reino Unido",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-02-25", "descripcion_es": "La Reina Isabel II envía mensaje de solidaridad al Rey Juan Carlos y el Speaker de los Comunes al Presidente del Congreso español tras el 23-F", "descripcion_en": "Queen Elizabeth II sends solidarity message to King Juan Carlos and the Commons Speaker to Spain's Congress President after 23-F", "lugar": "Londres / Madrid" }
+    {
+      "fecha": "1981-02-25",
+      "descripcion_es": "La Reina Isabel II envía mensaje de solidaridad al Rey Juan Carlos y el Speaker de los Comunes al Presidente del Congreso español tras el 23-F",
+      "descripcion_en": "Queen Elizabeth II sends solidarity message to King Juan Carlos and the Commons Speaker to Spain's Congress President after 23-F",
+      "lugar": "Londres / Madrid"
+    }
   ],
   "citas_clave": [
-    { "texto_es": "Quedé fuertemente impresionada por el temple constante de la actitud española en el Parlamento cuando ya conocíamos el resultado final", "texto_en": "I was deeply impressed by the steady attitude displayed in the Spanish Parliament when we knew the final outcome", "fuente": "Mensaje de la Reina Isabel II al Rey Juan Carlos, 25 febrero 1981" }
+    {
+      "texto_es": "Quedé fuertemente impresionada por el temple constante de la actitud española en el Parlamento cuando ya conocíamos el resultado final",
+      "texto_en": "I was deeply impressed by the steady attitude displayed in the Spanish Parliament when we knew the final outcome",
+      "fuente": "Mensaje de la Reina Isabel II al Rey Juan Carlos, 25 febrero 1981"
+    }
   ],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "reino-unido", "isabel-ii", "juan-carlos-i", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_28", "filename": "D.28._AGA-83-09301_exp._5.pdf", "folder": "exteriores/AGA-83-09301", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "reino-unido",
+    "isabel-ii",
+    "juan-carlos-i",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_28",
+    "filename": "D.28._AGA-83-09301_exp._5.pdf",
+    "folder": "exteriores/AGA-83-09301",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "3/81\nMENSAJE DE SU MAJESTAD BRITANICA LA REINA ISABEL II\nA SU MAJESTAD EL REY DON JUAN CARLOS I\nFacilitamos a continuación el texto del mensaje transmitido por\nSu Majestad la Reina Isabel II a Su Majestad el Rey Don Juan Carlos I:\n\"Quedé fuertemente impresionada al tener conocimiento de la\nacción emprendida contra el Parlamento español por un grupo\narmado o. Todos nosotros en Gran Bretaña nos tranquilizamos\nal conocer el resultado final. Envio mis felicitaciones a\nSu Majestad y a todos los que han intervenido con tanto\néxito para proteger el orden constitucional.\"\nMENSAJE DEL SPEAKER DE Li CAMARA DE LOS COMUNES\nAL PRESIDENTE DEL CONGRESO DE DIPUTADOS ESPANOL\nFacilitamos a continuación el texto del mensaje transmitido por\nel Speaker de la Cámara de los Comunes al Presidente del Congreso\nde Diputados D. Landelino Lavilla:\n\"Queté fuertemente impresionado al tener conocimiento de la\nindignidad cometida contra el Congreso de Diputados y contra\nsu propia persona como Presidente del mismo. Usted y los\ndiputados han sufrido una rigurosa experiencia; su conducta\nha merecido el respeto de todos los parlamentarios del mundo\ndemocrático. Le transmito la felicitación de la Cámara de\nlos Comunes por el final feliz ante un acontecimiento que ha\ninquietado a los amigos de la democracia española.\"\n0-00\n25 de febrero 1.981\nReproducción autorizada",
+  "texto_completo_en": "3/81\nMESSAGE FROM HER BRITISH MAJESTY QUEEN ELIZABETH II\nTO HIS MAJESTY KING JUAN CARLOS I\nWe provide below the text of the message transmitted by\nHer Majesty Queen Elizabeth II to His Majesty King Juan Carlos I:\n\"I was strongly impressed when I learned of the\naction taken against the Spanish Parliament by a group\narmed or. All of us in Britain calm down\nupon knowing the final result. I send my congratulations to\nYour Majesty and all those who have intervened with so much\nsuccess in protecting the constitutional order.\"\nMESSAGE FROM THE SPEAKER OF LI HOUSE OF COMMONS\nTO THE PRESIDENT OF THE SPANISH CONGRESS OF DEPUTIES\nWe provide below the text of the message transmitted by\nthe Speaker of the House of Commons to the President of Congress\nof Deputies Mr. Landelino Lavilla:\n\"I was greatly impressed when I learned of the\nindignity committed against the Congress of Deputies and against\nhis own person as President of the same. You and the\ndeputies have undergone a rigorous experience; his behavior\nhas earned the respect of all parliamentarians in the world\ndemocratic. I convey to you the congratulations of the Chamber of\nthe Commons for a happy ending to an event that has\ndisturbed the friends of Spanish democracy.\"\n0-00\nFebruary 25, 1981\nAuthorized reproduction"
 }

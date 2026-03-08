@@ -10,13 +10,35 @@
   "resumen_en": "Interior Intelligence Brigade note (39-497, 10 May 1983). Because some of those prosecuted for 23-F have lost their military status, a group of businessmen, friends and sympathisers — including a [REDACTED] family — plans to create a monthly common fund to alleviate the economic needs of some of the implicated persons' families.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" }
+    {
+      "nombre": "Brigada de Información Interior",
+      "tipo": "seguridad"
+    }
   ],
   "eventos": [
-    { "fecha": "1983-05-10", "descripcion_es": "Brigada de Información Interior detecta creación de fondo económico para las familias de los procesados del 23-F que perdieron su condición militar", "descripcion_en": "Interior Intelligence Brigade detects creation of financial fund for families of 23-F defendants who lost their military status", "lugar": "Madrid" }
+    {
+      "fecha": "1983-05-10",
+      "descripcion_es": "Brigada de Información Interior detecta creación de fondo económico para las familias de los procesados del 23-F que perdieron su condición militar",
+      "descripcion_en": "Interior Intelligence Brigade detects creation of financial fund for families of 23-F defendants who lost their military status",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-juicio", "apoyo-economico", "familias-implicados", "brigada-informacion-interior"],
-  "_meta": { "doc_id": "Interior_Policia_1", "filename": "10-05-83_NOTA_INFORMATIVA_SOBRE_APOYO_ECONOMICO_A_LOS_IMPLICADOS.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-juicio",
+    "apoyo-economico",
+    "familias-implicados",
+    "brigada-informacion-interior"
+  ],
+  "_meta": {
+    "doc_id": "Interior_Policia_1",
+    "filename": "10-05-83_NOTA_INFORMATIVA_SOBRE_APOYO_ECONOMICO_A_LOS_IMPLICADOS.pdf",
+    "folder": "interior/policia",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": ". BRÍGADA DE _ INFORMACION mete # I Y\nMadrid, 10 de mayo de 1.983\n\nASUNTO: APOYO ECONOMICO A LOS IMPLICADOS EN EL 23-F\nComo consecuencia de que algunas de las personas\nprocesadas por el 23-F han llegado a perder su condición -\nde militares, lo cual les supone también una merma impor--\ntante en sus ingresos, un grupo de empresarios, amigos y -\nsimpatizantes de ellos, entre los que se encuentra la fami\nlia MINA, formarán un fondo comin todos los me-\nses, con lo que se intentará paliar las necesidades econó-\nmicas de las familias de algunos de los implicados.\nMadrid, 10 de mayo de 1.983",
+  "texto_completo_en": ". INFORMATION BRIGADE puts # I AND\nMadrid, May 10, 1983\n\nSUBJECT: ECONOMIC SUPPORT FOR THOSE INVOLVED IN 23-F\nAs a consequence of the fact that some of the people\nprocessed by 23-F have lost their status -\nof military personnel, which also means an important loss--\nmuch in their income, a group of businessmen, friends and -\nsympathizers of them, among whom is the family\nlia MINA, will form a common fund of all the\nses, which will attempt to alleviate the economic needs\nmistresses of the families of some of those involved.\nMadrid, May 10, 1983"
 }

@@ -79,10 +79,22 @@
     }
   ],
   "organizaciones": [
-    { "nombre": "Guardia Civil", "tipo": "policial" },
-    { "nombre": "Policía Armada", "tipo": "policial" },
-    { "nombre": "JEME (Jefatura del Estado Mayor del Ejército)", "tipo": "militar" },
-    { "nombre": "La Galaxia (cafetería)", "tipo": "otro" }
+    {
+      "nombre": "Guardia Civil",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "Policía Armada",
+      "tipo": "policial"
+    },
+    {
+      "nombre": "JEME (Jefatura del Estado Mayor del Ejército)",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "La Galaxia (cafetería)",
+      "tipo": "otro"
+    }
   ],
   "eventos": [
     {
@@ -134,7 +146,14 @@
       "fecha": "1978-11-01"
     }
   ],
-  "temas": ["operacion-galaxia", "antecedentes-tejero", "1978", "primera-conspiracion", "interrogatorio", "la-moncloa"],
+  "temas": [
+    "operacion-galaxia",
+    "antecedentes-tejero",
+    "1978",
+    "primera-conspiracion",
+    "interrogatorio",
+    "la-moncloa"
+  ],
   "_meta": {
     "doc_id": "23F_10._Nota_comparecencia_Tejero_Galaxia",
     "filename": "23F_10._Nota_comparecencia_Tejero_Galaxia.pdf",
@@ -142,5 +161,7 @@
     "is_image_pdf": true,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "EN TOLEDO, A LAS. 18,30 HORAS DEL DIA 16 DE NOVIEMBRE, ANTE EL CORONEL DE LA GUARDIA\nCIVIL DON SERGIO GALLEGO RONQUILLO Y EL TENIENTE CORONEL DE I NFANTERIA S.E.M. DCN\nANDRES CASSINELLO PEREZ, DEL ESTADO MAYOR DE LA DIRECCION GENERAL DE LA GUARDIA CIVIL\nCOMPARECE EL TENENTE CORONEL DON ANTONIO PEJERO MOLINA,\nPreguntado si el viernes dia 10 de noviembre estuvo en la Cafate ria Galaxia y\nquien le acompañaba, el Tte Coronel Tejero maniefiesta que estuvo con el Capiten\nHinestrilles , de la Paño, el Cte. Vidal Frances, Cte. Rodriguez Solano del E.X,\nGel JEME y posiblemente el capitam Aleman; .\nPreguntado si habia tratado sobre un posible golpeo de estado, o golpe de fuerza\ncontra la Moncloa, maniefiesta que no y que no trate paranada ese tema. Le conversa\ncion se limito a tratar los temas de preocupacion politica del momento.\nPreguntado se habia visitado en su domicilio al Coronel Quintero el lunes pasado,\nmenifiesta que no, lo conoce d e cidas y no ha estado jamas en su domicilio, hebiendo:\nle señalado une vez Resgelejos , :\nPreguntado se conoce el Tte Coronel Poleviejay de la Poboy menifiesta que si,\nque se lo presentaron en una ocasion en el despacho del Comandante de la P,A, en Bada-\njoz hace unos 10 meses y no lo ha vuelto a ver desde entonces,\nPreguntado si conoce el coronel Mateo, del Rgt® Alcazar de Toledo, manifiesta nm\nhaberlo conocido nunca,\nPreguntado si conocia al coromel Maizterra, del GIR n® 2, manifiesta conocerle\nde sus tiemposi de cadete, no habiendolo vuelto a ver desde entonces,\nPreguntedo cuando vio por ultima vez al TCOL Tapia, de la Paño, manifiesta que\nen Vitoría hace ya casi cuatro afios,\nReiter andole ha pregunta de si conoce la noticia de un posible y pr oximo gol-\npe militar, o de fuerza, en Mad rid y que tendria 1 ugar el proximo dia 1 7 de este\nmes, manificsta no conoces x mhnguno, ni en e sa fecha ni en ninguna.\nX anifiesta iguelmente que la ultima vez que estuvo en la Academia de la Pod,\nfue aproximadamente hace un mes con motivo del ascenso de su hermano,\nPreguntandole si tiene algo mas que decir en relsccion con estos temas, mani\nfiesta que no tiene mas que decir,\nEn prueba de lo expuesto, y despues de láer su contenido, ante el coronel Gallego\ny el Tte Coronel Cassinello, 1 o fierma en prueba de conformidad de lo expuesto\nXHBALERGXZ Toled o, 16 4 e Noviembre de 1.978\nEL TTE CORONEL",
+  "texto_completo_en": "IN TOLEDO, AT. 6:30 PM ON NOVEMBER 16, BEFORE THE COLONEL OF THE GUARD\nCIVILIAN DON SERGIO GALLEGO RONQUILLO AND THE LIEUTENANT COLONEL OF THE INFANTRY S.E.M. DCN\nANDRES CASSINELLO PEREZ, OF THE STAFF OF THE GENERAL DIRECTORATE OF THE CIVIL GUARD\nLIEUTENANT COLONEL DON ANTONIO PEJERO MOLINA APPEARS,\nAsked if he was at the Galaxia Cafe on Friday, November 10, and\nwho accompanied him, Lt. Colonel Tejero states that he was with the Captain\nHinestrilles, de la Paño, Cte. Vidal Frances, Cte. Rodriguez Solano of E.X,\nGel JEME and possibly the German capitam; .\nAsked if he had discussed a possible coup d'état, or coup d'état\nagainst the Moncloa, states that it is not and that it does not address that issue at all. He talks to him\ntion was limited to addressing the issues of political concern of the moment.\nAsked if Colonel Quintero had been visited at his home last Monday,\nHe states that he does not, he definitely knows him and has never been to his home, having:\nResgelejos once pointed out to him:\nWhen asked whether Lt. Col. Poleviejay of the Poboy is known, he states that yes,\nthat they presented it to him on one occasion in the office of the Commander of the P,A, in Bada-\njoz about 10 months ago and hasn't seen him since,\nAsked if he knows Colonel Mateo, from the Rgt® Alcazar of Toledo, he states\nhave never known him,\nAsked if he knew the cornel Maizterra, from GIR n® 2, he said he knew it\nfrom his days as a cadet, not having seen him since then,\nAsked when he last saw TCOL Tapia, de la Paño, stated that\nin Vitoria almost four years ago,\nReiter andole has asked if he knows the news of a possible and next goal.\nmilitary, or force, in Madrid and that I would have a place next day 17 of this\nmonth, manifesto you don't know any of them, neither on that date nor on any other date.\nX also states that the last time he was at the Pod Academy,\nIt was approximately a month ago on the occasion of his brother's promotion,\nAsking him if he has anything else to say regarding these issues, he said\nparty that has nothing more to say,\nIn proof of the above, and after reading its contents, before Colonel Gallego\nand Lt. Colonel Cassinello, 1st signature in proof of compliance with the above\nXHBALERGXZ Toledo, 16 4 November 1978\nTHE LUT COLONEL"
 }

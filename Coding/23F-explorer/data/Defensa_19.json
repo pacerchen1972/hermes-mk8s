@@ -9,17 +9,47 @@
   "resumen_es": "Auto del Consejo Supremo de Justicia Militar (Carpeta 21804, RESERVADO, enero 1982) por el que se desestima el recurso de queja presentado por el Teniente General Jaime Milans del Bosch y Ussía sobre las condiciones de su detención y arresto. El CSJM comunicó el auto al Ministerio de Defensa a los efectos oportunos.",
   "resumen_en": "CSJM ruling (Carpeta 21804, RESERVED, January 1982) dismissing the complaint appeal filed by Lt General Jaime Milans del Bosch y Ussía regarding his detention conditions. The CSJM communicated the ruling to the Ministry of Defence for the appropriate purposes.",
   "personas": [
-    { "nombre": "Jaime Milans del Bosch y Ussía", "rol": "Teniente General, presentó recurso sobre condiciones de su detención que fue desestimado" }
+    {
+      "nombre": "Jaime Milans del Bosch y Ussía",
+      "rol": "Teniente General, presentó recurso sobre condiciones de su detención que fue desestimado"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-01-29", "descripcion_es": "CSJM desestima el recurso de queja de Milans del Bosch sobre las condiciones de su detención, considerando que no vulnera el artículo 17 de la Constitución", "descripcion_en": "CSJM dismisses Milans del Bosch's complaint appeal on detention conditions, finding no violation of Article 17 of the Constitution", "lugar": "Madrid" }
+    {
+      "fecha": "1982-01-29",
+      "descripcion_es": "CSJM desestima el recurso de queja de Milans del Bosch sobre las condiciones de su detención, considerando que no vulnera el artículo 17 de la Constitución",
+      "descripcion_en": "CSJM dismisses Milans del Bosch's complaint appeal on detention conditions, finding no violation of Article 17 of the Constitution",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "milans-del-bosch", "detencion", "recurso", "causa-2-81", "csjm"],
-  "_meta": { "doc_id": "Defensa_19", "filename": "Carpeta_21804_Reservado_dacion_en_cuenta_de_recurso_de_queja_de_Milans_del_Bosch_sobre_su_detencion.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "milans-del-bosch",
+    "detencion",
+    "recurso",
+    "causa-2-81",
+    "csjm"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_19",
+    "filename": "Carpeta_21804_Reservado_dacion_en_cuenta_de_recurso_de_queja_de_Milans_del_Bosch_sobre_su_detencion.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "CONSEJO SUPREMO\nDE JUSTICIA MILITAR",
+  "texto_completo_en": "SUPREME COUNCIL\nMILITARY JUSTICE"
 }

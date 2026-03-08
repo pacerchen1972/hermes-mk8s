@@ -10,15 +10,44 @@
   "resumen_en": "Interior Intelligence Brigade note (39-497G, 18 March 1981). Intelligence received that from high military circles, an economic support campaign may be launched for families of military and civil guard personnel implicated in the Congress assault. At the same time, a sector of the Army holds the firm conviction of not tolerating any persecution of these families, causing 'high unrest within the Armed Forces'.",
   "personas": [],
   "organizaciones": [
-    { "nombre": "Brigada de Información Interior", "tipo": "seguridad" },
-    { "nombre": "Ejército de Tierra", "tipo": "militar" },
-    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+    {
+      "nombre": "Brigada de Información Interior",
+      "tipo": "seguridad"
+    },
+    {
+      "nombre": "Ejército de Tierra",
+      "tipo": "militar"
+    },
+    {
+      "nombre": "Guardia Civil",
+      "tipo": "seguridad"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-18", "descripcion_es": "Brigada de Información Interior detecta malestar militar: sectores del Ejército planean apoyo económico para familias de implicados y rechazan cualquier persecución", "descripcion_en": "Interior Intelligence Brigade detects military unrest: Army sectors plan economic support for implicated families and reject any persecution", "lugar": "Madrid" }
+    {
+      "fecha": "1981-03-18",
+      "descripcion_es": "Brigada de Información Interior detecta malestar militar: sectores del Ejército planean apoyo económico para familias de implicados y rechazan cualquier persecución",
+      "descripcion_en": "Interior Intelligence Brigade detects military unrest: Army sectors plan economic support for implicated families and reject any persecution",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "malestar-militar", "apoyo-economico", "familias-implicados", "brigada-informacion-interior"],
-  "_meta": { "doc_id": "Interior_Policia_5", "filename": "18-03-81_NOTA_INFORMATIVA_SOBRE_LA_AYUDA_A_LOS_IMPLICADOS_23F.pdf", "folder": "interior/policia", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "malestar-militar",
+    "apoyo-economico",
+    "familias-implicados",
+    "brigada-informacion-interior"
+  ],
+  "_meta": {
+    "doc_id": "Interior_Policia_5",
+    "filename": "18-03-81_NOTA_INFORMATIVA_SOBRE_LA_AYUDA_A_LOS_IMPLICADOS_23F.pdf",
+    "folder": "interior/policia",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "ASUNTO:D AXUIRPASA_4 I10CS ADOS HN El aisha\nSe ha tenido conooíniento de quo, desde altas\ninstancias castrenses, se podsfo iniciar una campaña de\neguda econbaica para los fombliares de los militares y\nguardias civiles implicados en el asalto al Congreso de\nlos Diputados, Al mismo ticago, existe una firme convice\nción, en un sector del Ejército, de no tolerar, de ningy\naa manera, cualquier intento de persecución a los refer,\ndos familiares, hecho Éste que viens comensando a-produ»\ncirse y por el que se puede epreciar un elevado malester\nen el seno de las Puersas Armadas.\nMadrád, 19 de marzo de 1.981\n\n39-49%G\nDifur sido IGADA INTERIOR\n2 ofr\nO JEFE SUPERIOR\nO DOCUMENTACION\n(O BDA, REG, INF. de ASUNTO: AYUDAS A LOS IMPLICADOS EN\nGo EBS COPE ESTADO\nGe\n“ex\nMadrid, 18 de marzo de 1.981\n294 19",
+  "texto_completo_en": "SUBJECT:D AXUIRPASA_4 I10CS ADOS HN El aisha\nThere has been knowledge that, from high\nmilitary authorities, it was possible to start a campaign\neguda econbaica for the members of the military and\ncivil guards involved in the assault on the Congress of\nDeputies, at the same time, there is a firm conviction\ntion, in a sector of the Army, of not tolerating, of ningy\nIn any case, any attempt to persecute the referees,\ntwo relatives, fact This one that you are starting a-produ»\ncirse and for which a high level of unease can be appreciated\nwithin the Armed Forces.\nMadrád, March 19, 1981\n\n39-49%G\nDifur been INTERIOR IGADA\n2 ofr\nOR TOP BOSS\nOR DOCUMENTATION\n(OR BDA, REG, INF. of SUBJECT: AID TO THOSE INVOLVED IN\nGo EBS COPE STATUS\nGe\n“former\nMadrid, March 18, 1981\n294 19"
 }

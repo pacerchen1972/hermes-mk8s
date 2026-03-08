@@ -9,21 +9,63 @@
   "resumen_es": "Nota del Embajador de España en París al Ministro de Asuntos Exteriores Pérez-Llorca (Paris, 2 marzo 1981): el Presidente de la República francesa François Mitterrand llamó personalmente al Rey Juan Carlos para manifestarle su solidaridad; el Primer Ministro Raymond Barre, en visita oficial a París, expresó su más calurosa felicitación; la Comunidad Europea también expresó su apoyo. El Embajador destaca que todos los colegas diplomáticos le expresaron su simpatía y que la TV francesa tuvo comentarios muy favorables para España. El Embajador transmite también los deseos del Primer Ministro Barre de hablar con Calvo Sotelo.",
   "resumen_en": "Note from Spain's Ambassador in Paris to Foreign Minister Pérez-Llorca (Paris, 2 March 1981): French President François Mitterrand personally called King Juan Carlos to express solidarity; Prime Minister Raymond Barre, on an official visit to Paris, expressed his warmest congratulations; the European Community also expressed support. The Ambassador notes that all diplomatic colleagues expressed sympathy and that French TV had very favourable comments about Spain. The Ambassador also transmits PM Barre's wish to speak with Calvo Sotelo.",
   "personas": [
-    { "nombre": "François Mitterrand", "rol": "Presidente de la República Francesa, llamó personalmente al Rey Juan Carlos" },
-    { "nombre": "Raymond Barre", "rol": "Primer Ministro de Francia, felicitó al Embajador español y quiso hablar con Calvo Sotelo" },
-    { "nombre": "Juan Carlos I", "rol": "Rey de España, recibió la llamada de Mitterrand" },
-    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Exteriores, destinatario" }
+    {
+      "nombre": "François Mitterrand",
+      "rol": "Presidente de la República Francesa, llamó personalmente al Rey Juan Carlos"
+    },
+    {
+      "nombre": "Raymond Barre",
+      "rol": "Primer Ministro de Francia, felicitó al Embajador español y quiso hablar con Calvo Sotelo"
+    },
+    {
+      "nombre": "Juan Carlos I",
+      "rol": "Rey de España, recibió la llamada de Mitterrand"
+    },
+    {
+      "nombre": "José Pedro Pérez-Llorca",
+      "rol": "Ministro de Exteriores, destinatario"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Embajada de España en París", "tipo": "gobierno" },
-    { "nombre": "Presidencia de la República Francesa", "tipo": "gobierno" },
-    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" }
+    {
+      "nombre": "Embajada de España en París",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Presidencia de la República Francesa",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Ministerio de Asuntos Exteriores de España",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-02", "descripcion_es": "El Embajador informa de la solidaridad francesa: Mitterrand llamó al Rey, Barre felicitó personalmente; todos los colegas diplomáticos expresaron simpatía", "descripcion_en": "Ambassador reports French solidarity: Mitterrand called the King, Barre personally congratulated; all diplomatic colleagues expressed sympathy", "lugar": "París, Francia" }
+    {
+      "fecha": "1981-03-02",
+      "descripcion_es": "El Embajador informa de la solidaridad francesa: Mitterrand llamó al Rey, Barre felicitó personalmente; todos los colegas diplomáticos expresaron simpatía",
+      "descripcion_en": "Ambassador reports French solidarity: Mitterrand called the King, Barre personally congratulated; all diplomatic colleagues expressed sympathy",
+      "lugar": "París, Francia"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "francia", "mitterrand", "juan-carlos-i", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_24", "filename": "D.24._AGA-83-07633_exp._4.pdf", "folder": "exteriores/AGA-83-07633", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "francia",
+    "mitterrand",
+    "juan-carlos-i",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_24",
+    "filename": "D.24._AGA-83-07633_exp._4.pdf",
+    "folder": "exteriores/AGA-83-07633",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "mars ome 7 lEcd\nLibs,\nAF.\nWy fees. 2(4)- Z4o\nO é8 a (9\nOl Imbajador de Oopaña Pekín, 2 de marzo de 1981\nNúm. 1/81\nExcmo, Señor\nha D, José Pedro Pérez-Llorca y Rodrigo\nMinistro de Asuntos Exteriores\nMA DR ED\npir Huówitls e tots Y\ne E . e\nuiero con estas líneas fatificarme de cuanfo decía\nen el telegrama que envié a guestro Subsecretario al re-\ncibir la noticia de vuestro secuestro en el Congreso, y\nfelicitarte y felicitarnos todos porque la locura de\nunos cuantos no haya prevalecido y la democracia españo-\nla pueda seguir su camino,\nComo te he adelantado en el telegrama de ayer, el\nMinistro adjunto de Relaciones Exteriores Wan Zuo Kei,\nme dijo que las autoridades chinas habían seguido con\nenorme interés los acontecimientos y me hizo grandes\nalabanzas del temple y decisión de Su Majestad el Rey y\nde todo el pueblo español. La Prensa, radio y televisión\nchinas han prestado grandes espacios tanto a los desgra\nciados sucesos como a la reanudación normal del Parla-\nmento y al nombramiento de nuestro Presidente y Consti-\ntución del nuevo Gobierno, con comentarios e imágenes\nmuy favorables para Su Majestad.\nQuiero también señalarte que todos los colegas me\nhan expresado su simpatía, desde el primer momento en\nque comenzaron a llegar las noticias de los acontecimien\ntos, y su admiración muy especial hacia nuestro Rey. El\nCanciller yenezola losé. Al apio Zambrano, que ha estado\nestos días aquí en visita oficial, me rogó le tuviera\nal corriente de los sucesos, lo que pude hacer, gracias\na la puntual e inmediata información que estuve recibien\ndo de la 0.1.D.. Me pidió te expresara su felicitación\nmuy calurosa.\nFinalmente quiero rogarte hagas llegar al Presiden-\nte Calvo Sotelo mis mejores deseos de éxito en su difícil\ntarea y al mismo tiempo, expresarte mi enhorabuena muy\nefusiva por tu permanencia en el Gobierno, al frente de\nnuestra política Exterior.\nNo tengo que decirte que sigo, como, siempre a tus 6rde\nnes, fe Bel _ Lar 2bar/\n/\nFélipe de la Moren,\nPe",
+  "texto_completo_en": "mars ome 7 lecd\nLibs,\nAF.\nWy fees. 2(4)- Z4o\nOr é8 a (9\nOl Ambassador of Oopaña Beijing, March 2, 1981\nNo. 1/81\nYour Excellency, Lord\nha D, José Pedro Pérez-Llorca and Rodrigo\nMinister of Foreign Affairs\nMA DR ED\npir Huówitls e tots Y\nand E. and\nI want to fathom with these lines what I said\nin the telegram that I sent to Guestro Undersecretary to the re-\nreceive the news of your kidnapping in Congress, and\ncongratulate you and congratulate us all because the madness of\nfew have not prevailed and Spanish democracy\nI can follow her path,\nAs I told you in yesterday's telegram, the\nDeputy Foreign Minister Wan Zuo Kei,\ntold me that the Chinese authorities had continued with\nenormous interest in the events and made me great\npraises of the temper and determination of His Majesty the King and\nof all the Spanish people. The press, radio and television\nChinese have given great spaces to both the misfortunes\nevents and the normal resumption of Parliament\nment and the appointment of our President and Consti-\ntution of the new Government, with comments and images\nvery favorable to His Majesty.\nI also want to point out to you that all my colleagues\nhave expressed their sympathy, from the first moment in\nthat news of the events began to arrive\ncough, and his very special admiration for our King. The\nYenezuelan Chancellor Losé. To Zambrano celery, which has been\nthese days here on an official visit, he asked me to have him\naware of the events, what I could do, thank you\nto the punctual and immediate information that I was receiving\nof the 0.1.D.. He asked me to express his congratulations\nvery hot\nFinally, I want to ask you to send it to the President.\nCalvo Sotelo, my best wishes for success in your difficult\ntask and at the same time, express my very congratulations\neffusive for your permanence in the Government, at the head of\nour foreign policy.\nI don't have to tell you that I'm still, like, always on your side\nnes, faith Bel _ Lar 2bar/\n/\nFelipe de la Moren,\nPe"
 }

@@ -14,12 +14,20 @@
       "cargo": "Comandante de Infantería, CESID/AOME",
       "organizacion": "CESID",
       "rol_en_23f": "conspirador",
-      "acciones": ["Su unidad fue objeto de certificación para la Causa 2/81; el CESID certifica que no había vínculo entre sus actividades y el asalto al Congreso"]
+      "acciones": [
+        "Su unidad fue objeto de certificación para la Causa 2/81; el CESID certifica que no había vínculo entre sus actividades y el asalto al Congreso"
+      ]
     }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
     {
@@ -46,7 +54,14 @@
       "fecha": "1982-01-08"
     }
   ],
-  "temas": ["cesid", "cortina", "juicio", "causa-2-81", "certificacion", "csjm"],
+  "temas": [
+    "cesid",
+    "cortina",
+    "juicio",
+    "causa-2-81",
+    "certificacion",
+    "csjm"
+  ],
   "_meta": {
     "doc_id": "CNI_Documento_78_R",
     "filename": "Documento_78_R.pdf",
@@ -54,5 +69,7 @@
     "is_image_pdf": true,
     "pages": 1,
     "processed_by": "claude-code"
-  }
+  },
+  "texto_completo_es": "CENTRO SUPERION.*.\nINFORMACIONDE LA DEFENSA.\n. w “ a .ONIR T e n f, teh 2 8 : ead\n8/Ref. Núm. Foc\n. no.\n7 risa\nBL\nGeneralJefedeLaSEGENPER,..en'escrito:de.referenci\n31de julio-pasado,dice’lo“que: gue:\n“yo:Sefiox=,Commico’aV-T! que’\ndental.de: ld Dirección:de:Personal,':en‘escr:\ndefecha 14-07-81, dice:lo'siguiente; .-: \"Pa ocimier\nguientes, \"tengo el honor“decomunicara V iBo i s econ:fech s ju\n| 1981,la Autoridad\nJudicial,ha:dictado“Auto;deProcesamiento, mn\n- Comandante de\nInfanterfa,Escala‘Activa,Grupo“de:''Mando‘;de:Armas’\nD. JOSÉ CORTINAPRIETO, con’destino.en-la:Subsecretarig-d Defens\na ferido Jefe quedaen lasituación:deproce adoenla“ 1*\n-\nPlaza.deMadrid,causandobajaensu-destino'actual,\nde iniciación«del:Auto deProcesamiento,:.según: /« “dispue\nnoveno del:Real Decreto'.734/79-(D.O.:núm.,85),<con*efect\nde 7 dejulio de 1981\",= Lo'quecomúnico'a..V: 1.para'su'c\nefectos.- Dios guarde aV.1.muchosaños.-Madr id,. 317\nEl Secretario General.-. Firmado: Miguel Martínez-Vara\nLo que comunico a Vd.para suconocimient\n| “Dios guardo a\"Va.suchosaños.\nMadrid, 6 de. agosto.de 1981.\nW A S e e D n E s o N _EJ DIRECTOR GENERAL,\n, &\nPee pe\ng\nvike\nSth a\nE\n%CENIAÓG\nvt\nUPEI\n£\nO\nL\nN\nJJomo ALONSO MANGLANO-\n“ts“,ABH. v.y57\nSR. D, JOSE CORTINA PRIETO, Comandante de Infantería DEM.\nds",
+  "texto_completo_en": "SUPERION CENTER.*.\nDEFENSE INFORMATION.\n. w “ a .ONIR T e n f, teh 2 8 : ead\n8/Ref. Foc No.\n. no.\n7 laughter\nB.L.\nGeneral Chief of SEGENPER, in writing: reference\nJuly 31-last, says “what”: gue:\n“yo:Sefiox=,Commico’aV-T! que’\ndental.de: ld Address:de:Personal,':en‘escr:\ndated 07-14-81, says: the following; .-: \"Pa ocimier\nfollowing, \"I have the honor\" to communicate V iBo i s econ: date s ju\n| 1981, the Authority\nJudicial, has: issued “Prosecution Order, mn\n- Commander\nInfantry, Active Scale, Group of: Command, Weapons\nMr. JOSÉ CORTINAPRIETO, with’destino.en-la:Subsecretarig-d Defens\nThe injured Chief is left in the situation: “1*\n-\nPlaza.deMadrid, causing a loss in its current destination,\nof initiation«of:Processing Auto,:.according to: /«“available\nninth of:Royal Decree'.734/79-(D.O.:núm.,85),<with*effect\nof July 7, 1981\",= What I communicate to..V: 1.para'su'c\neffects.- God preserve V.1.many years.-Mother go,. 317\nThe Secretary General.-. Signed: Miguel Martínez-Vara\nWhat I communicate to you for your knowledge\n| “God kept Va.such years.\nMadrid, 6th. August 1981.\nW A S e e D n E s o N _EJ GENERAL DIRECTOR,\n, &\npee pee\ng\nvike\nSth a\nE\n%CENIAÓG\nvt\nUPEI\n£\nOr\nl\nN\nJJomo ALONSO MANGLANO-\n“ts“,ABH. v.y57\nMR. D, JOSE CORTINA PRIETO, DEM Infantry Commander.\nds"
 }

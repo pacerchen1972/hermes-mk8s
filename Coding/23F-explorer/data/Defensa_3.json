@@ -9,18 +9,51 @@
   "resumen_es": "Oficio de la Secretaría de Gobierno del CSJM (RESERVADO, 14 abril 1981) comunicando al Ministerio de Defensa el testimonio de los Autos de procesamiento del Teniente General Jaime Milans del Bosch y Ussía y del Capitán de Navío Carlos Uriondo Yrona, una vez desestimados los recursos interpuestos en su momento. Remitido por Consejero-Togado José Especial designado por Real Decreto 357/1981.",
   "resumen_en": "Government Secretariat of the CSJM official communication (RESERVED, 14 April 1981) notifying the Ministry of Defence of the proceedings record of the prosecution of Lt General Jaime Milans del Bosch y Ussía and Naval Captain Carlos Uriondo Yrona, after appeals were dismissed. Forwarded by Special Judicial Counsellor designated by Royal Decree 357/1981.",
   "personas": [
-    { "nombre": "Jaime Milans del Bosch y Ussía", "rol": "Teniente General, procesado en la Causa 2/81" },
-    { "nombre": "Carlos Uriondo Yrona", "rol": "Capitán de Navío, procesado en la Causa 2/81" }
+    {
+      "nombre": "Jaime Milans del Bosch y Ussía",
+      "rol": "Teniente General, procesado en la Causa 2/81"
+    },
+    {
+      "nombre": "Carlos Uriondo Yrona",
+      "rol": "Capitán de Navío, procesado en la Causa 2/81"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-04-14", "descripcion_es": "CSJM notifica el procesamiento de Milans del Bosch y Carlos Uriondo Yrona en la Causa 2/81", "descripcion_en": "CSJM notifies the prosecution of Milans del Bosch and Carlos Uriondo Yrona under Case 2/81", "lugar": "Madrid" }
+    {
+      "fecha": "1981-04-14",
+      "descripcion_es": "CSJM notifica el procesamiento de Milans del Bosch y Carlos Uriondo Yrona en la Causa 2/81",
+      "descripcion_en": "CSJM notifies the prosecution of Milans del Bosch and Carlos Uriondo Yrona under Case 2/81",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "procesamiento", "milans-del-bosch", "causa-2-81", "csjm", "marina"],
-  "_meta": { "doc_id": "Defensa_3", "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_2.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "procesamiento",
+    "milans-del-bosch",
+    "causa-2-81",
+    "csjm",
+    "marina"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_3",
+    "filename": "Carpeta_21800_Reservado_comunicacion_procesamiento_de_implicado_2.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "CONSEJO SUPREMO\nDE JUSTICIA MILITAR\nAY",
+  "texto_completo_en": "SUPREME COUNCIL\nMILITARY JUSTICE\nOW"
 }

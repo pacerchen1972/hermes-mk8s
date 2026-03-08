@@ -9,21 +9,60 @@
   "resumen_es": "Oficio SECRETO (Carpeta 21801) del Presidente en funciones del Consejo Supremo de Justicia Militar (Federico Gómez de Salazar y Nieto) al Ministro de Defensa, comunicando la imposición de cuatro días de ARRESTO en domicilio al General Consejero Togado José Bautista Domínguez (por dirigirse a la autoridad en 'términos inapropiados') y al General Consejero Togado de la Armada Julio Cagigal Carlos (por 'términos graves y reiteradamente inapropiados' en relación a los generales imputados y precedencias militares). Sanción impuesta al amparo del artículo 443 del Código de Justicia Militar.",
   "resumen_en": "SECRET official communication (Carpeta 21801) from the acting CSJM President (Federico Gómez de Salazar y Nieto) to the Minister of Defence, informing of the imposition of four days' HOME ARREST on General Judicial Counsellor José Bautista Domínguez (for addressing authority in 'inappropriate terms') and on Naval General Judicial Counsellor Julio Cagigal Carlos (for 'serious and repeatedly inappropriate terms' regarding the implicated generals and military precedences). Sanction imposed under Article 443 of the Military Justice Code.",
   "personas": [
-    { "nombre": "Federico Gómez de Salazar y Nieto", "rol": "Presidente en funciones del CSJM, impuso las sanciones" },
-    { "nombre": "José Bautista Domínguez", "rol": "General Consejero Togado, sancionado con 4 días de arresto" },
-    { "nombre": "Julio Cagigal Carlos", "rol": "General Consejero Togado de la Armada, sancionado con 4 días de arresto" }
+    {
+      "nombre": "Federico Gómez de Salazar y Nieto",
+      "rol": "Presidente en funciones del CSJM, impuso las sanciones"
+    },
+    {
+      "nombre": "José Bautista Domínguez",
+      "rol": "General Consejero Togado, sancionado con 4 días de arresto"
+    },
+    {
+      "nombre": "Julio Cagigal Carlos",
+      "rol": "General Consejero Togado de la Armada, sancionado con 4 días de arresto"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Ministerio de Defensa", "tipo": "gobierno" }
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Ministerio de Defensa",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-06-17", "descripcion_es": "El Presidente del CSJM sanciona a dos Generales Consejeros Togados con 4 días de arresto durante el juicio oral del 23-F por comportamiento inapropiado en sala", "descripcion_en": "CSJM President sanctions two General Judicial Counsellors with 4 days' arrest during the 23-F oral trial for improper courtroom behaviour", "lugar": "Madrid" }
+    {
+      "fecha": "1982-06-17",
+      "descripcion_es": "El Presidente del CSJM sanciona a dos Generales Consejeros Togados con 4 días de arresto durante el juicio oral del 23-F por comportamiento inapropiado en sala",
+      "descripcion_en": "CSJM President sanctions two General Judicial Counsellors with 4 days' arrest during the 23-F oral trial for improper courtroom behaviour",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [
-    { "texto_es": "El General Consejero Togado se ha dirigido a mi autoridad en términos inapropiados, por lo que le he impuesto el correctivo de CUATRO DÍAS de ARRESTO en su domicilio", "texto_en": "The General Judicial Counsellor has addressed my authority in inappropriate terms, for which I have imposed the sanction of FOUR DAYS' ARREST at his home", "fuente": "Oficio CSJM Carpeta 21801" }
+    {
+      "texto_es": "El General Consejero Togado se ha dirigido a mi autoridad en términos inapropiados, por lo que le he impuesto el correctivo de CUATRO DÍAS de ARRESTO en su domicilio",
+      "texto_en": "The General Judicial Counsellor has addressed my authority in inappropriate terms, for which I have imposed the sanction of FOUR DAYS' ARREST at his home",
+      "fuente": "Oficio CSJM Carpeta 21801"
+    }
   ],
   "relaciones": [],
-  "temas": ["juicio", "sanciones-militares", "csjm", "incidentes-juicio", "ministerio-defensa"],
-  "_meta": { "doc_id": "Defensa_16", "filename": "Carpeta_21801_Secreto_comunicando_sancion_a_consejeros_del_Consejo_Supremo_de_Justicia_Militar.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "sanciones-militares",
+    "csjm",
+    "incidentes-juicio",
+    "ministerio-defensa"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_16",
+    "filename": "Carpeta_21801_Secreto_comunicando_sancion_a_consejeros_del_Consejo_Supremo_de_Justicia_Militar.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "65-L\nvosticia a = 12-6-F2. (corro)\nCONSEJO SUPREMO\nDE PRESIDENTE\nJUSTICIA MILITAR n Funciones\nS/Rf: Núm Fecha Z N/Rf. Núm.\n\"CIRO,\nASUNTO: Sobre Reunido en Sala de Justicia.\nExcmo. Sre\nEn la mafiana de hoy y con ocasión de la celebración del\nConsejo Reunido en Sala de Justicia, el General Consejero\nTogado DON JOSE BARCINA RODRIGUEZ,-se ha dirigido a mi\nAutoridad en término irrespetuosos, por lo que le he impue:\nto un correctivo de OCHO DIAS de arresto en su domicilio.\nAsimisno el Generdl Conssjero Togado de la Armada\nDON JUSTO CARRERO RAMOS, se ha dirigido a mi Autoridad en\ntérminos graves y remteradamente irrespetuosos que afectan\na las relaciones de respeto y subordinación militar entre\nsuperior y subordinado, por loque he decidido imponerle\nel correctivo de CATORCE DIAS DE ARRESTOS en su domicilio.\nAmbos casos están comprendidos en las faktas leves\ndel articulo 443 del Código de Justicia Militar.\nDios guarde a V.H. muchos años\nMadrid, 17 de Junio de 1.982\nEL TENIENTE Gh ERAL PRESIDENTE EN FUNCIONES\nExcmo. Sr. Ministro de Defensa,\nMADRID.",
+  "texto_completo_en": "65-L\nvosticia a = 12-6-F2. (run)\nSUPREME COUNCIL\nOF PRESIDENT\nMILITARY JUSTICE n Functions\nS/Rf: No. Date Z N/Rf. No.\n\"CIRO,\nSUBJECT: Regarding Meeting in the Courtroom.\nHon. Mr.\nOn this morning and on the occasion of the celebration of the\nCouncil Meeting in the Courtroom, the General Counsel\nDressed DON JOSE BARCINA RODRIGUEZ,-he has addressed me\nAuthority in disrespectful terms, for which I have imposed:\nto a corrective EIGHT DAYS of arrest at his home.\nLikewise, the General Counselor of the Navy\nDON JUSTO CARRERO RAMOS, has addressed my Authority in\nserious and completely disrespectful terms that affect\nto relations of respect and military subordination between\nsuperior and subordinate, so I have decided to impose\nthe corrective of FOURTEEN DAYS OF ARRESTS at his home.\nBoth cases are included in the minor facts\nof article 443 of the Code of Military Justice.\nGod save V.H. many years\nMadrid, June 17, 1982\nLIEUTENANT Gh ERAL ACTING PRESIDENT\nHon. Mr. Minister of Defense,\nMADRID."
 }

@@ -9,18 +9,51 @@
   "resumen_es": "Oficio RESERVADO (Causa 9481, 2 marzo 1981) del Director General de la Guardia Civil José Aramburu Topete al Coronel Sergio Gallego Ronquillo, Jefe Eventual, ordenando la instrucción de primeras diligencias por la supuesta comisión del delito de 'abandono de destino o residencia' por parte del Capitán de la GC Gil Sánchez Valiente Portillo, perteneciente al BAS-Comandancia, que había desaparecido la mañana del 24 de febrero de 1981.",
   "resumen_en": "RESERVED official communication (Causa 9481, 2 March 1981) from Civil Guard Director General José Aramburu Topete to Colonel Sergio Gallego Ronquillo, Acting Chief, ordering preliminary proceedings for the alleged offence of 'abandonment of post or residence' by GC Captain Gil Sánchez Valiente Portillo, belonging to the BAS-Command, who had disappeared on the morning of 24 February 1981.",
   "personas": [
-    { "nombre": "Gil Sánchez Valiente Portillo", "rol": "Capitán de la GC del BAS, desapareció el 24-2-1981 tras el golpe" },
-    { "nombre": "José Aramburu Topete", "rol": "Director General de la Guardia Civil, firmante de la orden" },
-    { "nombre": "Sergio Gallego Ronquillo", "rol": "Coronel Jefe Eventual, receptor de la orden de instrucción" }
+    {
+      "nombre": "Gil Sánchez Valiente Portillo",
+      "rol": "Capitán de la GC del BAS, desapareció el 24-2-1981 tras el golpe"
+    },
+    {
+      "nombre": "José Aramburu Topete",
+      "rol": "Director General de la Guardia Civil, firmante de la orden"
+    },
+    {
+      "nombre": "Sergio Gallego Ronquillo",
+      "rol": "Coronel Jefe Eventual, receptor de la orden de instrucción"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Dirección General de la Guardia Civil", "tipo": "seguridad" }
+    {
+      "nombre": "Dirección General de la Guardia Civil",
+      "tipo": "seguridad"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-03-02", "descripcion_es": "DGGC Aramburu Topete ordena instrucción de primeras diligencias contra el Cap. Sánchez Valiente por abandono de destino; desapareció el 24-F y luego huyó a Grecia con pasaporte argentino", "descripcion_en": "DGGC Aramburu Topete orders preliminary proceedings against Captain Sánchez Valiente for abandonment of post; he disappeared on 24-F and later fled to Greece with an Argentine passport", "lugar": "Madrid" }
+    {
+      "fecha": "1981-03-02",
+      "descripcion_es": "DGGC Aramburu Topete ordena instrucción de primeras diligencias contra el Cap. Sánchez Valiente por abandono de destino; desapareció el 24-F y luego huyó a Grecia con pasaporte argentino",
+      "descripcion_en": "DGGC Aramburu Topete orders preliminary proceedings against Captain Sánchez Valiente for abandonment of post; he disappeared on 24-F and later fled to Greece with an Argentine passport",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "sanchez-valiente", "causa-9481", "abandono-destino", "guardia-civil", "fuga"],
-  "_meta": { "doc_id": "Defensa_23", "filename": "Causa_9481_Reservado_parte_por_abandono_de_destino_del_Cap_Sanchez_Valiente.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 3, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "sanchez-valiente",
+    "causa-9481",
+    "abandono-destino",
+    "guardia-civil",
+    "fuga"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_23",
+    "filename": "Causa_9481_Reservado_parte_por_abandono_de_destino_del_Cap_Sanchez_Valiente.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 3,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "DIRECCION GENERAL SECCION DE JUSTICIA\nDE LA\nGUARDIA CIVIL 01600000/2\nFecha N/Reta Núm.\nS/Reta\nSCM\nASUNTO ORDENANDO LA INSTRUCCION DE PRIMERAS DILIGENCIAS.\nvistos los escritos cursados a este Centro por el Comandante =\n22 Jefe del Centro de Adiestramientos Especiales de este Cuerpo,\nrelacionados con la supuesta comisión del delito de \"abandono de\ndestino o residencia!!, por parte del Capitán DON GIL SANCHEZ\nVALIENTE PORTILLO, perteneciente a la 5432 Comandancia —\n(San Sebastián) y concentrado en dicho Centro, el cual fue visto\npor Ultima vez en la mañana del día 24 del pasado mes, en las\nproximidades del Congreso de los Diputados; he resuelto, que por\nV.S., con el carácter de Juez Eventual, se proceda a la práctica\nde las primeras dilig ncias , determinadas en el artículo 137 del\nCódigo de Justicia Militar, a las cuales servirán de cabeza los es\ncritos de referencia, que se acompañan.\nDe su iniciación, dará cuenta a este Centro, al propio tiempo que\naS.E. el Capitán General de la Región.\nDios guarde a V.S. muchos años.\nMadrid, 2 de marzo de 1.981.\nEL GENERAL DE DIVISION\nDIRECTOR GENERAL,\nA EA\nass\nFd2: José Aramburu Topete\nSA\neñor DON SERGIO GALLEGO RONQUILLO, Coronel Juez Eventual\n\nDIRECCION GENERAL CENTRO DE ADIESTRAMIENTOS ESPECIALES (C.A.E.)\nDEER JEFATURA\nGUARDIA CIVIL\n01311000\nASUNTO: CUENTA DE LA AUSENCIA INJUSTIFICADA DE UN OFICIAL.-\nExcmo.Señor\nT A las 0800 horas del día de hoy, se comprobó que el 2)\nCapitán Don GIL SANCHEZ VALIENTE PORTILLO, perteneciente\na la 5432 Comandancia (San Sebastián), que se hallaba --\nconcentrado en el Centro de Adiestramientos Especiales -\ndesde el dia 6 del presente mes, con objeto de impartir\nclases al personal que actualmente se halla efectuando -\nun Curso de Ambientación para su posterior destino a las\nProvincias Vascongadas no se había presentado a Sees\nla clase que le correspondia.\nDicho Oficial fue visto por última vez en la mañana —\ndel día de ayer en Madrid en las inmediaciones del Com==\"\ngreso de los Diputados ya que al igual que otros Oficia=—\nles concentrados en el C.A.E. se hallaban con el perso==\na A\nla fuerza.\nEfectuado el pegreso al oC.A.E., una vez cumplida la -\nmisión encomendada a esta Unidad por el Excmo.Señor Gene\nral de División, Director General del Cuerpo, le fué par\nticipado al Jefe que suscribé que el citado Capitán ha=-\nbia dejado un recado telefónico en el sentido de que se\ndiera cuenta de su salida oficial con motivo de un permi\nso especial dirigiéndose a su Unidad de procedencia.\nA este respecto el Jefe que suscribe le había oido co_\nmentar, varios dias antes, que tenía pendiente una sali-\nda al extranjero en misión especial, cosa que no produjo\nces E conocer oot Sone de su relación con el.\nedn, de Teniente Coronel\n\nve\n--- se había puesto en conocimiento los hechos anteriormente consignadi\ntuvo conocimiento de la no existencia de misión especial y que al repel\nOficial no se le habe autorizado a desplazarse fuera de “la residencia\nbiéndose orden de arrestarle tan pronto como efectuara su presentacidoon\nLo que tengo el honor de poner en CO mO'Cc 1amienato:sde. Vo Es permitiendog\nnificarle que hasta la fecha no se ha tenido ninguna noticia acerca del\ndero ni de tos motivos que puedan justificar su ausencia.\nDios guarde a V.E.muchos años\nSait Escorial 25 Febrero de 1.981\nde SRE\nExcmo.Señor\nELSTENTEENTE-> CORONEL DERECEOR:.\nsl\nRe Ox y A.\nEL. COMANDANTE 22° JERE.\n— — 7]\na x jE y\nb 3 p o A l f / h x ea a Z e N 4 Fa\ny E 7 S fo\n> e o\nb\nExcmo.Señor General de Division Director General de la Guardia Civil. 5.\nESTADO MAYOR. PRIMERA SECCION.\nMADR IA\nesao\naliS\nA",
+  "texto_completo_en": "GENERAL DIRECTORATE JUSTICE SECTION\nOF THE\nCIVIL GUARD 01600000/2\nDate N/Request No.\nS/Reta\nSCM\nMATTER ORDERING THE INSTRUCTION OF FIRST DILIGENCES.\nhaving seen the writings sent to this Center by the Commander =\n22 Head of the Special Training Center of this Corps,\nrelated to the alleged commission of the crime of \"abandonment of\ndestination or residence!!, by Captain DON GIL SANCHEZ\nVALIENTE PORTILLO, belonging to the 5432 Command —\n(San Sebastián) and concentrated in said Center, which was seen\nfor the last time on the morning of the 24th of last month, in the\nproximity to the Congress of Deputies; I have resolved, that for\nV.S., in the capacity of Temporary Judge, proceed to the practice\nof the first proceedings, determined in article 137 of the\nCode of Military Justice, which will be headed by the\nreference criteria, which are attached.\nOf his initiation, he will report to this Center, at the same time\naS.E. the Captain General of the Region.\nGod save V.S. many years.\nMadrid, March 2, 1981.\nTHE MAJOR GENERAL\nGENERAL DIRECTOR,\nTo EA\nass\nFd2: José Aramburu Topete\nSA\nMr. DON SERGIO GALLEGO RONQUILLO, Colonel Temporary Judge\n\nGENERAL DIRECTORATE SPECIAL TRAINING CENTER (C.A.E.)\nDEER HEADQUARTERS\nCIVIL GUARD\n01311000\nSUBJECT: ACCOUNT OF THE UNEXCUSED ABSENCE OF AN OFFICER.-\nYour Excellency Sir\nT At 0800 hours today, it was found that 2)\nCaptain Don GIL SANCHEZ VALIENTE PORTILLO, belonging\nto 5432 Command (San Sebastián), which was --\nconcentrated in the Special Training Center -\nfrom the 6th of this month, in order to impart\nclasses to personnel who are currently carrying out -\nan Atmosphere Course for subsequent destination to the\nBasque Provinces had not presented themselves to Sees\nthe class that corresponded to him.\nSaid Officer was last seen in the morning —\nyesterday in Madrid in the vicinity of Com==\"\ngress of the Deputies since like other Officers=—\nthem concentrated in the C.A.E. they were with the person==\nto A\nthe force.\nOnce you have entered the OC.A.E., once the -\nmission entrusted to this Unit by His Excellency Mr. Gene\nral of Division, General Director of the Corps, was par\ninformed the Chief that I subscribe that the aforementioned Captain has=-\nhad left a telephone message to the effect that\ngive notice of his official departure on the occasion of a permit\nso special by addressing your Unit of origin.\nIn this regard, the undersigned Chief had heard him\nmention, several days before, that he had a pending departure\ngives the foreigner a special mission, something that did not produce\nces E know oot Sone of his relationship with him.\nedn, by Lieutenant Colonel\n\ngo\n--- the previously reported facts had been made known\nwas aware of the non-existence of a special mission and that upon repelling\nOfficer has not been authorized to move outside “the residence\norder was issued to arrest him as soon as he made his presentation.\nWhat I have the honor of putting in CO mO'Cc 1amienato:sde. Vo is allowingg\ninform you that to date there has been no news about the\nor of any reasons that may justify his absence.\nMay God keep Your Excellency many years\nSait Escorial February 25, 1981\nfrom SRE\nYour Excellency Sir\nELSTENTEENTE-> RIGHT COLONEL:.\ns.l.\nRe Ox and A.\nHE. COMMANDER 22° JERE.\n— — 7]\na x jE y\nb 3 p o A l f / h x ea a Z e N 4 Fa\nand E 7 S fo\n> e o\nb\nHis Excellency General of Division Director General of the Civil Guard. 5.\nGENERAL STAFF. FIRST SECTION.\nMOTHER IA\nesoo\nAliS\nA"
 }

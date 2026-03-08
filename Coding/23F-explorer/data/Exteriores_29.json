@@ -9,20 +9,58 @@
   "resumen_es": "Nota del Embajador de España en la República Federal de Alemania, Lothar Lahn, al Ministro de Asuntos Exteriores Pérez-Llorca (Bonn, 28 febrero 1981), transmitiendo y adjuntando la traducción del telegrama del Ministro de Asuntos Exteriores alemán Hans-Dietrich Genscher expresando la solidaridad de la República Federal de Alemania con España y la democracia española tras el frustrado golpe del 23-F. El Embajador resume que Genscher expresa su satisfacción por el triunfo del orden constitucional y su confianza en el futuro democrático de España.",
   "resumen_en": "Note from Spain's Ambassador to the Federal Republic of Germany, Lothar Lahn, to Foreign Minister Pérez-Llorca (Bonn, 28 February 1981), transmitting and attaching the translation of a telegram from German Foreign Minister Hans-Dietrich Genscher expressing the FRG's solidarity with Spain and Spanish democracy after the failed 23-F coup. The Ambassador summarises that Genscher expresses satisfaction at the triumph of constitutional order and confidence in Spain's democratic future.",
   "personas": [
-    { "nombre": "Lothar Lahn", "rol": "Embajador de España en la República Federal de Alemania, firmante" },
-    { "nombre": "Hans-Dietrich Genscher", "rol": "Ministro de Asuntos Exteriores de la RFA, autor del mensaje de solidaridad" },
-    { "nombre": "José Pedro Pérez-Llorca", "rol": "Ministro de Exteriores de España, destinatario" }
+    {
+      "nombre": "Lothar Lahn",
+      "rol": "Embajador de España en la República Federal de Alemania, firmante"
+    },
+    {
+      "nombre": "Hans-Dietrich Genscher",
+      "rol": "Ministro de Asuntos Exteriores de la RFA, autor del mensaje de solidaridad"
+    },
+    {
+      "nombre": "José Pedro Pérez-Llorca",
+      "rol": "Ministro de Exteriores de España, destinatario"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Embajada de España en Bonn", "tipo": "gobierno" },
-    { "nombre": "Ministerio de Asuntos Exteriores de España", "tipo": "gobierno" },
-    { "nombre": "Ministerio de Asuntos Exteriores de la República Federal de Alemania", "tipo": "gobierno" }
+    {
+      "nombre": "Embajada de España en Bonn",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Ministerio de Asuntos Exteriores de España",
+      "tipo": "gobierno"
+    },
+    {
+      "nombre": "Ministerio de Asuntos Exteriores de la República Federal de Alemania",
+      "tipo": "gobierno"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-02-28", "descripcion_es": "El Embajador español en Bonn transmite a Madrid el mensaje de solidaridad del Ministro Genscher con la democracia española tras el 23-F", "descripcion_en": "Spain's Ambassador in Bonn transmits to Madrid Foreign Minister Genscher's solidarity message with Spanish democracy after 23-F", "lugar": "Bonn, República Federal de Alemania" }
+    {
+      "fecha": "1981-02-28",
+      "descripcion_es": "El Embajador español en Bonn transmite a Madrid el mensaje de solidaridad del Ministro Genscher con la democracia española tras el 23-F",
+      "descripcion_en": "Spain's Ambassador in Bonn transmits to Madrid Foreign Minister Genscher's solidarity message with Spanish democracy after 23-F",
+      "lugar": "Bonn, República Federal de Alemania"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "reacciones-internacionales", "alemania-occidental", "genscher", "diplomacia"],
-  "_meta": { "doc_id": "Exteriores_29", "filename": "D.29._AGA-83-09301_exp._5.pdf", "folder": "exteriores/AGA-83-09301", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "reacciones-internacionales",
+    "alemania-occidental",
+    "genscher",
+    "diplomacia"
+  ],
+  "_meta": {
+    "doc_id": "Exteriores_29",
+    "filename": "D.29._AGA-83-09301_exp._5.pdf",
+    "folder": "exteriores/AGA-83-09301",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": ". aa\n149 Wag ay)\n| | S8V4AGGA4 Conia “LE ;\nEL ene a A\nREPUBLICA FEDERAL DE ALEMANIA | | Dro. A |\nMadrid, 25 de febrero de 1987\nExcemo. or. OD.\nJosé Pedro Perez Llorca\nMinistro de Asuntos Exteriores\nMadrid\npa\nExcmo. señor Ministro y querido amigos\nTengo el honor de transmitirle adjunto, el texto de\nun telegrama con su traducción. española, del Ministro\nFederal de Asuntos Exteriores de la Rephblica Federal\nde Alemania, Sr. Hans-Dietrich Genscher.\nTambién yo comparto su satisfacción por el feliz\ndesenlace del grave incidente ocurrido.\nAprovecho la oportunidad para reiterarle el\ntestimonio de mi más alta y distinguida consideración,\nLothar Lahn tal,\n,\naS\na\n\nTraducción\nEXC. Sry Da\nJosé Pedro Pérez Llorca .\nMinistro de Asuntos Exteriores\nMoa dd. d\nQuerido colega y amigo:\nComparto con Vd. la alegría y el alivio que deberá\nsentir en estos momentos tras el desenlace sin\nderramamiento de sangre del intento de golpe de\nestado. La joven democracia española ha superado\nuna dura prueba. Su Majestad el Rey, el pueblo y las\ninstituciones del Estado solidariamente han defendido\nel orden constitucional. El nuevo Gobierno de su\npais podrá comenzar a trabajar con absoluta confianza.\nCon mis mejores votos\nsuyo\nfdo. Hans-Dietrich Genscher\nMinistro Federal de Asuntos Exteriores\nde la República Federal de Alemania\n\nExcmo. sr. De\nJosé Pedro Pérez Llorca\nMinistro de Asuntos Exteriores\nBt ee oa. eh\nLieber Kollege und Freund,\nich teile mit Ihnen die Freude und Erleichterung,\ndie Sie in diesen Stunden tiber die unblutige\nBeendigung des versuchten Staatsstreichs empfinden\nmiissen. Die junge spanische Demokratie hat eine\n- Bewáhrungsprobe bestanden. Der Konig, das Volk und\ndie Institutionen des Staates haben die verfassungs-\nmiBige Ordnung einmiitig verteidigt. Die neue Regierung\nIhres Landes wird mit Zuversicht an die Arbeit gehen\nkónnen.\nMit allen guten Wiinschen\nIhr\nHans-Dietrich Genscher\nBundesminister des Auswartigen der\nBundesrepublik Deutschland",
+  "texto_completo_en": ". aa\n149 Wag ay)\n| | S8V4AGGA4 Conia “LE ;\nEL Jan to A\nFEDERAL REPUBLIC OF GERMANY | | Dr. A |\nMadrid, February 25, 1987\nExcemo. or. O.D.\nJosé Pedro Perez Llorca\nMinister of Foreign Affairs\nMadrid\npa\nHon. Mr. Minister and dear friends\nI have the honor to transmit to you attached, the text of\na telegram with its translation. Spanish, from the Minister\nFederal Department of Foreign Affairs of the Federal Republic\nof Germany, Mr. Hans-Dietrich Genscher.\nI also share your satisfaction with the happy\noutcome of the serious incident that occurred.\nI take this opportunity to reiterate the\ntestimony of my highest and distinguished consideration,\nLothar Lahn such,\n,\naS\nto\n\nTranslation\nEXC. Sry Da\nJosé Pedro Pérez Llorca.\nMinister of Foreign Affairs\nMoa dd. d\nDear colleague and friend:\nI share with you the joy and relief that you must\nfeel right now after the outcome without\nbloodshed from coup attempt\nstate. The young Spanish democracy has overcome\na tough test. His Majesty the King, the people and the\nState institutions have jointly defended\nthe constitutional order. The new Government of his\ncountry will be able to start working with absolute confidence.\nWith my best wishes\nyours\nsigned Hans-Dietrich Genscher\nFederal Minister of Foreign Affairs\nof the Federal Republic of Germany\n\nHon. mr. Of\nJosé Pedro Pérez Llorca\nMinister of Foreign Affairs\nBt ee oa. huh\nLieber Kollege und Freund,\nich teile mit Ihnen die Freude und Erleichterung,\ndie Sie in diesen Stunden tiber die unblutige\nBeendigung des versuchten Staatsstreichs empfinden\nmiissen. Die young spanische Demokratie hat eine\n- Bewáhrungsprobe bestanden. Der Konig, das Volk und\nThe State Institutions have had their verfassungs-\nmiBige Ordnung einmiitig verteidigt. Die new Regierung\nIhres Landes wird mit Zuversicht an die Arbeit gehen\nkonnen.\nMit allen guten Wiinschen\nIhr\nHans-Dietrich Genscher\nBundesminister des Auswartigen der\nBundesrepublik Deutschland"
 }

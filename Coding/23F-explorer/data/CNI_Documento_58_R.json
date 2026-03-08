@@ -9,19 +9,67 @@
   "resumen_es": "Nota informativa del CESID (N/Ref. C/90/4183/12-03-82) sobre la sesión del 12 de marzo de 1982. El General Torres Rojas rechazó toda pregunta que implicara responsabilidad propia. Negó participar en la 'Operación Armada'. Tejero insistió en que actuó correctamente y que toda la Guardia Civil y el Ejército son responsables colectivos. Se volvió a confirmar el uso de un 'garaje' del CESID como punto de reunión. Los abogados defensores señalaron que ningún testigo pudo confirmar que el Rey aprobara la operación, mientras Tejero continuó alegando órdenes reales.",
   "resumen_en": "CESID intelligence note (N/Ref. C/90/4183/12-03-82) on the 12 March 1982 session. General Torres Rojas declined all questions implying personal responsibility. He denied participation in 'Operación Armada'. Tejero insisted he acted correctly and that all Civil Guard and Army members were collectively responsible. The use of a CESID 'garage' as a meeting point was again confirmed. Defence counsels noted no witness could confirm the King approved the operation, while Tejero continued to allege royal orders.",
   "personas": [
-    { "nombre": "Manuel Torres Rojas", "cargo": "General", "organizacion": "Ejército de Tierra", "rol_en_23f": "conspirador", "acciones": ["Rechazó responder preguntas que implicaran responsabilidad personal; negó expresamente participación en la 'Operación Armada'"] },
-    { "nombre": "Antonio Tejero Molina", "cargo": "Teniente Coronel de la Guardia Civil", "organizacion": "Guardia Civil", "rol_en_23f": "golpista", "acciones": ["Insistió en haber actuado correctamente y en seguir órdenes superiores; afirmó que la Guardia Civil y el Ejército son colectivamente responsables"] }
+    {
+      "nombre": "Manuel Torres Rojas",
+      "cargo": "General",
+      "organizacion": "Ejército de Tierra",
+      "rol_en_23f": "conspirador",
+      "acciones": [
+        "Rechazó responder preguntas que implicaran responsabilidad personal; negó expresamente participación en la 'Operación Armada'"
+      ]
+    },
+    {
+      "nombre": "Antonio Tejero Molina",
+      "cargo": "Teniente Coronel de la Guardia Civil",
+      "organizacion": "Guardia Civil",
+      "rol_en_23f": "golpista",
+      "acciones": [
+        "Insistió en haber actuado correctamente y en seguir órdenes superiores; afirmó que la Guardia Civil y el Ejército son colectivamente responsables"
+      ]
+    }
   ],
   "organizaciones": [
-    { "nombre": "CESID", "tipo": "inteligencia" },
-    { "nombre": "Consejo Supremo de Justicia Militar (CSJM)", "tipo": "judicial" },
-    { "nombre": "Guardia Civil", "tipo": "seguridad" }
+    {
+      "nombre": "CESID",
+      "tipo": "inteligencia"
+    },
+    {
+      "nombre": "Consejo Supremo de Justicia Militar (CSJM)",
+      "tipo": "judicial"
+    },
+    {
+      "nombre": "Guardia Civil",
+      "tipo": "seguridad"
+    }
   ],
   "eventos": [
-    { "fecha": "1982-03-12", "descripcion_es": "Vista oral Causa 2/81: Torres Rojas niega 'Operación Armada'; Tejero alega órdenes del Rey; se confirma el garaje del CESID como punto de reunión clandestino", "descripcion_en": "Causa 2/81 hearing: Torres Rojas denies 'Operación Armada'; Tejero alleges royal orders; CESID garage confirmed as clandestine meeting point", "lugar": "Consejo Supremo de Justicia Militar, Madrid" }
+    {
+      "fecha": "1982-03-12",
+      "descripcion_es": "Vista oral Causa 2/81: Torres Rojas niega 'Operación Armada'; Tejero alega órdenes del Rey; se confirma el garaje del CESID como punto de reunión clandestino",
+      "descripcion_en": "Causa 2/81 hearing: Torres Rojas denies 'Operación Armada'; Tejero alleges royal orders; CESID garage confirmed as clandestine meeting point",
+      "lugar": "Consejo Supremo de Justicia Militar, Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["juicio", "causa-2-81", "cesid", "torres-rojas", "tejero", "operacion-armada", "testigos", "csjm"],
-  "_meta": { "doc_id": "CNI_Documento_58_R", "filename": "Documento_58_R.pdf", "folder": "defensa/cni", "is_image_pdf": true, "pages": 2, "processed_by": "claude-code" }
+  "temas": [
+    "juicio",
+    "causa-2-81",
+    "cesid",
+    "torres-rojas",
+    "tejero",
+    "operacion-armada",
+    "testigos",
+    "csjm"
+  ],
+  "_meta": {
+    "doc_id": "CNI_Documento_58_R",
+    "filename": "Documento_58_R.pdf",
+    "folder": "defensa/cni",
+    "is_image_pdf": true,
+    "pages": 2,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "N/Ref: C/5G/4183/12-03-82\nNOTA_ INFORMATIVA\nASUNTO: VISTA ORAL 2/81 DEL CONSEJO SUPREMO DE JUSTICIA MILITAR.\n1.- DESARROLLO DE LA SESION CORRESPONDIENTE AL 12-03-82\nA las 10'04 horas comienza la sesión con el interrogato-\nrio del General TORRES ROJAS, por parte del Fiscal que consu\nme una hora 39 minutos. Antes de tomar la palabra el Coronel\nESCANDELL el. Teniente Coronel DE MEER solicita la palabra pa\nra exponer una cuestión previa que tiene que ver con la Cau-\nsa pero ajena al interrogatorio. El Presidente no lo autori~\nza. Seguidamente consumen su turno los Sres. letrados defen-\nsores; los Consejeros no hacen pregunta alguna. Una vez con“\ncluido el turno del General TORRES ROJAS el Teniente Coronel\nDE MEER pide se ponga en libertad a los Tenientes de la Guar\ndia Civil, por haber quedado demostrado a su juicio que las\npruebas, practicadas hasta este momento, exculpan a los refe\nridos oficiales. El Presidente dice que no es el momento de\nesa consideración y que la cuestión será tenida en cuenta --\noportunamente .\nA continuación, se consuma el interrogatorio del Capitán -\nde Navio MENENDEZ y del Coronel SAN MARTIN en la primera fa-\nse de actuación del Fiscal,\n2.- INCIDENCIAS Y ESTIMACIONES SOBRE EL DESARROLLO DE LA SESION.\n- Interrogatorio al procesado General TORRES ROJAS.\nA preguntas del Fiscal, el General TORRES ROJAS se man\ntiene en una línea de descargar por completo su responsabi\nliáad en el Teniente General MILANS como mando y en ARMADA\ny el REY como inspiradores. Niega cualquier tipo de con”\ncierto previo o acciones personales dirigidas a hacerse ~~\ncon el mando de la D,A,C.\nHace alguna alusión en línea demagógica, y fuera de lu--\ngar, a ciertas actitudes gallardas, entre ellas al uso de\nbanderín en coches oficiales. Esta goncretamente provocó ~\nel inicio de un aplauso por parte de una mujer familiar de\nuno de los procesados.\nA preguntas de los defensores destaca que una operación\nque se plantea con una limitación tajante como es la de que\nsea incruenta no puede ser una rebelión. Que suponiendo co\nmo ellos suponían que las órdenes emanahan del REY, el deso\n\n2,-\nbedecer hubiera resultado anticonstitucional, Que nunca ha\nbia oido mencionar antes de los hechos a CORTINA ni al CE=\nSID. Que el proyecto consistía en una \"interrupción\" de la\nactividad de la Cámara para ofrecer esta situación al: REY.\nQue la no intervención de la D.A.C. suponía traicionar a -\nlos miembros de la G,C, que habían participado, y que en -\nlas reuniones a las que asistió por unas u otras razones no\nse enteró del todo de lo que se hablaba\n- Interrogatorio al: procesado Capitán de Navio MENENDEZ VIVES\nEl Fiscal ha aprovechado la especial disposición del pro\ncesado en una cierta línea para que manifestara que el Te-\nniente Coronel TEJERO le habia comunicado que ARMADA le ha\nbia mencionado su intención de formar un Gobierno en el -=\nque se integrarían entre otros FELIPE GONZALEZ y ENRIQUE -\nMUGICA, hecho este que no había declarado hasta este momen\nto.\nA preguntas de los defensores hizo alusión a la inspira-\nción regia en el golpe y a que nadie daba Órdenes tenden--\ntes a sofocar el problema del Congreso. En esta línea de -\nactitud pasiva citó a ARAMBURU y a SANTAMARIA,\nTuvo algunas respuestas aparentemente ocurrentes e hizo\nun canto a su afecto al Ejército y a la Guardia Civil.\n- Interrogatorio (parcial) del Fiscal al Coronel SAN MARTIN\nParece apreciarse que la postura del Coronel SAN MARTIN\nconsiste en exponer al Consejo un esquema realizado por él,\nen que todas las piezas encajen mediante lógica en unos ca\nsos, por casualidad otras veces y el resto debido a la Pro\nvidencia o la Predestinación, Con esta visión contesta a -\nlas preguntas del Fiscal en una entonación fuerte y enérgi\nca.\n3.- OTROS HECHOS Y COMENTARIOS\nDurante el interrogatorio del General TORRESROJAS ha sido\nnombrado Su Majestad en forma concreta e implicatoria no me-\nnos de 64 veces.\nExiste expectación ante las próximas declaraciones de Je--\nfes y Oficiales de la Guardia Civil, ya que por variaciones\nemotivas derivadas de los interrogatorios y de la conviven--\ncia de los procesados, pudieran Apuntar datos hasta ahora --\ndesconocidos.",
+  "texto_completo_en": "N/Ref: C/5G/4183/12-03-82\nINFORMATION_NOTE\nSUBJECT: ORAL HEARING 2/81 OF THE SUPREME COUNCIL OF MILITARY JUSTICE.\n1.- DEVELOPMENT OF THE SESSION CORRESPONDING TO 03-12-82\nAt 10:04 a.m. the session begins with the interrogation.\nrio of General TORRES ROJAS, by the Prosecutor who consu\nme one hour 39 minutes. Before speaking, Colonel\nSCANDELL the. Lieutenant Colonel DE MEER requests the floor\nto present a previous question that has to do with Cau-\nknow but unrelated to the interrogation. The President did not authorize it\nza. The defending lawyers then take their turn.\nsores; The Councilors do not ask any questions. Once with“\nAfter the turn of General TORRES ROJAS, the Lieutenant Colonel\nDE MEER calls for the release of the Guard Lieutenants\nCivil Day, because it has been demonstrated in his opinion that the\ntests, carried out up to this moment, exonerate the refs\nofficial jokes. The President says that now is not the time to\nthat consideration and that the issue will be taken into account --\nopportunely.\nNext, the Captain's interrogation is consummated -\nof Navio MENENDEZ and Colonel SAN MARTIN in the first phase\nI know the actions of the Prosecutor,\n2.- INCIDENTS AND ESTIMATES ON THE DEVELOPMENT OF THE SESSION.\n- Interrogation of the accused General TORRES ROJAS.\nWhen asked by the Prosecutor, General TORRES ROJAS remained\nhas in a line to completely discharge its responsibility\nLiáad in Lieutenant General MILANS as command and in ARMADA\nand the KING as inspirational. Deny any type of con”\ncertain prior or personal actions aimed at being done ~~\nwith the command of the D,A,C.\nIt makes some allusion in a demagogic line, and out of lu--\ngar, to certain gallant attitudes, among them the use of\npennant on official cars. This gonspecifically provoked ~\nthe beginning of applause from a woman familiar with\none of the defendants.\nIn response to questions from the defenders, it is highlighted that an operation\nwhich is proposed with a clear limitation such as that\nbe bloodless it cannot be a rebellion. That assuming co\nSince they supposed that the orders emanate from the KING, the deso\n\n2,-\nbedece would have been unconstitutional, which has never\nI had heard neither CORTINA nor the CE mentioned before the events.\nSID. That the project consisted of an \"interruption\" of the\nactivity of the Chamber to offer this situation to: KING.\nThat the non-intervention of the D.A.C. supposed to betray -\nthe members of the G,C, who had participated, and who in -\nthe meetings he attended for one reason or another did not\nhe found out completely what was being said\n- Interrogation of: accused Captain MENENDEZ VIVES\nThe Prosecutor has taken advantage of the special provision of the pro\nceased in a certain line to manifest that the Te-\nColonel TEJERO had informed him that ARMADA had\nhas mentioned his intention to form a Government in the -=\nthat would be integrated among others FELIPE GONZALEZ and ENRIQUE -\nMUGICA, a fact that had not been declared until now\nto.\nTo questions from the defenders he alluded to the inspiration\nroyal action in the coup and because no one gave direct orders--\nYou are trying to quell the problem in Congress. In this line of -\npassive attitude cited ARAMBURU and SANTAMARIA,\nHe had some apparently witty answers and made\na song to his affection for the Army and the Civil Guard.\n- Interrogation (partial) by the Prosecutor of Colonel SAN MARTIN\nIt seems to be appreciated that the position of Colonel SAN MARTIN\nconsists of presenting to the Council a scheme made by him,\nin which all the pieces fit logically into some ca\nyou are, by chance other times and the rest due to the Pro\nclairvoyance or Predestination, With this vision he answers -\nthe Prosecutor's questions in a strong and energetic intonation\nca.\n3.- OTHER FACTS AND COMMENTS\nDuring the interrogation of General TORRESROJAS it has been\nnamed His Majesty in a concrete and implicatory manner does not mean\nus 64 times.\nThere is expectation regarding Je--'s next statements\nfes and Civil Guard Officers, since due to variations\nemotional emotions derived from the interrogations and the coexistence--\ncia of those processed, could record data so far --\nunknown."
 }

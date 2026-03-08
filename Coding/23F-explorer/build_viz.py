@@ -94,6 +94,24 @@ def slugify(s: str) -> str:
     s = re.sub(r"[\s_]+", "-", s)
     return s
 
+_LABEL_RE = re.compile(
+    r'^(Nota informativa|Nota verbal|Informe|Telegrama|Resumen)'
+    r'(?:\s+(?:[A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ]+|\([^)]+\)))*'   # optional ALL-CAPS or (paren) modifiers
+    r'\s+(?:sobre|de\s+la|del|de\s+los|de\s+las|de)\s+'
+    r'(.+)$'
+)
+
+def make_doc_label(titulo: str) -> str:
+    """Reformat 'Nota informativa sobre X' → 'X nota informativa' (type at end)."""
+    m = _LABEL_RE.match(titulo)
+    if m:
+        content = m.group(2).strip()
+        doc_type = m.group(1).lower()
+        suffix = ' ' + doc_type
+        return content[:60 - len(suffix)].rstrip() + suffix
+    return titulo[:60]
+
+
 def build_graph(docs: list, profiles: dict = None) -> dict:
     nodes = {}   # id → node dict
     edges = []   # list of edge dicts
@@ -120,7 +138,7 @@ def build_graph(docs: list, profiles: dict = None) -> dict:
         fname   = meta.get("filename", "")
 
         # Document node
-        doc_label = doc.get("titulo_es", doc_id)[:60]
+        doc_label = make_doc_label(doc.get("titulo_es", doc_id))
         doc_node_id = get_or_create(doc_label, "document", {
             "doc_id":       doc_id,
             "filename":     fname,
@@ -321,8 +339,10 @@ def generate_doc_page(doc: dict, pdf_base: str) -> str:
     """Generate a self-contained HTML page for one document."""
     titulo_es   = doc.get("titulo_es", "")
     titulo_en   = doc.get("titulo_en", "")
-    resumen_es  = doc.get("resumen_es", "")
-    resumen_en  = doc.get("resumen_en", "")
+    resumen_es       = doc.get("resumen_es", "")
+    resumen_en       = doc.get("resumen_en", "")
+    texto_completo_es = doc.get("texto_completo_es", "")
+    texto_completo_en = doc.get("texto_completo_en", "")
     fecha       = doc.get("fecha_documento", "")
     ministerio  = ministerio_label(doc.get("ministerio", ""))
     periodo     = periodo_label(doc.get("periodo", ""))
@@ -433,6 +453,14 @@ def generate_doc_page(doc: dict, pdf_base: str) -> str:
              border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 14px; margin: 16px 0; }}
   .back-link {{ margin-top: 32px; font-size: 14px; }}
   .back-link a {{ color: #f0b429; text-decoration: none; }}
+  .full-text {{ background: #161b22; border: 1px solid #30363d; border-radius: 6px;
+               padding: 16px 20px; margin-bottom: 12px; font-size: 13px;
+               line-height: 1.8; color: #c9d1d9; white-space: pre-wrap;
+               font-family: 'Georgia', serif; max-height: 600px;
+               overflow-y: auto; }}
+  details summary {{ cursor: pointer; color: #f0b429; font-weight: 600;
+                     font-size: 14px; margin: 16px 0 8px; user-select: none; }}
+  details summary:hover {{ color: #e6edf3; }}
 </style>
 </head>
 <body>
@@ -460,6 +488,14 @@ def generate_doc_page(doc: dict, pdf_base: str) -> str:
   {personas_html}
   {citas_html}
   {temas_html}
+  {f'''<details>
+    <summary>📄 Texto completo (ES) / Full text (ES)</summary>
+    <div class="full-text">{esc_html(texto_completo_es)}</div>
+  </details>''' if texto_completo_es else ''}
+  {f'''<details>
+    <summary>📄 Full text (EN) / Texto completo (EN)</summary>
+    <div class="full-text">{esc_html(texto_completo_en)}</div>
+  </details>''' if texto_completo_en else ''}
   <div class="back-link">
     <a href="{SITE_URL}/documentos/">← Volver al índice / Back to index</a> &nbsp;|&nbsp;
     <a href="{SITE_URL}/#doc:{doc_id}">Ver en el grafo / View in graph →</a>
@@ -1170,7 +1206,8 @@ function initGraph() {
           const dx = event.x - d._dragStartX, dy = event.y - d._dragStartY;
           dragEnd(event, d);
           if (Math.hypot(dx, dy) < 5) showDetail(d);
-        }));
+        }))
+      .on('click', event => { event.stopPropagation(); });
 
   nodeEl = nodeGroups;
 
@@ -1188,11 +1225,22 @@ function initGraph() {
   svgEl.on('click', () => { clearDetail(); selectedNode = null; });
 
   // Force simulation
+  // Pre-compute degree so hub nodes go to centre, leaves to periphery
+  const degreeMap = new Map(GRAPH_DATA.nodes.map(n => [n.id, 0]));
+  GRAPH_DATA.edges.forEach(e => {
+    const s = e.source.id || e.source, t = e.target.id || e.target;
+    degreeMap.set(s, (degreeMap.get(s) || 0) + 1);
+    degreeMap.set(t, (degreeMap.get(t) || 0) + 1);
+  });
+  const maxDeg = Math.max(...degreeMap.values()) || 1;
+  const R = Math.min(W, H) * 0.45;   // overall graph radius
+
   simulation = d3.forceSimulation(GRAPH_DATA.nodes)
-    .force('link', d3.forceLink(GRAPH_DATA.edges).id(d => d.id).distance(120))
-    .force('charge', d3.forceManyBody().strength(-280))
-    .force('center', d3.forceCenter(W / 2, H / 2))
-    .force('collision', d3.forceCollide().radius(d => d.size + 22))
+    .force('link',      d3.forceLink(GRAPH_DATA.edges).id(d => d.id).distance(80).strength(0.2))
+    .force('charge',    d3.forceManyBody().strength(-900))
+    .force('center',    d3.forceCenter(W / 2, H / 2).strength(0.15))
+    .force('radial',    d3.forceRadial(d => R * (1 - 0.8 * (degreeMap.get(d.id) || 0) / maxDeg), W / 2, H / 2).strength(0.12))
+    .force('collision', d3.forceCollide().radius(d => d.size + 28).strength(1))
     .on('tick', ticked);
 
   function ticked() {

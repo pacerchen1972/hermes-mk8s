@@ -9,17 +9,46 @@
   "resumen_es": "Telegrama Postal RESERVADO (Causa 9481, Dirección General de la Guardia Civil, Sección de Justicia, 7 junio 1981) enviado al Coronel-Juez del Juzgado Militar Especial de la 1ª Región Militar, adjuntando la hoja de servicios del Capitán Gil Sánchez Valiente Portillo, que había abandonado su destino en el BAS (Batallón de Acción Especial) y se encontraba en paradero desconocido (huido a Grecia con pasaporte argentino).",
   "resumen_en": "RESERVED Postal Telegram (Causa 9481, Civil Guard Directorate General, Justice Section, 7 June 1981) sent to the Colonel-Judge of the Special Military Court of the 1st Military Region, attaching the service record of Captain Gil Sánchez Valiente Portillo, who had abandoned his post at the BAS (Special Action Battalion) and was unaccounted for (having fled to Greece with an Argentine passport).",
   "personas": [
-    { "nombre": "Gil Sánchez Valiente Portillo", "rol": "Capitán de la GC, fugado tras el 23-F, objeto de la Causa 9481" }
+    {
+      "nombre": "Gil Sánchez Valiente Portillo",
+      "rol": "Capitán de la GC, fugado tras el 23-F, objeto de la Causa 9481"
+    }
   ],
   "organizaciones": [
-    { "nombre": "Dirección General de la Guardia Civil", "tipo": "seguridad" },
-    { "nombre": "Juzgado Militar Especial de la 1ª Región Militar", "tipo": "judicial" }
+    {
+      "nombre": "Dirección General de la Guardia Civil",
+      "tipo": "seguridad"
+    },
+    {
+      "nombre": "Juzgado Militar Especial de la 1ª Región Militar",
+      "tipo": "judicial"
+    }
   ],
   "eventos": [
-    { "fecha": "1981-06-07", "descripcion_es": "DGGC envía hoja de servicios del Cap. Sánchez Valiente al Juzgado Militar; el capitán había huido al extranjero", "descripcion_en": "DGGC sends Captain Sánchez Valiente's service record to Military Court; the captain had fled abroad", "lugar": "Madrid" }
+    {
+      "fecha": "1981-06-07",
+      "descripcion_es": "DGGC envía hoja de servicios del Cap. Sánchez Valiente al Juzgado Militar; el capitán había huido al extranjero",
+      "descripcion_en": "DGGC sends Captain Sánchez Valiente's service record to Military Court; the captain had fled abroad",
+      "lugar": "Madrid"
+    }
   ],
   "citas_clave": [],
   "relaciones": [],
-  "temas": ["post-golpe", "sanchez-valiente", "causa-9481", "guardia-civil", "fuga"],
-  "_meta": { "doc_id": "Defensa_22", "filename": "Causa_9481_Reservado_Hoja_de_servicios_del_Cap_Sanchez_Valiente.pdf", "folder": "defensa", "is_image_pdf": true, "pages": 1, "processed_by": "claude-code" }
+  "temas": [
+    "post-golpe",
+    "sanchez-valiente",
+    "causa-9481",
+    "guardia-civil",
+    "fuga"
+  ],
+  "_meta": {
+    "doc_id": "Defensa_22",
+    "filename": "Causa_9481_Reservado_Hoja_de_servicios_del_Cap_Sanchez_Valiente.pdf",
+    "folder": "defensa",
+    "is_image_pdf": true,
+    "pages": 1,
+    "processed_by": "claude-code"
+  },
+  "texto_completo_es": "Z F db\nDirección General de la Guardia Civil\n: TELEGRAMA POSTAL\n+\nSección de Justicia Número 3. 504\n01600000/2\nE Madrid, ZAe. de Junio de 1981\nEL DIRECTOR GENERAL\nAl CORONEL JUEZ DEL JUZGADO MILITAR ESPECIAL DE LA 1% REGION\nMILITAR (Gobierno Militar) PLATA\nConforme lo tiene interesado, para que surta efectos —\nen la Causa número 94/81; adjunto se remite a V.S.,copia\nde la Hoja de Servicios relativa al Capitán Don GIL SAN=\nCHEZ VALIENTE PORTILLO.\nTRANSMITASEs\nDe Orden de S.E.\nEL CORONEL JEFE 3 LA SECCION,\nFde. Auxiblo Cabrero Montore",
+  "texto_completo_en": "Z F db\nGeneral Directorate of the Civil Guard\n: POSTAL TELEGRAM\n+\nJustice Section Number 3. 504\n01600000/2\nE Madrid, ZAe. June 1981\nTHE DIRECTOR GENERAL\nTo the COLONEL JUDGE OF THE SPECIAL MILITARY COURT OF THE 1% REGION\nMILITARY (Military Government) SILVER\nAs you are interested in, for it to take effect —\nin Case number 94/81; attached is sent to V.S., copy\nof the Service Record relating to Captain Don GIL SAN=\nCHEZ VALIENTE PORTILLO.\nTRANSMITS\nFrom Order of H.E.\nTHE CHIEF COLONEL 3 THE SECTION,\nFaith. Auxiblo Cabrero Montore"
 }
