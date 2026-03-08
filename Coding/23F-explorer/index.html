@@ -604,6 +604,17 @@ function showDetail(d) {
     if (d.fecha) html += `<div class="detail-subtitle">📅 ${esc(d.fecha)}${d.clasificacion ? ` &nbsp;·&nbsp; 🔒 ${esc(d.clasificacion)}` : ''}</div>`;
     if (d.ministerio) html += `<div class="detail-subtitle">🏛 ${esc(d.ministerio)} &nbsp;·&nbsp; ${esc(d.tipo||'')}</div>`;
 
+    if (d.folder && d.filename) {
+      if (PDF_BASE) {
+        const pdfPath = PDF_BASE + d.folder + '/' + d.filename;
+        html += `<a class="open-pdf" href="${esc(pdfPath)}" target="_blank" rel="noopener noreferrer">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</a>`;
+      } else {
+        html += `<button class="open-pdf" style="cursor:not-allowed;opacity:0.5" disabled title="PDF downloads not configured">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</button>`;
+      }
+      if (d.page_url)
+        html += `<a class="open-pdf" href="${esc(d.page_url)}" target="_blank" rel="noopener noreferrer">📖 ${lang==='es'?'Ver texto completo':'Read full text'}</a>`;
+    }
+
     const resumen = lang === 'es' ? d.resumen_es : d.resumen_en;
     if (resumen) {
       html += `<div class="detail-section"><h4>${lang==='es'?'Resumen':'Summary'}</h4><p>${esc(resumen)}</p></div>`;
@@ -622,17 +633,6 @@ function showDetail(d) {
 
     if (d.temas && d.temas.length)
       html += `<div class="detail-section"><h4>${lang==='es'?'Temas':'Topics'}</h4>${d.temas.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`;
-
-    if (d.folder && d.filename) {
-      if (PDF_BASE) {
-        const pdfPath = PDF_BASE + d.folder + '/' + d.filename;
-        html += `<a class="open-pdf" href="${esc(pdfPath)}" target="_blank" rel="noopener noreferrer">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</a>`;
-      } else {
-        html += `<button class="open-pdf" style="cursor:not-allowed;opacity:0.5" disabled title="PDF downloads not configured">📄 ${lang==='es'?'Abrir PDF original':'Open original PDF'}</button>`;
-      }
-      if (d.page_url)
-        html += `<a class="open-pdf" href="${esc(d.page_url)}" target="_blank" rel="noopener noreferrer">📖 ${lang==='es'?'Ver texto completo':'Read full text'}</a>`;
-    }
   }
 
   else if (d.type === 'person') {
