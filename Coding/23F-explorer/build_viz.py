@@ -888,6 +888,38 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   .stats { padding: 4px 20px; background: #0d1117; border-top: 1px solid #30363d;
             font-size: 11px; color: #8b949e; display: flex; gap: 16px; flex-shrink: 0; }
 
+  /* ── About button ── */
+  #btn-about { padding: 4px 10px; border-radius: 4px; border: 1px solid #30363d;
+               background: #21262d; color: #8b949e; cursor: pointer; font-size: 13px;
+               font-weight: 700; line-height: 1; transition: color .15s, border-color .15s; }
+  #btn-about:hover { color: #f0b429; border-color: #f0b429; }
+
+  /* ── About modal ── */
+  .about-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.75);
+                   z-index: 200; align-items: center; justify-content: center; padding: 20px; }
+  .about-overlay.open { display: flex; }
+  .about-modal { background: #161b22; border: 1px solid #30363d; border-radius: 12px;
+                 max-width: 580px; width: 100%; max-height: 85vh; overflow-y: auto;
+                 padding: 28px 28px 24px; position: relative; }
+  .about-modal h2 { color: #f0b429; font-size: 16px; margin-bottom: 14px; padding-right: 32px; }
+  .about-modal h3 { color: #e6edf3; font-size: 13px; font-weight: 700;
+                    margin: 18px 0 8px; border-top: 1px solid #21262d; padding-top: 14px; }
+  .about-modal h3:first-of-type { border-top: none; margin-top: 8px; padding-top: 0; }
+  .about-modal p { font-size: 13px; color: #8b949e; line-height: 1.65; margin-top: 6px; }
+  .about-modal ul { padding-left: 18px; margin-top: 6px; }
+  .about-modal li { font-size: 13px; color: #8b949e; line-height: 1.65; margin-bottom: 4px; }
+  .about-modal a { color: #58a6ff; }
+  .about-modal .close-about { position: absolute; top: 14px; right: 14px;
+                               background: #21262d; border: 1px solid #30363d;
+                               color: #8b949e; width: 28px; height: 28px; border-radius: 50%;
+                               cursor: pointer; font-size: 14px; line-height: 28px;
+                               text-align: center; transition: color .15s; }
+  .about-modal .close-about:hover { color: #e6edf3; }
+  .node-legend { display: grid; grid-template-columns: 22px 1fr;
+                 gap: 7px 8px; align-items: center; margin: 10px 0 4px; }
+  .node-legend .nl-icon { font-size: 15px; text-align: center; }
+  .node-legend .nl-text { font-size: 13px; color: #8b949e; line-height: 1.4; }
+
   /* ── Mobile (≤ 768px) ──────────────────────────────────────────────────────── */
   @media (max-width: 768px) {
     header { padding: 10px 12px; gap: 10px; min-height: 48px; }
@@ -961,10 +993,18 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
     <span>Documentos desclasificados · Declassified documents · Feb 25, 2026</span>
   </div>
   <div class="lang-toggle">
+    <button id="btn-about" onclick="openAbout()" title="Acerca de / About">?</button>
     <button id="btn-es" class="active" onclick="setLang('es')">ES</button>
     <button id="btn-en" onclick="setLang('en')">EN</button>
   </div>
 </header>
+
+<div class="about-overlay" id="about-overlay" onclick="if(event.target===this)closeAbout()">
+  <div class="about-modal">
+    <button class="close-about" onclick="closeAbout()">✕</button>
+    <div id="about-content"></div>
+  </div>
+</div>
 
 <div class="filters">
   <label id="label-show">Show:</label>
@@ -1075,6 +1115,9 @@ function updateStaticUI(lang) {
   updateStats();
   // Detail placeholder (if no node selected)
   if (!selectedNode) clearDetail();
+  // Refresh About modal if open
+  if (document.getElementById('about-overlay').classList.contains('open'))
+    document.getElementById('about-content').innerHTML = ABOUT_CONTENT[lang];
 }
 
 function setLang(lang) {
@@ -1746,6 +1789,9 @@ window.addEventListener('resize', () => {
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
+    if (document.getElementById('about-overlay').classList.contains('open')) {
+      closeAbout(); return;
+    }
     const searchBox = document.getElementById('search');
     if (searchBox.value) {
       searchBox.value = '';
@@ -1755,6 +1801,120 @@ document.addEventListener('keydown', e => {
     selectedNode = null;
   }
 });
+
+// ── About modal ───────────────────────────────────────────────────────────────
+const ABOUT_CONTENT = {
+  es: `
+    <h2>⚖️ 23-F Papel — Archivo Desclasificado</h2>
+    <p>Visualización interactiva de 165 documentos desclasificados sobre el golpe de estado del
+    23 de febrero de 1981, procedentes de los archivos del CNI/CESID, Ministerio de Defensa,
+    Interior y Exteriores. Acceso libre, sin publicidad, sin backend.</p>
+
+    <h3>📊 Cómo funciona el grafo</h3>
+    <p>El grafo muestra las relaciones entre personas, organizaciones, eventos y documentos del 23-F.</p>
+    <div class="node-legend">
+      <span class="nl-icon" style="color:#e05252">●</span>
+      <span class="nl-text"><strong>Personas</strong> — figuras históricas clave del golpe</span>
+      <span class="nl-icon" style="color:#4a90d9">■</span>
+      <span class="nl-text"><strong>Organizaciones</strong> — instituciones militares, civiles y políticas</span>
+      <span class="nl-icon" style="color:#f0b429">◆</span>
+      <span class="nl-text"><strong>Eventos</strong> — hechos documentados con fecha y lugar</span>
+      <span class="nl-icon" style="color:#38c77e">▶</span>
+      <span class="nl-text"><strong>Documentos</strong> — los 165 archivos desclasificados</span>
+    </div>
+    <p><strong>Tamaño del nodo:</strong> cuanto más grande, más conexiones tiene. Los nodos grandes
+    son las figuras o instituciones más citadas en el archivo.</p>
+    <p><strong>Posición:</strong> los nodos más conectados gravitan hacia el centro; los menos
+    conectados quedan en la periferia. Refleja la importancia relativa dentro del archivo.</p>
+    <p><strong>Líneas (aristas):</strong> cada línea indica una relación documentada — una persona
+    citada en un documento, un evento vinculado a una organización, etc.</p>
+
+    <h3>🖱️ Controles</h3>
+    <ul>
+      <li><strong>Clic en un nodo</strong> — ver detalle, documentos y PDF originales</li>
+      <li><strong>Arrastrar un nodo</strong> — reposicionarlo manualmente</li>
+      <li><strong>Scroll / pellizco</strong> — zoom sobre el grafo</li>
+      <li><strong>Clic en el fondo</strong> — deseleccionar</li>
+      <li><strong>Filtros superiores</strong> — mostrar/ocultar tipos de nodo</li>
+      <li><strong>Buscar</strong> — filtra nodos por nombre (búsqueda parcial)</li>
+      <li><strong>Pestañas de período</strong> — filtra la línea de tiempo por etapa histórica</li>
+    </ul>
+
+    <h3>🗂️ Fuentes documentales</h3>
+    <ul>
+      <li><strong>CNI/CESID</strong> — 84 documentos de inteligencia (1981–1983)</li>
+      <li><strong>Ministerio de Defensa</strong> — 24 documentos (Causa 2/81, carpetas reservadas)</li>
+      <li><strong>Ministerio del Interior</strong> — 21 documentos (Guardia Civil, Policía, Archivo)</li>
+      <li><strong>Ministerio de Exteriores</strong> — 31 documentos (cables diplomáticos, cables US, prensa)</li>
+    </ul>
+
+    <h3>📜 Licencia y créditos</h3>
+    <p>Archivo de libre acceso bajo licencia <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY 4.0</a>.
+    Los documentos originales son propiedad del Estado español y han sido desclasificados según la legislación vigente.</p>
+    <p>Código fuente en <a href="https://github.com/pacerchen1972/23fpapeles" target="_blank" rel="noopener">GitHub</a> ·
+    Datos en <a href="https://huggingface.co/datasets/823409idfdu234/23f-declassified-archive-1981" target="_blank" rel="noopener">Hugging Face</a> ·
+    DOI <a href="https://doi.org/10.5281/zenodo.18906196" target="_blank" rel="noopener">10.5281/zenodo.18906196</a></p>
+  `,
+  en: `
+    <h2>⚖️ 23-F Papel — Declassified Archive</h2>
+    <p>Interactive visualisation of 165 declassified documents about the coup attempt of
+    23 February 1981, from the CNI/CESID, Ministry of Defence, Interior, and Foreign Affairs
+    archives. Free access, no ads, no backend.</p>
+
+    <h3>📊 How the graph works</h3>
+    <p>The graph shows relationships between persons, organisations, events, and documents of the 23-F.</p>
+    <div class="node-legend">
+      <span class="nl-icon" style="color:#e05252">●</span>
+      <span class="nl-text"><strong>Persons</strong> — key historical figures of the coup</span>
+      <span class="nl-icon" style="color:#4a90d9">■</span>
+      <span class="nl-text"><strong>Organisations</strong> — military, civilian and political institutions</span>
+      <span class="nl-icon" style="color:#f0b429">◆</span>
+      <span class="nl-text"><strong>Events</strong> — documented facts with date and location</span>
+      <span class="nl-icon" style="color:#38c77e">▶</span>
+      <span class="nl-text"><strong>Documents</strong> — the 165 declassified files</span>
+    </div>
+    <p><strong>Node size:</strong> the larger the node, the more connections it has. Large nodes are
+    the most referenced figures or institutions in the archive.</p>
+    <p><strong>Position:</strong> highly connected nodes gravitate toward the centre; less connected
+    nodes stay at the periphery. This reflects their relative importance within the archive.</p>
+    <p><strong>Lines (edges):</strong> each line indicates a documented relationship — a person
+    cited in a document, an event linked to an organisation, etc.</p>
+
+    <h3>🖱️ Controls</h3>
+    <ul>
+      <li><strong>Click a node</strong> — view details, documents and original PDF</li>
+      <li><strong>Drag a node</strong> — reposition it manually</li>
+      <li><strong>Scroll / pinch</strong> — zoom the graph</li>
+      <li><strong>Click background</strong> — deselect</li>
+      <li><strong>Filter buttons</strong> — show/hide node types</li>
+      <li><strong>Search</strong> — filter nodes by name (partial match)</li>
+      <li><strong>Period tabs</strong> — filter timeline by historical phase</li>
+    </ul>
+
+    <h3>🗂️ Document sources</h3>
+    <ul>
+      <li><strong>CNI/CESID</strong> — 84 intelligence documents (1981–1983)</li>
+      <li><strong>Ministry of Defence</strong> — 24 documents (Causa 2/81, classified folders)</li>
+      <li><strong>Ministry of Interior</strong> — 21 documents (Civil Guard, Police, Archive)</li>
+      <li><strong>Ministry of Foreign Affairs</strong> — 31 documents (diplomatic cables, US cables, press)</li>
+    </ul>
+
+    <h3>📜 Licence and credits</h3>
+    <p>Free public archive under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY 4.0</a>.
+    Original documents are property of the Spanish State, declassified under applicable legislation.</p>
+    <p>Source code on <a href="https://github.com/pacerchen1972/23fpapeles" target="_blank" rel="noopener">GitHub</a> ·
+    Dataset on <a href="https://huggingface.co/datasets/823409idfdu234/23f-declassified-archive-1981" target="_blank" rel="noopener">Hugging Face</a> ·
+    DOI <a href="https://doi.org/10.5281/zenodo.18906196" target="_blank" rel="noopener">10.5281/zenodo.18906196</a></p>
+  `
+};
+
+function openAbout() {
+  document.getElementById('about-content').innerHTML = ABOUT_CONTENT[currentLang];
+  document.getElementById('about-overlay').classList.add('open');
+}
+function closeAbout() {
+  document.getElementById('about-overlay').classList.remove('open');
+}
 </script>
 </body>
 </html>
