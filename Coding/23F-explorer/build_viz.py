@@ -17,13 +17,16 @@ import urllib.request
 from collections import defaultdict
 from pathlib import Path
 
-DATA_DIR     = Path(__file__).parent / "data"
-PROFILES_DIR = Path(__file__).parent / "data" / "profiles"
-OUTPUT       = Path(__file__).parent / "index.html"
-DOCS_BASE    = Path.home() / "Downloads" / "23F"
-VENDOR_DIR = Path(__file__).parent / "vendor"
-VENDOR_D3  = VENDOR_DIR / "d3.min.js"
-D3_URL     = "https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"
+DATA_DIR        = Path(__file__).parent / "data"
+PROFILES_DIR    = Path(__file__).parent / "data" / "profiles"
+OUTPUT          = Path(__file__).parent / "index.html"
+DOCS_BASE       = Path.home() / "Downloads" / "23F"
+VENDOR_DIR      = Path(__file__).parent / "vendor"
+VENDOR_D3       = VENDOR_DIR / "d3.min.js"
+D3_URL          = "https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"
+SITE_URL        = "https://23fpapel.es"
+DOCUMENTOS_DIR  = Path(__file__).parent / "documentos"
+API_DIR         = Path(__file__).parent / "api"
 
 
 def ensure_d3():
@@ -271,14 +274,459 @@ def build_timeline(docs: list) -> list:
     events.sort(key=lambda x: x.get("date", "9999"))
     return events
 
+
+# ── SEO / AI helpers ──────────────────────────────────────────────────────────
+
+def esc_html(s: str) -> str:
+    """Escape HTML special characters."""
+    return (str(s)
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace('"', "&quot;")
+            .replace("'", "&#39;"))
+
+
+def doc_slug(doc: dict) -> str:
+    """Generate a URL-friendly slug from a doc's id."""
+    doc_id = doc.get("_meta", {}).get("doc_id", "")
+    s = doc_id.lower().strip()
+    s = re.sub(r"[^\w\s-]", "", s)
+    s = re.sub(r"[\s_]+", "-", s)
+    return s.strip("-")
+
+
+def ministerio_label(ministerio: str) -> str:
+    m = (ministerio or "").lower()
+    if "interior" in m:
+        return "Interior"
+    if "defensa" in m or "cni" in m:
+        return "Defensa / CNI"
+    if "exteriores" in m:
+        return "Exteriores"
+    return ministerio or "Desconocido"
+
+
+def periodo_label(periodo: str) -> str:
+    mapping = {
+        "pre-golpe": "Pre-golpe",
+        "golpe": "23-F",
+        "post-golpe": "Post-golpe",
+        "juicio": "Juicio",
+    }
+    return mapping.get((periodo or "").lower(), periodo or "Desconocido")
+
+
+def generate_doc_page(doc: dict, pdf_base: str) -> str:
+    """Generate a self-contained HTML page for one document."""
+    titulo_es   = doc.get("titulo_es", "")
+    titulo_en   = doc.get("titulo_en", "")
+    resumen_es  = doc.get("resumen_es", "")
+    resumen_en  = doc.get("resumen_en", "")
+    fecha       = doc.get("fecha_documento", "")
+    ministerio  = ministerio_label(doc.get("ministerio", ""))
+    periodo     = periodo_label(doc.get("periodo", ""))
+    tipo        = doc.get("tipo_documento", "").replace("_", " ").title()
+    clasificacion = doc.get("clasificacion_original", "").replace("_", " ").upper()
+    personas    = doc.get("personas", [])
+    citas       = doc.get("citas_clave", [])
+    temas       = doc.get("temas", [])
+    doc_id      = doc.get("_meta", {}).get("doc_id", "")
+    filename    = doc.get("_meta", {}).get("filename", "")
+    slug        = doc_slug(doc)
+
+    # PDF link
+    pdf_html = ""
+    if pdf_base and filename:
+        pdf_url = f"{pdf_base}{filename}"
+        pdf_html = (f'<a class="pdf-btn" href="{esc_html(pdf_url)}" target="_blank" rel="noopener">'
+                    f'📄 Descargar PDF / Download PDF</a>')
+
+    # Personas
+    personas_html = ""
+    if personas:
+        items = "".join(
+            f'<li><strong>{esc_html(p.get("nombre",""))}</strong>'
+            + (f' — {esc_html(p.get("cargo",""))}' if p.get("cargo") else "")
+            + (f'<br><span class="role-en">{esc_html(p.get("rol_en_23f",""))}</span>' if p.get("rol_en_23f") else "")
+            + '</li>'
+            for p in personas
+        )
+        personas_html = f'<h2>Personas / People</h2><ul class="personas">{items}</ul>'
+
+    # Citas
+    citas_html = ""
+    if citas:
+        items = "".join(
+            f'<blockquote>'
+            f'<p>«{esc_html(c.get("texto",""))}»</p>'
+            + (f'<p class="traduccion">"{esc_html(c.get("traduccion_en",""))}"</p>' if c.get("traduccion_en") else "")
+            + (f'<cite>— {esc_html(c.get("autor",""))}</cite>' if c.get("autor") else "")
+            + '</blockquote>'
+            for c in citas if c.get("texto")
+        )
+        if items:
+            citas_html = f'<h2>Citas clave / Key Quotes</h2>{items}'
+
+    # Temas
+    temas_html = ""
+    if temas:
+        tags = "".join(f'<span class="tag">{esc_html(t)}</span>' for t in temas)
+        temas_html = f'<h2>Temas / Themes</h2><div class="tags">{tags}</div>'
+
+    description = (resumen_en or resumen_es or titulo_en or titulo_es)[:160]
+    title_full = titulo_es + (f" / {titulo_en}" if titulo_en else "")
+
+    return f"""<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc_html(title_full[:100])} — 23fpapel.es</title>
+<meta name="description" content="{esc_html(description)}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{SITE_URL}/documentos/{slug}/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{esc_html(titulo_es)}">
+<meta property="og:description" content="{esc_html(description)}">
+<meta property="og:url" content="{SITE_URL}/documentos/{slug}/">
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "ArchiveComponent",
+  "name": {json.dumps(titulo_es)},
+  "alternativeName": {json.dumps(titulo_en)},
+  "description": {json.dumps(resumen_es or resumen_en)},
+  "dateCreated": {json.dumps(fecha)},
+  "inLanguage": ["es", "en"],
+  "isPartOf": {{
+    "@type": "ArchiveOrganization",
+    "name": "23-F Papel — Archivo Desclasificado",
+    "url": "{SITE_URL}/"
+  }}
+}}
+</script>
+<style>
+  body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         background: #0d1117; color: #e6edf3; margin: 0; padding: 20px; line-height: 1.6; }}
+  .container {{ max-width: 860px; margin: 0 auto; }}
+  .breadcrumb {{ font-size: 13px; color: #8b949e; margin-bottom: 20px; }}
+  .breadcrumb a {{ color: #f0b429; text-decoration: none; }}
+  h1 {{ color: #f0b429; font-size: 22px; margin-bottom: 4px; }}
+  h1 .en {{ font-size: 16px; color: #8b949e; font-weight: 400; display: block; margin-top: 4px; font-style: italic; }}
+  table.meta {{ border-collapse: collapse; margin-bottom: 24px; width: 100%; }}
+  table.meta td {{ padding: 6px 12px; border: 1px solid #30363d; font-size: 14px; }}
+  table.meta td:first-child {{ color: #8b949e; background: #161b22; width: 200px; }}
+  h2 {{ color: #e6edf3; font-size: 15px; margin: 24px 0 8px; border-bottom: 1px solid #30363d; padding-bottom: 4px; }}
+  .resumen {{ background: #161b22; border-left: 3px solid #f0b429; padding: 12px 16px; margin-bottom: 8px; font-size: 14px; }}
+  .resumen .lang {{ font-size: 11px; color: #8b949e; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }}
+  .personas ul {{ list-style: none; padding: 0; }}
+  .personas li {{ padding: 6px 0; font-size: 14px; border-bottom: 1px solid #1c2128; }}
+  .role-en {{ font-size: 12px; color: #8b949e; font-style: italic; }}
+  blockquote {{ background: #161b22; border-left: 3px solid #4a90d9; padding: 10px 16px; margin: 10px 0; }}
+  blockquote p {{ margin: 0 0 4px; font-size: 14px; font-style: italic; }}
+  .traduccion {{ color: #8b949e !important; font-size: 13px !important; }}
+  cite {{ font-size: 12px; color: #8b949e; }}
+  .tags {{ display: flex; flex-wrap: wrap; gap: 6px; }}
+  .tag {{ background: #21262d; border: 1px solid #30363d; padding: 3px 10px; border-radius: 12px; font-size: 12px; }}
+  .pdf-btn {{ display: inline-block; background: #f0b429; color: #0d1117; padding: 8px 16px;
+             border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 14px; margin: 16px 0; }}
+  .back-link {{ margin-top: 32px; font-size: 14px; }}
+  .back-link a {{ color: #f0b429; text-decoration: none; }}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="breadcrumb">
+    <a href="{SITE_URL}/">Inicio / Home</a> &rsaquo;
+    <a href="{SITE_URL}/documentos/">Documentos / Documents</a> &rsaquo;
+    {esc_html(ministerio)}
+  </div>
+  <h1>
+    {esc_html(titulo_es)}
+    {f'<span class="en">{esc_html(titulo_en)}</span>' if titulo_en else ''}
+  </h1>
+  <table class="meta">
+    <tr><td>Fecha / Date</td><td>{esc_html(fecha or '—')}</td></tr>
+    <tr><td>Ministerio / Ministry</td><td>{esc_html(ministerio)}</td></tr>
+    <tr><td>Período / Period</td><td>{esc_html(periodo)}</td></tr>
+    <tr><td>Tipo / Type</td><td>{esc_html(tipo or '—')}</td></tr>
+    <tr><td>Clasificación / Classification</td><td>{esc_html(clasificacion or '—')}</td></tr>
+  </table>
+  {pdf_html}
+  <h2>Resumen / Summary</h2>
+  {f'<div class="resumen"><div class="lang">ES</div>{esc_html(resumen_es)}</div>' if resumen_es else ''}
+  {f'<div class="resumen"><div class="lang">EN</div>{esc_html(resumen_en)}</div>' if resumen_en else ''}
+  {personas_html}
+  {citas_html}
+  {temas_html}
+  <div class="back-link">
+    <a href="{SITE_URL}/documentos/">← Volver al índice / Back to index</a> &nbsp;|&nbsp;
+    <a href="{SITE_URL}/#doc:{doc_id}">Ver en el grafo / View in graph →</a>
+  </div>
+</div>
+</body>
+</html>"""
+
+
+def generate_docs_index(docs: list) -> str:
+    """Generate the /documentos/ index page."""
+    by_ministerio = {}
+    for doc in docs:
+        m = ministerio_label(doc.get("ministerio", ""))
+        by_ministerio.setdefault(m, []).append(doc)
+
+    sections = ""
+    for m, mdocs in sorted(by_ministerio.items()):
+        items = "".join(
+            f'<li>'
+            f'<a href="{SITE_URL}/documentos/{doc_slug(d)}/">'
+            f'{esc_html(d.get("titulo_es","")[:70])}'
+            + (f'<br><span style="font-size:12px;color:#8b949e;font-style:italic">'
+               f'{esc_html(d.get("titulo_en","")[:70])}</span>'
+               if d.get("titulo_en") else "")
+            + f'</a>'
+            f'<span class="date">{d.get("fecha_documento","")}</span>'
+            f'</li>'
+            for d in sorted(mdocs, key=lambda x: x.get("fecha_documento") or "9999")
+        )
+        sections += f'<h2>{esc_html(m)} <span class="count">({len(mdocs)})</span></h2><ul>{items}</ul>'
+
+    return f"""<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Índice de Documentos Desclasificados 23-F / Declassified Document Index — 23fpapel.es</title>
+<meta name="description" content="Complete index of {len(docs)} declassified documents about the 23-F coup attempt (Spain, 1981). CNI/CESID, Defence, Interior and Foreign Affairs archives. Índice completo de documentos desclasificados del 23-F.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{SITE_URL}/documentos/">
+<style>
+  body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         background: #0d1117; color: #e6edf3; margin: 0; padding: 20px; line-height: 1.6; }}
+  .container {{ max-width: 860px; margin: 0 auto; }}
+  h1 {{ color: #f0b429; font-size: 26px; margin-bottom: 4px; }}
+  h1 .en {{ font-size: 18px; color: #8b949e; font-weight: 400; font-style: italic; display: block; }}
+  .subtitle {{ color: #8b949e; margin-bottom: 32px; font-size: 14px; }}
+  h2 {{ color: #e6edf3; font-size: 17px; margin: 28px 0 10px; border-bottom: 1px solid #30363d; padding-bottom: 4px; }}
+  .count {{ color: #8b949e; font-weight: 400; font-size: 13px; }}
+  ul {{ list-style: none; padding: 0; }}
+  li {{ padding: 5px 0; border-bottom: 1px solid #1c2128; display: flex; justify-content: space-between; align-items: baseline; }}
+  a {{ color: #58a6ff; text-decoration: none; font-size: 14px; }}
+  a:hover {{ text-decoration: underline; }}
+  .date {{ color: #8b949e; font-size: 12px; flex-shrink: 0; margin-left: 12px; }}
+  .back {{ margin-top: 32px; font-size: 14px; }}
+  .back a {{ color: #f0b429; }}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>
+    Índice de Documentos Desclasificados
+    <span class="en">Declassified Document Index</span>
+  </h1>
+  <p class="subtitle">{len(docs)} documentos sobre el golpe de estado del 23 de febrero de 1981 /
+    {len(docs)} documents about the coup attempt of 23 February 1981</p>
+  {sections}
+  <div class="back">
+    <a href="{SITE_URL}/">← Volver al grafo interactivo / Back to interactive graph</a>
+  </div>
+</div>
+</body>
+</html>"""
+
+
+def generate_api_documents(docs: list) -> list:
+    """Generate flat JSON export optimised for AI consumption."""
+    result = []
+    for doc in docs:
+        meta = doc.get("_meta", {})
+        result.append({
+            "id":            meta.get("doc_id", ""),
+            "slug":          doc_slug(doc),
+            "url":           f"{SITE_URL}/documentos/{doc_slug(doc)}/",
+            "titulo_es":     doc.get("titulo_es", ""),
+            "titulo_en":     doc.get("titulo_en", ""),
+            "fecha":         doc.get("fecha_documento", ""),
+            "ministerio":    ministerio_label(doc.get("ministerio", "")),
+            "periodo":       periodo_label(doc.get("periodo", "")),
+            "tipo":          doc.get("tipo_documento", ""),
+            "clasificacion": doc.get("clasificacion_original", ""),
+            "resumen_es":    doc.get("resumen_es", ""),
+            "resumen_en":    doc.get("resumen_en", ""),
+            "personas":      [p.get("nombre","") for p in doc.get("personas",[]) if p.get("nombre")],
+            "organizaciones":[o.get("nombre","") for o in doc.get("organizaciones",[]) if o.get("nombre")],
+            "temas":         doc.get("temas", []),
+            "citas_clave":   [
+                {"autor": c.get("autor",""), "texto": c.get("texto",""), "traduccion_en": c.get("traduccion_en","")}
+                for c in doc.get("citas_clave",[]) if c.get("texto")
+            ],
+        })
+    return result
+
+
+def generate_sitemap(docs: list) -> str:
+    """Generate sitemap.xml with all URLs."""
+    urls = [f"  <url><loc>{SITE_URL}/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>",
+            f"  <url><loc>{SITE_URL}/documentos/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>",
+            f"  <url><loc>{SITE_URL}/api/documents.json</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>"]
+    for doc in docs:
+        slug = doc_slug(doc)
+        urls.append(f"  <url><loc>{SITE_URL}/documentos/{slug}/</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>")
+    inner = "\n".join(urls)
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{inner}
+</urlset>"""
+
+
+def generate_llms_txt(docs: list) -> str:
+    """Generate llms.txt — AI crawler hint file."""
+    ministerios = {}
+    for doc in docs:
+        m = ministerio_label(doc.get("ministerio", ""))
+        ministerios[m] = ministerios.get(m, 0) + 1
+    min_list = "\n".join(f"- {m}: {count} documents" for m, count in sorted(ministerios.items()))
+
+    doc_lines = "\n".join(
+        f"- /documentos/{doc_slug(d)}/ — {d.get('titulo_es','')[:80]}"
+        for d in docs[:20]
+    )
+
+    return f"""# 23-F Papel — Declassified Archive of the Spanish Coup d'État (1981)
+
+> {len(docs)} declassified Spanish government documents about the failed coup d'état
+> of 23 February 1981. Documents from CNI (CESID), Ministry of Defence,
+> Ministry of Interior, and Ministry of Foreign Affairs.
+
+## About
+
+23fpapel.es is a free public archive of {len(docs)} declassified documents about the
+23-F — the attempted coup d'état in Spain on 23 February 1981, when Lieutenant
+Colonel Antonio Tejero Molina stormed the Congress of Deputies with Civil Guard units
+while General Milans del Bosch declared martial law in Valencia.
+
+## Collections by Ministry
+
+{min_list}
+
+## Key Pages
+
+- / — Interactive knowledge graph (force-directed D3.js) with {len(docs)} document nodes
+- /documentos/ — Full alphabetical index of all {len(docs)} documents (HTML, fully crawlable)
+- /api/documents.json — Machine-readable flat JSON export of all documents
+- /sitemap.xml — All document URLs
+
+## Sample Documents
+
+{doc_lines}
+
+## Key Historical Figures
+
+- Antonio Tejero Molina — Lieutenant Colonel, led the Congress assault
+- Jaime Milans del Bosch — Captain General, Valencia region, declared martial law
+- Alfonso Armada Comyn — Former Royal Secretary, alleged coup coordinator
+- Manuel Gutiérrez Mellado — Deputy Prime Minister, resisted Tejero on the Congress floor
+- Adolfo Suárez — Prime Minister, held at gunpoint in Congress
+- Juan Carlos I — King of Spain, crucial role in defeating the coup
+
+## Data
+
+- /api/documents.json — Full JSON export ({len(docs)} documents, all metadata)
+- /sitemap.xml — All {len(docs) + 2} page URLs
+
+## License
+
+Content: Public domain (declassified government documents).
+Database and presentation: CC-BY 4.0 — cite as: 23fpapel.es
+"""
+
+
+def generate_robots_txt() -> str:
+    """Generate robots.txt allowing all crawlers including AI bots."""
+    return f"""User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: {SITE_URL}/sitemap.xml
+"""
+
+
 # ── Generate HTML ─────────────────────────────────────────────────────────────
 HTML_TEMPLATE = r"""<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; img-src 'self' data:; base-uri 'self'; form-action 'none'; object-src 'none'">
-<title>23-F — Mapa de Conocimiento / Knowledge Map</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; base-uri 'self'; form-action 'none'; object-src 'none'">
+<title>23-F Papel — Archivo Desclasificado del Golpe de Estado (España, 1981)</title>
+<meta name="description" content="165 documentos desclasificados sobre el golpe de estado del 23 de febrero de 1981. Archivos del CNI (CESID), Defensa, Interior y Exteriores. Grafo interactivo de conocimiento y línea de tiempo.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="23fpapel.es">
+<link rel="canonical" href="https://23fpapel.es/">
+<link rel="alternate" hreflang="es" href="https://23fpapel.es/">
+<link rel="alternate" hreflang="en" href="https://23fpapel.es/">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://23fpapel.es/">
+<meta property="og:title" content="23-F Papel — Archivo Desclasificado del Golpe de Estado">
+<meta property="og:description" content="165 documentos desclasificados sobre el golpe de estado del 23 de febrero de 1981. Archivos CNI/CESID, Defensa, Interior y Exteriores.">
+<meta property="og:site_name" content="23fpapel.es">
+<meta property="og:locale" content="es_ES">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="23-F Papel — Archivo Desclasificado del Golpe de Estado">
+<meta name="twitter:description" content="165 documentos desclasificados sobre el 23-F. Grafo de conocimiento interactivo con archivos CNI/CESID, Defensa, Interior y Exteriores.">
+<!-- Schema.org Dataset -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "23-F Papel — Archivo Desclasificado",
+  "description": "165 declassified Spanish government documents about the failed coup d'état of 23 February 1981. Documents from CNI (CESID), Ministry of Defence, Ministry of Interior, and Ministry of Foreign Affairs.",
+  "url": "https://23fpapel.es/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "temporalCoverage": "1977/1983",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "España"
+  },
+  "keywords": ["23-F", "golpe de estado", "España 1981", "Tejero", "CNI", "CESID", "historia contemporánea", "documentos desclasificados"],
+  "creator": {
+    "@type": "Organization",
+    "name": "23fpapel.es"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://23fpapel.es/api/documents.json"
+    }
+  ],
+  "inLanguage": ["es", "en"]
+}
+</script>
+<link rel="preload" href="vendor/d3.min.js" as="script">
 <script src="vendor/d3.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1100,11 +1548,53 @@ def main():
     print(f"🕸   Graph: {len(graph['nodes'])} nodes, {len(graph['edges'])} edges")
     print(f"📅  Timeline: {len(timeline)} events")
 
+    # ── Main index.html ─────────────────────────────────────────────────────
     html = generate_html(graph, timeline)
     OUTPUT.write_text(html, encoding="utf-8")
+    print(f"\n✅  index.html saved to: {OUTPUT}")
 
-    print(f"\n✅  Visualization saved to: {OUTPUT}")
-    print(f"   Open in browser: open {OUTPUT}")
+    # ── Individual document pages ────────────────────────────────────────────
+    pdf_base = os.environ.get('PDF_BASE_URL', '').rstrip('/')
+    if pdf_base and not pdf_base.startswith('https://'):
+        pdf_base = ''
+    if pdf_base:
+        pdf_base += '/'
+
+    DOCUMENTOS_DIR.mkdir(exist_ok=True)
+    for doc in docs:
+        slug = doc_slug(doc)
+        page_dir = DOCUMENTOS_DIR / slug
+        page_dir.mkdir(exist_ok=True)
+        page_html = generate_doc_page(doc, pdf_base)
+        (page_dir / "index.html").write_text(page_html, encoding="utf-8")
+
+    index_html = generate_docs_index(docs)
+    (DOCUMENTOS_DIR / "index.html").write_text(index_html, encoding="utf-8")
+    print(f"📄  {len(docs)} document pages + index → documentos/")
+
+    # ── API endpoint ─────────────────────────────────────────────────────────
+    API_DIR.mkdir(exist_ok=True)
+    api_data = generate_api_documents(docs)
+    api_json = json.dumps(api_data, ensure_ascii=False, indent=2)
+    (API_DIR / "documents.json").write_text(api_json, encoding="utf-8")
+    print(f"🔌  /api/documents.json written ({len(api_data)} records)")
+
+    # ── sitemap.xml ──────────────────────────────────────────────────────────
+    sitemap = generate_sitemap(docs)
+    (Path(__file__).parent / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+    print(f"🗺   sitemap.xml: {len(docs) + 3} URLs")
+
+    # ── llms.txt ─────────────────────────────────────────────────────────────
+    llms = generate_llms_txt(docs)
+    (Path(__file__).parent / "llms.txt").write_text(llms, encoding="utf-8")
+    print(f"🤖  llms.txt written")
+
+    # ── robots.txt ───────────────────────────────────────────────────────────
+    robots = generate_robots_txt()
+    (Path(__file__).parent / "robots.txt").write_text(robots, encoding="utf-8")
+    print(f"🤖  robots.txt written")
+
+    print(f"\n✅  Build complete. Open in browser: open {OUTPUT}")
 
 if __name__ == "__main__":
     main()

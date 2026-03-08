@@ -1,0 +1,67 @@
+# 23-F Papel — Declassified Archive of the Spanish Coup d'État (1981)
+
+> 165 declassified Spanish government documents about the failed coup d'état
+> of 23 February 1981. Documents from CNI (CESID), Ministry of Defence,
+> Ministry of Interior, and Ministry of Foreign Affairs.
+
+## About
+
+23fpapel.es is a free public archive of 165 declassified documents about the
+23-F — the attempted coup d'état in Spain on 23 February 1981, when Lieutenant
+Colonel Antonio Tejero Molina stormed the Congress of Deputies with Civil Guard units
+while General Milans del Bosch declared martial law in Valencia.
+
+## Collections by Ministry
+
+- Defensa / CNI: 106 documents
+- Exteriores: 31 documents
+- Interior: 28 documents
+
+## Key Pages
+
+- / — Interactive knowledge graph (force-directed D3.js) with 165 document nodes
+- /documentos/ — Full alphabetical index of all 165 documents (HTML, fully crawlable)
+- /api/documents.json — Machine-readable flat JSON export of all documents
+- /sitemap.xml — All document URLs
+
+## Sample Documents
+
+- /documentos/23f6tr-1/ — Conversaciones telefónicas de la esposa del Tte. Coronel Tejero con diversas per
+- /documentos/23f-1-conversacion-telefonica-garcia-carres-y-tcol-tejero/ — Conversación telefónica García Carrés y Tcol. Tejero durante el asalto al Congre
+- /documentos/23f-10-nota-comparecencia-tejero-galaxia/ — Acta de comparecencia de Tejero ante el Coronel Gallego sobre la Operación Galax
+- /documentos/23f-11-nota-informativa-repercusion-prensa-arresto-tejero-antes-1981/ — Nota informativa CONFIDENCIAL sobre repercusión en prensa del arresto de Tejero 
+- /documentos/23f-2-conversacion-telefonica-garcia-carres/ — Conversación telefónica García Carrés con persona no identificada durante el gol
+- /documentos/23f-3-conversaciones-telefonicas-unidad-militar-el-pardo/ — Registro de llamadas telefónicas interceptadas en la Unidad Militar El Pardo (ma
+- /documentos/23f-4-documento-planificacion-del-golpe/ — Documento de planificación del golpe — análisis de operaciones en marcha (noviem
+- /documentos/23f-5-documento-manuscrito-planificacion-del-golpe/ — Documento manuscrito de planificación operativa — Operación HALTON y cronología 
+- /documentos/23f-7-notas-informativas-2-seccion-em-desarrollo-hechos/ — Notas informativas de la 2ª Sección del Estado Mayor — crónica minuto a minuto d
+- /documentos/23f-8-telex-interiores-y-de-agencias-recibidos-en-2-seccion-em/ — Telexes interiores y de agencias recibidos en la 2ª Sección del Estado Mayor dur
+- /documentos/23f-9-oficio-dimanante-zona-del-pais-vasco-disposiciones-sobre-tejero/ — Oficio RESERVADO de la 5ª Zona (País Vasco) sobre la actitud e influencia del Tt
+- /documentos/cni-documento-10-r/ — Nota informativa sobre incidentes de comisiones militares en la vista oral de la
+- /documentos/cni-documento-11-r/ — Carta personal a Emilio Alonso Manglano sobre el enrarecimiento del ambiente en 
+- /documentos/cni-documento-12-r/ — Nota informativa ARAP sobre la anunciada libertad provisional de procesados en l
+- /documentos/cni-documento-13-r/ — Nota informativa ARAP sobre lista de oficiales con implicación política en cuart
+- /documentos/cni-documento-15-r/ — Nota informativa sobre incidente en el juicio durante la defensa del General Mil
+- /documentos/cni-documento-16-r/ — Orden General Extraordinaria nº 2/82 de la JUJEM con motivo de la sentencia del 
+- /documentos/cni-documento-17-r/ — Análisis del papel de la JUJEM en la crisis político-militar tras la sentencia d
+- /documentos/cni-documento-18-r/ — Nota interior del CESID sobre reacciones ante la sentencia del 23-F en medios mi
+- /documentos/cni-documento-19-r/ — Estado de opinión sobre las sentencias del 23-F en la 3ª Región Militar (jun. 19
+
+## Key Historical Figures
+
+- Antonio Tejero Molina — Lieutenant Colonel, led the Congress assault
+- Jaime Milans del Bosch — Captain General, Valencia region, declared martial law
+- Alfonso Armada Comyn — Former Royal Secretary, alleged coup coordinator
+- Manuel Gutiérrez Mellado — Deputy Prime Minister, resisted Tejero on the Congress floor
+- Adolfo Suárez — Prime Minister, held at gunpoint in Congress
+- Juan Carlos I — King of Spain, crucial role in defeating the coup
+
+## Data
+
+- /api/documents.json — Full JSON export (165 documents, all metadata)
+- /sitemap.xml — All 167 page URLs
+
+## License
+
+Content: Public domain (declassified government documents).
+Database and presentation: CC-BY 4.0 — cite as: 23fpapel.es
