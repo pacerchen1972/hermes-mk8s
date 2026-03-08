@@ -931,13 +931,43 @@ function t(node, esKey, enKey) {
   return currentLang === 'es' ? (node[esKey] || node[enKey] || '') : (node[enKey] || node[esKey] || '');
 }
 
+function updateStaticUI(lang) {
+  const es = lang === 'es';
+  // Labels
+  document.getElementById('label-show').textContent = es ? 'Mostrar:' : 'Show:';
+  document.getElementById('tl-label').textContent   = es ? 'Período:' : 'Period:';
+  document.getElementById('search').placeholder     = es ? 'Buscar…'  : 'Search…';
+  // Header
+  document.querySelector('header h1').textContent =
+    es ? '⚖️ 23-F — Golpe de Estado 1981' : "⚖️ 23-F — Coup d'État 1981";
+  // Filter buttons
+  const filterLabels = { person: [' Personas',' Persons'],
+                         organization: [' Organizaciones',' Organizations'],
+                         event: [' Eventos',' Events'],
+                         document: [' Documentos',' Documents'] };
+  const icons = { person:'●', organization:'■', event:'◆', document:'▶' };
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    const type = [...btn.classList].find(c => filterLabels[c]);
+    if (type) btn.textContent = icons[type] + filterLabels[type][es ? 0 : 1];
+  });
+  // Period tabs
+  PERIOD_DEFS.forEach(p => {
+    const btn = document.querySelector(`.period-tab[data-period="${p.id}"]`);
+    if (btn) btn.textContent = es ? p.label_es : p.label_en;
+  });
+  // Stats bar
+  updateStats();
+  // Detail placeholder (if no node selected)
+  if (!selectedNode) clearDetail();
+}
+
 function setLang(lang) {
   currentLang = lang;
   document.getElementById('btn-es').classList.toggle('active', lang === 'es');
   document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  updateStaticUI(lang);
   d3.select('#timeline-svg').selectAll('*').remove();
   initTimeline();
-  updateStats();
   if (selectedNode) showDetail(selectedNode);
 }
 
@@ -1010,12 +1040,13 @@ function applyFilters() {
 // ── Stats bar ─────────────────────────────────────────────────────────────────
 function updateStats() {
   const n = GRAPH_DATA.nodes, e = GRAPH_DATA.edges;
+  const es = currentLang === 'es';
   document.getElementById('stats-bar').textContent =
-    `Nodes: ${n.length}  |  Connections: ${e.length}  |  ` +
-    `Persons: ${n.filter(x=>x.type==='person').length}  |  ` +
-    `Documents: ${n.filter(x=>x.type==='document').length}  |  ` +
-    `Organizations: ${n.filter(x=>x.type==='organization').length}  |  ` +
-    `Events: ${n.filter(x=>x.type==='event').length}`;
+    `${es?'Nodos':'Nodes'}: ${n.length}  |  ${es?'Conexiones':'Connections'}: ${e.length}  |  ` +
+    `${es?'Personas':'Persons'}: ${n.filter(x=>x.type==='person').length}  |  ` +
+    `${es?'Documentos':'Documents'}: ${n.filter(x=>x.type==='document').length}  |  ` +
+    `${es?'Organizaciones':'Organizations'}: ${n.filter(x=>x.type==='organization').length}  |  ` +
+    `${es?'Eventos':'Events'}: ${n.filter(x=>x.type==='event').length}`;
 }
 
 // ── D3 Graph ──────────────────────────────────────────────────────────────────
@@ -1175,7 +1206,7 @@ function showDetail(d) {
     }
 
     if (d.temas && d.temas.length)
-      html += `<div class="detail-section"><h4>Temas / Topics</h4>${d.temas.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`;
+      html += `<div class="detail-section"><h4>${lang==='es'?'Temas':'Topics'}</h4>${d.temas.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`;
 
     if (d.folder && d.filename) {
       if (PDF_BASE) {
@@ -1279,15 +1310,16 @@ function showDetail(d) {
 }
 
 function clearDetail() {
+  const es = currentLang === 'es';
   document.getElementById('detail').innerHTML = `
     <div class="detail-placeholder">
-      <h3>23-F Knowledge Map</h3>
-      <p>Click any node to explore details.</p>
+      <h3>${es ? '23-F — Mapa de Conocimiento' : '23-F Knowledge Map'}</h3>
+      <p>${es ? 'Haz clic en un nodo para explorar.' : 'Click any node to explore details.'}</p>
       <p style="margin-top:8px; font-size:11px">
-        <span style="color:#e05252">●</span> Persons &nbsp;
-        <span style="color:#4a90d9">■</span> Organizations &nbsp;
-        <span style="color:#f0b429">◆</span> Events &nbsp;
-        <span style="color:#38c77e">▶</span> Documents
+        <span style="color:#e05252">●</span> ${es?'Personas':'Persons'} &nbsp;
+        <span style="color:#4a90d9">■</span> ${es?'Organizaciones':'Organizations'} &nbsp;
+        <span style="color:#f0b429">◆</span> ${es?'Eventos':'Events'} &nbsp;
+        <span style="color:#38c77e">▶</span> ${es?'Documentos':'Documents'}
       </p>
     </div>`;
   nodeEl && nodeEl.classed('dimmed', false);
