@@ -836,6 +836,12 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
                    font-size: 14px; line-height: 26px; text-align: center;
                    z-index: 10; transition: color .15s, border-color .15s; }
   #detail-close:hover { color: #e6edf3; border-color: #e6edf3; }
+  #detail-share { position: absolute; top: 8px; right: 42px;
+                   background: #21262d; border: 1px solid #30363d; color: #8b949e;
+                   width: 26px; height: 26px; border-radius: 50%; cursor: pointer;
+                   font-size: 12px; line-height: 26px; text-align: center;
+                   z-index: 10; transition: color .15s, border-color .15s; }
+  #detail-share:hover { color: #58a6ff; border-color: #58a6ff; }
   .detail-placeholder { padding: 40px 20px; color: #8b949e; text-align: center;
                          font-size: 13px; line-height: 1.6; }
   .detail-placeholder h3 { color: #e6edf3; margin-bottom: 8px; }
@@ -953,6 +959,8 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
                                    border-radius: 2px; background: #30363d; }
     #detail-close { width: 44px; height: 44px; font-size: 18px;
                     line-height: 44px; top: 6px; right: 8px; }
+    #detail-share { width: 44px; height: 44px; font-size: 16px;
+                    line-height: 44px; top: 6px; right: 58px; }
 
     #graph-container { flex: 1; min-height: 0; }
     svg#graph { touch-action: none; }
@@ -1476,6 +1484,13 @@ function showDetail(d) {
   html += `</div>`;
   panel.innerHTML = html;
 
+  // Update URL hash for document deep-links (enables shareable URLs)
+  if (d.type === 'document' && d.doc_id) {
+    history.replaceState(null, '', '#doc:' + encodeURIComponent(d.doc_id));
+  } else {
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
+
   // C-2: Close button created via DOM API (no onclick injection in innerHTML)
   const closeBtn = document.createElement('button');
   closeBtn.id = 'detail-close';
@@ -1483,6 +1498,28 @@ function showDetail(d) {
   closeBtn.textContent = '×';
   closeBtn.addEventListener('click', e => { e.stopPropagation(); clearDetail(); selectedNode = null; });
   panel.insertBefore(closeBtn, panel.firstChild);
+
+  // Copy-link button for document nodes (🔗 — copies deep-link URL to clipboard)
+  if (d.type === 'document' && d.doc_id) {
+    const shareBtn = document.createElement('button');
+    shareBtn.id = 'detail-share';
+    shareBtn.title = currentLang === 'es' ? 'Copiar enlace directo' : 'Copy direct link';
+    shareBtn.textContent = '🔗';
+    shareBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        shareBtn.textContent = '✓';
+        shareBtn.style.color = '#3fb950';
+        shareBtn.style.borderColor = '#3fb950';
+        setTimeout(() => {
+          shareBtn.textContent = '🔗';
+          shareBtn.style.color = '';
+          shareBtn.style.borderColor = '';
+        }, 2000);
+      });
+    });
+    panel.insertBefore(shareBtn, panel.firstChild);
+  }
 
   // Highlight connected nodes
   const connectedIds = new Set([d.id]);
@@ -1497,6 +1534,7 @@ function showDetail(d) {
 }
 
 function clearDetail() {
+  if (window.location.hash) history.replaceState(null, '', window.location.pathname + window.location.search);
   const es = currentLang === 'es';
   document.getElementById('detail').innerHTML = `
     <div class="detail-placeholder">
