@@ -83,3 +83,15 @@ YouTube channel: https://www.youtube.com/@vongoval/videos
 """
     note_path.write_text(content, encoding="utf-8")
     return note_path
+
+
+def append_to_index(note_path: Path, title: str, filename: str, date_str: str) -> None:
+    """Append a markdown link entry to the project index note (idempotent)."""
+    content = note_path.read_text(encoding="utf-8")
+    link = f"- [{title}](vongoval/{filename}) — {date_str}"
+    if link in content:
+        return
+    if not content.endswith("\n"):
+        content += "\n"
+    content += link + "\n"
+    note_path.write_text(content, encoding="utf-8")

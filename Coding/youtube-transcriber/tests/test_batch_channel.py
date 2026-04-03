@@ -3,6 +3,7 @@ from batch_channel import (
     format_video_filename,
     get_next_prj_number,
     find_or_create_project_note,
+    append_to_index,
 )
 
 
@@ -86,3 +87,32 @@ def test_finds_existing_project_note(tmp_path):
 def test_creates_vongoval_subfolder(tmp_path):
     find_or_create_project_note(tmp_path)
     assert (tmp_path / "200 - Projects" / "Personal" / "vongoval").is_dir()
+
+
+def test_append_to_index_adds_link(tmp_path):
+    note = tmp_path / "index.md"
+    note.write_text("# Test\n\n## Videos\n\n", encoding="utf-8")
+    append_to_index(note, "My Video", "YT-2024-03-15-my-video.txt", "2024-03-15")
+    content = note.read_text()
+    assert "- [My Video](vongoval/YT-2024-03-15-my-video.txt) — 2024-03-15" in content
+
+
+def test_append_to_index_skips_duplicate(tmp_path):
+    note = tmp_path / "index.md"
+    note.write_text(
+        "# Test\n\n## Videos\n\n- [My Video](vongoval/YT-2024-03-15-my-video.txt) — 2024-03-15\n",
+        encoding="utf-8",
+    )
+    append_to_index(note, "My Video", "YT-2024-03-15-my-video.txt", "2024-03-15")
+    content = note.read_text()
+    assert content.count("My Video") == 1
+
+
+def test_append_to_index_multiple_entries(tmp_path):
+    note = tmp_path / "index.md"
+    note.write_text("# Test\n\n## Videos\n\n", encoding="utf-8")
+    append_to_index(note, "Video One", "YT-2024-01-01-video-one.txt", "2024-01-01")
+    append_to_index(note, "Video Two", "YT-2024-02-01-video-two.txt", "2024-02-01")
+    content = note.read_text()
+    assert "Video One" in content
+    assert "Video Two" in content
