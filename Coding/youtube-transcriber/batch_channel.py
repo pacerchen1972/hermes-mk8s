@@ -166,3 +166,69 @@ def process_video(video: dict, output_dir: Path, note_path: Path, model: str, ti
     date_str = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:]}"
     append_to_index(note_path, title, filename, date_str)
     return True
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Batch transcribe all videos from a YouTube channel into Obsidian notes."
+    )
+    parser.add_argument("channel_url", help="YouTube channel URL (e.g. https://www.youtube.com/@vongoval/videos)")
+    parser.add_argument(
+        "--model",
+        default="medium",
+        choices=["tiny", "base", "small", "medium", "large"],
+        help="Whisper model size (default: medium)",
+    )
+    parser.add_argument(
+        "--no-timestamps",
+        action="store_true",
+        help="Save plain text transcripts without timestamps",
+    )
+    parser.add_argument(
+        "--vault",
+        default=os.path.expanduser("~/Documents/Pandarve"),
+        help="Path to Obsidian vault (default: ~/Documents/Pandarve)",
+    )
+    args = parser.parse_args()
+
+    vault_dir = Path(args.vault)
+    if not vault_dir.exists():
+        print(f"Error: vault directory not found: {vault_dir}", file=sys.stderr)
+        sys.exit(1)
+
+    print("📋 Fetching channel video list...")
+    videos = fetch_channel_videos(args.channel_url)
+    total = len(videos)
+    print(f"   Found {total} videos\n")
+
+    note_path = find_or_create_project_note(vault_dir)
+    output_dir = note_path.parent / "vongoval"
+    output_dir.mkdir(exist_ok=True)
+    print(f"📁 Index note: {note_path}\n")
+
+    failures = []
+    skipped = 0
+    processed = 0
+
+    for i, video in enumerate(videos, 1):
+        title = video.get("title", "Unknown")
+        print(f"[{i}/{total}] {title}")
+        try:
+            result = process_video(video, output_dir, note_path, args.model, timestamps=not args.no_timestamps)
+            if result:
+                processed += 1
+            else:
+                skipped += 1
+        except Exception as e:
+            print(f"  ❌ Failed: {e}")
+            failures.append((title, str(e)))
+
+    print(f"\n✅ Done — {processed} transcribed, {skipped} skipped, {len(failures)} failed.")
+    if failures:
+        print("\nFailed videos:")
+        for title, err in failures:
+            print(f"  - {title}: {err}")
+
+
+if __name__ == "__main__":
+    main()
