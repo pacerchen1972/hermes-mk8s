@@ -32,3 +32,9 @@ def slugify(title: str) -> str:
     title = re.sub(r"-+", "-", title)
     title = title.strip("-")
     return title[:60].strip("-")
+
+
+def format_video_filename(upload_date: str, title: str) -> str:
+    """Return filename like YT-YYYY-MM-DD-slug.txt from YYYYMMDD date and title."""
+    date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:]}"
+    return f"YT-{date}-{slugify(title)}.txt"

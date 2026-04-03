@@ -1,4 +1,4 @@
-from batch_channel import slugify
+from batch_channel import slugify, format_video_filename
 
 
 def test_slugify_basic():
@@ -31,3 +31,13 @@ def test_slugify_no_trailing_hyphen_after_truncation():
     assert not result.startswith("-")
     assert not result.endswith("-")
     assert len(result) <= 60
+
+
+def test_format_video_filename_basic():
+    result = format_video_filename("20240315", "Hello World")
+    assert result == "YT-2024-03-15-hello-world.txt"
+
+
+def test_format_video_filename_special_chars():
+    result = format_video_filename("20231201", "AI Agents & MCPs: A Guide!")
+    assert result == "YT-2023-12-01-ai-agents-mcps-a-guide.txt"
