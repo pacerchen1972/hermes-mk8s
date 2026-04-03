@@ -31,4 +31,4 @@ def slugify(title: str) -> str:
     title = re.sub(r"[\s_]+", "-", title)
     title = re.sub(r"-+", "-", title)
     title = title.strip("-")
-    return title[:60]
+    return title[:60].strip("-")

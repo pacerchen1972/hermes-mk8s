@@ -1,7 +1,3 @@
-import sys
-import os
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
-
 from batch_channel import slugify
 
 
@@ -23,4 +19,15 @@ def test_slugify_leading_trailing_hyphens():
 
 def test_slugify_truncates_long_titles():
     long_title = "a" * 80
-    assert len(slugify(long_title)) <= 60
+    result = slugify(long_title)
+    assert len(result) <= 60
+    assert not result.endswith("-")
+
+
+def test_slugify_no_trailing_hyphen_after_truncation():
+    # 59 'a' chars + "-extra" → truncation should not leave a trailing hyphen
+    title = "a" * 59 + "-extra-words"
+    result = slugify(title)
+    assert not result.startswith("-")
+    assert not result.endswith("-")
+    assert len(result) <= 60
