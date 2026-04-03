@@ -119,3 +119,50 @@ def fetch_channel_videos(channel_url: str) -> list:
             except json.JSONDecodeError:
                 continue
     return videos
+
+
+def download_audio(url: str, output_path: str) -> None:
+    """Download audio from a YouTube URL. Raises RuntimeError on failure."""
+    cmd = [
+        "yt-dlp",
+        "--extract-audio",
+        "--audio-format", "mp3",
+        "--audio-quality", "0",
+        "--no-playlist",
+        "--output", output_path,
+        url,
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError(f"yt-dlp failed: {result.stderr.strip()}")
+
+
+def transcribe_audio(audio_path: str, model_name: str, timestamps: bool) -> str:
+    """Thin wrapper around transcribe() from transcribe.py for easy mocking in tests."""
+    from transcribe import transcribe
+    return transcribe(audio_path, model_name, timestamps=timestamps)
+
+
+def process_video(video: dict, output_dir: Path, note_path: Path, model: str, timestamps: bool) -> bool:
+    """Download, transcribe, and save one video. Returns False if skipped."""
+    title = video["title"]
+    upload_date = video.get("upload_date", "00000000")
+    url = video.get("webpage_url") or f"https://www.youtube.com/watch?v={video['id']}"
+
+    filename = format_video_filename(upload_date, title)
+    txt_path = output_dir / filename
+
+    if txt_path.exists():
+        print(f"  ⏭  Skipping (already done): {title}")
+        return False
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        audio_path = os.path.join(tmpdir, "audio.mp3")
+        download_audio(url, audio_path)
+        transcript = transcribe_audio(audio_path, model, timestamps)
+
+    txt_path.write_text(transcript, encoding="utf-8")
+
+    date_str = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:]}"
+    append_to_index(note_path, title, filename, date_str)
+    return True

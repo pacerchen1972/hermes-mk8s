@@ -8,6 +8,7 @@ from batch_channel import (
     find_or_create_project_note,
     append_to_index,
     fetch_channel_videos,
+    process_video,
 )
 
 
@@ -156,3 +157,48 @@ def test_fetch_channel_videos_handles_multiple():
 
     assert len(result) == 2
     assert result[1]["title"] == "Second"
+
+
+def test_process_video_skips_existing(tmp_path):
+    output_dir = tmp_path / "vongoval"
+    output_dir.mkdir()
+    note_path = tmp_path / "index.md"
+    note_path.write_text("# Test\n\n## Videos\n\n", encoding="utf-8")
+
+    video = {
+        "title": "Test Video",
+        "upload_date": "20240315",
+        "webpage_url": "https://youtube.com/watch?v=abc",
+        "duration": 120,
+    }
+    existing_file = output_dir / "YT-2024-03-15-test-video.txt"
+    existing_file.write_text("already transcribed", encoding="utf-8")
+
+    result = process_video(video, output_dir, note_path, "medium", True)
+    assert result is False  # skipped
+
+
+def test_process_video_writes_transcript(tmp_path):
+    output_dir = tmp_path / "vongoval"
+    output_dir.mkdir()
+    note_path = tmp_path / "index.md"
+    note_path.write_text("# Test\n\n## Videos\n\n", encoding="utf-8")
+
+    video = {
+        "title": "Test Video",
+        "upload_date": "20240315",
+        "webpage_url": "https://youtube.com/watch?v=abc",
+        "duration": 120,
+    }
+
+    with patch("batch_channel.download_audio"), \
+         patch("batch_channel.transcribe_audio", return_value="Hello world"):
+        result = process_video(video, output_dir, note_path, "medium", True)
+
+    assert result is True
+    txt_file = output_dir / "YT-2024-03-15-test-video.txt"
+    assert txt_file.exists()
+    assert txt_file.read_text() == "Hello world"
+
+    index_content = note_path.read_text()
+    assert "Test Video" in index_content
