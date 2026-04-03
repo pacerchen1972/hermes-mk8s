@@ -1,9 +1,13 @@
+import json
+from unittest.mock import patch, MagicMock
+
 from batch_channel import (
     slugify,
     format_video_filename,
     get_next_prj_number,
     find_or_create_project_note,
     append_to_index,
+    fetch_channel_videos,
 )
 
 
@@ -116,3 +120,39 @@ def test_append_to_index_multiple_entries(tmp_path):
     content = note.read_text()
     assert "Video One" in content
     assert "Video Two" in content
+
+
+def test_fetch_channel_videos_parses_output():
+    mock_video = {
+        "id": "abc123",
+        "title": "Test Video",
+        "upload_date": "20240315",
+        "duration": 120,
+        "webpage_url": "https://www.youtube.com/watch?v=abc123",
+    }
+    mock_result = MagicMock()
+    mock_result.returncode = 0
+    mock_result.stdout = json.dumps(mock_video) + "\n"
+
+    with patch("subprocess.run", return_value=mock_result):
+        videos = fetch_channel_videos("https://youtube.com/@test/videos")
+
+    assert len(videos) == 1
+    assert videos[0]["title"] == "Test Video"
+    assert videos[0]["upload_date"] == "20240315"
+
+
+def test_fetch_channel_videos_handles_multiple():
+    videos_data = [
+        {"id": "v1", "title": "First", "upload_date": "20240101", "duration": 60, "webpage_url": "https://youtube.com/watch?v=v1"},
+        {"id": "v2", "title": "Second", "upload_date": "20240201", "duration": 90, "webpage_url": "https://youtube.com/watch?v=v2"},
+    ]
+    mock_result = MagicMock()
+    mock_result.returncode = 0
+    mock_result.stdout = "\n".join(json.dumps(v) for v in videos_data) + "\n"
+
+    with patch("subprocess.run", return_value=mock_result):
+        result = fetch_channel_videos("https://youtube.com/@test/videos")
+
+    assert len(result) == 2
+    assert result[1]["title"] == "Second"

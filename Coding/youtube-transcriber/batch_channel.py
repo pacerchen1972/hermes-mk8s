@@ -95,3 +95,27 @@ def append_to_index(note_path: Path, title: str, filename: str, date_str: str) -
         content += "\n"
     content += link + "\n"
     note_path.write_text(content, encoding="utf-8")
+
+
+def fetch_channel_videos(channel_url: str) -> list:
+    """Return list of video dicts from a YouTube channel using yt-dlp."""
+    cmd = [
+        "yt-dlp",
+        "--flat-playlist",
+        "--dump-json",
+        "--no-warnings",
+        channel_url,
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print("yt-dlp error:\n" + result.stderr, file=sys.stderr)
+        sys.exit(1)
+
+    videos = []
+    for line in result.stdout.strip().splitlines():
+        if line.strip():
+            try:
+                videos.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+    return videos
