@@ -1,4 +1,9 @@
-from batch_channel import slugify, format_video_filename, get_next_prj_number
+from batch_channel import (
+    slugify,
+    format_video_filename,
+    get_next_prj_number,
+    find_or_create_project_note,
+)
 
 
 def test_get_next_prj_number_empty_dir(tmp_path):
@@ -57,3 +62,27 @@ def test_format_video_filename_basic():
 def test_format_video_filename_special_chars():
     result = format_video_filename("20231201", "AI Agents & MCPs: A Guide!")
     assert result == "YT-2023-12-01-ai-agents-mcps-a-guide.txt"
+
+
+def test_creates_project_note_when_missing(tmp_path):
+    note_path = find_or_create_project_note(tmp_path)
+    assert note_path.exists()
+    content = note_path.read_text()
+    assert "vongoval Research" in content
+    assert "## Videos" in content
+    assert "PRJ-PERSONAL-001" in note_path.name
+
+
+def test_finds_existing_project_note(tmp_path):
+    projects_dir = tmp_path / "200 - Projects" / "Personal"
+    projects_dir.mkdir(parents=True)
+    existing = projects_dir / "PRJ-PERSONAL-004-vongoval-research.md"
+    existing.write_text("# existing note", encoding="utf-8")
+
+    note_path = find_or_create_project_note(tmp_path)
+    assert note_path == existing
+
+
+def test_creates_vongoval_subfolder(tmp_path):
+    find_or_create_project_note(tmp_path)
+    assert (tmp_path / "200 - Projects" / "Personal" / "vongoval").is_dir()

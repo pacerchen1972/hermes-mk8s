@@ -48,3 +48,38 @@ def get_next_prj_number(projects_dir: Path) -> int:
         if m:
             numbers.append(int(m.group(1)))
     return max(numbers) + 1 if numbers else 1
+
+
+def find_or_create_project_note(vault_dir: Path) -> Path:
+    """Return path to the vongoval project index note, creating it if needed."""
+    projects_dir = vault_dir / "200 - Projects" / "Personal"
+    projects_dir.mkdir(parents=True, exist_ok=True)
+
+    # Create transcripts subfolder
+    (projects_dir / "vongoval").mkdir(exist_ok=True)
+
+    # Return existing note if found
+    existing = list(projects_dir.glob("*vongoval-research.md"))
+    if existing:
+        return existing[0]
+
+    prj_num = get_next_prj_number(projects_dir)
+    note_path = projects_dir / f"PRJ-PERSONAL-{prj_num:03d}-vongoval-research.md"
+    today = datetime.date.today().isoformat()
+
+    content = f"""---
+title: "vongoval Research"
+type: project
+tags: [youtube, research, vongoval]
+updated: {today}
+---
+
+# vongoval Research
+
+YouTube channel: https://www.youtube.com/@vongoval/videos
+
+## Videos
+
+"""
+    note_path.write_text(content, encoding="utf-8")
+    return note_path
