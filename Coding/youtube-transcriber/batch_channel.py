@@ -11,6 +11,7 @@ Usage:
 """
 
 import argparse
+import datetime
 import json
 import os
 import re
@@ -18,7 +19,6 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
-import datetime
 
 # Prioritize Homebrew over conda
 os.environ["PATH"] = "/opt/homebrew/bin:" + os.environ.get("PATH", "")
@@ -38,3 +38,13 @@ def format_video_filename(upload_date: str, title: str) -> str:
     """Return filename like YT-YYYY-MM-DD-slug.txt from YYYYMMDD date and title."""
     date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:]}"
     return f"YT-{date}-{slugify(title)}.txt"
+
+
+def get_next_prj_number(projects_dir: Path) -> int:
+    """Scan PRJ-PERSONAL-NNN-* files and return the next available number."""
+    numbers = []
+    for f in projects_dir.glob("PRJ-PERSONAL-*-*.md"):
+        m = re.match(r"PRJ-PERSONAL-(\d+)-", f.name)
+        if m:
+            numbers.append(int(m.group(1)))
+    return max(numbers) + 1 if numbers else 1

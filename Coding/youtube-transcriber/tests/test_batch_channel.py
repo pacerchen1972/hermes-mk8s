@@ -1,4 +1,20 @@
-from batch_channel import slugify, format_video_filename
+from batch_channel import slugify, format_video_filename, get_next_prj_number
+
+
+def test_get_next_prj_number_empty_dir(tmp_path):
+    assert get_next_prj_number(tmp_path) == 1
+
+
+def test_get_next_prj_number_with_existing(tmp_path):
+    (tmp_path / "PRJ-PERSONAL-003-foo.md").touch()
+    (tmp_path / "PRJ-PERSONAL-007-bar.md").touch()
+    assert get_next_prj_number(tmp_path) == 8
+
+
+def test_get_next_prj_number_ignores_non_matching(tmp_path):
+    (tmp_path / "some-other-file.md").touch()
+    (tmp_path / "PRJ-PERSONAL-002-task.md").touch()
+    assert get_next_prj_number(tmp_path) == 3
 
 
 def test_slugify_basic():
