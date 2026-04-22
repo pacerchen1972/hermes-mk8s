@@ -1,0 +1,25 @@
+---
+# ConfigMap: Non-sensitive Hermes configuration
+# Sensitive config (API keys, tokens) goes in sealed-secret.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hermes-config
+  namespace: hermes
+  labels:
+    app: hermes
+data:
+  # Data directory (must match VOLUME mount in StatefulSet)
+  HERMES_DATA_DIR: "/opt/data"
+
+  # Gateway mode: runs as API server on this port
+  HERMES_PORT: "8642"
+
+  # Logging level: debug, info, warning, error
+  HERMES_LOG_LEVEL: "info"
+
+  # Optional: Enable persistent memory (skills, user models, session history)
+  HERMES_ENABLE_PERSISTENCE: "true"
+
+  # Optional: Maximum concurrent tasks
+  HERMES_MAX_TASKS: "10"

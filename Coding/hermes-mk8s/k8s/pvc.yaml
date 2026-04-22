@@ -1,0 +1,17 @@
+---
+# Persistent Volume Claim: 100 Gi SSD Premium storage for Hermes state
+# Includes memories, skills, sessions, log files, and model conversation history
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: hermes-data
+  namespace: hermes
+  labels:
+    app: hermes
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 100Gi
+  storageClassName: ionos-enterprise-ssd

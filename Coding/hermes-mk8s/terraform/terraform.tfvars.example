@@ -1,0 +1,27 @@
+# Copy this file to terraform.tfvars and adjust as needed.
+# terraform.tfvars is gitignored — never commit it.
+
+project_name = "hermes"
+
+# IONOS location — gb/bhx = Worcester, UK
+location = "gb/bhx"
+
+# Kubernetes version. Check available versions with:
+#   ionosctl k8s version list
+k8s_version = "1.31.2"
+
+# Node pool: 3 × (2 vCPU, 16 GB RAM, 50 GB SSD root disk)
+node_count          = 3
+node_cores          = 2
+node_ram_mb         = 16384
+node_root_disk_gb   = 50
+node_root_disk_type = "SSD"
+
+# CPU family. For gb/bhx (Worcester), INTEL_SKYLAKE or INTEL_ICELAKE are typical.
+# Check availability in DCD before applying.
+cpu_family = "INTEL_SKYLAKE"
+
+# Maintenance windows (UTC). Cluster and node pool must have different times.
+maintenance_day       = "Sunday"
+maintenance_time      = "03:00:00Z"
+node_maintenance_time = "04:00:00Z"

@@ -1,0 +1,119 @@
+---
+# StatefulSet: Hermes Agent AI running in gateway mode
+#
+# StatefulSet (not Deployment) is used for:
+#   1. Stable pod hostname (hermes-agent-0) for persistent identity
+#   2. Persistent storage binding (PVC is tied to pod ordinal)
+#   3. Graceful ordered pod management
+#
+# Why 1 replica:
+#   Gateway mode uses long-polling for Telegram/messaging integrations.
+#   Multiple replicas would require shared storage backend (Redis, etc.)
+#   which adds complexity. Single replica is the standard pattern for
+#   self-contained agents.
+
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: hermes-agent
+  namespace: hermes
+  labels:
+    app: hermes
+spec:
+  serviceName: hermes-agent
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: hermes
+
+  template:
+    metadata:
+      labels:
+        app: hermes
+      annotations:
+        description: "Hermes Agent autonomous AI running in IONOS MK8s"
+    spec:
+      # Pull image from IONOS Container Registry
+      imagePullSecrets:
+        - name: ionos-pcr-secret
+
+      # Security context: run as non-root user
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1001
+        fsGroup: 1001
+
+      containers:
+        - name: hermes-agent
+          image: "{{ REGISTRY_ENDPOINT }}/hermes/hermes-agent:latest"
+          imagePullPolicy: Always
+
+          # Gateway port
+          ports:
+            - name: gateway
+              containerPort: 8642
+              protocol: TCP
+
+          # Environment variables from ConfigMap and Secret
+          envFrom:
+            - configMapRef:
+                name: hermes-config
+            - secretRef:
+                name: hermes-secrets
+
+          # Volume mount for persistent data
+          volumeMounts:
+            - name: data
+              mountPath: /opt/data
+
+          # Resource requests and limits
+          resources:
+            requests:
+              cpu: 500m
+              memory: 1Gi
+            limits:
+              cpu: 2000m
+              memory: 4Gi
+
+          # Liveness probe: ensure pod is alive
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: gateway
+            initialDelaySeconds: 30
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 3
+
+          # Readiness probe: ensure pod is ready to accept traffic
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: gateway
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            timeoutSeconds: 3
+            failureThreshold: 2
+
+          # Security context for container
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: false
+            runAsNonRoot: true
+            runAsUser: 1001
+            capabilities:
+              drop:
+                - ALL
+
+  # Persistent volume for Hermes state
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes:
+          - ReadWriteOnce
+        resources:
+          requests:
+            storage: 100Gi
+        storageClassName: ionos-enterprise-ssd

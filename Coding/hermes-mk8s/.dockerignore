@@ -1,0 +1,51 @@
+# Build context exclusions for Docker build
+# These files are not needed in the final image
+
+# Git
+.git/
+.gitignore
+
+# Terraform
+terraform/
+*.tfvars
+*.tfvars.json
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+k8s/
+
+# Documentation
+docs/
+README.md
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# kubeconfig files
+*.kubeconfig
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Other
+.DS_Store
+Thumbs.db

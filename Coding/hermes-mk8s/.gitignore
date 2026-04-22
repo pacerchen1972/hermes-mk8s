@@ -1,0 +1,28 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Kubernetes secrets — never commit raw secrets
+k8s/secret.yaml
+k8s/*.secret.yaml
+
+# Kubeconfig
+*.kubeconfig
+kubeconfig.yaml
+
+# Local env
+.env
+.env.local
+
+# macOS
+.DS_Store

@@ -1,0 +1,36 @@
+---
+# Kustomization: Bundles all Hermes K8s resources
+# Apply with: kubectl apply -k k8s/
+
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: hermes
+
+# Resources to include
+resources:
+  - namespace.yaml
+  - pvc.yaml
+  - configmap.yaml
+  - secret.yaml  # Create by copying secret.yaml.example and filling in values
+  - statefulset.yaml
+
+# Common labels applied to all resources
+commonLabels:
+  app: hermes
+  managed-by: kustomize
+
+# Common annotations applied to all resources
+commonAnnotations:
+  description: "Hermes Agent AI on IONOS Managed Kubernetes"
+
+# Images: Replace placeholder in StatefulSet
+images:
+  - name: hermes-agent
+    newName: "{{ REGISTRY_ENDPOINT }}/hermes/hermes-agent"
+    newTag: "latest"
+
+# Replicas (override if needed)
+replicas:
+  - name: hermes-agent
+    count: 1
