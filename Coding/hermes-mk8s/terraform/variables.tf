@@ -13,7 +13,13 @@ variable "location" {
 variable "k8s_version" {
   description = "Kubernetes version for the MK8s cluster. Check supported versions with: ionosctl k8s version list"
   type        = string
-  default     = "1.31.2"
+  default     = "1.33.3"
+}
+
+variable "registry_location" {
+  description = "IONOS location for the Private Container Registry. PCR has a different set of supported locations than MK8s. Use de/fra for highest availability."
+  type        = string
+  default     = "de/fra"
 }
 
 variable "node_count" {
@@ -47,9 +53,9 @@ variable "node_root_disk_type" {
 }
 
 variable "cpu_family" {
-  description = "CPU family for node pool. For gb/bhx (Worcester), INTEL_SKYLAKE or INTEL_ICELAKE are typical. Leave empty to let IONOS pick a default."
+  description = "CPU family for node pool. For gb/bhx (Worcester), supported families are INTEL_ICELAKE and AMD_EPYC."
   type        = string
-  default     = "INTEL_SKYLAKE"
+  default     = "INTEL_ICELAKE"
 }
 
 variable "maintenance_day" {

@@ -61,7 +61,7 @@ cp terraform.tfvars.example terraform.tfvars
 The default values point to **Worcester (`gb/bhx`)** and provision:
 - 3 worker nodes (2 vCPU, 16 GB RAM each)
 - 50 GB SSD root disk per node
-- Kubernetes 1.31.2
+- Kubernetes 1.33.3
 
 You can edit `terraform.tfvars` to customize any values:
 

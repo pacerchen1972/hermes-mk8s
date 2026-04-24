@@ -54,7 +54,7 @@ resource "ionoscloud_k8s_node_pool" "this" {
 # Private Container Registry — stores the Hermes Agent image for K8s nodes to pull.
 resource "ionoscloud_container_registry" "this" {
   name     = "${local.name}-registry"
-  location = var.location
+  location = var.registry_location
 
   garbage_collection_schedule {
     days = ["Saturday"]
