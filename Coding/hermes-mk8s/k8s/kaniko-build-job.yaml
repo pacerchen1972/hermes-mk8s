@@ -1,0 +1,126 @@
+---
+# ConfigMap containing the Dockerfile content.
+# Since Hermes Agent is installed from PyPI (no local source files),
+# the entire build context is just this Dockerfile.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hermes-dockerfile
+  namespace: hermes
+data:
+  Dockerfile: |
+    # Multi-stage build for Hermes Agent AI on IONOS MK8s
+    # Stage 1: Builder — clones repo and installs dependencies
+    FROM python:3.12-slim-bookworm AS builder
+
+    RUN apt-get update && apt-get install -y --no-install-recommends git && rm -rf /var/lib/apt/lists/*
+    RUN pip install --no-cache-dir uv
+    WORKDIR /build
+    RUN git clone --depth=1 https://github.com/NousResearch/hermes-agent.git .
+    RUN uv pip install --system -e ".[all]"
+
+    # Stage 2: Runtime — minimal production image
+    FROM python:3.12-slim-bookworm
+
+    RUN useradd -u 1001 -m hermes
+    COPY --from=builder /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
+    COPY --from=builder /usr/local/bin/hermes /usr/local/bin/hermes
+
+    WORKDIR /opt/data
+    RUN mkdir -p /opt/data && chown -R hermes:hermes /opt/data
+
+    VOLUME /opt/data
+    EXPOSE 8642
+    USER hermes
+    CMD ["hermes", "gateway", "--port", "8642"]
+---
+# Kaniko Job — builds the Hermes Agent image inside the cluster
+# and pushes directly to IONOS Private Container Registry.
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: hermes-build
+  namespace: hermes
+spec:
+  ttlSecondsAfterFinished: 7200
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      initContainers:
+        - name: setup-workspace
+          image: busybox:1.36
+          command:
+            - sh
+            - -c
+            - |
+              # Copy Dockerfile from ConfigMap into Kaniko workspace
+              cp /dockerfile-src/Dockerfile /workspace/Dockerfile
+              echo "Workspace contents:"
+              ls -la /workspace/
+              # Write docker auth config for IONOS PCR
+              # auth field must be base64-encoded "username:password"
+              mkdir -p /kaniko/.docker
+              AUTH=$(printf '%s:%s' "$IONOS_USERNAME" "$IONOS_API_TOKEN" | base64 | tr -d '\n')
+              printf '{"auths":{"%s":{"auth":"%s"}}}' "$REGISTRY_ENDPOINT" "$AUTH" \
+                > /kaniko/.docker/config.json
+              echo "Registry auth configured for: $REGISTRY_ENDPOINT"
+          env:
+            - name: REGISTRY_ENDPOINT
+              valueFrom:
+                secretKeyRef:
+                  name: kaniko-build-secret
+                  key: registry_endpoint
+            - name: IONOS_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: kaniko-build-secret
+                  key: ionos_username
+            - name: IONOS_API_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: kaniko-build-secret
+                  key: ionos_api_token
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+            - name: docker-config
+              mountPath: /kaniko/.docker
+            - name: dockerfile-src
+              mountPath: /dockerfile-src
+
+      containers:
+        - name: kaniko
+          image: gcr.io/kaniko-project/executor:latest
+          args:
+            - "--context=dir:///workspace"
+            - "--dockerfile=/workspace/Dockerfile"
+            - "--destination=$(REGISTRY_ENDPOINT)/hermes/hermes-agent:latest"
+            - "--verbosity=info"
+          env:
+            - name: REGISTRY_ENDPOINT
+              valueFrom:
+                secretKeyRef:
+                  name: kaniko-build-secret
+                  key: registry_endpoint
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+            - name: docker-config
+              mountPath: /kaniko/.docker
+          resources:
+            requests:
+              cpu: "1000m"
+              memory: "2Gi"
+            limits:
+              cpu: "2000m"
+              memory: "4Gi"
+
+      volumes:
+        - name: workspace
+          emptyDir: {}
+        - name: docker-config
+          emptyDir: {}
+        - name: dockerfile-src
+          configMap:
+            name: hermes-dockerfile

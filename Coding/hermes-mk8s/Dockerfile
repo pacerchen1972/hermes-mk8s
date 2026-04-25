@@ -1,15 +1,18 @@
 # Multi-stage build for Hermes Agent AI on IONOS MK8s
-# Stage 1: Builder — installs dependencies and Hermes Agent package
+# Stage 1: Builder — clones repo and installs dependencies
 FROM python:3.12-slim-bookworm AS builder
 
-# Install uv for faster package installation
+# Install git and uv
+RUN apt-get update && apt-get install -y --no-install-recommends git && rm -rf /var/lib/apt/lists/*
 RUN pip install --no-cache-dir uv
 
 WORKDIR /build
 
-# Install hermes-agent with base dependencies (no optional extras by default)
-# To add messaging integrations, extend with: hermes-agent[telegram] or [discord], etc.
-RUN uv pip install --system "hermes-agent"
+# Clone Hermes Agent from source (not on PyPI)
+RUN git clone --depth=1 https://github.com/NousResearch/hermes-agent.git .
+
+# Install hermes-agent and its dependencies
+RUN uv pip install --system -e ".[all]"
 
 # === Stage 2: Runtime — minimal production image ===
 FROM python:3.12-slim-bookworm
@@ -17,7 +20,7 @@ FROM python:3.12-slim-bookworm
 # Create non-root user for security (uid 1001)
 RUN useradd -u 1001 -m hermes
 
-# Copy Python packages from builder stage
+# Copy installed Python packages from builder stage
 COPY --from=builder /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
 COPY --from=builder /usr/local/bin/hermes /usr/local/bin/hermes
 
