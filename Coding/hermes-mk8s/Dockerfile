@@ -11,8 +11,8 @@ WORKDIR /build
 # Clone Hermes Agent from source (not on PyPI)
 RUN git clone --depth=1 https://github.com/NousResearch/hermes-agent.git .
 
-# Install hermes-agent and its dependencies
-RUN uv pip install --system -e ".[all]"
+# Install hermes-agent and its dependencies (non-editable so packages land in site-packages)
+RUN uv pip install --system ".[all]"
 
 # === Stage 2: Runtime — minimal production image ===
 FROM python:3.12-slim-bookworm
@@ -38,4 +38,4 @@ EXPOSE 8642
 USER hermes
 
 # Default command: run Hermes in gateway mode
-CMD ["hermes", "gateway", "--port", "8642"]
+CMD ["hermes", "dashboard", "--port", "8642", "--host", "0.0.0.0", "--no-open", "--insecure"]

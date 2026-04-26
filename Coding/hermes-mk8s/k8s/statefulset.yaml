@@ -46,7 +46,7 @@ spec:
 
       containers:
         - name: hermes-agent
-          image: "{{ REGISTRY_ENDPOINT }}/hermes/hermes-agent:latest"
+          image: "hermes-registry.cr.de-fra.ionos.com/hermes/hermes-agent:latest"
           imagePullPolicy: Always
 
           # Gateway port
@@ -79,7 +79,7 @@ spec:
           # Liveness probe: ensure pod is alive
           livenessProbe:
             httpGet:
-              path: /health
+              path: /api/status
               port: gateway
             initialDelaySeconds: 30
             periodSeconds: 10
@@ -89,7 +89,7 @@ spec:
           # Readiness probe: ensure pod is ready to accept traffic
           readinessProbe:
             httpGet:
-              path: /health
+              path: /api/status
               port: gateway
             initialDelaySeconds: 10
             periodSeconds: 5
