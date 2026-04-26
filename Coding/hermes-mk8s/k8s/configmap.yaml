@@ -12,6 +12,9 @@ data:
   # Data directory (must match VOLUME mount in StatefulSet)
   HERMES_DATA_DIR: "/opt/data"
 
+  # Hermes home directory on the persistent volume (config, sessions, memory)
+  HERMES_HOME: "/opt/data"
+
   # Gateway mode: runs as API server on this port
   HERMES_PORT: "8642"
 
