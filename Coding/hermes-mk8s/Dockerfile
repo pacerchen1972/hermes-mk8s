@@ -1,5 +1,14 @@
 # Multi-stage build for Hermes Agent AI on IONOS MK8s
-# Stage 1: Builder — clones repo and installs dependencies
+# Stage 1: Node builder — compiles the web dashboard frontend
+FROM node:20-slim AS web-builder
+
+WORKDIR /build
+RUN apt-get update && apt-get install -y --no-install-recommends git ca-certificates && rm -rf /var/lib/apt/lists/*
+RUN git clone --depth=1 https://github.com/NousResearch/hermes-agent.git .
+WORKDIR /build/web
+RUN npm ci && npm run build
+
+# Stage 2: Python builder — installs Python packages
 FROM python:3.12-slim-bookworm AS builder
 
 # Install git and uv
@@ -13,6 +22,9 @@ RUN git clone --depth=1 https://github.com/NousResearch/hermes-agent.git .
 
 # Install hermes-agent and its dependencies (non-editable so packages land in site-packages)
 RUN uv pip install --system ".[all]"
+
+# Copy the built web frontend into site-packages where hermes expects it
+COPY --from=web-builder /build/hermes_cli/web_dist /usr/local/lib/python3.12/site-packages/hermes_cli/web_dist
 
 # === Stage 2: Runtime — minimal production image ===
 FROM python:3.12-slim-bookworm
